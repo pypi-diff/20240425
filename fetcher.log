@@ -2414,3 +2414,63 @@
 [2024-04-25 01:36:43] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.8.tar.gz]
 [2024-04-25 01:36:43] INFO root fetch - main [MainThread]: End processing [algophon]: success
 [2024-04-25 01:36:43] INFO root fetch - main [MainThread]: Store serial: [22921890]
+[2024-04-25 01:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921890]
+[2024-04-25 01:38:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ciscoisesdk
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: primemetric
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MediaCurator
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyrl
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: navigator-auth
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py3-wget
+[2024-04-25 01:38:51] INFO root fetch - processPackages [mimllearning]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 01:38:51] INFO root fetch - processPackages [primemetric]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-25 01:38:51] INFO root fetch - processPackages [MediaCurator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 01:38:51] WARNING root fetch - processPackages [py3-wget]: Skipping, unable to determine old version
+[2024-04-25 01:38:51] INFO root fetch - main [MainThread]: End processing [py3-wget] error
+[2024-04-25 01:38:51] INFO root fetch - processPackages [navigator-auth]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 01:38:51] INFO root fetch - processPackages [tinyrl]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ciscoisesdk]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-25 01:38:51] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/80/94/27e1a08e80506dc8c8891ca97c832ba618b93d7629443274b60c309cd7dd/mimllearning-0.1.8.tar.gz
+[2024-04-25 01:38:51] INFO root fetch - processPackages [MediaCurator]: Downloading https://files.pythonhosted.org/packages/7d/a9/ac125a97933e2a15148ae0c1159ed2bc20d51a15bab1cf860ac2e750d03f/MediaCurator-0.0.8.tar.gz
+[2024-04-25 01:38:51] INFO root fetch - processPackages [primemetric]: Downloading https://files.pythonhosted.org/packages/1c/d6/c9fc7e1aa86ea45fc72b0bf01524d4cddb4bfd81911397e06dd109951a67/primemetric-3.0.0.tar.gz
+[2024-04-25 01:38:51] INFO root fetch - processPackages [ciscoisesdk]: Downloading https://files.pythonhosted.org/packages/c5/6b/1ab0b3252d9b4b23913b5c4053f9e0d02503ee63f7c5f3fdb283e362a1bb/ciscoisesdk-2.1.2.tar.gz
+[2024-04-25 01:38:51] INFO root fetch - processPackages [tinyrl]: Downloading https://files.pythonhosted.org/packages/c6/b8/64a6c4b30a5859693edc9b095d85b321baae3ed63cf9e8f8ce0fbb13caed/tinyrl-0.3.1.tar.gz
+[2024-04-25 01:38:51] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/e7/a9/e255dc00676a25ea2f603fbd942e9534e0d486c50aa15a39317eb53b60ae/navigator_auth-0.9.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 01:38:51] INFO root fetch - processPackages [MediaCurator]: Downloading https://files.pythonhosted.org/packages/8f/ae/3e64649ff35651fd3b291d6c33b79c5d0e5af07f4ab0d149378d98964e39/MediaCurator-0.0.9.tar.gz
+[2024-04-25 01:38:52] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/33/b6/3b5e20c13a16703b303448256f6019c82837e6a1e82d3318804eda66bfde/mimllearning-0.1.9.tar.gz
+[2024-04-25 01:38:52] INFO root fetch - processPackages [MediaCurator]: executing diffoscope
+[2024-04-25 01:38:52] INFO root fetch - processPackages [MediaCurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MediaCurator-0.0.8.tar.gz tmp/MediaCurator-0.0.9.tar.gz --markdown 20240425/M/MediaCurator/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 01:38:52] INFO root fetch - processPackages [primemetric]: Downloading https://files.pythonhosted.org/packages/bb/d3/01a00a2f10d06c7ef74229db3aaa67c9f0c4e7a103ec5f52b72684925e21/primemetric-3.1.0.tar.gz
+[2024-04-25 01:38:52] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-25 01:38:52] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.1.8.tar.gz tmp/mimllearning-0.1.9.tar.gz --markdown 20240425/m/mimllearning/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 01:38:52] INFO root fetch - processPackages [tinyrl]: Downloading https://files.pythonhosted.org/packages/2c/e0/94ab0cff9583ae7b36ae600592e3f3f4e1cdede6ebf81977d96d72123aa4/tinyrl-0.4.0.tar.gz
+[2024-04-25 01:38:52] INFO root fetch - processPackages [primemetric]: executing diffoscope
+[2024-04-25 01:38:52] INFO root fetch - processPackages [primemetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primemetric-3.0.0.tar.gz tmp/primemetric-3.1.0.tar.gz --markdown 20240425/p/primemetric/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-04-25 01:38:52] INFO root fetch - processPackages [tinyrl]: executing diffoscope
+[2024-04-25 01:38:52] INFO root fetch - processPackages [tinyrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyrl-0.3.1.tar.gz tmp/tinyrl-0.4.0.tar.gz --markdown 20240425/t/tinyrl/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-25 01:38:52] INFO root fetch - processPackages [ciscoisesdk]: Downloading https://files.pythonhosted.org/packages/5a/48/a9e5b5c455698229834fb654f178bcc7fbb8412133ba32548c3d0e8f2b9e/ciscoisesdk-2.2.0.tar.gz
+[2024-04-25 01:38:52] INFO root fetch - processPackages [navigator-auth]: Downloading https://files.pythonhosted.org/packages/95/19/8e6854890b57f7f6efd1e09f3188c62d4a8a74e12de1bfb6a98b5c84873f/navigator_auth-0.9.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 01:38:52] INFO root fetch - processPackages [ciscoisesdk]: executing diffoscope
+[2024-04-25 01:38:52] INFO root fetch - processPackages [ciscoisesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscoisesdk-2.1.2.tar.gz tmp/ciscoisesdk-2.2.0.tar.gz --markdown 20240425/c/ciscoisesdk/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-04-25 01:38:52] INFO root fetch - processPackages [MediaCurator]: Remove: archive file [/home/abi/fetcher/tmp/MediaCurator-0.0.8.tar.gz]
+[2024-04-25 01:38:52] INFO root fetch - processPackages [MediaCurator]: Remove: archive file [/home/abi/fetcher/tmp/MediaCurator-0.0.9.tar.gz]
+[2024-04-25 01:38:52] INFO root fetch - main [MainThread]: End processing [MediaCurator]: success
+[2024-04-25 01:38:52] INFO root fetch - processPackages [navigator-auth]: executing diffoscope
+[2024-04-25 01:38:52] INFO root fetch - processPackages [navigator-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_auth-0.9.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_auth-0.9.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240425/n/navigator-auth/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 01:38:52] INFO root fetch - processPackages [primemetric]: Remove: archive file [/home/abi/fetcher/tmp/primemetric-3.0.0.tar.gz]
+[2024-04-25 01:38:52] INFO root fetch - processPackages [primemetric]: Remove: archive file [/home/abi/fetcher/tmp/primemetric-3.1.0.tar.gz]
+[2024-04-25 01:38:52] INFO root fetch - main [MainThread]: End processing [primemetric]: success
+[2024-04-25 01:38:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.8.tar.gz]
+[2024-04-25 01:38:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.9.tar.gz]
+[2024-04-25 01:38:53] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-25 01:38:53] INFO root fetch - processPackages [navigator-auth]: Remove: archive file [/home/abi/fetcher/tmp/navigator_auth-0.9.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 01:38:53] INFO root fetch - processPackages [navigator-auth]: Remove: archive file [/home/abi/fetcher/tmp/navigator_auth-0.9.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 01:38:53] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
+[2024-04-25 01:38:53] INFO root fetch - processPackages [tinyrl]: Remove: archive file [/home/abi/fetcher/tmp/tinyrl-0.3.1.tar.gz]
+[2024-04-25 01:38:53] INFO root fetch - processPackages [tinyrl]: Remove: archive file [/home/abi/fetcher/tmp/tinyrl-0.4.0.tar.gz]
+[2024-04-25 01:38:53] INFO root fetch - main [MainThread]: End processing [tinyrl]: success
+[2024-04-25 01:39:00] INFO root fetch - processPackages [ciscoisesdk]: Remove: archive file [/home/abi/fetcher/tmp/ciscoisesdk-2.1.2.tar.gz]
+[2024-04-25 01:39:00] INFO root fetch - processPackages [ciscoisesdk]: Remove: archive file [/home/abi/fetcher/tmp/ciscoisesdk-2.2.0.tar.gz]
+[2024-04-25 01:39:00] INFO root fetch - main [MainThread]: End processing [ciscoisesdk]: success
+[2024-04-25 01:39:00] INFO root fetch - main [MainThread]: Store serial: [22921912]
