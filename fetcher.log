@@ -2474,3 +2474,45 @@
 [2024-04-25 01:39:00] INFO root fetch - processPackages [ciscoisesdk]: Remove: archive file [/home/abi/fetcher/tmp/ciscoisesdk-2.2.0.tar.gz]
 [2024-04-25 01:39:00] INFO root fetch - main [MainThread]: End processing [ciscoisesdk]: success
 [2024-04-25 01:39:00] INFO root fetch - main [MainThread]: Store serial: [22921912]
+[2024-04-25 01:41:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921912]
+[2024-04-25 01:41:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 01:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-streams
+[2024-04-25 01:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arshattendancelib
+[2024-04-25 01:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: step-in-line
+[2024-04-25 01:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-04-25 01:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py3-wget
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mimllearning]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 01:41:09] INFO root fetch - processPackages [step-in-line]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mo-streams]: New version: [1.605.24115] Old Version: [1.604.24115]
+[2024-04-25 01:41:09] INFO root fetch - processPackages [py3-wget]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/80/94/27e1a08e80506dc8c8891ca97c832ba618b93d7629443274b60c309cd7dd/mimllearning-0.1.8.tar.gz
+[2024-04-25 01:41:09] WARNING root fetch - processPackages [arshattendancelib]: Skipping, unable to determine old version
+[2024-04-25 01:41:09] INFO root fetch - main [MainThread]: End processing [arshattendancelib] error
+[2024-04-25 01:41:09] INFO root fetch - processPackages [step-in-line]: Downloading https://files.pythonhosted.org/packages/01/da/1affa8e3fdaa8c282cff9a3feeae387e831263d2dbcbc57ac36ad5d782ef/step_in_line-0.3.0.tar.gz
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/3c/dd/3ca334a5babf8d6a4d5ba7f22520f9dbdba3fdf1c94cb8eeb5d4cab25091/mo_streams-1.604.24115.tar.gz
+[2024-04-25 01:41:09] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/cd/e6/46281655ed9016a751f460ba3a27baddfbd2a5475cdbdd203d282eebc805/py3_wget-0.0.1.tar.gz
+[2024-04-25 01:41:09] INFO root fetch - processPackages [step-in-line]: Downloading https://files.pythonhosted.org/packages/ab/62/d22cfb270cd99d92564e6a8a3857e7171ce3bb1a9bb0fb07edc610f165a5/step_in_line-0.4.0.tar.gz
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/33/b6/3b5e20c13a16703b303448256f6019c82837e6a1e82d3318804eda66bfde/mimllearning-0.1.9.tar.gz
+[2024-04-25 01:41:09] INFO root fetch - processPackages [step-in-line]: executing diffoscope
+[2024-04-25 01:41:09] INFO root fetch - processPackages [step-in-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/step_in_line-0.3.0.tar.gz tmp/step_in_line-0.4.0.tar.gz --markdown 20240425/s/step-in-line/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/7e/4c/1aca5a71bb443784893520690419a6304bc4af2a5d556c776279da9ad08b/mo_streams-1.605.24115.tar.gz
+[2024-04-25 01:41:09] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/62/4e/f5b21c097d1cc2b5e16437f41455d4ca44ae058488310f3208544cc136dd/py3_wget-0.0.2.tar.gz
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_streams-1.604.24115.tar.gz tmp/mo_streams-1.605.24115.tar.gz --markdown 20240425/m/mo-streams/1.604.24115-1.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-25 01:41:09] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.1.8.tar.gz tmp/mimllearning-0.1.9.tar.gz --markdown 20240425/m/mimllearning/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 01:41:09] INFO root fetch - processPackages [py3-wget]: executing diffoscope
+[2024-04-25 01:41:09] INFO root fetch - processPackages [py3-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3_wget-0.0.1.tar.gz tmp/py3_wget-0.0.2.tar.gz --markdown 20240425/p/py3-wget/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 01:41:10] INFO root fetch - processPackages [step-in-line]: Remove: archive file [/home/abi/fetcher/tmp/step_in_line-0.3.0.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - processPackages [step-in-line]: Remove: archive file [/home/abi/fetcher/tmp/step_in_line-0.4.0.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - main [MainThread]: End processing [step-in-line]: success
+[2024-04-25 01:41:10] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-0.0.1.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-0.0.2.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - main [MainThread]: End processing [py3-wget]: success
+[2024-04-25 01:41:10] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.604.24115.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.605.24115.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-04-25 01:41:10] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.8.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.9.tar.gz]
+[2024-04-25 01:41:10] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-25 01:41:10] INFO root fetch - main [MainThread]: Store serial: [22921930]
