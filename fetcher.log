@@ -797,3 +797,72 @@
 [2024-04-25 00:35:09] INFO root fetch - processPackages [kumaone]: Remove: archive file [/home/abi/fetcher/tmp/kumaone-0.0.1a5.tar.gz]
 [2024-04-25 00:35:09] INFO root fetch - main [MainThread]: End processing [kumaone]: success
 [2024-04-25 00:35:09] INFO root fetch - main [MainThread]: Store serial: [22921267]
+[2024-04-25 00:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921267]
+[2024-04-25 00:37:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npiai
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brynq-sdk-zoho
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zonevu
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dhuodata-lib
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django4-tabular-export
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: makdo
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ziptimezone
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ligo.em-bright
+[2024-04-25 00:37:17] INFO root fetch - processPackages [brynq-sdk-zoho]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ziptimezone]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 00:37:17] INFO root fetch - processPackages [zonevu]: New version: [1.1.21] Old Version: [1.1.20]
+[2024-04-25 00:37:17] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 00:37:17] INFO root fetch - processPackages [npiai]: New version: [0.0.3] Old Version: [0.0.2.dev2]
+[2024-04-25 00:37:17] WARNING root fetch - processPackages [django4-tabular-export]: Skipping, unable to determine old version
+[2024-04-25 00:37:17] INFO root fetch - main [MainThread]: End processing [django4-tabular-export] error
+[2024-04-25 00:37:17] INFO root fetch - processPackages [makdo]: New version: [7.5] Old Version: [7.4]
+[2024-04-25 00:37:17] INFO root fetch - processPackages [ligo.em-bright]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/3c/8f/95bba404da002ba46472c8e4bde8cd15adba9ccc04a5cd28342f2fe3ddf1/ziptimezone-1.0.2.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/27/bf/8598b22270d60cf803294db079331dd90ff888e89d4ba05500ce8e1f8fa4/zonevu-1.1.20-py3-none-any.whl
+[2024-04-25 00:37:18] INFO root fetch - processPackages [brynq-sdk-zoho]: Downloading https://files.pythonhosted.org/packages/02/7d/dc78878a4c3ca553fd726d5aebbf1e199e589bc6fd98ef0f1bceede4824e/brynq_sdk_zoho-1.0.0.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/05/2f/e931d2ce9cc28fd357628916d50ff0e488dbef063e053569809c9c569748/dhuodata_lib-0.1.1.zip
+[2024-04-25 00:37:18] INFO root fetch - processPackages [npiai]: Downloading https://files.pythonhosted.org/packages/80/3b/3128b826c06d3f6fcaff4a813a0e1845714a3a2ed79918be410fdf2ee99a/npiai-0.0.2.dev2.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ligo.em-bright]: Downloading https://files.pythonhosted.org/packages/c9/1e/a5c599da60359ba8ce87e1988319c2f0db1c67a3e5de0ee3de2eda79542d/ligo.em-bright-1.1.6.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/0e/b6/f32c8a9713a5837ffb881e639673d418579926e1f36a39a3ee650a224861/makdo-7.4.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/dd/70/a1adfe578b83c9b5f4eb5ad8759e4bfa9937844b7bc804062013dd85d467/zonevu-1.1.21-py3-none-any.whl
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/8f/85/1a2d8e79e7b0cf69608fa12a192c084ab2e88b47f7ff3cab9b07e6eca89b/ziptimezone-1.0.3.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [brynq-sdk-zoho]: Downloading https://files.pythonhosted.org/packages/e0/b7/e738eb2f026e774ff6e7fc174e54fe2f9b6dd8654601916627366125d520/brynq_sdk_zoho-1.0.1.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-1.0.2.tar.gz tmp/ziptimezone-1.0.3.tar.gz --markdown 20240425/z/ziptimezone/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 00:37:18] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-25 00:37:18] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.20-py3-none-any.whl.zip tmp/zonevu-1.1.21-py3-none-any.whl.zip --markdown 20240425/z/zonevu/1.1.20-1.1.21/README.md --exclude *.pyd
+[2024-04-25 00:37:18] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/4b/bf/2cd6b1f52437fb1fcabde3ac1b10290594871ee28897dd2faf74fef7e960/dhuodata_lib-0.1.2.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [npiai]: Downloading https://files.pythonhosted.org/packages/c3/a1/a94857f5a452e83ba85ccd37c7e96f5f669a85e980dc038a83c542bcfa79/npiai-0.0.3.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [brynq-sdk-zoho]: executing diffoscope
+[2024-04-25 00:37:18] INFO root fetch - processPackages [brynq-sdk-zoho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_zoho-1.0.0.tar.gz tmp/brynq_sdk_zoho-1.0.1.tar.gz --markdown 20240425/b/brynq-sdk-zoho/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-25 00:37:18] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/bd/8b/239f770b857554d0ae4453a88a9a9d923a5e78637bd59a5f9f494cc3bd42/makdo-7.5.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-25 00:37:18] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata_lib-0.1.1.zip tmp/dhuodata_lib-0.1.2.tar.gz --markdown 20240425/d/dhuodata-lib/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 00:37:18] INFO root fetch - processPackages [npiai]: executing diffoscope
+[2024-04-25 00:37:18] INFO root fetch - processPackages [npiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npiai-0.0.2.dev2.tar.gz tmp/npiai-0.0.3.tar.gz --markdown 20240425/n/npiai/0.0.2.dev2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ligo.em-bright]: Downloading https://files.pythonhosted.org/packages/2d/c0/4ecd656364d422e64ff1fad364734e77cbb81fc272e5acdb551c3239dd87/ligo_em_bright-1.1.7.tar.gz
+[2024-04-25 00:37:18] INFO root fetch - processPackages [makdo]: executing diffoscope
+[2024-04-25 00:37:18] INFO root fetch - processPackages [makdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makdo-7.4.tar.gz tmp/makdo-7.5.tar.gz --markdown 20240425/m/makdo/7.4-7.5/README.md --exclude *.pyd
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ligo.em-bright]: executing diffoscope
+[2024-04-25 00:37:18] INFO root fetch - processPackages [ligo.em-bright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo.em-bright-1.1.6.tar.gz tmp/ligo_em_bright-1.1.7.tar.gz --markdown 20240425/l/ligo.em-bright/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-25 00:37:19] INFO root fetch - processPackages [brynq-sdk-zoho]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_zoho-1.0.0.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - processPackages [brynq-sdk-zoho]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_zoho-1.0.1.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [brynq-sdk-zoho]: success
+[2024-04-25 00:37:19] INFO root fetch - processPackages [npiai]: Remove: archive file [/home/abi/fetcher/tmp/npiai-0.0.2.dev2.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - processPackages [npiai]: Remove: archive file [/home/abi/fetcher/tmp/npiai-0.0.3.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [npiai]: success
+[2024-04-25 00:37:19] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.1.1.zip]
+[2024-04-25 00:37:19] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.1.2.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-25 00:37:19] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.0.2.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.0.3.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-04-25 00:37:19] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.4.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.5.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [makdo]: success
+[2024-04-25 00:37:19] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.20-py3-none-any.whl.zip]
+[2024-04-25 00:37:19] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.21-py3-none-any.whl.zip]
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-25 00:37:19] INFO root fetch - processPackages [ligo.em-bright]: Remove: archive file [/home/abi/fetcher/tmp/ligo.em-bright-1.1.6.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - processPackages [ligo.em-bright]: Remove: archive file [/home/abi/fetcher/tmp/ligo_em_bright-1.1.7.tar.gz]
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [ligo.em-bright]: success
+[2024-04-25 00:37:19] INFO root fetch - main [MainThread]: Store serial: [22921299]
