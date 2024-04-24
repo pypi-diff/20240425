@@ -704,3 +704,39 @@
 [2024-04-25 00:30:46] INFO root fetch - processPackages [ai-enterprise-agent]: Remove: archive file [/home/abi/fetcher/tmp/ai_enterprise_agent-0.0.8.tar.gz]
 [2024-04-25 00:30:46] INFO root fetch - main [MainThread]: End processing [ai-enterprise-agent]: success
 [2024-04-25 00:30:46] INFO root fetch - main [MainThread]: Store serial: [22921226]
+[2024-04-25 00:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921226]
+[2024-04-25 00:32:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 00:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutwo.music
+[2024-04-25 00:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyff
+[2024-04-25 00:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-times
+[2024-04-25 00:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haystack-studio
+[2024-04-25 00:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grasp-backend
+[2024-04-25 00:32:54] INFO root fetch - processPackages [mo-times]: New version: [5.603.24115] Old Version: [5.602.24115]
+[2024-04-25 00:32:55] INFO root fetch - processPackages [dyff]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mutwo.music]: New version: [0.27.0] Old Version: [0.26.1]
+[2024-04-25 00:32:55] WARNING root fetch - processPackages [haystack-studio]: Skipping, unable to determine old version
+[2024-04-25 00:32:55] INFO root fetch - main [MainThread]: End processing [haystack-studio] error
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/4d/54/c5b6f93c13c4f262b00575283e64688fbcb366ee5ce88a0b88c0134b45c4/mo_times-5.602.24115.tar.gz
+[2024-04-25 00:32:55] WARNING root fetch - processPackages [grasp-backend]: Skipping, unable to determine old version
+[2024-04-25 00:32:55] INFO root fetch - main [MainThread]: End processing [grasp-backend] error
+[2024-04-25 00:32:55] INFO root fetch - processPackages [dyff]: Downloading https://files.pythonhosted.org/packages/58/83/6408d5f4c5f62f99c22e31aba9a2016045edc7f599f45fc0b873bf1c4781/dyff-0.9.3.tar.gz
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mutwo.music]: Downloading https://files.pythonhosted.org/packages/de/62/a8579baca1e1e16715f5d4b7b46bc393d41b9459c4b33fc21cb3dfce4ee8/mutwo.music-0.26.1.tar.gz
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/54/31/3889090cbd5d685ecb1be3f9baeb4d3e11ec19ec4dbe32db630dc685e9eb/mo_times-5.603.24115.tar.gz
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.602.24115.tar.gz tmp/mo_times-5.603.24115.tar.gz --markdown 20240425/m/mo-times/5.602.24115-5.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mutwo.music]: Downloading https://files.pythonhosted.org/packages/6e/45/45f09d5c53b4d3f0c59f734083a82b649f1cab7c143fdcb10637214da87e/mutwo_music-0.27.0.tar.gz
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mutwo.music]: executing diffoscope
+[2024-04-25 00:32:55] INFO root fetch - processPackages [mutwo.music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutwo.music-0.26.1.tar.gz tmp/mutwo_music-0.27.0.tar.gz --markdown 20240425/m/mutwo.music/0.26.1-0.27.0/README.md --exclude *.pyd
+[2024-04-25 00:32:56] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.602.24115.tar.gz]
+[2024-04-25 00:32:56] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.603.24115.tar.gz]
+[2024-04-25 00:32:56] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2024-04-25 00:32:56] INFO root fetch - processPackages [dyff]: Downloading https://files.pythonhosted.org/packages/6f/89/6e983c55a3bbee3b30994be39d4c02e0b632a6f7b8e602a3f8845518e6bf/dyff-0.9.4.tar.gz
+[2024-04-25 00:32:56] INFO root fetch - processPackages [mutwo.music]: Remove: archive file [/home/abi/fetcher/tmp/mutwo.music-0.26.1.tar.gz]
+[2024-04-25 00:32:56] INFO root fetch - processPackages [mutwo.music]: Remove: archive file [/home/abi/fetcher/tmp/mutwo_music-0.27.0.tar.gz]
+[2024-04-25 00:32:56] INFO root fetch - main [MainThread]: End processing [mutwo.music]: success
+[2024-04-25 00:32:56] INFO root fetch - processPackages [dyff]: executing diffoscope
+[2024-04-25 00:32:56] INFO root fetch - processPackages [dyff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-0.9.3.tar.gz tmp/dyff-0.9.4.tar.gz --markdown 20240425/d/dyff/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-25 00:32:59] INFO root fetch - processPackages [dyff]: Remove: archive file [/home/abi/fetcher/tmp/dyff-0.9.3.tar.gz]
+[2024-04-25 00:32:59] INFO root fetch - processPackages [dyff]: Remove: archive file [/home/abi/fetcher/tmp/dyff-0.9.4.tar.gz]
+[2024-04-25 00:32:59] INFO root fetch - main [MainThread]: End processing [dyff]: success
+[2024-04-25 00:32:59] INFO root fetch - main [MainThread]: Store serial: [22921248]
