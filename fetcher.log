@@ -1073,3 +1073,18 @@
 [2024-04-25 00:48:52] INFO root fetch - processPackages [EntropyHub]: Remove: archive file [/home/abi/fetcher/tmp/EntropyHub-1.0.1.post1.tar.gz]
 [2024-04-25 00:48:52] INFO root fetch - main [MainThread]: End processing [EntropyHub]: success
 [2024-04-25 00:48:52] INFO root fetch - main [MainThread]: Store serial: [22921388]
+[2024-04-25 00:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921388]
+[2024-04-25 00:51:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atriumsports-sdk
+[2024-04-25 00:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudacious
+[2024-04-25 00:51:01] WARNING root fetch - processPackages [cloudacious]: Skipping, unable to determine old version
+[2024-04-25 00:51:01] INFO root fetch - main [MainThread]: End processing [cloudacious] error
+[2024-04-25 00:51:01] INFO root fetch - processPackages [atriumsports-sdk]: New version: [1.8.0] Old Version: [1.7.3]
+[2024-04-25 00:51:01] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/7c/77/31531e41816c57dd7dd7570e5d695047e571ce3ee7856aeb93a77945169a/atriumsports_sdk-1.7.3.tar.gz
+[2024-04-25 00:51:01] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/66/01/0a6616a6e9f83103d56b05c6e7eb4925322435cabf5ad2768a980097cda2/atriumsports_sdk-1.8.0.tar.gz
+[2024-04-25 00:51:01] INFO root fetch - processPackages [atriumsports-sdk]: executing diffoscope
+[2024-04-25 00:51:01] INFO root fetch - processPackages [atriumsports-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atriumsports_sdk-1.7.3.tar.gz tmp/atriumsports_sdk-1.8.0.tar.gz --markdown 20240425/a/atriumsports-sdk/1.7.3-1.8.0/README.md --exclude *.pyd
+[2024-04-25 00:51:05] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.7.3.tar.gz]
+[2024-04-25 00:51:05] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.8.0.tar.gz]
+[2024-04-25 00:51:05] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
+[2024-04-25 00:51:05] INFO root fetch - main [MainThread]: Store serial: [22921397]
