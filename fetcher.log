@@ -983,3 +983,42 @@
 [2024-04-25 00:42:17] INFO root fetch - processPackages [struct2tensor]: Remove: archive file [/home/abi/fetcher/tmp/struct2tensor-0.46.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
 [2024-04-25 00:42:17] INFO root fetch - main [MainThread]: End processing [struct2tensor]: success
 [2024-04-25 00:42:17] INFO root fetch - main [MainThread]: Store serial: [22921359]
+[2024-04-25 00:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921359]
+[2024-04-25 00:44:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 00:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kumaone
+[2024-04-25 00:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EntropyHub
+[2024-04-25 00:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mitosis
+[2024-04-25 00:44:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-json-config
+[2024-04-25 00:44:30] INFO root fetch - processPackages [EntropyHub]: New version: [1.0.1.post1] Old Version: [1.0.1]
+[2024-04-25 00:44:30] INFO root fetch - processPackages [kumaone]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2024-04-25 00:44:30] INFO root fetch - processPackages [EntropyHub]: Downloading https://files.pythonhosted.org/packages/4f/ae/8b99d0925bedcb326e965d95fb4d90eaac02903db2bf4c5d264ff3e5954b/EntropyHub-1.0.1.tar.gz
+[2024-04-25 00:44:30] INFO root fetch - processPackages [mitosis]: New version: [0.5.0b2] Old Version: [0.5.0b1]
+[2024-04-25 00:44:30] INFO root fetch - processPackages [kumaone]: Downloading https://files.pythonhosted.org/packages/a4/63/0d5483a53bb7b3dcfc239eff643ab263cce3ad5302413cdcd81249fe528d/kumaone-0.0.1a4.tar.gz
+[2024-04-25 00:44:30] INFO root fetch - processPackages [mo-json-config]: New version: [4.605.24115] Old Version: [4.604.24115]
+[2024-04-25 00:44:31] INFO root fetch - processPackages [kumaone]: Downloading https://files.pythonhosted.org/packages/c6/d7/fce1f9959f791c7e76b280e7c3bb929395d0a848f4dc7b03aa5e5f42988e/kumaone-0.0.1a5.tar.gz
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/54/cb/140c90c5cdcec71a76e1ec02f2e8744b1de2775ef526e5fc515a9a61f6a4/mitosis-0.5.0b1.tar.gz
+[2024-04-25 00:44:31] INFO root fetch - processPackages [EntropyHub]: Downloading https://files.pythonhosted.org/packages/6f/69/4f2ab7c43aaa02d16c8da9c6148f8e2e5d153752bc13c70624cdbb260346/EntropyHub-1.0.1.post1.tar.gz
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/7b/cf/9b102aa5558478c49b1430af7b40ed42277d4dc8635b19fd5139836bc944/mo_json_config-4.604.24115.tar.gz
+[2024-04-25 00:44:31] INFO root fetch - processPackages [kumaone]: executing diffoscope
+[2024-04-25 00:44:31] INFO root fetch - processPackages [kumaone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumaone-0.0.1a4.tar.gz tmp/kumaone-0.0.1a5.tar.gz --markdown 20240425/k/kumaone/0.0.1a4-0.0.1a5/README.md --exclude *.pyd
+[2024-04-25 00:44:31] INFO root fetch - processPackages [EntropyHub]: executing diffoscope
+[2024-04-25 00:44:31] INFO root fetch - processPackages [EntropyHub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EntropyHub-1.0.1.tar.gz tmp/EntropyHub-1.0.1.post1.tar.gz --markdown 20240425/E/EntropyHub/1.0.1-1.0.1.post1/README.md --exclude *.pyd
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/12/af/59da5e874443d3d9b9885d926bd6427b42895e76b692215a24f568c0d57c/mo_json_config-4.605.24115.tar.gz
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/e3/e3/d92b44ae75acbf29374db5ba8d8233ed207b21dee177980f741aa4adb0c2/mitosis-0.5.0b2.tar.gz
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mitosis]: executing diffoscope
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mitosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosis-0.5.0b1.tar.gz tmp/mitosis-0.5.0b2.tar.gz --markdown 20240425/m/mitosis/0.5.0b1-0.5.0b2/README.md --exclude *.pyd
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2024-04-25 00:44:31] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json_config-4.604.24115.tar.gz tmp/mo_json_config-4.605.24115.tar.gz --markdown 20240425/m/mo-json-config/4.604.24115-4.605.24115/README.md --exclude *.pyd
+[2024-04-25 00:44:31] INFO root fetch - processPackages [kumaone]: Remove: archive file [/home/abi/fetcher/tmp/kumaone-0.0.1a4.tar.gz]
+[2024-04-25 00:44:31] INFO root fetch - processPackages [kumaone]: Remove: archive file [/home/abi/fetcher/tmp/kumaone-0.0.1a5.tar.gz]
+[2024-04-25 00:44:31] INFO root fetch - main [MainThread]: End processing [kumaone]: success
+[2024-04-25 00:44:32] INFO root fetch - processPackages [EntropyHub]: Remove: archive file [/home/abi/fetcher/tmp/EntropyHub-1.0.1.tar.gz]
+[2024-04-25 00:44:32] INFO root fetch - processPackages [EntropyHub]: Remove: archive file [/home/abi/fetcher/tmp/EntropyHub-1.0.1.post1.tar.gz]
+[2024-04-25 00:44:32] INFO root fetch - main [MainThread]: End processing [EntropyHub]: success
+[2024-04-25 00:44:32] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.0b1.tar.gz]
+[2024-04-25 00:44:32] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.0b2.tar.gz]
+[2024-04-25 00:44:32] INFO root fetch - main [MainThread]: End processing [mitosis]: success
+[2024-04-25 00:44:32] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.604.24115.tar.gz]
+[2024-04-25 00:44:32] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.605.24115.tar.gz]
+[2024-04-25 00:44:32] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2024-04-25 00:44:32] INFO root fetch - main [MainThread]: Store serial: [22921372]
