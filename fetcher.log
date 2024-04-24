@@ -1088,3 +1088,36 @@
 [2024-04-25 00:51:05] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.8.0.tar.gz]
 [2024-04-25 00:51:05] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
 [2024-04-25 00:51:05] INFO root fetch - main [MainThread]: Store serial: [22921397]
+[2024-04-25 00:53:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921397]
+[2024-04-25 00:53:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynamodump
+[2024-04-25 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kappamodules
+[2024-04-25 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylliterate
+[2024-04-25 00:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EntropyHub
+[2024-04-25 00:53:14] INFO root fetch - processPackages [EntropyHub]: New version: [1.0.1] Old Version: [1.0.0.post1]
+[2024-04-25 00:53:14] INFO root fetch - processPackages [kappamodules]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 00:53:14] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/3b/e2/1ae9387d8409532bc4bf07acb0b2668b501b1cde2d63e40733fb972b1f4c/kappamodules-0.1.7.tar.gz
+[2024-04-25 00:53:14] WARNING root fetch - processPackages [pylliterate]: Skipping, unable to determine old version
+[2024-04-25 00:53:14] INFO root fetch - main [MainThread]: End processing [pylliterate] error
+[2024-04-25 00:53:14] INFO root fetch - processPackages [dynamodump]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-25 00:53:14] INFO root fetch - processPackages [EntropyHub]: Downloading https://files.pythonhosted.org/packages/a4/7f/220cb3b17eb8cd43500d3b022bd3b890a189bb97e9eaf14e074a853ebb00/EntropyHub-1.0.0.post1.tar.gz
+[2024-04-25 00:53:14] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/81/fc/bada4aae7de7149188e11f5ee6f6bb78d0725367f860197922b557fbd65b/kappamodules-0.1.8.tar.gz
+[2024-04-25 00:53:14] INFO root fetch - processPackages [dynamodump]: Downloading https://files.pythonhosted.org/packages/04/85/437ad19d560f955aac8387c0dbc70b21fb4da4221e70cb4b77a5b8a5d1b5/dynamodump-1.9.0.tar.gz
+[2024-04-25 00:53:14] INFO root fetch - processPackages [kappamodules]: executing diffoscope
+[2024-04-25 00:53:14] INFO root fetch - processPackages [kappamodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappamodules-0.1.7.tar.gz tmp/kappamodules-0.1.8.tar.gz --markdown 20240425/k/kappamodules/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 00:53:14] INFO root fetch - processPackages [EntropyHub]: Downloading https://files.pythonhosted.org/packages/74/9e/ae45519af3e2b7f09052c5036e196c3e029864b292d109ccef3eacfec730/entropyhub-1.0.1.tar.gz
+[2024-04-25 00:53:15] INFO root fetch - processPackages [EntropyHub]: executing diffoscope
+[2024-04-25 00:53:15] INFO root fetch - processPackages [EntropyHub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EntropyHub-1.0.0.post1.tar.gz tmp/entropyhub-1.0.1.tar.gz --markdown 20240425/E/EntropyHub/1.0.0.post1-1.0.1/README.md --exclude *.pyd
+[2024-04-25 00:53:15] INFO root fetch - processPackages [dynamodump]: Downloading https://files.pythonhosted.org/packages/17/d7/c66afc71888e1bab359f5914631d1e9b8822a82a32670e9899242c866e3b/dynamodump-1.9.1.tar.gz
+[2024-04-25 00:53:15] INFO root fetch - processPackages [dynamodump]: executing diffoscope
+[2024-04-25 00:53:15] INFO root fetch - processPackages [dynamodump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamodump-1.9.0.tar.gz tmp/dynamodump-1.9.1.tar.gz --markdown 20240425/d/dynamodump/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-25 00:53:15] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.7.tar.gz]
+[2024-04-25 00:53:15] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.8.tar.gz]
+[2024-04-25 00:53:15] INFO root fetch - main [MainThread]: End processing [kappamodules]: success
+[2024-04-25 00:53:15] INFO root fetch - processPackages [EntropyHub]: Remove: archive file [/home/abi/fetcher/tmp/EntropyHub-1.0.0.post1.tar.gz]
+[2024-04-25 00:53:15] INFO root fetch - processPackages [EntropyHub]: Remove: archive file [/home/abi/fetcher/tmp/entropyhub-1.0.1.tar.gz]
+[2024-04-25 00:53:15] INFO root fetch - main [MainThread]: End processing [EntropyHub]: success
+[2024-04-25 00:53:15] INFO root fetch - processPackages [dynamodump]: Remove: archive file [/home/abi/fetcher/tmp/dynamodump-1.9.0.tar.gz]
+[2024-04-25 00:53:15] INFO root fetch - processPackages [dynamodump]: Remove: archive file [/home/abi/fetcher/tmp/dynamodump-1.9.1.tar.gz]
+[2024-04-25 00:53:15] INFO root fetch - main [MainThread]: End processing [dynamodump]: success
+[2024-04-25 00:53:15] INFO root fetch - main [MainThread]: Store serial: [22921411]
