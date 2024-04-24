@@ -436,3 +436,69 @@
 [2024-04-25 00:21:57] INFO root fetch - processPackages [chalc]: Remove: archive file [/home/abi/fetcher/tmp/chalc-0.9.0.tar.gz]
 [2024-04-25 00:21:57] INFO root fetch - main [MainThread]: End processing [chalc]: success
 [2024-04-25 00:21:57] INFO root fetch - main [MainThread]: Store serial: [22921099]
+[2024-04-25 00:24:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921099]
+[2024-04-25 00:24:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-dots
+[2024-04-25 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exafs-neo
+[2024-04-25 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyncdb
+[2024-04-25 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparecores-crawler
+[2024-04-25 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-kwargs
+[2024-04-25 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-upstage
+[2024-04-25 00:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trio-asyncio
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-dots]: New version: [9.603.24115] Old Version: [9.602.24115]
+[2024-04-25 00:24:07] INFO root fetch - processPackages [exafs-neo]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-kwargs]: New version: [7.603.24115] Old Version: [7.602.24115]
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/17/1e/9f7394c3617385335431b7eef3b19a6d01c679d84588f8b0ac5f3cd85999/mo_dots-9.602.24115.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [trio-asyncio]: New version: [0.9.1] Old Version: [0.8.4]
+[2024-04-25 00:24:07] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/c7/57/60e307ea159b4bc6ddf0f6fd9ca3a85cf602554aadf5c7d9ab0ab0b902f9/exafs_neo-2.0.4.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [langchain-upstage]: New version: [0.1.1] Old Version: [0.1.0rc0]
+[2024-04-25 00:24:07] INFO root fetch - processPackages [sparecores-crawler]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/73/ed/a841ab4255ee2f81fcdf46d0ca66dcfc15849ad9ac20f3fdbd144faa0dff/mo_kwargs-7.602.24115.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [asyncdb]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-04-25 00:24:07] INFO root fetch - processPackages [trio-asyncio]: Downloading https://files.pythonhosted.org/packages/4c/66/5150e32c3f6d21545fe292536edb60eb7577b157987bf68995dd6ab28cca/trio_asyncio-0.8.4.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/ea/47/733311f37bdbe557ff45974315e065541e5d0ac104b6fa07c75b88e81ae3/exafs_neo-2.0.5.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/2a/8f/e6e0937b11d46c4087e2b3b29d71a8b7fc446149b263c0c7e75cb50029fb/langchain_upstage-0.1.0rc0.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [sparecores-crawler]: Downloading https://files.pythonhosted.org/packages/f2/b1/10524dd01138c19b9c789e89553eb5d02f2a49450883f9f9cb85c896bf4e/sparecores_crawler-0.1.1.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/a5/ca/78abe43d614daad2ec9a9bc1e1928f6ad152f13d200e27561533bc0b2877/asyncdb-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/77/ff/3aeec3763c042c2ef2d7f9fcdd5dd56fd50e49fb6432de4205781cedcf65/mo_kwargs-7.603.24115.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/45/62/f7de0be03883a4b203576dd4e3b2669e8c6173a764181595052d008287b2/mo_dots-9.603.24115.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [exafs-neo]: executing diffoscope
+[2024-04-25 00:24:07] INFO root fetch - processPackages [exafs-neo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exafs_neo-2.0.4.tar.gz tmp/exafs_neo-2.0.5.tar.gz --markdown 20240425/e/exafs-neo/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.602.24115.tar.gz tmp/mo_kwargs-7.603.24115.tar.gz --markdown 20240425/m/mo-kwargs/7.602.24115-7.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-04-25 00:24:07] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.602.24115.tar.gz tmp/mo_dots-9.603.24115.tar.gz --markdown 20240425/m/mo-dots/9.602.24115-9.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:24:07] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/1b/31/76f60eccc5de2c5babee4a4ff03185b670d257f8f529d25485676debf07e/langchain_upstage-0.1.1.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [sparecores-crawler]: Downloading https://files.pythonhosted.org/packages/5c/c3/28513bad59bacfc7939b18ac30e774dec9f20a218cb2df40aa2ee2967f43/sparecores_crawler-0.1.2.tar.gz
+[2024-04-25 00:24:07] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/71/67/70a00c57485524b5e3e2a407ade18f969a11cfd6d2f4b51ece2f1a1da6a0/asyncdb-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 00:24:07] INFO root fetch - processPackages [sparecores-crawler]: executing diffoscope
+[2024-04-25 00:24:07] INFO root fetch - processPackages [sparecores-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparecores_crawler-0.1.1.tar.gz tmp/sparecores_crawler-0.1.2.tar.gz --markdown 20240425/s/sparecores-crawler/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 00:24:07] INFO root fetch - processPackages [langchain-upstage]: executing diffoscope
+[2024-04-25 00:24:07] INFO root fetch - processPackages [langchain-upstage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_upstage-0.1.0rc0.tar.gz tmp/langchain_upstage-0.1.1.tar.gz --markdown 20240425/l/langchain-upstage/0.1.0rc0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 00:24:08] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2024-04-25 00:24:08] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/asyncdb-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240425/a/asyncdb/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-04-25 00:24:08] INFO root fetch - processPackages [trio-asyncio]: Downloading https://files.pythonhosted.org/packages/32/63/96a97251bcede2f5bb1f272cb425b890432ba23825aa0fe4933f7b0c36f4/trio_asyncio-0.9.1.tar.gz
+[2024-04-25 00:24:08] INFO root fetch - processPackages [trio-asyncio]: executing diffoscope
+[2024-04-25 00:24:08] INFO root fetch - processPackages [trio-asyncio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_asyncio-0.8.4.tar.gz tmp/trio_asyncio-0.9.1.tar.gz --markdown 20240425/t/trio-asyncio/0.8.4-0.9.1/README.md --exclude *.pyd
+[2024-04-25 00:24:08] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.602.24115.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.603.24115.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-04-25 00:24:08] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.4.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.5.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - main [MainThread]: End processing [exafs-neo]: success
+[2024-04-25 00:24:08] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.602.24115.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.603.24115.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-04-25 00:24:08] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.0rc0.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.1.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - main [MainThread]: End processing [langchain-upstage]: success
+[2024-04-25 00:24:08] INFO root fetch - processPackages [sparecores-crawler]: Remove: archive file [/home/abi/fetcher/tmp/sparecores_crawler-0.1.1.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - processPackages [sparecores-crawler]: Remove: archive file [/home/abi/fetcher/tmp/sparecores_crawler-0.1.2.tar.gz]
+[2024-04-25 00:24:08] INFO root fetch - main [MainThread]: End processing [sparecores-crawler]: success
+[2024-04-25 00:24:09] INFO root fetch - processPackages [trio-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/trio_asyncio-0.8.4.tar.gz]
+[2024-04-25 00:24:09] INFO root fetch - processPackages [trio-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/trio_asyncio-0.9.1.tar.gz]
+[2024-04-25 00:24:09] INFO root fetch - main [MainThread]: End processing [trio-asyncio]: success
+[2024-04-25 00:24:09] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 00:24:09] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 00:24:09] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2024-04-25 00:24:09] INFO root fetch - main [MainThread]: Store serial: [22921147]
