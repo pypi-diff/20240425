@@ -2312,3 +2312,39 @@
 [2024-04-25 01:32:21] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
 [2024-04-25 01:32:21] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2024-04-25 01:32:21] INFO root fetch - main [MainThread]: Store serial: [22921850]
+[2024-04-25 01:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921850]
+[2024-04-25 01:34:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 01:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epicbox2
+[2024-04-25 01:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-04-25 01:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cligenius-cli
+[2024-04-25 01:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-sql
+[2024-04-25 01:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ggcorrplot
+[2024-04-25 01:34:30] INFO root fetch - processPackages [mimllearning]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 01:34:30] WARNING root fetch - processPackages [epicbox2]: Skipping, unable to determine old version
+[2024-04-25 01:34:30] INFO root fetch - main [MainThread]: End processing [epicbox2] error
+[2024-04-25 01:34:30] INFO root fetch - processPackages [mo-sql]: New version: [4.605.24115] Old Version: [4.603.24115]
+[2024-04-25 01:34:30] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/80/94/27e1a08e80506dc8c8891ca97c832ba618b93d7629443274b60c309cd7dd/mimllearning-0.1.8.tar.gz
+[2024-04-25 01:34:30] WARNING root fetch - processPackages [cligenius-cli]: Skipping, unable to determine old version
+[2024-04-25 01:34:30] INFO root fetch - main [MainThread]: End processing [cligenius-cli] error
+[2024-04-25 01:34:30] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/8a/45/04cb0268fabf631dbd9bbaa5adfe35183d7768d98f45c376a9fcacff8b43/mo_sql-4.603.24115.tar.gz
+[2024-04-25 01:34:30] INFO root fetch - processPackages [ggcorrplot]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 01:34:30] INFO root fetch - processPackages [ggcorrplot]: Downloading https://files.pythonhosted.org/packages/29/87/c708168be85cc97bcbd2f0c1f83d11b6f3b292b513b4a27a3e16c6a2afe3/ggcorrplot-0.0.2.tar.gz
+[2024-04-25 01:34:30] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/33/b6/3b5e20c13a16703b303448256f6019c82837e6a1e82d3318804eda66bfde/mimllearning-0.1.9.tar.gz
+[2024-04-25 01:34:30] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/67/e2/043433c587941dedde965e3f6a79b6985b2af2cf5d0382aceef3c133f0f2/mo_sql-4.605.24115.tar.gz
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mo-sql]: executing diffoscope
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mo-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql-4.603.24115.tar.gz tmp/mo_sql-4.605.24115.tar.gz --markdown 20240425/m/mo-sql/4.603.24115-4.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.1.8.tar.gz tmp/mimllearning-0.1.9.tar.gz --markdown 20240425/m/mimllearning/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 01:34:31] INFO root fetch - processPackages [ggcorrplot]: Downloading https://files.pythonhosted.org/packages/ce/fb/7df5fba4f5518aebd9a46eef85d25381647cdedeeb9adc150d069916b936/ggcorrplot-0.0.3.tar.gz
+[2024-04-25 01:34:31] INFO root fetch - processPackages [ggcorrplot]: executing diffoscope
+[2024-04-25 01:34:31] INFO root fetch - processPackages [ggcorrplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggcorrplot-0.0.2.tar.gz tmp/ggcorrplot-0.0.3.tar.gz --markdown 20240425/g/ggcorrplot/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.603.24115.tar.gz]
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.605.24115.tar.gz]
+[2024-04-25 01:34:31] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.8.tar.gz]
+[2024-04-25 01:34:31] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.9.tar.gz]
+[2024-04-25 01:34:31] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-25 01:34:32] INFO root fetch - processPackages [ggcorrplot]: Remove: archive file [/home/abi/fetcher/tmp/ggcorrplot-0.0.2.tar.gz]
+[2024-04-25 01:34:32] INFO root fetch - processPackages [ggcorrplot]: Remove: archive file [/home/abi/fetcher/tmp/ggcorrplot-0.0.3.tar.gz]
+[2024-04-25 01:34:32] INFO root fetch - main [MainThread]: End processing [ggcorrplot]: success
+[2024-04-25 01:34:32] INFO root fetch - main [MainThread]: Store serial: [22921869]
