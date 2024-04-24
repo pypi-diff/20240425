@@ -2138,3 +2138,45 @@
 [2024-04-25 01:23:38] INFO root fetch - processPackages [aind-metadata-mapper]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_mapper-0.6.5.tar.gz]
 [2024-04-25 01:23:38] INFO root fetch - main [MainThread]: End processing [aind-metadata-mapper]: success
 [2024-04-25 01:23:38] INFO root fetch - main [MainThread]: Store serial: [22921788]
+[2024-04-25 01:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921788]
+[2024-04-25 01:25:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-collections
+[2024-04-25 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocflib
+[2024-04-25 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visionml-utils
+[2024-04-25 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-times
+[2024-04-25 01:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quant1x-trader
+[2024-04-25 01:25:46] INFO root fetch - processPackages [mo-collections]: New version: [5.605.24115] Old Version: [5.603.24115]
+[2024-04-25 01:25:46] INFO root fetch - processPackages [mo-times]: New version: [5.605.24115] Old Version: [5.603.24115]
+[2024-04-25 01:25:46] WARNING root fetch - processPackages [visionml-utils]: Skipping, unable to determine old version
+[2024-04-25 01:25:46] INFO root fetch - main [MainThread]: End processing [visionml-utils] error
+[2024-04-25 01:25:46] INFO root fetch - processPackages [quant1x-trader]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-25 01:25:46] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/58/38/09cb78aef43a01a1d5e2fe60e7bdc3510842bf805cbda5d21fbfc9afaf76/mo_collections-5.603.24115.tar.gz
+[2024-04-25 01:25:46] INFO root fetch - processPackages [ocflib]: New version: [9] Old Version: [8]
+[2024-04-25 01:25:46] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/54/31/3889090cbd5d685ecb1be3f9baeb4d3e11ec19ec4dbe32db630dc685e9eb/mo_times-5.603.24115.tar.gz
+[2024-04-25 01:25:46] INFO root fetch - processPackages [quant1x-trader]: Downloading https://files.pythonhosted.org/packages/09/d7/583b3c7cc1a1efb261e3ac15ddf7a972581ece6f9ceb22acf219cb6a9309/quant1x-trader-0.7.6.tar.gz
+[2024-04-25 01:25:46] INFO root fetch - processPackages [ocflib]: Downloading https://files.pythonhosted.org/packages/37/9e/7d858340853127292efd32ac4cd52b6c17167e4e2a1394341eda0aed3106/ocflib-8.tar.gz
+[2024-04-25 01:25:46] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/cb/f0/0bed1cf97dd72b1ef8ed93c4e591f1bdb0411e9da1e9d9178b677c919af1/mo_collections-5.605.24115.tar.gz
+[2024-04-25 01:25:46] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/bc/81/d874d27ad41943386f85711db33211d71464c462470d4994567666cac8b4/mo_times-5.605.24115.tar.gz
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-collections]: executing diffoscope
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_collections-5.603.24115.tar.gz tmp/mo_collections-5.605.24115.tar.gz --markdown 20240425/m/mo-collections/5.603.24115-5.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.603.24115.tar.gz tmp/mo_times-5.605.24115.tar.gz --markdown 20240425/m/mo-times/5.603.24115-5.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:25:47] INFO root fetch - processPackages [quant1x-trader]: Downloading https://files.pythonhosted.org/packages/d5/eb/0d00845e681906f86def18b947e99d5dbbbb6ffa74d82f3e0352dd7cf63d/quant1x_trader-0.7.7.tar.gz
+[2024-04-25 01:25:47] INFO root fetch - processPackages [ocflib]: Downloading https://files.pythonhosted.org/packages/9e/8a/34785feea7f069288ddee58a7ae104928ba33da6e1b49be66a2b1fa792b5/ocflib-9.tar.gz
+[2024-04-25 01:25:47] INFO root fetch - processPackages [quant1x-trader]: executing diffoscope
+[2024-04-25 01:25:47] INFO root fetch - processPackages [quant1x-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant1x-trader-0.7.6.tar.gz tmp/quant1x_trader-0.7.7.tar.gz --markdown 20240425/q/quant1x-trader/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-25 01:25:47] INFO root fetch - processPackages [ocflib]: executing diffoscope
+[2024-04-25 01:25:47] INFO root fetch - processPackages [ocflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocflib-8.tar.gz tmp/ocflib-9.tar.gz --markdown 20240425/o/ocflib/8-9/README.md --exclude *.pyd
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.603.24115.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.605.24115.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.603.24115.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.605.24115.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2024-04-25 01:25:47] INFO root fetch - processPackages [quant1x-trader]: Remove: archive file [/home/abi/fetcher/tmp/quant1x-trader-0.7.6.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - processPackages [quant1x-trader]: Remove: archive file [/home/abi/fetcher/tmp/quant1x_trader-0.7.7.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - main [MainThread]: End processing [quant1x-trader]: success
+[2024-04-25 01:25:47] INFO root fetch - processPackages [ocflib]: Remove: archive file [/home/abi/fetcher/tmp/ocflib-8.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - processPackages [ocflib]: Remove: archive file [/home/abi/fetcher/tmp/ocflib-9.tar.gz]
+[2024-04-25 01:25:47] INFO root fetch - main [MainThread]: End processing [ocflib]: success
+[2024-04-25 01:25:47] INFO root fetch - main [MainThread]: Store serial: [22921805]
