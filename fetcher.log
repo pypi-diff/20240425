@@ -2240,3 +2240,75 @@
 [2024-04-25 01:30:07] INFO root fetch - processPackages [geneweaver-core]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_core-0.9.1.tar.gz]
 [2024-04-25 01:30:07] INFO root fetch - main [MainThread]: End processing [geneweaver-core]: success
 [2024-04-25 01:30:07] INFO root fetch - main [MainThread]: Store serial: [22921824]
+[2024-04-25 01:32:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921824]
+[2024-04-25 01:32:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-threads
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gtsystem
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: humanloop
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sideseeing-tools
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py3-wget
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discover-overlay
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasette-secrets
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-files
+[2024-04-25 01:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: epicbox2
+[2024-04-25 01:32:16] INFO root fetch - processPackages [mo-threads]: New version: [6.605.24115] Old Version: [6.603.24115]
+[2024-04-25 01:32:16] INFO root fetch - processPackages [mo-files]: New version: [6.605.24115] Old Version: [6.603.24115]
+[2024-04-25 01:32:16] INFO root fetch - processPackages [sideseeing-tools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-25 01:32:16] INFO root fetch - processPackages [datasette-secrets]: New version: [0.1a2] Old Version: [0.1a1]
+[2024-04-25 01:32:16] INFO root fetch - processPackages [gtsystem]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-04-25 01:32:16] WARNING root fetch - processPackages [py3-wget]: Skipping, unable to determine old version
+[2024-04-25 01:32:16] INFO root fetch - main [MainThread]: End processing [py3-wget] error
+[2024-04-25 01:32:16] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-25 01:32:16] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/9f/e3/62588b823882576bff615384275d307650de8fac12548159424e8eb3caf0/mo_files-6.603.24115.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/74/df/287f7c34ad26896bf2f964b02b18260444f61581d2f08f66e2f092c207cd/mo_threads-6.603.24115.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [datasette-secrets]: Downloading https://files.pythonhosted.org/packages/6f/ce/0113b23c2bd0a50cf8eb03e403817758a9769d9e4554c99fed0c3e255e46/datasette_secrets-0.1a1.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [sideseeing-tools]: Downloading https://files.pythonhosted.org/packages/95/32/18a6129baf484c01b51b61fded9b20d76fe8199f3f927e354351e97c6b8f/sideseeing_tools-0.1.6.tar.gz
+[2024-04-25 01:32:16] WARNING root fetch - processPackages [epicbox2]: Skipping, unable to determine old version
+[2024-04-25 01:32:16] INFO root fetch - main [MainThread]: End processing [epicbox2] error
+[2024-04-25 01:32:16] INFO root fetch - processPackages [gtsystem]: Downloading https://files.pythonhosted.org/packages/b2/2b/cf61d4d27e6ddb6d10eda7e688abcd99fd5a077d63f24ed046c894c78bd1/gtsystem-0.2.1.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [discover-overlay]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-25 01:32:16] INFO root fetch - processPackages [datasette-secrets]: Downloading https://files.pythonhosted.org/packages/54/60/f6a0461b0c2585738abd62c1dc2dedb74cd34123b6ac2f33a6c32b4e61d8/datasette_secrets-0.1a2.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [sideseeing-tools]: Downloading https://files.pythonhosted.org/packages/6a/dc/c3bc0c7a7d85b17bb1afadf073dad85e99567708de73a61b9f56260bfd95/sideseeing_tools-0.1.7.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/e0/dc/860c6065493ea91882c67f8f94e4ab145a1ea35921f494757b469b60a7b1/mo_files-6.605.24115.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [datasette-secrets]: executing diffoscope
+[2024-04-25 01:32:16] INFO root fetch - processPackages [datasette-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_secrets-0.1a1.tar.gz tmp/datasette_secrets-0.1a2.tar.gz --markdown 20240425/d/datasette-secrets/0.1a1-0.1a2/README.md --exclude *.pyd
+[2024-04-25 01:32:16] INFO root fetch - processPackages [sideseeing-tools]: executing diffoscope
+[2024-04-25 01:32:16] INFO root fetch - processPackages [sideseeing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sideseeing_tools-0.1.6.tar.gz tmp/sideseeing_tools-0.1.7.tar.gz --markdown 20240425/s/sideseeing-tools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-25 01:32:16] INFO root fetch - processPackages [discover-overlay]: Downloading https://files.pythonhosted.org/packages/f8/92/1d4605d59b608160c34736a2caff13ec9ed584c18f73596e00d491890514/discover-overlay-0.7.3.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/e3/22/547ea74339a42f61c0edf119dec0de8f3ff3cda8cbd0972fbe71b8d363dc/mo_threads-6.605.24115.tar.gz
+[2024-04-25 01:32:16] INFO root fetch - processPackages [gtsystem]: Downloading https://files.pythonhosted.org/packages/59/2a/eceefca5dcb9b6c3888783f2e928148331dca73750359c9b81ad93d93f7b/gtsystem-0.3.1.tar.gz
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.603.24115.tar.gz tmp/mo_files-6.605.24115.tar.gz --markdown 20240425/m/mo-files/6.603.24115-6.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-6.603.24115.tar.gz tmp/mo_threads-6.605.24115.tar.gz --markdown 20240425/m/mo-threads/6.603.24115-6.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:32:17] INFO root fetch - processPackages [gtsystem]: executing diffoscope
+[2024-04-25 01:32:17] INFO root fetch - processPackages [gtsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtsystem-0.2.1.tar.gz tmp/gtsystem-0.3.1.tar.gz --markdown 20240425/g/gtsystem/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-04-25 01:32:17] INFO root fetch - processPackages [discover-overlay]: Downloading https://files.pythonhosted.org/packages/59/57/8b372cb8d37b3903121eb03e1ef6c723d6c07f5cf6134a735741238edd0d/discover_overlay-0.7.4.tar.gz
+[2024-04-25 01:32:17] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-04-25 01:32:17] INFO root fetch - processPackages [discover-overlay]: executing diffoscope
+[2024-04-25 01:32:17] INFO root fetch - processPackages [discover-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discover-overlay-0.7.3.tar.gz tmp/discover_overlay-0.7.4.tar.gz --markdown 20240425/d/discover-overlay/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-25 01:32:17] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-04-25 01:32:17] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240425/h/humanloop/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.603.24115.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.605.24115.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.603.24115.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.605.24115.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2024-04-25 01:32:17] INFO root fetch - processPackages [sideseeing-tools]: Remove: archive file [/home/abi/fetcher/tmp/sideseeing_tools-0.1.6.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - processPackages [sideseeing-tools]: Remove: archive file [/home/abi/fetcher/tmp/sideseeing_tools-0.1.7.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - main [MainThread]: End processing [sideseeing-tools]: success
+[2024-04-25 01:32:17] INFO root fetch - processPackages [gtsystem]: Remove: archive file [/home/abi/fetcher/tmp/gtsystem-0.2.1.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - processPackages [gtsystem]: Remove: archive file [/home/abi/fetcher/tmp/gtsystem-0.3.1.tar.gz]
+[2024-04-25 01:32:17] INFO root fetch - main [MainThread]: End processing [gtsystem]: success
+[2024-04-25 01:32:18] INFO root fetch - processPackages [datasette-secrets]: Remove: archive file [/home/abi/fetcher/tmp/datasette_secrets-0.1a1.tar.gz]
+[2024-04-25 01:32:18] INFO root fetch - processPackages [datasette-secrets]: Remove: archive file [/home/abi/fetcher/tmp/datasette_secrets-0.1a2.tar.gz]
+[2024-04-25 01:32:18] INFO root fetch - main [MainThread]: End processing [datasette-secrets]: success
+[2024-04-25 01:32:18] INFO root fetch - processPackages [discover-overlay]: Remove: archive file [/home/abi/fetcher/tmp/discover-overlay-0.7.3.tar.gz]
+[2024-04-25 01:32:18] INFO root fetch - processPackages [discover-overlay]: Remove: archive file [/home/abi/fetcher/tmp/discover_overlay-0.7.4.tar.gz]
+[2024-04-25 01:32:18] INFO root fetch - main [MainThread]: End processing [discover-overlay]: success
+[2024-04-25 01:32:21] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-04-25 01:32:21] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-04-25 01:32:21] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-04-25 01:32:21] INFO root fetch - main [MainThread]: Store serial: [22921850]
