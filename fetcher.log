@@ -1263,3 +1263,51 @@
 [2024-04-25 00:59:49] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
 [2024-04-25 00:59:49] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-04-25 00:59:49] INFO root fetch - main [MainThread]: Store serial: [22921474]
+[2024-04-25 01:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921474]
+[2024-04-25 01:01:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 01:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-jutil
+[2024-04-25 01:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-04-25 01:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiplerequests
+[2024-04-25 01:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vidcrawler
+[2024-04-25 01:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: filefinder
+[2024-04-25 01:01:57] INFO root fetch - processPackages [filefinder]: New version: [1.0.0] Old Version: [0.5.0]
+[2024-04-25 01:01:57] INFO root fetch - processPackages [multiplerequests]: New version: [2.31.3] Old Version: [2.31.2]
+[2024-04-25 01:01:57] INFO root fetch - processPackages [filefinder]: Downloading https://files.pythonhosted.org/packages/5a/e3/7c120d819cbc9f4d1f1955fe028033af66a2b900a4591991b925cc7cc948/filefinder-0.5.0.tar.gz
+[2024-04-25 01:01:57] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev9] Old Version: [0.0.6.dev8]
+[2024-04-25 01:01:57] INFO root fetch - processPackages [vidcrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 01:01:57] INFO root fetch - processPackages [django-jutil]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-25 01:01:57] INFO root fetch - processPackages [multiplerequests]: Downloading https://files.pythonhosted.org/packages/07/2b/7282d9b688c884beab51e7ef24f32b7294c0dda174834ea35b9b788a6747/multiplerequests-2.31.2.tar.gz
+[2024-04-25 01:01:57] INFO root fetch - processPackages [filefinder]: Downloading https://files.pythonhosted.org/packages/ad/ea/0aa3ac04f8ef323f599bc07532d5cddd8e6e308c0a26471ec5023a8c6076/filefinder-1.0.0.tar.gz
+[2024-04-25 01:01:57] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/4c/fb/6fe241ac6d862dfb6a1d5ca519e8c52d18ddd46b649f0e5498e6dd0e8f95/torch_model_manager-0.0.6.dev8.tar.gz
+[2024-04-25 01:01:57] INFO root fetch - processPackages [vidcrawler]: Downloading https://files.pythonhosted.org/packages/07/95/170038068f035a2d144167bc519e48147726f314180b548e0e811ed82903/vidcrawler-1.0.8.tar.gz
+[2024-04-25 01:01:57] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/e0/7c/4c476c282a92277c2044d013e03ad6a183e820fd8522560b72b675061240/django-jutil-4.1.8.tar.gz
+[2024-04-25 01:01:57] INFO root fetch - processPackages [filefinder]: executing diffoscope
+[2024-04-25 01:01:57] INFO root fetch - processPackages [filefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filefinder-0.5.0.tar.gz tmp/filefinder-1.0.0.tar.gz --markdown 20240425/f/filefinder/0.5.0-1.0.0/README.md --exclude *.pyd
+[2024-04-25 01:01:58] INFO root fetch - processPackages [multiplerequests]: Downloading https://files.pythonhosted.org/packages/86/b9/cc312cd6a133eba8d315757f42c69812911e2646d7f19b27490a6bdb1043/multiplerequests-2.31.3.tar.gz
+[2024-04-25 01:01:58] INFO root fetch - processPackages [multiplerequests]: executing diffoscope
+[2024-04-25 01:01:58] INFO root fetch - processPackages [multiplerequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiplerequests-2.31.2.tar.gz tmp/multiplerequests-2.31.3.tar.gz --markdown 20240425/m/multiplerequests/2.31.2-2.31.3/README.md --exclude *.pyd
+[2024-04-25 01:01:58] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/2c/8e/04077c3ee6e8e2b9dd750c54f8bbf16c43024ebecc2e6ad18b233d172815/torch_model_manager-0.0.6.dev9.tar.gz
+[2024-04-25 01:01:58] INFO root fetch - processPackages [vidcrawler]: Downloading https://files.pythonhosted.org/packages/ac/0d/ffbf66b17901d50ed85efa4cfdcdbdfbdc08e8c41fa0f6de5a23c1691507/vidcrawler-1.0.9.tar.gz
+[2024-04-25 01:01:58] INFO root fetch - processPackages [django-jutil]: Downloading https://files.pythonhosted.org/packages/9c/33/e388792faf39c427d4d4639bc69d9694f937f80e3edc2e71a88b40601856/django-jutil-4.1.9.tar.gz
+[2024-04-25 01:01:58] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-25 01:01:58] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev8.tar.gz tmp/torch_model_manager-0.0.6.dev9.tar.gz --markdown 20240425/t/torch-model-manager/0.0.6.dev8-0.0.6.dev9/README.md --exclude *.pyd
+[2024-04-25 01:01:58] INFO root fetch - processPackages [vidcrawler]: executing diffoscope
+[2024-04-25 01:01:58] INFO root fetch - processPackages [vidcrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidcrawler-1.0.8.tar.gz tmp/vidcrawler-1.0.9.tar.gz --markdown 20240425/v/vidcrawler/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 01:01:58] INFO root fetch - processPackages [django-jutil]: executing diffoscope
+[2024-04-25 01:01:58] INFO root fetch - processPackages [django-jutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jutil-4.1.8.tar.gz tmp/django-jutil-4.1.9.tar.gz --markdown 20240425/d/django-jutil/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-04-25 01:01:58] INFO root fetch - processPackages [filefinder]: Remove: archive file [/home/abi/fetcher/tmp/filefinder-0.5.0.tar.gz]
+[2024-04-25 01:01:58] INFO root fetch - processPackages [filefinder]: Remove: archive file [/home/abi/fetcher/tmp/filefinder-1.0.0.tar.gz]
+[2024-04-25 01:01:58] INFO root fetch - main [MainThread]: End processing [filefinder]: success
+[2024-04-25 01:01:58] INFO root fetch - processPackages [multiplerequests]: Remove: archive file [/home/abi/fetcher/tmp/multiplerequests-2.31.2.tar.gz]
+[2024-04-25 01:01:58] INFO root fetch - processPackages [multiplerequests]: Remove: archive file [/home/abi/fetcher/tmp/multiplerequests-2.31.3.tar.gz]
+[2024-04-25 01:01:58] INFO root fetch - main [MainThread]: End processing [multiplerequests]: success
+[2024-04-25 01:01:58] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev8.tar.gz]
+[2024-04-25 01:01:58] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev9.tar.gz]
+[2024-04-25 01:01:58] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-25 01:01:59] INFO root fetch - processPackages [vidcrawler]: Remove: archive file [/home/abi/fetcher/tmp/vidcrawler-1.0.8.tar.gz]
+[2024-04-25 01:01:59] INFO root fetch - processPackages [vidcrawler]: Remove: archive file [/home/abi/fetcher/tmp/vidcrawler-1.0.9.tar.gz]
+[2024-04-25 01:01:59] INFO root fetch - main [MainThread]: End processing [vidcrawler]: success
+[2024-04-25 01:01:59] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-4.1.8.tar.gz]
+[2024-04-25 01:01:59] INFO root fetch - processPackages [django-jutil]: Remove: archive file [/home/abi/fetcher/tmp/django-jutil-4.1.9.tar.gz]
+[2024-04-25 01:01:59] INFO root fetch - main [MainThread]: End processing [django-jutil]: success
+[2024-04-25 01:01:59] INFO root fetch - main [MainThread]: Store serial: [22921488]
