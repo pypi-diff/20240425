@@ -1121,3 +1121,51 @@
 [2024-04-25 00:53:15] INFO root fetch - processPackages [dynamodump]: Remove: archive file [/home/abi/fetcher/tmp/dynamodump-1.9.1.tar.gz]
 [2024-04-25 00:53:15] INFO root fetch - main [MainThread]: End processing [dynamodump]: success
 [2024-04-25 00:53:15] INFO root fetch - main [MainThread]: Store serial: [22921411]
+[2024-04-25 00:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921411]
+[2024-04-25 00:55:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 00:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-04-25 00:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-ml-py
+[2024-04-25 00:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchbricks
+[2024-04-25 00:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phidata
+[2024-04-25 00:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-transform
+[2024-04-25 00:55:24] INFO root fetch - processPackages [nvidia-ml-py]: New version: [7.352.0] Old Version: [7.346.0]
+[2024-04-25 00:55:24] INFO root fetch - processPackages [torchbricks]: New version: [0.3.0] Old Version: [0.1.0]
+[2024-04-25 00:55:24] INFO root fetch - processPackages [tensorflow-transform]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-25 00:55:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-25 00:55:24] INFO root fetch - processPackages [phidata]: New version: [2.3.9] Old Version: [2.3.81]
+[2024-04-25 00:55:24] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/3d/c2/72aaf55adbf953904332934d234686880d4765c0f9ee83d5de1995e825ac/nvidia-ml-py-7.346.0.tar.gz
+[2024-04-25 00:55:24] INFO root fetch - processPackages [tensorflow-transform]: Downloading https://files.pythonhosted.org/packages/89/26/09576a1d95785e2c68cc49ad9d7f06a8c6a0933cf4b003e6d36c58e30fca/tensorflow_transform-1.8.0-py3-none-any.whl
+[2024-04-25 00:55:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-25 00:55:24] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/0d/6e/51079ea81977dbd36ee467fd5e167aa71b5eb74d6e39c716eeef4f61c17c/phidata-2.3.81.tar.gz
+[2024-04-25 00:55:24] INFO root fetch - processPackages [torchbricks]: Downloading https://files.pythonhosted.org/packages/48/df/854b417c7192422aceb416a1a2944bb18a7a7b36f818dfa8a9e3fba64095/torchbricks-0.1.0.tar.gz
+[2024-04-25 00:55:25] INFO root fetch - processPackages [torchbricks]: Downloading https://files.pythonhosted.org/packages/6c/4e/6514a26be6f642ca0582bd5b21beb4d63426f8fb6159b9c77949fccc373e/torchbricks-0.3.0.tar.gz
+[2024-04-25 00:55:25] INFO root fetch - processPackages [tensorflow-transform]: Downloading https://files.pythonhosted.org/packages/5a/4b/11635bf07606a0e482fd6f3046b6d17d3faab9c50be9ed357855ec72f589/tensorflow_transform-1.9.0-py3-none-any.whl
+[2024-04-25 00:55:25] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-25 00:55:25] INFO root fetch - processPackages [tensorflow-transform]: executing diffoscope
+[2024-04-25 00:55:25] INFO root fetch - processPackages [tensorflow-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_transform-1.8.0-py3-none-any.whl.zip tmp/tensorflow_transform-1.9.0-py3-none-any.whl.zip --markdown 20240425/t/tensorflow-transform/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-25 00:55:25] INFO root fetch - processPackages [torchbricks]: executing diffoscope
+[2024-04-25 00:55:25] INFO root fetch - processPackages [torchbricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbricks-0.1.0.tar.gz tmp/torchbricks-0.3.0.tar.gz --markdown 20240425/t/torchbricks/0.1.0-0.3.0/README.md --exclude *.pyd
+[2024-04-25 00:55:25] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-25 00:55:25] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240425/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-25 00:55:25] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-04-25 00:55:25] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-04-25 00:55:25] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.81.tar.gz tmp/phidata-2.3.9.tar.gz --markdown 20240425/p/phidata/2.3.81-2.3.9/README.md --exclude *.pyd
+[2024-04-25 00:55:25] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/72/31/378ca145e919ca415641a0f17f2669fa98c482a81f1f8fdfb72b1f9dbb37/nvidia-ml-py-7.352.0.tar.gz
+[2024-04-25 00:55:26] INFO root fetch - processPackages [nvidia-ml-py]: executing diffoscope
+[2024-04-25 00:55:26] INFO root fetch - processPackages [nvidia-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-ml-py-7.346.0.tar.gz tmp/nvidia-ml-py-7.352.0.tar.gz --markdown 20240425/n/nvidia-ml-py/7.346.0-7.352.0/README.md --exclude *.pyd
+[2024-04-25 00:55:26] INFO root fetch - processPackages [torchbricks]: Remove: archive file [/home/abi/fetcher/tmp/torchbricks-0.1.0.tar.gz]
+[2024-04-25 00:55:26] INFO root fetch - processPackages [torchbricks]: Remove: archive file [/home/abi/fetcher/tmp/torchbricks-0.3.0.tar.gz]
+[2024-04-25 00:55:26] INFO root fetch - main [MainThread]: End processing [torchbricks]: success
+[2024-04-25 00:55:26] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-25 00:55:26] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-25 00:55:26] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-25 00:55:26] INFO root fetch - processPackages [tensorflow-transform]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_transform-1.8.0-py3-none-any.whl.zip]
+[2024-04-25 00:55:26] INFO root fetch - processPackages [tensorflow-transform]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_transform-1.9.0-py3-none-any.whl.zip]
+[2024-04-25 00:55:26] INFO root fetch - main [MainThread]: End processing [tensorflow-transform]: success
+[2024-04-25 00:55:26] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.346.0.tar.gz]
+[2024-04-25 00:55:26] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.352.0.tar.gz]
+[2024-04-25 00:55:26] INFO root fetch - main [MainThread]: End processing [nvidia-ml-py]: success
+[2024-04-25 00:55:27] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.81.tar.gz]
+[2024-04-25 00:55:27] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-04-25 00:55:27] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-04-25 00:55:27] INFO root fetch - main [MainThread]: Store serial: [22921440]
