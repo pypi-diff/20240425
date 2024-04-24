@@ -2108,3 +2108,33 @@
 [2024-04-25 01:21:27] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-25 01:21:27] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-25 01:21:27] INFO root fetch - main [MainThread]: Store serial: [22921779]
+[2024-04-25 01:23:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921779]
+[2024-04-25 01:23:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 01:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-metadata-mapper
+[2024-04-25 01:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-logs
+[2024-04-25 01:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alchemical
+[2024-04-25 01:23:36] INFO root fetch - processPackages [mo-logs]: New version: [8.605.24115] Old Version: [8.603.24115]
+[2024-04-25 01:23:36] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/c4/40/ca6b3007282562bceaf83b1e33590c6b0ed480d4cb531953f98264175ac7/mo_logs-8.603.24115.tar.gz
+[2024-04-25 01:23:36] INFO root fetch - processPackages [alchemical]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 01:23:36] INFO root fetch - processPackages [aind-metadata-mapper]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-25 01:23:36] INFO root fetch - processPackages [alchemical]: Downloading https://files.pythonhosted.org/packages/08/53/a2b08dd3d0d048271899a60619094c6eda11f857a961a21004812564dbcf/alchemical-1.0.1.tar.gz
+[2024-04-25 01:23:36] INFO root fetch - processPackages [aind-metadata-mapper]: Downloading https://files.pythonhosted.org/packages/cc/46/a566649def11f4fc5bfbf4cc6d6b3e2cf1d066d608ad9b7a194a1cccacca/aind_metadata_mapper-0.6.4.tar.gz
+[2024-04-25 01:23:36] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/a4/d0/6054d18fdddfdc1601f879bb23e118c8a8c7257f2e31a0dec82885f928e7/mo_logs-8.605.24115.tar.gz
+[2024-04-25 01:23:36] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2024-04-25 01:23:36] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-8.603.24115.tar.gz tmp/mo_logs-8.605.24115.tar.gz --markdown 20240425/m/mo-logs/8.603.24115-8.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:23:36] INFO root fetch - processPackages [alchemical]: Downloading https://files.pythonhosted.org/packages/5f/f8/a84be6bf9bf4e86f2a2bdc441195bf8818ae0b62758f870d296d70bbd8cc/alchemical-1.0.2.tar.gz
+[2024-04-25 01:23:36] INFO root fetch - processPackages [aind-metadata-mapper]: Downloading https://files.pythonhosted.org/packages/d6/5a/a75fb40cefdebe326a4238c2db2b411530327e7f874e13d28bd7143fda43/aind_metadata_mapper-0.6.5.tar.gz
+[2024-04-25 01:23:36] INFO root fetch - processPackages [alchemical]: executing diffoscope
+[2024-04-25 01:23:36] INFO root fetch - processPackages [alchemical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemical-1.0.1.tar.gz tmp/alchemical-1.0.2.tar.gz --markdown 20240425/a/alchemical/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 01:23:37] INFO root fetch - processPackages [aind-metadata-mapper]: executing diffoscope
+[2024-04-25 01:23:37] INFO root fetch - processPackages [aind-metadata-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_mapper-0.6.4.tar.gz tmp/aind_metadata_mapper-0.6.5.tar.gz --markdown 20240425/a/aind-metadata-mapper/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-25 01:23:37] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.603.24115.tar.gz]
+[2024-04-25 01:23:37] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.605.24115.tar.gz]
+[2024-04-25 01:23:37] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2024-04-25 01:23:37] INFO root fetch - processPackages [alchemical]: Remove: archive file [/home/abi/fetcher/tmp/alchemical-1.0.1.tar.gz]
+[2024-04-25 01:23:37] INFO root fetch - processPackages [alchemical]: Remove: archive file [/home/abi/fetcher/tmp/alchemical-1.0.2.tar.gz]
+[2024-04-25 01:23:37] INFO root fetch - main [MainThread]: End processing [alchemical]: success
+[2024-04-25 01:23:38] INFO root fetch - processPackages [aind-metadata-mapper]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_mapper-0.6.4.tar.gz]
+[2024-04-25 01:23:38] INFO root fetch - processPackages [aind-metadata-mapper]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_mapper-0.6.5.tar.gz]
+[2024-04-25 01:23:38] INFO root fetch - main [MainThread]: End processing [aind-metadata-mapper]: success
+[2024-04-25 01:23:38] INFO root fetch - main [MainThread]: Store serial: [22921788]
