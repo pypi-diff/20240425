@@ -93,3 +93,42 @@
 [2024-04-25 00:02:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-25 00:02:20] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-25 00:02:20] INFO root fetch - main [MainThread]: Store serial: [22920973]
+[2024-04-25 00:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22920973]
+[2024-04-25 00:04:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limelightlib-python
+[2024-04-25 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pve-cli
+[2024-04-25 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prophet-tools
+[2024-04-25 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modgeosys-graph-algorithms
+[2024-04-25 00:04:29] INFO root fetch - processPackages [modgeosys-graph-algorithms]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-25 00:04:29] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Downloading https://files.pythonhosted.org/packages/f2/e4/5ff2002f5fb9faaede1ccb547ae39310215dcf90ca2d05344e3e955d864f/modgeosys_graph_algorithms-0.3.0.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [prophet-tools]: New version: [0.92] Old Version: [0.91]
+[2024-04-25 00:04:29] INFO root fetch - processPackages [limelightlib-python]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-25 00:04:29] INFO root fetch - processPackages [pve-cli]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-25 00:04:29] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/89/b5/1fc71293646fb58d548ba563bd50dc1ff967f8949c5e1c8d33dbdaae04ec/prophet_tools-0.91.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/a1/c4/914ff99a9c5f6ebc7755c2b29a6c6e50397696f464e742f050005c4e2eeb/limelightlib-python-0.9.1.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [pve-cli]: Downloading https://files.pythonhosted.org/packages/c6/31/0135ae6af50e0a08203a5eacff38f6100e67be706e98d4eaa526de5f9d84/pve_cli-0.5.0.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Downloading https://files.pythonhosted.org/packages/58/84/62154bb3e4a4ec4dec74d9c0f14e883485268b7f1fb352be0213ca925d4a/modgeosys_graph_algorithms-0.3.1.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [modgeosys-graph-algorithms]: executing diffoscope
+[2024-04-25 00:04:29] INFO root fetch - processPackages [modgeosys-graph-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modgeosys_graph_algorithms-0.3.0.tar.gz tmp/modgeosys_graph_algorithms-0.3.1.tar.gz --markdown 20240425/m/modgeosys-graph-algorithms/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-25 00:04:29] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/e6/de/84010c57eb29c1239c271e428a2b590aa687929d720259de0edd6b86f2b3/prophet_tools-0.92.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/37/71/171624429686be186f35205808082466e0c445549886cf9d6fa0b1c0d896/limelightlib_python-0.9.3.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [pve-cli]: Downloading https://files.pythonhosted.org/packages/37/16/c3c63e075663fd8d60d84a9cd7616a05627be3b7fc4e20009f87254e2eff/pve_cli-0.5.1.tar.gz
+[2024-04-25 00:04:29] INFO root fetch - processPackages [prophet-tools]: executing diffoscope
+[2024-04-25 00:04:29] INFO root fetch - processPackages [prophet-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophet_tools-0.91.tar.gz tmp/prophet_tools-0.92.tar.gz --markdown 20240425/p/prophet-tools/0.91-0.92/README.md --exclude *.pyd
+[2024-04-25 00:04:30] INFO root fetch - processPackages [pve-cli]: executing diffoscope
+[2024-04-25 00:04:30] INFO root fetch - processPackages [pve-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pve_cli-0.5.0.tar.gz tmp/pve_cli-0.5.1.tar.gz --markdown 20240425/p/pve-cli/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-25 00:04:30] INFO root fetch - processPackages [limelightlib-python]: executing diffoscope
+[2024-04-25 00:04:30] INFO root fetch - processPackages [limelightlib-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limelightlib-python-0.9.1.tar.gz tmp/limelightlib_python-0.9.3.tar.gz --markdown 20240425/l/limelightlib-python/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-04-25 00:04:30] INFO root fetch - processPackages [pve-cli]: Remove: archive file [/home/abi/fetcher/tmp/pve_cli-0.5.0.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - processPackages [pve-cli]: Remove: archive file [/home/abi/fetcher/tmp/pve_cli-0.5.1.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - main [MainThread]: End processing [pve-cli]: success
+[2024-04-25 00:04:30] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.91.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.92.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - main [MainThread]: End processing [prophet-tools]: success
+[2024-04-25 00:04:30] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib-python-0.9.1.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib_python-0.9.3.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - main [MainThread]: End processing [limelightlib-python]: success
+[2024-04-25 00:04:30] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/modgeosys_graph_algorithms-0.3.0.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/modgeosys_graph_algorithms-0.3.1.tar.gz]
+[2024-04-25 00:04:30] INFO root fetch - main [MainThread]: End processing [modgeosys-graph-algorithms]: success
+[2024-04-25 00:04:30] INFO root fetch - main [MainThread]: Store serial: [22920984]
