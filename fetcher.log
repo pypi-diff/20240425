@@ -2555,3 +2555,51 @@
 [2024-04-25 01:43:21] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
 [2024-04-25 01:43:21] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
 [2024-04-25 01:43:21] INFO root fetch - main [MainThread]: Store serial: [22921942]
+[2024-04-25 01:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921942]
+[2024-04-25 01:45:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 01:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: athena-intelligence
+[2024-04-25 01:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-sqlite
+[2024-04-25 01:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-04-25 01:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-data-requirement-work-log
+[2024-04-25 01:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certbot-dns-freedns
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mimllearning]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 01:45:30] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.50] Old Version: [0.1.49]
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/80/94/27e1a08e80506dc8c8891ca97c832ba618b93d7629443274b60c309cd7dd/mimllearning-0.1.8.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [certbot-dns-freedns]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mo-sqlite]: New version: [2.606.24115] Old Version: [2.586.24095]
+[2024-04-25 01:45:30] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-work-log]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.0]
+[2024-04-25 01:45:30] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/5b/ef/fe9db77b7ef745606657a9b63121217d817037f9405bf305ad65204ae3c2/athena_intelligence-0.1.49.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mo-sqlite]: Downloading https://files.pythonhosted.org/packages/c5/98/29c2a426ecff603a02ea82e6c57fde0514063d23d4c42c076834faf8b26a/mo-sqlite-2.586.24095.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [certbot-dns-freedns]: Downloading https://files.pythonhosted.org/packages/c1/7b/71ab85bd2070d0cc6667e24e61da18bc88336b9cd4f1f925104aebfb2fd4/certbot-dns-freedns-0.1.0.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-work-log]: Downloading https://files.pythonhosted.org/packages/23/37/96ff1b4c4e4d24a37b892ef0d72491af12fbab65cb65dd93d447d3397a18/odoo14_addon_ssi_data_requirement_work_log-14.0.1.0.0-py3-none-any.whl
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/33/b6/3b5e20c13a16703b303448256f6019c82837e6a1e82d3318804eda66bfde/mimllearning-0.1.9.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/16/ad/517c71f84a561bd2dd2f2e8558591defd7a69788e4f2dfe2f0944eae6ff2/athena_intelligence-0.1.50.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.1.8.tar.gz tmp/mimllearning-0.1.9.tar.gz --markdown 20240425/m/mimllearning/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mo-sqlite]: Downloading https://files.pythonhosted.org/packages/75/2f/17e610f020952be930d2f2fa362211d24639589c9051b89d4bde560d600e/mo_sqlite-2.606.24115.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-04-25 01:45:30] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.49.tar.gz tmp/athena_intelligence-0.1.50.tar.gz --markdown 20240425/a/athena-intelligence/0.1.49-0.1.50/README.md --exclude *.pyd
+[2024-04-25 01:45:30] INFO root fetch - processPackages [certbot-dns-freedns]: Downloading https://files.pythonhosted.org/packages/73/3f/33c60281778cd810ce35dfb1b0e3421a34b6dc01facbeea218cc8b58cb12/certbot_dns_freedns-0.2.0.tar.gz
+[2024-04-25 01:45:30] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-work-log]: Downloading https://files.pythonhosted.org/packages/26/5e/eeac6cc68f4efa80c8d5811d9522f37c1c489531806153a310d8cfc8dcce/odoo14_addon_ssi_data_requirement_work_log-14.0.1.1.0-py3-none-any.whl
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mo-sqlite]: executing diffoscope
+[2024-04-25 01:45:30] INFO root fetch - processPackages [mo-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-sqlite-2.586.24095.tar.gz tmp/mo_sqlite-2.606.24115.tar.gz --markdown 20240425/m/mo-sqlite/2.586.24095-2.606.24115/README.md --exclude *.pyd
+[2024-04-25 01:45:30] INFO root fetch - processPackages [certbot-dns-freedns]: executing diffoscope
+[2024-04-25 01:45:30] INFO root fetch - processPackages [certbot-dns-freedns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-freedns-0.1.0.tar.gz tmp/certbot_dns_freedns-0.2.0.tar.gz --markdown 20240425/c/certbot-dns-freedns/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-25 01:45:31] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-work-log]: executing diffoscope
+[2024-04-25 01:45:31] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-work-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_data_requirement_work_log-14.0.1.0.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_data_requirement_work_log-14.0.1.1.0-py3-none-any.whl.zip --markdown 20240425/o/odoo14-addon-ssi-data-requirement-work-log/14.0.1.0.0-14.0.1.1.0/README.md --exclude *.pyd
+[2024-04-25 01:45:31] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-work-log]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_data_requirement_work_log-14.0.1.0.0-py3-none-any.whl.zip]
+[2024-04-25 01:45:31] INFO root fetch - processPackages [odoo14-addon-ssi-data-requirement-work-log]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_data_requirement_work_log-14.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-25 01:45:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-data-requirement-work-log]: success
+[2024-04-25 01:45:31] INFO root fetch - processPackages [certbot-dns-freedns]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-freedns-0.1.0.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - processPackages [certbot-dns-freedns]: Remove: archive file [/home/abi/fetcher/tmp/certbot_dns_freedns-0.2.0.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - main [MainThread]: End processing [certbot-dns-freedns]: success
+[2024-04-25 01:45:31] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.8.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.9.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-25 01:45:31] INFO root fetch - processPackages [mo-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mo-sqlite-2.586.24095.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - processPackages [mo-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mo_sqlite-2.606.24115.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - main [MainThread]: End processing [mo-sqlite]: success
+[2024-04-25 01:45:31] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.49.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.50.tar.gz]
+[2024-04-25 01:45:31] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-04-25 01:45:31] INFO root fetch - main [MainThread]: Store serial: [22921958]
