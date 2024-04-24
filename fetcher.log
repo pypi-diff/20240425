@@ -379,3 +379,60 @@
 [2024-04-25 00:19:43] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
 [2024-04-25 00:19:43] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2024-04-25 00:19:43] INFO root fetch - main [MainThread]: Store serial: [22921077]
+[2024-04-25 00:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921077]
+[2024-04-25 00:21:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 00:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: navigator-session
+[2024-04-25 00:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zonevu
+[2024-04-25 00:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pathway
+[2024-04-25 00:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-secrets
+[2024-04-25 00:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hadolint-coatl
+[2024-04-25 00:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalc
+[2024-04-25 00:21:52] INFO root fetch - processPackages [navigator-session]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-25 00:21:52] INFO root fetch - processPackages [pathway]: New version: [0.post1] Old Version: [0.dev0]
+[2024-04-25 00:21:52] INFO root fetch - processPackages [hadolint-coatl]: New version: [2.12.0.2] Old Version: [2.12.0.1rc1]
+[2024-04-25 00:21:52] INFO root fetch - processPackages [zonevu]: New version: [1.1.21] Old Version: [1.1.20]
+[2024-04-25 00:21:52] INFO root fetch - processPackages [datasette-secrets]: New version: [0.1a2] Old Version: [0.1a1]
+[2024-04-25 00:21:52] INFO root fetch - processPackages [chalc]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-25 00:21:52] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/e0/02/fb36638c9f3fe2923cfe9d746323617f43f70019ae52c39cd843706b3cd1/pathway-0.dev0.tar.gz
+[2024-04-25 00:21:52] INFO root fetch - processPackages [navigator-session]: Downloading https://files.pythonhosted.org/packages/4a/79/319a7c7d04dcbd4989e91be16b4da1f64e9fa4fed4b7ed3b603e993f74e0/navigator_session-0.5.3-py3-none-any.whl
+[2024-04-25 00:21:52] INFO root fetch - processPackages [hadolint-coatl]: Downloading https://files.pythonhosted.org/packages/f9/a0/d363a14629e2e7037206b2ff52186293cfaee5842b5eb1666f9013f70295/hadolint_coatl-2.12.0.1rc1.tar.gz
+[2024-04-25 00:21:52] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/27/bf/8598b22270d60cf803294db079331dd90ff888e89d4ba05500ce8e1f8fa4/zonevu-1.1.20-py3-none-any.whl
+[2024-04-25 00:21:52] INFO root fetch - processPackages [datasette-secrets]: Downloading https://files.pythonhosted.org/packages/6f/ce/0113b23c2bd0a50cf8eb03e403817758a9769d9e4554c99fed0c3e255e46/datasette_secrets-0.1a1.tar.gz
+[2024-04-25 00:21:52] INFO root fetch - processPackages [chalc]: Downloading https://files.pythonhosted.org/packages/e9/4a/195aa87d2af7f275c52d6f412899f4d5a1875b1dacb44caeef317d852604/chalc-0.8.2.tar.gz
+[2024-04-25 00:21:53] INFO root fetch - processPackages [navigator-session]: Downloading https://files.pythonhosted.org/packages/c7/fe/e84aa85482209d0e753e9f15cdf6c4b737a419a5b69177be9f8bf176cc7a/navigator_session-0.5.4-py3-none-any.whl
+[2024-04-25 00:21:53] INFO root fetch - processPackages [hadolint-coatl]: Downloading https://files.pythonhosted.org/packages/c2/38/7b3db26bdef98da7aa09887d0759e067a45de5afe2c2f1df4e8fd4a6b635/hadolint_coatl-2.12.0.2.tar.gz
+[2024-04-25 00:21:53] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/66/84/5b59ac757d5591b5ed60573cf6ff867bb7023232ce007e988302fbdc2275/pathway-0.post1.tar.gz
+[2024-04-25 00:21:53] INFO root fetch - processPackages [datasette-secrets]: Downloading https://files.pythonhosted.org/packages/54/60/f6a0461b0c2585738abd62c1dc2dedb74cd34123b6ac2f33a6c32b4e61d8/datasette_secrets-0.1a2.tar.gz
+[2024-04-25 00:21:53] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/dd/70/a1adfe578b83c9b5f4eb5ad8759e4bfa9937844b7bc804062013dd85d467/zonevu-1.1.21-py3-none-any.whl
+[2024-04-25 00:21:53] INFO root fetch - processPackages [navigator-session]: executing diffoscope
+[2024-04-25 00:21:53] INFO root fetch - processPackages [navigator-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_session-0.5.3-py3-none-any.whl.zip tmp/navigator_session-0.5.4-py3-none-any.whl.zip --markdown 20240425/n/navigator-session/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-25 00:21:53] INFO root fetch - processPackages [hadolint-coatl]: executing diffoscope
+[2024-04-25 00:21:53] INFO root fetch - processPackages [hadolint-coatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hadolint_coatl-2.12.0.1rc1.tar.gz tmp/hadolint_coatl-2.12.0.2.tar.gz --markdown 20240425/h/hadolint-coatl/2.12.0.1rc1-2.12.0.2/README.md --exclude *.pyd
+[2024-04-25 00:21:53] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-25 00:21:53] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.20-py3-none-any.whl.zip tmp/zonevu-1.1.21-py3-none-any.whl.zip --markdown 20240425/z/zonevu/1.1.20-1.1.21/README.md --exclude *.pyd
+[2024-04-25 00:21:53] INFO root fetch - processPackages [datasette-secrets]: executing diffoscope
+[2024-04-25 00:21:53] INFO root fetch - processPackages [datasette-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_secrets-0.1a1.tar.gz tmp/datasette_secrets-0.1a2.tar.gz --markdown 20240425/d/datasette-secrets/0.1a1-0.1a2/README.md --exclude *.pyd
+[2024-04-25 00:21:53] INFO root fetch - processPackages [pathway]: executing diffoscope
+[2024-04-25 00:21:53] INFO root fetch - processPackages [pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathway-0.dev0.tar.gz tmp/pathway-0.post1.tar.gz --markdown 20240425/p/pathway/0.dev0-0.post1/README.md --exclude *.pyd
+[2024-04-25 00:21:53] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/pathway-0.dev0.tar.gz]
+[2024-04-25 00:21:53] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/pathway-0.post1.tar.gz]
+[2024-04-25 00:21:53] INFO root fetch - main [MainThread]: End processing [pathway]: success
+[2024-04-25 00:21:54] INFO root fetch - processPackages [navigator-session]: Remove: archive file [/home/abi/fetcher/tmp/navigator_session-0.5.3-py3-none-any.whl.zip]
+[2024-04-25 00:21:54] INFO root fetch - processPackages [navigator-session]: Remove: archive file [/home/abi/fetcher/tmp/navigator_session-0.5.4-py3-none-any.whl.zip]
+[2024-04-25 00:21:54] INFO root fetch - main [MainThread]: End processing [navigator-session]: success
+[2024-04-25 00:21:54] INFO root fetch - processPackages [hadolint-coatl]: Remove: archive file [/home/abi/fetcher/tmp/hadolint_coatl-2.12.0.1rc1.tar.gz]
+[2024-04-25 00:21:54] INFO root fetch - processPackages [hadolint-coatl]: Remove: archive file [/home/abi/fetcher/tmp/hadolint_coatl-2.12.0.2.tar.gz]
+[2024-04-25 00:21:54] INFO root fetch - main [MainThread]: End processing [hadolint-coatl]: success
+[2024-04-25 00:21:54] INFO root fetch - processPackages [datasette-secrets]: Remove: archive file [/home/abi/fetcher/tmp/datasette_secrets-0.1a1.tar.gz]
+[2024-04-25 00:21:54] INFO root fetch - processPackages [datasette-secrets]: Remove: archive file [/home/abi/fetcher/tmp/datasette_secrets-0.1a2.tar.gz]
+[2024-04-25 00:21:54] INFO root fetch - main [MainThread]: End processing [datasette-secrets]: success
+[2024-04-25 00:21:54] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.20-py3-none-any.whl.zip]
+[2024-04-25 00:21:54] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.21-py3-none-any.whl.zip]
+[2024-04-25 00:21:54] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-25 00:21:54] INFO root fetch - processPackages [chalc]: Downloading https://files.pythonhosted.org/packages/63/51/c644d161db781f6941307b2d2417691b91f6a2688950fe3d6ba0397dccf2/chalc-0.9.0.tar.gz
+[2024-04-25 00:21:56] INFO root fetch - processPackages [chalc]: executing diffoscope
+[2024-04-25 00:21:56] INFO root fetch - processPackages [chalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalc-0.8.2.tar.gz tmp/chalc-0.9.0.tar.gz --markdown 20240425/c/chalc/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-25 00:21:57] INFO root fetch - processPackages [chalc]: Remove: archive file [/home/abi/fetcher/tmp/chalc-0.8.2.tar.gz]
+[2024-04-25 00:21:57] INFO root fetch - processPackages [chalc]: Remove: archive file [/home/abi/fetcher/tmp/chalc-0.9.0.tar.gz]
+[2024-04-25 00:21:57] INFO root fetch - main [MainThread]: End processing [chalc]: success
+[2024-04-25 00:21:57] INFO root fetch - main [MainThread]: Store serial: [22921099]
