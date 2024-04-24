@@ -2603,3 +2603,33 @@
 [2024-04-25 01:45:31] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.50.tar.gz]
 [2024-04-25 01:45:31] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
 [2024-04-25 01:45:31] INFO root fetch - main [MainThread]: Store serial: [22921958]
+[2024-04-25 01:47:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921958]
+[2024-04-25 01:47:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 01:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MobileInventoryCLI
+[2024-04-25 01:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navigator-api
+[2024-04-25 01:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyluba
+[2024-04-25 01:47:40] INFO root fetch - processPackages [pyluba]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 01:47:40] INFO root fetch - processPackages [navigator-api]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-04-25 01:47:40] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.64] Old Version: [0.4.63]
+[2024-04-25 01:47:40] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/55/d8/744bcb09525b4ef622aad02f7f81acf33dacf80366375669057ff12696b9/pyluba-0.0.1.tar.gz
+[2024-04-25 01:47:40] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/4a/c1/4d2ef0e02aedcb067c1226d3312106df0168bc742bbe6ff3199051a654c5/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 01:47:40] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/74/75/81976d685746affc8f127c179ab57f11081bad82041c639095cf6766b51a/MobileInventoryCLI-0.4.63.tar.gz
+[2024-04-25 01:47:41] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/68/21/29e9f420bcfe25699741188d8a6916f70d8195a45823a37b00c68007f90f/pyluba-0.0.2.tar.gz
+[2024-04-25 01:47:41] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/98/f4/5019d15cdb8a9b56b5b222a9204a14acf0aa22736a4489c3935cc7e932f7/MobileInventoryCLI-0.4.64.tar.gz
+[2024-04-25 01:47:41] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-04-25 01:47:41] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.1.tar.gz tmp/pyluba-0.0.2.tar.gz --markdown 20240425/p/pyluba/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 01:47:41] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-25 01:47:41] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.63.tar.gz tmp/MobileInventoryCLI-0.4.64.tar.gz --markdown 20240425/M/MobileInventoryCLI/0.4.63-0.4.64/README.md --exclude *.pyd
+[2024-04-25 01:47:41] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/23/9d/d6e87407f60468f5fc607bc9db56b812d4afaf5641fdc7365a5b358ccfb4/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 01:47:41] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.1.tar.gz]
+[2024-04-25 01:47:41] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.2.tar.gz]
+[2024-04-25 01:47:41] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-04-25 01:47:42] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.63.tar.gz]
+[2024-04-25 01:47:42] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.64.tar.gz]
+[2024-04-25 01:47:42] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-25 01:47:42] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2024-04-25 01:47:42] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240425/n/navigator-api/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-04-25 01:47:42] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 01:47:42] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 01:47:42] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2024-04-25 01:47:42] INFO root fetch - main [MainThread]: Store serial: [22921968]
