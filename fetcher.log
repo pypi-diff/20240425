@@ -340,3 +340,42 @@
 [2024-04-25 00:17:31] INFO root fetch - processPackages [feagi-connector]: Remove: archive file [/home/abi/fetcher/tmp/feagi_connector-0.0.9.tar.gz]
 [2024-04-25 00:17:31] INFO root fetch - main [MainThread]: End processing [feagi-connector]: success
 [2024-04-25 00:17:31] INFO root fetch - main [MainThread]: Store serial: [22921066]
+[2024-04-25 00:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921066]
+[2024-04-25 00:19:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 00:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weather-rp5
+[2024-04-25 00:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes
+[2024-04-25 00:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dyff-client
+[2024-04-25 00:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suiteas
+[2024-04-25 00:19:39] INFO root fetch - processPackages [dyff-client]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 00:19:39] INFO root fetch - processPackages [weather-rp5]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 00:19:39] INFO root fetch - processPackages [suiteas]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 00:19:39] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.9.1] Old Version: [4.9.0a1709600505]
+[2024-04-25 00:19:39] INFO root fetch - processPackages [dyff-client]: Downloading https://files.pythonhosted.org/packages/62/5d/027a9cb975ab2ae6239765f7d1b2352ed6f82a965d4c0c3603ca81c88272/dyff_client-0.3.1.tar.gz
+[2024-04-25 00:19:39] INFO root fetch - processPackages [weather-rp5]: Downloading https://files.pythonhosted.org/packages/54/67/6fcbd687e9d404c286421bdc4e48bce53594f9e381c16cff45afc35393d5/weather_rp5-1.0.2.tar.gz
+[2024-04-25 00:19:39] INFO root fetch - processPackages [suiteas]: Downloading https://files.pythonhosted.org/packages/34/7b/3d2acc9308668132188323803ad37a2d2a84852ee3eacfaebc55971aa877/suiteas-0.3.1.tar.gz
+[2024-04-25 00:19:39] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/f5/70/02e4a8984b201b842988e123d98828a8b1023a0fe6f592c98fdebdca7506/pulumi_kubernetes-4.9.0a1709600505.tar.gz
+[2024-04-25 00:19:40] INFO root fetch - processPackages [suiteas]: Downloading https://files.pythonhosted.org/packages/56/0c/737cb8d950f336ec33e44bb7e6487d5818c4feb7aadd82eda147bd1d00ea/suiteas-0.3.2.tar.gz
+[2024-04-25 00:19:40] INFO root fetch - processPackages [weather-rp5]: Downloading https://files.pythonhosted.org/packages/98/e4/879823c58660f58915bfc79435a01394756ba6f718ac8c4d1cd9b990be55/weather_rp5-1.0.3-py3-none-any.whl
+[2024-04-25 00:19:40] INFO root fetch - processPackages [dyff-client]: Downloading https://files.pythonhosted.org/packages/ef/be/60d1bf94e204d59781c61a135ca61255a92aa78041f3f3aff6ec7c1e5076/dyff_client-0.3.2.tar.gz
+[2024-04-25 00:19:40] INFO root fetch - processPackages [suiteas]: executing diffoscope
+[2024-04-25 00:19:40] INFO root fetch - processPackages [suiteas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suiteas-0.3.1.tar.gz tmp/suiteas-0.3.2.tar.gz --markdown 20240425/s/suiteas/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 00:19:40] INFO root fetch - processPackages [weather-rp5]: executing diffoscope
+[2024-04-25 00:19:40] INFO root fetch - processPackages [weather-rp5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_rp5-1.0.2.tar.gz tmp/weather_rp5-1.0.3-py3-none-any.whl.zip --markdown 20240425/w/weather-rp5/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 00:19:40] INFO root fetch - processPackages [dyff-client]: executing diffoscope
+[2024-04-25 00:19:40] INFO root fetch - processPackages [dyff-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_client-0.3.1.tar.gz tmp/dyff_client-0.3.2.tar.gz --markdown 20240425/d/dyff-client/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 00:19:40] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ae/8c/e58bd57f74c8cbc29a99be666c50a014e5a311981c62ce715186a4c80d41/pulumi_kubernetes-4.9.1.tar.gz
+[2024-04-25 00:19:40] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2024-04-25 00:19:40] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz tmp/pulumi_kubernetes-4.9.1.tar.gz --markdown 20240425/p/pulumi-kubernetes/4.9.0a1709600505-4.9.1/README.md --exclude *.pyd
+[2024-04-25 00:19:40] INFO root fetch - processPackages [weather-rp5]: Remove: archive file [/home/abi/fetcher/tmp/weather_rp5-1.0.2.tar.gz]
+[2024-04-25 00:19:40] INFO root fetch - processPackages [weather-rp5]: Remove: archive file [/home/abi/fetcher/tmp/weather_rp5-1.0.3-py3-none-any.whl.zip]
+[2024-04-25 00:19:40] INFO root fetch - main [MainThread]: End processing [weather-rp5]: success
+[2024-04-25 00:19:41] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff_client-0.3.1.tar.gz]
+[2024-04-25 00:19:41] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff_client-0.3.2.tar.gz]
+[2024-04-25 00:19:41] INFO root fetch - main [MainThread]: End processing [dyff-client]: success
+[2024-04-25 00:19:41] INFO root fetch - processPackages [suiteas]: Remove: archive file [/home/abi/fetcher/tmp/suiteas-0.3.1.tar.gz]
+[2024-04-25 00:19:41] INFO root fetch - processPackages [suiteas]: Remove: archive file [/home/abi/fetcher/tmp/suiteas-0.3.2.tar.gz]
+[2024-04-25 00:19:41] INFO root fetch - main [MainThread]: End processing [suiteas]: success
+[2024-04-25 00:19:43] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz]
+[2024-04-25 00:19:43] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
+[2024-04-25 00:19:43] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2024-04-25 00:19:43] INFO root fetch - main [MainThread]: Store serial: [22921077]
