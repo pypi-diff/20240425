@@ -2711,3 +2711,27 @@
 [2024-04-25 01:52:10] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-2.0.0-py3-none-any.whl.zip]
 [2024-04-25 01:52:10] INFO root fetch - main [MainThread]: End processing [monai-deploy-app-sdk]: success
 [2024-04-25 01:52:10] INFO root fetch - main [MainThread]: Store serial: [22921998]
+[2024-04-25 01:54:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921998]
+[2024-04-25 01:54:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 01:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dib3-utils
+[2024-04-25 01:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aylak
+[2024-04-25 01:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-data-validation
+[2024-04-25 01:54:18] INFO root fetch - processPackages [aylak]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2024-04-25 01:54:18] INFO root fetch - processPackages [aylak]: Downloading https://files.pythonhosted.org/packages/5f/42/2e31963e0d87fea63e75225df9bd9a66cec5b8bf4be77f67ace254b86e7a/aylak-0.0.7.1.tar.gz
+[2024-04-25 01:54:18] WARNING root fetch - processPackages [dib3-utils]: Skipping, unable to determine old version
+[2024-04-25 01:54:18] INFO root fetch - main [MainThread]: End processing [dib3-utils] error
+[2024-04-25 01:54:18] INFO root fetch - processPackages [tensorflow-data-validation]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-25 01:54:18] INFO root fetch - processPackages [aylak]: Downloading https://files.pythonhosted.org/packages/2d/70/ff84c3bda97614e25e4b840e2f98778329ff1561b81d77a53a945051a22d/aylak-0.0.7.2.tar.gz
+[2024-04-25 01:54:19] INFO root fetch - processPackages [aylak]: executing diffoscope
+[2024-04-25 01:54:19] INFO root fetch - processPackages [aylak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aylak-0.0.7.1.tar.gz tmp/aylak-0.0.7.2.tar.gz --markdown 20240425/a/aylak/0.0.7.1-0.0.7.2/README.md --exclude *.pyd
+[2024-04-25 01:54:19] INFO root fetch - processPackages [tensorflow-data-validation]: Downloading https://files.pythonhosted.org/packages/ab/70/9868dd14ddfaf5e207ff6053c13701c848a5e9ea9d5e5e4bcf3dc49c46e7/tensorflow_data_validation-1.8.0-cp39-cp39-win_amd64.whl
+[2024-04-25 01:54:19] INFO root fetch - processPackages [tensorflow-data-validation]: Downloading https://files.pythonhosted.org/packages/60/b3/b670c51e29891c33c5e5800b0ab47688da94c9ef515636a1eddd10df60fa/tensorflow_data_validation-1.9.0-cp39-cp39-win_amd64.whl
+[2024-04-25 01:54:19] INFO root fetch - processPackages [tensorflow-data-validation]: executing diffoscope
+[2024-04-25 01:54:19] INFO root fetch - processPackages [tensorflow-data-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_data_validation-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/tensorflow_data_validation-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240425/t/tensorflow-data-validation/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-25 01:54:20] INFO root fetch - processPackages [aylak]: Remove: archive file [/home/abi/fetcher/tmp/aylak-0.0.7.1.tar.gz]
+[2024-04-25 01:54:20] INFO root fetch - processPackages [aylak]: Remove: archive file [/home/abi/fetcher/tmp/aylak-0.0.7.2.tar.gz]
+[2024-04-25 01:54:20] INFO root fetch - main [MainThread]: End processing [aylak]: success
+[2024-04-25 01:54:21] INFO root fetch - processPackages [tensorflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_data_validation-1.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 01:54:21] INFO root fetch - processPackages [tensorflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_data_validation-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 01:54:21] INFO root fetch - main [MainThread]: End processing [tensorflow-data-validation]: success
+[2024-04-25 01:54:21] INFO root fetch - main [MainThread]: Store serial: [22922008]
