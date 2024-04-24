@@ -1,0 +1,95 @@
+[2024-04-25 00:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22920937]
+[2024-04-25 00:02:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-infraflow-cdk
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: primemetric
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-api
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beaker-gantry
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wmill
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prophet-tools
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill-pg
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybunch
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poplar-apcheques
+[2024-04-25 00:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caustic.parser
+[2024-04-25 00:02:14] INFO root fetch - processPackages [prophet-tools]: New version: [0.9] Old Version: [0.8]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.8.9.5] Old Version: [0.1.9.8.9.4]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [beaker-gantry]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/e3/0e/4c2394330494bead23143fd86d4586ca7b2c7f646022baa22b94e159d0e2/prophet_tools-0.8.tar.gz
+[2024-04-25 00:02:14] WARNING root fetch - processPackages [poplar-apcheques]: Skipping, unable to determine old version
+[2024-04-25 00:02:14] INFO root fetch - processPackages [poplar-apcheques]: Start processing: sqlutilpy
+[2024-04-25 00:02:14] INFO root fetch - main [MainThread]: End processing [poplar-apcheques] error
+[2024-04-25 00:02:14] WARNING root fetch - processPackages [primemetric]: Skipping, unable to determine old version
+[2024-04-25 00:02:14] INFO root fetch - processPackages [primemetric]: Start processing: boutpp-nightly
+[2024-04-25 00:02:14] INFO root fetch - main [MainThread]: End processing [primemetric] error
+[2024-04-25 00:02:14] INFO root fetch - processPackages [caustic.parser]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [pybunch]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/e1/7d/ca971e52f0a06ca1bcbec7427cf07ab8163f0c62aababebbb377c87cc3f5/py_infraflow_cdk-0.1.9.8.9.4.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [sqlutilpy]: New version: [0.22.0] Old Version: [0.21.0]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.2.0.dev7] Old Version: [5.2.0.dev69]
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/b6/ea/2a162abd76e6ed4b274a9ee1770ffc189035f95b7523a3da63c33a57d157/boutpp-nightly-v5.2.0.dev69.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/2c/2e/e4a69215b05a72bda79c6c66250cacbe2e4b10c5e7f917671acea4b1c38a/beaker-gantry-0.9.3.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/c9/04/e10a57b23630bb453a4259cd7d0a421566e0187d12993bf5c017b4097e31/caustic.parser-2.0.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/9a/64/c314ce227f8e5c958f6ef74b5ebe7cbfcc1ff4126ab645fea07e204757a7/prophet_tools-0.9.tar.gz
+[2024-04-25 00:02:14] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 17920509>=10485760
+[2024-04-25 00:02:14] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2024-04-25 00:02:14] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/9f/4d/d8467f26bb1a59cf0a4536dd3d787df5754ea90b590e2b263aa4dd96978c/pybunch-1.0.8.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [sqlutilpy]: Downloading https://files.pythonhosted.org/packages/29/22/458e40ab0940f0464fc18515d4f090b173e75b534bb78fa0cf4986d03a7e/sqlutilpy-0.21.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [prophet-tools]: executing diffoscope
+[2024-04-25 00:02:14] INFO root fetch - processPackages [prophet-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophet_tools-0.8.tar.gz tmp/prophet_tools-0.9.tar.gz --markdown 20240425/p/prophet-tools/0.8-0.9/README.md --exclude *.pyd
+[2024-04-25 00:02:14] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/dc/1e/7602007acfe5fe368f6c6d51a4cad4ba68ff8caee2c47b33df906c8c3d55/py_infraflow_cdk-0.1.9.8.9.5.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240425/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-25 00:02:14] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-25 00:02:14] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240425/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-25 00:02:14] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240425/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-25 00:02:14] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-04-25 00:02:14] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.8.9.4.tar.gz tmp/py_infraflow_cdk-0.1.9.8.9.5.tar.gz --markdown 20240425/p/py-infraflow-cdk/0.1.9.8.9.4-0.1.9.8.9.5/README.md --exclude *.pyd
+[2024-04-25 00:02:14] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/37/1f/1018dcd018667d80222ae14c6ae72f92e5fcae982393f2638f0e4787361f/caustic.parser-2.1.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [sqlutilpy]: Downloading https://files.pythonhosted.org/packages/6a/11/d23a3cf96fc306ccf8b463e0c652d3eec13e29f34b31ccaac867146dfbb6/sqlutilpy-0.22.0.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/f2/5d/c7ff16c5a81312e4d3c036afbe76b917bd7afad965ca06e3279374dca049/pybunch-1.0.9.tar.gz
+[2024-04-25 00:02:14] INFO root fetch - processPackages [caustic.parser]: executing diffoscope
+[2024-04-25 00:02:14] INFO root fetch - processPackages [caustic.parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.parser-2.0.0.tar.gz tmp/caustic.parser-2.1.0.tar.gz --markdown 20240425/c/caustic.parser/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-25 00:02:15] INFO root fetch - processPackages [sqlutilpy]: executing diffoscope
+[2024-04-25 00:02:15] INFO root fetch - processPackages [sqlutilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlutilpy-0.21.0.tar.gz tmp/sqlutilpy-0.22.0.tar.gz --markdown 20240425/s/sqlutilpy/0.21.0-0.22.0/README.md --exclude *.pyd
+[2024-04-25 00:02:15] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-25 00:02:15] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.8.tar.gz tmp/pybunch-1.0.9.tar.gz --markdown 20240425/p/pybunch/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 00:02:15] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/98/d4/73220f62818889dca63f9eccf13dad524c84f95f34a1a50b4198270a0cdc/beaker-gantry-0.9.4.tar.gz
+[2024-04-25 00:02:15] INFO root fetch - processPackages [beaker-gantry]: executing diffoscope
+[2024-04-25 00:02:15] INFO root fetch - processPackages [beaker-gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker-gantry-0.9.3.tar.gz tmp/beaker-gantry-0.9.4.tar.gz --markdown 20240425/b/beaker-gantry/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-25 00:02:15] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.8.tar.gz]
+[2024-04-25 00:02:15] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.9.tar.gz]
+[2024-04-25 00:02:15] INFO root fetch - main [MainThread]: End processing [prophet-tools]: success
+[2024-04-25 00:02:16] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-25 00:02:16] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-25 00:02:16] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.8.9.4.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.8.9.5.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-04-25 00:02:16] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.0.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.1.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
+[2024-04-25 00:02:16] INFO root fetch - processPackages [sqlutilpy]: Remove: archive file [/home/abi/fetcher/tmp/sqlutilpy-0.21.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [sqlutilpy]: Remove: archive file [/home/abi/fetcher/tmp/sqlutilpy-0.22.0.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - main [MainThread]: End processing [sqlutilpy]: success
+[2024-04-25 00:02:16] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.8.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.9.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-25 00:02:16] INFO root fetch - processPackages [beaker-gantry]: Remove: archive file [/home/abi/fetcher/tmp/beaker-gantry-0.9.3.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - processPackages [beaker-gantry]: Remove: archive file [/home/abi/fetcher/tmp/beaker-gantry-0.9.4.tar.gz]
+[2024-04-25 00:02:16] INFO root fetch - main [MainThread]: End processing [beaker-gantry]: success
+[2024-04-25 00:02:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-25 00:02:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-25 00:02:20] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-25 00:02:20] INFO root fetch - main [MainThread]: Store serial: [22920973]
