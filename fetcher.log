@@ -1052,3 +1052,24 @@
 [2024-04-25 00:46:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.35-py3-none-any.whl.zip]
 [2024-04-25 00:46:43] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-04-25 00:46:43] INFO root fetch - main [MainThread]: Store serial: [22921382]
+[2024-04-25 00:48:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921382]
+[2024-04-25 00:48:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 00:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EntropyHub
+[2024-04-25 00:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-streams
+[2024-04-25 00:48:51] INFO root fetch - processPackages [EntropyHub]: New version: [1.0.1.post1] Old Version: [1.0.1]
+[2024-04-25 00:48:51] INFO root fetch - processPackages [mo-streams]: New version: [1.604.24115] Old Version: [1.602.24115]
+[2024-04-25 00:48:51] INFO root fetch - processPackages [EntropyHub]: Downloading https://files.pythonhosted.org/packages/4f/ae/8b99d0925bedcb326e965d95fb4d90eaac02903db2bf4c5d264ff3e5954b/EntropyHub-1.0.1.tar.gz
+[2024-04-25 00:48:51] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/1c/09/e271ed6e1e6b84f169bde10ca99ff300862c6eaa7eb5c26a5c6bb0b1bf0c/mo_streams-1.602.24115.tar.gz
+[2024-04-25 00:48:51] INFO root fetch - processPackages [EntropyHub]: Downloading https://files.pythonhosted.org/packages/6f/69/4f2ab7c43aaa02d16c8da9c6148f8e2e5d153752bc13c70624cdbb260346/EntropyHub-1.0.1.post1.tar.gz
+[2024-04-25 00:48:51] INFO root fetch - processPackages [EntropyHub]: executing diffoscope
+[2024-04-25 00:48:51] INFO root fetch - processPackages [EntropyHub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EntropyHub-1.0.1.tar.gz tmp/EntropyHub-1.0.1.post1.tar.gz --markdown 20240425/E/EntropyHub/1.0.1-1.0.1.post1/README.md --exclude *.pyd
+[2024-04-25 00:48:51] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/3c/dd/3ca334a5babf8d6a4d5ba7f22520f9dbdba3fdf1c94cb8eeb5d4cab25091/mo_streams-1.604.24115.tar.gz
+[2024-04-25 00:48:52] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-04-25 00:48:52] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_streams-1.602.24115.tar.gz tmp/mo_streams-1.604.24115.tar.gz --markdown 20240425/m/mo-streams/1.602.24115-1.604.24115/README.md --exclude *.pyd
+[2024-04-25 00:48:52] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.602.24115.tar.gz]
+[2024-04-25 00:48:52] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.604.24115.tar.gz]
+[2024-04-25 00:48:52] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-04-25 00:48:52] INFO root fetch - processPackages [EntropyHub]: Remove: archive file [/home/abi/fetcher/tmp/EntropyHub-1.0.1.tar.gz]
+[2024-04-25 00:48:52] INFO root fetch - processPackages [EntropyHub]: Remove: archive file [/home/abi/fetcher/tmp/EntropyHub-1.0.1.post1.tar.gz]
+[2024-04-25 00:48:52] INFO root fetch - main [MainThread]: End processing [EntropyHub]: success
+[2024-04-25 00:48:52] INFO root fetch - main [MainThread]: Store serial: [22921388]
