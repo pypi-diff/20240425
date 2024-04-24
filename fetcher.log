@@ -866,3 +866,36 @@
 [2024-04-25 00:37:19] INFO root fetch - processPackages [ligo.em-bright]: Remove: archive file [/home/abi/fetcher/tmp/ligo_em_bright-1.1.7.tar.gz]
 [2024-04-25 00:37:19] INFO root fetch - main [MainThread]: End processing [ligo.em-bright]: success
 [2024-04-25 00:37:19] INFO root fetch - main [MainThread]: Store serial: [22921299]
+[2024-04-25 00:39:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921299]
+[2024-04-25 00:39:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 00:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-threads
+[2024-04-25 00:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiplerequests
+[2024-04-25 00:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bsl-appcli
+[2024-04-25 00:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-files
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-files]: New version: [6.603.24115] Old Version: [6.602.24115]
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-threads]: New version: [6.603.24115] Old Version: [6.602.24115]
+[2024-04-25 00:39:28] WARNING root fetch - processPackages [multiplerequests]: Skipping, unable to determine old version
+[2024-04-25 00:39:28] INFO root fetch - main [MainThread]: End processing [multiplerequests] error
+[2024-04-25 00:39:28] INFO root fetch - processPackages [bsl-appcli]: New version: [3.0.0] Old Version: [2.5.0]
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/c8/ad/b68ffbc32bc11cbfd5cccacd159f3b24cd9b931e2b7c43f158662595ec6e/mo_files-6.602.24115.tar.gz
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/66/89/2e6a8956bd30fa2b88450e35dcffca7c3330ad6b08ae57eeb9bcb4836782/mo_threads-6.602.24115.tar.gz
+[2024-04-25 00:39:28] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/55/62/f1c94c1364137feb16a574a44ee203e0dad20b4ef1b03815c345cb53d670/bsl-appcli-2.5.0.tar.gz
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/9f/e3/62588b823882576bff615384275d307650de8fac12548159424e8eb3caf0/mo_files-6.603.24115.tar.gz
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/74/df/287f7c34ad26896bf2f964b02b18260444f61581d2f08f66e2f092c207cd/mo_threads-6.603.24115.tar.gz
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2024-04-25 00:39:28] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.602.24115.tar.gz tmp/mo_files-6.603.24115.tar.gz --markdown 20240425/m/mo-files/6.602.24115-6.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:39:29] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2024-04-25 00:39:29] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-6.602.24115.tar.gz tmp/mo_threads-6.603.24115.tar.gz --markdown 20240425/m/mo-threads/6.602.24115-6.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:39:29] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/37/32/e346bc66b4cd72d7bfbca14b02257dd188af8cbd84daf257538f858ebdf6/bsl_appcli-3.0.0.tar.gz
+[2024-04-25 00:39:29] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2024-04-25 00:39:29] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-2.5.0.tar.gz tmp/bsl_appcli-3.0.0.tar.gz --markdown 20240425/b/bsl-appcli/2.5.0-3.0.0/README.md --exclude *.pyd
+[2024-04-25 00:39:29] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.602.24115.tar.gz]
+[2024-04-25 00:39:29] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.603.24115.tar.gz]
+[2024-04-25 00:39:29] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2024-04-25 00:39:29] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.602.24115.tar.gz]
+[2024-04-25 00:39:29] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.603.24115.tar.gz]
+[2024-04-25 00:39:29] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2024-04-25 00:39:30] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl-appcli-2.5.0.tar.gz]
+[2024-04-25 00:39:30] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl_appcli-3.0.0.tar.gz]
+[2024-04-25 00:39:30] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2024-04-25 00:39:30] INFO root fetch - main [MainThread]: Store serial: [22921318]
