@@ -1862,3 +1862,54 @@
 [2024-04-25 01:10:23] INFO root fetch - processPackages [skytemple-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_randomizer-2.0.0b1-py3-none-any.whl.zip]
 [2024-04-25 01:10:23] INFO root fetch - main [MainThread]: End processing [skytemple-randomizer]: success
 [2024-04-25 01:10:23] INFO root fetch - main [MainThread]: Store serial: [22921685]
+[2024-04-25 01:12:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921685]
+[2024-04-25 01:12:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inngest
+[2024-04-25 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asqlorm
+[2024-04-25 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-04-25 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeanim
+[2024-04-25 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-extract
+[2024-04-25 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loggerk
+[2024-04-25 01:12:35] INFO root fetch - processPackages [inngest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 01:12:35] INFO root fetch - processPackages [mimllearning]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 01:12:35] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/4e/be/6af3c80e98198eaf9d43381f17fb76dd8fd86e8c650e9598c2b9ed0d742c/inngest-0.3.8.tar.gz
+[2024-04-25 01:12:35] INFO root fetch - processPackages [asqlorm]: New version: [0.6.1] Old Version: [0.5.2]
+[2024-04-25 01:12:35] INFO root fetch - processPackages [codeanim]: New version: [0.0.9] Old Version: [0.0.15]
+[2024-04-25 01:12:35] WARNING root fetch - processPackages [loggerk]: Skipping, unable to determine old version
+[2024-04-25 01:12:35] INFO root fetch - main [MainThread]: End processing [loggerk] error
+[2024-04-25 01:12:35] INFO root fetch - processPackages [datasette-extract]: New version: [0.1a5] Old Version: [0.1a4]
+[2024-04-25 01:12:35] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/23/95/5e0356c8a57a89f1bac326def434dafe91ff53046558ac1cde43698e3d1f/codeanim-0.0.15.tar.gz
+[2024-04-25 01:12:35] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/80/94/27e1a08e80506dc8c8891ca97c832ba618b93d7629443274b60c309cd7dd/mimllearning-0.1.8.tar.gz
+[2024-04-25 01:12:35] INFO root fetch - processPackages [asqlorm]: Downloading https://files.pythonhosted.org/packages/1d/63/22ce56535074cab2c667e9ece47de769f4912e8bcc5ae8536fcb57b73477/asqlorm-0.5.2.tar.gz
+[2024-04-25 01:12:35] INFO root fetch - processPackages [datasette-extract]: Downloading https://files.pythonhosted.org/packages/3e/ee/54103aceb3b798639279feaeca40e816ddb6b1496e310955c314f958cf06/datasette-extract-0.1a4.tar.gz
+[2024-04-25 01:12:35] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/3f/8b/d12f3e2af00158cfea42533c98f19e9f4700781bcac2b601473d5f9446f0/inngest-0.3.9.tar.gz
+[2024-04-25 01:12:35] INFO root fetch - processPackages [inngest]: executing diffoscope
+[2024-04-25 01:12:35] INFO root fetch - processPackages [inngest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inngest-0.3.8.tar.gz tmp/inngest-0.3.9.tar.gz --markdown 20240425/i/inngest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 01:12:35] INFO root fetch - processPackages [asqlorm]: Downloading https://files.pythonhosted.org/packages/be/bd/426fadfd6cdcfe1d28fd48114ea8d221b5549d5b28ae497caad2a25a735c/asqlorm-0.6.1.tar.gz
+[2024-04-25 01:12:36] INFO root fetch - processPackages [datasette-extract]: Downloading https://files.pythonhosted.org/packages/3b/56/4a6bd7dbd84f9d97809a02e959794aad568038ae604c58ab0181ab753f53/datasette_extract-0.1a5.tar.gz
+[2024-04-25 01:12:36] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/0d/0a/113fb1061a227875dba0e8349c9477a7eb7d1b7d9bf479b7bbc7157fc9a1/codeanim-0.0.9.tar.gz
+[2024-04-25 01:12:36] INFO root fetch - processPackages [asqlorm]: executing diffoscope
+[2024-04-25 01:12:36] INFO root fetch - processPackages [asqlorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asqlorm-0.5.2.tar.gz tmp/asqlorm-0.6.1.tar.gz --markdown 20240425/a/asqlorm/0.5.2-0.6.1/README.md --exclude *.pyd
+[2024-04-25 01:12:36] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/33/b6/3b5e20c13a16703b303448256f6019c82837e6a1e82d3318804eda66bfde/mimllearning-0.1.9.tar.gz
+[2024-04-25 01:12:36] INFO root fetch - processPackages [codeanim]: executing diffoscope
+[2024-04-25 01:12:36] INFO root fetch - processPackages [codeanim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeanim-0.0.15.tar.gz tmp/codeanim-0.0.9.tar.gz --markdown 20240425/c/codeanim/0.0.15-0.0.9/README.md --exclude *.pyd
+[2024-04-25 01:12:36] INFO root fetch - processPackages [datasette-extract]: executing diffoscope
+[2024-04-25 01:12:36] INFO root fetch - processPackages [datasette-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-extract-0.1a4.tar.gz tmp/datasette_extract-0.1a5.tar.gz --markdown 20240425/d/datasette-extract/0.1a4-0.1a5/README.md --exclude *.pyd
+[2024-04-25 01:12:36] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-25 01:12:36] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.1.8.tar.gz tmp/mimllearning-0.1.9.tar.gz --markdown 20240425/m/mimllearning/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 01:12:36] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.8.tar.gz]
+[2024-04-25 01:12:36] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.9.tar.gz]
+[2024-04-25 01:12:36] INFO root fetch - main [MainThread]: End processing [inngest]: success
+[2024-04-25 01:12:36] INFO root fetch - processPackages [asqlorm]: Remove: archive file [/home/abi/fetcher/tmp/asqlorm-0.5.2.tar.gz]
+[2024-04-25 01:12:36] INFO root fetch - processPackages [asqlorm]: Remove: archive file [/home/abi/fetcher/tmp/asqlorm-0.6.1.tar.gz]
+[2024-04-25 01:12:36] INFO root fetch - main [MainThread]: End processing [asqlorm]: success
+[2024-04-25 01:12:36] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.15.tar.gz]
+[2024-04-25 01:12:36] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.9.tar.gz]
+[2024-04-25 01:12:36] INFO root fetch - main [MainThread]: End processing [codeanim]: success
+[2024-04-25 01:12:37] INFO root fetch - processPackages [datasette-extract]: Remove: archive file [/home/abi/fetcher/tmp/datasette-extract-0.1a4.tar.gz]
+[2024-04-25 01:12:37] INFO root fetch - processPackages [datasette-extract]: Remove: archive file [/home/abi/fetcher/tmp/datasette_extract-0.1a5.tar.gz]
+[2024-04-25 01:12:37] INFO root fetch - main [MainThread]: End processing [datasette-extract]: success
+[2024-04-25 01:12:37] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.8.tar.gz]
+[2024-04-25 01:12:37] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.9.tar.gz]
+[2024-04-25 01:12:37] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-25 01:12:37] INFO root fetch - main [MainThread]: Store serial: [22921705]
