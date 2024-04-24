@@ -241,3 +241,63 @@
 [2024-04-25 00:13:11] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.93.0.tar.gz]
 [2024-04-25 00:13:11] INFO root fetch - main [MainThread]: End processing [datupapi]: success
 [2024-04-25 00:13:11] INFO root fetch - main [MainThread]: Store serial: [22921033]
+[2024-04-25 00:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921033]
+[2024-04-25 00:15:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ciou
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dhuodata-lib
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dreams-core
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aespm
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tkz
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ziptimezone
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudformation-cli-python-lib
+[2024-04-25 00:15:19] WARNING root fetch - processPackages [dreams-core]: Skipping, unable to determine old version
+[2024-04-25 00:15:19] INFO root fetch - main [MainThread]: End processing [dreams-core] error
+[2024-04-25 00:15:19] INFO root fetch - processPackages [tkz]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-25 00:15:19] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 00:15:19] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/bd/7a/eb05c413c9f61d421d8acd421675c58e55f92c843271940160b9a6798db0/tkz-1.0.3.tar.gz
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ciou]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-25 00:15:19] INFO root fetch - processPackages [aespm]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ziptimezone]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 00:15:19] INFO root fetch - processPackages [cloudformation-cli-python-lib]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-25 00:15:19] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/12/79/f64f95dc83ef90399259139b0e38111b927b7750ae7524780cd02732e678/dhuodata-lib-0.0.8.tar.gz
+[2024-04-25 00:15:19] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/f6/00/5b5da86a661acf5566fd6df31d059483e0bfb4a2b0effc75405966bc216c/tkz-1.0.4.tar.gz
+[2024-04-25 00:15:19] INFO root fetch - processPackages [aespm]: Downloading https://files.pythonhosted.org/packages/8f/5b/e924bea51a1889cd5a7ff91f90143a47c04f562a6a2c4784c52b3f35fd81/aespm-1.0.4.tar.gz
+[2024-04-25 00:15:19] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/3c/8f/95bba404da002ba46472c8e4bde8cd15adba9ccc04a5cd28342f2fe3ddf1/ziptimezone-1.0.2.tar.gz
+[2024-04-25 00:15:20] INFO root fetch - processPackages [ciou]: Downloading https://files.pythonhosted.org/packages/fd/1d/bee232c8dcc71a656cb8d52932253b4edc76ce7b152e400b92cc6429a459/ciou-0.4.0.tar.gz
+[2024-04-25 00:15:20] INFO root fetch - processPackages [cloudformation-cli-python-lib]: Downloading https://files.pythonhosted.org/packages/dc/33/ca34e18aeac09f33f6c10da4ff5f890023ea1f36f497a64908cecd8dc6d4/cloudformation-cli-python-lib-2.1.8.tar.gz
+[2024-04-25 00:15:20] INFO root fetch - processPackages [tkz]: executing diffoscope
+[2024-04-25 00:15:20] INFO root fetch - processPackages [tkz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkz-1.0.3.tar.gz tmp/tkz-1.0.4.tar.gz --markdown 20240425/t/tkz/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-25 00:15:20] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/00/fd/ebe8e57a21069d23f61c67af2243eecf495030f2e3bff33963badae3c174/dhuodata-lib-0.0.9.zip
+[2024-04-25 00:15:20] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-25 00:15:20] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.0.8.tar.gz tmp/dhuodata-lib-0.0.9.zip --markdown 20240425/d/dhuodata-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 00:15:20] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/8f/85/1a2d8e79e7b0cf69608fa12a192c084ab2e88b47f7ff3cab9b07e6eca89b/ziptimezone-1.0.3.tar.gz
+[2024-04-25 00:15:20] INFO root fetch - processPackages [aespm]: Downloading https://files.pythonhosted.org/packages/dd/00/313c12ee432f38847fba6220bf49ed23d65db190fa3869c97c7ab29b86e0/aespm-1.0.5.tar.gz
+[2024-04-25 00:15:20] INFO root fetch - processPackages [ciou]: Downloading https://files.pythonhosted.org/packages/7a/f0/9b02d99a3032fb407d75ae82725205d2de949fc230549ef26299195e2965/ciou-0.5.0.tar.gz
+[2024-04-25 00:15:20] INFO root fetch - processPackages [cloudformation-cli-python-lib]: Downloading https://files.pythonhosted.org/packages/4c/ab/dae2011949e6bf2553b64064ad7cd2f9ce022f640ce2cc46440d7e43d537/cloudformation-cli-python-lib-2.1.9.tar.gz
+[2024-04-25 00:15:20] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-04-25 00:15:20] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-1.0.2.tar.gz tmp/ziptimezone-1.0.3.tar.gz --markdown 20240425/z/ziptimezone/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 00:15:20] INFO root fetch - processPackages [ciou]: executing diffoscope
+[2024-04-25 00:15:20] INFO root fetch - processPackages [ciou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciou-0.4.0.tar.gz tmp/ciou-0.5.0.tar.gz --markdown 20240425/c/ciou/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-25 00:15:20] INFO root fetch - processPackages [cloudformation-cli-python-lib]: executing diffoscope
+[2024-04-25 00:15:20] INFO root fetch - processPackages [cloudformation-cli-python-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudformation-cli-python-lib-2.1.8.tar.gz tmp/cloudformation-cli-python-lib-2.1.9.tar.gz --markdown 20240425/c/cloudformation-cli-python-lib/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-25 00:15:20] INFO root fetch - processPackages [aespm]: executing diffoscope
+[2024-04-25 00:15:20] INFO root fetch - processPackages [aespm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aespm-1.0.4.tar.gz tmp/aespm-1.0.5.tar.gz --markdown 20240425/a/aespm/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 00:15:20] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.0.8.tar.gz]
+[2024-04-25 00:15:20] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.0.9.zip]
+[2024-04-25 00:15:20] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-25 00:15:20] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.3.tar.gz]
+[2024-04-25 00:15:20] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.4.tar.gz]
+[2024-04-25 00:15:20] INFO root fetch - main [MainThread]: End processing [tkz]: success
+[2024-04-25 00:15:21] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.0.2.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.0.3.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-04-25 00:15:21] INFO root fetch - processPackages [ciou]: Remove: archive file [/home/abi/fetcher/tmp/ciou-0.4.0.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - processPackages [ciou]: Remove: archive file [/home/abi/fetcher/tmp/ciou-0.5.0.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - main [MainThread]: End processing [ciou]: success
+[2024-04-25 00:15:21] INFO root fetch - processPackages [aespm]: Remove: archive file [/home/abi/fetcher/tmp/aespm-1.0.4.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - processPackages [aespm]: Remove: archive file [/home/abi/fetcher/tmp/aespm-1.0.5.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - main [MainThread]: End processing [aespm]: success
+[2024-04-25 00:15:21] INFO root fetch - processPackages [cloudformation-cli-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cloudformation-cli-python-lib-2.1.8.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - processPackages [cloudformation-cli-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cloudformation-cli-python-lib-2.1.9.tar.gz]
+[2024-04-25 00:15:21] INFO root fetch - main [MainThread]: End processing [cloudformation-cli-python-lib]: success
+[2024-04-25 00:15:21] INFO root fetch - main [MainThread]: Store serial: [22921055]
