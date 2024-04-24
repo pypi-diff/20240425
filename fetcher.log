@@ -899,3 +899,87 @@
 [2024-04-25 00:39:30] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl_appcli-3.0.0.tar.gz]
 [2024-04-25 00:39:30] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
 [2024-04-25 00:39:30] INFO root fetch - main [MainThread]: Store serial: [22921318]
+[2024-04-25 00:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921318]
+[2024-04-25 00:41:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydroserver-sensorthings
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-webdriver
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trio-parallel
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: einfunc
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: struct2tensor
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybunch
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orso
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seeq
+[2024-04-25 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mo-sql
+[2024-04-25 00:41:38] INFO root fetch - processPackages [mo-sql]: New version: [4.603.24115] Old Version: [4.602.24115]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [pybunch]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/ab/37/7803b30145bdcd6a2dfc2c30d2d63325ff05e5ad81a9debed925e79ce2a6/mo_sql-4.602.24115.tar.gz
+[2024-04-25 00:41:38] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/9f/4d/d8467f26bb1a59cf0a4536dd3d787df5754ea90b590e2b263aa4dd96978c/pybunch-1.0.8.tar.gz
+[2024-04-25 00:41:38] INFO root fetch - processPackages [trio-parallel]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [hydroserver-sensorthings]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [einfunc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [struct2tensor]: New version: [0.46.0] Old Version: [0.45.0]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [open-webdriver]: New version: [1.5.0] Old Version: [1.4.5]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [seeq]: New version: [65.0.0] Old Version: [64.2.1]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [orso]: New version: [0.0.99] Old Version: [0.0.97]
+[2024-04-25 00:41:38] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/f2/5d/c7ff16c5a81312e4d3c036afbe76b917bd7afad965ca06e3279374dca049/pybunch-1.0.9.tar.gz
+[2024-04-25 00:41:38] INFO root fetch - processPackages [trio-parallel]: Downloading https://files.pythonhosted.org/packages/1f/d2/f13316a16e0a13fe783d1333ab421475fe443ac270bfd5ba28ddaa77740e/trio-parallel-1.2.1.tar.gz
+[2024-04-25 00:41:38] INFO root fetch - processPackages [struct2tensor]: Downloading https://files.pythonhosted.org/packages/35/8b/782b4cefc130b07a73db2431ae3eeefbafcfbc375225fca451853c20a373/struct2tensor-0.45.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2024-04-25 00:41:38] INFO root fetch - processPackages [einfunc]: Downloading https://files.pythonhosted.org/packages/27/e4/8285abe97c83719de7d29a296dd22742c96a01352cadbbfcb324a727d7a1/einfunc-0.0.3.tar.gz
+[2024-04-25 00:41:38] INFO root fetch - processPackages [hydroserver-sensorthings]: Downloading https://files.pythonhosted.org/packages/4e/ee/48091f37d8221bd7bbef44a01397a36f55b7357f4828672a5d760b95e5f4/hydroserver-sensorthings-0.2.8.tar.gz
+[2024-04-25 00:41:38] INFO root fetch - processPackages [open-webdriver]: Downloading https://files.pythonhosted.org/packages/fe/b3/8f42b2f6b556194a283c1b58e0f0cf067288a82e710355c365088c39045b/open_webdriver-1.4.5.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/3f/27/c63a8f3d86ac6d3f7eebcaaa0054c1e2c3d8de8032cdebfbf5428da7712d/seeq-64.2.1.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/7f/44/c9b678951273a9e9d68f6792efdb0a6d7c20d4d59015b193b974dd2cc5f3/orso-0.0.97.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/8a/45/04cb0268fabf631dbd9bbaa5adfe35183d7768d98f45c376a9fcacff8b43/mo_sql-4.603.24115.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.8.tar.gz tmp/pybunch-1.0.9.tar.gz --markdown 20240425/p/pybunch/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [mo-sql]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [mo-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql-4.602.24115.tar.gz tmp/mo_sql-4.603.24115.tar.gz --markdown 20240425/m/mo-sql/4.602.24115-4.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [trio-parallel]: Downloading https://files.pythonhosted.org/packages/d9/66/60c9134d2066744921ce61129e200cafa810f02c1bd066d2e6175e76fb87/trio_parallel-1.2.2.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [einfunc]: Downloading https://files.pythonhosted.org/packages/60/c3/5a66516db12626eec1b90e8c5642cc85ad2903837f38632c9ac2645e37ee/einfunc-0.0.4.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/16/e7/6bcc99f6a6f9532e40c02557fe47801fef30f649e1671de5e839dc373864/seeq-65.0.0.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [open-webdriver]: Downloading https://files.pythonhosted.org/packages/bf/cb/da7e196ef099694a7eceb8a9bd3bc0dbae9fa6f645bb20cf50ca8341a1f8/open_webdriver-1.5.0.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [trio-parallel]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [trio-parallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio-parallel-1.2.1.tar.gz tmp/trio_parallel-1.2.2.tar.gz --markdown 20240425/t/trio-parallel/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [einfunc]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [einfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einfunc-0.0.3.tar.gz tmp/einfunc-0.0.4.tar.gz --markdown 20240425/e/einfunc/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [hydroserver-sensorthings]: Downloading https://files.pythonhosted.org/packages/f1/23/dbaa2f5be021e2e7719272d95071c369973c98297595263b72a8f6c6c167/hydroserver-sensorthings-0.2.9.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [open-webdriver]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [open-webdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_webdriver-1.4.5.tar.gz tmp/open_webdriver-1.5.0.tar.gz --markdown 20240425/o/open-webdriver/1.4.5-1.5.0/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/03/62/532b5a6178cc484d36c6b124c65d4de27ba7fd3af10850166b93c9a661cd/orso-0.0.99.tar.gz
+[2024-04-25 00:41:39] INFO root fetch - processPackages [struct2tensor]: Downloading https://files.pythonhosted.org/packages/88/9f/a11b919e98ab5b95c3ccbffe68362fa705af88333c7c4491cccd5b18592d/struct2tensor-0.46.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2024-04-25 00:41:39] INFO root fetch - processPackages [hydroserver-sensorthings]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [hydroserver-sensorthings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydroserver-sensorthings-0.2.8.tar.gz tmp/hydroserver-sensorthings-0.2.9.tar.gz --markdown 20240425/h/hydroserver-sensorthings/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [orso]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.97.tar.gz tmp/orso-0.0.99.tar.gz --markdown 20240425/o/orso/0.0.97-0.0.99/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.8.tar.gz]
+[2024-04-25 00:41:39] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.9.tar.gz]
+[2024-04-25 00:41:39] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-25 00:41:39] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-64.2.1.tar.gz tmp/seeq-65.0.0.tar.gz --markdown 20240425/s/seeq/64.2.1-65.0.0/README.md --exclude *.pyd
+[2024-04-25 00:41:39] INFO root fetch - processPackages [struct2tensor]: executing diffoscope
+[2024-04-25 00:41:39] INFO root fetch - processPackages [struct2tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struct2tensor-0.45.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip tmp/struct2tensor-0.46.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip --markdown 20240425/s/struct2tensor/0.45.0-0.46.0/README.md --exclude *.pyd
+[2024-04-25 00:41:40] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.602.24115.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.603.24115.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
+[2024-04-25 00:41:40] INFO root fetch - processPackages [einfunc]: Remove: archive file [/home/abi/fetcher/tmp/einfunc-0.0.3.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - processPackages [einfunc]: Remove: archive file [/home/abi/fetcher/tmp/einfunc-0.0.4.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - main [MainThread]: End processing [einfunc]: success
+[2024-04-25 00:41:40] INFO root fetch - processPackages [open-webdriver]: Remove: archive file [/home/abi/fetcher/tmp/open_webdriver-1.4.5.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - processPackages [open-webdriver]: Remove: archive file [/home/abi/fetcher/tmp/open_webdriver-1.5.0.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - main [MainThread]: End processing [open-webdriver]: success
+[2024-04-25 00:41:40] INFO root fetch - processPackages [trio-parallel]: Remove: archive file [/home/abi/fetcher/tmp/trio-parallel-1.2.1.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - processPackages [trio-parallel]: Remove: archive file [/home/abi/fetcher/tmp/trio_parallel-1.2.2.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - main [MainThread]: End processing [trio-parallel]: success
+[2024-04-25 00:41:40] INFO root fetch - processPackages [hydroserver-sensorthings]: Remove: archive file [/home/abi/fetcher/tmp/hydroserver-sensorthings-0.2.8.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - processPackages [hydroserver-sensorthings]: Remove: archive file [/home/abi/fetcher/tmp/hydroserver-sensorthings-0.2.9.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - main [MainThread]: End processing [hydroserver-sensorthings]: success
+[2024-04-25 00:41:40] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.97.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.99.tar.gz]
+[2024-04-25 00:41:40] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2024-04-25 00:41:45] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.1.tar.gz]
+[2024-04-25 00:41:45] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.0.tar.gz]
+[2024-04-25 00:41:45] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-04-25 00:42:17] INFO root fetch - processPackages [struct2tensor]: Remove: archive file [/home/abi/fetcher/tmp/struct2tensor-0.45.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
+[2024-04-25 00:42:17] INFO root fetch - processPackages [struct2tensor]: Remove: archive file [/home/abi/fetcher/tmp/struct2tensor-0.46.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
+[2024-04-25 00:42:17] INFO root fetch - main [MainThread]: End processing [struct2tensor]: success
+[2024-04-25 00:42:17] INFO root fetch - main [MainThread]: Store serial: [22921359]
