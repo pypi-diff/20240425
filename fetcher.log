@@ -220,3 +220,24 @@
 [2024-04-25 00:11:00] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
 [2024-04-25 00:11:00] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2024-04-25 00:11:00] INFO root fetch - main [MainThread]: Store serial: [22921025]
+[2024-04-25 00:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921025]
+[2024-04-25 00:13:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 00:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datupapi
+[2024-04-25 00:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aikicore
+[2024-04-25 00:13:09] INFO root fetch - processPackages [aikicore]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-04-25 00:13:09] INFO root fetch - processPackages [datupapi]: New version: [1.93.0] Old Version: [1.92.4]
+[2024-04-25 00:13:10] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/87/f4/b610996e15e6771631e95c7341b2017897304511b20717cf5e315db39fc4/datupapi-1.92.4.tar.gz
+[2024-04-25 00:13:10] INFO root fetch - processPackages [aikicore]: Downloading https://files.pythonhosted.org/packages/08/7f/dac2501cb2921c2a2ab12f03031574371c0ef4700d9a7cf11285f2463e0d/aikicore-1.0.0a1.tar.gz
+[2024-04-25 00:13:10] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/66/64/8d640fb50c79629978ce8fa0cd7b0739d685da757eaa6198e181c99f92bb/datupapi-1.93.0.tar.gz
+[2024-04-25 00:13:10] INFO root fetch - processPackages [datupapi]: executing diffoscope
+[2024-04-25 00:13:10] INFO root fetch - processPackages [datupapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datupapi-1.92.4.tar.gz tmp/datupapi-1.93.0.tar.gz --markdown 20240425/d/datupapi/1.92.4-1.93.0/README.md --exclude *.pyd
+[2024-04-25 00:13:10] INFO root fetch - processPackages [aikicore]: Downloading https://files.pythonhosted.org/packages/56/4f/53e9c309ca8878f4003f991cb664d54c30246a325a45a0f6ec25f85fec9f/aikicore-1.0.0a2.tar.gz
+[2024-04-25 00:13:10] INFO root fetch - processPackages [aikicore]: executing diffoscope
+[2024-04-25 00:13:10] INFO root fetch - processPackages [aikicore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aikicore-1.0.0a1.tar.gz tmp/aikicore-1.0.0a2.tar.gz --markdown 20240425/a/aikicore/1.0.0a1-1.0.0a2/README.md --exclude *.pyd
+[2024-04-25 00:13:10] INFO root fetch - processPackages [aikicore]: Remove: archive file [/home/abi/fetcher/tmp/aikicore-1.0.0a1.tar.gz]
+[2024-04-25 00:13:10] INFO root fetch - processPackages [aikicore]: Remove: archive file [/home/abi/fetcher/tmp/aikicore-1.0.0a2.tar.gz]
+[2024-04-25 00:13:11] INFO root fetch - main [MainThread]: End processing [aikicore]: success
+[2024-04-25 00:13:11] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.92.4.tar.gz]
+[2024-04-25 00:13:11] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.93.0.tar.gz]
+[2024-04-25 00:13:11] INFO root fetch - main [MainThread]: End processing [datupapi]: success
+[2024-04-25 00:13:11] INFO root fetch - main [MainThread]: Store serial: [22921033]
