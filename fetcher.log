@@ -2735,3 +2735,31 @@
 [2024-04-25 01:54:21] INFO root fetch - processPackages [tensorflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_data_validation-1.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-25 01:54:21] INFO root fetch - main [MainThread]: End processing [tensorflow-data-validation]: success
 [2024-04-25 01:54:21] INFO root fetch - main [MainThread]: Store serial: [22922008]
+[2024-04-25 01:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922008]
+[2024-04-25 01:56:29] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-25 01:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922008]
+[2024-04-25 01:58:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 01:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: replit-river
+[2024-04-25 01:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobear
+[2024-04-25 01:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezkl-gpu
+[2024-04-25 01:58:35] INFO root fetch - processPackages [ezkl-gpu]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-04-25 01:58:35] INFO root fetch - processPackages [replit-river]: New version: [0.1.8] Old Version: [0.1.7b8]
+[2024-04-25 01:58:35] INFO root fetch - processPackages [biobear]: New version: [0.20.0] Old Version: [0.19.6]
+[2024-04-25 01:58:35] INFO root fetch - processPackages [ezkl-gpu]: Downloading https://files.pythonhosted.org/packages/0a/7a/6ba1898c5763102473f591d6c6deb50cc26c158d75e30ca3759eca1e6b05/ezkl_gpu-9.4.4-cp37-abi3-manylinux_2_35_x86_64.whl
+[2024-04-25 01:58:35] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/bd/2b/b963c47c01c40faa0d037c508010d434f1013b614d0fa85279f8d4a97ec3/replit_river-0.1.7b8.tar.gz
+[2024-04-25 01:58:35] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/27/23/d010ad8978882a7924cd626d3628c7bdedfe60c4c4de86e40a96874bdda7/biobear-0.19.6.tar.gz
+[2024-04-25 01:58:35] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
+[2024-04-25 01:58:35] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
+[2024-04-25 01:58:35] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-04-25 01:58:35] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/cf/a9/01329c9ca96f66e103cab3ec777613ba380bf7f528802b59e35c912d943e/biobear-0.20.0.tar.gz
+[2024-04-25 01:58:35] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-25 01:58:35] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b8.tar.gz tmp/replit_river-0.1.8.tar.gz --markdown 20240425/r/replit-river/0.1.7b8-0.1.8/README.md --exclude *.pyd
+[2024-04-25 01:58:36] INFO root fetch - processPackages [biobear]: executing diffoscope
+[2024-04-25 01:58:36] INFO root fetch - processPackages [biobear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobear-0.19.6.tar.gz tmp/biobear-0.20.0.tar.gz --markdown 20240425/b/biobear/0.19.6-0.20.0/README.md --exclude *.pyd
+[2024-04-25 01:58:36] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b8.tar.gz]
+[2024-04-25 01:58:36] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-04-25 01:58:36] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-25 01:58:36] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.19.6.tar.gz]
+[2024-04-25 01:58:36] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.20.0.tar.gz]
+[2024-04-25 01:58:36] INFO root fetch - main [MainThread]: End processing [biobear]: success
+[2024-04-25 01:58:36] INFO root fetch - main [MainThread]: Store serial: [22922042]
