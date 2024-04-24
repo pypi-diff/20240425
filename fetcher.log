@@ -1169,3 +1169,30 @@
 [2024-04-25 00:55:27] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
 [2024-04-25 00:55:27] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-04-25 00:55:27] INFO root fetch - main [MainThread]: Store serial: [22921440]
+[2024-04-25 00:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921440]
+[2024-04-25 00:57:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 00:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filefinder
+[2024-04-25 00:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiplerequests
+[2024-04-25 00:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ao3statscraper
+[2024-04-25 00:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suiteas
+[2024-04-25 00:57:36] WARNING root fetch - processPackages [multiplerequests]: Skipping, unable to determine old version
+[2024-04-25 00:57:36] INFO root fetch - main [MainThread]: End processing [multiplerequests] error
+[2024-04-25 00:57:36] INFO root fetch - processPackages [suiteas]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 00:57:36] WARNING root fetch - processPackages [ao3statscraper]: Skipping, unable to determine old version
+[2024-04-25 00:57:36] INFO root fetch - main [MainThread]: End processing [ao3statscraper] error
+[2024-04-25 00:57:36] INFO root fetch - processPackages [suiteas]: Downloading https://files.pythonhosted.org/packages/34/7b/3d2acc9308668132188323803ad37a2d2a84852ee3eacfaebc55971aa877/suiteas-0.3.1.tar.gz
+[2024-04-25 00:57:36] INFO root fetch - processPackages [filefinder]: New version: [1.0.0] Old Version: [0.5.0]
+[2024-04-25 00:57:36] INFO root fetch - processPackages [suiteas]: Downloading https://files.pythonhosted.org/packages/56/0c/737cb8d950f336ec33e44bb7e6487d5818c4feb7aadd82eda147bd1d00ea/suiteas-0.3.2.tar.gz
+[2024-04-25 00:57:36] INFO root fetch - processPackages [filefinder]: Downloading https://files.pythonhosted.org/packages/5a/e3/7c120d819cbc9f4d1f1955fe028033af66a2b900a4591991b925cc7cc948/filefinder-0.5.0.tar.gz
+[2024-04-25 00:57:37] INFO root fetch - processPackages [suiteas]: executing diffoscope
+[2024-04-25 00:57:37] INFO root fetch - processPackages [suiteas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suiteas-0.3.1.tar.gz tmp/suiteas-0.3.2.tar.gz --markdown 20240425/s/suiteas/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 00:57:37] INFO root fetch - processPackages [filefinder]: Downloading https://files.pythonhosted.org/packages/ad/ea/0aa3ac04f8ef323f599bc07532d5cddd8e6e308c0a26471ec5023a8c6076/filefinder-1.0.0.tar.gz
+[2024-04-25 00:57:37] INFO root fetch - processPackages [filefinder]: executing diffoscope
+[2024-04-25 00:57:37] INFO root fetch - processPackages [filefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filefinder-0.5.0.tar.gz tmp/filefinder-1.0.0.tar.gz --markdown 20240425/f/filefinder/0.5.0-1.0.0/README.md --exclude *.pyd
+[2024-04-25 00:57:37] INFO root fetch - processPackages [suiteas]: Remove: archive file [/home/abi/fetcher/tmp/suiteas-0.3.1.tar.gz]
+[2024-04-25 00:57:37] INFO root fetch - processPackages [suiteas]: Remove: archive file [/home/abi/fetcher/tmp/suiteas-0.3.2.tar.gz]
+[2024-04-25 00:57:37] INFO root fetch - main [MainThread]: End processing [suiteas]: success
+[2024-04-25 00:57:37] INFO root fetch - processPackages [filefinder]: Remove: archive file [/home/abi/fetcher/tmp/filefinder-0.5.0.tar.gz]
+[2024-04-25 00:57:37] INFO root fetch - processPackages [filefinder]: Remove: archive file [/home/abi/fetcher/tmp/filefinder-1.0.0.tar.gz]
+[2024-04-25 00:57:37] INFO root fetch - main [MainThread]: End processing [filefinder]: success
+[2024-04-25 00:57:37] INFO root fetch - main [MainThread]: Store serial: [22921451]
