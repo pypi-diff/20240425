@@ -2180,3 +2180,33 @@
 [2024-04-25 01:25:47] INFO root fetch - processPackages [ocflib]: Remove: archive file [/home/abi/fetcher/tmp/ocflib-9.tar.gz]
 [2024-04-25 01:25:47] INFO root fetch - main [MainThread]: End processing [ocflib]: success
 [2024-04-25 01:25:47] INFO root fetch - main [MainThread]: Store serial: [22921805]
+[2024-04-25 01:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921805]
+[2024-04-25 01:27:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infuzu-python-sdk
+[2024-04-25 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-json
+[2024-04-25 01:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smp
+[2024-04-25 01:27:56] INFO root fetch - processPackages [infuzu-python-sdk]: New version: [0.9] Old Version: [0.8]
+[2024-04-25 01:27:56] INFO root fetch - processPackages [mo-json]: New version: [6.605.24115] Old Version: [6.603.24115]
+[2024-04-25 01:27:56] INFO root fetch - processPackages [infuzu-python-sdk]: Downloading https://files.pythonhosted.org/packages/cc/59/2e28a85ced6e0aca6c94af9a0190551c19db6e5efaf485a99a5f8f4ba30e/infuzu-python-sdk-0.8.tar.gz
+[2024-04-25 01:27:56] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/c5/1c/cd8fb6cbf3897b4d954b86e82c0d4d58fbc8a71678d7be9b1574b045bb18/mo_json-6.603.24115.tar.gz
+[2024-04-25 01:27:56] INFO root fetch - processPackages [smp]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-25 01:27:56] INFO root fetch - processPackages [infuzu-python-sdk]: Downloading https://files.pythonhosted.org/packages/05/fe/df68761722792b47debb6bffd3dc412127b703d9971768119e76bd96c4bb/infuzu-python-sdk-0.9.tar.gz
+[2024-04-25 01:27:56] INFO root fetch - processPackages [smp]: Downloading https://files.pythonhosted.org/packages/bf/df/ca86885f7b3261528263eb60ffc0523921e47b21bc1c626f5b3161bfcaa3/smp-0.3.3.tar.gz
+[2024-04-25 01:27:56] INFO root fetch - processPackages [infuzu-python-sdk]: executing diffoscope
+[2024-04-25 01:27:56] INFO root fetch - processPackages [infuzu-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infuzu-python-sdk-0.8.tar.gz tmp/infuzu-python-sdk-0.9.tar.gz --markdown 20240425/i/infuzu-python-sdk/0.8-0.9/README.md --exclude *.pyd
+[2024-04-25 01:27:56] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/34/ef/f1d62151749a3af847d371757b622d1939edfbfc18ed237ca49813f0464b/mo_json-6.605.24115.tar.gz
+[2024-04-25 01:27:56] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2024-04-25 01:27:56] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.603.24115.tar.gz tmp/mo_json-6.605.24115.tar.gz --markdown 20240425/m/mo-json/6.603.24115-6.605.24115/README.md --exclude *.pyd
+[2024-04-25 01:27:56] INFO root fetch - processPackages [smp]: Downloading https://files.pythonhosted.org/packages/ec/94/a942e6a4d62e7bf8227b0e326a5ec1b087723e73dadc7ccd04c86bbf6e53/smp-0.3.4.tar.gz
+[2024-04-25 01:27:56] INFO root fetch - processPackages [smp]: executing diffoscope
+[2024-04-25 01:27:56] INFO root fetch - processPackages [smp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smp-0.3.3.tar.gz tmp/smp-0.3.4.tar.gz --markdown 20240425/s/smp/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-25 01:27:57] INFO root fetch - processPackages [infuzu-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infuzu-python-sdk-0.8.tar.gz]
+[2024-04-25 01:27:57] INFO root fetch - processPackages [infuzu-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infuzu-python-sdk-0.9.tar.gz]
+[2024-04-25 01:27:57] INFO root fetch - main [MainThread]: End processing [infuzu-python-sdk]: success
+[2024-04-25 01:27:57] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.603.24115.tar.gz]
+[2024-04-25 01:27:57] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.605.24115.tar.gz]
+[2024-04-25 01:27:57] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2024-04-25 01:27:57] INFO root fetch - processPackages [smp]: Remove: archive file [/home/abi/fetcher/tmp/smp-0.3.3.tar.gz]
+[2024-04-25 01:27:57] INFO root fetch - processPackages [smp]: Remove: archive file [/home/abi/fetcher/tmp/smp-0.3.4.tar.gz]
+[2024-04-25 01:27:57] INFO root fetch - main [MainThread]: End processing [smp]: success
+[2024-04-25 01:27:57] INFO root fetch - main [MainThread]: Store serial: [22921814]
