@@ -301,3 +301,42 @@
 [2024-04-25 00:15:21] INFO root fetch - processPackages [cloudformation-cli-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cloudformation-cli-python-lib-2.1.9.tar.gz]
 [2024-04-25 00:15:21] INFO root fetch - main [MainThread]: End processing [cloudformation-cli-python-lib]: success
 [2024-04-25 00:15:21] INFO root fetch - main [MainThread]: Store serial: [22921055]
+[2024-04-25 00:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921055]
+[2024-04-25 00:17:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 00:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prophet-tools
+[2024-04-25 00:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdgen
+[2024-04-25 00:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feagi-connector
+[2024-04-25 00:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infuzu-python-sdk
+[2024-04-25 00:17:29] INFO root fetch - processPackages [prophet-tools]: New version: [0.92] Old Version: [0.91]
+[2024-04-25 00:17:29] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/89/b5/1fc71293646fb58d548ba563bd50dc1ff967f8949c5e1c8d33dbdaae04ec/prophet_tools-0.91.tar.gz
+[2024-04-25 00:17:29] INFO root fetch - processPackages [feagi-connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 00:17:29] INFO root fetch - processPackages [pdgen]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-25 00:17:29] INFO root fetch - processPackages [infuzu-python-sdk]: New version: [0.9] Old Version: [0.8]
+[2024-04-25 00:17:30] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/e6/de/84010c57eb29c1239c271e428a2b590aa687929d720259de0edd6b86f2b3/prophet_tools-0.92.tar.gz
+[2024-04-25 00:17:30] INFO root fetch - processPackages [infuzu-python-sdk]: Downloading https://files.pythonhosted.org/packages/cc/59/2e28a85ced6e0aca6c94af9a0190551c19db6e5efaf485a99a5f8f4ba30e/infuzu-python-sdk-0.8.tar.gz
+[2024-04-25 00:17:30] INFO root fetch - processPackages [feagi-connector]: Downloading https://files.pythonhosted.org/packages/63/74/2c0df6bb531b74f981f101b0688a80197290f225cc6c05de98c694c4b751/feagi_connector-0.0.8.tar.gz
+[2024-04-25 00:17:30] INFO root fetch - processPackages [pdgen]: Downloading https://files.pythonhosted.org/packages/b6/2d/c8e33580ec7f06da487ba1d20494c84df19c6c222cab6218e6df160cfea0/pdgen-0.1.3.tar.gz
+[2024-04-25 00:17:30] INFO root fetch - processPackages [prophet-tools]: executing diffoscope
+[2024-04-25 00:17:30] INFO root fetch - processPackages [prophet-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophet_tools-0.91.tar.gz tmp/prophet_tools-0.92.tar.gz --markdown 20240425/p/prophet-tools/0.91-0.92/README.md --exclude *.pyd
+[2024-04-25 00:17:30] INFO root fetch - processPackages [pdgen]: Downloading https://files.pythonhosted.org/packages/a6/07/ce14095fcafcdf5d942c12f450b4df559cd9c06fecca23e8a0324c5424df/pdgen-0.1.4.tar.gz
+[2024-04-25 00:17:30] INFO root fetch - processPackages [infuzu-python-sdk]: Downloading https://files.pythonhosted.org/packages/05/fe/df68761722792b47debb6bffd3dc412127b703d9971768119e76bd96c4bb/infuzu-python-sdk-0.9.tar.gz
+[2024-04-25 00:17:30] INFO root fetch - processPackages [feagi-connector]: Downloading https://files.pythonhosted.org/packages/74/6d/582b56494bad8e35043677d29c2f2474bf5b1d122b81a59c2bdeb28929bf/feagi_connector-0.0.9.tar.gz
+[2024-04-25 00:17:30] INFO root fetch - processPackages [pdgen]: executing diffoscope
+[2024-04-25 00:17:30] INFO root fetch - processPackages [pdgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdgen-0.1.3.tar.gz tmp/pdgen-0.1.4.tar.gz --markdown 20240425/p/pdgen/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-25 00:17:30] INFO root fetch - processPackages [infuzu-python-sdk]: executing diffoscope
+[2024-04-25 00:17:30] INFO root fetch - processPackages [infuzu-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infuzu-python-sdk-0.8.tar.gz tmp/infuzu-python-sdk-0.9.tar.gz --markdown 20240425/i/infuzu-python-sdk/0.8-0.9/README.md --exclude *.pyd
+[2024-04-25 00:17:30] INFO root fetch - processPackages [feagi-connector]: executing diffoscope
+[2024-04-25 00:17:30] INFO root fetch - processPackages [feagi-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feagi_connector-0.0.8.tar.gz tmp/feagi_connector-0.0.9.tar.gz --markdown 20240425/f/feagi-connector/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 00:17:30] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.91.tar.gz]
+[2024-04-25 00:17:30] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.92.tar.gz]
+[2024-04-25 00:17:30] INFO root fetch - main [MainThread]: End processing [prophet-tools]: success
+[2024-04-25 00:17:31] INFO root fetch - processPackages [pdgen]: Remove: archive file [/home/abi/fetcher/tmp/pdgen-0.1.3.tar.gz]
+[2024-04-25 00:17:31] INFO root fetch - processPackages [pdgen]: Remove: archive file [/home/abi/fetcher/tmp/pdgen-0.1.4.tar.gz]
+[2024-04-25 00:17:31] INFO root fetch - main [MainThread]: End processing [pdgen]: success
+[2024-04-25 00:17:31] INFO root fetch - processPackages [infuzu-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infuzu-python-sdk-0.8.tar.gz]
+[2024-04-25 00:17:31] INFO root fetch - processPackages [infuzu-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infuzu-python-sdk-0.9.tar.gz]
+[2024-04-25 00:17:31] INFO root fetch - main [MainThread]: End processing [infuzu-python-sdk]: success
+[2024-04-25 00:17:31] INFO root fetch - processPackages [feagi-connector]: Remove: archive file [/home/abi/fetcher/tmp/feagi_connector-0.0.8.tar.gz]
+[2024-04-25 00:17:31] INFO root fetch - processPackages [feagi-connector]: Remove: archive file [/home/abi/fetcher/tmp/feagi_connector-0.0.9.tar.gz]
+[2024-04-25 00:17:31] INFO root fetch - main [MainThread]: End processing [feagi-connector]: success
+[2024-04-25 00:17:31] INFO root fetch - main [MainThread]: Store serial: [22921066]
