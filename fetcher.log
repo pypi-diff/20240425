@@ -502,3 +502,77 @@
 [2024-04-25 00:24:09] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-25 00:24:09] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
 [2024-04-25 00:24:09] INFO root fetch - main [MainThread]: Store serial: [22921147]
+[2024-04-25 00:26:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921147]
+[2024-04-25 00:26:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chia-blockchain
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantconnect-stubs
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aim-ui
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tkz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dune-rivals
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: limelightlib-python
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kitab
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-math
+[2024-04-25 00:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aim
+[2024-04-25 00:26:18] INFO root fetch - processPackages [limelightlib-python]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-25 00:26:18] INFO root fetch - processPackages [tkz]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 00:26:18] INFO root fetch - processPackages [mo-math]: New version: [7.603.24115] Old Version: [7.602.24115]
+[2024-04-25 00:26:18] INFO root fetch - processPackages [aim-ui]: New version: [4.1.0.dev20230930] Old Version: [4.1.0.dev20230929]
+[2024-04-25 00:26:18] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-04-25 00:26:18] WARNING root fetch - processPackages [kitab]: Skipping, unable to determine old version
+[2024-04-25 00:26:18] INFO root fetch - main [MainThread]: End processing [kitab] error
+[2024-04-25 00:26:18] INFO root fetch - processPackages [dune-rivals]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-04-25 00:26:18] INFO root fetch - processPackages [chia-blockchain]: New version: [2.3.0rc3] Old Version: [2.3.0rc2]
+[2024-04-25 00:26:18] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/a1/c4/914ff99a9c5f6ebc7755c2b29a6c6e50397696f464e742f050005c4e2eeb/limelightlib-python-0.9.1.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/f6/00/5b5da86a661acf5566fd6df31d059483e0bfb4a2b0effc75405966bc216c/tkz-1.0.4.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [aim]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-25 00:26:18] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/2b/e8/b031ef3ef45953c42134ebe62fc826ba15b66b4073a53359d8f8844856d4/mo_math-7.602.24115.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/2a/05/f8c2e155a815903b692d80c9a1647ba25d4a1f119791eaeb671026bcfa33/aim-ui-4.1.0.dev20230929.tar.gz
+[2024-04-25 00:26:18] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19246573>=10485760
+[2024-04-25 00:26:18] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2024-04-25 00:26:18] INFO root fetch - processPackages [dune-rivals]: Downloading https://files.pythonhosted.org/packages/da/69/0832a915b6b75f98484a730feff4b2bc138b4717c97aab8ce24168747ce8/dune_rivals-0.5.9.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/6d/40/e972658d81444d44ff2909f60d208a2d7c48d70ee0932e14e05d1b20e029/chia-blockchain-2.3.0rc2.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/37/71/171624429686be186f35205808082466e0c445549886cf9d6fa0b1c0d896/limelightlib_python-0.9.3.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/4a/00/f7e303a3bd0a6d75c08ccd60562a0c5f00fa9f4c16c945fbffa86d96ab7d/aim-4.0.2.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [tkz]: Downloading https://files.pythonhosted.org/packages/a1/10/2943c148c1d509d6a35fb8a1507b7fd37eb1a51bf450a38f4be3f57e48e2/tkz-1.0.5.tar.gz
+[2024-04-25 00:26:18] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-04-25 00:26:19] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/62/b6/5284fb8167b8230608a1ab1fe1866a8be9a2d8b086174c63a705683f7430/mo_math-7.603.24115.tar.gz
+[2024-04-25 00:26:19] INFO root fetch - processPackages [limelightlib-python]: executing diffoscope
+[2024-04-25 00:26:19] INFO root fetch - processPackages [limelightlib-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limelightlib-python-0.9.1.tar.gz tmp/limelightlib_python-0.9.3.tar.gz --markdown 20240425/l/limelightlib-python/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-04-25 00:26:19] INFO root fetch - processPackages [tkz]: executing diffoscope
+[2024-04-25 00:26:19] INFO root fetch - processPackages [tkz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkz-1.0.4.tar.gz tmp/tkz-1.0.5.tar.gz --markdown 20240425/t/tkz/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 00:26:19] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2024-04-25 00:26:19] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.602.24115.tar.gz tmp/mo_math-7.603.24115.tar.gz --markdown 20240425/m/mo-math/7.602.24115-7.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:26:19] INFO root fetch - processPackages [dune-rivals]: Downloading https://files.pythonhosted.org/packages/94/90/ec4f62d37e47d8f92688ca51bbe9007ff977786a526fcb098d5288357d59/dune_rivals-0.6.0.tar.gz
+[2024-04-25 00:26:19] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-04-25 00:26:19] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240425/q/quantconnect-stubs/9997-9998/README.md --exclude *.pyd
+[2024-04-25 00:26:19] INFO root fetch - processPackages [dune-rivals]: executing diffoscope
+[2024-04-25 00:26:19] INFO root fetch - processPackages [dune-rivals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_rivals-0.5.9.tar.gz tmp/dune_rivals-0.6.0.tar.gz --markdown 20240425/d/dune-rivals/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-04-25 00:26:19] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/50/12/a5a7bf25fd6105558d11afbd3f7500aa63283494e429296746c821354590/aim-4.0.3.tar.gz
+[2024-04-25 00:26:19] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib-python-0.9.1.tar.gz]
+[2024-04-25 00:26:19] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib_python-0.9.3.tar.gz]
+[2024-04-25 00:26:19] INFO root fetch - main [MainThread]: End processing [limelightlib-python]: success
+[2024-04-25 00:26:19] INFO root fetch - processPackages [aim]: executing diffoscope
+[2024-04-25 00:26:19] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.2.tar.gz tmp/aim-4.0.3.tar.gz --markdown 20240425/a/aim/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-25 00:26:20] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.4.tar.gz]
+[2024-04-25 00:26:20] INFO root fetch - processPackages [tkz]: Remove: archive file [/home/abi/fetcher/tmp/tkz-1.0.5.tar.gz]
+[2024-04-25 00:26:20] INFO root fetch - main [MainThread]: End processing [tkz]: success
+[2024-04-25 00:26:20] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.602.24115.tar.gz]
+[2024-04-25 00:26:20] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.603.24115.tar.gz]
+[2024-04-25 00:26:20] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2024-04-25 00:26:20] INFO root fetch - processPackages [dune-rivals]: Remove: archive file [/home/abi/fetcher/tmp/dune_rivals-0.5.9.tar.gz]
+[2024-04-25 00:26:20] INFO root fetch - processPackages [dune-rivals]: Remove: archive file [/home/abi/fetcher/tmp/dune_rivals-0.6.0.tar.gz]
+[2024-04-25 00:26:20] INFO root fetch - main [MainThread]: End processing [dune-rivals]: success
+[2024-04-25 00:26:20] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/7b/99/1f6f4f162d7735ab9cff6ccf500ad94bbc0107568853021a3662db392ef8/chia_blockchain-2.3.0rc3.tar.gz
+[2024-04-25 00:26:20] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2024-04-25 00:26:20] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-2.3.0rc2.tar.gz tmp/chia_blockchain-2.3.0rc3.tar.gz --markdown 20240425/c/chia-blockchain/2.3.0rc2-2.3.0rc3/README.md --exclude *.pyd
+[2024-04-25 00:26:22] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-04-25 00:26:22] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-04-25 00:26:22] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-04-25 00:26:24] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.2.tar.gz]
+[2024-04-25 00:26:24] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
+[2024-04-25 00:26:24] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2024-04-25 00:26:25] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.3.0rc2.tar.gz]
+[2024-04-25 00:26:25] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia_blockchain-2.3.0rc3.tar.gz]
+[2024-04-25 00:26:25] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2024-04-25 00:26:25] INFO root fetch - main [MainThread]: Store serial: [22921177]
