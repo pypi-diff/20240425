@@ -132,3 +132,43 @@
 [2024-04-25 00:04:30] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/modgeosys_graph_algorithms-0.3.1.tar.gz]
 [2024-04-25 00:04:30] INFO root fetch - main [MainThread]: End processing [modgeosys-graph-algorithms]: success
 [2024-04-25 00:04:30] INFO root fetch - main [MainThread]: Store serial: [22920984]
+[2024-04-25 00:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22920984]
+[2024-04-25 00:06:39] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-25 00:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22920984]
+[2024-04-25 00:08:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 00:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp
+[2024-04-25 00:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wwd
+[2024-04-25 00:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cam-utils
+[2024-04-25 00:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exafs-neo
+[2024-04-25 00:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aim-ui
+[2024-04-25 00:08:44] INFO root fetch - processPackages [aim-ui]: New version: [4.1.0.dev20230930] Old Version: [4.1.0.dev20230929]
+[2024-04-25 00:08:44] INFO root fetch - processPackages [exafs-neo]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-25 00:08:44] WARNING root fetch - processPackages [wwd]: Skipping, unable to determine old version
+[2024-04-25 00:08:44] INFO root fetch - main [MainThread]: End processing [wwd] error
+[2024-04-25 00:08:44] INFO root fetch - processPackages [keras-nlp]: New version: [0.9.3.dev0] Old Version: [0.9.3]
+[2024-04-25 00:08:44] INFO root fetch - processPackages [cam-utils]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-25 00:08:44] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/2a/05/f8c2e155a815903b692d80c9a1647ba25d4a1f119791eaeb671026bcfa33/aim-ui-4.1.0.dev20230929.tar.gz
+[2024-04-25 00:08:44] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19246573>=10485760
+[2024-04-25 00:08:44] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2024-04-25 00:08:44] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/c7/57/60e307ea159b4bc6ddf0f6fd9ca3a85cf602554aadf5c7d9ab0ab0b902f9/exafs_neo-2.0.4.tar.gz
+[2024-04-25 00:08:44] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/83/32/20a22225dd8137c13005edaf0bb6cdfdd488c90f8a7e510791538ce36506/keras-nlp-0.9.3.tar.gz
+[2024-04-25 00:08:44] INFO root fetch - processPackages [cam-utils]: Downloading https://files.pythonhosted.org/packages/ab/6a/ac373ce6f35b93c92df0f9447cb6cea81b602d0c578d6b28e98887d8dfad/cam_utils-0.2.7.tar.gz
+[2024-04-25 00:08:45] INFO root fetch - processPackages [cam-utils]: Downloading https://files.pythonhosted.org/packages/8f/60/90d025cc9f5f52a1897171838eb0fcad882f168bca7a5fb51fdd8f4ffb0c/cam_utils-0.2.8.tar.gz
+[2024-04-25 00:08:45] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/ea/47/733311f37bdbe557ff45974315e065541e5d0ac104b6fa07c75b88e81ae3/exafs_neo-2.0.5.tar.gz
+[2024-04-25 00:08:45] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/b4/b4/77a34d094447631579707e2238a11403eb3c35511fd6eb4c97563e4a8ff0/keras-nlp-0.9.3.dev0.tar.gz
+[2024-04-25 00:08:45] INFO root fetch - processPackages [cam-utils]: executing diffoscope
+[2024-04-25 00:08:45] INFO root fetch - processPackages [cam-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cam_utils-0.2.7.tar.gz tmp/cam_utils-0.2.8.tar.gz --markdown 20240425/c/cam-utils/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-25 00:08:45] INFO root fetch - processPackages [exafs-neo]: executing diffoscope
+[2024-04-25 00:08:45] INFO root fetch - processPackages [exafs-neo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exafs_neo-2.0.4.tar.gz tmp/exafs_neo-2.0.5.tar.gz --markdown 20240425/e/exafs-neo/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-04-25 00:08:45] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2024-04-25 00:08:45] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.9.3.tar.gz tmp/keras-nlp-0.9.3.dev0.tar.gz --markdown 20240425/k/keras-nlp/0.9.3-0.9.3.dev0/README.md --exclude *.pyd
+[2024-04-25 00:08:45] INFO root fetch - processPackages [cam-utils]: Remove: archive file [/home/abi/fetcher/tmp/cam_utils-0.2.7.tar.gz]
+[2024-04-25 00:08:45] INFO root fetch - processPackages [cam-utils]: Remove: archive file [/home/abi/fetcher/tmp/cam_utils-0.2.8.tar.gz]
+[2024-04-25 00:08:45] INFO root fetch - main [MainThread]: End processing [cam-utils]: success
+[2024-04-25 00:08:46] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.4.tar.gz]
+[2024-04-25 00:08:46] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.5.tar.gz]
+[2024-04-25 00:08:46] INFO root fetch - main [MainThread]: End processing [exafs-neo]: success
+[2024-04-25 00:08:46] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.tar.gz]
+[2024-04-25 00:08:46] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
+[2024-04-25 00:08:46] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2024-04-25 00:08:46] INFO root fetch - main [MainThread]: Store serial: [22921003]
