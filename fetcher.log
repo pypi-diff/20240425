@@ -1799,3 +1799,66 @@
 [2024-04-25 01:08:07] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-04-25 01:08:07] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-04-25 01:08:07] INFO root fetch - main [MainThread]: Store serial: [22921630]
+[2024-04-25 01:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921630]
+[2024-04-25 01:10:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authorizenet-python
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-declarative-manifest
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcmanybody
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skytemple-randomizer
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otpcr
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: orso
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aind-exaspim-pipeline-utils
+[2024-04-25 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CTK-Desert
+[2024-04-25 01:10:16] INFO root fetch - processPackages [otpcr]: New version: [6] Old Version: [5]
+[2024-04-25 01:10:16] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 01:10:16] INFO root fetch - processPackages [orso]: New version: [0.0.99] Old Version: [0.0.97]
+[2024-04-25 01:10:16] WARNING root fetch - processPackages [authorizenet-python]: Skipping, unable to determine old version
+[2024-04-25 01:10:16] INFO root fetch - main [MainThread]: End processing [authorizenet-python] error
+[2024-04-25 01:10:16] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: New version: [0.85.0] Old Version: [0.84.0]
+[2024-04-25 01:10:16] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/d4/e5/910d45033bdb4eb9a95d27bb3a42421a14eeecc8c566cb8b8d6e1a6db169/otpcr-5.tar.gz
+[2024-04-25 01:10:16] WARNING root fetch - processPackages [qcmanybody]: Skipping, unable to determine old version
+[2024-04-25 01:10:16] INFO root fetch - main [MainThread]: End processing [qcmanybody] error
+[2024-04-25 01:10:16] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-25 01:10:16] INFO root fetch - processPackages [skytemple-randomizer]: New version: [2.0.0b1] Old Version: [2.0.0]
+[2024-04-25 01:10:16] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-25 01:10:16] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/7f/44/c9b678951273a9e9d68f6792efdb0a6d7c20d4d59015b193b974dd2cc5f3/orso-0.0.97.tar.gz
+[2024-04-25 01:10:16] INFO root fetch - processPackages [skytemple-randomizer]: Downloading https://files.pythonhosted.org/packages/cf/1d/fc9d6db6fef465e1ac21f928969feb7f49b20f82fe87d89822f1292aa123/skytemple_randomizer-2.0.0-py3-none-any.whl
+[2024-04-25 01:10:16] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/e2/ce/68ed6b16be8e1f00b0774ed560bf92000d2b72d140664b15f6435e3a4d39/airbyte_source_declarative_manifest-0.84.0.tar.gz
+[2024-04-25 01:10:16] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/b2/75/8cfa9024202ac1ff533656a785c3b825fc4be8229827a0d901f857695f65/aind_exaspim_pipeline_utils-0.8.0.tar.gz
+[2024-04-25 01:10:16] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/03/62/532b5a6178cc484d36c6b124c65d4de27ba7fd3af10850166b93c9a661cd/orso-0.0.99.tar.gz
+[2024-04-25 01:10:16] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-25 01:10:17] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/9e/65/dde377be66610d7b7a1a371074de3d9a07213bdcacc511ca98502f677c34/otpcr-6.tar.gz
+[2024-04-25 01:10:17] INFO root fetch - processPackages [orso]: executing diffoscope
+[2024-04-25 01:10:17] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.97.tar.gz tmp/orso-0.0.99.tar.gz --markdown 20240425/o/orso/0.0.97-0.0.99/README.md --exclude *.pyd
+[2024-04-25 01:10:17] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-25 01:10:17] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240425/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 01:10:17] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Downloading https://files.pythonhosted.org/packages/74/b5/aa95a6ff30b6de3e4ca3114a29cc16e02ca941280a57b54feef8ba7faa75/airbyte_source_declarative_manifest-0.85.0.tar.gz
+[2024-04-25 01:10:17] INFO root fetch - processPackages [otpcr]: executing diffoscope
+[2024-04-25 01:10:17] INFO root fetch - processPackages [otpcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpcr-5.tar.gz tmp/otpcr-6.tar.gz --markdown 20240425/o/otpcr/5-6/README.md --exclude *.pyd
+[2024-04-25 01:10:17] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/b3/ff/3a31ca02ccd122e7fb2f973fabed4cf61ad733a5cd8b530c3bbc0fb60b30/aind_exaspim_pipeline_utils-0.8.1.tar.gz
+[2024-04-25 01:10:17] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: executing diffoscope
+[2024-04-25 01:10:17] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_declarative_manifest-0.84.0.tar.gz tmp/airbyte_source_declarative_manifest-0.85.0.tar.gz --markdown 20240425/a/airbyte-source-declarative-manifest/0.84.0-0.85.0/README.md --exclude *.pyd
+[2024-04-25 01:10:17] INFO root fetch - processPackages [skytemple-randomizer]: Downloading https://files.pythonhosted.org/packages/99/40/fafeb1f7361463bad4528a1b59fbad16fc96d34d2549151756f42ce37caf/skytemple_randomizer-2.0.0b1-py3-none-any.whl
+[2024-04-25 01:10:17] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: executing diffoscope
+[2024-04-25 01:10:17] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_exaspim_pipeline_utils-0.8.0.tar.gz tmp/aind_exaspim_pipeline_utils-0.8.1.tar.gz --markdown 20240425/a/aind-exaspim-pipeline-utils/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-25 01:10:17] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-25 01:10:17] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-25 01:10:17] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-25 01:10:17] INFO root fetch - processPackages [skytemple-randomizer]: executing diffoscope
+[2024-04-25 01:10:17] INFO root fetch - processPackages [skytemple-randomizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple_randomizer-2.0.0-py3-none-any.whl.zip tmp/skytemple_randomizer-2.0.0b1-py3-none-any.whl.zip --markdown 20240425/s/skytemple-randomizer/2.0.0-2.0.0b1/README.md --exclude *.pyd
+[2024-04-25 01:10:17] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.97.tar.gz]
+[2024-04-25 01:10:17] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.99.tar.gz]
+[2024-04-25 01:10:17] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2024-04-25 01:10:18] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.84.0.tar.gz]
+[2024-04-25 01:10:18] INFO root fetch - processPackages [airbyte-source-declarative-manifest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_declarative_manifest-0.85.0.tar.gz]
+[2024-04-25 01:10:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-declarative-manifest]: success
+[2024-04-25 01:10:18] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-5.tar.gz]
+[2024-04-25 01:10:18] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-6.tar.gz]
+[2024-04-25 01:10:18] INFO root fetch - main [MainThread]: End processing [otpcr]: success
+[2024-04-25 01:10:18] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.0.tar.gz]
+[2024-04-25 01:10:18] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.1.tar.gz]
+[2024-04-25 01:10:18] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
+[2024-04-25 01:10:23] INFO root fetch - processPackages [skytemple-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_randomizer-2.0.0-py3-none-any.whl.zip]
+[2024-04-25 01:10:23] INFO root fetch - processPackages [skytemple-randomizer]: Remove: archive file [/home/abi/fetcher/tmp/skytemple_randomizer-2.0.0b1-py3-none-any.whl.zip]
+[2024-04-25 01:10:23] INFO root fetch - main [MainThread]: End processing [skytemple-randomizer]: success
+[2024-04-25 01:10:23] INFO root fetch - main [MainThread]: Store serial: [22921685]
