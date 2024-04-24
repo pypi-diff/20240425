@@ -576,3 +576,69 @@
 [2024-04-25 00:26:25] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia_blockchain-2.3.0rc3.tar.gz]
 [2024-04-25 00:26:25] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2024-04-25 00:26:25] INFO root fetch - main [MainThread]: Store serial: [22921177]
+[2024-04-25 00:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921177]
+[2024-04-25 00:28:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyibl
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-text-translator
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: t2d2-sdk
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybunch
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecopipeline
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-logs
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: npiai-proto
+[2024-04-25 00:28:34] INFO root fetch - processPackages [t2d2-sdk]: New version: [1.4.dev1] Old Version: [1.4.9]
+[2024-04-25 00:28:34] INFO root fetch - processPackages [pybunch]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 00:28:34] INFO root fetch - processPackages [mo-logs]: New version: [8.603.24115] Old Version: [8.602.24115]
+[2024-04-25 00:28:34] INFO root fetch - processPackages [npiai-proto]: New version: [0.0.2] Old Version: [0.0.1.dev3]
+[2024-04-25 00:28:34] INFO root fetch - processPackages [django-text-translator]: New version: [2024.4.25] Old Version: [2024.4.23]
+[2024-04-25 00:28:34] INFO root fetch - processPackages [t2d2-sdk]: Downloading https://files.pythonhosted.org/packages/fb/32/fd15ff7bcaea0cdc8b04740e2cf8308a99e466931f84cd20bf171b30a7af/t2d2-sdk-1.4.9.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [pyibl]: New version: [5.1.4] Old Version: [5.1.3]
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ecopipeline]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-25 00:28:34] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/9f/4d/d8467f26bb1a59cf0a4536dd3d787df5754ea90b590e2b263aa4dd96978c/pybunch-1.0.8.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/0d/de/80c94da9f7e65c8e9a129b7ba4cbee8842fed3c70e49ee351938aa08f6e7/mo_logs-8.602.24115.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [npiai-proto]: Downloading https://files.pythonhosted.org/packages/27/88/4e6d634a6639ef93fe2da4f5cc108ab24a1031850a7c2a796b0d4c3c35b1/npiai_proto-0.0.1.dev3.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/b8/cc/fd554d288a6bc9b3e8e075ebfa25a26e7758fd7c522c45645f972c0b8a77/django_text_translator-2024.4.23.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [pyibl]: Downloading https://files.pythonhosted.org/packages/83/08/56e1e4bf4da04852a739d87d5544fd707307b3787c35619785864cbbef61/pyibl-5.1.3.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [t2d2-sdk]: Downloading https://files.pythonhosted.org/packages/1b/fe/5df6c2fb908563209658f282c01dc91e40ced7548bc323899494a615f403/t2d2-sdk-1.4.dev1.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [pybunch]: Downloading https://files.pythonhosted.org/packages/f2/5d/c7ff16c5a81312e4d3c036afbe76b917bd7afad965ca06e3279374dca049/pybunch-1.0.9.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/a0/ef/e36968043a8bae085ae3c2f9096a3d946d6e14f92d3091950193802c32da/ecopipeline-0.2.6.tar.gz
+[2024-04-25 00:28:34] INFO root fetch - processPackages [npiai-proto]: Downloading https://files.pythonhosted.org/packages/84/c1/94ac354c9bb44f0b59f4d6b978366a4786da0f11a4011cdaf571beae3a62/npiai_proto-0.0.2.tar.gz
+[2024-04-25 00:28:35] INFO root fetch - processPackages [t2d2-sdk]: executing diffoscope
+[2024-04-25 00:28:35] INFO root fetch - processPackages [t2d2-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2d2-sdk-1.4.9.tar.gz tmp/t2d2-sdk-1.4.dev1.tar.gz --markdown 20240425/t/t2d2-sdk/1.4.9-1.4.dev1/README.md --exclude *.pyd
+[2024-04-25 00:28:35] INFO root fetch - processPackages [pybunch]: executing diffoscope
+[2024-04-25 00:28:35] INFO root fetch - processPackages [pybunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybunch-1.0.8.tar.gz tmp/pybunch-1.0.9.tar.gz --markdown 20240425/p/pybunch/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 00:28:35] INFO root fetch - processPackages [npiai-proto]: executing diffoscope
+[2024-04-25 00:28:35] INFO root fetch - processPackages [npiai-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npiai_proto-0.0.1.dev3.tar.gz tmp/npiai_proto-0.0.2.tar.gz --markdown 20240425/n/npiai-proto/0.0.1.dev3-0.0.2/README.md --exclude *.pyd
+[2024-04-25 00:28:35] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/c4/40/ca6b3007282562bceaf83b1e33590c6b0ed480d4cb531953f98264175ac7/mo_logs-8.603.24115.tar.gz
+[2024-04-25 00:28:35] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/7e/4b/d1a531a5b6ddc8897c74fb863fc92db1c6183e33b754865e0bc0e1d5ec20/django_text_translator-2024.4.25.tar.gz
+[2024-04-25 00:28:35] INFO root fetch - processPackages [pyibl]: Downloading https://files.pythonhosted.org/packages/1a/62/29ce3645bbbfbd15e6c04a559b631ca6883460cee2942cb3927077c8c94e/pyibl-5.1.4.tar.gz
+[2024-04-25 00:28:35] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2024-04-25 00:28:35] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-8.602.24115.tar.gz tmp/mo_logs-8.603.24115.tar.gz --markdown 20240425/m/mo-logs/8.602.24115-8.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:28:35] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/7d/cc/46f5ec879efd0b4be5086161102bab0e9b9938e4d28e1bc261101d2fcf8f/ecopipeline-0.2.7.tar.gz
+[2024-04-25 00:28:35] INFO root fetch - processPackages [django-text-translator]: executing diffoscope
+[2024-04-25 00:28:35] INFO root fetch - processPackages [django-text-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_text_translator-2024.4.23.tar.gz tmp/django_text_translator-2024.4.25.tar.gz --markdown 20240425/d/django-text-translator/2024.4.23-2024.4.25/README.md --exclude *.pyd
+[2024-04-25 00:28:35] INFO root fetch - processPackages [pyibl]: executing diffoscope
+[2024-04-25 00:28:35] INFO root fetch - processPackages [pyibl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyibl-5.1.3.tar.gz tmp/pyibl-5.1.4.tar.gz --markdown 20240425/p/pyibl/5.1.3-5.1.4/README.md --exclude *.pyd
+[2024-04-25 00:28:35] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2024-04-25 00:28:35] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.2.6.tar.gz tmp/ecopipeline-0.2.7.tar.gz --markdown 20240425/e/ecopipeline/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-25 00:28:35] INFO root fetch - processPackages [npiai-proto]: Remove: archive file [/home/abi/fetcher/tmp/npiai_proto-0.0.1.dev3.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - processPackages [npiai-proto]: Remove: archive file [/home/abi/fetcher/tmp/npiai_proto-0.0.2.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - main [MainThread]: End processing [npiai-proto]: success
+[2024-04-25 00:28:35] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.8.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - processPackages [pybunch]: Remove: archive file [/home/abi/fetcher/tmp/pybunch-1.0.9.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - main [MainThread]: End processing [pybunch]: success
+[2024-04-25 00:28:35] INFO root fetch - processPackages [t2d2-sdk]: Remove: archive file [/home/abi/fetcher/tmp/t2d2-sdk-1.4.9.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - processPackages [t2d2-sdk]: Remove: archive file [/home/abi/fetcher/tmp/t2d2-sdk-1.4.dev1.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - main [MainThread]: End processing [t2d2-sdk]: success
+[2024-04-25 00:28:35] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.602.24115.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.603.24115.tar.gz]
+[2024-04-25 00:28:35] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2024-04-25 00:28:36] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.23.tar.gz]
+[2024-04-25 00:28:36] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.25.tar.gz]
+[2024-04-25 00:28:36] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
+[2024-04-25 00:28:36] INFO root fetch - processPackages [pyibl]: Remove: archive file [/home/abi/fetcher/tmp/pyibl-5.1.3.tar.gz]
+[2024-04-25 00:28:36] INFO root fetch - processPackages [pyibl]: Remove: archive file [/home/abi/fetcher/tmp/pyibl-5.1.4.tar.gz]
+[2024-04-25 00:28:36] INFO root fetch - main [MainThread]: End processing [pyibl]: success
+[2024-04-25 00:28:36] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.6.tar.gz]
+[2024-04-25 00:28:36] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.7.tar.gz]
+[2024-04-25 00:28:36] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2024-04-25 00:28:36] INFO root fetch - main [MainThread]: Store serial: [22921201]
