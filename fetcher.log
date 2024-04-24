@@ -2516,3 +2516,42 @@
 [2024-04-25 01:41:10] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.9.tar.gz]
 [2024-04-25 01:41:10] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-04-25 01:41:10] INFO root fetch - main [MainThread]: Store serial: [22921930]
+[2024-04-25 01:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921930]
+[2024-04-25 01:43:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 01:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sideseeing-tools
+[2024-04-25 01:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jx-python
+[2024-04-25 01:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-builder
+[2024-04-25 01:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py3-wget
+[2024-04-25 01:43:19] INFO root fetch - processPackages [py3-wget]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 01:43:19] INFO root fetch - processPackages [sideseeing-tools]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-25 01:43:19] INFO root fetch - processPackages [jx-python]: New version: [4.606.24115] Old Version: [4.586.24095]
+[2024-04-25 01:43:19] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/62/4e/f5b21c097d1cc2b5e16437f41455d4ca44ae058488310f3208544cc136dd/py3_wget-0.0.2.tar.gz
+[2024-04-25 01:43:19] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2024-04-25 01:43:19] INFO root fetch - processPackages [sideseeing-tools]: Downloading https://files.pythonhosted.org/packages/6a/dc/c3bc0c7a7d85b17bb1afadf073dad85e99567708de73a61b9f56260bfd95/sideseeing_tools-0.1.7.tar.gz
+[2024-04-25 01:43:19] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/3d/eb/068a9eb9b54ce955aea857f4fff514aea10ba082e66b0bea71bedb5a5fcc/jx-python-4.586.24095.tar.gz
+[2024-04-25 01:43:19] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2024-04-25 01:43:19] INFO root fetch - processPackages [py3-wget]: Downloading https://files.pythonhosted.org/packages/da/53/d2869dada2c2a4f3bb79ec8f2056b62fb95f4cbc80dfb68a41db6ab60e0f/py3_wget-0.0.3.tar.gz
+[2024-04-25 01:43:19] INFO root fetch - processPackages [sideseeing-tools]: Downloading https://files.pythonhosted.org/packages/56/15/4e3de145218b2b9453be0845830ef30738662fe16a1caf7cb3024468e712/sideseeing_tools-0.2.0.tar.gz
+[2024-04-25 01:43:19] INFO root fetch - processPackages [py3-wget]: executing diffoscope
+[2024-04-25 01:43:19] INFO root fetch - processPackages [py3-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3_wget-0.0.2.tar.gz tmp/py3_wget-0.0.3.tar.gz --markdown 20240425/p/py3-wget/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 01:43:19] INFO root fetch - processPackages [sideseeing-tools]: executing diffoscope
+[2024-04-25 01:43:19] INFO root fetch - processPackages [sideseeing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sideseeing_tools-0.1.7.tar.gz tmp/sideseeing_tools-0.2.0.tar.gz --markdown 20240425/s/sideseeing-tools/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-04-25 01:43:19] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/40/23/4be3dcad3e16db1747278a60d1db300e489fa2b16db397b62978f97008f8/jx_python-4.606.24115.tar.gz
+[2024-04-25 01:43:20] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2024-04-25 01:43:20] INFO root fetch - processPackages [jx-python]: executing diffoscope
+[2024-04-25 01:43:20] INFO root fetch - processPackages [jx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jx-python-4.586.24095.tar.gz tmp/jx_python-4.606.24115.tar.gz --markdown 20240425/j/jx-python/4.586.24095-4.606.24115/README.md --exclude *.pyd
+[2024-04-25 01:43:20] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2024-04-25 01:43:20] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20240425/m/mypy-boto3-builder/7.9.1-7.9.2/README.md --exclude *.pyd
+[2024-04-25 01:43:20] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-0.0.2.tar.gz]
+[2024-04-25 01:43:20] INFO root fetch - processPackages [py3-wget]: Remove: archive file [/home/abi/fetcher/tmp/py3_wget-0.0.3.tar.gz]
+[2024-04-25 01:43:20] INFO root fetch - main [MainThread]: End processing [py3-wget]: success
+[2024-04-25 01:43:20] INFO root fetch - processPackages [sideseeing-tools]: Remove: archive file [/home/abi/fetcher/tmp/sideseeing_tools-0.1.7.tar.gz]
+[2024-04-25 01:43:20] INFO root fetch - processPackages [sideseeing-tools]: Remove: archive file [/home/abi/fetcher/tmp/sideseeing_tools-0.2.0.tar.gz]
+[2024-04-25 01:43:20] INFO root fetch - main [MainThread]: End processing [sideseeing-tools]: success
+[2024-04-25 01:43:21] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx-python-4.586.24095.tar.gz]
+[2024-04-25 01:43:21] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx_python-4.606.24115.tar.gz]
+[2024-04-25 01:43:21] INFO root fetch - main [MainThread]: End processing [jx-python]: success
+[2024-04-25 01:43:21] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2024-04-25 01:43:21] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2024-04-25 01:43:21] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2024-04-25 01:43:21] INFO root fetch - main [MainThread]: Store serial: [22921942]
