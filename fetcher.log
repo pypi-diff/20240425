@@ -1022,3 +1022,33 @@
 [2024-04-25 00:44:32] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.605.24115.tar.gz]
 [2024-04-25 00:44:32] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
 [2024-04-25 00:44:32] INFO root fetch - main [MainThread]: Store serial: [22921372]
+[2024-04-25 00:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921372]
+[2024-04-25 00:46:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 00:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PrEditor
+[2024-04-25 00:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubpy
+[2024-04-25 00:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: everai
+[2024-04-25 00:46:40] INFO root fetch - processPackages [everai]: New version: [0.1.35] Old Version: [0.1.34]
+[2024-04-25 00:46:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/af/43/f62a3900a702e77cfd23cdd3497a24286094608609ddcd2fad85f049c1a3/everai-0.1.34-py3-none-any.whl
+[2024-04-25 00:46:41] INFO root fetch - processPackages [PrEditor]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 00:46:41] INFO root fetch - processPackages [rubpy]: New version: [7.0.2b0] Old Version: [7.0.1b0]
+[2024-04-25 00:46:41] INFO root fetch - processPackages [PrEditor]: Downloading https://files.pythonhosted.org/packages/1f/97/bd362cd83b40de4ae217866e21c920bb68f6769f52aed34df481916057d9/PrEditor-0.3.0-py2.py3-none-any.whl
+[2024-04-25 00:46:41] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/ab/78/dd4259e3b5d945f17f11167746e62f659ee856fe5a2eb33fba5d23ea9cb5/rubpy-7.0.1b0.tar.gz
+[2024-04-25 00:46:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/03/39/02ca8317834b3d52e40d0eb11c7311965bcdb14afc4521fab99b4ca11db2/everai-0.1.35-py3-none-any.whl
+[2024-04-25 00:46:41] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-25 00:46:41] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.34-py3-none-any.whl.zip tmp/everai-0.1.35-py3-none-any.whl.zip --markdown 20240425/e/everai/0.1.34-0.1.35/README.md --exclude *.pyd
+[2024-04-25 00:46:41] INFO root fetch - processPackages [PrEditor]: Downloading https://files.pythonhosted.org/packages/ae/4e/45de0cb11a8be8c5437f4edd2ff871dc9d10db89a237fd9a1525408d8cb1/PrEditor-0.4.0-py2.py3-none-any.whl
+[2024-04-25 00:46:41] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/ac/13/8a6dd7e48f253402c20a1c346e159e64dfa8d775323af6b484ec23d86eb5/rubpy-7.0.2b0.tar.gz
+[2024-04-25 00:46:41] INFO root fetch - processPackages [PrEditor]: executing diffoscope
+[2024-04-25 00:46:41] INFO root fetch - processPackages [PrEditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrEditor-0.3.0-py2.py3-none-any.whl.zip tmp/PrEditor-0.4.0-py2.py3-none-any.whl.zip --markdown 20240425/P/PrEditor/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 00:46:41] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-04-25 00:46:41] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.1b0.tar.gz tmp/rubpy-7.0.2b0.tar.gz --markdown 20240425/r/rubpy/7.0.1b0-7.0.2b0/README.md --exclude *.pyd
+[2024-04-25 00:46:42] INFO root fetch - processPackages [PrEditor]: Remove: archive file [/home/abi/fetcher/tmp/PrEditor-0.3.0-py2.py3-none-any.whl.zip]
+[2024-04-25 00:46:42] INFO root fetch - processPackages [PrEditor]: Remove: archive file [/home/abi/fetcher/tmp/PrEditor-0.4.0-py2.py3-none-any.whl.zip]
+[2024-04-25 00:46:42] INFO root fetch - main [MainThread]: End processing [PrEditor]: success
+[2024-04-25 00:46:42] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.1b0.tar.gz]
+[2024-04-25 00:46:42] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b0.tar.gz]
+[2024-04-25 00:46:42] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-04-25 00:46:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.34-py3-none-any.whl.zip]
+[2024-04-25 00:46:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.35-py3-none-any.whl.zip]
+[2024-04-25 00:46:43] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-25 00:46:43] INFO root fetch - main [MainThread]: Store serial: [22921382]
