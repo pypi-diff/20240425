@@ -2210,3 +2210,33 @@
 [2024-04-25 01:27:57] INFO root fetch - processPackages [smp]: Remove: archive file [/home/abi/fetcher/tmp/smp-0.3.4.tar.gz]
 [2024-04-25 01:27:57] INFO root fetch - main [MainThread]: End processing [smp]: success
 [2024-04-25 01:27:57] INFO root fetch - main [MainThread]: Store serial: [22921814]
+[2024-04-25 01:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921814]
+[2024-04-25 01:30:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhidra
+[2024-04-25 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-04-25 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geneweaver-core
+[2024-04-25 01:30:06] INFO root fetch - processPackages [mimllearning]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 01:30:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/80/94/27e1a08e80506dc8c8891ca97c832ba618b93d7629443274b60c309cd7dd/mimllearning-0.1.8.tar.gz
+[2024-04-25 01:30:06] INFO root fetch - processPackages [pyhidra]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-25 01:30:06] INFO root fetch - processPackages [geneweaver-core]: New version: [0.9.1] Old Version: [0.9.0a9]
+[2024-04-25 01:30:06] INFO root fetch - processPackages [pyhidra]: Downloading https://files.pythonhosted.org/packages/42/14/b5cb4e4ff97fe33e3f45a0ff8a28ba01cfc60e5878516fda1e08afe8b861/pyhidra-1.0.2.tar.gz
+[2024-04-25 01:30:06] INFO root fetch - processPackages [geneweaver-core]: Downloading https://files.pythonhosted.org/packages/53/20/9f32947ebba51e782db7214f1b38031e74b47523cf968fb1f49a963530c5/geneweaver_core-0.9.0a9.tar.gz
+[2024-04-25 01:30:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/33/b6/3b5e20c13a16703b303448256f6019c82837e6a1e82d3318804eda66bfde/mimllearning-0.1.9.tar.gz
+[2024-04-25 01:30:06] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-25 01:30:06] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.1.8.tar.gz tmp/mimllearning-0.1.9.tar.gz --markdown 20240425/m/mimllearning/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 01:30:06] INFO root fetch - processPackages [pyhidra]: Downloading https://files.pythonhosted.org/packages/fe/ee/6930ec427547e14e5539ecfcf9aa20e3172b9919537d18cab489bfdfda35/pyhidra-1.1.0.tar.gz
+[2024-04-25 01:30:06] INFO root fetch - processPackages [geneweaver-core]: Downloading https://files.pythonhosted.org/packages/49/9d/074befdbfabdf3d08b8b44fcb3b87a7c20eb5497a44769dc34b091ca7b3d/geneweaver_core-0.9.1.tar.gz
+[2024-04-25 01:30:07] INFO root fetch - processPackages [pyhidra]: executing diffoscope
+[2024-04-25 01:30:07] INFO root fetch - processPackages [pyhidra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhidra-1.0.2.tar.gz tmp/pyhidra-1.1.0.tar.gz --markdown 20240425/p/pyhidra/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-25 01:30:07] INFO root fetch - processPackages [geneweaver-core]: executing diffoscope
+[2024-04-25 01:30:07] INFO root fetch - processPackages [geneweaver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneweaver_core-0.9.0a9.tar.gz tmp/geneweaver_core-0.9.1.tar.gz --markdown 20240425/g/geneweaver-core/0.9.0a9-0.9.1/README.md --exclude *.pyd
+[2024-04-25 01:30:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.8.tar.gz]
+[2024-04-25 01:30:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.9.tar.gz]
+[2024-04-25 01:30:07] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-25 01:30:07] INFO root fetch - processPackages [pyhidra]: Remove: archive file [/home/abi/fetcher/tmp/pyhidra-1.0.2.tar.gz]
+[2024-04-25 01:30:07] INFO root fetch - processPackages [pyhidra]: Remove: archive file [/home/abi/fetcher/tmp/pyhidra-1.1.0.tar.gz]
+[2024-04-25 01:30:07] INFO root fetch - main [MainThread]: End processing [pyhidra]: success
+[2024-04-25 01:30:07] INFO root fetch - processPackages [geneweaver-core]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_core-0.9.0a9.tar.gz]
+[2024-04-25 01:30:07] INFO root fetch - processPackages [geneweaver-core]: Remove: archive file [/home/abi/fetcher/tmp/geneweaver_core-0.9.1.tar.gz]
+[2024-04-25 01:30:07] INFO root fetch - main [MainThread]: End processing [geneweaver-core]: success
+[2024-04-25 01:30:07] INFO root fetch - main [MainThread]: Store serial: [22921824]
