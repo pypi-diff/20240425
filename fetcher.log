@@ -2681,3 +2681,33 @@
 [2024-04-25 01:49:58] INFO root fetch - processPackages [async-notify]: Remove: archive file [/home/abi/fetcher/tmp/async_notify-1.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-25 01:49:58] INFO root fetch - main [MainThread]: End processing [async-notify]: success
 [2024-04-25 01:49:58] INFO root fetch - main [MainThread]: Store serial: [22921988]
+[2024-04-25 01:52:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921988]
+[2024-04-25 01:52:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 01:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argovisHelpers
+[2024-04-25 01:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linkture
+[2024-04-25 01:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monai-deploy-app-sdk
+[2024-04-25 01:52:08] INFO root fetch - processPackages [linkture]: New version: [2.6.0] Old Version: [2.5.6]
+[2024-04-25 01:52:08] INFO root fetch - processPackages [linkture]: Downloading https://files.pythonhosted.org/packages/34/8c/ef227c4a798b2fc1785678d17928d2bf7df0f8eb0f64d0ec5c56fd709c1d/linkture-2.5.6.tar.gz
+[2024-04-25 01:52:08] INFO root fetch - processPackages [argovisHelpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 01:52:08] INFO root fetch - processPackages [monai-deploy-app-sdk]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-25 01:52:08] INFO root fetch - processPackages [argovisHelpers]: Downloading https://files.pythonhosted.org/packages/dc/fb/015a17f5953024b0ebd76d1f15a17c2d90e91891e9cc15d866d196c97a26/argovisHelpers-0.0.8.tar.gz
+[2024-04-25 01:52:08] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/45/66/7aaeb1fa6b2a925d2a05715dce24394a12849e22ea8c6f31acb0581fddef/monai_deploy_app_sdk-1.0.0-py3-none-any.whl
+[2024-04-25 01:52:09] INFO root fetch - processPackages [linkture]: Downloading https://files.pythonhosted.org/packages/43/48/876bd8187761dd447fccb8366242bda599dd72b917c96a42f58c63e9cf4f/linkture-2.6.0.tar.gz
+[2024-04-25 01:52:09] INFO root fetch - processPackages [linkture]: executing diffoscope
+[2024-04-25 01:52:09] INFO root fetch - processPackages [linkture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkture-2.5.6.tar.gz tmp/linkture-2.6.0.tar.gz --markdown 20240425/l/linkture/2.5.6-2.6.0/README.md --exclude *.pyd
+[2024-04-25 01:52:09] INFO root fetch - processPackages [monai-deploy-app-sdk]: Downloading https://files.pythonhosted.org/packages/fa/5a/e4bc7bad613a21b80d0d2835598af5ad82083cc076fec6f4d14c455d23eb/monai_deploy_app_sdk-2.0.0-py3-none-any.whl
+[2024-04-25 01:52:09] INFO root fetch - processPackages [argovisHelpers]: Downloading https://files.pythonhosted.org/packages/c4/9b/69aa0ac205011a5c0353157c71c7c7d7418cfde221bcf8db32db64d593e8/argovisHelpers-0.0.9.tar.gz
+[2024-04-25 01:52:09] INFO root fetch - processPackages [argovisHelpers]: executing diffoscope
+[2024-04-25 01:52:09] INFO root fetch - processPackages [argovisHelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argovisHelpers-0.0.8.tar.gz tmp/argovisHelpers-0.0.9.tar.gz --markdown 20240425/a/argovisHelpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 01:52:09] INFO root fetch - processPackages [monai-deploy-app-sdk]: executing diffoscope
+[2024-04-25 01:52:09] INFO root fetch - processPackages [monai-deploy-app-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai_deploy_app_sdk-1.0.0-py3-none-any.whl.zip tmp/monai_deploy_app_sdk-2.0.0-py3-none-any.whl.zip --markdown 20240425/m/monai-deploy-app-sdk/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-25 01:52:09] INFO root fetch - processPackages [argovisHelpers]: Remove: archive file [/home/abi/fetcher/tmp/argovisHelpers-0.0.8.tar.gz]
+[2024-04-25 01:52:09] INFO root fetch - processPackages [argovisHelpers]: Remove: archive file [/home/abi/fetcher/tmp/argovisHelpers-0.0.9.tar.gz]
+[2024-04-25 01:52:09] INFO root fetch - main [MainThread]: End processing [argovisHelpers]: success
+[2024-04-25 01:52:09] INFO root fetch - processPackages [linkture]: Remove: archive file [/home/abi/fetcher/tmp/linkture-2.5.6.tar.gz]
+[2024-04-25 01:52:09] INFO root fetch - processPackages [linkture]: Remove: archive file [/home/abi/fetcher/tmp/linkture-2.6.0.tar.gz]
+[2024-04-25 01:52:09] INFO root fetch - main [MainThread]: End processing [linkture]: success
+[2024-04-25 01:52:10] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-1.0.0-py3-none-any.whl.zip]
+[2024-04-25 01:52:10] INFO root fetch - processPackages [monai-deploy-app-sdk]: Remove: archive file [/home/abi/fetcher/tmp/monai_deploy_app_sdk-2.0.0-py3-none-any.whl.zip]
+[2024-04-25 01:52:10] INFO root fetch - main [MainThread]: End processing [monai-deploy-app-sdk]: success
+[2024-04-25 01:52:10] INFO root fetch - main [MainThread]: Store serial: [22921998]
