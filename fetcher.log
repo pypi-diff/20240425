@@ -642,3 +642,65 @@
 [2024-04-25 00:28:36] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.7.tar.gz]
 [2024-04-25 00:28:36] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
 [2024-04-25 00:28:36] INFO root fetch - main [MainThread]: Store serial: [22921201]
+[2024-04-25 00:30:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22921201]
+[2024-04-25 00:30:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runseq
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-xla
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-enterprise-agent
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-collections
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luke-roberts-cloud-api
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dhuodata-lib
+[2024-04-25 00:30:44] INFO root fetch - processPackages [runseq]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-25 00:30:44] INFO root fetch - processPackages [mo-collections]: New version: [5.603.24115] Old Version: [5.602.24115]
+[2024-04-25 00:30:44] INFO root fetch - processPackages [luke-roberts-cloud-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 00:30:44] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 00:30:44] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-04-25 00:30:44] INFO root fetch - processPackages [runseq]: Downloading https://files.pythonhosted.org/packages/a3/1a/a988bdf2c9276a8b55ba069350c950c2f40f892ac780a5db7d4e8dbb9ecb/runseq-0.0.4.tar.gz
+[2024-04-25 00:30:44] INFO root fetch - processPackages [torch-xla]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-25 00:30:44] INFO root fetch - processPackages [ai-enterprise-agent]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-25 00:30:44] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/17/8a/2b84872c73dcdd36ba08df756a9a6b7812ad70bcca80c6cb8caf1221d40b/mo_collections-5.602.24115.tar.gz
+[2024-04-25 00:30:44] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/12/79/f64f95dc83ef90399259139b0e38111b927b7750ae7524780cd02732e678/dhuodata-lib-0.0.8.tar.gz
+[2024-04-25 00:30:44] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-25 00:30:45] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/dc/88/33eb39f95943a5bb1c025eac40fdb82358ec21367d7e16460045b5e21951/luke_roberts_cloud_api-0.0.1.tar.gz
+[2024-04-25 00:30:45] INFO root fetch - processPackages [torch-xla]: Downloading https://files.pythonhosted.org/packages/06/07/62514264fb76e885527c43e2d2d32b3555505ff0faa3500a1ccabf42b145/torch_xla-2.2.0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-25 00:30:45] INFO root fetch - processPackages [ai-enterprise-agent]: Downloading https://files.pythonhosted.org/packages/ca/81/37c6621cad4c2b518e6b8f0a67f525158cd73c4b62722a738327017151ca/ai-enterprise-agent-0.0.7.tar.gz
+[2024-04-25 00:30:45] INFO root fetch - processPackages [runseq]: Downloading https://files.pythonhosted.org/packages/65/fd/1e402d056c98c2e84a36074be2f13f517392258150d5550a7fdd5da962d1/runseq-0.1.0.tar.gz
+[2024-04-25 00:30:45] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/00/fd/ebe8e57a21069d23f61c67af2243eecf495030f2e3bff33963badae3c174/dhuodata-lib-0.0.9.zip
+[2024-04-25 00:30:45] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-04-25 00:30:45] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/58/38/09cb78aef43a01a1d5e2fe60e7bdc3510842bf805cbda5d21fbfc9afaf76/mo_collections-5.603.24115.tar.gz
+[2024-04-25 00:30:45] WARNING root fetch - processPackages [torch-xla]: Skipping package: exceeds size limit 85467712>=10485760
+[2024-04-25 00:30:45] INFO root fetch - main [MainThread]: End processing [torch-xla] error
+[2024-04-25 00:30:45] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-04-25 00:30:45] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata-lib-0.0.8.tar.gz tmp/dhuodata-lib-0.0.9.zip --markdown 20240425/d/dhuodata-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 00:30:45] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-25 00:30:45] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240425/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-04-25 00:30:45] INFO root fetch - processPackages [mo-collections]: executing diffoscope
+[2024-04-25 00:30:45] INFO root fetch - processPackages [mo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_collections-5.602.24115.tar.gz tmp/mo_collections-5.603.24115.tar.gz --markdown 20240425/m/mo-collections/5.602.24115-5.603.24115/README.md --exclude *.pyd
+[2024-04-25 00:30:45] INFO root fetch - processPackages [runseq]: executing diffoscope
+[2024-04-25 00:30:45] INFO root fetch - processPackages [luke-roberts-cloud-api]: Downloading https://files.pythonhosted.org/packages/b1/8d/2870eb8141847dbb47eaf25040b6f16c92fbfcf408684aee5f3ca522781d/luke_roberts_cloud_api-0.0.2.tar.gz
+[2024-04-25 00:30:45] INFO root fetch - processPackages [runseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runseq-0.0.4.tar.gz tmp/runseq-0.1.0.tar.gz --markdown 20240425/r/runseq/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-25 00:30:45] INFO root fetch - processPackages [ai-enterprise-agent]: Downloading https://files.pythonhosted.org/packages/79/cd/853ccdf8fab9a3c76765fbdbc20bf4fe51712f6080df00f3948a26989330/ai_enterprise_agent-0.0.8.tar.gz
+[2024-04-25 00:30:45] INFO root fetch - processPackages [luke-roberts-cloud-api]: executing diffoscope
+[2024-04-25 00:30:45] INFO root fetch - processPackages [luke-roberts-cloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luke_roberts_cloud_api-0.0.1.tar.gz tmp/luke_roberts_cloud_api-0.0.2.tar.gz --markdown 20240425/l/luke-roberts-cloud-api/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 00:30:45] INFO root fetch - processPackages [ai-enterprise-agent]: executing diffoscope
+[2024-04-25 00:30:45] INFO root fetch - processPackages [ai-enterprise-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-enterprise-agent-0.0.7.tar.gz tmp/ai_enterprise_agent-0.0.8.tar.gz --markdown 20240425/a/ai-enterprise-agent/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-25 00:30:45] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.0.8.tar.gz]
+[2024-04-25 00:30:45] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata-lib-0.0.9.zip]
+[2024-04-25 00:30:45] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-04-25 00:30:45] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.602.24115.tar.gz]
+[2024-04-25 00:30:45] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.603.24115.tar.gz]
+[2024-04-25 00:30:45] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
+[2024-04-25 00:30:46] INFO root fetch - processPackages [runseq]: Remove: archive file [/home/abi/fetcher/tmp/runseq-0.0.4.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - processPackages [runseq]: Remove: archive file [/home/abi/fetcher/tmp/runseq-0.1.0.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - main [MainThread]: End processing [runseq]: success
+[2024-04-25 00:30:46] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.1.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - processPackages [luke-roberts-cloud-api]: Remove: archive file [/home/abi/fetcher/tmp/luke_roberts_cloud_api-0.0.2.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - main [MainThread]: End processing [luke-roberts-cloud-api]: success
+[2024-04-25 00:30:46] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-25 00:30:46] INFO root fetch - processPackages [ai-enterprise-agent]: Remove: archive file [/home/abi/fetcher/tmp/ai-enterprise-agent-0.0.7.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - processPackages [ai-enterprise-agent]: Remove: archive file [/home/abi/fetcher/tmp/ai_enterprise_agent-0.0.8.tar.gz]
+[2024-04-25 00:30:46] INFO root fetch - main [MainThread]: End processing [ai-enterprise-agent]: success
+[2024-04-25 00:30:46] INFO root fetch - main [MainThread]: Store serial: [22921226]
