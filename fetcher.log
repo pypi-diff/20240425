@@ -13885,3 +13885,50 @@
 [2024-04-25 09:37:57] INFO root fetch - processPackages [simplecalculatorkms]: Remove: archive file [/home/abi/fetcher/tmp/simplecalculatorkms-0.0.2.tar.gz]
 [2024-04-25 09:37:57] INFO root fetch - main [MainThread]: End processing [simplecalculatorkms]: success
 [2024-04-25 09:37:57] INFO root fetch - main [MainThread]: Store serial: [22926663]
+[2024-04-25 09:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926663]
+[2024-04-25 09:40:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idvpackage
+[2024-04-25 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redis-mutator
+[2024-04-25 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mugicli
+[2024-04-25 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdi-rust-python-tools
+[2024-04-25 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linktest
+[2024-04-25 09:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ul-db-utils
+[2024-04-25 09:40:07] INFO root fetch - processPackages [linktest]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-04-25 09:40:07] INFO root fetch - processPackages [redis-mutator]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-25 09:40:07] WARNING root fetch - processPackages [tdi-rust-python-tools]: Skipping, unable to determine old version
+[2024-04-25 09:40:07] INFO root fetch - processPackages [ul-db-utils]: New version: [3.3.4] Old Version: [3.3.3]
+[2024-04-25 09:40:07] INFO root fetch - main [MainThread]: End processing [tdi-rust-python-tools] error
+[2024-04-25 09:40:07] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-25 09:40:07] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/41/eb/0dfd531d93000aa19d7360237485a558810bd929b67ce2c228cfff48b105/linktest-2.6.0.tar.gz
+[2024-04-25 09:40:07] INFO root fetch - processPackages [mugicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 09:40:07] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/08/1d/a51d037cf5d550b4a6f02daa50115522e8e18a0dd87160801d084fe0b276/redis_mutator-0.2.2.tar.gz
+[2024-04-25 09:40:07] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/23/1b/2c0eb3c06e7ce55681a6853bd349fd034e3aaaae16279b1be9d2e95ba23b/ul-db-utils-3.3.3.tar.gz
+[2024-04-25 09:40:07] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-04-25 09:40:07] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-04-25 09:40:07] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-04-25 09:40:07] INFO root fetch - processPackages [mugicli]: Downloading https://files.pythonhosted.org/packages/d2/f5/f0694013d0301cbc4c4e08fd383db2a346127720651453ebdd27da085300/mugicli-0.0.8-py3-none-any.whl
+[2024-04-25 09:40:07] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/d4/56/9199d8e1349493367374a12e42b2706964049737946b89b0e228a3b437ca/redis_mutator-0.2.3.tar.gz
+[2024-04-25 09:40:07] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/d3/f6/0cf1706ea435d8172bfc954248af623bc245dcc3e2f9c414be2dec167223/linktest-2.6.1.tar.gz
+[2024-04-25 09:40:07] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/d0/b2/eeee622df32628493cf11e965b4981e1573b3b5f0b95426496bfc1e3c695/ul-db-utils-3.3.4.tar.gz
+[2024-04-25 09:40:07] INFO root fetch - processPackages [redis-mutator]: executing diffoscope
+[2024-04-25 09:40:07] INFO root fetch - processPackages [redis-mutator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_mutator-0.2.2.tar.gz tmp/redis_mutator-0.2.3.tar.gz --markdown 20240425/r/redis-mutator/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-25 09:40:07] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-25 09:40:07] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.6.0.tar.gz tmp/linktest-2.6.1.tar.gz --markdown 20240425/l/linktest/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-04-25 09:40:07] INFO root fetch - processPackages [ul-db-utils]: executing diffoscope
+[2024-04-25 09:40:07] INFO root fetch - processPackages [ul-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-db-utils-3.3.3.tar.gz tmp/ul-db-utils-3.3.4.tar.gz --markdown 20240425/u/ul-db-utils/3.3.3-3.3.4/README.md --exclude *.pyd
+[2024-04-25 09:40:07] INFO root fetch - processPackages [mugicli]: Downloading https://files.pythonhosted.org/packages/8c/25/dd9895e8caabe1d88944db3406c9e36f872696e6b67991f97fe4b23e32da/mugicli-0.0.9-py3-none-any.whl
+[2024-04-25 09:40:08] INFO root fetch - processPackages [mugicli]: executing diffoscope
+[2024-04-25 09:40:08] INFO root fetch - processPackages [mugicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mugicli-0.0.8-py3-none-any.whl.zip tmp/mugicli-0.0.9-py3-none-any.whl.zip --markdown 20240425/m/mugicli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 09:40:08] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.2.2.tar.gz]
+[2024-04-25 09:40:08] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.2.3.tar.gz]
+[2024-04-25 09:40:08] INFO root fetch - main [MainThread]: End processing [redis-mutator]: success
+[2024-04-25 09:40:08] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.0.tar.gz]
+[2024-04-25 09:40:08] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.1.tar.gz]
+[2024-04-25 09:40:08] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-25 09:40:08] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.3.tar.gz]
+[2024-04-25 09:40:08] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.4.tar.gz]
+[2024-04-25 09:40:08] INFO root fetch - main [MainThread]: End processing [ul-db-utils]: success
+[2024-04-25 09:40:08] INFO root fetch - processPackages [mugicli]: Remove: archive file [/home/abi/fetcher/tmp/mugicli-0.0.8-py3-none-any.whl.zip]
+[2024-04-25 09:40:08] INFO root fetch - processPackages [mugicli]: Remove: archive file [/home/abi/fetcher/tmp/mugicli-0.0.9-py3-none-any.whl.zip]
+[2024-04-25 09:40:08] INFO root fetch - main [MainThread]: End processing [mugicli]: success
+[2024-04-25 09:40:08] INFO root fetch - main [MainThread]: Store serial: [22926698]
