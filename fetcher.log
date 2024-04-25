@@ -18152,3 +18152,80 @@
 [2024-04-25 11:28:29] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.9.tar.gz]
 [2024-04-25 11:28:29] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2024-04-25 11:28:29] INFO root fetch - main [MainThread]: Store serial: [22928163]
+[2024-04-25 11:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928163]
+[2024-04-25 11:30:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finance-calculation
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANX
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amsdal_server
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Fr1997v011
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongo-objects
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eflips-depot
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msaexp
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: basic-pratops-pratster
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nijtaio
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: richdb
+[2024-04-25 11:30:45] INFO root fetch - processPackages [Fr1997v011]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-25 11:30:45] WARNING root fetch - processPackages [finance-calculation]: Skipping, unable to determine old version
+[2024-04-25 11:30:45] INFO root fetch - main [MainThread]: End processing [finance-calculation] error
+[2024-04-25 11:30:45] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/66/33/9fcda572be50a1c8d72493964298a18876d15b5baa0f68eb434367bc2063/Fr1997v011-1.3.0.tar.gz
+[2024-04-25 11:30:45] INFO root fetch - processPackages [mongo-objects]: New version: [1.1.1] Old Version: [1.0.26]
+[2024-04-25 11:30:45] WARNING root fetch - processPackages [basic-pratops-pratster]: Skipping, unable to determine old version
+[2024-04-25 11:30:45] INFO root fetch - main [MainThread]: End processing [basic-pratops-pratster] error
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ANX]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-25 11:30:45] INFO root fetch - processPackages [eflips-depot]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-25 11:30:45] INFO root fetch - processPackages [msaexp]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-25 11:30:45] INFO root fetch - processPackages [amsdal_server]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 11:30:45] INFO root fetch - processPackages [nijtaio]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-25 11:30:45] INFO root fetch - processPackages [richdb]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-25 11:30:45] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/9d/53/b1e4b50984b86fe0d2749494dcbfd184eabcfdf9d8d434c894b5c18008f5/mongo_objects-1.0.26.tar.gz
+[2024-04-25 11:30:45] INFO root fetch - processPackages [eflips-depot]: Downloading https://files.pythonhosted.org/packages/cd/c7/147de5c18eb995748f9abdf0d47b5ddb0a81d200a68c2bae1210a683e7e5/eflips_depot-3.0.4.tar.gz
+[2024-04-25 11:30:45] INFO root fetch - processPackages [nijtaio]: Downloading https://files.pythonhosted.org/packages/f2/9d/3675dd6aa94a1ed9e791f38f401a7434c10ff778e31f9b35026817263ff4/nijtaio-1.1.7.tar.gz
+[2024-04-25 11:30:45] INFO root fetch - processPackages [msaexp]: Downloading https://files.pythonhosted.org/packages/be/0a/97bb319309a78dc20e6a502d9548b68ee0625fb8aff3a919c230c3761a36/msaexp-0.7.3.tar.gz
+[2024-04-25 11:30:45] INFO root fetch - processPackages [amsdal_server]: Downloading https://files.pythonhosted.org/packages/11/dc/22ce97b8b65ad8bb813e99e14d003d45b386fd2a8c1283dd9935d471a9b1/amsdal_server-0.1.8.tar.gz
+[2024-04-25 11:30:45] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/9b/c2/00d0ff20d258a2e7e0f6011a2761fef0b8291484800e5bedcd8ff912fef6/ANX-0.7.6.tar.gz
+[2024-04-25 11:30:45] INFO root fetch - processPackages [richdb]: Downloading https://files.pythonhosted.org/packages/69/94/0e62b6f2027a87b7c35412b6a8f32b08c9eecb2e88f5ee09a7041df09b2d/richdb-0.1.5-py3-none-any.whl
+[2024-04-25 11:30:45] WARNING root fetch - processPackages [msaexp]: Skipping package: exceeds size limit 15688123>=10485760
+[2024-04-25 11:30:45] INFO root fetch - main [MainThread]: End processing [msaexp] error
+[2024-04-25 11:30:46] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/3b/d4/f0c0afd35dae1face8614a716a32f5c327803dafa739ad9b6451d3fe9a5c/Fr1997v011-1.3.1.tar.gz
+[2024-04-25 11:30:46] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/45/0c/a4ec452366adce9f6eac9ea51ceddac9883874f5d1666a2cf002a96de299/mongo_objects-1.1.1.tar.gz
+[2024-04-25 11:30:46] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-04-25 11:30:46] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.3.0.tar.gz tmp/Fr1997v011-1.3.1.tar.gz --markdown 20240425/F/Fr1997v011/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-25 11:30:46] INFO root fetch - processPackages [nijtaio]: Downloading https://files.pythonhosted.org/packages/b5/94/2d5974f05add101802fcdcf32b525c6f6647f247073da56c40561aed4c17/nijtaio-1.1.8.tar.gz
+[2024-04-25 11:30:46] INFO root fetch - processPackages [eflips-depot]: Downloading https://files.pythonhosted.org/packages/23/33/c0c435adfebdbbc164c80a575dafe36d8702e65bb05bf9190acd327f59da/eflips_depot-3.0.5.tar.gz
+[2024-04-25 11:30:46] INFO root fetch - processPackages [amsdal_server]: Downloading https://files.pythonhosted.org/packages/b0/41/be17c6df60736ba2006e7b1f7ee78b27a4d7cc53b4024203f804563f64eb/amsdal_server-0.1.9.tar.gz
+[2024-04-25 11:30:46] INFO root fetch - processPackages [richdb]: Downloading https://files.pythonhosted.org/packages/59/b9/14c518b39a8a5cf1a67d45b339cfcd270463584c78594a2a4f81ec50d1c6/richdb-0.1.6.tar.gz
+[2024-04-25 11:30:46] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/f7/96/48895a255de44c664f85000588dcd1848e84a78376f961e3d5d4c2294d84/ANX-0.7.7.tar.gz
+[2024-04-25 11:30:46] INFO root fetch - processPackages [mongo-objects]: executing diffoscope
+[2024-04-25 11:30:46] INFO root fetch - processPackages [mongo-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_objects-1.0.26.tar.gz tmp/mongo_objects-1.1.1.tar.gz --markdown 20240425/m/mongo-objects/1.0.26-1.1.1/README.md --exclude *.pyd
+[2024-04-25 11:30:46] INFO root fetch - processPackages [nijtaio]: executing diffoscope
+[2024-04-25 11:30:46] INFO root fetch - processPackages [nijtaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nijtaio-1.1.7.tar.gz tmp/nijtaio-1.1.8.tar.gz --markdown 20240425/n/nijtaio/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-25 11:30:46] INFO root fetch - processPackages [eflips-depot]: executing diffoscope
+[2024-04-25 11:30:46] INFO root fetch - processPackages [eflips-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eflips_depot-3.0.4.tar.gz tmp/eflips_depot-3.0.5.tar.gz --markdown 20240425/e/eflips-depot/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-25 11:30:46] INFO root fetch - processPackages [amsdal_server]: executing diffoscope
+[2024-04-25 11:30:46] INFO root fetch - processPackages [amsdal_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_server-0.1.8.tar.gz tmp/amsdal_server-0.1.9.tar.gz --markdown 20240425/a/amsdal_server/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 11:30:46] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-04-25 11:30:46] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.7.6.tar.gz tmp/ANX-0.7.7.tar.gz --markdown 20240425/A/ANX/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-25 11:30:46] INFO root fetch - processPackages [richdb]: executing diffoscope
+[2024-04-25 11:30:46] INFO root fetch - processPackages [richdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richdb-0.1.5-py3-none-any.whl.zip tmp/richdb-0.1.6.tar.gz --markdown 20240425/r/richdb/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-25 11:30:46] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.3.0.tar.gz]
+[2024-04-25 11:30:46] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.3.1.tar.gz]
+[2024-04-25 11:30:46] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-04-25 11:30:47] INFO root fetch - processPackages [nijtaio]: Remove: archive file [/home/abi/fetcher/tmp/nijtaio-1.1.7.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - processPackages [nijtaio]: Remove: archive file [/home/abi/fetcher/tmp/nijtaio-1.1.8.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - main [MainThread]: End processing [nijtaio]: success
+[2024-04-25 11:30:47] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.0.26.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.1.1.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - main [MainThread]: End processing [mongo-objects]: success
+[2024-04-25 11:30:47] INFO root fetch - processPackages [amsdal_server]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_server-0.1.8.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - processPackages [amsdal_server]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_server-0.1.9.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - main [MainThread]: End processing [amsdal_server]: success
+[2024-04-25 11:30:47] INFO root fetch - processPackages [eflips-depot]: Remove: archive file [/home/abi/fetcher/tmp/eflips_depot-3.0.4.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - processPackages [eflips-depot]: Remove: archive file [/home/abi/fetcher/tmp/eflips_depot-3.0.5.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - main [MainThread]: End processing [eflips-depot]: success
+[2024-04-25 11:30:47] INFO root fetch - processPackages [richdb]: Remove: archive file [/home/abi/fetcher/tmp/richdb-0.1.5-py3-none-any.whl.zip]
+[2024-04-25 11:30:47] INFO root fetch - processPackages [richdb]: Remove: archive file [/home/abi/fetcher/tmp/richdb-0.1.6.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - main [MainThread]: End processing [richdb]: success
+[2024-04-25 11:30:47] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.6.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.7.tar.gz]
+[2024-04-25 11:30:47] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-04-25 11:30:47] INFO root fetch - main [MainThread]: Store serial: [22928197]
