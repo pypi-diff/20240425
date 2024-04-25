@@ -2832,3 +2832,63 @@
 [2024-04-25 02:03:02] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.21.1-cp312-cp312-macosx_11_0_arm64.whl.zip]
 [2024-04-25 02:03:02] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
 [2024-04-25 02:03:02] INFO root fetch - main [MainThread]: Store serial: [22922074]
+[2024-04-25 02:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922074]
+[2024-04-25 02:05:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2024-04-25 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dg-face-tracking
+[2024-04-25 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-04-25 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bnpm
+[2024-04-25 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcp-pilot
+[2024-04-25 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autocortext-py
+[2024-04-25 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2024-04-25 02:05:11] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240424] Old Version: [0.1.0.dev20240423]
+[2024-04-25 02:05:11] INFO root fetch - processPackages [gcp-pilot]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-25 02:05:11] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240424.359] Old Version: [2.0.0.20240423.418]
+[2024-04-25 02:05:11] INFO root fetch - processPackages [bnpm]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-25 02:05:11] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-25 02:05:11] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-25 02:05:11] INFO root fetch - processPackages [gcp-pilot]: Downloading https://files.pythonhosted.org/packages/78/4c/904d9bfad08e100e7292aa65ba02bb2970a1847c9b70f40c2e5b5f7c0394/gcp_pilot-1.8.0.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 02:05:11] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/fa/0b/0ae5b3fb112147a60086b00b2484eed0075c0dfc19d4a83dd012ce2ac71e/mct-nightly-2.0.0.20240423.418.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-25 02:05:11] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b9/61/e9ffd7fb5be320f69be9dcc34b6b592964987d55c33e7fb463d468d9be7a/onnxscript-0.1.0.dev20240423.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [bnpm]: Downloading https://files.pythonhosted.org/packages/9c/98/14de193e89b0c9b0988d6227d8a3b53ed0fe0f0ebe2ddd166944baa80839/bnpm-0.5.1.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [gcp-pilot]: Downloading https://files.pythonhosted.org/packages/77/21/e21af36c6a9ae3ffd798bb349a5af13504c2c3ec3e5361bdfcd34b9fa888/gcp_pilot-1.9.0.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/79/27/2afdd2ef045df22466ff57a5d17c3531e6f5c0fc6804ca52491357078c38/dg_face_tracking-0.1.8-py3-none-any.whl
+[2024-04-25 02:05:11] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/8f/4f/fcd3792960d96d5a3589eef1bc01ed2e3e922ab1859ea551d6fb78348dda/mct-nightly-2.0.0.20240424.359.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [gcp-pilot]: executing diffoscope
+[2024-04-25 02:05:11] INFO root fetch - processPackages [gcp-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pilot-1.8.0.tar.gz tmp/gcp_pilot-1.9.0.tar.gz --markdown 20240425/g/gcp-pilot/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-25 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-25 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240425/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-25 02:05:11] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-25 02:05:11] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240423.418.tar.gz tmp/mct-nightly-2.0.0.20240424.359.tar.gz --markdown 20240425/m/mct-nightly/2.0.0.20240423.418-2.0.0.20240424.359/README.md --exclude *.pyd
+[2024-04-25 02:05:11] INFO root fetch - processPackages [bnpm]: Downloading https://files.pythonhosted.org/packages/75/db/c894a70fc50279d945de700867a2a972f11ba772aa41b40b2e2fd112d261/bnpm-0.5.2.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/d2/69/6ab90a0f428d49dc665d453467b351c30a7daccb071a5dcef977bb7b06e6/onnxscript-0.1.0.dev20240424.tar.gz
+[2024-04-25 02:05:11] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/0d/58/eb7cdb04b923201a004e8e2a15d07cd67a34137de53e041139b1ee76a783/dg_face_tracking-0.1.9-py3-none-any.whl
+[2024-04-25 02:05:12] INFO root fetch - processPackages [bnpm]: executing diffoscope
+[2024-04-25 02:05:12] INFO root fetch - processPackages [bnpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnpm-0.5.1.tar.gz tmp/bnpm-0.5.2.tar.gz --markdown 20240425/b/bnpm/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-25 02:05:12] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-25 02:05:12] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.1.8-py3-none-any.whl.zip tmp/dg_face_tracking-0.1.9-py3-none-any.whl.zip --markdown 20240425/d/dg-face-tracking/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 02:05:12] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-25 02:05:12] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240423.tar.gz tmp/onnxscript-0.1.0.dev20240424.tar.gz --markdown 20240425/o/onnxscript/0.1.0.dev20240423-0.1.0.dev20240424/README.md --exclude *.pyd
+[2024-04-25 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-25 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-25 02:05:12] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-25 02:05:12] INFO root fetch - processPackages [gcp-pilot]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pilot-1.8.0.tar.gz]
+[2024-04-25 02:05:12] INFO root fetch - processPackages [gcp-pilot]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pilot-1.9.0.tar.gz]
+[2024-04-25 02:05:12] INFO root fetch - main [MainThread]: End processing [gcp-pilot]: success
+[2024-04-25 02:05:12] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.8-py3-none-any.whl.zip]
+[2024-04-25 02:05:12] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.1.9-py3-none-any.whl.zip]
+[2024-04-25 02:05:12] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-25 02:05:13] INFO root fetch - processPackages [bnpm]: Remove: archive file [/home/abi/fetcher/tmp/bnpm-0.5.1.tar.gz]
+[2024-04-25 02:05:13] INFO root fetch - processPackages [bnpm]: Remove: archive file [/home/abi/fetcher/tmp/bnpm-0.5.2.tar.gz]
+[2024-04-25 02:05:13] INFO root fetch - main [MainThread]: End processing [bnpm]: success
+[2024-04-25 02:05:13] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240423.tar.gz]
+[2024-04-25 02:05:13] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240424.tar.gz]
+[2024-04-25 02:05:13] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-25 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240423.418.tar.gz]
+[2024-04-25 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240424.359.tar.gz]
+[2024-04-25 02:05:13] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-25 02:05:13] INFO root fetch - main [MainThread]: Store serial: [22922118]
