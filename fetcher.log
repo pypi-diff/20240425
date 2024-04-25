@@ -14066,3 +14066,96 @@
 [2024-04-25 09:44:38] INFO root fetch - processPackages [greatlibrarian]: Remove: archive file [/home/abi/fetcher/tmp/greatlibrarian-0.0.8.tar.gz]
 [2024-04-25 09:44:38] INFO root fetch - main [MainThread]: End processing [greatlibrarian]: success
 [2024-04-25 09:44:38] INFO root fetch - main [MainThread]: Store serial: [22926746]
+[2024-04-25 09:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926746]
+[2024-04-25 09:46:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: particleannotation
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mugicli
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipysmrs
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: horreum
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crabpy-pyramid
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycrdt-websocket
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AES-Python
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vogmidea
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ideastatica-rcs-client
+[2024-04-25 09:46:48] INFO root fetch - processPackages [mugicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 09:46:48] WARNING root fetch - processPackages [vogmidea]: Skipping, unable to determine old version
+[2024-04-25 09:46:48] INFO root fetch - processPackages [vogmidea]: Start processing: fastapix-py
+[2024-04-25 09:46:48] INFO root fetch - main [MainThread]: End processing [vogmidea] error
+[2024-04-25 09:46:48] INFO root fetch - processPackages [crabpy-pyramid]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-25 09:46:48] WARNING root fetch - processPackages [particleannotation]: Skipping, unable to determine old version
+[2024-04-25 09:46:48] INFO root fetch - processPackages [particleannotation]: Start processing: quant2
+[2024-04-25 09:46:48] INFO root fetch - main [MainThread]: End processing [particleannotation] error
+[2024-04-25 09:46:48] INFO root fetch - processPackages [AES-Python]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-25 09:46:48] WARNING root fetch - processPackages [ipysmrs]: Skipping, unable to determine old version
+[2024-04-25 09:46:48] INFO root fetch - main [MainThread]: End processing [ipysmrs] error
+[2024-04-25 09:46:48] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-25 09:46:48] INFO root fetch - processPackages [pycrdt-websocket]: New version: [0.13.0] Old Version: [0.12.7]
+[2024-04-25 09:46:48] INFO root fetch - processPackages [ideastatica-rcs-client]: New version: [24.0.0.4380] Old Version: [23.1.4.956]
+[2024-04-25 09:46:48] INFO root fetch - processPackages [horreum]: New version: [0.12.1] Old Version: [0.12]
+[2024-04-25 09:46:48] INFO root fetch - processPackages [mugicli]: Downloading https://files.pythonhosted.org/packages/d2/f5/f0694013d0301cbc4c4e08fd383db2a346127720651453ebdd27da085300/mugicli-0.0.8-py3-none-any.whl
+[2024-04-25 09:46:48] INFO root fetch - processPackages [crabpy-pyramid]: Downloading https://files.pythonhosted.org/packages/48/48/2e58ca73fe65e57113db2e5bc9d666fc9959e9d59e8effac2cbf2b85f29f/crabpy_pyramid-2.0.0.tar.gz
+[2024-04-25 09:46:48] INFO root fetch - processPackages [fastapix-py]: New version: [0.8.0] Old Version: [0.7.7]
+[2024-04-25 09:46:49] INFO root fetch - processPackages [quant2]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:46:49] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [horreum]: Downloading https://files.pythonhosted.org/packages/56/02/6d20cba25818edfced05a44015446c0ab9c11e2fd8b05869fad1d55f434c/horreum-0.12.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [AES-Python]: Downloading https://files.pythonhosted.org/packages/a5/50/73d70c1f5956a8a2e2d79cd8e1041d4a2cd641a3bd1769ab2f2db288ee9f/aes_python-1.5.3.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [pycrdt-websocket]: Downloading https://files.pythonhosted.org/packages/c8/17/62a35734426ea54b355fcf641981ed60f76b3f7e0df82c88e4aed56867e8/pycrdt_websocket-0.12.7.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [ideastatica-rcs-client]: Downloading https://files.pythonhosted.org/packages/ec/bc/10ac33004ac361c590163ef9c55fdf9245faff210c0c726b7c67ad0af0de/ideastatica_rcs_client-23.1.4.956.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [crabpy-pyramid]: Downloading https://files.pythonhosted.org/packages/bb/98/a8f989bdc96fda338e346f8775e9ba71fca39bbccbd112c42e1e620d4262/crabpy_pyramid-2.1.0.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/ce/a6/f01b5bc34414edf161dfcb757c6c7fdd236bfbbaedaa71fc90a70204a46a/fastapix_py-0.7.7-py3-none-any.whl
+[2024-04-25 09:46:49] INFO root fetch - processPackages [mugicli]: Downloading https://files.pythonhosted.org/packages/8c/25/dd9895e8caabe1d88944db3406c9e36f872696e6b67991f97fe4b23e32da/mugicli-0.0.9-py3-none-any.whl
+[2024-04-25 09:46:49] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/8c/95b0b708a3cd61829bebc45cde551ba9b6d2873d10f8c9d96f89d6f06315/quant2-0.1.8.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [crabpy-pyramid]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [crabpy-pyramid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crabpy_pyramid-2.0.0.tar.gz tmp/crabpy_pyramid-2.1.0.tar.gz --markdown 20240425/c/crabpy-pyramid/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [mugicli]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [mugicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mugicli-0.0.8-py3-none-any.whl.zip tmp/mugicli-0.0.9-py3-none-any.whl.zip --markdown 20240425/m/mugicli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [horreum]: Downloading https://files.pythonhosted.org/packages/50/69/a0c458ad10a62e5378562ad85a7f46e2bd4868875542666d19e9a07b0040/horreum-0.12.1.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [AES-Python]: Downloading https://files.pythonhosted.org/packages/23/90/592743f6374455a5eb106b68e29d4dae1ffa1089373564ff9265e2e2e214/aes_python-1.5.4.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [pycrdt-websocket]: Downloading https://files.pythonhosted.org/packages/f0/ee/ab4962cf40a73799ddeed01db6fdf965fca0793dd3167f6d32f8d7f2e858/pycrdt_websocket-0.13.0.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [ideastatica-rcs-client]: Downloading https://files.pythonhosted.org/packages/52/3b/efac84c7f5d86be0856edf2fcfe315fc382aec6a3fe609455304b42f80f8/ideastatica_rcs_client-24.0.0.4380.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/bf/1a/6ceafd7a5a862aa7b8839815a0b32442b1a768caef03ce4ee178c5125c8c/quant2-0.1.9.tar.gz
+[2024-04-25 09:46:49] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240425/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [horreum]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [horreum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horreum-0.12.tar.gz tmp/horreum-0.12.1.tar.gz --markdown 20240425/h/horreum/0.12-0.12.1/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [pycrdt-websocket]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [AES-Python]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [AES-Python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aes_python-1.5.3.tar.gz tmp/aes_python-1.5.4.tar.gz --markdown 20240425/A/AES-Python/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [pycrdt-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrdt_websocket-0.12.7.tar.gz tmp/pycrdt_websocket-0.13.0.tar.gz --markdown 20240425/p/pycrdt-websocket/0.12.7-0.13.0/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.1.8.tar.gz tmp/quant2-0.1.9.tar.gz --markdown 20240425/q/quant2/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [ideastatica-rcs-client]: executing diffoscope
+[2024-04-25 09:46:49] INFO root fetch - processPackages [ideastatica-rcs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ideastatica_rcs_client-23.1.4.956.tar.gz tmp/ideastatica_rcs_client-24.0.0.4380.tar.gz --markdown 20240425/i/ideastatica-rcs-client/23.1.4.956-24.0.0.4380/README.md --exclude *.pyd
+[2024-04-25 09:46:49] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/2e/c2/690c150d0ade764e462d92de0b1735423e0e6979fa9c5adc742821f5beac/fastapix_py-0.8.0-py3-none-any.whl
+[2024-04-25 09:46:50] INFO root fetch - processPackages [crabpy-pyramid]: Remove: archive file [/home/abi/fetcher/tmp/crabpy_pyramid-2.0.0.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [crabpy-pyramid]: Remove: archive file [/home/abi/fetcher/tmp/crabpy_pyramid-2.1.0.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [crabpy-pyramid]: success
+[2024-04-25 09:46:50] INFO root fetch - processPackages [mugicli]: Remove: archive file [/home/abi/fetcher/tmp/mugicli-0.0.8-py3-none-any.whl.zip]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [mugicli]: Remove: archive file [/home/abi/fetcher/tmp/mugicli-0.0.9-py3-none-any.whl.zip]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [mugicli]: success
+[2024-04-25 09:46:50] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-04-25 09:46:50] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.7.7-py3-none-any.whl.zip tmp/fastapix_py-0.8.0-py3-none-any.whl.zip --markdown 20240425/f/fastapix-py/0.7.7-0.8.0/README.md --exclude *.pyd
+[2024-04-25 09:46:50] INFO root fetch - processPackages [pycrdt-websocket]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt_websocket-0.12.7.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [pycrdt-websocket]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt_websocket-0.13.0.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [pycrdt-websocket]: success
+[2024-04-25 09:46:50] INFO root fetch - processPackages [ideastatica-rcs-client]: Remove: archive file [/home/abi/fetcher/tmp/ideastatica_rcs_client-23.1.4.956.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [ideastatica-rcs-client]: Remove: archive file [/home/abi/fetcher/tmp/ideastatica_rcs_client-24.0.0.4380.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [ideastatica-rcs-client]: success
+[2024-04-25 09:46:50] INFO root fetch - processPackages [AES-Python]: Remove: archive file [/home/abi/fetcher/tmp/aes_python-1.5.3.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [AES-Python]: Remove: archive file [/home/abi/fetcher/tmp/aes_python-1.5.4.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [AES-Python]: success
+[2024-04-25 09:46:50] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-25 09:46:50] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.8.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.9.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-25 09:46:50] INFO root fetch - processPackages [horreum]: Remove: archive file [/home/abi/fetcher/tmp/horreum-0.12.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - processPackages [horreum]: Remove: archive file [/home/abi/fetcher/tmp/horreum-0.12.1.tar.gz]
+[2024-04-25 09:46:50] INFO root fetch - main [MainThread]: End processing [horreum]: success
+[2024-04-25 09:46:51] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.7-py3-none-any.whl.zip]
+[2024-04-25 09:46:51] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.8.0-py3-none-any.whl.zip]
+[2024-04-25 09:46:51] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-04-25 09:46:51] INFO root fetch - main [MainThread]: Store serial: [22926788]
