@@ -19051,3 +19051,54 @@
 [2024-04-25 12:00:48] INFO root fetch - processPackages [enkanetworkv2.py]: Remove: archive file [/home/abi/fetcher/tmp/enkanetworkv2.py-2.0.5.tar.gz]
 [2024-04-25 12:00:48] INFO root fetch - main [MainThread]: End processing [enkanetworkv2.py]: success
 [2024-04-25 12:00:48] INFO root fetch - main [MainThread]: Store serial: [22928551]
+[2024-04-25 12:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928551]
+[2024-04-25 12:02:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brynq-sdk-mandrill
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongo-m
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datapick
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: everai
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-grappelli
+[2024-04-25 12:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Quanthon
+[2024-04-25 12:02:57] INFO root fetch - processPackages [everai]: New version: [0.1.36] Old Version: [0.1.35]
+[2024-04-25 12:02:57] INFO root fetch - processPackages [mongo-m]: New version: [1.1.1] Old Version: [1.0.7]
+[2024-04-25 12:02:57] INFO root fetch - processPackages [Quanthon]: New version: [0.3.6.1] Old Version: [0.3.6]
+[2024-04-25 12:02:57] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-25 12:02:57] INFO root fetch - processPackages [django-grappelli]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-25 12:02:57] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240425.4.35.436567] Old Version: [20240425.2.6.16987]
+[2024-04-25 12:02:57] WARNING root fetch - processPackages [datapick]: Skipping, unable to determine old version
+[2024-04-25 12:02:57] INFO root fetch - main [MainThread]: End processing [datapick] error
+[2024-04-25 12:02:57] WARNING root fetch - processPackages [brynq-sdk-mandrill]: Skipping, unable to determine old version
+[2024-04-25 12:02:57] INFO root fetch - main [MainThread]: End processing [brynq-sdk-mandrill] error
+[2024-04-25 12:02:57] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/f6/76/0795ebc3c3a2dcf3a9b85be4e54c38a6be8de53b0edb68b6ed64a68fb6a5/mongo_m-1.0.7.tar.gz
+[2024-04-25 12:02:57] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/03/39/02ca8317834b3d52e40d0eb11c7311965bcdb14afc4521fab99b4ca11db2/everai-0.1.35-py3-none-any.whl
+[2024-04-25 12:02:57] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/ba/0c/bb60755b43f39ca7331274f07442ea1f0093adb6a45687c8a4765f932a91/Quanthon-0.3.6.tar.gz
+[2024-04-25 12:02:57] INFO root fetch - processPackages [django-grappelli]: Downloading https://files.pythonhosted.org/packages/8c/05/2c3c1a13e2f5073b1cea5e3920553aef89f02287d38fc4e23d79397f656a/django-grappelli-3.0.8.tar.gz
+[2024-04-25 12:02:57] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-25 12:02:57] WARNING root fetch - processPackages [django-grappelli]: Skipping package: exceeds size limit 11062097>=10485760
+[2024-04-25 12:02:57] INFO root fetch - main [MainThread]: End processing [django-grappelli] error
+[2024-04-25 12:02:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/51/7e/76913b19335d680fc31b64f9f1080a21d45352820ab351eb366f7983e11b/certora-cli-alpha-master-20240425.2.6.16987.tar.gz
+[2024-04-25 12:02:57] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14530686>=10485760
+[2024-04-25 12:02:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-25 12:02:57] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/0a/58/0a681a477c4bd913538368ea83d45f52a592600f9f04896d1fef19d2ec60/mongo_m-1.1.1.tar.gz
+[2024-04-25 12:02:57] ERROR root fetch - processPackages [everai]: Unable to fetch info: No such project/version 'everai' 0.1.36
+[2024-04-25 12:02:57] INFO root fetch - main [MainThread]: End processing [everai] error
+[2024-04-25 12:02:57] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/1d/d3/e1ac548251190088b5daa1865a5fa32fbd2e4d6966be858c47b0c1e851e4/quanthon-0.3.6.1.tar.gz
+[2024-04-25 12:02:57] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-25 12:02:58] INFO root fetch - processPackages [mongo-m]: executing diffoscope
+[2024-04-25 12:02:58] INFO root fetch - processPackages [mongo-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_m-1.0.7.tar.gz tmp/mongo_m-1.1.1.tar.gz --markdown 20240425/m/mongo-m/1.0.7-1.1.1/README.md --exclude *.pyd
+[2024-04-25 12:02:58] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-25 12:02:58] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quanthon-0.3.6.tar.gz tmp/quanthon-0.3.6.1.tar.gz --markdown 20240425/Q/Quanthon/0.3.6-0.3.6.1/README.md --exclude *.pyd
+[2024-04-25 12:02:58] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-25 12:02:58] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240425/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-25 12:02:58] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.7.tar.gz]
+[2024-04-25 12:02:58] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.1.1.tar.gz]
+[2024-04-25 12:02:58] INFO root fetch - main [MainThread]: End processing [mongo-m]: success
+[2024-04-25 12:02:58] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.6.tar.gz]
+[2024-04-25 12:02:58] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/quanthon-0.3.6.1.tar.gz]
+[2024-04-25 12:02:58] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-25 12:03:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-25 12:03:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-25 12:03:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-25 12:03:00] INFO root fetch - main [MainThread]: Store serial: [22928591]
