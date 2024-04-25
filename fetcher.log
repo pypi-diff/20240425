@@ -12647,3 +12647,60 @@
 [2024-04-25 08:55:12] INFO root fetch - processPackages [rhdzmota]: Remove: archive file [/home/abi/fetcher/tmp/rhdzmota-4.0.1.tar.gz]
 [2024-04-25 08:55:12] INFO root fetch - main [MainThread]: End processing [rhdzmota]: success
 [2024-04-25 08:55:12] INFO root fetch - main [MainThread]: Store serial: [22926188]
+[2024-04-25 08:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926188]
+[2024-04-25 08:57:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moveread-models
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaraco.services
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-picking-start
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bingtiles
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myelectricaldatapy
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: staticjinjaplus
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dedev
+[2024-04-25 08:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: caluma-alexandria
+[2024-04-25 08:57:20] INFO root fetch - processPackages [odoo-addon-stock-picking-start]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2024-04-25 08:57:20] INFO root fetch - processPackages [odoo-addon-stock-picking-start]: Downloading https://files.pythonhosted.org/packages/1a/d3/eec0d1586f92f8023dc66d5f87c2a5a622bfe4038087aadc8b6fb17fea48/odoo_addon_stock_picking_start-16.0.1.1.0.2-py3-none-any.whl
+[2024-04-25 08:57:20] INFO root fetch - processPackages [jaraco.services]: New version: [4.0.0] Old Version: [3.2.0]
+[2024-04-25 08:57:20] WARNING root fetch - processPackages [dedev]: Skipping, unable to determine old version
+[2024-04-25 08:57:20] INFO root fetch - main [MainThread]: End processing [dedev] error
+[2024-04-25 08:57:20] INFO root fetch - processPackages [staticjinjaplus]: New version: [2.0.0] Old Version: [1.1.2]
+[2024-04-25 08:57:20] WARNING root fetch - processPackages [moveread-models]: Skipping, unable to determine old version
+[2024-04-25 08:57:20] INFO root fetch - main [MainThread]: End processing [moveread-models] error
+[2024-04-25 08:57:20] WARNING root fetch - processPackages [bingtiles]: Skipping, unable to determine old version
+[2024-04-25 08:57:20] INFO root fetch - main [MainThread]: End processing [bingtiles] error
+[2024-04-25 08:57:20] INFO root fetch - processPackages [caluma-alexandria]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-25 08:57:20] INFO root fetch - processPackages [myelectricaldatapy]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-25 08:57:20] INFO root fetch - processPackages [jaraco.services]: Downloading https://files.pythonhosted.org/packages/39/2b/acede99cdb412807a9a706c116848787ad3bf81c50bd1dba9bd509d6fa30/jaraco.services-3.2.0.tar.gz
+[2024-04-25 08:57:20] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/7b/d4/4c4d219d196234b2d8e1c099a30e29dd1fb2a1fe36c7379319a602b622e9/staticjinjaplus-1.1.2.tar.gz
+[2024-04-25 08:57:20] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/3d/72/c9afcc3b8a2c7979a2e47013a503849259801b340a0e1c54b50ec67e2936/myelectricaldatapy-2.1.5.tar.gz
+[2024-04-25 08:57:20] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/09/00/c93b3bcfc9092db66f901d42157347a4e42e5446085db90e42bb32a3c5ba/caluma_alexandria-4.0.1.tar.gz
+[2024-04-25 08:57:20] INFO root fetch - processPackages [odoo-addon-stock-picking-start]: Downloading https://files.pythonhosted.org/packages/44/c2/110f9e2f0eafd175eb0a0069fe08bcf69f105b5993ea272864f8ef4a96d0/odoo_addon_stock_picking_start-16.0.1.1.1-py3-none-any.whl
+[2024-04-25 08:57:21] INFO root fetch - processPackages [odoo-addon-stock-picking-start]: executing diffoscope
+[2024-04-25 08:57:21] INFO root fetch - processPackages [odoo-addon-stock-picking-start]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_start-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_start-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-stock-picking-start/16.0.1.1.0.2-16.0.1.1.1/README.md --exclude *.pyd
+[2024-04-25 08:57:21] INFO root fetch - processPackages [jaraco.services]: Downloading https://files.pythonhosted.org/packages/0f/5d/ec526406378f71981b55f255a0d21bbb178558bdaf5583aca4e0cd54cff5/jaraco_services-4.0.0.tar.gz
+[2024-04-25 08:57:21] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/80/17/03db05b032355547cc6b1cb11cf90a722be718c845d328a685cb44b2b6b8/staticjinjaplus-2.0.0.tar.gz
+[2024-04-25 08:57:21] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/b1/7d/318ef0b0e9501f2402f526140bd8bc74ecbd0b9039d664868ce87f479a8f/myelectricaldatapy-2.1.6.tar.gz
+[2024-04-25 08:57:21] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/49/2f/2a7e371772f87d88514e1d24be95d514220775a5d8adaea60e1e21fe70d7/caluma_alexandria-4.0.2.tar.gz
+[2024-04-25 08:57:21] INFO root fetch - processPackages [jaraco.services]: executing diffoscope
+[2024-04-25 08:57:21] INFO root fetch - processPackages [jaraco.services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.services-3.2.0.tar.gz tmp/jaraco_services-4.0.0.tar.gz --markdown 20240425/j/jaraco.services/3.2.0-4.0.0/README.md --exclude *.pyd
+[2024-04-25 08:57:21] INFO root fetch - processPackages [staticjinjaplus]: executing diffoscope
+[2024-04-25 08:57:21] INFO root fetch - processPackages [staticjinjaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticjinjaplus-1.1.2.tar.gz tmp/staticjinjaplus-2.0.0.tar.gz --markdown 20240425/s/staticjinjaplus/1.1.2-2.0.0/README.md --exclude *.pyd
+[2024-04-25 08:57:21] INFO root fetch - processPackages [myelectricaldatapy]: executing diffoscope
+[2024-04-25 08:57:21] INFO root fetch - processPackages [myelectricaldatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myelectricaldatapy-2.1.5.tar.gz tmp/myelectricaldatapy-2.1.6.tar.gz --markdown 20240425/m/myelectricaldatapy/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-25 08:57:21] INFO root fetch - processPackages [caluma-alexandria]: executing diffoscope
+[2024-04-25 08:57:21] INFO root fetch - processPackages [caluma-alexandria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma_alexandria-4.0.1.tar.gz tmp/caluma_alexandria-4.0.2.tar.gz --markdown 20240425/c/caluma-alexandria/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-04-25 08:57:21] INFO root fetch - processPackages [odoo-addon-stock-picking-start]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_start-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-25 08:57:21] INFO root fetch - processPackages [odoo-addon-stock-picking-start]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_start-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-25 08:57:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-start]: success
+[2024-04-25 08:57:21] INFO root fetch - processPackages [jaraco.services]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.services-3.2.0.tar.gz]
+[2024-04-25 08:57:21] INFO root fetch - processPackages [jaraco.services]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_services-4.0.0.tar.gz]
+[2024-04-25 08:57:21] INFO root fetch - main [MainThread]: End processing [jaraco.services]: success
+[2024-04-25 08:57:21] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-1.1.2.tar.gz]
+[2024-04-25 08:57:21] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-2.0.0.tar.gz]
+[2024-04-25 08:57:21] INFO root fetch - main [MainThread]: End processing [staticjinjaplus]: success
+[2024-04-25 08:57:22] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.1.5.tar.gz]
+[2024-04-25 08:57:22] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.1.6.tar.gz]
+[2024-04-25 08:57:22] INFO root fetch - main [MainThread]: End processing [myelectricaldatapy]: success
+[2024-04-25 08:57:22] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.0.1.tar.gz]
+[2024-04-25 08:57:22] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.0.2.tar.gz]
+[2024-04-25 08:57:22] INFO root fetch - main [MainThread]: End processing [caluma-alexandria]: success
+[2024-04-25 08:57:22] INFO root fetch - main [MainThread]: Store serial: [22926217]
