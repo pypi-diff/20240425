@@ -19688,3 +19688,153 @@
 [2024-04-25 12:21:42] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D_Qt6-6.7.0-py3-none-win_amd64.whl.zip]
 [2024-04-25 12:21:42] INFO root fetch - main [MainThread]: End processing [PyQt6-3D-Qt6]: success
 [2024-04-25 12:21:42] INFO root fetch - main [MainThread]: Store serial: [22928832]
+[2024-04-25 12:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928832]
+[2024-04-25 12:24:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQt6-NetworkAuth-Qt6
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argus-ticket-jira
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-models
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-protos
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-sdk
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-telemetry
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctrip-app-ui
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digimat.mbio
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pick
+[2024-04-25 12:24:10] INFO root fetch - processPackages [pick]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-25 12:24:10] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 12:24:10] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [argus-ticket-jira]: New version: [1.1] Old Version: [1.0.2]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: New version: [6.7.0] Old Version: [6.6.3]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-04-25 12:24:11] INFO root fetch - processPackages [pick]: Downloading https://files.pythonhosted.org/packages/12/49/d3dbd91c2fe3937644009cba60a405149622a9b3241044421ef954d0e9a9/pick-2.3.0.tar.gz
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/0e/4d/ba63f685f06edaeaa36f37710a44adb5c401e6f3b22c8bf2d18a0ee4a253/ctrip-app-ui-0.1.4.tar.gz
+[2024-04-25 12:24:11] INFO root fetch - processPackages [argus-ticket-jira]: Downloading https://files.pythonhosted.org/packages/98/3d/9c7787cf0e656469309f6230e5dba2f7efffc232d1f75a6dac55b54f71c7/argus_ticket_jira-1.0.2.tar.gz
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-25 12:24:11] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Downloading https://files.pythonhosted.org/packages/03/a4/bb46bf9c138739dcb80e3d1b853273c2413728bb0f4af1890036c277c2ab/PyQt6_NetworkAuth_Qt6-6.6.3-py3-none-win_amd64.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [pick]: Downloading https://files.pythonhosted.org/packages/9d/bd/43ac77befd5725d835d5154da3e181f973841601b2d36001bb6caa82b8a3/pick-2.3.1.tar.gz
+[2024-04-25 12:24:11] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/89/9b/e33397b930c1e4ff950ba374812b914ae5cc388d5e181e4854dfef0f2d1d/nucliadb_models-3.0.3.post450-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/29/29/bf0d1f2b7206abc41ed8aaf6d1fa27537fc5bf3e2a5e98aedc641381168f/nucliadb_sdk-3.0.3.post450-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/86/02/bb2d052c8ce9e3617033afdf38a119fe6fe785b0a2da01b3dd20e2a225e5/nucliadb_utils-3.0.3.post450-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/6c/58/6bc125296a6ca8d4f06b6baa4e30c14cbc36ed970b7f2491efdb0c778582/nucliadb_telemetry-3.0.3.post450-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/c7/52/1d050b8c52e009ff0ad48e974b8ce94e8871ea9e06252158059e3d89d68b/nucliadb_protos-3.0.3.post450-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [pick]: executing diffoscope
+[2024-04-25 12:24:11] INFO root fetch - processPackages [pick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pick-2.3.0.tar.gz tmp/pick-2.3.1.tar.gz --markdown 20240425/p/pick/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-25 12:24:11] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-04-25 12:24:11] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240425/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 12:24:11] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/cf/c7/ded03135dac7957954adf5cac0fbe9617cbc25dbb68e748d47ee871c1a5d/ctrip-app-ui-0.1.5.tar.gz
+[2024-04-25 12:24:11] INFO root fetch - processPackages [argus-ticket-jira]: Downloading https://files.pythonhosted.org/packages/88/0e/8306ec5c2d5c002012ec102e6e40f817d682c6243828b51c41b74cf3ca7e/argus_ticket_jira-1.1-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 12:24:11] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.4.tar.gz tmp/ctrip-app-ui-0.1.5.tar.gz --markdown 20240425/c/ctrip-app-ui/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 12:24:11] INFO root fetch - processPackages [argus-ticket-jira]: executing diffoscope
+[2024-04-25 12:24:11] INFO root fetch - processPackages [argus-ticket-jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_ticket_jira-1.0.2.tar.gz tmp/argus_ticket_jira-1.1-py3-none-any.whl.zip --markdown 20240425/a/argus-ticket-jira/1.0.2-1.1/README.md --exclude *.pyd
+[2024-04-25 12:24:11] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Downloading https://files.pythonhosted.org/packages/18/fe/8c4768db9890a57e8068c81347aaa5169ba70a9ec15c2c13d52f1d22c168/PyQt6_NetworkAuth_Qt6-6.7.0-py3-none-win_amd64.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9d/66/b86bfdc63528487bd545b5c36ed9a790d6a53d6f797dd77f8b70ee455a68/nucliadb_models-3.0.3.post454-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/4b/48/8943e68dd6cab837533c7ac5858faddcb7b3021cef97881af1f75561a0eb/nucliadb_sdk-3.0.3.post454-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/23/a3/f87df27b187b56ae9edc6090e2c251171f678535ff2e13bd895de30b4666/nucliadb_utils-3.0.3.post454-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b8/cb/5b88cf23409ea875cb6a476ee7c5c5beb2ed147c0d9c3a47e0f2f13b770d/nucliadb_protos-3.0.3.post454-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post454-py3-none-any.whl.zip --markdown 20240425/n/nucliadb-sdk/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/87/0d/8eada356a79112c0704fa3b30326f9bbc11b746e114e2f78b422fc2f9c70/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-25 12:24:11] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_models-3.0.3.post454-py3-none-any.whl.zip --markdown 20240425/n/nucliadb-models/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-25 12:24:11] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: executing diffoscope
+[2024-04-25 12:24:11] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_NetworkAuth_Qt6-6.6.3-py3-none-win_amd64.whl.zip tmp/PyQt6_NetworkAuth_Qt6-6.7.0-py3-none-win_amd64.whl.zip --markdown 20240425/P/PyQt6-NetworkAuth-Qt6/6.6.3-6.7.0/README.md --exclude *.pyd
+[2024-04-25 12:24:12] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-25 12:24:12] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post454-py3-none-any.whl.zip --markdown 20240425/n/nucliadb-utils/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-25 12:24:12] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-25 12:24:12] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.3.post454-py3-none-any.whl.zip --markdown 20240425/n/nucliadb-protos/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-25 12:24:12] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-25 12:24:12] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl.zip --markdown 20240425/n/nucliadb-telemetry/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-25 12:24:12] INFO root fetch - processPackages [pick]: Remove: archive file [/home/abi/fetcher/tmp/pick-2.3.0.tar.gz]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [pick]: Remove: archive file [/home/abi/fetcher/tmp/pick-2.3.1.tar.gz]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [pick]: Start processing: funcnodes
+[2024-04-25 12:24:12] INFO root fetch - main [MainThread]: End processing [pick]: success
+[2024-04-25 12:24:12] INFO root fetch - processPackages [funcnodes]: New version: [0.2] Old Version: [0.1.9]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [digimat.mbio]: Start processing: argus-ticket-rt
+[2024-04-25 12:24:12] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-04-25 12:24:12] INFO root fetch - processPackages [argus-ticket-rt]: New version: [1.1] Old Version: [1.0.3]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [argus-ticket-jira]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_jira-1.0.2.tar.gz]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [argus-ticket-jira]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_jira-1.1-py3-none-any.whl.zip]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [argus-ticket-jira]: Start processing: enkanetworkv2.py
+[2024-04-25 12:24:12] INFO root fetch - main [MainThread]: End processing [argus-ticket-jira]: success
+[2024-04-25 12:24:12] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/5f/05/ab07c39af388146f5e8656f1374b9f7464a7e2dd11600af6738786203d58/funcnodes-0.1.9.tar.gz
+[2024-04-25 12:24:12] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.4.tar.gz]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.5.tar.gz]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [ctrip-app-ui]: Start processing: flask-openapi3-swagger
+[2024-04-25 12:24:12] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 12:24:12] INFO root fetch - processPackages [enkanetworkv2.py]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-25 12:24:12] INFO root fetch - processPackages [argus-ticket-rt]: Downloading https://files.pythonhosted.org/packages/79/b7/69151ac39ed80193653befb904cca6811472045c05d0b39296023dbb3a3f/argus_ticket_rt-1.0.3-py3-none-any.whl
+[2024-04-25 12:24:12] INFO root fetch - processPackages [enkanetworkv2.py]: Downloading https://files.pythonhosted.org/packages/4d/4b/d1388a1348f5df099d4d187d1651835df836c234fa50bc22a097ffb01965/enkanetworkv2.py-2.0.5.tar.gz
+[2024-04-25 12:24:12] WARNING root fetch - processPackages [flask-openapi3-swagger]: Skipping, unable to determine old version
+[2024-04-25 12:24:12] INFO root fetch - processPackages [flask-openapi3-swagger]: Start processing: argus-ticket-gitlab
+[2024-04-25 12:24:12] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger] error
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: autocortext-py
+[2024-04-25 12:24:13] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-models]: Start processing: argus-ticket-github
+[2024-04-25 12:24:13] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-gitlab]: New version: [1.1] Old Version: [1.0]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [autocortext-py]: New version: [0.1.9] Old Version: [0.1.10]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-github]: New version: [1.1] Old Version: [1.0]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-25 12:24:13] INFO root fetch - processPackages [enkanetworkv2.py]: Downloading https://files.pythonhosted.org/packages/6b/98/06627cc4222197cfcab1938b5e0e5d20889b0f1c60cd699fc63008e3ff75/enkanetworkv2.py-2.0.6.tar.gz
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-gitlab]: Downloading https://files.pythonhosted.org/packages/ba/ae/e5a206a2f3ca591ce88155d0eccfd95568448ebf37ae437245379d6f02fe/argus_ticket_gitlab-1.0.tar.gz
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-rt]: Downloading https://files.pythonhosted.org/packages/b8/55/461da6d4a3de4d5fb888ab4d373658c07f4ac5992dc65bd1d01627df75d9/argus_ticket_rt-1.1-py3-none-any.whl
+[2024-04-25 12:24:13] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/4a/76/d98f88239632f2e29760d3d3500c4db46cbc0c1014764fc553d0fd4f3a31/autocortext_py-0.1.10.tar.gz
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-github]: Downloading https://files.pythonhosted.org/packages/1b/34/2448290bc1d70ab6c4afbf5d6b6a96620f907ecaee1bf3770e538e308609/argus_ticket_github-1.0.tar.gz
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-rt]: executing diffoscope
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_ticket_rt-1.0.3-py3-none-any.whl.zip tmp/argus_ticket_rt-1.1-py3-none-any.whl.zip --markdown 20240425/a/argus-ticket-rt/1.0.3-1.1/README.md --exclude *.pyd
+[2024-04-25 12:24:13] INFO root fetch - processPackages [enkanetworkv2.py]: executing diffoscope
+[2024-04-25 12:24:13] INFO root fetch - processPackages [enkanetworkv2.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkanetworkv2.py-2.0.5.tar.gz tmp/enkanetworkv2.py-2.0.6.tar.gz --markdown 20240425/e/enkanetworkv2.py/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-gitlab]: Downloading https://files.pythonhosted.org/packages/ae/0c/2f31a5cc8e052dacde8f69de02b71c39c48d7f19e08569857a626b566e23/argus_ticket_gitlab-1.1-py3-none-any.whl
+[2024-04-25 12:24:13] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_NetworkAuth_Qt6-6.6.3-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-github]: Downloading https://files.pythonhosted.org/packages/47/b6/b2d31fe0343d0772911d09a4df17b82b861b4344df766faf28aa2149a9bd/argus_ticket_github-1.1-py3-none-any.whl
+[2024-04-25 12:24:13] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_NetworkAuth_Qt6-6.7.0-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:24:13] INFO root fetch - main [MainThread]: End processing [PyQt6-NetworkAuth-Qt6]: success
+[2024-04-25 12:24:13] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/1b/ac/c7c8852b73d64a21b3d752d039448989aa6bf0a754261be179041f70b11e/autocortext_py-0.1.9.tar.gz
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-gitlab]: executing diffoscope
+[2024-04-25 12:24:13] INFO root fetch - processPackages [argus-ticket-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_ticket_gitlab-1.0.tar.gz tmp/argus_ticket_gitlab-1.1-py3-none-any.whl.zip --markdown 20240425/a/argus-ticket-gitlab/1.0-1.1/README.md --exclude *.pyd
+[2024-04-25 12:24:13] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/07/07/ec5583dd550b11a2a7aa2fd13dcd5dfdde40bae4f78cf679a05372ff7192/funcnodes-0.2.tar.gz
+[2024-04-25 12:24:13] INFO root fetch - processPackages [autocortext-py]: executing diffoscope
+[2024-04-25 12:24:13] INFO root fetch - processPackages [autocortext-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocortext_py-0.1.10.tar.gz tmp/autocortext_py-0.1.9.tar.gz --markdown 20240425/a/autocortext-py/0.1.10-0.1.9/README.md --exclude *.pyd
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-github]: executing diffoscope
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_ticket_github-1.0.tar.gz tmp/argus_ticket_github-1.1-py3-none-any.whl.zip --markdown 20240425/a/argus-ticket-github/1.0-1.1/README.md --exclude *.pyd
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-rt]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_rt-1.0.3-py3-none-any.whl.zip]
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-rt]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_rt-1.1-py3-none-any.whl.zip]
+[2024-04-25 12:24:14] INFO root fetch - main [MainThread]: End processing [argus-ticket-rt]: success
+[2024-04-25 12:24:14] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-04-25 12:24:14] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.1.9.tar.gz tmp/funcnodes-0.2.tar.gz --markdown 20240425/f/funcnodes/0.1.9-0.2/README.md --exclude *.pyd
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_gitlab-1.0.tar.gz]
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_gitlab-1.1-py3-none-any.whl.zip]
+[2024-04-25 12:24:14] INFO root fetch - main [MainThread]: End processing [argus-ticket-gitlab]: success
+[2024-04-25 12:24:14] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.10.tar.gz]
+[2024-04-25 12:24:14] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.9.tar.gz]
+[2024-04-25 12:24:14] INFO root fetch - main [MainThread]: End processing [autocortext-py]: success
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-github]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_github-1.0.tar.gz]
+[2024-04-25 12:24:14] INFO root fetch - processPackages [argus-ticket-github]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_github-1.1-py3-none-any.whl.zip]
+[2024-04-25 12:24:14] INFO root fetch - main [MainThread]: End processing [argus-ticket-github]: success
+[2024-04-25 12:24:14] INFO root fetch - processPackages [enkanetworkv2.py]: Remove: archive file [/home/abi/fetcher/tmp/enkanetworkv2.py-2.0.5.tar.gz]
+[2024-04-25 12:24:14] INFO root fetch - processPackages [enkanetworkv2.py]: Remove: archive file [/home/abi/fetcher/tmp/enkanetworkv2.py-2.0.6.tar.gz]
+[2024-04-25 12:24:14] INFO root fetch - main [MainThread]: End processing [enkanetworkv2.py]: success
+[2024-04-25 12:24:54] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.1.9.tar.gz]
+[2024-04-25 12:24:54] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.tar.gz]
+[2024-04-25 12:24:54] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-04-25 12:24:54] INFO root fetch - main [MainThread]: Store serial: [22928877]
