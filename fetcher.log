@@ -2802,3 +2802,33 @@
 [2024-04-25 02:00:47] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-25 02:00:47] INFO root fetch - main [MainThread]: End processing [qworker]: success
 [2024-04-25 02:00:47] INFO root fetch - main [MainThread]: Store serial: [22922057]
+[2024-04-25 02:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922057]
+[2024-04-25 02:02:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 02:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-04-25 02:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npc_sessions
+[2024-04-25 02:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ast-grep-py
+[2024-04-25 02:02:56] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-25 02:02:56] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-25 02:02:56] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-04-25 02:02:56] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-25 02:02:56] INFO root fetch - processPackages [ast-grep-py]: New version: [0.21.1] Old Version: [0.20.5]
+[2024-04-25 02:02:57] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-25 02:02:57] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-04-25 02:02:57] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/db/b3/d1fda9089c0c9ae58dd2a421ab93de45c260cf10b9349d47441b51953625/ast_grep_py-0.20.5.tar.gz
+[2024-04-25 02:02:57] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-25 02:02:57] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240425/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-25 02:02:57] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-04-25 02:02:57] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240425/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-25 02:02:57] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/f8/19/46e40b9df91f987a95508669edb9bd79187d19566542c0b0e1350163b3fb/ast_grep_py-0.21.1-cp312-cp312-macosx_11_0_arm64.whl
+[2024-04-25 02:02:57] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-04-25 02:02:57] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-04-25 02:02:57] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-04-25 02:02:58] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-25 02:02:58] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-25 02:02:58] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-25 02:03:01] INFO root fetch - processPackages [ast-grep-py]: executing diffoscope
+[2024-04-25 02:03:01] INFO root fetch - processPackages [ast-grep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_py-0.20.5.tar.gz tmp/ast_grep_py-0.21.1-cp312-cp312-macosx_11_0_arm64.whl.zip --markdown 20240425/a/ast-grep-py/0.20.5-0.21.1/README.md --exclude *.pyd
+[2024-04-25 02:03:02] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.20.5.tar.gz]
+[2024-04-25 02:03:02] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.21.1-cp312-cp312-macosx_11_0_arm64.whl.zip]
+[2024-04-25 02:03:02] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
+[2024-04-25 02:03:02] INFO root fetch - main [MainThread]: Store serial: [22922074]
