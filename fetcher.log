@@ -22802,3 +22802,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:07:02] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-4.2.0.tar.gz]
 [2024-04-25 14:07:02] INFO root fetch - main [MainThread]: End processing [kpops]: success
 [2024-04-25 14:07:02] INFO root fetch - main [MainThread]: Store serial: [22930113]
+[2024-04-25 14:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930113]
+[2024-04-25 14:09:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 14:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: common-tools-ai-bnq
+[2024-04-25 14:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-quart-app
+[2024-04-25 14:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h5-to-edf
+[2024-04-25 14:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-04-25 14:09:11] WARNING root fetch - processPackages [my-quart-app]: Skipping, unable to determine old version
+[2024-04-25 14:09:11] INFO root fetch - main [MainThread]: End processing [my-quart-app] error
+[2024-04-25 14:09:11] INFO root fetch - processPackages [cg]: New version: [60.4.0] Old Version: [60.3.2]
+[2024-04-25 14:09:11] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 14:09:11] INFO root fetch - processPackages [h5-to-edf]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-25 14:09:11] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ba/46/574b4e5b3a362edf5866f2dbbf5137566d1c86e752015485c93e1a1719f3/cg-60.3.2.tar.gz
+[2024-04-25 14:09:11] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/1c/24/12c3edf7481b4b81eff59764c13f0a8f61c25a3f4f6afed14e1ff0ed6b90/common-tools-ai-bnq-0.0.8.tar.gz
+[2024-04-25 14:09:11] INFO root fetch - processPackages [h5-to-edf]: Downloading https://files.pythonhosted.org/packages/9d/75/6f5ffe32fe271b62c057e946bb9b5831a30e2d94b88338f15d017f09d576/h5_to_edf-1.5.0-py3-none-any.whl
+[2024-04-25 14:09:11] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/1c/32/9c3d6d9aa5592fbbb41aecb495c1ef9e0914c051ad4ae773627e317caf88/common-tools-ai-bnq-0.0.9.tar.gz
+[2024-04-25 14:09:11] INFO root fetch - processPackages [h5-to-edf]: Downloading https://files.pythonhosted.org/packages/9b/03/0e76f87f696f2b68b21bd34e1438da776c1e351ec270bc9144e60027997d/h5_to_edf-1.5.1-py3-none-any.whl
+[2024-04-25 14:09:11] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d0/7e/917ba760968fd6eef0b312944ef12cc448a0d110ac1c2656f95423b5cc8b/cg-60.4.0.tar.gz
+[2024-04-25 14:09:11] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-04-25 14:09:11] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.0.8.tar.gz tmp/common-tools-ai-bnq-0.0.9.tar.gz --markdown 20240425/c/common-tools-ai-bnq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 14:09:12] INFO root fetch - processPackages [h5-to-edf]: executing diffoscope
+[2024-04-25 14:09:12] INFO root fetch - processPackages [h5-to-edf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5_to_edf-1.5.0-py3-none-any.whl.zip tmp/h5_to_edf-1.5.1-py3-none-any.whl.zip --markdown 20240425/h/h5-to-edf/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-25 14:09:12] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-25 14:09:12] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.3.2.tar.gz tmp/cg-60.4.0.tar.gz --markdown 20240425/c/cg/60.3.2-60.4.0/README.md --exclude *.pyd
+[2024-04-25 14:09:12] INFO root fetch - processPackages [h5-to-edf]: Remove: archive file [/home/abi/fetcher/tmp/h5_to_edf-1.5.0-py3-none-any.whl.zip]
+[2024-04-25 14:09:12] INFO root fetch - processPackages [h5-to-edf]: Remove: archive file [/home/abi/fetcher/tmp/h5_to_edf-1.5.1-py3-none-any.whl.zip]
+[2024-04-25 14:09:12] INFO root fetch - main [MainThread]: End processing [h5-to-edf]: success
+[2024-04-25 14:09:12] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.0.8.tar.gz]
+[2024-04-25 14:09:12] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.0.9.tar.gz]
+[2024-04-25 14:09:12] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-04-25 14:09:17] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.2.tar.gz]
+[2024-04-25 14:09:17] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.0.tar.gz]
+[2024-04-25 14:09:17] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-25 14:09:17] INFO root fetch - main [MainThread]: Store serial: [22930127]
