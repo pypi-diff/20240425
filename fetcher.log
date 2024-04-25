@@ -8665,3 +8665,36 @@
 [2024-04-25 04:27:56] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.15.3.1-py310-none-any.whl.zip]
 [2024-04-25 04:27:56] INFO root fetch - main [MainThread]: End processing [runningz]: success
 [2024-04-25 04:27:56] INFO root fetch - main [MainThread]: Store serial: [22924305]
+[2024-04-25 04:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924305]
+[2024-04-25 04:30:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 04:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaccm
+[2024-04-25 04:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archaic
+[2024-04-25 04:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lucidmotors
+[2024-04-25 04:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-chat-handler
+[2024-04-25 04:30:07] INFO root fetch - processPackages [lucidmotors]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-25 04:30:07] INFO root fetch - processPackages [streamlit-chat-handler]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 04:30:07] INFO root fetch - processPackages [metaccm]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-04-25 04:30:07] WARNING root fetch - processPackages [archaic]: Skipping, unable to determine old version
+[2024-04-25 04:30:07] INFO root fetch - main [MainThread]: End processing [archaic] error
+[2024-04-25 04:30:08] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/45/f1/533d684ec322e93b47ae6ccaeefc6beb74c5eceee02fe94e20ea4869bab5/streamlit_chat_handler-0.0.2.tar.gz
+[2024-04-25 04:30:08] INFO root fetch - processPackages [metaccm]: Downloading https://files.pythonhosted.org/packages/3b/d0/6a54135ade5ac1f7587d04135a95a1db539f815178c0b54c29ba94f52862/metaccm-0.3.0-py3-none-any.whl
+[2024-04-25 04:30:08] INFO root fetch - processPackages [lucidmotors]: Downloading https://files.pythonhosted.org/packages/cf/6f/a2ae398ba687f990044182260ce0844b13898c8f9597e6fa38a960bf01aa/lucidmotors-1.1.1.tar.gz
+[2024-04-25 04:30:08] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/4a/e3/3d418d9d63a010703555226b843083c88a9b94d83de528da83a5401d5c84/streamlit_chat_handler-0.0.3.tar.gz
+[2024-04-25 04:30:08] INFO root fetch - processPackages [metaccm]: Downloading https://files.pythonhosted.org/packages/3c/d8/c492d9a47a5e908e427fe76f89120cd29d8cbb2e64e11daa83fc247eed0d/metaccm-1.0.0-py3-none-any.whl
+[2024-04-25 04:30:08] INFO root fetch - processPackages [lucidmotors]: Downloading https://files.pythonhosted.org/packages/80/6c/3183118fb15e757776e66b663e934ebf6d96ccbfb8fe00ba5a1b63473183/lucidmotors-1.1.2.tar.gz
+[2024-04-25 04:30:08] INFO root fetch - processPackages [metaccm]: executing diffoscope
+[2024-04-25 04:30:08] INFO root fetch - processPackages [metaccm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaccm-0.3.0-py3-none-any.whl.zip tmp/metaccm-1.0.0-py3-none-any.whl.zip --markdown 20240425/m/metaccm/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-04-25 04:30:08] INFO root fetch - processPackages [streamlit-chat-handler]: executing diffoscope
+[2024-04-25 04:30:08] INFO root fetch - processPackages [streamlit-chat-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chat_handler-0.0.2.tar.gz tmp/streamlit_chat_handler-0.0.3.tar.gz --markdown 20240425/s/streamlit-chat-handler/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 04:30:08] INFO root fetch - processPackages [lucidmotors]: executing diffoscope
+[2024-04-25 04:30:08] INFO root fetch - processPackages [lucidmotors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidmotors-1.1.1.tar.gz tmp/lucidmotors-1.1.2.tar.gz --markdown 20240425/l/lucidmotors/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-25 04:30:09] INFO root fetch - processPackages [metaccm]: Remove: archive file [/home/abi/fetcher/tmp/metaccm-0.3.0-py3-none-any.whl.zip]
+[2024-04-25 04:30:09] INFO root fetch - processPackages [metaccm]: Remove: archive file [/home/abi/fetcher/tmp/metaccm-1.0.0-py3-none-any.whl.zip]
+[2024-04-25 04:30:09] INFO root fetch - main [MainThread]: End processing [metaccm]: success
+[2024-04-25 04:30:09] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.0.2.tar.gz]
+[2024-04-25 04:30:09] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.0.3.tar.gz]
+[2024-04-25 04:30:09] INFO root fetch - main [MainThread]: End processing [streamlit-chat-handler]: success
+[2024-04-25 04:30:09] INFO root fetch - processPackages [lucidmotors]: Remove: archive file [/home/abi/fetcher/tmp/lucidmotors-1.1.1.tar.gz]
+[2024-04-25 04:30:09] INFO root fetch - processPackages [lucidmotors]: Remove: archive file [/home/abi/fetcher/tmp/lucidmotors-1.1.2.tar.gz]
+[2024-04-25 04:30:09] INFO root fetch - main [MainThread]: End processing [lucidmotors]: success
+[2024-04-25 04:30:09] INFO root fetch - main [MainThread]: Store serial: [22924318]
