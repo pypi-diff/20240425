@@ -11790,3 +11790,24 @@
 [2024-04-25 08:06:46] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-25 08:06:46] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-25 08:06:46] INFO root fetch - main [MainThread]: Store serial: [22925873]
+[2024-04-25 08:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925873]
+[2024-04-25 08:08:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 08:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmdbapis
+[2024-04-25 08:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arrapi
+[2024-04-25 08:08:54] INFO root fetch - processPackages [arrapi]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 08:08:54] INFO root fetch - processPackages [tmdbapis]: New version: [1.2.9] Old Version: [1.2.7]
+[2024-04-25 08:08:55] INFO root fetch - processPackages [arrapi]: Downloading https://files.pythonhosted.org/packages/82/75/502ee58116644d44aec18bcb2803e5f097c4f437170867c28da2105cd61b/arrapi-1.4.8.tar.gz
+[2024-04-25 08:08:55] INFO root fetch - processPackages [tmdbapis]: Downloading https://files.pythonhosted.org/packages/cb/b1/9ef1c2ae10e178aaaca57e943572bec7770a8e9935279738498792c6a7a0/tmdbapis-1.2.7.tar.gz
+[2024-04-25 08:08:55] INFO root fetch - processPackages [arrapi]: Downloading https://files.pythonhosted.org/packages/fb/42/26254ff2cd16101f4e5c86aaabb0e44aa2c12fe6e2119f1eadfed874ddcf/arrapi-1.4.9.tar.gz
+[2024-04-25 08:08:55] INFO root fetch - processPackages [tmdbapis]: Downloading https://files.pythonhosted.org/packages/6a/27/50e4953ce5ea5bed911f6b876bc462e17de9fc3cc3a5f44e903cc4e88176/tmdbapis-1.2.9.tar.gz
+[2024-04-25 08:08:55] INFO root fetch - processPackages [arrapi]: executing diffoscope
+[2024-04-25 08:08:55] INFO root fetch - processPackages [arrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrapi-1.4.8.tar.gz tmp/arrapi-1.4.9.tar.gz --markdown 20240425/a/arrapi/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 08:08:55] INFO root fetch - processPackages [tmdbapis]: executing diffoscope
+[2024-04-25 08:08:55] INFO root fetch - processPackages [tmdbapis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmdbapis-1.2.7.tar.gz tmp/tmdbapis-1.2.9.tar.gz --markdown 20240425/t/tmdbapis/1.2.7-1.2.9/README.md --exclude *.pyd
+[2024-04-25 08:08:56] INFO root fetch - processPackages [arrapi]: Remove: archive file [/home/abi/fetcher/tmp/arrapi-1.4.8.tar.gz]
+[2024-04-25 08:08:56] INFO root fetch - processPackages [arrapi]: Remove: archive file [/home/abi/fetcher/tmp/arrapi-1.4.9.tar.gz]
+[2024-04-25 08:08:56] INFO root fetch - main [MainThread]: End processing [arrapi]: success
+[2024-04-25 08:08:56] INFO root fetch - processPackages [tmdbapis]: Remove: archive file [/home/abi/fetcher/tmp/tmdbapis-1.2.7.tar.gz]
+[2024-04-25 08:08:56] INFO root fetch - processPackages [tmdbapis]: Remove: archive file [/home/abi/fetcher/tmp/tmdbapis-1.2.9.tar.gz]
+[2024-04-25 08:08:56] INFO root fetch - main [MainThread]: End processing [tmdbapis]: success
+[2024-04-25 08:08:56] INFO root fetch - main [MainThread]: Store serial: [22925902]
