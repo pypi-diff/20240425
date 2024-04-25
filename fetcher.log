@@ -23253,3 +23253,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:31:20] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2024-04-25 14:31:20] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2024-04-25 14:31:20] INFO root fetch - main [MainThread]: Store serial: [22930286]
+[2024-04-25 14:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930286]
+[2024-04-25 14:33:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: math-ops-131
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Files.com
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbrownell-Common
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edx-opaque-keys
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chocolatine
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uyghur-tili-quralliri
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paradance
+[2024-04-25 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mure
+[2024-04-25 14:33:31] INFO root fetch - processPackages [uyghur-tili-quralliri]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 14:33:31] INFO root fetch - processPackages [math-ops-131]: New version: [1.5.1] Old Version: [1.5]
+[2024-04-25 14:33:31] INFO root fetch - processPackages [mure]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2024-04-25 14:33:31] INFO root fetch - processPackages [paradance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 14:33:31] WARNING root fetch - processPackages [chocolatine]: Skipping, unable to determine old version
+[2024-04-25 14:33:31] INFO root fetch - main [MainThread]: End processing [chocolatine] error
+[2024-04-25 14:33:31] INFO root fetch - processPackages [uyghur-tili-quralliri]: Downloading https://files.pythonhosted.org/packages/21/57/8528ac835a6d2e7256148843a84cdaa4ff381e1a4c9c7e7e7ac31ff1a0ea/uyghur-tili-quralliri-0.1.2.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 14:33:31] INFO root fetch - processPackages [edx-opaque-keys]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-25 14:33:31] INFO root fetch - processPackages [dbrownell-Common]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-25 14:33:31] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/8f/4c/6a3c7d4731f17fd3b3e4130274d7bbae13be34f848072567de4b0ab61969/paradance-0.4.8.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/22/62/caa0cc722aa7ba20ffd2ae6016d2a8aeae6abf4a9a1ab244f10da4faf6b7/math_ops_131-1.5-py3-none-any.whl
+[2024-04-25 14:33:31] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/54/35/34427e4b269951dad12d45498ab3ab3e8622e6026885209d62438e4a8de9/mure-1.0.0a5.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [edx-opaque-keys]: Downloading https://files.pythonhosted.org/packages/05/0a/c10666210a6ac1f03e17336183cbb0af518c068d9f5892cbe3983a383361/edx-opaque-keys-2.8.0.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/ab/20/cc427c1600f67ef9036e4f225cc6bcdac42746ca6db329d2d1029be4c84e/paradance-0.4.9.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [dbrownell-Common]: Downloading https://files.pythonhosted.org/packages/2a/51/64efe5ddc2c845c4410803ddaca42a4bb64bd52885c44d08bf9831676a8d/dbrownell_Common-0.9.1-py3-none-any.whl
+[2024-04-25 14:33:31] INFO root fetch - processPackages [uyghur-tili-quralliri]: Downloading https://files.pythonhosted.org/packages/0e/31/84ff04f59af808caf69b6930735774f082ba7bdf99dbcac0d8f09fdb60cf/uyghur-tili-quralliri-0.1.3.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/fc/49/9033ea4fd8a1cf7f6ce13d96b1c9b43360b8c2ece6241b9c452c5fef5b58/math_ops_131-1.5.1.tar.gz
+[2024-04-25 14:33:31] INFO root fetch - processPackages [paradance]: executing diffoscope
+[2024-04-25 14:33:31] INFO root fetch - processPackages [paradance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradance-0.4.8.tar.gz tmp/paradance-0.4.9.tar.gz --markdown 20240425/p/paradance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 14:33:31] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/ef/58/c6501d666cb650bf1d686bb05663e10e988a6c76ffec0dc30a9c15ea247b/mure-1.0.0a6.tar.gz
+[2024-04-25 14:33:32] INFO root fetch - processPackages [uyghur-tili-quralliri]: executing diffoscope
+[2024-04-25 14:33:32] INFO root fetch - processPackages [uyghur-tili-quralliri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uyghur-tili-quralliri-0.1.2.tar.gz tmp/uyghur-tili-quralliri-0.1.3.tar.gz --markdown 20240425/u/uyghur-tili-quralliri/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 14:33:32] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 14:33:32] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.5-py3-none-any.whl.zip tmp/math_ops_131-1.5.1.tar.gz --markdown 20240425/m/math-ops-131/1.5-1.5.1/README.md --exclude *.pyd
+[2024-04-25 14:33:32] INFO root fetch - processPackages [mure]: executing diffoscope
+[2024-04-25 14:33:32] INFO root fetch - processPackages [mure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mure-1.0.0a5.tar.gz tmp/mure-1.0.0a6.tar.gz --markdown 20240425/m/mure/1.0.0a5-1.0.0a6/README.md --exclude *.pyd
+[2024-04-25 14:33:32] INFO root fetch - processPackages [edx-opaque-keys]: Downloading https://files.pythonhosted.org/packages/b0/67/1cf84c93f1736125799713f2f5f9abab1ca927206e47d759e7cabdc7cfb2/edx_opaque_keys-2.9.0.tar.gz
+[2024-04-25 14:33:32] INFO root fetch - processPackages [dbrownell-Common]: Downloading https://files.pythonhosted.org/packages/4c/e5/ab39a3ee4a6ac3eecdadea51fa732af0761598d3716816065c856b45044f/dbrownell_Common-0.9.2-py3-none-any.whl
+[2024-04-25 14:33:32] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-04-25 14:33:32] INFO root fetch - processPackages [edx-opaque-keys]: executing diffoscope
+[2024-04-25 14:33:32] INFO root fetch - processPackages [edx-opaque-keys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-opaque-keys-2.8.0.tar.gz tmp/edx_opaque_keys-2.9.0.tar.gz --markdown 20240425/e/edx-opaque-keys/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-25 14:33:32] INFO root fetch - processPackages [dbrownell-Common]: executing diffoscope
+[2024-04-25 14:33:32] INFO root fetch - processPackages [dbrownell-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrownell_Common-0.9.1-py3-none-any.whl.zip tmp/dbrownell_Common-0.9.2-py3-none-any.whl.zip --markdown 20240425/d/dbrownell-Common/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-25 14:33:32] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-04-25 14:33:32] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240425/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 14:33:32] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.5-py3-none-any.whl.zip]
+[2024-04-25 14:33:32] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.5.1.tar.gz]
+[2024-04-25 14:33:32] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 14:33:32] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0a5.tar.gz]
+[2024-04-25 14:33:32] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0a6.tar.gz]
+[2024-04-25 14:33:32] INFO root fetch - main [MainThread]: End processing [mure]: success
+[2024-04-25 14:33:32] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.8.tar.gz]
+[2024-04-25 14:33:32] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
+[2024-04-25 14:33:32] INFO root fetch - main [MainThread]: End processing [paradance]: success
+[2024-04-25 14:33:32] INFO root fetch - processPackages [uyghur-tili-quralliri]: Remove: archive file [/home/abi/fetcher/tmp/uyghur-tili-quralliri-0.1.2.tar.gz]
+[2024-04-25 14:33:32] INFO root fetch - processPackages [uyghur-tili-quralliri]: Remove: archive file [/home/abi/fetcher/tmp/uyghur-tili-quralliri-0.1.3.tar.gz]
+[2024-04-25 14:33:32] INFO root fetch - main [MainThread]: End processing [uyghur-tili-quralliri]: success
+[2024-04-25 14:33:33] INFO root fetch - processPackages [dbrownell-Common]: Remove: archive file [/home/abi/fetcher/tmp/dbrownell_Common-0.9.1-py3-none-any.whl.zip]
+[2024-04-25 14:33:33] INFO root fetch - processPackages [dbrownell-Common]: Remove: archive file [/home/abi/fetcher/tmp/dbrownell_Common-0.9.2-py3-none-any.whl.zip]
+[2024-04-25 14:33:33] INFO root fetch - main [MainThread]: End processing [dbrownell-Common]: success
+[2024-04-25 14:33:33] INFO root fetch - processPackages [edx-opaque-keys]: Remove: archive file [/home/abi/fetcher/tmp/edx-opaque-keys-2.8.0.tar.gz]
+[2024-04-25 14:33:33] INFO root fetch - processPackages [edx-opaque-keys]: Remove: archive file [/home/abi/fetcher/tmp/edx_opaque_keys-2.9.0.tar.gz]
+[2024-04-25 14:33:33] INFO root fetch - main [MainThread]: End processing [edx-opaque-keys]: success
+[2024-04-25 14:33:33] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-04-25 14:33:33] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-04-25 14:33:33] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-04-25 14:33:33] INFO root fetch - main [MainThread]: Store serial: [22930314]
