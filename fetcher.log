@@ -10290,3 +10290,24 @@
 [2024-04-25 06:04:43] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.2.2.tar.gz]
 [2024-04-25 06:04:43] INFO root fetch - main [MainThread]: End processing [python-flux]: success
 [2024-04-25 06:04:43] INFO root fetch - main [MainThread]: Store serial: [22925017]
+[2024-04-25 06:06:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925017]
+[2024-04-25 06:06:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 06:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2024-04-25 06:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymindcore
+[2024-04-25 06:06:52] INFO root fetch - processPackages [pymindcore]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-25 06:06:52] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-25 06:06:52] INFO root fetch - processPackages [pymindcore]: Downloading https://files.pythonhosted.org/packages/3c/35/41814cb11f0ce937946f48deec623450274f6643514873da016948a759a8/pymindcore-0.2.0.tar.gz
+[2024-04-25 06:06:52] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-25 06:06:52] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-25 06:06:52] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-25 06:06:52] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240425/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-25 06:06:52] INFO root fetch - processPackages [pymindcore]: Downloading https://files.pythonhosted.org/packages/d0/9d/e264d8b0ce2c1aeee40ab2701758a7317c5b920aa9aa6a932340731d5acb/pymindcore-0.2.1.tar.gz
+[2024-04-25 06:06:53] INFO root fetch - processPackages [pymindcore]: executing diffoscope
+[2024-04-25 06:06:53] INFO root fetch - processPackages [pymindcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymindcore-0.2.0.tar.gz tmp/pymindcore-0.2.1.tar.gz --markdown 20240425/p/pymindcore/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-25 06:06:53] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-25 06:06:53] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-25 06:06:53] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-25 06:06:53] INFO root fetch - processPackages [pymindcore]: Remove: archive file [/home/abi/fetcher/tmp/pymindcore-0.2.0.tar.gz]
+[2024-04-25 06:06:53] INFO root fetch - processPackages [pymindcore]: Remove: archive file [/home/abi/fetcher/tmp/pymindcore-0.2.1.tar.gz]
+[2024-04-25 06:06:53] INFO root fetch - main [MainThread]: End processing [pymindcore]: success
+[2024-04-25 06:06:53] INFO root fetch - main [MainThread]: Store serial: [22925025]
