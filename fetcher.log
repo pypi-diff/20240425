@@ -2763,3 +2763,42 @@
 [2024-04-25 01:58:36] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.20.0.tar.gz]
 [2024-04-25 01:58:36] INFO root fetch - main [MainThread]: End processing [biobear]: success
 [2024-04-25 01:58:36] INFO root fetch - main [MainThread]: Store serial: [22922042]
+[2024-04-25 02:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922042]
+[2024-04-25 02:00:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 02:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qworker
+[2024-04-25 02:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstcompile
+[2024-04-25 02:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypiserver
+[2024-04-25 02:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydroserver-sensorthings
+[2024-04-25 02:00:45] INFO root fetch - processPackages [hydroserver-sensorthings]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 02:00:45] INFO root fetch - processPackages [hydroserver-sensorthings]: Downloading https://files.pythonhosted.org/packages/4e/ee/48091f37d8221bd7bbef44a01397a36f55b7357f4828672a5d760b95e5f4/hydroserver-sensorthings-0.2.8.tar.gz
+[2024-04-25 02:00:45] INFO root fetch - processPackages [vstcompile]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-25 02:00:45] INFO root fetch - processPackages [pypiserver]: New version: [2.1.1] Old Version: [2.0.1]
+[2024-04-25 02:00:45] INFO root fetch - processPackages [qworker]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-25 02:00:45] INFO root fetch - processPackages [hydroserver-sensorthings]: Downloading https://files.pythonhosted.org/packages/f1/23/dbaa2f5be021e2e7719272d95071c369973c98297595263b72a8f6c6c167/hydroserver-sensorthings-0.2.9.tar.gz
+[2024-04-25 02:00:45] INFO root fetch - processPackages [vstcompile]: Downloading https://files.pythonhosted.org/packages/41/85/3495d2c8c6ae0833f0beba62683f6509b3b91faeea1fd39b570f770e4844/vstcompile-2.0.0.tar.gz
+[2024-04-25 02:00:45] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/05/ab/a6c851c81a2baa3ca6b01d585dfe58731fc256f1bfe2ccba47020d9138ec/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 02:00:45] INFO root fetch - processPackages [pypiserver]: Downloading https://files.pythonhosted.org/packages/ec/62/e3d6dd620f53a94eae24f7bc72c051090e8acbf6da9a79d7b878f8284a28/pypiserver-2.0.1.zip
+[2024-04-25 02:00:45] INFO root fetch - processPackages [hydroserver-sensorthings]: executing diffoscope
+[2024-04-25 02:00:45] INFO root fetch - processPackages [hydroserver-sensorthings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydroserver-sensorthings-0.2.8.tar.gz tmp/hydroserver-sensorthings-0.2.9.tar.gz --markdown 20240425/h/hydroserver-sensorthings/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 02:00:45] INFO root fetch - processPackages [vstcompile]: Downloading https://files.pythonhosted.org/packages/36/4f/bf94a92c6f50fb7e4a2376fe547a4e6ba36d1b77ede28adc0d1948946be1/vstcompile-3.0.0.tar.gz
+[2024-04-25 02:00:46] INFO root fetch - processPackages [pypiserver]: Downloading https://files.pythonhosted.org/packages/bb/31/007c532dea348eae41cd309920c01263ddde18cd9a9c307a8d75e7994b38/pypiserver-2.1.1.tar.gz
+[2024-04-25 02:00:46] INFO root fetch - processPackages [vstcompile]: executing diffoscope
+[2024-04-25 02:00:46] INFO root fetch - processPackages [vstcompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstcompile-2.0.0.tar.gz tmp/vstcompile-3.0.0.tar.gz --markdown 20240425/v/vstcompile/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-04-25 02:00:46] INFO root fetch - processPackages [pypiserver]: executing diffoscope
+[2024-04-25 02:00:46] INFO root fetch - processPackages [pypiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypiserver-2.0.1.zip tmp/pypiserver-2.1.1.tar.gz --markdown 20240425/p/pypiserver/2.0.1-2.1.1/README.md --exclude *.pyd
+[2024-04-25 02:00:46] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/49/7d/292c6ab6085be9b02a88ca7bbc43266254e8564c1e18d61acd1239abeee3/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 02:00:46] INFO root fetch - processPackages [hydroserver-sensorthings]: Remove: archive file [/home/abi/fetcher/tmp/hydroserver-sensorthings-0.2.8.tar.gz]
+[2024-04-25 02:00:46] INFO root fetch - processPackages [hydroserver-sensorthings]: Remove: archive file [/home/abi/fetcher/tmp/hydroserver-sensorthings-0.2.9.tar.gz]
+[2024-04-25 02:00:46] INFO root fetch - main [MainThread]: End processing [hydroserver-sensorthings]: success
+[2024-04-25 02:00:46] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2024-04-25 02:00:46] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240425/q/qworker/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-25 02:00:46] INFO root fetch - processPackages [vstcompile]: Remove: archive file [/home/abi/fetcher/tmp/vstcompile-2.0.0.tar.gz]
+[2024-04-25 02:00:46] INFO root fetch - processPackages [vstcompile]: Remove: archive file [/home/abi/fetcher/tmp/vstcompile-3.0.0.tar.gz]
+[2024-04-25 02:00:46] INFO root fetch - main [MainThread]: End processing [vstcompile]: success
+[2024-04-25 02:00:46] INFO root fetch - processPackages [pypiserver]: Remove: archive file [/home/abi/fetcher/tmp/pypiserver-2.0.1.zip]
+[2024-04-25 02:00:46] INFO root fetch - processPackages [pypiserver]: Remove: archive file [/home/abi/fetcher/tmp/pypiserver-2.1.1.tar.gz]
+[2024-04-25 02:00:46] INFO root fetch - main [MainThread]: End processing [pypiserver]: success
+[2024-04-25 02:00:47] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 02:00:47] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 02:00:47] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2024-04-25 02:00:47] INFO root fetch - main [MainThread]: Store serial: [22922057]
