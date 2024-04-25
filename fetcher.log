@@ -18976,3 +18976,78 @@
 [2024-04-25 11:58:36] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.9.tar.gz]
 [2024-04-25 11:58:36] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2024-04-25 11:58:36] INFO root fetch - main [MainThread]: Store serial: [22928517]
+[2024-04-25 12:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928517]
+[2024-04-25 12:00:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-plugin-lambda-build
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KBDD
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-scheema
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcnodes-plotly
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-audio-rec
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awsso
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enot-prunable-modules
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phospho
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skope-rules-temp
+[2024-04-25 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: enkanetworkv2.py
+[2024-04-25 12:00:45] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.7] Old Version: [0.0.7.6]
+[2024-04-25 12:00:45] INFO root fetch - processPackages [skope-rules-temp]: New version: [0.2.2] Old Version: [0.1.2]
+[2024-04-25 12:00:45] INFO root fetch - processPackages [enot-prunable-modules]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-25 12:00:45] WARNING root fetch - processPackages [KBDD]: Skipping, unable to determine old version
+[2024-04-25 12:00:45] INFO root fetch - main [MainThread]: End processing [KBDD] error
+[2024-04-25 12:00:45] INFO root fetch - processPackages [poetry-plugin-lambda-build]: New version: [0.4.1] Old Version: [0.3.0]
+[2024-04-25 12:00:45] WARNING root fetch - processPackages [funcnodes-plotly]: Skipping, unable to determine old version
+[2024-04-25 12:00:45] WARNING root fetch - processPackages [auto-audio-rec]: Skipping, unable to determine old version
+[2024-04-25 12:00:45] INFO root fetch - main [MainThread]: End processing [funcnodes-plotly] error
+[2024-04-25 12:00:45] INFO root fetch - processPackages [phospho]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 12:00:45] INFO root fetch - main [MainThread]: End processing [auto-audio-rec] error
+[2024-04-25 12:00:45] INFO root fetch - processPackages [enkanetworkv2.py]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-25 12:00:45] INFO root fetch - processPackages [awsso]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-25 12:00:45] INFO root fetch - processPackages [enot-prunable-modules]: Downloading https://files.pythonhosted.org/packages/a1/1d/ddd1d172bb793047f27d0e23d1a48b74deaeb9501036f1cf3881ab0c2722/enot_prunable_modules-1.9.0-py3-none-any.whl
+[2024-04-25 12:00:45] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/41/bb/d77951bdc5295e364c865b9ef8df3ddc3ed7412f87bb2397ad87ab24a3c6/flask_scheema-0.0.7.6-py3-none-any.whl
+[2024-04-25 12:00:45] INFO root fetch - processPackages [skope-rules-temp]: Downloading https://files.pythonhosted.org/packages/81/3b/ad9076d282389244748f6d6c1daec6290afa3e71ea1210acd051203bc1a3/skope_rules_temp-0.1.2.tar.gz
+[2024-04-25 12:00:45] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/bf/73/9ea450eb1c30858968388bc87510ea60bc1622d20b648b419e7a146ea408/poetry_plugin_lambda_build-0.3.0.tar.gz
+[2024-04-25 12:00:45] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/20/b2/f409315852118ceaaa468fb22527fe90c8ce8299667b9cb0edb61683a5b0/awsso-0.4.3.tar.gz
+[2024-04-25 12:00:45] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/a5/c2/cddfd715eafd3cad1eee4a415d1b8fab3af6c61521607e3faf6154b8492b/phospho-0.3.8.tar.gz
+[2024-04-25 12:00:45] INFO root fetch - processPackages [enkanetworkv2.py]: Downloading https://files.pythonhosted.org/packages/15/05/52dc9f099e8a00398a7b835a8e1b1a5af8de7b5699c73977e922c37944d9/enkanetworkv2.py-2.0.4.tar.gz
+[2024-04-25 12:00:45] INFO root fetch - processPackages [enot-prunable-modules]: Downloading https://files.pythonhosted.org/packages/d0/da/e49ab79a7bbea5817ca9ad1f1fec90c335eec4db0cbd67ab919e265946e1/enot_prunable_modules-1.9.1-py3-none-any.whl
+[2024-04-25 12:00:45] INFO root fetch - processPackages [skope-rules-temp]: Downloading https://files.pythonhosted.org/packages/95/e9/996a320c90016655d9eb316bf9ec9d5fbb882a57e6172acf52df7f1f5654/skope_rules_temp-0.2.2.tar.gz
+[2024-04-25 12:00:46] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/bd/19/d0229353f92256c260a1350d4a318235e572f0590724c4254f5fbb9e9ebe/flask_scheema-0.0.7.7-py3-none-any.whl
+[2024-04-25 12:00:46] INFO root fetch - processPackages [skope-rules-temp]: executing diffoscope
+[2024-04-25 12:00:46] INFO root fetch - processPackages [skope-rules-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skope_rules_temp-0.1.2.tar.gz tmp/skope_rules_temp-0.2.2.tar.gz --markdown 20240425/s/skope-rules-temp/0.1.2-0.2.2/README.md --exclude *.pyd
+[2024-04-25 12:00:46] INFO root fetch - processPackages [enot-prunable-modules]: executing diffoscope
+[2024-04-25 12:00:46] INFO root fetch - processPackages [enot-prunable-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enot_prunable_modules-1.9.0-py3-none-any.whl.zip tmp/enot_prunable_modules-1.9.1-py3-none-any.whl.zip --markdown 20240425/e/enot-prunable-modules/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-25 12:00:46] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/eb/ab/f4e3f4400e87286b9ebf22e7b43d490e9ea8096ce4ff77f57ffd3563ee13/poetry_plugin_lambda_build-0.4.1.tar.gz
+[2024-04-25 12:00:46] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/49/72/539674aef418fb6a7dcb6b849714763a1c24accc699ab30de34059badfac/awsso-0.4.4.tar.gz
+[2024-04-25 12:00:46] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-04-25 12:00:46] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.6-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.7-py3-none-any.whl.zip --markdown 20240425/f/flask-scheema/0.0.7.6-0.0.7.7/README.md --exclude *.pyd
+[2024-04-25 12:00:46] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/dc/6e/2888f8262e52b24df8d71b89041baf1f0798c159bee4cc0c0fa17bcfbc7c/phospho-0.3.9.tar.gz
+[2024-04-25 12:00:46] INFO root fetch - processPackages [poetry-plugin-lambda-build]: executing diffoscope
+[2024-04-25 12:00:46] INFO root fetch - processPackages [poetry-plugin-lambda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_lambda_build-0.3.0.tar.gz tmp/poetry_plugin_lambda_build-0.4.1.tar.gz --markdown 20240425/p/poetry-plugin-lambda-build/0.3.0-0.4.1/README.md --exclude *.pyd
+[2024-04-25 12:00:46] INFO root fetch - processPackages [awsso]: executing diffoscope
+[2024-04-25 12:00:46] INFO root fetch - processPackages [awsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsso-0.4.3.tar.gz tmp/awsso-0.4.4.tar.gz --markdown 20240425/a/awsso/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-25 12:00:46] INFO root fetch - processPackages [phospho]: executing diffoscope
+[2024-04-25 12:00:46] INFO root fetch - processPackages [phospho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phospho-0.3.8.tar.gz tmp/phospho-0.3.9.tar.gz --markdown 20240425/p/phospho/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 12:00:46] INFO root fetch - processPackages [enkanetworkv2.py]: Downloading https://files.pythonhosted.org/packages/4d/4b/d1388a1348f5df099d4d187d1651835df836c234fa50bc22a097ffb01965/enkanetworkv2.py-2.0.5.tar.gz
+[2024-04-25 12:00:46] INFO root fetch - processPackages [enkanetworkv2.py]: executing diffoscope
+[2024-04-25 12:00:46] INFO root fetch - processPackages [enkanetworkv2.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkanetworkv2.py-2.0.4.tar.gz tmp/enkanetworkv2.py-2.0.5.tar.gz --markdown 20240425/e/enkanetworkv2.py/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-04-25 12:00:46] INFO root fetch - processPackages [skope-rules-temp]: Remove: archive file [/home/abi/fetcher/tmp/skope_rules_temp-0.1.2.tar.gz]
+[2024-04-25 12:00:46] INFO root fetch - processPackages [skope-rules-temp]: Remove: archive file [/home/abi/fetcher/tmp/skope_rules_temp-0.2.2.tar.gz]
+[2024-04-25 12:00:46] INFO root fetch - main [MainThread]: End processing [skope-rules-temp]: success
+[2024-04-25 12:00:46] INFO root fetch - processPackages [enot-prunable-modules]: Remove: archive file [/home/abi/fetcher/tmp/enot_prunable_modules-1.9.0-py3-none-any.whl.zip]
+[2024-04-25 12:00:46] INFO root fetch - processPackages [enot-prunable-modules]: Remove: archive file [/home/abi/fetcher/tmp/enot_prunable_modules-1.9.1-py3-none-any.whl.zip]
+[2024-04-25 12:00:46] INFO root fetch - main [MainThread]: End processing [enot-prunable-modules]: success
+[2024-04-25 12:00:46] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.6-py3-none-any.whl.zip]
+[2024-04-25 12:00:46] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.7-py3-none-any.whl.zip]
+[2024-04-25 12:00:46] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-04-25 12:00:47] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.4.3.tar.gz]
+[2024-04-25 12:00:47] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.3.0.tar.gz]
+[2024-04-25 12:00:47] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.4.1.tar.gz]
+[2024-04-25 12:00:47] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.4.4.tar.gz]
+[2024-04-25 12:00:47] INFO root fetch - main [MainThread]: End processing [poetry-plugin-lambda-build]: success
+[2024-04-25 12:00:47] INFO root fetch - main [MainThread]: End processing [awsso]: success
+[2024-04-25 12:00:47] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.8.tar.gz]
+[2024-04-25 12:00:47] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.9.tar.gz]
+[2024-04-25 12:00:47] INFO root fetch - main [MainThread]: End processing [phospho]: success
+[2024-04-25 12:00:48] INFO root fetch - processPackages [enkanetworkv2.py]: Remove: archive file [/home/abi/fetcher/tmp/enkanetworkv2.py-2.0.4.tar.gz]
+[2024-04-25 12:00:48] INFO root fetch - processPackages [enkanetworkv2.py]: Remove: archive file [/home/abi/fetcher/tmp/enkanetworkv2.py-2.0.5.tar.gz]
+[2024-04-25 12:00:48] INFO root fetch - main [MainThread]: End processing [enkanetworkv2.py]: success
+[2024-04-25 12:00:48] INFO root fetch - main [MainThread]: Store serial: [22928551]
