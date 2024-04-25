@@ -21631,3 +21631,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:26:49] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.8.tar.gz]
 [2024-04-25 13:26:49] INFO root fetch - main [MainThread]: End processing [pytonapi]: success
 [2024-04-25 13:26:49] INFO root fetch - main [MainThread]: Store serial: [22929624]
+[2024-04-25 13:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929624]
+[2024-04-25 13:28:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brynq-sdk-successfactors
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coverage-control
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qstd-core
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plette
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yolonnx
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicutils
+[2024-04-25 13:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imagedata
+[2024-04-25 13:28:58] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.24] Old Version: [2024.4.23]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [qstd-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [plette]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [dcicutils]: New version: [8.8.4.1b7] Old Version: [8.8.4.1b6]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/e7/8d/ad94d6d4dcb2e922e45355d2fe623ecfb2e34ef0c78e9f6524b21f5838a1/torchx_nightly-2024.4.23-py3-none-any.whl
+[2024-04-25 13:28:58] INFO root fetch - processPackages [yolonnx]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [brynq-sdk-successfactors]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [imagedata]: New version: [3.5.4] Old Version: [3.5.3]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/2c/7a/4e6a9cea02bc272770135a4dbd2cd16046554858a4dab59d316d641b843d/qstd_core-0.2.3.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [plette]: Downloading https://files.pythonhosted.org/packages/8a/b8/205d63dc0f9274c93ce5078a84e258fa790ca5c1857e7287be4d2378ad41/plette-2.0.0.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5f/0d/6cead115725e055c3bb5a16b047cc7c41a32a573800d70289e09ed0eb40b/dcicutils-8.8.4.1b6.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [coverage-control]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-25 13:28:58] INFO root fetch - processPackages [yolonnx]: Downloading https://files.pythonhosted.org/packages/8b/54/218dc09dbd5205f46127ffca0a5e18c0e0797920b69bea475b3f24195191/yolonnx-0.1.1.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [brynq-sdk-successfactors]: Downloading https://files.pythonhosted.org/packages/8d/cf/94829b204dbd755c921f02ebd825e104f1be09e798f5906ca777dedb56cf/brynq_sdk_successfactors-0.1.0.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/95/40/cad6e61e9aeb2ad4592b7568c8879f5980d5a26c51fe79aeb374afb0d7de/qstd_core-0.2.4.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/10/85/74c77eb20624acfd2972ca5ffa192f2246ff10a509f6f02562e743ee8ad1/imagedata-3.5.3.tar.gz
+[2024-04-25 13:28:58] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631452>=10485760
+[2024-04-25 13:28:58] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-25 13:28:58] INFO root fetch - processPackages [plette]: Downloading https://files.pythonhosted.org/packages/94/68/d5c6083ef944d56452dd10858b5c59da68c6eeae2a4953c1fca1bfcfd8e3/plette-2.0.1.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/56/41/6c568fea8013cc16db61248e8b1ceecd1322b71eecb94e610d6fd4e8931a/torchx_nightly-2024.4.24-py3-none-any.whl
+[2024-04-25 13:28:58] INFO root fetch - processPackages [coverage-control]: Downloading https://files.pythonhosted.org/packages/31/fb/1d9246cdc35a51433fce49fc9efe09af46b72fb2929ebe11ce2bdd861130/coverage_control-1.1.0.tar.gz
+[2024-04-25 13:28:58] INFO root fetch - processPackages [qstd-core]: executing diffoscope
+[2024-04-25 13:28:58] INFO root fetch - processPackages [qstd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_core-0.2.3.tar.gz tmp/qstd_core-0.2.4.tar.gz --markdown 20240425/q/qstd-core/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-25 13:28:58] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/e5/70/9966e41bdfbea2aa6b3515809fdcc6bf4dd82c2b69da21647528a005b6dd/dcicutils-8.8.4.1b7.tar.gz
+[2024-04-25 13:28:59] INFO root fetch - processPackages [plette]: executing diffoscope
+[2024-04-25 13:28:59] INFO root fetch - processPackages [plette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plette-2.0.0.tar.gz tmp/plette-2.0.1.tar.gz --markdown 20240425/p/plette/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-25 13:28:59] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-25 13:28:59] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.23-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.24-py3-none-any.whl.zip --markdown 20240425/t/torchx-nightly/2024.4.23-2024.4.24/README.md --exclude *.pyd
+[2024-04-25 13:28:59] INFO root fetch - processPackages [yolonnx]: Downloading https://files.pythonhosted.org/packages/60/e8/5ad7afaaf4613c5a2defb868f62885ad93b1534d51606e9ef637b9256e36/yolonnx-0.1.2.tar.gz
+[2024-04-25 13:28:59] INFO root fetch - processPackages [brynq-sdk-successfactors]: Downloading https://files.pythonhosted.org/packages/1f/5d/068074b3a4e50d614a3f2a4d0da5bc197d0c628b77766e8d005cd9df35a5/brynq_sdk_successfactors-0.1.1.tar.gz
+[2024-04-25 13:28:59] INFO root fetch - processPackages [yolonnx]: executing diffoscope
+[2024-04-25 13:28:59] INFO root fetch - processPackages [yolonnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolonnx-0.1.1.tar.gz tmp/yolonnx-0.1.2.tar.gz --markdown 20240425/y/yolonnx/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 13:28:59] INFO root fetch - processPackages [brynq-sdk-successfactors]: executing diffoscope
+[2024-04-25 13:28:59] INFO root fetch - processPackages [brynq-sdk-successfactors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_successfactors-0.1.0.tar.gz tmp/brynq_sdk_successfactors-0.1.1.tar.gz --markdown 20240425/b/brynq-sdk-successfactors/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 13:28:59] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-25 13:28:59] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.4.1b6.tar.gz tmp/dcicutils-8.8.4.1b7.tar.gz --markdown 20240425/d/dcicutils/8.8.4.1b6-8.8.4.1b7/README.md --exclude *.pyd
+[2024-04-25 13:28:59] INFO root fetch - processPackages [coverage-control]: Downloading https://files.pythonhosted.org/packages/19/af/610d19999382ad5a92bd73958fbc73ab65321e3aef229b025ed2c59f5c88/coverage_control-1.2.0.tar.gz
+[2024-04-25 13:28:59] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.3.tar.gz]
+[2024-04-25 13:28:59] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.4.tar.gz]
+[2024-04-25 13:28:59] INFO root fetch - main [MainThread]: End processing [qstd-core]: success
+[2024-04-25 13:28:59] INFO root fetch - processPackages [plette]: Remove: archive file [/home/abi/fetcher/tmp/plette-2.0.0.tar.gz]
+[2024-04-25 13:28:59] INFO root fetch - processPackages [plette]: Remove: archive file [/home/abi/fetcher/tmp/plette-2.0.1.tar.gz]
+[2024-04-25 13:28:59] INFO root fetch - main [MainThread]: End processing [plette]: success
+[2024-04-25 13:28:59] INFO root fetch - processPackages [yolonnx]: Remove: archive file [/home/abi/fetcher/tmp/yolonnx-0.1.1.tar.gz]
+[2024-04-25 13:28:59] INFO root fetch - processPackages [yolonnx]: Remove: archive file [/home/abi/fetcher/tmp/yolonnx-0.1.2.tar.gz]
+[2024-04-25 13:29:00] INFO root fetch - main [MainThread]: End processing [yolonnx]: success
+[2024-04-25 13:29:00] INFO root fetch - processPackages [brynq-sdk-successfactors]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_successfactors-0.1.0.tar.gz]
+[2024-04-25 13:29:00] INFO root fetch - processPackages [brynq-sdk-successfactors]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_successfactors-0.1.1.tar.gz]
+[2024-04-25 13:29:00] INFO root fetch - main [MainThread]: End processing [brynq-sdk-successfactors]: success
+[2024-04-25 13:29:00] INFO root fetch - processPackages [coverage-control]: executing diffoscope
+[2024-04-25 13:29:00] INFO root fetch - processPackages [coverage-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coverage_control-1.1.0.tar.gz tmp/coverage_control-1.2.0.tar.gz --markdown 20240425/c/coverage-control/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-25 13:29:00] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.23-py3-none-any.whl.zip]
+[2024-04-25 13:29:00] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.24-py3-none-any.whl.zip]
+[2024-04-25 13:29:00] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-25 13:29:00] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b6.tar.gz]
+[2024-04-25 13:29:00] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b7.tar.gz]
+[2024-04-25 13:29:00] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-25 13:29:02] INFO root fetch - processPackages [coverage-control]: Remove: archive file [/home/abi/fetcher/tmp/coverage_control-1.1.0.tar.gz]
+[2024-04-25 13:29:02] INFO root fetch - processPackages [coverage-control]: Remove: archive file [/home/abi/fetcher/tmp/coverage_control-1.2.0.tar.gz]
+[2024-04-25 13:29:02] INFO root fetch - main [MainThread]: End processing [coverage-control]: success
+[2024-04-25 13:29:02] INFO root fetch - main [MainThread]: Store serial: [22929656]
