@@ -13727,3 +13727,99 @@
 [2024-04-25 09:33:24] INFO root fetch - processPackages [hun-date-parser]: Remove: archive file [/home/abi/fetcher/tmp/hun-date-parser-0.2.5.tar.gz]
 [2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [hun-date-parser]: success
 [2024-04-25 09:33:24] INFO root fetch - main [MainThread]: Store serial: [22926612]
+[2024-04-25 09:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926612]
+[2024-04-25 09:35:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakemake
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WSAT
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haskellian
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oakvar
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s11-classifier
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plette
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-es-aeat-mod190
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ledgerblue
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: r8format
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tripleuni
+[2024-04-25 09:35:33] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [tripleuni]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [snakemake]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ledgerblue]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:35:33] WARNING root fetch - processPackages [WSAT]: Skipping, unable to determine old version
+[2024-04-25 09:35:33] INFO root fetch - processPackages [WSAT]: Start processing: hezar
+[2024-04-25 09:35:33] INFO root fetch - main [MainThread]: End processing [WSAT] error
+[2024-04-25 09:35:33] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [plette]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [r8format]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [tripleuni]: Downloading https://files.pythonhosted.org/packages/27/5d/5ddc4f744c7ff736a180f9a81bf445393381192d7313e787c11ed5161f43/tripleuni-0.3.0.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [s11-classifier]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/f0/3e/3386739ee49f841cc84f08989fb924917414aa0438c4559d48674a8c920b/snakemake-8.8.0.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [hezar]: New version: [0.36.1] Old Version: [0.36.0]
+[2024-04-25 09:35:33] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [ledgerblue]: Downloading https://files.pythonhosted.org/packages/37/2d/a787758826bc172450da961ee2f2ebfb2c9e745bff483c26f2ae6e9cd1b9/ledgerblue-0.1.8.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/7c/50/8d9a58d11f177fde83c80b800f3e07ab83ae01bee58564e11a5ebe866434/odoo_addon_l10n_es_aeat_mod190-16.0.1.1.1-py3-none-any.whl
+[2024-04-25 09:35:33] INFO root fetch - processPackages [r8format]: Downloading https://files.pythonhosted.org/packages/d8/99/61aa17398e897b137d3bcbde03a87824863d112ff53f2df3ae4fec63b8d2/r8format-0.0.2.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [plette]: Downloading https://files.pythonhosted.org/packages/cf/a5/93da01eb2543d09b2b234347804887c18dc4fa418080a314d4890781f724/plette-1.0.0.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [tripleuni]: Downloading https://files.pythonhosted.org/packages/1a/15/c1e459e6bfdd9a5a2b0770073a36d26bb94f25fd13df8adc49ba34cd375d/tripleuni-0.4.0.tar.gz
+[2024-04-25 09:35:33] INFO root fetch - processPackages [s11-classifier]: Downloading https://files.pythonhosted.org/packages/b9/1e/5331ee48367f1ed9ca922e56ac9b34d8c4f3f5900ff01648434d3533308c/s11-classifier-3.6.0.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240425/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/8d/49/426b8f37f42d9ec81d7670b019946fd4322a44b348d4d9280fb641b230c0/hezar-0.36.0.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [tripleuni]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [tripleuni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tripleuni-0.3.0.tar.gz tmp/tripleuni-0.4.0.tar.gz --markdown 20240425/t/tripleuni/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/be/07/0040ab91da28bcd9077a8762748deba3b02dd8f7613e14589e4ec0f25aab/snakemake-8.9.0.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [plette]: Downloading https://files.pythonhosted.org/packages/8a/b8/205d63dc0f9274c93ce5078a84e258fa790ca5c1857e7287be4d2378ad41/plette-2.0.0.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [r8format]: Downloading https://files.pythonhosted.org/packages/27/f2/65246c838b0cd2faae6c58147bc2dbe78c719b8215b76589d99ab96c26d1/r8format-0.0.3.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [ledgerblue]: Downloading https://files.pythonhosted.org/packages/96/26/ee7eefb4cfa6445f7d48c35b511b57c59202b5a219e9bdad84a59394476d/ledgerblue-0.1.9.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [s11-classifier]: Downloading https://files.pythonhosted.org/packages/4f/6d/41b08306ee30e12a0b6d5dd4976103be9a8013143d37bc9eb7443fa7ed2f/s11-classifier-3.7.0.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/37/86/386ef5bf56429bb34effc9b450f21218da8b9b34974f41b55598ef925dd1/odoo_addon_l10n_es_aeat_mod190-16.0.1.2.0-py3-none-any.whl
+[2024-04-25 09:35:34] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/9c/0a/bb99c5d5fbbe75048abe2784f7fe082325d237f11cf2fdae1c3adad2c444/hezar-0.36.1.tar.gz
+[2024-04-25 09:35:34] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-8.8.0.tar.gz tmp/snakemake-8.9.0.tar.gz --markdown 20240425/s/snakemake/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [ledgerblue]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [ledgerblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledgerblue-0.1.8.tar.gz tmp/ledgerblue-0.1.9.tar.gz --markdown 20240425/l/ledgerblue/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [r8format]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [r8format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r8format-0.0.2.tar.gz tmp/r8format-0.0.3.tar.gz --markdown 20240425/r/r8format/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [plette]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [plette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plette-1.0.0.tar.gz tmp/plette-2.0.0.tar.gz --markdown 20240425/p/plette/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [s11-classifier]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [s11-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s11-classifier-3.6.0.tar.gz tmp/s11-classifier-3.7.0.tar.gz --markdown 20240425/s/s11-classifier/3.6.0-3.7.0/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-l10n-es-aeat-mod190/16.0.1.1.1-16.0.1.2.0/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2024-04-25 09:35:34] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.36.0.tar.gz tmp/hezar-0.36.1.tar.gz --markdown 20240425/h/hezar/0.36.0-0.36.1/README.md --exclude *.pyd
+[2024-04-25 09:35:34] INFO root fetch - processPackages [tripleuni]: Remove: archive file [/home/abi/fetcher/tmp/tripleuni-0.3.0.tar.gz]
+[2024-04-25 09:35:34] INFO root fetch - processPackages [tripleuni]: Remove: archive file [/home/abi/fetcher/tmp/tripleuni-0.4.0.tar.gz]
+[2024-04-25 09:35:34] INFO root fetch - main [MainThread]: End processing [tripleuni]: success
+[2024-04-25 09:35:34] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-04-25 09:35:34] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-04-25 09:35:34] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-04-25 09:35:34] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-04-25 09:35:35] INFO root fetch - processPackages [ledgerblue]: Remove: archive file [/home/abi/fetcher/tmp/ledgerblue-0.1.8.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - processPackages [ledgerblue]: Remove: archive file [/home/abi/fetcher/tmp/ledgerblue-0.1.9.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - main [MainThread]: End processing [ledgerblue]: success
+[2024-04-25 09:35:35] INFO root fetch - processPackages [plette]: Remove: archive file [/home/abi/fetcher/tmp/plette-1.0.0.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - processPackages [plette]: Remove: archive file [/home/abi/fetcher/tmp/plette-2.0.0.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - main [MainThread]: End processing [plette]: success
+[2024-04-25 09:35:35] INFO root fetch - processPackages [r8format]: Remove: archive file [/home/abi/fetcher/tmp/r8format-0.0.2.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - processPackages [r8format]: Remove: archive file [/home/abi/fetcher/tmp/r8format-0.0.3.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - main [MainThread]: End processing [r8format]: success
+[2024-04-25 09:35:35] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-04-25 09:35:35] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240425/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-04-25 09:35:35] INFO root fetch - processPackages [s11-classifier]: Remove: archive file [/home/abi/fetcher/tmp/s11-classifier-3.6.0.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - processPackages [s11-classifier]: Remove: archive file [/home/abi/fetcher/tmp/s11-classifier-3.7.0.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - main [MainThread]: End processing [s11-classifier]: success
+[2024-04-25 09:35:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-25 09:35:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod190-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-25 09:35:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod190]: success
+[2024-04-25 09:35:35] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.8.0.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.9.0.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2024-04-25 09:35:35] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.36.0.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.36.1.tar.gz]
+[2024-04-25 09:35:35] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2024-04-25 09:35:38] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-04-25 09:35:38] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-04-25 09:35:38] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-04-25 09:35:38] INFO root fetch - main [MainThread]: Store serial: [22926645]
