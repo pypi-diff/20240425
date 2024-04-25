@@ -13055,3 +13055,51 @@
 [2024-04-25 09:06:40] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
 [2024-04-25 09:06:40] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-04-25 09:06:40] INFO root fetch - main [MainThread]: Store serial: [22926357]
+[2024-04-25 09:08:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926357]
+[2024-04-25 09:08:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 09:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongo-m
+[2024-04-25 09:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycsw-rpi
+[2024-04-25 09:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-hub-nightly
+[2024-04-25 09:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gt4sd
+[2024-04-25 09:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ppx
+[2024-04-25 09:08:49] INFO root fetch - processPackages [mongo-m]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-25 09:08:50] INFO root fetch - processPackages [pycsw-rpi]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-25 09:08:50] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/12/2e/bf3166302be56a699da2924146e3d37bb0a4c1fe068f590ee1edc9b5a5b7/mongo_m-1.0.4.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [ppx]: New version: [1.4.4] Old Version: [1.4.2]
+[2024-04-25 09:08:50] INFO root fetch - processPackages [gt4sd]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-25 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-25 09:08:50] INFO root fetch - processPackages [pycsw-rpi]: Downloading https://files.pythonhosted.org/packages/93/b2/03276ae89ceda6826243691717e93ccfeabdc0a76d2ccf0783fdebf0e39d/pycsw-rpi-0.1.2.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [ppx]: Downloading https://files.pythonhosted.org/packages/a3/9c/97677316cf6703e3d43174c0249b024791babbe454749335a5cf1a903666/ppx-1.4.2.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-25 09:08:50] INFO root fetch - processPackages [gt4sd]: Downloading https://files.pythonhosted.org/packages/a5/53/523ba1e5122c2ef29e7a9a1be3acdda50604ec6f38640e5fc283cf9c5551/gt4sd-1.4.0.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/a1/f5/d3a4456e12852d99bb24e9aecbc1ffb75e1d6b8c9165965d468d04b61dad/mongo_m-1.0.5.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [mongo-m]: executing diffoscope
+[2024-04-25 09:08:50] INFO root fetch - processPackages [mongo-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_m-1.0.4.tar.gz tmp/mongo_m-1.0.5.tar.gz --markdown 20240425/m/mongo-m/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-25 09:08:50] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240425/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-25 09:08:50] INFO root fetch - processPackages [pycsw-rpi]: Downloading https://files.pythonhosted.org/packages/54/68/615af532b752f965979f628fab92286a71df0b142aff5fef525d40d22a5a/pycsw_rpi-0.1.4.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [pycsw-rpi]: executing diffoscope
+[2024-04-25 09:08:50] INFO root fetch - processPackages [pycsw-rpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycsw-rpi-0.1.2.tar.gz tmp/pycsw_rpi-0.1.4.tar.gz --markdown 20240425/p/pycsw-rpi/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-25 09:08:50] INFO root fetch - processPackages [ppx]: Downloading https://files.pythonhosted.org/packages/78/ee/0cb8116f3735182368a6d6ad6fa10fea69126909cb754ed7160805a01230/ppx-1.4.4.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [gt4sd]: Downloading https://files.pythonhosted.org/packages/01/6a/543ee92cd1a6c48b160bed105e158bfff4dd4571b15e8bc8bdbfbcb35772/gt4sd-1.4.1.tar.gz
+[2024-04-25 09:08:50] INFO root fetch - processPackages [ppx]: executing diffoscope
+[2024-04-25 09:08:50] INFO root fetch - processPackages [ppx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppx-1.4.2.tar.gz tmp/ppx-1.4.4.tar.gz --markdown 20240425/p/ppx/1.4.2-1.4.4/README.md --exclude *.pyd
+[2024-04-25 09:08:51] INFO root fetch - processPackages [gt4sd]: executing diffoscope
+[2024-04-25 09:08:51] INFO root fetch - processPackages [gt4sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt4sd-1.4.0.tar.gz tmp/gt4sd-1.4.1.tar.gz --markdown 20240425/g/gt4sd/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-25 09:08:51] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.4.tar.gz]
+[2024-04-25 09:08:51] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.5.tar.gz]
+[2024-04-25 09:08:51] INFO root fetch - main [MainThread]: End processing [mongo-m]: success
+[2024-04-25 09:08:51] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-25 09:08:51] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-25 09:08:51] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-25 09:08:51] INFO root fetch - processPackages [pycsw-rpi]: Remove: archive file [/home/abi/fetcher/tmp/pycsw-rpi-0.1.2.tar.gz]
+[2024-04-25 09:08:51] INFO root fetch - processPackages [pycsw-rpi]: Remove: archive file [/home/abi/fetcher/tmp/pycsw_rpi-0.1.4.tar.gz]
+[2024-04-25 09:08:51] INFO root fetch - main [MainThread]: End processing [pycsw-rpi]: success
+[2024-04-25 09:08:51] INFO root fetch - processPackages [ppx]: Remove: archive file [/home/abi/fetcher/tmp/ppx-1.4.2.tar.gz]
+[2024-04-25 09:08:51] INFO root fetch - processPackages [ppx]: Remove: archive file [/home/abi/fetcher/tmp/ppx-1.4.4.tar.gz]
+[2024-04-25 09:08:51] INFO root fetch - main [MainThread]: End processing [ppx]: success
+[2024-04-25 09:08:52] INFO root fetch - processPackages [gt4sd]: Remove: archive file [/home/abi/fetcher/tmp/gt4sd-1.4.0.tar.gz]
+[2024-04-25 09:08:52] INFO root fetch - processPackages [gt4sd]: Remove: archive file [/home/abi/fetcher/tmp/gt4sd-1.4.1.tar.gz]
+[2024-04-25 09:08:52] INFO root fetch - main [MainThread]: End processing [gt4sd]: success
+[2024-04-25 09:08:52] INFO root fetch - main [MainThread]: Store serial: [22926374]
