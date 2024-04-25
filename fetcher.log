@@ -9797,3 +9797,33 @@
 [2024-04-25 05:32:04] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.1-py3-none-any.whl.zip]
 [2024-04-25 05:32:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
 [2024-04-25 05:32:04] INFO root fetch - main [MainThread]: Store serial: [22924773]
+[2024-04-25 05:34:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924773]
+[2024-04-25 05:34:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 05:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat3ra-made
+[2024-04-25 05:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TineAutomationToolkit
+[2024-04-25 05:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nb-time
+[2024-04-25 05:34:13] INFO root fetch - processPackages [mat3ra-made]: New version: [2024.4.8.post0] Old Version: [2024.4.25.post0]
+[2024-04-25 05:34:13] INFO root fetch - processPackages [TineAutomationToolkit]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-25 05:34:13] INFO root fetch - processPackages [nb-time]: New version: [1.8] Old Version: [1.7]
+[2024-04-25 05:34:14] INFO root fetch - processPackages [mat3ra-made]: Downloading https://files.pythonhosted.org/packages/d8/71/2d37062b257189fff5185cb98849e27aaee10c86a7c83b1c7288a7220fe9/mat3ra_made-2024.4.25.post0.tar.gz
+[2024-04-25 05:34:14] INFO root fetch - processPackages [nb-time]: Downloading https://files.pythonhosted.org/packages/74/0d/ce8187738782aabb4424d673b6735b8ab1471342a883bd8beb2d96b3e306/nb_time-1.7.tar.gz
+[2024-04-25 05:34:14] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/a9/d6/595744063c69187c84c8b5bdb81d9d95654eba52e8146344989074e89349/TineAutomationToolkit-1.0.6.tar.gz
+[2024-04-25 05:34:14] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/ec/94/8f880d35e0a8172b09e3a1e747a76316207d62ccf35145c3f688d28e743c/TineAutomationToolkit-1.0.7.tar.gz
+[2024-04-25 05:34:14] INFO root fetch - processPackages [mat3ra-made]: Downloading https://files.pythonhosted.org/packages/c4/2a/e2c0e45791cbb594aa63fb573de31b6922ba66ee7fac2ddb99f5a9546cf1/mat3ra-made-2024.4.8.post0.tar.gz
+[2024-04-25 05:34:14] INFO root fetch - processPackages [nb-time]: Downloading https://files.pythonhosted.org/packages/71/83/d9eed6e32ab28851e9018c825a1ac8ee89cdd8db271e8145dbb37df0392f/nb_time-1.8.tar.gz
+[2024-04-25 05:34:14] INFO root fetch - processPackages [TineAutomationToolkit]: executing diffoscope
+[2024-04-25 05:34:14] INFO root fetch - processPackages [TineAutomationToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TineAutomationToolkit-1.0.6.tar.gz tmp/TineAutomationToolkit-1.0.7.tar.gz --markdown 20240425/T/TineAutomationToolkit/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-25 05:34:14] INFO root fetch - processPackages [mat3ra-made]: executing diffoscope
+[2024-04-25 05:34:14] INFO root fetch - processPackages [mat3ra-made]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra_made-2024.4.25.post0.tar.gz tmp/mat3ra-made-2024.4.8.post0.tar.gz --markdown 20240425/m/mat3ra-made/2024.4.25.post0-2024.4.8.post0/README.md --exclude *.pyd
+[2024-04-25 05:34:14] INFO root fetch - processPackages [nb-time]: executing diffoscope
+[2024-04-25 05:34:14] INFO root fetch - processPackages [nb-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_time-1.7.tar.gz tmp/nb_time-1.8.tar.gz --markdown 20240425/n/nb-time/1.7-1.8/README.md --exclude *.pyd
+[2024-04-25 05:34:15] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.6.tar.gz]
+[2024-04-25 05:34:15] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.7.tar.gz]
+[2024-04-25 05:34:15] INFO root fetch - main [MainThread]: End processing [TineAutomationToolkit]: success
+[2024-04-25 05:34:15] INFO root fetch - processPackages [nb-time]: Remove: archive file [/home/abi/fetcher/tmp/nb_time-1.7.tar.gz]
+[2024-04-25 05:34:15] INFO root fetch - processPackages [nb-time]: Remove: archive file [/home/abi/fetcher/tmp/nb_time-1.8.tar.gz]
+[2024-04-25 05:34:15] INFO root fetch - main [MainThread]: End processing [nb-time]: success
+[2024-04-25 05:34:15] INFO root fetch - processPackages [mat3ra-made]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_made-2024.4.25.post0.tar.gz]
+[2024-04-25 05:34:15] INFO root fetch - processPackages [mat3ra-made]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-made-2024.4.8.post0.tar.gz]
+[2024-04-25 05:34:15] INFO root fetch - main [MainThread]: End processing [mat3ra-made]: success
+[2024-04-25 05:34:15] INFO root fetch - main [MainThread]: Store serial: [22924785]
