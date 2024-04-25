@@ -10908,3 +10908,42 @@
 [2024-04-25 07:03:02] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.9.0.tar.gz]
 [2024-04-25 07:03:02] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
 [2024-04-25 07:03:02] INFO root fetch - main [MainThread]: Store serial: [22925363]
+[2024-04-25 07:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925363]
+[2024-04-25 07:05:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webchanges
+[2024-04-25 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: belay
+[2024-04-25 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finter
+[2024-04-25 07:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: face-rhythm
+[2024-04-25 07:05:11] INFO root fetch - processPackages [webchanges]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-25 07:05:11] INFO root fetch - processPackages [finter]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-25 07:05:11] INFO root fetch - processPackages [belay]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-25 07:05:11] INFO root fetch - processPackages [face-rhythm]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-25 07:05:11] INFO root fetch - processPackages [webchanges]: Downloading https://files.pythonhosted.org/packages/3a/da/8ad85216768f581c8731f21db668f2100807c6746b4cbd86b49a52f4530d/webchanges-3.9.1-py3-none-any.whl
+[2024-04-25 07:05:11] INFO root fetch - processPackages [belay]: Downloading https://files.pythonhosted.org/packages/23/b4/2da429f37307a9cf65bba0b2aaf981b88ac4a804808f12fdd6592d29ce5a/belay-0.9.2.tar.gz
+[2024-04-25 07:05:11] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/3b/5b/405df3548c326eb189422051bca725e12c7f71fc78424b6d7f2598f7ab15/finter-0.2.4-py3-none-any.whl
+[2024-04-25 07:05:11] INFO root fetch - processPackages [face-rhythm]: Downloading https://files.pythonhosted.org/packages/5f/68/ae84e34a1f29058e20c6200f855cb6294d070e85177775a30d7f29882c6e/face_rhythm-0.2.4.tar.gz
+[2024-04-25 07:05:11] INFO root fetch - processPackages [webchanges]: Downloading https://files.pythonhosted.org/packages/29/d4/4af55d7368e67b485c2dcb70df83495442f37e316d5c178d889b7a140ad2/webchanges-3.9.2-py3-none-any.whl
+[2024-04-25 07:05:11] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/25/f3/03b55fb255c3df6ec737eeda4aac2e689a0a2fce218faf5b9a5e170d1c1f/finter-0.2.5-py3-none-any.whl
+[2024-04-25 07:05:11] INFO root fetch - processPackages [face-rhythm]: Downloading https://files.pythonhosted.org/packages/9e/7a/a1d58d013e477b0e8a689b348d15b2a043428cd165d7a0007a0aded024bf/face_rhythm-0.2.5.tar.gz
+[2024-04-25 07:05:11] INFO root fetch - processPackages [belay]: Downloading https://files.pythonhosted.org/packages/9b/77/849b741c0970753d387c5a56f993e690b11bf63d6049da24a8813e13e88f/belay-0.9.3.tar.gz
+[2024-04-25 07:05:11] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-04-25 07:05:11] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.4-py3-none-any.whl.zip tmp/finter-0.2.5-py3-none-any.whl.zip --markdown 20240425/f/finter/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-25 07:05:11] INFO root fetch - processPackages [face-rhythm]: executing diffoscope
+[2024-04-25 07:05:11] INFO root fetch - processPackages [face-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/face_rhythm-0.2.4.tar.gz tmp/face_rhythm-0.2.5.tar.gz --markdown 20240425/f/face-rhythm/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-25 07:05:12] INFO root fetch - processPackages [belay]: executing diffoscope
+[2024-04-25 07:05:12] INFO root fetch - processPackages [belay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belay-0.9.2.tar.gz tmp/belay-0.9.3.tar.gz --markdown 20240425/b/belay/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-25 07:05:12] INFO root fetch - processPackages [webchanges]: executing diffoscope
+[2024-04-25 07:05:12] INFO root fetch - processPackages [webchanges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webchanges-3.9.1-py3-none-any.whl.zip tmp/webchanges-3.9.2-py3-none-any.whl.zip --markdown 20240425/w/webchanges/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-25 07:05:12] INFO root fetch - processPackages [face-rhythm]: Remove: archive file [/home/abi/fetcher/tmp/face_rhythm-0.2.4.tar.gz]
+[2024-04-25 07:05:12] INFO root fetch - processPackages [face-rhythm]: Remove: archive file [/home/abi/fetcher/tmp/face_rhythm-0.2.5.tar.gz]
+[2024-04-25 07:05:12] INFO root fetch - main [MainThread]: End processing [face-rhythm]: success
+[2024-04-25 07:05:12] INFO root fetch - processPackages [belay]: Remove: archive file [/home/abi/fetcher/tmp/belay-0.9.2.tar.gz]
+[2024-04-25 07:05:12] INFO root fetch - processPackages [belay]: Remove: archive file [/home/abi/fetcher/tmp/belay-0.9.3.tar.gz]
+[2024-04-25 07:05:12] INFO root fetch - main [MainThread]: End processing [belay]: success
+[2024-04-25 07:05:12] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.4-py3-none-any.whl.zip]
+[2024-04-25 07:05:12] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.5-py3-none-any.whl.zip]
+[2024-04-25 07:05:12] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-04-25 07:05:13] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.1-py3-none-any.whl.zip]
+[2024-04-25 07:05:13] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.2-py3-none-any.whl.zip]
+[2024-04-25 07:05:13] INFO root fetch - main [MainThread]: End processing [webchanges]: success
+[2024-04-25 07:05:13] INFO root fetch - main [MainThread]: Store serial: [22925375]
