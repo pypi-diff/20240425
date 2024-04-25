@@ -15238,3 +15238,74 @@
 [2024-04-25 10:31:11] INFO root fetch - processPackages [uxsim]: Remove: archive file [/home/abi/fetcher/tmp/uxsim-1.2.0.tar.gz]
 [2024-04-25 10:31:11] INFO root fetch - main [MainThread]: End processing [uxsim]: success
 [2024-04-25 10:31:11] INFO root fetch - main [MainThread]: Store serial: [22927204]
+[2024-04-25 10:33:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927204]
+[2024-04-25 10:33:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ontopint
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autofeather-dash-mantine-components
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyncur
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-toolkit
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amsdal
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agptools
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openshift-cluster-login
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satcfdi
+[2024-04-25 10:33:22] INFO root fetch - processPackages [autofeather-dash-mantine-components]: New version: [0.14.3] Old Version: [0.14.23]
+[2024-04-25 10:33:22] INFO root fetch - processPackages [ontopint]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 10:33:22] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 10:33:22] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 10:33:22] INFO root fetch - processPackages [asyncur]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-25 10:33:22] INFO root fetch - processPackages [openshift-cluster-login]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 10:33:22] INFO root fetch - processPackages [amsdal]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 10:33:23] INFO root fetch - processPackages [satcfdi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-25 10:33:23] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/64/c0/29110a243d5b4ec34ffc43ac51d8f23e2bb27114f7cc9a1a5af940827bf5/autofeather_dash_mantine_components-0.14.23.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [ontopint]: Downloading https://files.pythonhosted.org/packages/05/1d/d7d6266c8764beeb1a0e8f5d4a761eafec9cdf2500eb2a92c32e5d40d27f/ontopint-0.0.2.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-04-25 10:33:23] INFO root fetch - processPackages [asyncur]: Downloading https://files.pythonhosted.org/packages/f6/ea/140dbb4912bc28075822c20968b28aa856410a0ba5458f70f45d9839bcaf/asyncur-0.4.2.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [openshift-cluster-login]: Downloading https://files.pythonhosted.org/packages/bd/7b/339ce4e39994f4c29e23a447462c844bc1be99614d6b591c6563b60ce59e/openshift_cluster_login-1.0.4.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/c5/7e/d8caacf06082489ad7348f2b62b27958c5a7bf09511f0f8430f8e2ca2c4d/amsdal-0.1.8-cp311-cp311-win_amd64.whl
+[2024-04-25 10:33:23] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/f3/67/e32b7e44d6291baa2ace4643f65dfe80e0450563991ca1b682dbe15fb364/satcfdi-4.4.8.tar.gz
+[2024-04-25 10:33:23] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10631018>=10485760
+[2024-04-25 10:33:23] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2024-04-25 10:33:23] INFO root fetch - processPackages [ontopint]: Downloading https://files.pythonhosted.org/packages/bb/cf/6cea823a5a3ed399871c3389cce7359f921572bb0731bd5725ad0ee9940d/ontopint-0.0.3.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [asyncur]: Downloading https://files.pythonhosted.org/packages/bd/f8/23e7278e4f5b45363a77635d07b1925640827e8a101e1f315feca0eb6bec/asyncur-0.5.0.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [openshift-cluster-login]: Downloading https://files.pythonhosted.org/packages/f1/d2/330878fef28ce234a2986cff85f2869ebc965640b740f17581d511484570/openshift_cluster_login-1.0.5.tar.gz
+[2024-04-25 10:33:23] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-04-25 10:33:23] INFO root fetch - processPackages [ontopint]: executing diffoscope
+[2024-04-25 10:33:23] INFO root fetch - processPackages [ontopint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontopint-0.0.2.tar.gz tmp/ontopint-0.0.3.tar.gz --markdown 20240425/o/ontopint/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 10:33:23] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-25 10:33:23] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240425/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 10:33:23] INFO root fetch - processPackages [asyncur]: executing diffoscope
+[2024-04-25 10:33:23] INFO root fetch - processPackages [asyncur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncur-0.4.2.tar.gz tmp/asyncur-0.5.0.tar.gz --markdown 20240425/a/asyncur/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-25 10:33:23] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-04-25 10:33:23] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240425/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 10:33:23] INFO root fetch - processPackages [openshift-cluster-login]: executing diffoscope
+[2024-04-25 10:33:23] INFO root fetch - processPackages [openshift-cluster-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_login-1.0.4.tar.gz tmp/openshift_cluster_login-1.0.5.tar.gz --markdown 20240425/o/openshift-cluster-login/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 10:33:23] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/fc/51/0edf43ba12347c41ea640f7efb7f415b15b212483248e0b0a4c490b716f2/amsdal-0.1.9-cp311-cp311-win_amd64.whl
+[2024-04-25 10:33:23] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/9d/c6/3e793263389bff2eeb22aa310853ff3ff2f8f148b6f97945071af23e205d/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl
+[2024-04-25 10:33:24] INFO root fetch - processPackages [autofeather-dash-mantine-components]: executing diffoscope
+[2024-04-25 10:33:24] INFO root fetch - processPackages [autofeather-dash-mantine-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeather_dash_mantine_components-0.14.23.tar.gz tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip --markdown 20240425/a/autofeather-dash-mantine-components/0.14.23-0.14.3/README.md --exclude *.pyd
+[2024-04-25 10:33:24] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-25 10:33:24] INFO root fetch - processPackages [ontopint]: Remove: archive file [/home/abi/fetcher/tmp/ontopint-0.0.2.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - processPackages [ontopint]: Remove: archive file [/home/abi/fetcher/tmp/ontopint-0.0.3.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - main [MainThread]: End processing [ontopint]: success
+[2024-04-25 10:33:24] INFO root fetch - processPackages [asyncur]: Remove: archive file [/home/abi/fetcher/tmp/asyncur-0.4.2.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - processPackages [asyncur]: Remove: archive file [/home/abi/fetcher/tmp/asyncur-0.5.0.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - main [MainThread]: End processing [asyncur]: success
+[2024-04-25 10:33:24] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-25 10:33:24] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-25 10:33:24] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-04-25 10:33:24] INFO root fetch - processPackages [amsdal]: executing diffoscope
+[2024-04-25 10:33:24] INFO root fetch - processPackages [amsdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240425/a/amsdal/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 10:33:24] INFO root fetch - processPackages [openshift-cluster-login]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_login-1.0.4.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - processPackages [openshift-cluster-login]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_login-1.0.5.tar.gz]
+[2024-04-25 10:33:24] INFO root fetch - main [MainThread]: End processing [openshift-cluster-login]: success
+[2024-04-25 10:33:25] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.23.tar.gz]
+[2024-04-25 10:33:25] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip]
+[2024-04-25 10:33:25] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
+[2024-04-25 10:33:25] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-04-25 10:33:25] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-04-25 10:33:25] INFO root fetch - main [MainThread]: End processing [amsdal]: success
+[2024-04-25 10:33:25] INFO root fetch - main [MainThread]: Store serial: [22927232]
