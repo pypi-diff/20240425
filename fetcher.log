@@ -8866,3 +8866,45 @@
 [2024-04-25 04:41:02] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.6.tar.gz]
 [2024-04-25 04:41:02] INFO root fetch - main [MainThread]: End processing [feasytools]: success
 [2024-04-25 04:41:02] INFO root fetch - main [MainThread]: Store serial: [22924396]
+[2024-04-25 04:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924396]
+[2024-04-25 04:43:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokebola
+[2024-04-25 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: STAIR-tools
+[2024-04-25 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-financial-report
+[2024-04-25 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-parse
+[2024-04-25 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testcase-10
+[2024-04-25 04:43:10] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-04-25 04:43:10] INFO root fetch - processPackages [STAIR-tools]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-25 04:43:10] INFO root fetch - processPackages [Pokebola]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 04:43:10] WARNING root fetch - processPackages [testcase-10]: Skipping, unable to determine old version
+[2024-04-25 04:43:10] INFO root fetch - main [MainThread]: End processing [testcase-10] error
+[2024-04-25 04:43:10] INFO root fetch - processPackages [llama-parse]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-25 04:43:10] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/b1/6d/9514d6e8c6c40070bb1d686ee96580077491908e9bc8208a9b56f67e3cc3/STAIR-tools-1.1.2.tar.gz
+[2024-04-25 04:43:10] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/44/8d/3b508753c214ac5b8549054893686102c8948d6adf45eef94086067d7780/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl
+[2024-04-25 04:43:10] INFO root fetch - processPackages [Pokebola]: Downloading https://files.pythonhosted.org/packages/5c/21/5f7a63f22fc8c396cb74032f93188a8d04c3329eb3a9bb15f7da7350a7fc/pokebola-1.0.1.tar.gz
+[2024-04-25 04:43:10] INFO root fetch - processPackages [llama-parse]: Downloading https://files.pythonhosted.org/packages/ab/ac/e85f37d65d51439956289a39cb97d2b5b340fef2a6c1b54039de7d5be833/llama_parse-0.4.1.tar.gz
+[2024-04-25 04:43:11] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/e7/47/9752c817f121534f618a2975349c77a97d8a32d1d8c7c6877ce57977097f/STAIR-tools-1.1.3.tar.gz
+[2024-04-25 04:43:11] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/24/0b/8e3229e27ceb09b7c5267a96314856acdbd0087736a6053f1778fa8daae8/odoo_addon_account_financial_report-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-25 04:43:11] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-04-25 04:43:11] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.1.2.tar.gz tmp/STAIR-tools-1.1.3.tar.gz --markdown 20240425/S/STAIR-tools/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-25 04:43:11] INFO root fetch - processPackages [llama-parse]: Downloading https://files.pythonhosted.org/packages/25/07/1bc577cc7ced1ae4168097be7e7318cd978645937c1dc1dbe8d4f310cfe2/llama_parse-0.4.2.tar.gz
+[2024-04-25 04:43:11] INFO root fetch - processPackages [Pokebola]: Downloading https://files.pythonhosted.org/packages/48/c8/9df9d9a9dd7e482c4be91535fe814075caabb094a2e1a07014db88cb413d/pokebola-1.0.2.tar.gz
+[2024-04-25 04:43:11] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-25 04:43:11] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-account-financial-report/17.0.1.1.0-17.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-25 04:43:11] INFO root fetch - processPackages [llama-parse]: executing diffoscope
+[2024-04-25 04:43:11] INFO root fetch - processPackages [llama-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_parse-0.4.1.tar.gz tmp/llama_parse-0.4.2.tar.gz --markdown 20240425/l/llama-parse/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-25 04:43:11] INFO root fetch - processPackages [Pokebola]: executing diffoscope
+[2024-04-25 04:43:11] INFO root fetch - processPackages [Pokebola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokebola-1.0.1.tar.gz tmp/pokebola-1.0.2.tar.gz --markdown 20240425/P/Pokebola/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 04:43:11] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.2.tar.gz]
+[2024-04-25 04:43:11] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.3.tar.gz]
+[2024-04-25 04:43:11] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-04-25 04:43:11] INFO root fetch - processPackages [llama-parse]: Remove: archive file [/home/abi/fetcher/tmp/llama_parse-0.4.1.tar.gz]
+[2024-04-25 04:43:11] INFO root fetch - processPackages [llama-parse]: Remove: archive file [/home/abi/fetcher/tmp/llama_parse-0.4.2.tar.gz]
+[2024-04-25 04:43:11] INFO root fetch - main [MainThread]: End processing [llama-parse]: success
+[2024-04-25 04:43:11] INFO root fetch - processPackages [Pokebola]: Remove: archive file [/home/abi/fetcher/tmp/pokebola-1.0.1.tar.gz]
+[2024-04-25 04:43:11] INFO root fetch - processPackages [Pokebola]: Remove: archive file [/home/abi/fetcher/tmp/pokebola-1.0.2.tar.gz]
+[2024-04-25 04:43:11] INFO root fetch - main [MainThread]: End processing [Pokebola]: success
+[2024-04-25 04:43:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-25 04:43:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-25 04:43:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-25 04:43:12] INFO root fetch - main [MainThread]: Store serial: [22924413]
