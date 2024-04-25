@@ -10756,3 +10756,51 @@
 [2024-04-25 06:51:50] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.3.tar.gz]
 [2024-04-25 06:51:50] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
 [2024-04-25 06:51:50] INFO root fetch - main [MainThread]: Store serial: [22925301]
+[2024-04-25 06:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925301]
+[2024-04-25 06:53:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SPLADERunner
+[2024-04-25 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syft
+[2024-04-25 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homelinkpython
+[2024-04-25 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fetch-sitemap
+[2024-04-25 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2024-04-25 06:53:59] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-25 06:53:59] INFO root fetch - processPackages [homelinkpython]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-25 06:53:59] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-25 06:53:59] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [homelinkpython]: Downloading https://files.pythonhosted.org/packages/ef/cf/3f3fbe919704301480afad34a2112208e02dd0dd19d772bd77eaa9e8c952/homelinkpython-1.0.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [SPLADERunner]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-25 06:53:59] INFO root fetch - processPackages [syft]: New version: [0.8.7b3] Old Version: [0.8.7b2]
+[2024-04-25 06:53:59] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [SPLADERunner]: Downloading https://files.pythonhosted.org/packages/d7/21/06223d4144dc9b4a8eb9bd8df3594652994c647903583b3cf7f07b4fbecf/SPLADERunner-0.1.3.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/d2/87/0bf3e3491b3fb93256297bdde3524f8a30e8d8b6a7ef15a42951e9c8e653/syft-0.8.7b2.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [homelinkpython]: Downloading https://files.pythonhosted.org/packages/f7/d9/667bef2b5096f32f6bdf697d426845324531a0c46e4b0b4f4a0d1e51d279/homelinkpython-1.0.1.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-25 06:53:59] INFO root fetch - processPackages [homelinkpython]: executing diffoscope
+[2024-04-25 06:53:59] INFO root fetch - processPackages [homelinkpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homelinkpython-1.0.tar.gz tmp/homelinkpython-1.0.1.tar.gz --markdown 20240425/h/homelinkpython/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-25 06:53:59] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-25 06:53:59] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240425/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-25 06:53:59] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-25 06:53:59] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240425/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-25 06:53:59] INFO root fetch - processPackages [SPLADERunner]: Downloading https://files.pythonhosted.org/packages/77/f1/8f37d782a4c821f05201f83e45bd35a44fb5fa1880701cc0fcdb88800b3b/SPLADERunner-0.1.4.tar.gz
+[2024-04-25 06:54:00] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e5/0e/54c68aeaec34bd23ff1d84b6e50286db059a23d0b9124f5c42c877f624ca/syft-0.8.7b3.tar.gz
+[2024-04-25 06:54:00] INFO root fetch - processPackages [SPLADERunner]: executing diffoscope
+[2024-04-25 06:54:00] INFO root fetch - processPackages [SPLADERunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPLADERunner-0.1.3.tar.gz tmp/SPLADERunner-0.1.4.tar.gz --markdown 20240425/S/SPLADERunner/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-25 06:54:00] INFO root fetch - processPackages [syft]: executing diffoscope
+[2024-04-25 06:54:00] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.7b2.tar.gz tmp/syft-0.8.7b3.tar.gz --markdown 20240425/s/syft/0.8.7b2-0.8.7b3/README.md --exclude *.pyd
+[2024-04-25 06:54:00] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-25 06:54:00] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-25 06:54:00] INFO root fetch - processPackages [homelinkpython]: Remove: archive file [/home/abi/fetcher/tmp/homelinkpython-1.0.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - processPackages [homelinkpython]: Remove: archive file [/home/abi/fetcher/tmp/homelinkpython-1.0.1.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - main [MainThread]: End processing [homelinkpython]: success
+[2024-04-25 06:54:00] INFO root fetch - processPackages [SPLADERunner]: Remove: archive file [/home/abi/fetcher/tmp/SPLADERunner-0.1.3.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - processPackages [SPLADERunner]: Remove: archive file [/home/abi/fetcher/tmp/SPLADERunner-0.1.4.tar.gz]
+[2024-04-25 06:54:00] INFO root fetch - main [MainThread]: End processing [SPLADERunner]: success
+[2024-04-25 06:54:01] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b2.tar.gz]
+[2024-04-25 06:54:01] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b3.tar.gz]
+[2024-04-25 06:54:01] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2024-04-25 06:54:01] INFO root fetch - main [MainThread]: Store serial: [22925317]
