@@ -21276,3 +21276,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:15:45] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-25 13:15:45] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-25 13:15:45] INFO root fetch - main [MainThread]: Store serial: [22929468]
+[2024-04-25 13:17:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929468]
+[2024-04-25 13:17:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digimat.mbio
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: particleannotation
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qstd-core
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exchangelib
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorpc
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c4t
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: profiles-rudderstack
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-ch-partner-address-street3
+[2024-04-25 13:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: entropy-pooling
+[2024-04-25 13:17:54] INFO root fetch - processPackages [particleannotation]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-25 13:17:54] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 13:17:54] INFO root fetch - processPackages [exchangelib]: New version: [5.2.1] Old Version: [5.2.0]
+[2024-04-25 13:17:54] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [qstd-core]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 13:17:54] INFO root fetch - processPackages [tensorpc]: New version: [0.10.4] Old Version: [0.10.3]
+[2024-04-25 13:17:54] INFO root fetch - processPackages [c4t]: New version: [1.2.3] Old Version: [1.2.0]
+[2024-04-25 13:17:54] WARNING root fetch - processPackages [odoo-addon-l10n-ch-partner-address-street3]: Skipping, unable to determine old version
+[2024-04-25 13:17:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ch-partner-address-street3] error
+[2024-04-25 13:17:54] INFO root fetch - processPackages [profiles-rudderstack]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-25 13:17:54] INFO root fetch - processPackages [entropy-pooling]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-25 13:17:54] INFO root fetch - processPackages [particleannotation]: Downloading https://files.pythonhosted.org/packages/b0/29/c521313f705152dc8cbd25b4ba6f6eccd6503c8eb10ef005b96051a6d0df/particleannotation-0.3.3.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [exchangelib]: Downloading https://files.pythonhosted.org/packages/2d/64/2c0b0069d8c999065b8199e07c216384ee473f5784fa38766f262dc8a2de/exchangelib-5.2.0.tar.gz
+[2024-04-25 13:17:54] WARNING root fetch - processPackages [particleannotation]: Skipping package: exceeds size limit 49906435>=10485760
+[2024-04-25 13:17:54] INFO root fetch - main [MainThread]: End processing [particleannotation] error
+[2024-04-25 13:17:54] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/df/e6/ea51692cd2eed666217785daaff86942ce6f4295abd800f2a4c80dee05e1/qstd_core-0.2.1.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/40/ad/6b82778dc3ca01ac7081b06b16825c84f503c97ebbd199d4e51c3f02dd64/tensorpc-0.10.3.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [c4t]: Downloading https://files.pythonhosted.org/packages/db/a8/49ed5ada4cb7cf32c9c7168b591774d1b4a4793cf0abe10f1f81348ac26f/c4t-1.2.0.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/95/97/64761d67cfe8069c67b7539134b24dcf170efd4dd29941c63fcf812e485c/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl
+[2024-04-25 13:17:54] INFO root fetch - processPackages [entropy-pooling]: Downloading https://files.pythonhosted.org/packages/da/67/42ad80faececdd3dc8bff35b96aaa482cecffbf55b55085d01590b24fbf6/entropy_pooling-1.0.3.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [exchangelib]: Downloading https://files.pythonhosted.org/packages/5b/43/6d9a0085660707c4376b84f156367b2bb7cadcc11f61470b30e369529eae/exchangelib-5.2.1.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-04-25 13:17:54] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240425/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 13:17:54] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/ce/a8/54939288fd6acbfd612920a7328595121935000111eda6bbb633d211a4b9/qstd_core-0.2.2.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [c4t]: Downloading https://files.pythonhosted.org/packages/ce/65/b88610b97858557fbebe9e427b85c4bcb19531244fd57be01fef20f5f41e/c4t-1.2.3.tar.gz
+[2024-04-25 13:17:54] INFO root fetch - processPackages [exchangelib]: executing diffoscope
+[2024-04-25 13:17:54] INFO root fetch - processPackages [exchangelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchangelib-5.2.0.tar.gz tmp/exchangelib-5.2.1.tar.gz --markdown 20240425/e/exchangelib/5.2.0-5.2.1/README.md --exclude *.pyd
+[2024-04-25 13:17:55] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/df/0d/9eefce009d4983c4080819a80f86a2c8226d65e3dc3c6d9b73b1a0f6cd4a/tensorpc-0.10.4.tar.gz
+[2024-04-25 13:17:55] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/39/b7/6e7ce9481e261a834d0c894750e013daf1a82db51bb1d6162613963ab427/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl
+[2024-04-25 13:17:55] INFO root fetch - processPackages [qstd-core]: executing diffoscope
+[2024-04-25 13:17:55] INFO root fetch - processPackages [qstd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_core-0.2.1.tar.gz tmp/qstd_core-0.2.2.tar.gz --markdown 20240425/q/qstd-core/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 13:17:55] INFO root fetch - processPackages [entropy-pooling]: Downloading https://files.pythonhosted.org/packages/26/28/720c6dcf6e1e9d39b8a904a1000cfa75575ff8f90af0bfb4ce7425201e2d/entropy_pooling-1.0.4.tar.gz
+[2024-04-25 13:17:55] INFO root fetch - processPackages [tensorpc]: executing diffoscope
+[2024-04-25 13:17:55] INFO root fetch - processPackages [tensorpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorpc-0.10.3.tar.gz tmp/tensorpc-0.10.4.tar.gz --markdown 20240425/t/tensorpc/0.10.3-0.10.4/README.md --exclude *.pyd
+[2024-04-25 13:17:55] INFO root fetch - processPackages [profiles-rudderstack]: executing diffoscope
+[2024-04-25 13:17:55] INFO root fetch - processPackages [profiles-rudderstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip --markdown 20240425/p/profiles-rudderstack/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-25 13:17:55] INFO root fetch - processPackages [c4t]: executing diffoscope
+[2024-04-25 13:17:55] INFO root fetch - processPackages [c4t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4t-1.2.0.tar.gz tmp/c4t-1.2.3.tar.gz --markdown 20240425/c/c4t/1.2.0-1.2.3/README.md --exclude *.pyd
+[2024-04-25 13:17:55] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-04-25 13:17:55] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-04-25 13:17:55] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-04-25 13:17:55] INFO root fetch - processPackages [entropy-pooling]: executing diffoscope
+[2024-04-25 13:17:55] INFO root fetch - processPackages [entropy-pooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entropy_pooling-1.0.3.tar.gz tmp/entropy_pooling-1.0.4.tar.gz --markdown 20240425/e/entropy-pooling/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-25 13:17:55] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.1.tar.gz]
+[2024-04-25 13:17:55] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.2.tar.gz]
+[2024-04-25 13:17:55] INFO root fetch - main [MainThread]: End processing [qstd-core]: success
+[2024-04-25 13:17:55] INFO root fetch - processPackages [c4t]: Remove: archive file [/home/abi/fetcher/tmp/c4t-1.2.0.tar.gz]
+[2024-04-25 13:17:55] INFO root fetch - processPackages [c4t]: Remove: archive file [/home/abi/fetcher/tmp/c4t-1.2.3.tar.gz]
+[2024-04-25 13:17:55] INFO root fetch - main [MainThread]: End processing [c4t]: success
+[2024-04-25 13:17:56] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip]
+[2024-04-25 13:17:56] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip]
+[2024-04-25 13:17:56] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack]: success
+[2024-04-25 13:17:56] INFO root fetch - processPackages [exchangelib]: Remove: archive file [/home/abi/fetcher/tmp/exchangelib-5.2.0.tar.gz]
+[2024-04-25 13:17:56] INFO root fetch - processPackages [exchangelib]: Remove: archive file [/home/abi/fetcher/tmp/exchangelib-5.2.1.tar.gz]
+[2024-04-25 13:17:56] INFO root fetch - main [MainThread]: End processing [exchangelib]: success
+[2024-04-25 13:17:56] INFO root fetch - processPackages [entropy-pooling]: Remove: archive file [/home/abi/fetcher/tmp/entropy_pooling-1.0.3.tar.gz]
+[2024-04-25 13:17:56] INFO root fetch - processPackages [entropy-pooling]: Remove: archive file [/home/abi/fetcher/tmp/entropy_pooling-1.0.4.tar.gz]
+[2024-04-25 13:17:56] INFO root fetch - main [MainThread]: End processing [entropy-pooling]: success
+[2024-04-25 13:17:56] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.3.tar.gz]
+[2024-04-25 13:17:56] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.4.tar.gz]
+[2024-04-25 13:17:56] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
+[2024-04-25 13:17:56] INFO root fetch - main [MainThread]: Store serial: [22929501]
