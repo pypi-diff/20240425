@@ -17763,3 +17763,73 @@
 [2024-04-25 11:09:50] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.3.tar.gz]
 [2024-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
 [2024-04-25 11:09:50] INFO root fetch - main [MainThread]: Store serial: [22927989]
+[2024-04-25 11:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927989]
+[2024-04-25 11:12:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyzr
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexible-semantic-kernel
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-app-ui
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aquacrop
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: earthkit-meteo
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webthing-client
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecodev-front
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-25 11:12:06] INFO root fetch - processPackages [zfx]: New version: [20240425b0] Old Version: [20240425a0]
+[2024-04-25 11:12:06] INFO root fetch - processPackages [webthing-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 11:12:06] INFO root fetch - processPackages [flexible-semantic-kernel]: New version: [1.0.3.dev0] Old Version: [1.0.2.dev0]
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/a6/ee/941fa075585f1ee6e9541df7715c3a63364704a273cbaf81708051ee35a8/ctrip-app-ui-0.0.9.tar.gz
+[2024-04-25 11:12:06] INFO root fetch - processPackages [earthkit-meteo]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-25 11:12:06] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/21/a4/d8640c8ecd138165058b2419a24b79fdf6268b5e41686afe0cc6b1f83c01/webthing_client-0.2.8.tar.gz
+[2024-04-25 11:12:06] INFO root fetch - processPackages [lyzr]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 11:12:06] INFO root fetch - processPackages [aquacrop]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-25 11:12:06] INFO root fetch - processPackages [ecodev-front]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 11:12:06] ERROR root fetch - processPackages [zfx]: Unable to fetch info: No such project/version 'zfx' 20240425a0
+[2024-04-25 11:12:06] INFO root fetch - main [MainThread]: End processing [zfx] error
+[2024-04-25 11:12:06] INFO root fetch - processPackages [flexible-semantic-kernel]: Downloading https://files.pythonhosted.org/packages/36/ed/2c08546dfe65253f752dbce8848307bdcf69ce176312f6b516f951094692/flexible_semantic_kernel-1.0.2.dev0.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/ac/3d/39e1cb251947a305e1b12a9f9801f3c7d9d3380edc79c2305d02d26eb182/webthing_client-0.2.9.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/0a/d5/2043c8fdc2ff9dc86436faab0add0f42e38b76ddf4bb7fbc6353460c25ad/aquacrop-3.0.3.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [earthkit-meteo]: Downloading https://files.pythonhosted.org/packages/70/db/ddcb5012cb63f7e9bec06f1f255612d37f02355099883d44d33b0b854030/earthkit-meteo-0.0.1.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/16/e9/844edf9eb99ce8d4fa5b5e7fe50bc806a43f64ac014f3264b4c33765fd84/lyzr-0.1.8.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/e1/8e/5abd72f94e7281a7ac942b93dfceeb7cf72944b8636048ea4e2a431e97cb/ecodev_front-0.0.8.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/ec/ca/14a6ec1ca7c78edcfaeb4c86e2b2887f772b27632cb82763c106e09e5ca7/ctrip-app-ui-0.1.0.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [webthing-client]: executing diffoscope
+[2024-04-25 11:12:07] INFO root fetch - processPackages [webthing-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webthing_client-0.2.8.tar.gz tmp/webthing_client-0.2.9.tar.gz --markdown 20240425/w/webthing-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 11:12:07] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 11:12:07] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.0.9.tar.gz tmp/ctrip-app-ui-0.1.0.tar.gz --markdown 20240425/c/ctrip-app-ui/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-25 11:12:07] INFO root fetch - processPackages [flexible-semantic-kernel]: Downloading https://files.pythonhosted.org/packages/ae/ba/ad99946271e7e5ef787cd29fc8a06ff1660ad58cbb087e9a7bc6cd2cd564/flexible_semantic_kernel-1.0.3.dev0.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [earthkit-meteo]: Downloading https://files.pythonhosted.org/packages/de/54/bd92311b7e3ab6d30a832bedf8d220291d9ea835b2954ca8c064084e759f/earthkit_meteo-0.1.0.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/ef/3b/29d539e8b5eb474efa8d86ebcb55b4f77cea8ce23c96510b93d36095f666/ecodev_front-0.0.9.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [flexible-semantic-kernel]: executing diffoscope
+[2024-04-25 11:12:07] INFO root fetch - processPackages [flexible-semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_semantic_kernel-1.0.2.dev0.tar.gz tmp/flexible_semantic_kernel-1.0.3.dev0.tar.gz --markdown 20240425/f/flexible-semantic-kernel/1.0.2.dev0-1.0.3.dev0/README.md --exclude *.pyd
+[2024-04-25 11:12:07] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/3b/1a/f5e40176ae2a8bf9ad28494907a484ecaab5e97f0790bf0e796cc17e1e51/lyzr-0.1.9.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [earthkit-meteo]: executing diffoscope
+[2024-04-25 11:12:07] INFO root fetch - processPackages [earthkit-meteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthkit-meteo-0.0.1.tar.gz tmp/earthkit_meteo-0.1.0.tar.gz --markdown 20240425/e/earthkit-meteo/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-25 11:12:07] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/f2/fa/2bb801ed31a748791af60a76460a150c2ae7113ee8e0bda3021387029184/aquacrop-3.0.4.tar.gz
+[2024-04-25 11:12:07] INFO root fetch - processPackages [ecodev-front]: executing diffoscope
+[2024-04-25 11:12:07] INFO root fetch - processPackages [ecodev-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_front-0.0.8.tar.gz tmp/ecodev_front-0.0.9.tar.gz --markdown 20240425/e/ecodev-front/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 11:12:07] INFO root fetch - processPackages [lyzr]: executing diffoscope
+[2024-04-25 11:12:07] INFO root fetch - processPackages [lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyzr-0.1.8.tar.gz tmp/lyzr-0.1.9.tar.gz --markdown 20240425/l/lyzr/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 11:12:07] INFO root fetch - processPackages [aquacrop]: executing diffoscope
+[2024-04-25 11:12:07] INFO root fetch - processPackages [aquacrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aquacrop-3.0.3.tar.gz tmp/aquacrop-3.0.4.tar.gz --markdown 20240425/a/aquacrop/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-25 11:12:08] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.8.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.9.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - main [MainThread]: End processing [webthing-client]: success
+[2024-04-25 11:12:08] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.9.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.0.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 11:12:08] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.8.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.9.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - main [MainThread]: End processing [ecodev-front]: success
+[2024-04-25 11:12:08] INFO root fetch - processPackages [earthkit-meteo]: Remove: archive file [/home/abi/fetcher/tmp/earthkit-meteo-0.0.1.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - processPackages [earthkit-meteo]: Remove: archive file [/home/abi/fetcher/tmp/earthkit_meteo-0.1.0.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - main [MainThread]: End processing [earthkit-meteo]: success
+[2024-04-25 11:12:08] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.8.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.9.tar.gz]
+[2024-04-25 11:12:08] INFO root fetch - main [MainThread]: End processing [lyzr]: success
+[2024-04-25 11:12:09] INFO root fetch - processPackages [flexible-semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/flexible_semantic_kernel-1.0.2.dev0.tar.gz]
+[2024-04-25 11:12:09] INFO root fetch - processPackages [flexible-semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/flexible_semantic_kernel-1.0.3.dev0.tar.gz]
+[2024-04-25 11:12:09] INFO root fetch - main [MainThread]: End processing [flexible-semantic-kernel]: success
+[2024-04-25 11:12:09] INFO root fetch - processPackages [aquacrop]: Remove: archive file [/home/abi/fetcher/tmp/aquacrop-3.0.3.tar.gz]
+[2024-04-25 11:12:09] INFO root fetch - processPackages [aquacrop]: Remove: archive file [/home/abi/fetcher/tmp/aquacrop-3.0.4.tar.gz]
+[2024-04-25 11:12:09] INFO root fetch - main [MainThread]: End processing [aquacrop]: success
+[2024-04-25 11:12:09] INFO root fetch - main [MainThread]: Store serial: [22928015]
