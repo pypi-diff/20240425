@@ -11013,3 +11013,11 @@
 [2024-04-25 07:07:25] INFO root fetch - processPackages [ZoomFoundry]: Remove: archive file [/home/abi/fetcher/tmp/ZoomFoundry-6.9.1.tar.gz]
 [2024-04-25 07:07:25] INFO root fetch - main [MainThread]: End processing [ZoomFoundry]: success
 [2024-04-25 07:07:25] INFO root fetch - main [MainThread]: Store serial: [22925395]
+[2024-04-25 07:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925395]
+[2024-04-25 07:09:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 07:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atopile
+[2024-04-25 07:09:34] INFO root fetch - processPackages [atopile]: New version: [0.3.0.dev0] Old Version: [0.2.9]
+[2024-04-25 07:09:34] INFO root fetch - processPackages [atopile]: Downloading https://files.pythonhosted.org/packages/b9/4b/f9ec536fd464d0e26a65a2027efe19630c4f5dbd38d7329e74df46ff0a91/atopile-0.2.9.tar.gz
+[2024-04-25 07:09:34] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
+[2024-04-25 07:09:34] INFO root fetch - main [MainThread]: End processing [atopile] error
+[2024-04-25 07:09:34] INFO root fetch - main [MainThread]: Store serial: [22925398]
