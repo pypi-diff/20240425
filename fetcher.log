@@ -8698,3 +8698,27 @@
 [2024-04-25 04:30:09] INFO root fetch - processPackages [lucidmotors]: Remove: archive file [/home/abi/fetcher/tmp/lucidmotors-1.1.2.tar.gz]
 [2024-04-25 04:30:09] INFO root fetch - main [MainThread]: End processing [lucidmotors]: success
 [2024-04-25 04:30:09] INFO root fetch - main [MainThread]: Store serial: [22924318]
+[2024-04-25 04:32:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924318]
+[2024-04-25 04:32:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 04:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saleyo
+[2024-04-25 04:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdssdb
+[2024-04-25 04:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: budgeting101
+[2024-04-25 04:32:18] INFO root fetch - processPackages [saleyo]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-04-25 04:32:18] INFO root fetch - processPackages [sdssdb]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-25 04:32:18] WARNING root fetch - processPackages [budgeting101]: Skipping, unable to determine old version
+[2024-04-25 04:32:18] INFO root fetch - main [MainThread]: End processing [budgeting101] error
+[2024-04-25 04:32:18] INFO root fetch - processPackages [saleyo]: Downloading https://files.pythonhosted.org/packages/f5/96/b3f727c01db845c29b26b04c260260c19e595c194be05948910fa25f9758/saleyo-1.0.4.tar.gz
+[2024-04-25 04:32:18] INFO root fetch - processPackages [sdssdb]: Downloading https://files.pythonhosted.org/packages/91/68/924c88a967c7725d742ede45cd7d4ef629736f6e16956db48c732e5e1037/sdssdb-0.8.3.tar.gz
+[2024-04-25 04:32:18] INFO root fetch - processPackages [saleyo]: Downloading https://files.pythonhosted.org/packages/af/70/591655739a226bb254d11606382115d3066f35e8129996d3b25735b76d86/saleyo-1.1.0.tar.gz
+[2024-04-25 04:32:18] INFO root fetch - processPackages [sdssdb]: Downloading https://files.pythonhosted.org/packages/21/70/4cafe206655f18d779d0738fcdabbc4e1f9478d22b79b4f6c9acc3353fe6/sdssdb-0.9.0.tar.gz
+[2024-04-25 04:32:18] INFO root fetch - processPackages [saleyo]: executing diffoscope
+[2024-04-25 04:32:18] INFO root fetch - processPackages [saleyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saleyo-1.0.4.tar.gz tmp/saleyo-1.1.0.tar.gz --markdown 20240425/s/saleyo/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-04-25 04:32:18] INFO root fetch - processPackages [sdssdb]: executing diffoscope
+[2024-04-25 04:32:18] INFO root fetch - processPackages [sdssdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdssdb-0.8.3.tar.gz tmp/sdssdb-0.9.0.tar.gz --markdown 20240425/s/sdssdb/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-25 04:32:19] INFO root fetch - processPackages [saleyo]: Remove: archive file [/home/abi/fetcher/tmp/saleyo-1.0.4.tar.gz]
+[2024-04-25 04:32:19] INFO root fetch - processPackages [saleyo]: Remove: archive file [/home/abi/fetcher/tmp/saleyo-1.1.0.tar.gz]
+[2024-04-25 04:32:19] INFO root fetch - main [MainThread]: End processing [saleyo]: success
+[2024-04-25 04:32:19] INFO root fetch - processPackages [sdssdb]: Remove: archive file [/home/abi/fetcher/tmp/sdssdb-0.8.3.tar.gz]
+[2024-04-25 04:32:19] INFO root fetch - processPackages [sdssdb]: Remove: archive file [/home/abi/fetcher/tmp/sdssdb-0.9.0.tar.gz]
+[2024-04-25 04:32:19] INFO root fetch - main [MainThread]: End processing [sdssdb]: success
+[2024-04-25 04:32:19] INFO root fetch - main [MainThread]: Store serial: [22924328]
