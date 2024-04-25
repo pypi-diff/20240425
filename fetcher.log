@@ -14845,3 +14845,45 @@
 [2024-04-25 10:15:32] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.9.dev3.tar.gz]
 [2024-04-25 10:15:32] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
 [2024-04-25 10:15:32] INFO root fetch - main [MainThread]: Store serial: [22927055]
+[2024-04-25 10:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927055]
+[2024-04-25 10:17:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 10:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlx-orm
+[2024-04-25 10:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytgpt-bot
+[2024-04-25 10:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-mig
+[2024-04-25 10:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: directory-api-client
+[2024-04-25 10:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-telegram
+[2024-04-25 10:17:44] INFO root fetch - processPackages [sqlx-orm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-25 10:17:44] INFO root fetch - processPackages [directory-api-client]: New version: [9.17.0] Old Version: [9.16.0]
+[2024-04-25 10:17:44] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 10:17:44] INFO root fetch - processPackages [pytest-telegram]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-25 10:17:44] WARNING root fetch - processPackages [pytgpt-bot]: Skipping, unable to determine old version
+[2024-04-25 10:17:44] INFO root fetch - main [MainThread]: End processing [pytgpt-bot] error
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/dc/67/4194aa4d7eac5da96cfa7ab6b232e7ff8d04c781d135924f4d5c87ecd0f4/sqlx-orm-0.0.6.tar.gz
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-25 10:17:45] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/1e/69/96cd730b1d1e10de95cab24a8c2ad0d7026debfc72f1afcd974bc301ca09/directory_api_client-9.16.0-py3-none-any.whl
+[2024-04-25 10:17:45] INFO root fetch - processPackages [pytest-telegram]: Downloading https://files.pythonhosted.org/packages/df/55/c7b7962d01503414a487ca8dcebbba2abd147f6cdb68adf3f4db1219a67b/pytest-telegram-1.2.0.tar.gz
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/34/12/90f013d76ceaee9fbafcd543344b744f515a6e749065706f157f3769b47e/sqlx-orm-0.0.7.tar.gz
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-25 10:17:45] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/52/85/2f3191f81cb23b1eedb870fab1c978f87574116c71a64471af24e75db35d/directory_api_client-9.17.0-py3-none-any.whl
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240425/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 10:17:45] INFO root fetch - processPackages [pytest-telegram]: Downloading https://files.pythonhosted.org/packages/52/c6/778436ec54c3576d7b60249e43fbf700350dd1d6afcff0973020bb6b97e8/pytest_telegram-1.2.1.tar.gz
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sqlx-orm]: executing diffoscope
+[2024-04-25 10:17:45] INFO root fetch - processPackages [sqlx-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-orm-0.0.6.tar.gz tmp/sqlx-orm-0.0.7.tar.gz --markdown 20240425/s/sqlx-orm/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-25 10:17:45] INFO root fetch - processPackages [directory-api-client]: executing diffoscope
+[2024-04-25 10:17:45] INFO root fetch - processPackages [directory-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_api_client-9.16.0-py3-none-any.whl.zip tmp/directory_api_client-9.17.0-py3-none-any.whl.zip --markdown 20240425/d/directory-api-client/9.16.0-9.17.0/README.md --exclude *.pyd
+[2024-04-25 10:17:45] INFO root fetch - processPackages [pytest-telegram]: executing diffoscope
+[2024-04-25 10:17:45] INFO root fetch - processPackages [pytest-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-telegram-1.2.0.tar.gz tmp/pytest_telegram-1.2.1.tar.gz --markdown 20240425/p/pytest-telegram/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-25 10:17:46] INFO root fetch - processPackages [sqlx-orm]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-0.0.6.tar.gz]
+[2024-04-25 10:17:46] INFO root fetch - processPackages [sqlx-orm]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-0.0.7.tar.gz]
+[2024-04-25 10:17:46] INFO root fetch - main [MainThread]: End processing [sqlx-orm]: success
+[2024-04-25 10:17:46] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.16.0-py3-none-any.whl.zip]
+[2024-04-25 10:17:46] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.17.0-py3-none-any.whl.zip]
+[2024-04-25 10:17:46] INFO root fetch - main [MainThread]: End processing [directory-api-client]: success
+[2024-04-25 10:17:46] INFO root fetch - processPackages [pytest-telegram]: Remove: archive file [/home/abi/fetcher/tmp/pytest-telegram-1.2.0.tar.gz]
+[2024-04-25 10:17:46] INFO root fetch - processPackages [pytest-telegram]: Remove: archive file [/home/abi/fetcher/tmp/pytest_telegram-1.2.1.tar.gz]
+[2024-04-25 10:17:46] INFO root fetch - main [MainThread]: End processing [pytest-telegram]: success
+[2024-04-25 10:17:46] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-25 10:17:46] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-25 10:17:46] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-25 10:17:46] INFO root fetch - main [MainThread]: Store serial: [22927070]
