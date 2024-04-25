@@ -8377,3 +8377,87 @@
 [2024-04-25 04:17:00] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.5.tar.gz]
 [2024-04-25 04:17:00] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
 [2024-04-25 04:17:00] INFO root fetch - main [MainThread]: Store serial: [22924218]
+[2024-04-25 04:19:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924218]
+[2024-04-25 04:19:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-WebOb
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-six
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: megfile
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-mock
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-pyaudio
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-openpyxl
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-uWSGI
+[2024-04-25 04:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-PyMySQL
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-PyMySQL]: New version: [1.1.0.1] Old Version: [1.1.0.0]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [megfile]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-mock]: New version: [5.1.0.3] Old Version: [5.1.0.20240311]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.9] Old Version: [3.1.0.8]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-WebOb]: New version: [1.8.0.5] Old Version: [1.8.0.4]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-six]: New version: [1.16.9] Old Version: [1.16.8]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-pyaudio]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/5d/5e/e39c2e47960ba6d8f842343732c8324f26bcb5312bc4f7685f99fb261a41/TitanDevice-0.3.2.tar.gz
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-uWSGI]: New version: [2.0.0.20240425] Old Version: [2.0.0.20240414]
+[2024-04-25 04:19:09] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/e7/8b/dfa9d450d26eacbc3baa1f0ada7410ad49f7497ea1ab2015b2f96a3c898f/megfile-3.0.1-py3-none-any.whl
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-mock]: Downloading https://files.pythonhosted.org/packages/6d/5b/938dda39645bd9d3b5cd66b9d8136c3ef45f375d247c16b8f1c1e1115c57/types-mock-5.1.0.20240311.tar.gz
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/ab/8b/b2c5573a02ca648d1ba0a11921a04d55eaecdb0e21b030d678ef4b4bef4d/types-six-1.16.8.tar.gz
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/84/46/17becf7fa63093b392dbfb95037d49281a20e4dbe278682e941d6dcf411b/types-PyMySQL-1.1.0.0.tar.gz
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-WebOb]: Downloading https://files.pythonhosted.org/packages/a3/55/f79624c720af671c50dbd7a9daeb2c0e730a24c6a7580e07c1cbc48695ea/types-WebOb-1.8.0.4.tar.gz
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-pyaudio]: Downloading https://files.pythonhosted.org/packages/6e/65/f0944188e9aaef6a647f2350d82c0d96cf23f80e7ea7ca1a413f94958d8b/types-pyaudio-0.2.8.tar.gz
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2024-04-25 04:19:09] INFO root fetch - processPackages [types-uWSGI]: Downloading https://files.pythonhosted.org/packages/b9/cb/f9fe107f53249b04eb49fc7a696358a759ec805f838545dd2b488559ead0/types-uWSGI-2.0.0.20240414.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/f2/c5/c1ec78b74d3c7025b450c1087a0689058e5d534d6688c769db6e258faf5a/megfile-3.0.2-py3-none-any.whl
+[2024-04-25 04:19:10] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/3d/4d/2860c0b0340589b625a1b5eb1992201c694d7179824a9b5c7686e628b708/TitanDevice-0.3.3.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-3.0.1-py3-none-any.whl.zip tmp/megfile-3.0.2-py3-none-any.whl.zip --markdown 20240425/m/megfile/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-mock]: Downloading https://files.pythonhosted.org/packages/7f/98/bf41fc2477443272782611c5be2a56119f9efdf8cff6bd143c51f575b761/types-mock-5.1.0.3.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.2.tar.gz tmp/TitanDevice-0.3.3.tar.gz --markdown 20240425/T/TitanDevice/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/b0/74/4da043ca80d8d8ff37c2284f7e7a8d8e37b4df8323ccabe404089c23aa03/types-PyMySQL-1.1.0.1.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-pyaudio]: Downloading https://files.pythonhosted.org/packages/da/b8/a5a2a3619e7f817a1f6d1ff3525868bc4b85c998ba1532ff62102ce845e8/types-pyaudio-0.2.9.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-mock]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-mock-5.1.0.20240311.tar.gz tmp/types-mock-5.1.0.3.tar.gz --markdown 20240425/t/types-mock/5.1.0.20240311-5.1.0.3/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-PyMySQL]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-PyMySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyMySQL-1.1.0.0.tar.gz tmp/types-PyMySQL-1.1.0.1.tar.gz --markdown 20240425/t/types-PyMySQL/1.1.0.0-1.1.0.1/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-uWSGI]: Downloading https://files.pythonhosted.org/packages/00/dc/1f1aefff4c4ec2048bd71759b27ef0e4223ca96e6e699260c6d080c10b94/types-uWSGI-2.0.0.20240425.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-WebOb]: Downloading https://files.pythonhosted.org/packages/44/7c/ee21fbe8f570651a3e45e491f5a89bc5e95908d3de5992f5f4d9599435f9/types-WebOb-1.8.0.5.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/91/fb/5e27e5be75b26805676d55111e9bb23409bae2660943712c7ff2ecfa1286/types-six-1.16.9.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-pyaudio]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-pyaudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyaudio-0.2.8.tar.gz tmp/types-pyaudio-0.2.9.tar.gz --markdown 20240425/t/types-pyaudio/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-WebOb]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-WebOb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-WebOb-1.8.0.4.tar.gz tmp/types-WebOb-1.8.0.5.tar.gz --markdown 20240425/t/types-WebOb/1.8.0.4-1.8.0.5/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-six]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-six]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-six-1.16.8.tar.gz tmp/types-six-1.16.9.tar.gz --markdown 20240425/t/types-six/1.16.8-1.16.9/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-uWSGI]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-uWSGI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-uWSGI-2.0.0.20240414.tar.gz tmp/types-uWSGI-2.0.0.20240425.tar.gz --markdown 20240425/t/types-uWSGI/2.0.0.20240414-2.0.0.20240425/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/b9/65/22bbec74fcc943aa6c6fdb6df2ce51327bae5470283f90badeeb0bf4ac39/types-openpyxl-3.1.0.9.tar.gz
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2024-04-25 04:19:10] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.8.tar.gz tmp/types-openpyxl-3.1.0.9.tar.gz --markdown 20240425/t/types-openpyxl/3.1.0.8-3.1.0.9/README.md --exclude *.pyd
+[2024-04-25 04:19:10] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.2.tar.gz]
+[2024-04-25 04:19:10] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.3.tar.gz]
+[2024-04-25 04:19:10] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-mock]: Remove: archive file [/home/abi/fetcher/tmp/types-mock-5.1.0.20240311.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-mock]: Remove: archive file [/home/abi/fetcher/tmp/types-mock-5.1.0.3.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - main [MainThread]: End processing [types-mock]: success
+[2024-04-25 04:19:11] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.1-py3-none-any.whl.zip]
+[2024-04-25 04:19:11] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.2-py3-none-any.whl.zip]
+[2024-04-25 04:19:11] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-pyaudio]: Remove: archive file [/home/abi/fetcher/tmp/types-pyaudio-0.2.8.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-pyaudio]: Remove: archive file [/home/abi/fetcher/tmp/types-pyaudio-0.2.9.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - main [MainThread]: End processing [types-pyaudio]: success
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-uWSGI]: Remove: archive file [/home/abi/fetcher/tmp/types-uWSGI-2.0.0.20240414.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-uWSGI]: Remove: archive file [/home/abi/fetcher/tmp/types-uWSGI-2.0.0.20240425.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - main [MainThread]: End processing [types-uWSGI]: success
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-WebOb]: Remove: archive file [/home/abi/fetcher/tmp/types-WebOb-1.8.0.4.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-WebOb]: Remove: archive file [/home/abi/fetcher/tmp/types-WebOb-1.8.0.5.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - main [MainThread]: End processing [types-WebOb]: success
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.8.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.9.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - main [MainThread]: End processing [types-six]: success
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.0.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.1.tar.gz]
+[2024-04-25 04:19:11] INFO root fetch - main [MainThread]: End processing [types-PyMySQL]: success
+[2024-04-25 04:19:12] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.8.tar.gz]
+[2024-04-25 04:19:12] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
+[2024-04-25 04:19:12] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2024-04-25 04:19:12] INFO root fetch - main [MainThread]: Store serial: [22924240]
