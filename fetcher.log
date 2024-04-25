@@ -7727,3 +7727,29 @@
 [2024-04-25 03:30:15] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.9.tar.gz]
 [2024-04-25 03:30:15] INFO root fetch - main [MainThread]: End processing [llm-structured-output]: success
 [2024-04-25 03:30:15] INFO root fetch - main [MainThread]: Store serial: [22923686]
+[2024-04-25 03:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923686]
+[2024-04-25 03:32:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 03:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenTAKServer
+[2024-04-25 03:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2024-04-25 03:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-04-25 03:32:24] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240425.0.54.972224] Old Version: [20240425.0.15.652558]
+[2024-04-25 03:32:24] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-25 03:32:24] INFO root fetch - processPackages [OpenTAKServer]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-25 03:32:24] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-25 03:32:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9d/9b/d9b9519dadd0db553f13e6faa70b7edb4e1786ddba571f2e41b3d6ed56d1/certora-cli-alpha-master-20240425.0.15.652558.tar.gz
+[2024-04-25 03:32:24] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14530552>=10485760
+[2024-04-25 03:32:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-25 03:32:24] INFO root fetch - processPackages [OpenTAKServer]: Downloading https://files.pythonhosted.org/packages/5c/13/63a573099483e3b0b822bedf7fc9e9ca7828572a830010bae2a6bb139c45/opentakserver-1.1.5.tar.gz
+[2024-04-25 03:32:24] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-25 03:32:24] INFO root fetch - processPackages [OpenTAKServer]: Downloading https://files.pythonhosted.org/packages/02/1e/afa248da93c39f3b789b87364ae1e590b874b4a8c2bf3de3f815cba4739c/opentakserver-1.1.6.tar.gz
+[2024-04-25 03:32:24] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-25 03:32:25] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240425/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-25 03:32:25] INFO root fetch - processPackages [OpenTAKServer]: executing diffoscope
+[2024-04-25 03:32:25] INFO root fetch - processPackages [OpenTAKServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentakserver-1.1.5.tar.gz tmp/opentakserver-1.1.6.tar.gz --markdown 20240425/O/OpenTAKServer/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-25 03:32:25] INFO root fetch - processPackages [OpenTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/opentakserver-1.1.5.tar.gz]
+[2024-04-25 03:32:25] INFO root fetch - processPackages [OpenTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/opentakserver-1.1.6.tar.gz]
+[2024-04-25 03:32:25] INFO root fetch - main [MainThread]: End processing [OpenTAKServer]: success
+[2024-04-25 03:32:27] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-25 03:32:27] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-25 03:32:27] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-25 03:32:27] INFO root fetch - main [MainThread]: Store serial: [22923749]
