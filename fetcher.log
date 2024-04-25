@@ -11697,3 +11697,96 @@
 [2024-04-25 08:04:35] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
 [2024-04-25 08:04:35] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-04-25 08:04:35] INFO root fetch - main [MainThread]: Store serial: [22925781]
+[2024-04-25 08:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925781]
+[2024-04-25 08:06:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ediri-akp
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: regex-rust
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unit-simple
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biftest
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asyncTwitterClient
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: obvs
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helios-client
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mteb
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: energy-base
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stac-fastapi.types
+[2024-04-25 08:06:43] INFO root fetch - processPackages [biftest]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 08:06:43] INFO root fetch - processPackages [stac-fastapi.types]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-25 08:06:43] WARNING root fetch - processPackages [asyncTwitterClient]: Skipping, unable to determine old version
+[2024-04-25 08:06:43] INFO root fetch - processPackages [asyncTwitterClient]: Start processing: stac-fastapi.extensions
+[2024-04-25 08:06:43] INFO root fetch - processPackages [unit-simple]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 08:06:43] INFO root fetch - main [MainThread]: End processing [asyncTwitterClient] error
+[2024-04-25 08:06:43] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-25 08:06:43] WARNING root fetch - processPackages [ediri-akp]: Skipping, unable to determine old version
+[2024-04-25 08:06:43] INFO root fetch - processPackages [ediri-akp]: Start processing: stac-fastapi.api
+[2024-04-25 08:06:43] INFO root fetch - main [MainThread]: End processing [ediri-akp] error
+[2024-04-25 08:06:43] INFO root fetch - processPackages [stac-fastapi.extensions]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-25 08:06:43] WARNING root fetch - processPackages [obvs]: Skipping, unable to determine old version
+[2024-04-25 08:06:43] INFO root fetch - main [MainThread]: End processing [obvs] error
+[2024-04-25 08:06:43] INFO root fetch - processPackages [helios-client]: New version: [0.4.20240424.post1] Old Version: [0.3.20230805.post1]
+[2024-04-25 08:06:43] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/8f/68/765ebc46d15e9ad48b2c1fc019f15d299909a84477f57e00e2ed81cfe9c1/biftest-0.0.2.tar.gz
+[2024-04-25 08:06:43] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/d2/b7/c73e4664667e3864dcb2f47ff15246bd2a70947acda2f8655bed29b00b81/stac_fastapi_types-2.5.3.tar.gz
+[2024-04-25 08:06:43] INFO root fetch - processPackages [energy-base]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-25 08:06:43] INFO root fetch - processPackages [stac-fastapi.api]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-25 08:06:43] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/df/7b/632d2fa9e73ea864000ebb6629e1db037dfe07bb193cdb0490ca79050c66/unit_simple-1.0.8.tar.gz
+[2024-04-25 08:06:43] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-25 08:06:43] INFO root fetch - processPackages [regex-rust]: New version: [0.4.0rc2] Old Version: [0.4.0rc1]
+[2024-04-25 08:06:43] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/d3/06/ee6b994f10d0a62c973ef138c152f8e795d21eddf3cb081d8af90ad508fe/stac_fastapi_extensions-2.5.3.tar.gz
+[2024-04-25 08:06:43] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/c5/bb/0f7485685b4480f62487ecf76abfda90700cdeeab169821685bb9a88be23/stac_fastapi_api-2.5.3.tar.gz
+[2024-04-25 08:06:43] INFO root fetch - processPackages [helios-client]: Downloading https://files.pythonhosted.org/packages/97/64/3065ac67e0d7242d96218850c289742f2bcd6865a06100041e92f92902d5/helios-client-0.3.20230805.post1.tar.gz
+[2024-04-25 08:06:43] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/73/62/6bb034d60aef9b2abb5aedde7c200c50258979081e047d15bdc6235795e0/energy_base-1.7.2.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/bb/5e/10e42fc030adf4bdabb000234b1bbacd5b92fd34ace7fc7ea2df1b443856/biftest-0.0.3.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/cd/fb/ca23f2ca62f65ed36ab8969c1c1d39a8a9ad8acabcce65f446271c37ceba/unit_simple-1.0.9.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [regex-rust]: Downloading https://files.pythonhosted.org/packages/c9/d7/3a771b7b8b5793fa68e75d614dae883e4645c6290bb92031c7b1b8d0cdac/regex_rust-0.4.0rc1.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/3b/80/80a101d08877451fda50e915fdfb88443cbcde23643d678c7659295a4a78/stac_fastapi_extensions-2.5.4.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/77/cc/0fd5264504414dd88c4e7e98f5acf118c220503bdaae2cb4ba61a11a7067/stac_fastapi_types-2.5.4.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/b8/84/b317c0e58f35d2f653e3f5cd01e4f9cdce3179b40a8509489f5b0b22df86/stac_fastapi_api-2.5.4.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [biftest]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [biftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biftest-0.0.2.tar.gz tmp/biftest-0.0.3.tar.gz --markdown 20240425/b/biftest/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 08:06:44] INFO root fetch - processPackages [unit-simple]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [unit-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_simple-1.0.8.tar.gz tmp/unit_simple-1.0.9.tar.gz --markdown 20240425/u/unit-simple/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.extensions]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_extensions-2.5.3.tar.gz tmp/stac_fastapi_extensions-2.5.4.tar.gz --markdown 20240425/s/stac-fastapi.extensions/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.types]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_types-2.5.3.tar.gz tmp/stac_fastapi_types-2.5.4.tar.gz --markdown 20240425/s/stac-fastapi.types/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-25 08:06:44] INFO root fetch - processPackages [helios-client]: Downloading https://files.pythonhosted.org/packages/c9/ab/9eaa02a2e52cae5e5f8dea84f8d6b572a992ff15dc74c5093a6cdc79b8ef/helios-client-0.4.20240424.post1.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.api]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [stac-fastapi.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_api-2.5.3.tar.gz tmp/stac_fastapi_api-2.5.4.tar.gz --markdown 20240425/s/stac-fastapi.api/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-25 08:06:44] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240425/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-25 08:06:44] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/1e/f6/d50dea7313f99f531b0be05e31b7b772f91651f257eba0ca10979051adf0/energy_base-1.7.3.tar.gz
+[2024-04-25 08:06:44] INFO root fetch - processPackages [helios-client]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [helios-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-client-0.3.20230805.post1.tar.gz tmp/helios-client-0.4.20240424.post1.tar.gz --markdown 20240425/h/helios-client/0.3.20230805.post1-0.4.20240424.post1/README.md --exclude *.pyd
+[2024-04-25 08:06:44] INFO root fetch - processPackages [regex-rust]: Downloading https://files.pythonhosted.org/packages/59/ab/d39f4b42eeac827fb42fbadd73a0241c1796bd9ca2a867b9d9f91c2f6dd5/regex_rust-0.4.0rc2-cp39-cp39-musllinux_1_1_aarch64.whl
+[2024-04-25 08:06:44] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-25 08:06:44] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.7.2.tar.gz tmp/energy_base-1.7.3.tar.gz --markdown 20240425/e/energy-base/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-04-25 08:06:45] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.2.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.3.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - main [MainThread]: End processing [biftest]: success
+[2024-04-25 08:06:45] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-2.5.3.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-2.5.4.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - main [MainThread]: End processing [stac-fastapi.extensions]: success
+[2024-04-25 08:06:45] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.8.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.9.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - main [MainThread]: End processing [unit-simple]: success
+[2024-04-25 08:06:45] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-2.5.3.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-2.5.4.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - main [MainThread]: End processing [stac-fastapi.types]: success
+[2024-04-25 08:06:45] INFO root fetch - processPackages [helios-client]: Remove: archive file [/home/abi/fetcher/tmp/helios-client-0.3.20230805.post1.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - processPackages [helios-client]: Remove: archive file [/home/abi/fetcher/tmp/helios-client-0.4.20240424.post1.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - main [MainThread]: End processing [helios-client]: success
+[2024-04-25 08:06:45] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-2.5.3.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-2.5.4.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - main [MainThread]: End processing [stac-fastapi.api]: success
+[2024-04-25 08:06:45] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.2.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.3.tar.gz]
+[2024-04-25 08:06:45] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-25 08:06:45] INFO root fetch - processPackages [regex-rust]: executing diffoscope
+[2024-04-25 08:06:45] INFO root fetch - processPackages [regex-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex_rust-0.4.0rc1.tar.gz tmp/regex_rust-0.4.0rc2-cp39-cp39-musllinux_1_1_aarch64.whl.zip --markdown 20240425/r/regex-rust/0.4.0rc1-0.4.0rc2/README.md --exclude *.pyd
+[2024-04-25 08:06:46] INFO root fetch - processPackages [regex-rust]: Remove: archive file [/home/abi/fetcher/tmp/regex_rust-0.4.0rc1.tar.gz]
+[2024-04-25 08:06:46] INFO root fetch - processPackages [regex-rust]: Remove: archive file [/home/abi/fetcher/tmp/regex_rust-0.4.0rc2-cp39-cp39-musllinux_1_1_aarch64.whl.zip]
+[2024-04-25 08:06:46] INFO root fetch - main [MainThread]: End processing [regex-rust]: success
+[2024-04-25 08:06:46] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-25 08:06:46] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-25 08:06:46] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-25 08:06:46] INFO root fetch - main [MainThread]: Store serial: [22925873]
