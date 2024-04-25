@@ -12983,3 +12983,75 @@
 [2024-04-25 09:04:29] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240423.tar.gz]
 [2024-04-25 09:04:29] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-04-25 09:04:29] INFO root fetch - main [MainThread]: Store serial: [22926327]
+[2024-04-25 09:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926327]
+[2024-04-25 09:06:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LazyImporting
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adit-radis-shared
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogenesis
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valmi-connector-lib
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: social-auth-core
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tq42-grpc-client
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cj-package
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-synkroni
+[2024-04-25 09:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oxtapus
+[2024-04-25 09:06:38] INFO root fetch - processPackages [adit-radis-shared]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-25 09:06:38] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-25 09:06:38] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 09:06:38] INFO root fetch - processPackages [django-synkroni]: New version: [0.5.1] Old Version: [0.5]
+[2024-04-25 09:06:38] INFO root fetch - processPackages [oxtapus]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 09:06:38] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-25 09:06:38] WARNING root fetch - processPackages [autogenesis]: Skipping, unable to determine old version
+[2024-04-25 09:06:38] INFO root fetch - main [MainThread]: End processing [autogenesis] error
+[2024-04-25 09:06:38] INFO root fetch - processPackages [social-auth-core]: New version: [4.5.4] Old Version: [4.5.3]
+[2024-04-25 09:06:38] WARNING root fetch - processPackages [LazyImporting]: Skipping, unable to determine old version
+[2024-04-25 09:06:38] INFO root fetch - main [MainThread]: End processing [LazyImporting] error
+[2024-04-25 09:06:38] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/21/71/71b013fa7b1cf2c181261998387b8385c6f9d94dd02aeb6800f01c259081/django-synkroni-0.5.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [adit-radis-shared]: Downloading https://files.pythonhosted.org/packages/23/12/c64dae67ab35ad8507cfca4ffa7aae485160d36c472d0c45b5f2d3087771/adit_radis_shared-0.1.0.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [social-auth-core]: Downloading https://files.pythonhosted.org/packages/16/d8/b931bb8ee72a749f1d07b0050dcb7339e73981dba52b230cf9bb7a94f5e4/social-auth-core-4.5.3.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [oxtapus]: Downloading https://files.pythonhosted.org/packages/58/b4/d6ae7a9ffd882c80fc93915004fec74e3269bbef571f4844a6a0bff61282/oxtapus-0.3.1-py3-none-any.whl
+[2024-04-25 09:06:38] INFO root fetch - processPackages [django-synkroni]: Downloading https://files.pythonhosted.org/packages/d7/c5/88399cea15cb5721a24de752091215ee9d91962f58daeb6eab2648e89bfa/django_synkroni-0.5.1.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [adit-radis-shared]: Downloading https://files.pythonhosted.org/packages/36/51/cde83b30eb5476a1bb472979480a0556b87ab4f863ca85a5d70e20244eba/adit_radis_shared-0.2.0.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-25 09:06:38] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240425/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 09:06:38] INFO root fetch - processPackages [django-synkroni]: executing diffoscope
+[2024-04-25 09:06:38] INFO root fetch - processPackages [django-synkroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-synkroni-0.5.tar.gz tmp/django_synkroni-0.5.1.tar.gz --markdown 20240425/d/django-synkroni/0.5-0.5.1/README.md --exclude *.pyd
+[2024-04-25 09:06:38] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-25 09:06:38] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240425/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-25 09:06:38] INFO root fetch - processPackages [adit-radis-shared]: executing diffoscope
+[2024-04-25 09:06:38] INFO root fetch - processPackages [adit-radis-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adit_radis_shared-0.1.0.tar.gz tmp/adit_radis_shared-0.2.0.tar.gz --markdown 20240425/a/adit-radis-shared/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-25 09:06:38] INFO root fetch - processPackages [social-auth-core]: Downloading https://files.pythonhosted.org/packages/48/5d/86625c6673024d600b629d4e9db80ca5155bc200af5233d88ae45b8d2e06/social-auth-core-4.5.4.tar.gz
+[2024-04-25 09:06:38] INFO root fetch - processPackages [oxtapus]: Downloading https://files.pythonhosted.org/packages/6a/4c/d12c716f13c97bd5c30a768ff1cfb9e25b89052f322a2a786ec971cea8a2/oxtapus-0.3.2-py3-none-any.whl
+[2024-04-25 09:06:38] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-04-25 09:06:39] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-25 09:06:39] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240425/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-25 09:06:39] INFO root fetch - processPackages [oxtapus]: executing diffoscope
+[2024-04-25 09:06:39] INFO root fetch - processPackages [oxtapus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxtapus-0.3.1-py3-none-any.whl.zip tmp/oxtapus-0.3.2-py3-none-any.whl.zip --markdown 20240425/o/oxtapus/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 09:06:39] INFO root fetch - processPackages [social-auth-core]: executing diffoscope
+[2024-04-25 09:06:39] INFO root fetch - processPackages [social-auth-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social-auth-core-4.5.3.tar.gz tmp/social-auth-core-4.5.4.tar.gz --markdown 20240425/s/social-auth-core/4.5.3-4.5.4/README.md --exclude *.pyd
+[2024-04-25 09:06:39] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-25 09:06:39] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-25 09:06:39] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-25 09:06:39] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-25 09:06:39] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-25 09:06:39] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-25 09:06:39] INFO root fetch - processPackages [django-synkroni]: Remove: archive file [/home/abi/fetcher/tmp/django-synkroni-0.5.tar.gz]
+[2024-04-25 09:06:39] INFO root fetch - processPackages [django-synkroni]: Remove: archive file [/home/abi/fetcher/tmp/django_synkroni-0.5.1.tar.gz]
+[2024-04-25 09:06:39] INFO root fetch - main [MainThread]: End processing [django-synkroni]: success
+[2024-04-25 09:06:39] INFO root fetch - processPackages [oxtapus]: Remove: archive file [/home/abi/fetcher/tmp/oxtapus-0.3.1-py3-none-any.whl.zip]
+[2024-04-25 09:06:39] INFO root fetch - processPackages [oxtapus]: Remove: archive file [/home/abi/fetcher/tmp/oxtapus-0.3.2-py3-none-any.whl.zip]
+[2024-04-25 09:06:39] INFO root fetch - main [MainThread]: End processing [oxtapus]: success
+[2024-04-25 09:06:40] INFO root fetch - processPackages [adit-radis-shared]: Remove: archive file [/home/abi/fetcher/tmp/adit_radis_shared-0.1.0.tar.gz]
+[2024-04-25 09:06:40] INFO root fetch - processPackages [adit-radis-shared]: Remove: archive file [/home/abi/fetcher/tmp/adit_radis_shared-0.2.0.tar.gz]
+[2024-04-25 09:06:40] INFO root fetch - main [MainThread]: End processing [adit-radis-shared]: success
+[2024-04-25 09:06:40] INFO root fetch - processPackages [social-auth-core]: Remove: archive file [/home/abi/fetcher/tmp/social-auth-core-4.5.3.tar.gz]
+[2024-04-25 09:06:40] INFO root fetch - processPackages [social-auth-core]: Remove: archive file [/home/abi/fetcher/tmp/social-auth-core-4.5.4.tar.gz]
+[2024-04-25 09:06:40] INFO root fetch - main [MainThread]: End processing [social-auth-core]: success
+[2024-04-25 09:06:40] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-04-25 09:06:40] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-04-25 09:06:40] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-25 09:06:40] INFO root fetch - main [MainThread]: Store serial: [22926357]
