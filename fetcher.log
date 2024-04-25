@@ -11532,3 +11532,24 @@
 [2024-04-25 07:51:32] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.9.5.tar.gz]
 [2024-04-25 07:51:32] INFO root fetch - main [MainThread]: End processing [modelscope]: success
 [2024-04-25 07:51:32] INFO root fetch - main [MainThread]: Store serial: [22925678]
+[2024-04-25 07:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925678]
+[2024-04-25 07:53:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 07:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biftest
+[2024-04-25 07:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vtzero
+[2024-04-25 07:53:42] INFO root fetch - processPackages [biftest]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 07:53:42] INFO root fetch - processPackages [vtzero]: New version: [0.0.1b4] Old Version: [0.0.1b3]
+[2024-04-25 07:53:42] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/8f/68/765ebc46d15e9ad48b2c1fc019f15d299909a84477f57e00e2ed81cfe9c1/biftest-0.0.2.tar.gz
+[2024-04-25 07:53:42] INFO root fetch - processPackages [vtzero]: Downloading https://files.pythonhosted.org/packages/3a/de/65468e5341a326d459028d411359e76401bb461babae0e1692f2f3496eee/vtzero-0.0.1b3.tar.gz
+[2024-04-25 07:53:42] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/bb/5e/10e42fc030adf4bdabb000234b1bbacd5b92fd34ace7fc7ea2df1b443856/biftest-0.0.3.tar.gz
+[2024-04-25 07:53:43] INFO root fetch - processPackages [biftest]: executing diffoscope
+[2024-04-25 07:53:43] INFO root fetch - processPackages [biftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biftest-0.0.2.tar.gz tmp/biftest-0.0.3.tar.gz --markdown 20240425/b/biftest/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 07:53:43] INFO root fetch - processPackages [vtzero]: Downloading https://files.pythonhosted.org/packages/be/12/7ca9c3cd1a437f67cd920948910113b9e735e1e5db3e0000f738b83e2dcb/vtzero-0.0.1b4-cp310-cp310-win_amd64.whl
+[2024-04-25 07:53:43] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.2.tar.gz]
+[2024-04-25 07:53:43] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.3.tar.gz]
+[2024-04-25 07:53:43] INFO root fetch - main [MainThread]: End processing [biftest]: success
+[2024-04-25 07:53:43] INFO root fetch - processPackages [vtzero]: executing diffoscope
+[2024-04-25 07:53:43] INFO root fetch - processPackages [vtzero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtzero-0.0.1b3.tar.gz tmp/vtzero-0.0.1b4-cp310-cp310-win_amd64.whl.zip --markdown 20240425/v/vtzero/0.0.1b3-0.0.1b4/README.md --exclude *.pyd
+[2024-04-25 07:53:44] INFO root fetch - processPackages [vtzero]: Remove: archive file [/home/abi/fetcher/tmp/vtzero-0.0.1b3.tar.gz]
+[2024-04-25 07:53:44] INFO root fetch - processPackages [vtzero]: Remove: archive file [/home/abi/fetcher/tmp/vtzero-0.0.1b4-cp310-cp310-win_amd64.whl.zip]
+[2024-04-25 07:53:44] INFO root fetch - main [MainThread]: End processing [vtzero]: success
+[2024-04-25 07:53:44] INFO root fetch - main [MainThread]: Store serial: [22925688]
