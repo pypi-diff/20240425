@@ -14925,3 +14925,52 @@
 [2024-04-25 10:19:59] INFO root fetch - processPackages [traveltimepy]: Remove: archive file [/home/abi/fetcher/tmp/traveltimepy-3.9.6.tar.gz]
 [2024-04-25 10:19:59] INFO root fetch - main [MainThread]: End processing [traveltimepy]: success
 [2024-04-25 10:19:59] INFO root fetch - main [MainThread]: Store serial: [22927086]
+[2024-04-25 10:22:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927086]
+[2024-04-25 10:22:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 10:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-testing-framework
+[2024-04-25 10:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mutwo.midi
+[2024-04-25 10:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinxcontrib-getstart-sphinx
+[2024-04-25 10:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yaml-testing-framework
+[2024-04-25 10:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fenics-ufl
+[2024-04-25 10:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sep005-io-fast
+[2024-04-25 10:22:10] WARNING root fetch - processPackages [sep005-io-fast]: Skipping, unable to determine old version
+[2024-04-25 10:22:10] INFO root fetch - main [MainThread]: End processing [sep005-io-fast] error
+[2024-04-25 10:22:10] INFO root fetch - processPackages [yaml-testing-framework]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 10:22:10] INFO root fetch - processPackages [yaml-testing-framework]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 10:22:10] INFO root fetch - processPackages [fenics-ufl]: New version: [2024.1.0.post0] Old Version: [2023.2.0]
+[2024-04-25 10:22:10] INFO root fetch - processPackages [sphinxcontrib-getstart-sphinx]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-25 10:22:10] INFO root fetch - processPackages [mutwo.midi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-25 10:22:10] INFO root fetch - processPackages [yaml-testing-framework]: Downloading https://files.pythonhosted.org/packages/46/d9/715584964b7ad851255920c7696f11ded71da8854aa8d56802fdd53bdbc1/yaml_testing_framework-0.0.3.tar.gz
+[2024-04-25 10:22:10] INFO root fetch - processPackages [yaml-testing-framework]: Downloading https://files.pythonhosted.org/packages/46/d9/715584964b7ad851255920c7696f11ded71da8854aa8d56802fdd53bdbc1/yaml_testing_framework-0.0.3.tar.gz
+[2024-04-25 10:22:10] INFO root fetch - processPackages [sphinxcontrib-getstart-sphinx]: Downloading https://files.pythonhosted.org/packages/57/b9/43364d936577d88090dcae2672415b7c8194f79511c25d79b7b8a58ba7d1/sphinxcontrib-getstart-sphinx-1.1.0.tar.gz
+[2024-04-25 10:22:10] INFO root fetch - processPackages [mutwo.midi]: Downloading https://files.pythonhosted.org/packages/83/3f/d698e6ff0fb127341eab6127dd8f315288d999576485675ee4b819875a6a/mutwo.midi-0.8.1.tar.gz
+[2024-04-25 10:22:10] INFO root fetch - processPackages [fenics-ufl]: Downloading https://files.pythonhosted.org/packages/16/85/64d5c17f2bb2f6c0e5bb181367967cc6643473ce41478a7c1ec024430b46/fenics-ufl-2023.2.0.tar.gz
+[2024-04-25 10:22:11] INFO root fetch - processPackages [sphinxcontrib-getstart-sphinx]: Downloading https://files.pythonhosted.org/packages/ad/83/bbcc25caa798792e0ebd55b839ccb97ff78587f5e9271ea4c5fb2ff25190/sphinxcontrib-getstart-sphinx-1.2.0.tar.gz
+[2024-04-25 10:22:11] INFO root fetch - processPackages [yaml-testing-framework]: Downloading https://files.pythonhosted.org/packages/a6/fe/91ea199e6b15d31167f6948d6499111ea10a04ff54f6627369a6374099dc/yaml_testing_framework-0.0.4.tar.gz
+[2024-04-25 10:22:11] INFO root fetch - processPackages [yaml-testing-framework]: Downloading https://files.pythonhosted.org/packages/a6/fe/91ea199e6b15d31167f6948d6499111ea10a04ff54f6627369a6374099dc/yaml_testing_framework-0.0.4.tar.gz
+[2024-04-25 10:22:11] INFO root fetch - processPackages [fenics-ufl]: Downloading https://files.pythonhosted.org/packages/a2/52/3c260f298398cd27285155c0c8aa58a1cae8d5df1dead62185b018d4e26b/fenics_ufl-2024.1.0.post0.tar.gz
+[2024-04-25 10:22:11] INFO root fetch - processPackages [mutwo.midi]: Downloading https://files.pythonhosted.org/packages/56/6f/f000bcae50e3efcb95ef47151c09cd0d2c2446410b11f1d1592eed12e8af/mutwo.midi-0.9.0.tar.gz
+[2024-04-25 10:22:11] INFO root fetch - processPackages [sphinxcontrib-getstart-sphinx]: executing diffoscope
+[2024-04-25 10:22:11] INFO root fetch - processPackages [sphinxcontrib-getstart-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-getstart-sphinx-1.1.0.tar.gz tmp/sphinxcontrib-getstart-sphinx-1.2.0.tar.gz --markdown 20240425/s/sphinxcontrib-getstart-sphinx/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-25 10:22:11] INFO root fetch - processPackages [yaml-testing-framework]: executing diffoscope
+[2024-04-25 10:22:11] INFO root fetch - processPackages [yaml-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_testing_framework-0.0.3.tar.gz tmp/yaml_testing_framework-0.0.4.tar.gz --markdown 20240425/y/yaml-testing-framework/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 10:22:11] INFO root fetch - processPackages [yaml-testing-framework]: executing diffoscope
+[2024-04-25 10:22:11] INFO root fetch - processPackages [yaml-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_testing_framework-0.0.3.tar.gz tmp/yaml_testing_framework-0.0.4.tar.gz --markdown 20240425/y/yaml-testing-framework/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 10:22:11] INFO root fetch - processPackages [mutwo.midi]: executing diffoscope
+[2024-04-25 10:22:11] INFO root fetch - processPackages [mutwo.midi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutwo.midi-0.8.1.tar.gz tmp/mutwo.midi-0.9.0.tar.gz --markdown 20240425/m/mutwo.midi/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-25 10:22:11] INFO root fetch - processPackages [fenics-ufl]: executing diffoscope
+[2024-04-25 10:22:11] INFO root fetch - processPackages [fenics-ufl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-ufl-2023.2.0.tar.gz tmp/fenics_ufl-2024.1.0.post0.tar.gz --markdown 20240425/f/fenics-ufl/2023.2.0-2024.1.0.post0/README.md --exclude *.pyd
+[2024-04-25 10:22:11] INFO root fetch - processPackages [sphinxcontrib-getstart-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-getstart-sphinx-1.1.0.tar.gz]
+[2024-04-25 10:22:11] INFO root fetch - processPackages [sphinxcontrib-getstart-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-getstart-sphinx-1.2.0.tar.gz]
+[2024-04-25 10:22:11] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-getstart-sphinx]: success
+[2024-04-25 10:22:12] INFO root fetch - processPackages [mutwo.midi]: Remove: archive file [/home/abi/fetcher/tmp/mutwo.midi-0.8.1.tar.gz]
+[2024-04-25 10:22:12] INFO root fetch - processPackages [mutwo.midi]: Remove: archive file [/home/abi/fetcher/tmp/mutwo.midi-0.9.0.tar.gz]
+[2024-04-25 10:22:12] INFO root fetch - main [MainThread]: End processing [mutwo.midi]: success
+[2024-04-25 10:22:12] INFO root fetch - processPackages [yaml-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/yaml_testing_framework-0.0.3.tar.gz]
+[2024-04-25 10:22:12] INFO root fetch - processPackages [yaml-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/yaml_testing_framework-0.0.4.tar.gz]
+[2024-04-25 10:22:12] INFO root fetch - main [MainThread]: End processing [yaml-testing-framework]: success
+[2024-04-25 10:22:12] INFO root fetch - main [MainThread]: End processing [yaml-testing-framework]: success
+[2024-04-25 10:22:13] INFO root fetch - processPackages [fenics-ufl]: Remove: archive file [/home/abi/fetcher/tmp/fenics-ufl-2023.2.0.tar.gz]
+[2024-04-25 10:22:13] INFO root fetch - processPackages [fenics-ufl]: Remove: archive file [/home/abi/fetcher/tmp/fenics_ufl-2024.1.0.post0.tar.gz]
+[2024-04-25 10:22:13] INFO root fetch - main [MainThread]: End processing [fenics-ufl]: success
+[2024-04-25 10:22:13] INFO root fetch - main [MainThread]: Store serial: [22927104]
