@@ -14159,3 +14159,24 @@
 [2024-04-25 09:46:51] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.8.0-py3-none-any.whl.zip]
 [2024-04-25 09:46:51] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
 [2024-04-25 09:46:51] INFO root fetch - main [MainThread]: Store serial: [22926788]
+[2024-04-25 09:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926788]
+[2024-04-25 09:49:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local-rag-llm
+[2024-04-25 09:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pldag
+[2024-04-25 09:49:02] INFO root fetch - processPackages [local-rag-llm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 09:49:02] INFO root fetch - processPackages [pldag]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-25 09:49:02] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/5b/a4/ccb66cb1cd0e38b2c9186f092948c91c2fe94f9fa9dbbc680d359542d0f5/pldag-0.7.2.tar.gz
+[2024-04-25 09:49:02] INFO root fetch - processPackages [local-rag-llm]: Downloading https://files.pythonhosted.org/packages/47/e5/e681fffe7011785fd7a7b6d47c68c5ed670e65e570a1209d5629101b9abf/local_rag_llm-0.0.8.tar.gz
+[2024-04-25 09:49:02] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/d4/6e/5a6cdbc59cbf299db9c0c18ffd8254bdfb5673c4879b39114d42a58edbb2/pldag-0.7.3.tar.gz
+[2024-04-25 09:49:02] INFO root fetch - processPackages [local-rag-llm]: Downloading https://files.pythonhosted.org/packages/50/eb/1c59a18537e299c44773c4b799d52b69bc745cf7d7b224e6fe5d71e2ab1c/local_rag_llm-0.0.9.tar.gz
+[2024-04-25 09:49:03] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-25 09:49:03] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.7.2.tar.gz tmp/pldag-0.7.3.tar.gz --markdown 20240425/p/pldag/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-25 09:49:03] INFO root fetch - processPackages [local-rag-llm]: executing diffoscope
+[2024-04-25 09:49:03] INFO root fetch - processPackages [local-rag-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_rag_llm-0.0.8.tar.gz tmp/local_rag_llm-0.0.9.tar.gz --markdown 20240425/l/local-rag-llm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 09:49:03] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.2.tar.gz]
+[2024-04-25 09:49:03] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.3.tar.gz]
+[2024-04-25 09:49:03] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-25 09:49:03] INFO root fetch - processPackages [local-rag-llm]: Remove: archive file [/home/abi/fetcher/tmp/local_rag_llm-0.0.8.tar.gz]
+[2024-04-25 09:49:03] INFO root fetch - processPackages [local-rag-llm]: Remove: archive file [/home/abi/fetcher/tmp/local_rag_llm-0.0.9.tar.gz]
+[2024-04-25 09:49:03] INFO root fetch - main [MainThread]: End processing [local-rag-llm]: success
+[2024-04-25 09:49:03] INFO root fetch - main [MainThread]: Store serial: [22926797]
