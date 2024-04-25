@@ -18424,3 +18424,83 @@
 [2024-04-25 11:40:39] INFO root fetch - processPackages [abilian-sbe]: Remove: archive file [/home/abi/fetcher/tmp/abilian_sbe-1.1.7.tar.gz]
 [2024-04-25 11:40:39] INFO root fetch - main [MainThread]: End processing [abilian-sbe]: success
 [2024-04-25 11:40:39] INFO root fetch - main [MainThread]: Store serial: [22928300]
+[2024-04-25 11:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928300]
+[2024-04-25 11:43:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphaz-next
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ropt-nomad
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: racetrack-client
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: md2weasypdf
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Products.urban
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moonstreamdb-v3
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digimat.mbio
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ctrip-app-ui
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckanext-collection
+[2024-04-25 11:43:02] INFO root fetch - processPackages [alphaz-next]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [md2weasypdf]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [moonstreamdb-v3]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ckanext-collection]: New version: [0.1.21] Old Version: [0.1.2]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ropt-nomad]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/b9/e0/18efbaea27782657506fb5dea3a1bb97aa21b2614d8e54c62617c0494630/alphaz-next-0.5.0.tar.gz
+[2024-04-25 11:43:02] INFO root fetch - processPackages [Products.urban]: New version: [2.7.9] Old Version: [2.7.8]
+[2024-04-25 11:43:02] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/6b/0d/71397d672fb3ee673aafca10104de2cfb4aede17cc7be6495b9c40cccad2/md2weasypdf-0.0.5.tar.gz
+[2024-04-25 11:43:02] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-04-25 11:43:02] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/ec/ca/14a6ec1ca7c78edcfaeb4c86e2b2887f772b27632cb82763c106e09e5ca7/ctrip-app-ui-0.1.0.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/93/c6/8bec414cc66a693041de99b3459f05a8b9a933a8f898bdf6529806ca187e/moonstreamdb-v3-0.0.2.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ckanext-collection]: Downloading https://files.pythonhosted.org/packages/b8/e4/74e236d89aafdd138b468ef03204970fd450d929238566cfacf0eb2a962b/ckanext_collection-0.1.2.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ropt-nomad]: Downloading https://files.pythonhosted.org/packages/82/0a/8dbc912f71516465ad1a564618e31f83b163fb48a3a065398ad68547e28c/ropt_nomad-0.1.0.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/62/cf/1ffb24c7205fcd21981095d8787cc318af5c5db4ae86ce3f94784b119e50/Products.urban-2.7.8.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/11/3c/c04dbc41e0649de0647cf02a57a7be8aa1b13f331f3a9574032f5a974da5/md2weasypdf-0.0.6.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-04-25 11:43:03] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20169294>=10485760
+[2024-04-25 11:43:03] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/d7/a6/92d09a1714be3796aeb326e65094114a6e34ddef6b6a62f4b4bc4383e7a5/alphaz-next-0.5.1.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/7d/b4/5178dd17f884b2dd731d23d58c1bfd00822b8ffd52618ed0b8f9875ea27e/ctrip-app-ui-0.1.1.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240425/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 11:43:03] INFO root fetch - processPackages [md2weasypdf]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [md2weasypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2weasypdf-0.0.5.tar.gz tmp/md2weasypdf-0.0.6.tar.gz --markdown 20240425/m/md2weasypdf/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-25 11:43:03] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.5.0.tar.gz tmp/alphaz-next-0.5.1.tar.gz --markdown 20240425/a/alphaz-next/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-25 11:43:03] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.0.tar.gz tmp/ctrip-app-ui-0.1.1.tar.gz --markdown 20240425/c/ctrip-app-ui/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 11:43:03] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/6e/17/40b1f5f2c6fe81a8f81ee6d051bdb271e431d76a742e63bd0ee8bfa0ea5a/moonstreamdb-v3-0.0.3.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ropt-nomad]: Downloading https://files.pythonhosted.org/packages/e5/55/db25218ee99fdc00e731d300b34fcdf66a99dac553a78c1b027b1730069a/ropt_nomad-0.2.0.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ckanext-collection]: Downloading https://files.pythonhosted.org/packages/f5/4d/c78d36c19177273baac874d5f1233a395ccd0621774dd5721441778c117a/ckanext_collection-0.1.21.tar.gz
+[2024-04-25 11:43:03] INFO root fetch - processPackages [moonstreamdb-v3]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [moonstreamdb-v3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-v3-0.0.2.tar.gz tmp/moonstreamdb-v3-0.0.3.tar.gz --markdown 20240425/m/moonstreamdb-v3/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ropt-nomad]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ropt-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt_nomad-0.1.0.tar.gz tmp/ropt_nomad-0.2.0.tar.gz --markdown 20240425/r/ropt-nomad/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-25 11:43:03] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20240425/r/racetrack-client/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ckanext-collection]: executing diffoscope
+[2024-04-25 11:43:03] INFO root fetch - processPackages [ckanext-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_collection-0.1.2.tar.gz tmp/ckanext_collection-0.1.21.tar.gz --markdown 20240425/c/ckanext-collection/0.1.2-0.1.21/README.md --exclude *.pyd
+[2024-04-25 11:43:04] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-04-25 11:43:04] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.0.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.5.1.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-25 11:43:04] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.5.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.6.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
+[2024-04-25 11:43:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.0.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.1.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 11:43:04] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.2.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.3.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - main [MainThread]: End processing [moonstreamdb-v3]: success
+[2024-04-25 11:43:04] INFO root fetch - processPackages [ropt-nomad]: Remove: archive file [/home/abi/fetcher/tmp/ropt_nomad-0.1.0.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - processPackages [ropt-nomad]: Remove: archive file [/home/abi/fetcher/tmp/ropt_nomad-0.2.0.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - main [MainThread]: End processing [ropt-nomad]: success
+[2024-04-25 11:43:04] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.0.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
+[2024-04-25 11:43:04] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2024-04-25 11:43:05] INFO root fetch - processPackages [ckanext-collection]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_collection-0.1.2.tar.gz]
+[2024-04-25 11:43:05] INFO root fetch - processPackages [ckanext-collection]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_collection-0.1.21.tar.gz]
+[2024-04-25 11:43:05] INFO root fetch - main [MainThread]: End processing [ckanext-collection]: success
+[2024-04-25 11:43:05] INFO root fetch - main [MainThread]: Store serial: [22928324]
