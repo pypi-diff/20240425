@@ -14234,3 +14234,33 @@
 [2024-04-25 09:51:15] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.9.0.tar.gz]
 [2024-04-25 09:51:15] INFO root fetch - main [MainThread]: End processing [poetry-polylith-plugin]: success
 [2024-04-25 09:51:15] INFO root fetch - main [MainThread]: Store serial: [22926819]
+[2024-04-25 09:53:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926819]
+[2024-04-25 09:53:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 09:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: server-templates
+[2024-04-25 09:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-25 09:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyriemann-qiskit
+[2024-04-25 09:53:24] INFO root fetch - processPackages [server-templates]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 09:53:24] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.42] Old Version: [0.0.41]
+[2024-04-25 09:53:25] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/59/df/f5673e6af5207982271068cff01271982666f35556ff8fcf33d629e902d6/server_templates-0.2.8.tar.gz
+[2024-04-25 09:53:25] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ed/88/9c88cc11289c23036c5216726d20ce42b559f875c773bfcc3aa1c2fb7aa9/ecv-python-development-0.0.41.tar.gz
+[2024-04-25 09:53:25] INFO root fetch - processPackages [pyriemann-qiskit]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-25 09:53:25] INFO root fetch - processPackages [pyriemann-qiskit]: Downloading https://files.pythonhosted.org/packages/06/ad/1ed8819803a71adc00237a0bc8acafe816af11beed87089ee7ecab8f025d/pyriemann-qiskit-0.1.0.tar.gz
+[2024-04-25 09:53:25] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-04-25 09:53:25] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/c7/f8/2f797afa9f6fbc6faa90f3a05db5cdca7f0bc8e75f627f8a61cb6b6b2faf/ecv-python-development-0.0.42.tar.gz
+[2024-04-25 09:53:25] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-04-25 09:53:25] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.8.tar.gz tmp/server_templates-0.2.9.tar.gz --markdown 20240425/s/server-templates/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 09:53:25] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 09:53:25] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.41.tar.gz tmp/ecv-python-development-0.0.42.tar.gz --markdown 20240425/e/ecv-python-development/0.0.41-0.0.42/README.md --exclude *.pyd
+[2024-04-25 09:53:25] INFO root fetch - processPackages [pyriemann-qiskit]: Downloading https://files.pythonhosted.org/packages/0a/b9/ccdf8b6edd97bec21e2435b8c12870d276c8ab3deb4fbbcb793e34a1cdde/pyriemann_qiskit-0.2.0.tar.gz
+[2024-04-25 09:53:25] INFO root fetch - processPackages [pyriemann-qiskit]: executing diffoscope
+[2024-04-25 09:53:25] INFO root fetch - processPackages [pyriemann-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriemann-qiskit-0.1.0.tar.gz tmp/pyriemann_qiskit-0.2.0.tar.gz --markdown 20240425/p/pyriemann-qiskit/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-25 09:53:26] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.8.tar.gz]
+[2024-04-25 09:53:26] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-04-25 09:53:26] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-04-25 09:53:26] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.41.tar.gz]
+[2024-04-25 09:53:26] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.42.tar.gz]
+[2024-04-25 09:53:26] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 09:53:26] INFO root fetch - processPackages [pyriemann-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann-qiskit-0.1.0.tar.gz]
+[2024-04-25 09:53:26] INFO root fetch - processPackages [pyriemann-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann_qiskit-0.2.0.tar.gz]
+[2024-04-25 09:53:26] INFO root fetch - main [MainThread]: End processing [pyriemann-qiskit]: success
+[2024-04-25 09:53:26] INFO root fetch - main [MainThread]: Store serial: [22926829]
