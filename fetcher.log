@@ -20000,3 +20000,78 @@
 [2024-04-25 12:29:21] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-25 12:29:21] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-25 12:29:21] INFO root fetch - main [MainThread]: Store serial: [22928936]
+[2024-04-25 12:31:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928936]
+[2024-04-25 12:31:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsml
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcsb.utils.config
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autocortext-py
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AgentX
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anemoi-datasets
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gio-importer
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frontengine
+[2024-04-25 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontengine-dev
+[2024-04-25 12:31:30] INFO root fetch - processPackages [AgentX]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [gio-importer]: New version: [1.1.6] Old Version: [1.1.4]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [anemoi-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [autocortext-py]: New version: [0.1.11] Old Version: [0.1.10]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [AgentX]: Downloading https://files.pythonhosted.org/packages/7b/dc/95c4910cdcc7b8ba4e7b91ffded992773eb9cf3ca3fcf9b526fe9fab535e/AgentX-0.0.7.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [tsml]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [rcsb.utils.config]: New version: [0.40] Old Version: [0.39]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/39/d7/d76d10ff9d683ef03180c1374c9d4bd31bb6ca1f777ccbadc66f138329d3/gio_importer-1.1.4.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/69/fe/4d75eac3cad14d5591ed9a27dcabbef153bed186371e9364869f1393b468/anemoi-datasets-0.1.0.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 12:31:30] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/4a/76/d98f88239632f2e29760d3d3500c4db46cbc0c1014764fc553d0fd4f3a31/autocortext_py-0.1.10.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [AgentX]: Downloading https://files.pythonhosted.org/packages/8f/3c/862e3b4f85cf0508b06ed94220ce32f352d24e2dc10cab5e3b9f64884c2d/agentx-0.0.8.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/d9/1c/a05c04cfba1b3baa04b7b785d31e241e829585a650fb6db13449bdd8d1e5/tsml-0.3.0.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [rcsb.utils.config]: Downloading https://files.pythonhosted.org/packages/b1/77/96bd674099c4ddb5e23367e976fc8a34cc7bee7d82731ce716b46eafb6ff/rcsb_utils_config-0.39.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/4f/2e/ec05bc9b637157d5d3d2339d69a23e87fdbdd29f8bc86e10d5e18bce9106/anemoi-datasets-0.1.1.tar.gz
+[2024-04-25 12:31:30] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-04-25 12:31:31] INFO root fetch - processPackages [AgentX]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [AgentX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgentX-0.0.7.tar.gz tmp/agentx-0.0.8.tar.gz --markdown 20240425/A/AgentX/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/19/f3/f164084775d9b2afac20decfa9dede771117a448a36626fa4d72b471685c/gio_importer-1.1.6.tar.gz
+[2024-04-25 12:31:31] INFO root fetch - processPackages [anemoi-datasets]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [anemoi-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi-datasets-0.1.0.tar.gz tmp/anemoi-datasets-0.1.1.tar.gz --markdown 20240425/a/anemoi-datasets/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [gio-importer]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [gio-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gio_importer-1.1.4.tar.gz tmp/gio_importer-1.1.6.tar.gz --markdown 20240425/g/gio-importer/1.1.4-1.1.6/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/08/52/9f90afcf97e812a1255d2262a33c687e8d50a3a651708119238fdc5641d3/autocortext_py-0.1.11.tar.gz
+[2024-04-25 12:31:31] INFO root fetch - processPackages [rcsb.utils.config]: Downloading https://files.pythonhosted.org/packages/d6/cf/b5fe87f7b13b717defc962339727276e77477ecd65a1f8db6cf54d4328e3/rcsb_utils_config-0.40.tar.gz
+[2024-04-25 12:31:31] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2024-04-25 12:31:31] INFO root fetch - processPackages [autocortext-py]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [autocortext-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocortext_py-0.1.10.tar.gz tmp/autocortext_py-0.1.11.tar.gz --markdown 20240425/a/autocortext-py/0.1.10-0.1.11/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/0d/59/91cad0c83596ce976255e647b1667ed601d83eceeef84bf53997fb8e7958/tsml-0.4.0.tar.gz
+[2024-04-25 12:31:31] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-04-25 12:31:31] INFO root fetch - processPackages [rcsb.utils.config]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [rcsb.utils.config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb_utils_config-0.39.tar.gz tmp/rcsb_utils_config-0.40.tar.gz --markdown 20240425/r/rcsb.utils.config/0.39-0.40/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240425/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [tsml]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [tsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsml-0.3.0.tar.gz tmp/tsml-0.4.0.tar.gz --markdown 20240425/t/tsml/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2024-04-25 12:31:31] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20240425/f/frontengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 12:31:31] INFO root fetch - processPackages [AgentX]: Remove: archive file [/home/abi/fetcher/tmp/AgentX-0.0.7.tar.gz]
+[2024-04-25 12:31:31] INFO root fetch - processPackages [AgentX]: Remove: archive file [/home/abi/fetcher/tmp/agentx-0.0.8.tar.gz]
+[2024-04-25 12:31:31] INFO root fetch - main [MainThread]: End processing [AgentX]: success
+[2024-04-25 12:31:32] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.1.4.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.1.6.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [gio-importer]: success
+[2024-04-25 12:31:32] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-datasets-0.1.0.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-datasets-0.1.1.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [anemoi-datasets]: success
+[2024-04-25 12:31:32] INFO root fetch - processPackages [rcsb.utils.config]: Remove: archive file [/home/abi/fetcher/tmp/rcsb_utils_config-0.39.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - processPackages [rcsb.utils.config]: Remove: archive file [/home/abi/fetcher/tmp/rcsb_utils_config-0.40.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [rcsb.utils.config]: success
+[2024-04-25 12:31:32] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.10.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.11.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [autocortext-py]: success
+[2024-04-25 12:31:32] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-04-25 12:31:32] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2024-04-25 12:31:32] INFO root fetch - processPackages [tsml]: Remove: archive file [/home/abi/fetcher/tmp/tsml-0.3.0.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - processPackages [tsml]: Remove: archive file [/home/abi/fetcher/tmp/tsml-0.4.0.tar.gz]
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [tsml]: success
+[2024-04-25 12:31:32] INFO root fetch - main [MainThread]: Store serial: [22928958]
