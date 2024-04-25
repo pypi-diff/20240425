@@ -13256,3 +13256,36 @@
 [2024-04-25 09:17:42] INFO root fetch - processPackages [alibabacloud-vod20170321]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vod20170321-2.22.0.tar.gz]
 [2024-04-25 09:17:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-vod20170321]: success
 [2024-04-25 09:17:42] INFO root fetch - main [MainThread]: Store serial: [22926439]
+[2024-04-25 09:19:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926439]
+[2024-04-25 09:19:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 09:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sudocode
+[2024-04-25 09:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haskellian
+[2024-04-25 09:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TitanDevice
+[2024-04-25 09:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dycw-utilities
+[2024-04-25 09:19:56] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 09:19:56] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.6] Old Version: [0.3.5.1]
+[2024-04-25 09:19:56] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-04-25 09:19:56] WARNING root fetch - processPackages [sudocode]: Skipping, unable to determine old version
+[2024-04-25 09:19:56] INFO root fetch - main [MainThread]: End processing [sudocode] error
+[2024-04-25 09:19:56] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/69/19/f1bcd8d4dea65b7338f14934c5b463b18e7a17f20428256562b5327c91b9/TitanDevice-0.3.5.1.tar.gz
+[2024-04-25 09:19:56] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-04-25 09:19:56] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-04-25 09:19:56] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/ce/b7/35977e6629a6b9e24b3d9ed8bf56799351ded80a25dc0a3c837662a5ece0/TitanDevice-0.3.6.tar.gz
+[2024-04-25 09:19:56] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-04-25 09:19:56] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240425/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 09:19:56] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-04-25 09:19:56] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-25 09:19:56] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.5.1.tar.gz tmp/TitanDevice-0.3.6.tar.gz --markdown 20240425/T/TitanDevice/0.3.5.1-0.3.6/README.md --exclude *.pyd
+[2024-04-25 09:19:57] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-04-25 09:19:57] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-04-25 09:19:57] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240425/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-04-25 09:19:57] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.5.1.tar.gz]
+[2024-04-25 09:19:57] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.6.tar.gz]
+[2024-04-25 09:19:57] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-25 09:19:57] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-04-25 09:19:57] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-04-25 09:19:57] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-04-25 09:19:58] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-04-25 09:19:58] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-04-25 09:19:58] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-04-25 09:19:58] INFO root fetch - main [MainThread]: Store serial: [22926454]
