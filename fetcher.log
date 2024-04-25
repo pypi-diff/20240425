@@ -22736,3 +22736,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:04:51] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
 [2024-04-25 14:04:51] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-25 14:04:51] INFO root fetch - main [MainThread]: Store serial: [22930092]
+[2024-04-25 14:06:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930092]
+[2024-04-25 14:07:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 14:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kpops
+[2024-04-25 14:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fisspy
+[2024-04-25 14:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycntrparser
+[2024-04-25 14:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.types
+[2024-04-25 14:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stac-fastapi.extensions
+[2024-04-25 14:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stac-fastapi.api
+[2024-04-25 14:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alana
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.types]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-04-25 14:07:00] INFO root fetch - processPackages [fisspy]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.api]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/77/cc/0fd5264504414dd88c4e7e98f5acf118c220503bdaae2cb4ba61a11a7067/stac_fastapi_types-2.5.4.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.extensions]: New version: [2.5.5.post1] Old Version: [2.5.5]
+[2024-04-25 14:07:00] INFO root fetch - processPackages [kpops]: New version: [4.2.0] Old Version: [4.1.2]
+[2024-04-25 14:07:00] INFO root fetch - processPackages [alana]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-25 14:07:00] INFO root fetch - processPackages [pycntrparser]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/b8/84/b317c0e58f35d2f653e3f5cd01e4f9cdce3179b40a8509489f5b0b22df86/stac_fastapi_api-2.5.4.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/51/7a/2e93a269943ded87db1bb97d0409b25252308b669679d60a2dade4828c1f/fisspy-1.0.5.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/49/d5/979decf1cdf24a078e09db8ef56c7864470e8679aae25b299752014e26ac/alana-0.0.7.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/9a/8d/38359c767ba59d47a106fdbd9b22826153d35ae3036c9a6425b3ab403427/kpops-4.1.2.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [pycntrparser]: Downloading https://files.pythonhosted.org/packages/f7/1b/e815f0ccee2e7294f8f36ade00395506aa0c22b4eea0c283bebfedd737d2/pycntrparser-0.1.0.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/d8/42/6f78333abf780633d3a986208804f216ed631eccd9433ccdf405d80c4b7a/fisspy-1.0.6.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/5f/88/a3d21eb53e8ecd30f33d579495b88b4b7e798474e95ff8d70a4b5252ce7d/stac_fastapi_types-2.5.5.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/0b/01/cd3f74010be2719c8580324ff55b92324b4db53b2fa329edb0963699df32/stac_fastapi_extensions-2.5.5.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/24/f4/873ce8632cba64a713daf2ed67cf6e8c024bf19c037f986fdd5c1d23b142/stac_fastapi_api-2.5.5.tar.gz
+[2024-04-25 14:07:00] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-04-25 14:07:00] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.0.5.tar.gz tmp/fisspy-1.0.6.tar.gz --markdown 20240425/f/fisspy/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.types]: executing diffoscope
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_types-2.5.4.tar.gz tmp/stac_fastapi_types-2.5.5.tar.gz --markdown 20240425/s/stac-fastapi.types/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-04-25 14:07:01] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/4f/62/137b7edfe60b620a83411984b347391d961d42aeec4e0b4d9984ac07163d/alana-0.0.8.tar.gz
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.api]: executing diffoscope
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_api-2.5.4.tar.gz tmp/stac_fastapi_api-2.5.5.tar.gz --markdown 20240425/s/stac-fastapi.api/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-04-25 14:07:01] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/31/7e/2e9c213288151e081664ecf1010c8865e5da4449008cd5b93c94b7f8b371/kpops-4.2.0.tar.gz
+[2024-04-25 14:07:01] INFO root fetch - processPackages [pycntrparser]: Downloading https://files.pythonhosted.org/packages/7f/51/2b1865d81a2f2ee077f60ba15897a92e315b4890a0ea202c548bd0574e8a/pycntrparser-0.1.1.tar.gz
+[2024-04-25 14:07:01] INFO root fetch - processPackages [alana]: executing diffoscope
+[2024-04-25 14:07:01] INFO root fetch - processPackages [alana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alana-0.0.7.tar.gz tmp/alana-0.0.8.tar.gz --markdown 20240425/a/alana/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/70/50/920e2f1f2c341e8f101641c19d6d7546622cc1f68913adfd3f00ce703002/stac_fastapi_extensions-2.5.5.post1.tar.gz
+[2024-04-25 14:07:01] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2024-04-25 14:07:01] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-4.1.2.tar.gz tmp/kpops-4.2.0.tar.gz --markdown 20240425/k/kpops/4.1.2-4.2.0/README.md --exclude *.pyd
+[2024-04-25 14:07:01] INFO root fetch - processPackages [pycntrparser]: executing diffoscope
+[2024-04-25 14:07:01] INFO root fetch - processPackages [pycntrparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycntrparser-0.1.0.tar.gz tmp/pycntrparser-0.1.1.tar.gz --markdown 20240425/p/pycntrparser/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.extensions]: executing diffoscope
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_extensions-2.5.5.tar.gz tmp/stac_fastapi_extensions-2.5.5.post1.tar.gz --markdown 20240425/s/stac-fastapi.extensions/2.5.5-2.5.5.post1/README.md --exclude *.pyd
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-2.5.4.tar.gz]
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-2.5.5.tar.gz]
+[2024-04-25 14:07:01] INFO root fetch - main [MainThread]: End processing [stac-fastapi.types]: success
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-2.5.4.tar.gz]
+[2024-04-25 14:07:01] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-2.5.5.tar.gz]
+[2024-04-25 14:07:01] INFO root fetch - main [MainThread]: End processing [stac-fastapi.api]: success
+[2024-04-25 14:07:01] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.7.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.8.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - main [MainThread]: End processing [alana]: success
+[2024-04-25 14:07:02] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.5.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.6.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-04-25 14:07:02] INFO root fetch - processPackages [pycntrparser]: Remove: archive file [/home/abi/fetcher/tmp/pycntrparser-0.1.0.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - processPackages [pycntrparser]: Remove: archive file [/home/abi/fetcher/tmp/pycntrparser-0.1.1.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - main [MainThread]: End processing [pycntrparser]: success
+[2024-04-25 14:07:02] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-2.5.5.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-2.5.5.post1.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - main [MainThread]: End processing [stac-fastapi.extensions]: success
+[2024-04-25 14:07:02] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-4.1.2.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-4.2.0.tar.gz]
+[2024-04-25 14:07:02] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2024-04-25 14:07:02] INFO root fetch - main [MainThread]: Store serial: [22930113]
