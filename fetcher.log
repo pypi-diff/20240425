@@ -11263,3 +11263,33 @@
 [2024-04-25 07:31:15] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.4.25.0.tar.gz]
 [2024-04-25 07:31:15] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
 [2024-04-25 07:31:15] INFO root fetch - main [MainThread]: Store serial: [22925551]
+[2024-04-25 07:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925551]
+[2024-04-25 07:33:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 07:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KeyDnn
+[2024-04-25 07:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-partner-category-security
+[2024-04-25 07:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2024-04-25 07:33:24] INFO root fetch - processPackages [odoo-addon-partner-category-security]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.3]
+[2024-04-25 07:33:24] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240423] Old Version: [2.17.0.dev20240422]
+[2024-04-25 07:33:24] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Downloading https://files.pythonhosted.org/packages/3c/9b/4f321adc85d1370f120d397837be9a0bd03cbbf16d4af12cbfe6a6f528b8/odoo_addon_partner_category_security-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-25 07:33:24] INFO root fetch - processPackages [KeyDnn]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 07:33:24] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/a6/ea/37a659f86e5333f2e2c2e2cbfcd7b648c0f3c72d85fdb88948b083e2512b/tflite_runtime_nightly-2.17.0.dev20240422-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-25 07:33:24] INFO root fetch - processPackages [KeyDnn]: Downloading https://files.pythonhosted.org/packages/6e/c9/4a8f5b308a6b5f623e888d1db638fec97e14afbc9755d37a5fbdd3bd4385/KeyDnn-0.8.0.tar.gz
+[2024-04-25 07:33:24] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Downloading https://files.pythonhosted.org/packages/fc/e6/ff990cac57e6417350450958a12335b8fe79a42cd573fc887b165837f948/odoo_addon_partner_category_security-16.0.2.0.0-py3-none-any.whl
+[2024-04-25 07:33:24] INFO root fetch - processPackages [odoo-addon-partner-category-security]: executing diffoscope
+[2024-04-25 07:33:24] INFO root fetch - processPackages [odoo-addon-partner-category-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_category_security-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_partner_category_security-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-partner-category-security/16.0.1.0.0.3-16.0.2.0.0/README.md --exclude *.pyd
+[2024-04-25 07:33:24] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3e/d7/1b83e271f197628c89af7a047f7760974fe6821f45af527e3596b56fa5bb/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-25 07:33:24] INFO root fetch - processPackages [KeyDnn]: Downloading https://files.pythonhosted.org/packages/71/8e/4996739ae2d9bdd753f647691acae41ba3ac13a70182221444a89a351ecc/KeyDnn-0.9.0.tar.gz
+[2024-04-25 07:33:24] INFO root fetch - processPackages [KeyDnn]: executing diffoscope
+[2024-04-25 07:33:24] INFO root fetch - processPackages [KeyDnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KeyDnn-0.8.0.tar.gz tmp/KeyDnn-0.9.0.tar.gz --markdown 20240425/K/KeyDnn/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 07:33:25] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-25 07:33:25] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240422-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240425/t/tflite-runtime-nightly/2.17.0.dev20240422-2.17.0.dev20240423/README.md --exclude *.pyd
+[2024-04-25 07:33:25] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_category_security-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-25 07:33:25] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_category_security-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-25 07:33:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-category-security]: success
+[2024-04-25 07:33:25] INFO root fetch - processPackages [KeyDnn]: Remove: archive file [/home/abi/fetcher/tmp/KeyDnn-0.8.0.tar.gz]
+[2024-04-25 07:33:25] INFO root fetch - processPackages [KeyDnn]: Remove: archive file [/home/abi/fetcher/tmp/KeyDnn-0.9.0.tar.gz]
+[2024-04-25 07:33:25] INFO root fetch - main [MainThread]: End processing [KeyDnn]: success
+[2024-04-25 07:33:48] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240422-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-25 07:33:48] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-25 07:33:48] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-25 07:33:48] INFO root fetch - main [MainThread]: Store serial: [22925562]
