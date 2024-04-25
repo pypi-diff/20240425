@@ -18736,3 +18736,85 @@
 [2024-04-25 11:51:49] INFO root fetch - processPackages [turu]: Remove: archive file [/home/abi/fetcher/tmp/turu-0.9.9.tar.gz]
 [2024-04-25 11:51:49] INFO root fetch - main [MainThread]: End processing [turu]: success
 [2024-04-25 11:51:49] INFO root fetch - main [MainThread]: Store serial: [22928420]
+[2024-04-25 11:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928420]
+[2024-04-25 11:53:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turu
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unibot_hn
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robocrys
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chess2vec
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kojo
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brynq-sdk-mysql
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py2docfx
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chess2vec
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckanext-datapackage
+[2024-04-25 11:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chess2vec
+[2024-04-25 11:53:58] INFO root fetch - processPackages [unibot_hn]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [turu]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [ckanext-datapackage]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [kojo]: New version: [0.23.0] Old Version: [0.22.2]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [py2docfx]: New version: [0.1.5rc1704966] Old Version: [0.1.5.dev1704905]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [robocrys]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 11:53:58] WARNING root fetch - processPackages [brynq-sdk-mysql]: Skipping, unable to determine old version
+[2024-04-25 11:53:58] INFO root fetch - main [MainThread]: End processing [brynq-sdk-mysql] error
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 11:53:58] INFO root fetch - processPackages [turu]: Downloading https://files.pythonhosted.org/packages/58/ef/7363689ba71a44318c4d51d70d3b8d41a6e13965b8a25be85e5848ab1c21/turu-0.9.8.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [ckanext-datapackage]: Downloading https://files.pythonhosted.org/packages/cd/e4/99dd10b6c55753509ce66fcd27867af17c7f381c951db60f24cd30b723a5/ckanext_datapackage-0.1.0.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/9b/0e/d6372b9939ab35618596708a1d2010139d0cbeb53506cd22a05c43ba0ab6/kojo-0.22.2.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/44/4f/b6902e63fff30df3d967d61a70d15aa2a5caa1f2c2969f8912a8989b4517/py2docfx-0.1.5.dev1704905-py3-none-any.whl
+[2024-04-25 11:53:58] INFO root fetch - processPackages [robocrys]: Downloading https://files.pythonhosted.org/packages/0a/18/222bc3b5d31a95a35a4338bb5c20f8fd7f676b00befe83d7e67569277d07/robocrys-0.2.8.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/cc/59/815fdfe49d45a6b42d3029cae246a2453eb2d237e15d15fa28637ef263e1/chess2vec-1.0.1.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/cc/59/815fdfe49d45a6b42d3029cae246a2453eb2d237e15d15fa28637ef263e1/chess2vec-1.0.1.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/cc/59/815fdfe49d45a6b42d3029cae246a2453eb2d237e15d15fa28637ef263e1/chess2vec-1.0.1.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/a5/02/3f49055842cdc55b130afe9f46219c0ade9c07a410f67629cc32a92cda6e/unibot_hn-0.1.3.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [ckanext-datapackage]: Downloading https://files.pythonhosted.org/packages/88/14/b0b161fe2296626b17b72dbaf588fc5c1d8c101fe69d3cf04625f0ff8175/ckanext_datapackage-0.2.0.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [turu]: Downloading https://files.pythonhosted.org/packages/94/9d/36d3ae3007129359998fc7343e41e51d752e50aaf7dff77978fc25f0e816/turu-0.9.9.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/f7/c2/d4bd2ca9855cc2078537e54ece7d1522d78240960cac73d26ce097c9d8dc/py2docfx-0.1.5rc1704966-py3-none-any.whl
+[2024-04-25 11:53:58] INFO root fetch - processPackages [unibot_hn]: executing diffoscope
+[2024-04-25 11:53:58] INFO root fetch - processPackages [unibot_hn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibot_hn-0.1.1.tar.gz tmp/unibot_hn-0.1.3.tar.gz --markdown 20240425/u/unibot_hn/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-04-25 11:53:58] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/31/c0/3a5b34431cc2cc987a1d31adb39f743559f3ce0ec493bf698a151d861454/kojo-0.23.0.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [turu]: executing diffoscope
+[2024-04-25 11:53:58] INFO root fetch - processPackages [turu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu-0.9.8.tar.gz tmp/turu-0.9.9.tar.gz --markdown 20240425/t/turu/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:53:58] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-25 11:53:58] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.5.dev1704905-py3-none-any.whl.zip tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip --markdown 20240425/p/py2docfx/0.1.5.dev1704905-0.1.5rc1704966/README.md --exclude *.pyd
+[2024-04-25 11:53:58] INFO root fetch - processPackages [ckanext-datapackage]: executing diffoscope
+[2024-04-25 11:53:58] INFO root fetch - processPackages [ckanext-datapackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_datapackage-0.1.0.tar.gz tmp/ckanext_datapackage-0.2.0.tar.gz --markdown 20240425/c/ckanext-datapackage/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/12/5b/1e3ccf897e2cd24131d8e13f6384287797201c97117da2589dd24566ade3/chess2vec-1.0.2.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/12/5b/1e3ccf897e2cd24131d8e13f6384287797201c97117da2589dd24566ade3/chess2vec-1.0.2.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [kojo]: executing diffoscope
+[2024-04-25 11:53:58] INFO root fetch - processPackages [kojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojo-0.22.2.tar.gz tmp/kojo-0.23.0.tar.gz --markdown 20240425/k/kojo/0.22.2-0.23.0/README.md --exclude *.pyd
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/12/5b/1e3ccf897e2cd24131d8e13f6384287797201c97117da2589dd24566ade3/chess2vec-1.0.2.tar.gz
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-25 11:53:58] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-1.0.1.tar.gz tmp/chess2vec-1.0.2.tar.gz --markdown 20240425/c/chess2vec/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 11:53:59] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-25 11:53:59] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-1.0.1.tar.gz tmp/chess2vec-1.0.2.tar.gz --markdown 20240425/c/chess2vec/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 11:53:59] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-25 11:53:59] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-1.0.1.tar.gz tmp/chess2vec-1.0.2.tar.gz --markdown 20240425/c/chess2vec/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 11:53:59] INFO root fetch - processPackages [robocrys]: Downloading https://files.pythonhosted.org/packages/45/bd/171fa60f3cbe6bb3b61a88e5f2912ca16c06c78bf0a90feb3f55ae25a2d3/robocrys-0.2.9.tar.gz
+[2024-04-25 11:53:59] INFO root fetch - processPackages [robocrys]: executing diffoscope
+[2024-04-25 11:53:59] INFO root fetch - processPackages [robocrys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocrys-0.2.8.tar.gz tmp/robocrys-0.2.9.tar.gz --markdown 20240425/r/robocrys/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 11:53:59] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.1.1.tar.gz]
+[2024-04-25 11:53:59] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.1.3.tar.gz]
+[2024-04-25 11:53:59] INFO root fetch - main [MainThread]: End processing [unibot_hn]: success
+[2024-04-25 11:54:00] INFO root fetch - processPackages [turu]: Remove: archive file [/home/abi/fetcher/tmp/turu-0.9.8.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - processPackages [turu]: Remove: archive file [/home/abi/fetcher/tmp/turu-0.9.9.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [turu]: success
+[2024-04-25 11:54:00] INFO root fetch - processPackages [ckanext-datapackage]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_datapackage-0.1.0.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - processPackages [ckanext-datapackage]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_datapackage-0.2.0.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [ckanext-datapackage]: success
+[2024-04-25 11:54:00] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-1.0.1.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-1.0.2.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-25 11:54:00] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5.dev1704905-py3-none-any.whl.zip]
+[2024-04-25 11:54:00] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip]
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-25 11:54:00] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.22.2.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.23.0.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [kojo]: success
+[2024-04-25 11:54:00] INFO root fetch - processPackages [robocrys]: Remove: archive file [/home/abi/fetcher/tmp/robocrys-0.2.8.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - processPackages [robocrys]: Remove: archive file [/home/abi/fetcher/tmp/robocrys-0.2.9.tar.gz]
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: End processing [robocrys]: success
+[2024-04-25 11:54:00] INFO root fetch - main [MainThread]: Store serial: [22928451]
