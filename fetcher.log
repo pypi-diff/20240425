@@ -22442,3 +22442,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:55:28] INFO root fetch - processPackages [ms2rescore]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore-3.1.0.dev6.tar.gz]
 [2024-04-25 13:55:28] INFO root fetch - main [MainThread]: End processing [ms2rescore]: success
 [2024-04-25 13:55:28] INFO root fetch - main [MainThread]: Store serial: [22929967]
+[2024-04-25 13:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929967]
+[2024-04-25 13:57:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fisspy
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uyghur-tili-quralliri
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdo-sdk-python
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-mpesa-koros
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtrack
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuflow-rest
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kuflow-robotframework
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kuflow-temporal-common
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pheval
+[2024-04-25 13:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kuflow-temporal-activity-kuflow
+[2024-04-25 13:57:37] INFO root fetch - processPackages [python-mpesa-koros]: New version: [2.0.0] Old Version: [0.1.9]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [pheval]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/8c/50/cfb2f0303bfee7a64abb8fb88311499e05398fae81eb930cb870f1f1029c/python_mpesa_koros-0.1.9.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-robotframework]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-rest]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-25 13:57:37] WARNING root fetch - processPackages [uyghur-tili-quralliri]: Skipping, unable to determine old version
+[2024-04-25 13:57:37] INFO root fetch - processPackages [uyghur-tili-quralliri]: Start processing: kuflow-temporal-activity-robotframework
+[2024-04-25 13:57:37] INFO root fetch - main [MainThread]: End processing [uyghur-tili-quralliri] error
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [fisspy]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [pheval]: Downloading https://files.pythonhosted.org/packages/c7/36/f357f42240b46862f4a03465f1581ac2694035c45185dacd6447d9aaa510/pheval-0.3.2.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-25 13:57:37] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/51/7a/2e93a269943ded87db1bb97d0409b25252308b669679d60a2dade4828c1f/fisspy-1.0.5.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/c2/26/f45dbd284ac315387148d41a5bc974800719d68b0558441ec97914f98d3b/kuflow_robotframework-1.5.0.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/28/a9/28055bdef427ed35a5f7b109d524f585772fa7329dccf084b18e294d20bd/kuflow_rest-1.5.0.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/b3/60/daaf61425781519f0550fd3556a3a992def28981ce6c0a33f66809ea0066/kuflow_temporal_common-1.5.0.tar.gz
+[2024-04-25 13:57:37] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/37/29/83f66c758a041b8617fa332c651f6f9716afbf67261219db9cd4f817edff/kuflow_temporal_activity_kuflow-1.5.0.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/1f/b5/7bf0b5e599562af5675506508bbd866fb2310fecf9f395c863ab262f08c3/python_mpesa_koros-2.0.0.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/73/77/cf845b5ec207c0f387f1e892738cb5f2d89f497f23354e1253226c59bf35/kuflow_temporal_activity_robotframework-1.5.0.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240425/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [python-mpesa-koros]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [python-mpesa-koros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_mpesa_koros-0.1.9.tar.gz tmp/python_mpesa_koros-2.0.0.tar.gz --markdown 20240425/p/python-mpesa-koros/0.1.9-2.0.0/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [pheval]: Downloading https://files.pythonhosted.org/packages/fe/d9/932313b735465760a20bd58654edae32c9829d97791c5d98b8cb58c8f540/pheval-0.3.3.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [fisspy]: Downloading https://files.pythonhosted.org/packages/d8/42/6f78333abf780633d3a986208804f216ed631eccd9433ccdf405d80c4b7a/fisspy-1.0.6.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/ad/68/10b2bfbec71afbdc6001afa4ff005511add1a765651168fe1f00cd6d223f/kuflow_temporal_common-1.5.1.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [fisspy]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/bf/d8/681fdef28577749174402841e47d33d9c185b1e78525487cb45c22b45aec/kuflow_temporal_activity_kuflow-1.5.1.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/5e/d2/d6bd0c4b128ff6cb81e88c6d7761e1c93af7d4be7c20446c7e4b7ed4ecae/kuflow_robotframework-1.5.1.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [fisspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fisspy-1.0.5.tar.gz tmp/fisspy-1.0.6.tar.gz --markdown 20240425/f/fisspy/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/80/3a/c23a249abf3dc09053b76e0ad7075e90a5f4835bba8de880484af558cdd6/kuflow_rest-1.5.1.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/59/75/f6af98543d1efbfacd63b0c1e6fea83084ddbdef9b876039a0c1e270be34/kuflow_temporal_activity_robotframework-1.5.1.tar.gz
+[2024-04-25 13:57:38] INFO root fetch - processPackages [pheval]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [pheval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheval-0.3.2.tar.gz tmp/pheval-0.3.3.tar.gz --markdown 20240425/p/pheval/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-1.5.0.tar.gz tmp/kuflow_temporal_common-1.5.1.tar.gz --markdown 20240425/k/kuflow-temporal-common/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20240425/x/xtrack/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-1.5.0.tar.gz tmp/kuflow_robotframework-1.5.1.tar.gz --markdown 20240425/k/kuflow-robotframework/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-1.5.0.tar.gz tmp/kuflow_rest-1.5.1.tar.gz --markdown 20240425/k/kuflow-rest/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-1.5.0.tar.gz tmp/kuflow_temporal_activity_kuflow-1.5.1.tar.gz --markdown 20240425/k/kuflow-temporal-activity-kuflow/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: executing diffoscope
+[2024-04-25 13:57:38] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_robotframework-1.5.0.tar.gz tmp/kuflow_temporal_activity_robotframework-1.5.1.tar.gz --markdown 20240425/k/kuflow-temporal-activity-robotframework/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-25 13:57:39] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-0.1.9.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-2.0.0.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - main [MainThread]: End processing [python-mpesa-koros]: success
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-1.5.0.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-1.5.1.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-1.5.0.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-1.5.1.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-robotframework]: success
+[2024-04-25 13:57:39] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.5.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - processPackages [fisspy]: Remove: archive file [/home/abi/fetcher/tmp/fisspy-1.0.6.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - main [MainThread]: End processing [fisspy]: success
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-1.5.0.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-1.5.1.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-1.5.0.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-1.5.1.tar.gz]
+[2024-04-25 13:57:39] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2024-04-25 13:57:40] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.4.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2024-04-25 13:57:40] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-25 13:57:40] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-1.5.0.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-1.5.1.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2024-04-25 13:57:40] INFO root fetch - processPackages [pheval]: Remove: archive file [/home/abi/fetcher/tmp/pheval-0.3.2.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - processPackages [pheval]: Remove: archive file [/home/abi/fetcher/tmp/pheval-0.3.3.tar.gz]
+[2024-04-25 13:57:40] INFO root fetch - main [MainThread]: End processing [pheval]: success
+[2024-04-25 13:57:40] INFO root fetch - main [MainThread]: Store serial: [22930002]
