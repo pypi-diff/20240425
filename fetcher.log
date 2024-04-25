@@ -15075,3 +15075,30 @@
 [2024-04-25 10:24:27] INFO root fetch - processPackages [y0]: Remove: archive file [/home/abi/fetcher/tmp/y0-0.2.9.tar.gz]
 [2024-04-25 10:24:27] INFO root fetch - main [MainThread]: End processing [y0]: success
 [2024-04-25 10:24:27] INFO root fetch - main [MainThread]: Store serial: [22927147]
+[2024-04-25 10:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927147]
+[2024-04-25 10:26:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 10:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytgpt-bot
+[2024-04-25 10:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: particleannotation
+[2024-04-25 10:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuxsuite
+[2024-04-25 10:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tajimas-d
+[2024-04-25 10:26:39] WARNING root fetch - processPackages [pytgpt-bot]: Skipping, unable to determine old version
+[2024-04-25 10:26:39] INFO root fetch - main [MainThread]: End processing [pytgpt-bot] error
+[2024-04-25 10:26:39] WARNING root fetch - processPackages [particleannotation]: Skipping, unable to determine old version
+[2024-04-25 10:26:39] INFO root fetch - main [MainThread]: End processing [particleannotation] error
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tajimas-d]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tajimas-d]: Downloading https://files.pythonhosted.org/packages/79/2b/eb08ee981336f9707e699b833e2adad5afda6c4258e932101069071819f3/tajimas_d-2.0.1.tar.gz
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tajimas-d]: Downloading https://files.pythonhosted.org/packages/b3/be/ef4d477e12d5d55560ead8ea60da52ce159f321deec19853f818da42ba85/tajimas_d-2.0.2.tar.gz
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20240425/t/tuxsuite/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tajimas-d]: executing diffoscope
+[2024-04-25 10:26:39] INFO root fetch - processPackages [tajimas-d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tajimas_d-2.0.1.tar.gz tmp/tajimas_d-2.0.2.tar.gz --markdown 20240425/t/tajimas-d/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-25 10:26:40] INFO root fetch - processPackages [tajimas-d]: Remove: archive file [/home/abi/fetcher/tmp/tajimas_d-2.0.1.tar.gz]
+[2024-04-25 10:26:40] INFO root fetch - processPackages [tajimas-d]: Remove: archive file [/home/abi/fetcher/tmp/tajimas_d-2.0.2.tar.gz]
+[2024-04-25 10:26:40] INFO root fetch - main [MainThread]: End processing [tajimas-d]: success
+[2024-04-25 10:26:40] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2024-04-25 10:26:40] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2024-04-25 10:26:40] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2024-04-25 10:26:40] INFO root fetch - main [MainThread]: Store serial: [22927160]
