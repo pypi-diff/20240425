@@ -17724,3 +17724,42 @@
 [2024-04-25 11:07:33] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240424.tar.gz]
 [2024-04-25 11:07:33] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
 [2024-04-25 11:07:33] INFO root fetch - main [MainThread]: Store serial: [22927970]
+[2024-04-25 11:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927970]
+[2024-04-25 11:09:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 11:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krcg
+[2024-04-25 11:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cid-cmd
+[2024-04-25 11:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octomy-common
+[2024-04-25 11:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genet
+[2024-04-25 11:09:49] INFO root fetch - processPackages [octomy-common]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-25 11:09:49] INFO root fetch - processPackages [octomy-common]: Downloading https://files.pythonhosted.org/packages/43/6b/e9c10d9675795bd9369c855c1cd27f7a5d572d053a65dd630aa1cae37743/octomy-common-2.0.8.tar.gz
+[2024-04-25 11:09:49] INFO root fetch - processPackages [genet]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 11:09:49] INFO root fetch - processPackages [cid-cmd]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-25 11:09:49] INFO root fetch - processPackages [krcg]: New version: [3.9] Old Version: [3.8]
+[2024-04-25 11:09:49] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/d1/0e/090eaceebeebb6734a6b9872ae17931df0f8f73220a6684f9ab19350b8c5/genet-0.8.0-py3-none-any.whl
+[2024-04-25 11:09:49] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/73/3d/b4e885c9b468bb7cb8c822ee7b113838c3c70641a72f7d935602755088e4/cid_cmd-0.3.2.tar.gz
+[2024-04-25 11:09:49] INFO root fetch - processPackages [octomy-common]: Downloading https://files.pythonhosted.org/packages/b1/f2/5a18ffa91b4f8c3fcbc3475b77eaa03236eb75d56934a24393864781ee7d/octomy-common-2.0.9.tar.gz
+[2024-04-25 11:09:49] INFO root fetch - processPackages [krcg]: Downloading https://files.pythonhosted.org/packages/18/38/ac27d3aef1020630686939beb1c1f12a693bdcfc9a9020d22933b2326d1b/krcg-3.8.tar.gz
+[2024-04-25 11:09:49] INFO root fetch - processPackages [octomy-common]: executing diffoscope
+[2024-04-25 11:09:49] INFO root fetch - processPackages [octomy-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomy-common-2.0.8.tar.gz tmp/octomy-common-2.0.9.tar.gz --markdown 20240425/o/octomy-common/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-25 11:09:49] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/91/78/8c8ddd2017040d8a4fd42a30b10a41df04c60dcd3310ee05d75d5d210b30/cid_cmd-0.3.3.tar.gz
+[2024-04-25 11:09:49] INFO root fetch - processPackages [krcg]: Downloading https://files.pythonhosted.org/packages/e1/69/4dc45f025c358e65938ec63815c71d8a24e112fb70a8185f7491a1fea0aa/krcg-3.9.tar.gz
+[2024-04-25 11:09:49] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/28/31/f466174de49f7b1c65707bd0f86b97b949a90b492045b4ee91212039a51e/genet-0.9.0-py3-none-any.whl
+[2024-04-25 11:09:49] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2024-04-25 11:09:49] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid_cmd-0.3.2.tar.gz tmp/cid_cmd-0.3.3.tar.gz --markdown 20240425/c/cid-cmd/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-25 11:09:49] INFO root fetch - processPackages [krcg]: executing diffoscope
+[2024-04-25 11:09:49] INFO root fetch - processPackages [krcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krcg-3.8.tar.gz tmp/krcg-3.9.tar.gz --markdown 20240425/k/krcg/3.8-3.9/README.md --exclude *.pyd
+[2024-04-25 11:09:50] INFO root fetch - processPackages [genet]: executing diffoscope
+[2024-04-25 11:09:50] INFO root fetch - processPackages [genet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genet-0.8.0-py3-none-any.whl.zip tmp/genet-0.9.0-py3-none-any.whl.zip --markdown 20240425/g/genet/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 11:09:50] INFO root fetch - processPackages [octomy-common]: Remove: archive file [/home/abi/fetcher/tmp/octomy-common-2.0.8.tar.gz]
+[2024-04-25 11:09:50] INFO root fetch - processPackages [octomy-common]: Remove: archive file [/home/abi/fetcher/tmp/octomy-common-2.0.9.tar.gz]
+[2024-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [octomy-common]: success
+[2024-04-25 11:09:50] INFO root fetch - processPackages [krcg]: Remove: archive file [/home/abi/fetcher/tmp/krcg-3.8.tar.gz]
+[2024-04-25 11:09:50] INFO root fetch - processPackages [krcg]: Remove: archive file [/home/abi/fetcher/tmp/krcg-3.9.tar.gz]
+[2024-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [krcg]: success
+[2024-04-25 11:09:50] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.8.0-py3-none-any.whl.zip]
+[2024-04-25 11:09:50] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.9.0-py3-none-any.whl.zip]
+[2024-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [genet]: success
+[2024-04-25 11:09:50] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.2.tar.gz]
+[2024-04-25 11:09:50] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.3.tar.gz]
+[2024-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2024-04-25 11:09:50] INFO root fetch - main [MainThread]: Store serial: [22927989]
