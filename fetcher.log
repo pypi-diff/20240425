@@ -17523,3 +17523,51 @@
 [2024-04-25 11:00:39] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
 [2024-04-25 11:00:39] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
 [2024-04-25 11:00:39] INFO root fetch - main [MainThread]: Store serial: [22927872]
+[2024-04-25 11:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927872]
+[2024-04-25 11:02:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiversx-sdk-cli
+[2024-04-25 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kojo
+[2024-04-25 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argus-alm
+[2024-04-25 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-identity-sdk
+[2024-04-25 11:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-orm-generator
+[2024-04-25 11:02:55] INFO root fetch - processPackages [kojo]: New version: [0.22.2] Old Version: [0.22.1]
+[2024-04-25 11:02:55] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/27/62/e661c68fa1f8672889224fa04e8860623e872a61d5183ee41821dc835efe/kojo-0.22.1.tar.gz
+[2024-04-25 11:02:55] INFO root fetch - processPackages [sqlx-orm-generator]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 11:02:55] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [9.5.5] Old Version: [9.5.4]
+[2024-04-25 11:02:55] INFO root fetch - processPackages [argus-alm]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-25 11:02:55] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-25 11:02:55] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/4d/a3/3f25b094093c62caa6e89fbb2d797e6583443d3030f8dfdb18fd11bc9cd0/argus-alm-0.8.0.tar.gz
+[2024-04-25 11:02:55] INFO root fetch - processPackages [sqlx-orm-generator]: Downloading https://files.pythonhosted.org/packages/7c/b3/c15f815a27f6ad91d2c140d216df76f38d75d4fa3ed6f82d753e9b7b45bf/sqlx-orm-generator-0.0.1.tar.gz
+[2024-04-25 11:02:55] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/8d/4c/5f7c8ae62ab5bc48fceb9629410a37398c6fe0c719a8b74cc7b52f93c5bc/multiversx_sdk_cli-9.5.4.tar.gz
+[2024-04-25 11:02:55] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-04-25 11:02:55] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/9b/0e/d6372b9939ab35618596708a1d2010139d0cbeb53506cd22a05c43ba0ab6/kojo-0.22.2.tar.gz
+[2024-04-25 11:02:55] INFO root fetch - processPackages [kojo]: executing diffoscope
+[2024-04-25 11:02:55] INFO root fetch - processPackages [kojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojo-0.22.1.tar.gz tmp/kojo-0.22.2.tar.gz --markdown 20240425/k/kojo/0.22.1-0.22.2/README.md --exclude *.pyd
+[2024-04-25 11:02:55] INFO root fetch - processPackages [sqlx-orm-generator]: Downloading https://files.pythonhosted.org/packages/ef/0d/21b41f4d390ca5c105780961dd60c2cb3beacda78a6ecbb7af622339a6a2/sqlx-orm-generator-0.0.2.tar.gz
+[2024-04-25 11:02:55] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/a9/f4/37f4d67b121bc6bf4e734eaa8fa0294f01bc0745f3715173a79fb457c6a5/multiversx_sdk_cli-9.5.5.tar.gz
+[2024-04-25 11:02:56] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/f5/52/98ae593640563903d88e0b566dc2965de18d2223faba5652a0d0fbbf748a/argus-alm-0.8.1.tar.gz
+[2024-04-25 11:02:56] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-04-25 11:02:56] INFO root fetch - processPackages [sqlx-orm-generator]: executing diffoscope
+[2024-04-25 11:02:56] INFO root fetch - processPackages [sqlx-orm-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-orm-generator-0.0.1.tar.gz tmp/sqlx-orm-generator-0.0.2.tar.gz --markdown 20240425/s/sqlx-orm-generator/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 11:02:56] INFO root fetch - processPackages [argus-alm]: executing diffoscope
+[2024-04-25 11:02:56] INFO root fetch - processPackages [argus-alm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-alm-0.8.0.tar.gz tmp/argus-alm-0.8.1.tar.gz --markdown 20240425/a/argus-alm/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-25 11:02:56] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-25 11:02:56] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240425/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-25 11:02:56] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2024-04-25 11:02:56] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-9.5.4.tar.gz tmp/multiversx_sdk_cli-9.5.5.tar.gz --markdown 20240425/m/multiversx-sdk-cli/9.5.4-9.5.5/README.md --exclude *.pyd
+[2024-04-25 11:02:56] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.22.1.tar.gz]
+[2024-04-25 11:02:56] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.22.2.tar.gz]
+[2024-04-25 11:02:56] INFO root fetch - main [MainThread]: End processing [kojo]: success
+[2024-04-25 11:02:56] INFO root fetch - processPackages [sqlx-orm-generator]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-generator-0.0.1.tar.gz]
+[2024-04-25 11:02:56] INFO root fetch - processPackages [sqlx-orm-generator]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-generator-0.0.2.tar.gz]
+[2024-04-25 11:02:56] INFO root fetch - main [MainThread]: End processing [sqlx-orm-generator]: success
+[2024-04-25 11:02:57] INFO root fetch - processPackages [argus-alm]: Remove: archive file [/home/abi/fetcher/tmp/argus-alm-0.8.0.tar.gz]
+[2024-04-25 11:02:57] INFO root fetch - processPackages [argus-alm]: Remove: archive file [/home/abi/fetcher/tmp/argus-alm-0.8.1.tar.gz]
+[2024-04-25 11:02:57] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
+[2024-04-25 11:02:57] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-04-25 11:02:57] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-04-25 11:02:57] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-25 11:02:57] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-9.5.4.tar.gz]
+[2024-04-25 11:02:57] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-9.5.5.tar.gz]
+[2024-04-25 11:02:57] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2024-04-25 11:02:57] INFO root fetch - main [MainThread]: Store serial: [22927889]
