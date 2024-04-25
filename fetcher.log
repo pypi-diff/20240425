@@ -14974,3 +14974,104 @@
 [2024-04-25 10:22:13] INFO root fetch - processPackages [fenics-ufl]: Remove: archive file [/home/abi/fetcher/tmp/fenics_ufl-2024.1.0.post0.tar.gz]
 [2024-04-25 10:22:13] INFO root fetch - main [MainThread]: End processing [fenics-ufl]: success
 [2024-04-25 10:22:13] INFO root fetch - main [MainThread]: Store serial: [22927104]
+[2024-04-25 10:24:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927104]
+[2024-04-25 10:24:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moltx
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autofeather-dash-mantine-components
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-lure
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-snippets
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linktest
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oapapersloader
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ignutils
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: y0
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opendp
+[2024-04-25 10:24:24] INFO root fetch - processPackages [autofeather-dash-mantine-components]: New version: [0.14.3] Old Version: [0.14.22]
+[2024-04-25 10:24:24] WARNING root fetch - processPackages [ignutils]: Skipping, unable to determine old version
+[2024-04-25 10:24:24] INFO root fetch - processPackages [ignutils]: Start processing: snitun
+[2024-04-25 10:24:24] INFO root fetch - main [MainThread]: End processing [ignutils] error
+[2024-04-25 10:24:24] INFO root fetch - processPackages [linktest]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-04-25 10:24:25] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-25 10:24:25] WARNING root fetch - processPackages [oapapersloader]: Skipping, unable to determine old version
+[2024-04-25 10:24:25] INFO root fetch - processPackages [oapapersloader]: Start processing: pythainer
+[2024-04-25 10:24:25] INFO root fetch - main [MainThread]: End processing [oapapersloader] error
+[2024-04-25 10:24:25] INFO root fetch - processPackages [torch-lure]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 10:24:25] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.45]
+[2024-04-25 10:24:25] INFO root fetch - processPackages [moltx]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-25 10:24:25] INFO root fetch - processPackages [y0]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 10:24:25] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/23/31/23db980dc3a639f5681907f8333f30876d107dc909dac7a1b8f355fd6d9f/linktest-2.6.2.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240416001]
+[2024-04-25 10:24:25] WARNING root fetch - processPackages [pythainer]: Skipping, unable to determine old version
+[2024-04-25 10:24:25] INFO root fetch - processPackages [pythainer]: Start processing: summers-pack
+[2024-04-25 10:24:25] INFO root fetch - main [MainThread]: End processing [pythainer] error
+[2024-04-25 10:24:25] INFO root fetch - processPackages [snitun]: New version: [0.9] Old Version: [0.8]
+[2024-04-25 10:24:25] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/ae/7c/b87578f336ca21752f88742fd3a1b87f7f434333f3355153349fbf03853d/autofeather_dash_mantine_components-0.14.22.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [torch-lure]: Downloading https://files.pythonhosted.org/packages/ad/51/e447592f6bb455b1f3a78b26003c93fe28a20ab721bdd5a7b9c0a3e794a0/torch_lure-0.1.0.tar.gz
+[2024-04-25 10:24:25] WARNING root fetch - processPackages [summers-pack]: Skipping, unable to determine old version
+[2024-04-25 10:24:25] INFO root fetch - processPackages [summers-pack]: Start processing: wc-django-device-recognizer
+[2024-04-25 10:24:25] INFO root fetch - main [MainThread]: End processing [summers-pack] error
+[2024-04-25 10:24:25] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/70/d8/cdfd923c409608e8b031424129afd687a58c753978a82441da9d6386db7b/moltx-0.9.4.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/a9/6e/35469c0651fbf0da698b3c1c0d9a7503b861047c3ee557a96955161c9be2/python-snippets-0.0.45.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [y0]: Downloading https://files.pythonhosted.org/packages/7f/9b/0d2230067d1e5240a1f9b413d0151e69115a9948190cdcd83f44af63543a/y0-0.2.8.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/1c/31/4ebee2e092efb0f95ee7fe527220aa20edc7675a16e59057bd779d3633ed/opendp-0.9.2a20240416001-py3-none-any.whl
+[2024-04-25 10:24:25] INFO root fetch - processPackages [snitun]: Downloading https://files.pythonhosted.org/packages/1c/b3/7660aa5a0c140a50da7f8642bd0532724b1c744eb47288879159c0e895bc/snitun-0.8.tar.gz
+[2024-04-25 10:24:25] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36076642>=10485760
+[2024-04-25 10:24:25] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-04-25 10:24:25] INFO root fetch - processPackages [wc-django-device-recognizer]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 10:24:25] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/ac/96/0b72d39a0ee00b72245af4c1ef8bcc0a31e96133e38a54b5e39fc8a4385a/linktest-2.6.3.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/9d/c6/3e793263389bff2eeb22aa310853ff3ff2f8f148b6f97945071af23e205d/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl
+[2024-04-25 10:24:25] INFO root fetch - processPackages [torch-lure]: Downloading https://files.pythonhosted.org/packages/51/ba/fbee5088ee90de03719121b9af86a885672a3d6b46219e082447c0a85c0e/torch_lure-0.1.1.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-04-25 10:24:25] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240425/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-25 10:24:25] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-25 10:24:25] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.6.2.tar.gz tmp/linktest-2.6.3.tar.gz --markdown 20240425/l/linktest/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-04-25 10:24:25] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/b2/ad/6912d51326c956215b292285c7c88cd7eb093f929e9bdb73532db649e432/moltx-0.9.5.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [y0]: Downloading https://files.pythonhosted.org/packages/5d/f4/bed7fc447d3d0b55ff296bc2b7f7dc967d555ec529c90f917aa95111fba8/y0-0.2.9.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [wc-django-device-recognizer]: Downloading https://files.pythonhosted.org/packages/64/9c/9f16aaaa4b63405470200a7dd8e599ad4c352dff966694a6c7ca1c58f623/wc-django-device-recognizer-0.1.1.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [autofeather-dash-mantine-components]: executing diffoscope
+[2024-04-25 10:24:25] INFO root fetch - processPackages [autofeather-dash-mantine-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeather_dash_mantine_components-0.14.22.tar.gz tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip --markdown 20240425/a/autofeather-dash-mantine-components/0.14.22-0.14.3/README.md --exclude *.pyd
+[2024-04-25 10:24:25] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [snitun]: Downloading https://files.pythonhosted.org/packages/09/c3/24b6446a1d56396c202728182016e40fb80b4964b620a1463b8e1dadb5ac/snitun-0.9.tar.gz
+[2024-04-25 10:24:25] INFO root fetch - processPackages [torch-lure]: executing diffoscope
+[2024-04-25 10:24:25] INFO root fetch - processPackages [torch-lure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_lure-0.1.0.tar.gz tmp/torch_lure-0.1.1.tar.gz --markdown 20240425/t/torch-lure/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 10:24:25] INFO root fetch - processPackages [y0]: executing diffoscope
+[2024-04-25 10:24:25] INFO root fetch - processPackages [y0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y0-0.2.8.tar.gz tmp/y0-0.2.9.tar.gz --markdown 20240425/y/y0/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 10:24:25] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-04-25 10:24:25] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-0.9.4.tar.gz tmp/moltx-0.9.5.tar.gz --markdown 20240425/m/moltx/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-25 10:24:26] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2024-04-25 10:24:26] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.45.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20240425/p/python-snippets/0.0.45-0.0.6/README.md --exclude *.pyd
+[2024-04-25 10:24:26] INFO root fetch - processPackages [snitun]: executing diffoscope
+[2024-04-25 10:24:26] INFO root fetch - processPackages [snitun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snitun-0.8.tar.gz tmp/snitun-0.9.tar.gz --markdown 20240425/s/snitun/0.8-0.9/README.md --exclude *.pyd
+[2024-04-25 10:24:26] INFO root fetch - processPackages [wc-django-device-recognizer]: Downloading https://files.pythonhosted.org/packages/05/05/2f2b6755395b77101f83ba8f4185e6d0a003a07c62e25b727719538ca25b/wc-django-device-recognizer-0.1.2.tar.gz
+[2024-04-25 10:24:26] INFO root fetch - processPackages [wc-django-device-recognizer]: executing diffoscope
+[2024-04-25 10:24:26] INFO root fetch - processPackages [wc-django-device-recognizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wc-django-device-recognizer-0.1.1.tar.gz tmp/wc-django-device-recognizer-0.1.2.tar.gz --markdown 20240425/w/wc-django-device-recognizer/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 10:24:26] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.2.tar.gz]
+[2024-04-25 10:24:26] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.3.tar.gz]
+[2024-04-25 10:24:26] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-25 10:24:26] INFO root fetch - processPackages [torch-lure]: Remove: archive file [/home/abi/fetcher/tmp/torch_lure-0.1.0.tar.gz]
+[2024-04-25 10:24:26] INFO root fetch - processPackages [torch-lure]: Remove: archive file [/home/abi/fetcher/tmp/torch_lure-0.1.1.tar.gz]
+[2024-04-25 10:24:26] INFO root fetch - main [MainThread]: End processing [torch-lure]: success
+[2024-04-25 10:24:26] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.45.tar.gz]
+[2024-04-25 10:24:26] INFO root fetch - processPackages [python-snippets]: Remove: archive file [/home/abi/fetcher/tmp/python-snippets-0.0.6.tar.gz]
+[2024-04-25 10:24:26] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2024-04-25 10:24:27] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.4.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.5.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-04-25 10:24:27] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-04-25 10:24:27] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.22.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip]
+[2024-04-25 10:24:27] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
+[2024-04-25 10:24:27] INFO root fetch - processPackages [snitun]: Remove: archive file [/home/abi/fetcher/tmp/snitun-0.8.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - processPackages [snitun]: Remove: archive file [/home/abi/fetcher/tmp/snitun-0.9.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - main [MainThread]: End processing [snitun]: success
+[2024-04-25 10:24:27] INFO root fetch - processPackages [wc-django-device-recognizer]: Remove: archive file [/home/abi/fetcher/tmp/wc-django-device-recognizer-0.1.1.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - processPackages [wc-django-device-recognizer]: Remove: archive file [/home/abi/fetcher/tmp/wc-django-device-recognizer-0.1.2.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - main [MainThread]: End processing [wc-django-device-recognizer]: success
+[2024-04-25 10:24:27] INFO root fetch - processPackages [y0]: Remove: archive file [/home/abi/fetcher/tmp/y0-0.2.8.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - processPackages [y0]: Remove: archive file [/home/abi/fetcher/tmp/y0-0.2.9.tar.gz]
+[2024-04-25 10:24:27] INFO root fetch - main [MainThread]: End processing [y0]: success
+[2024-04-25 10:24:27] INFO root fetch - main [MainThread]: Store serial: [22927147]
