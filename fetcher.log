@@ -8812,3 +8812,42 @@
 [2024-04-25 04:36:42] INFO root fetch - processPackages [satkit]: Remove: archive file [/home/abi/fetcher/tmp/satkit-0.2.7-cp39-cp39-win_amd64.whl.zip]
 [2024-04-25 04:36:42] INFO root fetch - main [MainThread]: End processing [satkit]: success
 [2024-04-25 04:36:42] INFO root fetch - main [MainThread]: Store serial: [22924374]
+[2024-04-25 04:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924374]
+[2024-04-25 04:38:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 04:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-cloudsso20210515
+[2024-04-25 04:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-cutoff-accrual-subscription
+[2024-04-25 04:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linktest
+[2024-04-25 04:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: STAIR-tools
+[2024-04-25 04:38:51] INFO root fetch - processPackages [STAIR-tools]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-25 04:38:51] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/10/02/5c19930e6a6be6a84dc3969a68e75f8367f4244aeeb2ae7fbad2d8d1e74f/STAIR-tools-1.1.1.tar.gz
+[2024-04-25 04:38:51] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-25 04:38:51] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-25 04:38:51] INFO root fetch - processPackages [linktest]: New version: [2.6.0] Old Version: [2.5.8]
+[2024-04-25 04:38:51] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/df/db/69fed2ff117dc29a11c6d5153f1766be9d3bb93264dca298b103b8f8a03d/linktest-2.5.8.tar.gz
+[2024-04-25 04:38:51] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Downloading https://files.pythonhosted.org/packages/e2/a0/271b95e93224b323fa9680f18b1c6f7810dbe506906d563a8185e69a202f/alibabacloud_cloudsso20210515-1.5.1.tar.gz
+[2024-04-25 04:38:51] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/15/51/d43c95fabe01f4c4b18ff8b095b0846fb77033acd5830dc5d614d7992a9c/odoo_addon_account_cutoff_accrual_subscription-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-25 04:38:51] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/b1/6d/9514d6e8c6c40070bb1d686ee96580077491908e9bc8208a9b56f67e3cc3/STAIR-tools-1.1.2.tar.gz
+[2024-04-25 04:38:51] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-04-25 04:38:51] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.1.1.tar.gz tmp/STAIR-tools-1.1.2.tar.gz --markdown 20240425/S/STAIR-tools/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-25 04:38:51] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Downloading https://files.pythonhosted.org/packages/a9/9a/96fbbd1456995a3e7ab4a494f7aa4aea338738ac74975773f00425d66831/alibabacloud_cloudsso20210515-1.5.2.tar.gz
+[2024-04-25 04:38:51] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/08/19/f58911d21897e74f4fab5129d1846f9c10c70b01b493ee69357a6312ffe2/odoo_addon_account_cutoff_accrual_subscription-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-25 04:38:51] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/41/eb/0dfd531d93000aa19d7360237485a558810bd929b67ce2c228cfff48b105/linktest-2.6.0.tar.gz
+[2024-04-25 04:38:51] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: executing diffoscope
+[2024-04-25 04:38:51] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudsso20210515-1.5.1.tar.gz tmp/alibabacloud_cloudsso20210515-1.5.2.tar.gz --markdown 20240425/a/alibabacloud-cloudsso20210515/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-25 04:38:51] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: executing diffoscope
+[2024-04-25 04:38:51] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_subscription-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_subscription-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-account-cutoff-accrual-subscription/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-25 04:38:51] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-25 04:38:51] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.5.8.tar.gz tmp/linktest-2.6.0.tar.gz --markdown 20240425/l/linktest/2.5.8-2.6.0/README.md --exclude *.pyd
+[2024-04-25 04:38:52] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.1.tar.gz]
+[2024-04-25 04:38:52] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.2.tar.gz]
+[2024-04-25 04:38:52] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-04-25 04:38:52] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudsso20210515-1.5.1.tar.gz]
+[2024-04-25 04:38:52] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudsso20210515-1.5.2.tar.gz]
+[2024-04-25 04:38:52] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudsso20210515]: success
+[2024-04-25 04:38:52] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-25 04:38:52] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-25 04:38:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-subscription]: success
+[2024-04-25 04:38:52] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.8.tar.gz]
+[2024-04-25 04:38:52] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.0.tar.gz]
+[2024-04-25 04:38:52] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-25 04:38:52] INFO root fetch - main [MainThread]: Store serial: [22924387]
