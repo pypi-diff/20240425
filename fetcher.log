@@ -8347,3 +8347,18 @@
 [2024-04-25 04:12:40] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a9.tar.gz]
 [2024-04-25 04:12:40] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
 [2024-04-25 04:12:40] INFO root fetch - main [MainThread]: Store serial: [22924203]
+[2024-04-25 04:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924203]
+[2024-04-25 04:14:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 04:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hspylib
+[2024-04-25 04:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rfproto
+[2024-04-25 04:14:49] WARNING root fetch - processPackages [rfproto]: Skipping, unable to determine old version
+[2024-04-25 04:14:49] INFO root fetch - main [MainThread]: End processing [rfproto] error
+[2024-04-25 04:14:49] INFO root fetch - processPackages [hspylib]: New version: [1.12.37] Old Version: [1.12.36]
+[2024-04-25 04:14:49] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/0a/33/ba0245ffe92481e8d1a3be141fe8ce2a735246d190b3bb00b97ac54a61c7/hspylib-1.12.36.tar.gz
+[2024-04-25 04:14:50] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/69/df/1a0bc570fb56e268448c86870c476049e7625ecec0d9c15f709187a07ede/hspylib-1.12.37.tar.gz
+[2024-04-25 04:14:50] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2024-04-25 04:14:50] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-1.12.36.tar.gz tmp/hspylib-1.12.37.tar.gz --markdown 20240425/h/hspylib/1.12.36-1.12.37/README.md --exclude *.pyd
+[2024-04-25 04:14:51] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-1.12.36.tar.gz]
+[2024-04-25 04:14:51] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-1.12.37.tar.gz]
+[2024-04-25 04:14:51] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2024-04-25 04:14:51] INFO root fetch - main [MainThread]: Store serial: [22924210]
