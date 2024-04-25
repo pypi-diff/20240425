@@ -1,4 +1,4 @@
-# Comparing `tmp/magictk-0.0.2.50.tar.gz` & `tmp/magictk-0.0.2.51-py3-none-any.whl.zip`
+# Comparing `tmp/magictk-0.0.2.50.tar.gz` & `tmp/magictk-0.0.2.51.tar.gz`
 
 ## filetype from file(1)
 
