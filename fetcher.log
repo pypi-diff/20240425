@@ -8058,3 +8058,9 @@
 [2024-04-25 03:47:50] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.1.dev20.tar.gz]
 [2024-04-25 03:47:50] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
 [2024-04-25 03:47:50] INFO root fetch - main [MainThread]: Store serial: [22924069]
+[2024-04-25 03:49:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924069]
+[2024-04-25 03:49:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 03:49:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocortext-py
+[2024-04-25 03:49:59] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-25 03:49:59] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-25 03:49:59] INFO root fetch - main [MainThread]: Store serial: [22924072]
