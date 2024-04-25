@@ -9016,3 +9016,36 @@
 [2024-04-25 04:47:37] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240425.tar.gz]
 [2024-04-25 04:47:37] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-25 04:47:37] INFO root fetch - main [MainThread]: Store serial: [22924447]
+[2024-04-25 04:49:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924447]
+[2024-04-25 04:49:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 04:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-115
+[2024-04-25 04:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netboxcli
+[2024-04-25 04:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2024-04-25 04:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testingiasdf1
+[2024-04-25 04:49:46] INFO root fetch - processPackages [netboxcli]: New version: [1.1.6] Old Version: [1.0.0]
+[2024-04-25 04:49:46] WARNING root fetch - processPackages [testingiasdf1]: Skipping, unable to determine old version
+[2024-04-25 04:49:46] INFO root fetch - main [MainThread]: End processing [testingiasdf1] error
+[2024-04-25 04:49:46] INFO root fetch - processPackages [python-115]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2024-04-25 04:49:46] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-25 04:49:46] INFO root fetch - processPackages [netboxcli]: Downloading https://files.pythonhosted.org/packages/20/17/1bb97b03e570927c4a6269e72dfe11d2c2cf9902281444ac539d32965a5a/netboxcli-1.0.0.tar.gz
+[2024-04-25 04:49:46] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/66/df/20cde91d815457b5a52b05dbf9b674c55a5963cb399742263be173d0d3da/python_115-0.0.6.3.tar.gz
+[2024-04-25 04:49:46] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-25 04:49:47] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-25 04:49:47] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/ba/f8/1b819e4ca43e72842a62d8e5db9acdfe991dea89b01c7d1a530ed9aed979/python_115-0.0.6.4.tar.gz
+[2024-04-25 04:49:47] INFO root fetch - processPackages [netboxcli]: Downloading https://files.pythonhosted.org/packages/de/c0/ce7b64499b9a468c21c15d32c9b919a683fd9580c2ed06a5fba3d7bc89c6/netboxcli-1.1.6.tar.gz
+[2024-04-25 04:49:47] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-25 04:49:47] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240425/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-25 04:49:47] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-25 04:49:47] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.6.3.tar.gz tmp/python_115-0.0.6.4.tar.gz --markdown 20240425/p/python-115/0.0.6.3-0.0.6.4/README.md --exclude *.pyd
+[2024-04-25 04:49:47] INFO root fetch - processPackages [netboxcli]: executing diffoscope
+[2024-04-25 04:49:47] INFO root fetch - processPackages [netboxcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netboxcli-1.0.0.tar.gz tmp/netboxcli-1.1.6.tar.gz --markdown 20240425/n/netboxcli/1.0.0-1.1.6/README.md --exclude *.pyd
+[2024-04-25 04:49:47] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-25 04:49:47] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-25 04:49:47] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-25 04:49:47] INFO root fetch - processPackages [netboxcli]: Remove: archive file [/home/abi/fetcher/tmp/netboxcli-1.0.0.tar.gz]
+[2024-04-25 04:49:47] INFO root fetch - processPackages [netboxcli]: Remove: archive file [/home/abi/fetcher/tmp/netboxcli-1.1.6.tar.gz]
+[2024-04-25 04:49:47] INFO root fetch - main [MainThread]: End processing [netboxcli]: success
+[2024-04-25 04:49:47] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.3.tar.gz]
+[2024-04-25 04:49:47] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.4.tar.gz]
+[2024-04-25 04:49:47] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-25 04:49:47] INFO root fetch - main [MainThread]: Store serial: [22924459]
