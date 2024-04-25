@@ -3553,3 +3553,12 @@
 [2024-04-25 02:39:57] INFO root fetch - processPackages [pz-rail-base]: Remove: archive file [/home/abi/fetcher/tmp/pz_rail_base-0.2.4.tar.gz]
 [2024-04-25 02:39:57] INFO root fetch - main [MainThread]: End processing [pz-rail-base]: success
 [2024-04-25 02:39:57] INFO root fetch - main [MainThread]: Store serial: [22922403]
+[2024-04-25 02:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922403]
+[2024-04-25 02:42:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 02:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokemon-Library-ENattRL
+[2024-04-25 02:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playwrightnb
+[2024-04-25 02:42:05] WARNING root fetch - processPackages [playwrightnb]: Skipping, unable to determine old version
+[2024-04-25 02:42:05] INFO root fetch - main [MainThread]: End processing [playwrightnb] error
+[2024-04-25 02:42:05] WARNING root fetch - processPackages [Pokemon-Library-ENattRL]: Skipping, unable to determine old version
+[2024-04-25 02:42:05] INFO root fetch - main [MainThread]: End processing [Pokemon-Library-ENattRL] error
+[2024-04-25 02:42:05] INFO root fetch - main [MainThread]: Store serial: [22922414]
