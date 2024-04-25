@@ -20147,3 +20147,59 @@
 [2024-04-25 12:35:54] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
 [2024-04-25 12:35:54] INFO root fetch - main [MainThread]: End processing [textual]: success
 [2024-04-25 12:35:54] INFO root fetch - main [MainThread]: Store serial: [22928985]
+[2024-04-25 12:37:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928985]
+[2024-04-25 12:38:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 12:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-04-25 12:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sensors_connectivity
+[2024-04-25 12:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdformat_mkdocs
+[2024-04-25 12:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvino-tokenizers
+[2024-04-25 12:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: caerp-celery
+[2024-04-25 12:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agptools
+[2024-04-25 12:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: annoread
+[2024-04-25 12:38:02] WARNING root fetch - processPackages [annoread]: Skipping, unable to determine old version
+[2024-04-25 12:38:02] INFO root fetch - main [MainThread]: End processing [annoread] error
+[2024-04-25 12:38:02] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 12:38:02] INFO root fetch - processPackages [sensors_connectivity]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-25 12:38:02] INFO root fetch - processPackages [mdformat_mkdocs]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-25 12:38:02] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-04-25 12:38:02] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 12:38:02] INFO root fetch - processPackages [openvino-tokenizers]: New version: [2024.1.0.0] Old Version: [2024.0.0.0]
+[2024-04-25 12:38:02] INFO root fetch - processPackages [caerp-celery]: New version: [2024.1.2a2] Old Version: [2024.1.2a1]
+[2024-04-25 12:38:02] INFO root fetch - processPackages [sensors_connectivity]: Downloading https://files.pythonhosted.org/packages/f5/dc/9215333e7992f5bec1f074f156e3b5ad4e41e937ece70d6ae833eec3bfbe/sensors_connectivity-1.6.0.tar.gz
+[2024-04-25 12:38:03] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-04-25 12:38:03] INFO root fetch - processPackages [openvino-tokenizers]: Downloading https://files.pythonhosted.org/packages/fb/39/cb9328ea602b1a0ca529d55e087ea33758a8791597518c92f076387ab017/openvino_tokenizers-2024.0.0.0-28-py3-none-win_amd64.whl
+[2024-04-25 12:38:03] INFO root fetch - processPackages [caerp-celery]: Downloading https://files.pythonhosted.org/packages/1b/14/2e8227aa18247275f5fe0b6f5008cc232adf31185b9feca9819f0caa84f3/caerp_celery-2024.1.2a1.tar.gz
+[2024-04-25 12:38:03] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/5c/37/a8cf961a5fdf8922f4a3e8082e11fbc96457d1b51721ee0ab0be7f0fc2db/mdformat_mkdocs-2.0.8.tar.gz
+[2024-04-25 12:38:03] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-25 12:38:03] WARNING root fetch - processPackages [openvino-tokenizers]: Skipping package: exceeds size limit 13989332>=10485760
+[2024-04-25 12:38:03] INFO root fetch - main [MainThread]: End processing [openvino-tokenizers] error
+[2024-04-25 12:38:03] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-04-25 12:38:03] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240425/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 12:38:03] INFO root fetch - processPackages [sensors_connectivity]: Downloading https://files.pythonhosted.org/packages/c6/29/2cb1bff36cf76d03899ea87f4bc3424d9f2199cb6da8a69be972af1fc739/sensors_connectivity-1.6.1.tar.gz
+[2024-04-25 12:38:03] INFO root fetch - processPackages [caerp-celery]: Downloading https://files.pythonhosted.org/packages/39/ca/04f820284e93a2cc9b51959ecbe4a4984165dbbe04f3f9c9809c107c12b9/caerp_celery-2024.1.2a2.tar.gz
+[2024-04-25 12:38:03] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/13/7f/3f9650602e1814d092e1a92da3c8d98d875094e13f2be73a26b145b22bc9/mdformat_mkdocs-2.0.9.tar.gz
+[2024-04-25 12:38:03] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-25 12:38:03] INFO root fetch - processPackages [sensors_connectivity]: executing diffoscope
+[2024-04-25 12:38:03] INFO root fetch - processPackages [sensors_connectivity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensors_connectivity-1.6.0.tar.gz tmp/sensors_connectivity-1.6.1.tar.gz --markdown 20240425/s/sensors_connectivity/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-25 12:38:03] INFO root fetch - processPackages [caerp-celery]: executing diffoscope
+[2024-04-25 12:38:03] INFO root fetch - processPackages [caerp-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caerp_celery-2024.1.2a1.tar.gz tmp/caerp_celery-2024.1.2a2.tar.gz --markdown 20240425/c/caerp-celery/2024.1.2a1-2024.1.2a2/README.md --exclude *.pyd
+[2024-04-25 12:38:03] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-25 12:38:03] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240425/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 12:38:03] INFO root fetch - processPackages [mdformat_mkdocs]: executing diffoscope
+[2024-04-25 12:38:03] INFO root fetch - processPackages [mdformat_mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdformat_mkdocs-2.0.8.tar.gz tmp/mdformat_mkdocs-2.0.9.tar.gz --markdown 20240425/m/mdformat_mkdocs/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-25 12:38:03] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-25 12:38:03] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-25 12:38:03] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-04-25 12:38:04] INFO root fetch - processPackages [sensors_connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.6.0.tar.gz]
+[2024-04-25 12:38:04] INFO root fetch - processPackages [sensors_connectivity]: Remove: archive file [/home/abi/fetcher/tmp/sensors_connectivity-1.6.1.tar.gz]
+[2024-04-25 12:38:04] INFO root fetch - main [MainThread]: End processing [sensors_connectivity]: success
+[2024-04-25 12:38:04] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-2.0.8.tar.gz]
+[2024-04-25 12:38:04] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-2.0.9.tar.gz]
+[2024-04-25 12:38:04] INFO root fetch - main [MainThread]: End processing [mdformat_mkdocs]: success
+[2024-04-25 12:38:04] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-25 12:38:04] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-25 12:38:04] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-25 12:38:04] INFO root fetch - processPackages [caerp-celery]: Remove: archive file [/home/abi/fetcher/tmp/caerp_celery-2024.1.2a1.tar.gz]
+[2024-04-25 12:38:04] INFO root fetch - processPackages [caerp-celery]: Remove: archive file [/home/abi/fetcher/tmp/caerp_celery-2024.1.2a2.tar.gz]
+[2024-04-25 12:38:04] INFO root fetch - main [MainThread]: End processing [caerp-celery]: success
+[2024-04-25 12:38:04] INFO root fetch - main [MainThread]: Store serial: [22929008]
