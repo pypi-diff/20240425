@@ -3857,3 +3857,51 @@
 [2024-04-25 02:57:51] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.4.tar.gz]
 [2024-04-25 02:57:51] INFO root fetch - main [MainThread]: End processing [oaklib]: success
 [2024-04-25 02:57:51] INFO root fetch - main [MainThread]: Store serial: [22922526]
+[2024-04-25 02:59:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922526]
+[2024-04-25 02:59:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-sqlite
+[2024-04-25 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-gcp
+[2024-04-25 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: package-auto-assembler
+[2024-04-25 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2024-04-25 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: barkeep
+[2024-04-25 02:59:59] INFO root fetch - processPackages [mo-sqlite]: New version: [2.606.24115] Old Version: [2.586.24095]
+[2024-04-25 02:59:59] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-04-25 02:59:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-25 02:59:59] INFO root fetch - processPackages [package-auto-assembler]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-25 02:59:59] INFO root fetch - processPackages [mo-sqlite]: Downloading https://files.pythonhosted.org/packages/c5/98/29c2a426ecff603a02ea82e6c57fde0514063d23d4c42c076834faf8b26a/mo-sqlite-2.586.24095.tar.gz
+[2024-04-25 02:59:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-25 02:59:59] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-04-25 02:59:59] INFO root fetch - processPackages [barkeep]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 02:59:59] INFO root fetch - processPackages [package-auto-assembler]: Downloading https://files.pythonhosted.org/packages/61/41/4e9d8b9798d489ff2c5ba1f847b2e233315f0700d3a075d7a21b331bcae0/package_auto_assembler-0.0.7.tar.gz
+[2024-04-25 02:59:59] INFO root fetch - processPackages [mo-sqlite]: Downloading https://files.pythonhosted.org/packages/75/2f/17e610f020952be930d2f2fa362211d24639589c9051b89d4bde560d600e/mo_sqlite-2.606.24115.tar.gz
+[2024-04-25 02:59:59] INFO root fetch - processPackages [mo-sqlite]: executing diffoscope
+[2024-04-25 02:59:59] INFO root fetch - processPackages [mo-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-sqlite-2.586.24095.tar.gz tmp/mo_sqlite-2.606.24115.tar.gz --markdown 20240425/m/mo-sqlite/2.586.24095-2.606.24115/README.md --exclude *.pyd
+[2024-04-25 02:59:59] INFO root fetch - processPackages [barkeep]: Downloading https://files.pythonhosted.org/packages/69/8e/ee30c0e5bb1aeac627945f600bb63702148a09ce39236bf5293446e54d2a/barkeep-0.1.0.tar.gz
+[2024-04-25 02:59:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-25 03:00:00] INFO root fetch - processPackages [package-auto-assembler]: Downloading https://files.pythonhosted.org/packages/42/9d/48cf5fd953ac330a1717ea627f2bbfeafdbee0e0f1549c1e52098f7bcafa/package_auto_assembler-0.0.8.tar.gz
+[2024-04-25 03:00:00] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-04-25 03:00:00] INFO root fetch - processPackages [package-auto-assembler]: executing diffoscope
+[2024-04-25 03:00:00] INFO root fetch - processPackages [package-auto-assembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package_auto_assembler-0.0.7.tar.gz tmp/package_auto_assembler-0.0.8.tar.gz --markdown 20240425/p/package-auto-assembler/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-25 03:00:00] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-25 03:00:00] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240425/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-25 03:00:00] INFO root fetch - processPackages [barkeep]: Downloading https://files.pythonhosted.org/packages/23/4f/994a6f75d51e5e9203ddeeca10e5ce3fb98a84eac2d3d388a1942fb49a75/barkeep-0.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 03:00:00] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-04-25 03:00:00] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240425/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-04-25 03:00:00] INFO root fetch - processPackages [mo-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mo-sqlite-2.586.24095.tar.gz]
+[2024-04-25 03:00:00] INFO root fetch - processPackages [mo-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mo_sqlite-2.606.24115.tar.gz]
+[2024-04-25 03:00:00] INFO root fetch - main [MainThread]: End processing [mo-sqlite]: success
+[2024-04-25 03:00:00] INFO root fetch - processPackages [barkeep]: executing diffoscope
+[2024-04-25 03:00:00] INFO root fetch - processPackages [barkeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barkeep-0.1.0.tar.gz tmp/barkeep-0.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240425/b/barkeep/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 03:00:00] INFO root fetch - processPackages [package-auto-assembler]: Remove: archive file [/home/abi/fetcher/tmp/package_auto_assembler-0.0.7.tar.gz]
+[2024-04-25 03:00:00] INFO root fetch - processPackages [package-auto-assembler]: Remove: archive file [/home/abi/fetcher/tmp/package_auto_assembler-0.0.8.tar.gz]
+[2024-04-25 03:00:00] INFO root fetch - main [MainThread]: End processing [package-auto-assembler]: success
+[2024-04-25 03:00:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-25 03:00:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-25 03:00:01] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-25 03:00:01] INFO root fetch - processPackages [barkeep]: Remove: archive file [/home/abi/fetcher/tmp/barkeep-0.1.0.tar.gz]
+[2024-04-25 03:00:01] INFO root fetch - processPackages [barkeep]: Remove: archive file [/home/abi/fetcher/tmp/barkeep-0.1.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 03:00:01] INFO root fetch - main [MainThread]: End processing [barkeep]: success
+[2024-04-25 03:00:10] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-04-25 03:00:10] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-04-25 03:00:10] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-04-25 03:00:10] INFO root fetch - main [MainThread]: Store serial: [22922569]
