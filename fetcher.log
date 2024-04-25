@@ -22179,3 +22179,20 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:44:30] INFO root fetch - processPackages [ipycanvas]: Remove: archive file [/home/abi/fetcher/tmp/ipycanvas-0.9.1.tar.gz]
 [2024-04-25 13:44:30] INFO root fetch - main [MainThread]: End processing [ipycanvas]: success
 [2024-04-25 13:44:30] INFO root fetch - main [MainThread]: Store serial: [22929837]
+[2024-04-25 13:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929837]
+[2024-04-25 13:46:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 13:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dmpcpwa
+[2024-04-25 13:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autowsgr
+[2024-04-25 13:46:40] INFO root fetch - processPackages [autowsgr]: New version: [0.2.2.9] Old Version: [0.2.2.8]
+[2024-04-25 13:46:40] INFO root fetch - processPackages [dmpcpwa]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 13:46:40] INFO root fetch - processPackages [autowsgr]: Downloading https://files.pythonhosted.org/packages/20/db/bb4942509a54b1f01fa10e10e3dca250f9cf92488729f8292657988ac8e2/autowsgr-0.2.2.8.tar.gz
+[2024-04-25 13:46:40] WARNING root fetch - processPackages [autowsgr]: Skipping package: exceeds size limit 18156638>=10485760
+[2024-04-25 13:46:40] INFO root fetch - main [MainThread]: End processing [autowsgr] error
+[2024-04-25 13:46:40] INFO root fetch - processPackages [dmpcpwa]: Downloading https://files.pythonhosted.org/packages/e2/0f/73c329c1bbd97fbd5944abbfe5f3237dddaba478033fefdeb8f2146b9db4/dmpcpwa-0.0.1.tar.gz
+[2024-04-25 13:46:40] INFO root fetch - processPackages [dmpcpwa]: Downloading https://files.pythonhosted.org/packages/98/a9/8bf8c6cf32aa0f793ee8f8d139fb14dfb80068edc7a241b168ca2002afb8/dmpcpwa-0.0.2.tar.gz
+[2024-04-25 13:46:40] INFO root fetch - processPackages [dmpcpwa]: executing diffoscope
+[2024-04-25 13:46:40] INFO root fetch - processPackages [dmpcpwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmpcpwa-0.0.1.tar.gz tmp/dmpcpwa-0.0.2.tar.gz --markdown 20240425/d/dmpcpwa/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 13:46:41] INFO root fetch - processPackages [dmpcpwa]: Remove: archive file [/home/abi/fetcher/tmp/dmpcpwa-0.0.1.tar.gz]
+[2024-04-25 13:46:41] INFO root fetch - processPackages [dmpcpwa]: Remove: archive file [/home/abi/fetcher/tmp/dmpcpwa-0.0.2.tar.gz]
+[2024-04-25 13:46:41] INFO root fetch - main [MainThread]: End processing [dmpcpwa]: success
+[2024-04-25 13:46:41] INFO root fetch - main [MainThread]: Store serial: [22929844]
