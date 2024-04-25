@@ -10708,3 +10708,51 @@
 [2024-04-25 06:48:21] INFO root fetch - processPackages [caikit-nlp]: Remove: archive file [/home/abi/fetcher/tmp/caikit_nlp-0.4.9.tar.gz]
 [2024-04-25 06:48:21] INFO root fetch - main [MainThread]: End processing [caikit-nlp]: success
 [2024-04-25 06:48:21] INFO root fetch - main [MainThread]: Store serial: [22925282]
+[2024-04-25 06:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925282]
+[2024-04-25 06:50:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sklearn2pmml
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-config
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homelinkpython
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofnodes
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.48.0.1] Old Version: [16.0.1.48.0]
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0.1]
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ofnodes]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-25 06:50:30] INFO root fetch - processPackages [homelinkpython]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-25 06:50:30] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/01/32/2701100a1b045fcd022f4ae8738004d7ec882046c739854fbae16b5929b6/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/e1/01/cad54e6247fee3fa680c4349baa1a986e5cd794f72813b6b8fdf8d09c099/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-25 06:50:30] INFO root fetch - processPackages [homelinkpython]: Downloading https://files.pythonhosted.org/packages/ef/cf/3f3fbe919704301480afad34a2112208e02dd0dd19d772bd77eaa9e8c952/homelinkpython-1.0.tar.gz
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/0e/1a/682cd8833aa06638273c00e18f1167a7732e656a69850ba98ece7570a999/ofnodes-1.7.0.tar.gz
+[2024-04-25 06:50:30] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/21/2a/847c0af6f9d6ec00f3fa954c4c691c4311da9a8098e84de07e8d2d85107e/sklearn2pmml-0.99.2.tar.gz
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/f0/d2/af952f7cc92d686329de051179e5f7321668ba5f18ed8bbd911e2766160b/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/09/9f/86e934fbfcec690144ffd65bd5faa975ba2dbf1896364cbaad21f36d0be6/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-l10n-ro-config/17.0.1.1.0.1-17.0.1.2.0/README.md --exclude *.pyd
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-04-25 06:50:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-l10n-ro-account-edi-ubl/16.0.1.48.0-16.0.1.48.0.1/README.md --exclude *.pyd
+[2024-04-25 06:50:30] INFO root fetch - processPackages [homelinkpython]: Downloading https://files.pythonhosted.org/packages/f7/d9/667bef2b5096f32f6bdf697d426845324531a0c46e4b0b4f4a0d1e51d279/homelinkpython-1.0.1.tar.gz
+[2024-04-25 06:50:30] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/89/8f/3e5efb90953a1e03cf14c36055c72a2f20b5711c9a77e357e2c153e852d6/ofnodes-1.7.1.tar.gz
+[2024-04-25 06:50:31] INFO root fetch - processPackages [homelinkpython]: executing diffoscope
+[2024-04-25 06:50:31] INFO root fetch - processPackages [homelinkpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homelinkpython-1.0.tar.gz tmp/homelinkpython-1.0.1.tar.gz --markdown 20240425/h/homelinkpython/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-25 06:50:31] INFO root fetch - processPackages [ofnodes]: executing diffoscope
+[2024-04-25 06:50:31] INFO root fetch - processPackages [ofnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofnodes-1.7.0.tar.gz tmp/ofnodes-1.7.1.tar.gz --markdown 20240425/o/ofnodes/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-04-25 06:50:31] INFO root fetch - processPackages [homelinkpython]: Remove: archive file [/home/abi/fetcher/tmp/homelinkpython-1.0.tar.gz]
+[2024-04-25 06:50:31] INFO root fetch - processPackages [homelinkpython]: Remove: archive file [/home/abi/fetcher/tmp/homelinkpython-1.0.1.tar.gz]
+[2024-04-25 06:50:31] INFO root fetch - main [MainThread]: End processing [homelinkpython]: success
+[2024-04-25 06:50:31] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/85/79/363259bb11041d70c9ae8a5f3258d58b4b7ccb8ceee0294b75162f882252/sklearn2pmml-0.99.3.tar.gz
+[2024-04-25 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-25 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-25 06:50:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2024-04-25 06:50:31] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.7.0.tar.gz]
+[2024-04-25 06:50:31] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-1.7.1.tar.gz]
+[2024-04-25 06:50:31] INFO root fetch - main [MainThread]: End processing [ofnodes]: success
+[2024-04-25 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl.zip]
+[2024-04-25 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip]
+[2024-04-25 06:50:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2024-04-25 06:50:32] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2024-04-25 06:50:32] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.99.2.tar.gz tmp/sklearn2pmml-0.99.3.tar.gz --markdown 20240425/s/sklearn2pmml/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-04-25 06:51:50] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.2.tar.gz]
+[2024-04-25 06:51:50] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.3.tar.gz]
+[2024-04-25 06:51:50] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2024-04-25 06:51:50] INFO root fetch - main [MainThread]: Store serial: [22925301]
