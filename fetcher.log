@@ -14730,3 +14730,63 @@
 [2024-04-25 10:11:06] INFO root fetch - processPackages [pandablocks]: Remove: archive file [/home/abi/fetcher/tmp/pandablocks-0.8.0.tar.gz]
 [2024-04-25 10:11:06] INFO root fetch - main [MainThread]: End processing [pandablocks]: success
 [2024-04-25 10:11:06] INFO root fetch - main [MainThread]: Store serial: [22927015]
+[2024-04-25 10:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927015]
+[2024-04-25 10:13:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsrestclient
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsm-django-socialauth
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gio-importer
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sep005-io-fast
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anemoi-datasets
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlx-executor
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ellar
+[2024-04-25 10:13:17] INFO root fetch - processPackages [dsm-django-socialauth]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 10:13:17] INFO root fetch - processPackages [gio-importer]: New version: [1.1.4] Old Version: [1.1.2]
+[2024-04-25 10:13:17] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/5d/f9/9c11ab0849df799e3f45432528010233757706427e1cc81b64e02341dede/dsm-django-socialauth-1.0.8.tar.gz
+[2024-04-25 10:13:17] INFO root fetch - processPackages [anemoi-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 10:13:17] WARNING root fetch - processPackages [sep005-io-fast]: Skipping, unable to determine old version
+[2024-04-25 10:13:17] INFO root fetch - main [MainThread]: End processing [sep005-io-fast] error
+[2024-04-25 10:13:17] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/52/45/daf3ed61f55ea268c8fee3618311af2f0b1f2146f42ff73f55a84e5f8f3b/gio_importer-1.1.2.tar.gz
+[2024-04-25 10:13:17] INFO root fetch - processPackages [lsrestclient]: New version: [2.0.0] Old Version: [1.5.2]
+[2024-04-25 10:13:17] INFO root fetch - processPackages [sqlx-executor]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-25 10:13:17] INFO root fetch - processPackages [ellar]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-25 10:13:17] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/8c/aa/089c42588b3e9ea87ea30dc296d13aa9df5baa5822d37bbb19fc2731df4f/dsm-django-socialauth-1.0.9.tar.gz
+[2024-04-25 10:13:17] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/69/fe/4d75eac3cad14d5591ed9a27dcabbef153bed186371e9364869f1393b468/anemoi-datasets-0.1.0.tar.gz
+[2024-04-25 10:13:17] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/85/18/3bf2d1ec26e72e810cfead0bedcdd6c5e37f6162c3b261ae41c76418d499/lsrestclient-1.5.2.tar.gz
+[2024-04-25 10:13:17] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/39/d7/d76d10ff9d683ef03180c1374c9d4bd31bb6ca1f777ccbadc66f138329d3/gio_importer-1.1.4.tar.gz
+[2024-04-25 10:13:18] INFO root fetch - processPackages [ellar]: Downloading https://files.pythonhosted.org/packages/cd/50/94175d775ea8ae893079f0a4195e093e93505a5f7ddeefb9828482e39061/ellar-0.7.3.tar.gz
+[2024-04-25 10:13:18] INFO root fetch - processPackages [sqlx-executor]: Downloading https://files.pythonhosted.org/packages/e8/0a/1ab23221a6776040185f3c0dea4b232280d65e90e6fc22ca5a9d95b109b3/sqlx-executor-1.1.5.tar.gz
+[2024-04-25 10:13:18] INFO root fetch - processPackages [dsm-django-socialauth]: executing diffoscope
+[2024-04-25 10:13:18] INFO root fetch - processPackages [dsm-django-socialauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm-django-socialauth-1.0.8.tar.gz tmp/dsm-django-socialauth-1.0.9.tar.gz --markdown 20240425/d/dsm-django-socialauth/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 10:13:18] INFO root fetch - processPackages [gio-importer]: executing diffoscope
+[2024-04-25 10:13:18] INFO root fetch - processPackages [gio-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gio_importer-1.1.2.tar.gz tmp/gio_importer-1.1.4.tar.gz --markdown 20240425/g/gio-importer/1.1.2-1.1.4/README.md --exclude *.pyd
+[2024-04-25 10:13:18] INFO root fetch - processPackages [lsrestclient]: Downloading https://files.pythonhosted.org/packages/09/ff/c66454e24ef91d29e998f9cad91427a738716b859132e6f1d6249eaad5ee/lsrestclient-2.0.0.tar.gz
+[2024-04-25 10:13:18] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/4f/2e/ec05bc9b637157d5d3d2339d69a23e87fdbdd29f8bc86e10d5e18bce9106/anemoi-datasets-0.1.1.tar.gz
+[2024-04-25 10:13:18] INFO root fetch - processPackages [sqlx-executor]: Downloading https://files.pythonhosted.org/packages/80/6d/1cac4583a90778664edc47d4140139d95ecc799550345a132c029f494ab5/sqlx-executor-1.1.6.tar.gz
+[2024-04-25 10:13:18] INFO root fetch - processPackages [anemoi-datasets]: executing diffoscope
+[2024-04-25 10:13:18] INFO root fetch - processPackages [anemoi-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi-datasets-0.1.0.tar.gz tmp/anemoi-datasets-0.1.1.tar.gz --markdown 20240425/a/anemoi-datasets/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 10:13:18] INFO root fetch - processPackages [ellar]: Downloading https://files.pythonhosted.org/packages/23/80/defedb2b0f53efca8e0fbba2a2faef063621f294e24233c91a812be2685e/ellar-0.7.4.tar.gz
+[2024-04-25 10:13:18] INFO root fetch - processPackages [lsrestclient]: executing diffoscope
+[2024-04-25 10:13:18] INFO root fetch - processPackages [lsrestclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsrestclient-1.5.2.tar.gz tmp/lsrestclient-2.0.0.tar.gz --markdown 20240425/l/lsrestclient/1.5.2-2.0.0/README.md --exclude *.pyd
+[2024-04-25 10:13:18] INFO root fetch - processPackages [sqlx-executor]: executing diffoscope
+[2024-04-25 10:13:18] INFO root fetch - processPackages [sqlx-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-executor-1.1.5.tar.gz tmp/sqlx-executor-1.1.6.tar.gz --markdown 20240425/s/sqlx-executor/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-25 10:13:18] INFO root fetch - processPackages [ellar]: executing diffoscope
+[2024-04-25 10:13:18] INFO root fetch - processPackages [ellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellar-0.7.3.tar.gz tmp/ellar-0.7.4.tar.gz --markdown 20240425/e/ellar/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-25 10:13:18] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.8.tar.gz]
+[2024-04-25 10:13:18] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.9.tar.gz]
+[2024-04-25 10:13:18] INFO root fetch - main [MainThread]: End processing [dsm-django-socialauth]: success
+[2024-04-25 10:13:18] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.1.2.tar.gz]
+[2024-04-25 10:13:18] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.1.4.tar.gz]
+[2024-04-25 10:13:18] INFO root fetch - main [MainThread]: End processing [gio-importer]: success
+[2024-04-25 10:13:19] INFO root fetch - processPackages [lsrestclient]: Remove: archive file [/home/abi/fetcher/tmp/lsrestclient-1.5.2.tar.gz]
+[2024-04-25 10:13:19] INFO root fetch - processPackages [lsrestclient]: Remove: archive file [/home/abi/fetcher/tmp/lsrestclient-2.0.0.tar.gz]
+[2024-04-25 10:13:19] INFO root fetch - main [MainThread]: End processing [lsrestclient]: success
+[2024-04-25 10:13:19] INFO root fetch - processPackages [sqlx-executor]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-executor-1.1.5.tar.gz]
+[2024-04-25 10:13:19] INFO root fetch - processPackages [sqlx-executor]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-executor-1.1.6.tar.gz]
+[2024-04-25 10:13:19] INFO root fetch - main [MainThread]: End processing [sqlx-executor]: success
+[2024-04-25 10:13:19] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-datasets-0.1.0.tar.gz]
+[2024-04-25 10:13:19] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-datasets-0.1.1.tar.gz]
+[2024-04-25 10:13:19] INFO root fetch - main [MainThread]: End processing [anemoi-datasets]: success
+[2024-04-25 10:13:20] INFO root fetch - processPackages [ellar]: Remove: archive file [/home/abi/fetcher/tmp/ellar-0.7.3.tar.gz]
+[2024-04-25 10:13:20] INFO root fetch - processPackages [ellar]: Remove: archive file [/home/abi/fetcher/tmp/ellar-0.7.4.tar.gz]
+[2024-04-25 10:13:20] INFO root fetch - main [MainThread]: End processing [ellar]: success
+[2024-04-25 10:13:20] INFO root fetch - main [MainThread]: Store serial: [22927038]
