@@ -20379,3 +20379,48 @@
 [2024-04-25 12:45:01] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.7.2.tar.gz]
 [2024-04-25 12:45:01] INFO root fetch - main [MainThread]: End processing [teapy]: success
 [2024-04-25 12:45:01] INFO root fetch - main [MainThread]: Store serial: [22929064]
+[2024-04-25 12:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929064]
+[2024-04-25 12:47:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: natter
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensr-utils
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: journeylib
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dforge
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: annoread
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecv-python-development
+[2024-04-25 12:47:10] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.44] Old Version: [0.0.43]
+[2024-04-25 12:47:10] INFO root fetch - processPackages [annoread]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 12:47:10] WARNING root fetch - processPackages [natter]: Skipping, unable to determine old version
+[2024-04-25 12:47:10] INFO root fetch - main [MainThread]: End processing [natter] error
+[2024-04-25 12:47:10] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 12:47:10] INFO root fetch - processPackages [dforge]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-25 12:47:10] WARNING root fetch - processPackages [journeylib]: Skipping, unable to determine old version
+[2024-04-25 12:47:10] INFO root fetch - main [MainThread]: End processing [journeylib] error
+[2024-04-25 12:47:10] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/0c/e4/813307dd36d95fd45a3fea7a01c6094f28267a87a5d24bcf77e7f1cd2b6f/ecv-python-development-0.0.43.tar.gz
+[2024-04-25 12:47:10] INFO root fetch - processPackages [annoread]: Downloading https://files.pythonhosted.org/packages/6d/a2/a2871ee579f99cf179d739da93f62bf306351e492edddfdd6c7582b09ace/annoread-0.1.1.tar.gz
+[2024-04-25 12:47:10] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/3e/cd/a7947c914c9d4ad9622cdfc08e5545f6d97cc93506034ccbe2c9b62d440a/dforge-2.1.4.tar.gz
+[2024-04-25 12:47:11] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 12:47:11] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 12:47:11] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 12:47:11] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ac/52/708a28132c1a15cfe706ac198626d87d05258425dc0ae848c55f68907691/ecv-python-development-0.0.44.tar.gz
+[2024-04-25 12:47:11] INFO root fetch - processPackages [annoread]: Downloading https://files.pythonhosted.org/packages/42/c9/bb1fb75b83c786ad6d0c41bf1f3a750cb4e08d01cc1831b666de8fd5ff6b/annoread-0.1.2.tar.gz
+[2024-04-25 12:47:11] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 12:47:11] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.43.tar.gz tmp/ecv-python-development-0.0.44.tar.gz --markdown 20240425/e/ecv-python-development/0.0.43-0.0.44/README.md --exclude *.pyd
+[2024-04-25 12:47:11] INFO root fetch - processPackages [dforge]: Downloading https://files.pythonhosted.org/packages/69/e5/60c0d6297d83c15343ec8abfb61f80fb4e97f267259b54698bb63ef218bf/dforge-2.1.5.tar.gz
+[2024-04-25 12:47:11] INFO root fetch - processPackages [annoread]: executing diffoscope
+[2024-04-25 12:47:11] INFO root fetch - processPackages [annoread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annoread-0.1.1.tar.gz tmp/annoread-0.1.2.tar.gz --markdown 20240425/a/annoread/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 12:47:11] INFO root fetch - processPackages [dforge]: executing diffoscope
+[2024-04-25 12:47:11] INFO root fetch - processPackages [dforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dforge-2.1.4.tar.gz tmp/dforge-2.1.5.tar.gz --markdown 20240425/d/dforge/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-25 12:47:11] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 12:47:11] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.43.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.44.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 12:47:11] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-2.1.4.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - processPackages [dforge]: Remove: archive file [/home/abi/fetcher/tmp/dforge-2.1.5.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - main [MainThread]: End processing [dforge]: success
+[2024-04-25 12:47:11] INFO root fetch - processPackages [annoread]: Remove: archive file [/home/abi/fetcher/tmp/annoread-0.1.1.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - processPackages [annoread]: Remove: archive file [/home/abi/fetcher/tmp/annoread-0.1.2.tar.gz]
+[2024-04-25 12:47:11] INFO root fetch - main [MainThread]: End processing [annoread]: success
+[2024-04-25 12:47:11] INFO root fetch - main [MainThread]: Store serial: [22929087]
