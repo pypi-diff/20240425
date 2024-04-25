@@ -17364,3 +17364,162 @@
 [2024-04-25 10:58:14] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.1.2.tar.gz]
 [2024-04-25 10:58:14] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
 [2024-04-25 10:58:14] INFO root fetch - main [MainThread]: Store serial: [22927810]
+[2024-04-25 11:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927810]
+[2024-04-25 11:00:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: futu-api
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: next-api-starter
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctrip-app-ui
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fs-attestation-safe-cli
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ao3statscraper
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-model-analysis
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-nested-modals
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nigsp
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webthing-client
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moomoo-api
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ao3statscraper]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [webthing-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [fs-attestation-safe-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [next-api-starter]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [futu-api]: New version: [8.2.4208] Old Version: [8.1.4108]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [moomoo-api]: New version: [8.2.4208] Old Version: [8.1.4108]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [django-nested-modals]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [nigsp]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/c6/4d/c6125f7129efdecf22d94efa6a6aad76af8faa2f29df77b8fd1bad369f94/ctrip-app-ui-0.0.8.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [tensorflow-model-analysis]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-25 11:00:32] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/21/a4/d8640c8ecd138165058b2419a24b79fdf6268b5e41686afe0cc6b1f83c01/webthing_client-0.2.8.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ao3statscraper]: Downloading https://files.pythonhosted.org/packages/f4/20/dd89eba190da35280afc80f1b89e1ef320229e5354fc16bb5ff2e9ffcad9/ao3statscraper-0.0.2.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [futu-api]: Downloading https://files.pythonhosted.org/packages/32/7c/0afbdc456a690c64aaa5cc597cddc98a544e3a9ea8ab95d469a6391555be/futu-api-8.1.4108.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [fs-attestation-safe-cli]: Downloading https://files.pythonhosted.org/packages/76/84/0a1c882a34c99179d6926c4feab339f6f768dbfd4379bfdc35da48513200/fs_attestation_safe_cli-1.0.0.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [next-api-starter]: Downloading https://files.pythonhosted.org/packages/b6/2a/5e179b28375e443726167b8a4610aa62c25eebb3817e18d1cc6e8420ce1c/next_api_starter-0.1.3.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [django-nested-modals]: Downloading https://files.pythonhosted.org/packages/40/7e/9718d29e77b9ed488f1c02d4575e3b54c2599bf3c7818f330798e0e27e28/django-nested-modals-0.0.8.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [moomoo-api]: Downloading https://files.pythonhosted.org/packages/41/1c/2ac090d127449196ee07d9e2ac91be0470950224df8982c7768d512862c6/moomoo-api-8.1.4108.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [nigsp]: Downloading https://files.pythonhosted.org/packages/64/43/5b5f45ae17335a88ba0d508ddb8452e3fcf90bf052af8f7c4753aac58f13/nigsp-0.8.0.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [tensorflow-model-analysis]: Downloading https://files.pythonhosted.org/packages/70/39/d7cb1f0a70d45415d2189a38b248b0fb994d119f00b95ade43e621170109/tensorflow_model_analysis-0.9.1.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/ac/3d/39e1cb251947a305e1b12a9f9801f3c7d9d3380edc79c2305d02d26eb182/webthing_client-0.2.9.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/a6/ee/941fa075585f1ee6e9541df7715c3a63364704a273cbaf81708051ee35a8/ctrip-app-ui-0.0.9.tar.gz
+[2024-04-25 11:00:32] INFO root fetch - processPackages [webthing-client]: executing diffoscope
+[2024-04-25 11:00:32] INFO root fetch - processPackages [webthing-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webthing_client-0.2.8.tar.gz tmp/webthing_client-0.2.9.tar.gz --markdown 20240425/w/webthing-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 11:00:32] INFO root fetch - processPackages [futu-api]: Downloading https://files.pythonhosted.org/packages/af/e8/e16800b741844d646acc51d80aa01724d10f771dc60cac101873022b0b14/futu-api-8.2.4208.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [ao3statscraper]: Downloading https://files.pythonhosted.org/packages/3f/2a/f00622d14b7f44204aa377638b503e8546ce83f0e034cb488bb98501b9e0/ao3statscraper-0.1.0.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [next-api-starter]: Downloading https://files.pythonhosted.org/packages/0c/a9/f699743737cefdfef01367cad760c65663af278c049224b05faee017dfb1/next_api_starter-0.1.4.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.0.8.tar.gz tmp/ctrip-app-ui-0.0.9.tar.gz --markdown 20240425/c/ctrip-app-ui/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: Downloading https://files.pythonhosted.org/packages/89/d7/e0809b3246a957323b6922aab71a5b9e28d74bfa570c322b42c317392a8c/fs_attestation_safe_cli-1.0.1.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [ao3statscraper]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [ao3statscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ao3statscraper-0.0.2.tar.gz tmp/ao3statscraper-0.1.0.tar.gz --markdown 20240425/a/ao3statscraper/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [futu-api]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [futu-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/futu-api-8.1.4108.tar.gz tmp/futu-api-8.2.4208.tar.gz --markdown 20240425/f/futu-api/8.1.4108-8.2.4208/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [moomoo-api]: Downloading https://files.pythonhosted.org/packages/79/69/0adf6a669f4a8b5969a3031c48e7510dec9d2ce5d524cdd0395c2b9746d5/moomoo-api-8.2.4208.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [next-api-starter]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [next-api-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/next_api_starter-0.1.3.tar.gz tmp/next_api_starter-0.1.4.tar.gz --markdown 20240425/n/next-api-starter/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [nigsp]: Downloading https://files.pythonhosted.org/packages/d1/87/103008752869acdaf5ffa22f049660a5009652d8babbfa6c3f5fb5da6051/nigsp-0.9.0.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [fs-attestation-safe-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_attestation_safe_cli-1.0.0.tar.gz tmp/fs_attestation_safe_cli-1.0.1.tar.gz --markdown 20240425/f/fs-attestation-safe-cli/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [django-nested-modals]: Downloading https://files.pythonhosted.org/packages/80/56/fb90e568ee7b409510b109e89123d0b8aaca9dffb24d222574e2b361fc64/django-nested-modals-0.0.9.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [tensorflow-model-analysis]: Downloading https://files.pythonhosted.org/packages/9c/d5/4fd3bd99e8be45617aeab38e16bec841d07276859f0463c9fd387bf0415a/tensorflow_model_analysis-0.9.2.tar.gz
+[2024-04-25 11:00:33] INFO root fetch - processPackages [moomoo-api]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [moomoo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moomoo-api-8.1.4108.tar.gz tmp/moomoo-api-8.2.4208.tar.gz --markdown 20240425/m/moomoo-api/8.1.4108-8.2.4208/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [django-nested-modals]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [django-nested-modals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-nested-modals-0.0.8.tar.gz tmp/django-nested-modals-0.0.9.tar.gz --markdown 20240425/d/django-nested-modals/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [nigsp]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [nigsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nigsp-0.8.0.tar.gz tmp/nigsp-0.9.0.tar.gz --markdown 20240425/n/nigsp/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 11:00:33] INFO root fetch - processPackages [tensorflow-model-analysis]: executing diffoscope
+[2024-04-25 11:00:33] INFO root fetch - processPackages [tensorflow-model-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_model_analysis-0.9.1.tar.gz tmp/tensorflow_model_analysis-0.9.2.tar.gz --markdown 20240425/t/tensorflow-model-analysis/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-25 11:00:34] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.8.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.9.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [webthing-client]: Start processing: netsuitesdk
+[2024-04-25 11:00:34] INFO root fetch - main [MainThread]: End processing [webthing-client]: success
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.8.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.9.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ctrip-app-ui]: Start processing: resty-client
+[2024-04-25 11:00:34] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 11:00:34] INFO root fetch - processPackages [netsuitesdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [resty-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ao3statscraper]: Remove: archive file [/home/abi/fetcher/tmp/ao3statscraper-0.0.2.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ao3statscraper]: Remove: archive file [/home/abi/fetcher/tmp/ao3statscraper-0.1.0.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ao3statscraper]: Start processing: r-shepard
+[2024-04-25 11:00:34] INFO root fetch - main [MainThread]: End processing [ao3statscraper]: success
+[2024-04-25 11:00:34] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/e5/08/0a16a5ae184a2bcd174b7255fe02bb05ffe69fd215ac0b74729faa6da08a/netsuitesdk-2.8.0.tar.gz
+[2024-04-25 11:00:34] INFO root fetch - processPackages [next-api-starter]: Remove: archive file [/home/abi/fetcher/tmp/next_api_starter-0.1.3.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [next-api-starter]: Remove: archive file [/home/abi/fetcher/tmp/next_api_starter-0.1.4.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [next-api-starter]: Start processing: ibm-watson-machine-learning
+[2024-04-25 11:00:34] INFO root fetch - main [MainThread]: End processing [next-api-starter]: success
+[2024-04-25 11:00:34] WARNING root fetch - processPackages [r-shepard]: Skipping, unable to determine old version
+[2024-04-25 11:00:34] INFO root fetch - processPackages [r-shepard]: Start processing: atomic-bomb-engine
+[2024-04-25 11:00:34] INFO root fetch - main [MainThread]: End processing [r-shepard] error
+[2024-04-25 11:00:34] INFO root fetch - processPackages [fs-attestation-safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/fs_attestation_safe_cli-1.0.0.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [resty-client]: Downloading https://files.pythonhosted.org/packages/97/0a/147b8ae04a3c789b388caa4b5ec8185c07bd8846ad6646a07ad652ed8c14/resty_client-0.0.3.tar.gz
+[2024-04-25 11:00:34] INFO root fetch - processPackages [fs-attestation-safe-cli]: Remove: archive file [/home/abi/fetcher/tmp/fs_attestation_safe_cli-1.0.1.tar.gz]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [fs-attestation-safe-cli]: Start processing: can-j1939-ttpsc
+[2024-04-25 11:00:34] INFO root fetch - main [MainThread]: End processing [fs-attestation-safe-cli]: success
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [can-j1939-ttpsc]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 11:00:34] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2024-04-25 11:00:34] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/f4/b0/f6cad2ab7a9d5d66e6245bbb1a53d175f89152e49f7c8d2d01e6e17453f7/netsuitesdk-2.9.0.tar.gz
+[2024-04-25 11:00:34] INFO root fetch - processPackages [resty-client]: Downloading https://files.pythonhosted.org/packages/c4/08/de3220d4bb4a52222fa4c50ee2a46aeceaf722a9fc6a270cd16a0b6a43ed/resty_client-0.0.4.tar.gz
+[2024-04-25 11:00:35] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-25 11:00:35] INFO root fetch - processPackages [can-j1939-ttpsc]: Downloading https://files.pythonhosted.org/packages/7e/fe/ff193f281a95697b8645c79cf2fd60574dbf7fd713a4f9eb57c95cb324b5/can-j1939-ttpsc-1.0.2.tar.gz
+[2024-04-25 11:00:35] INFO root fetch - processPackages [futu-api]: Remove: archive file [/home/abi/fetcher/tmp/futu-api-8.1.4108.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [futu-api]: Remove: archive file [/home/abi/fetcher/tmp/futu-api-8.2.4208.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [futu-api]: Start processing: django-text-translator
+[2024-04-25 11:00:35] INFO root fetch - main [MainThread]: End processing [futu-api]: success
+[2024-04-25 11:00:35] INFO root fetch - processPackages [django-text-translator]: New version: [2024.4.25.1] Old Version: [2024.4.25]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [nigsp]: Remove: archive file [/home/abi/fetcher/tmp/nigsp-0.8.0.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [nigsp]: Remove: archive file [/home/abi/fetcher/tmp/nigsp-0.9.0.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [nigsp]: Start processing: imesh
+[2024-04-25 11:00:35] INFO root fetch - main [MainThread]: End processing [nigsp]: success
+[2024-04-25 11:00:35] INFO root fetch - processPackages [moomoo-api]: Remove: archive file [/home/abi/fetcher/tmp/moomoo-api-8.1.4108.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [moomoo-api]: Remove: archive file [/home/abi/fetcher/tmp/moomoo-api-8.2.4208.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - main [MainThread]: End processing [moomoo-api]: success
+[2024-04-25 11:00:35] INFO root fetch - processPackages [resty-client]: executing diffoscope
+[2024-04-25 11:00:35] INFO root fetch - processPackages [resty-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resty_client-0.0.3.tar.gz tmp/resty_client-0.0.4.tar.gz --markdown 20240425/r/resty-client/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 11:00:35] INFO root fetch - processPackages [netsuitesdk]: executing diffoscope
+[2024-04-25 11:00:35] INFO root fetch - processPackages [netsuitesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuitesdk-2.8.0.tar.gz tmp/netsuitesdk-2.9.0.tar.gz --markdown 20240425/n/netsuitesdk/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-25 11:00:35] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/7e/4b/d1a531a5b6ddc8897c74fb863fc92db1c6183e33b754865e0bc0e1d5ec20/django_text_translator-2024.4.25.tar.gz
+[2024-04-25 11:00:35] INFO root fetch - processPackages [imesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [django-nested-modals]: Remove: archive file [/home/abi/fetcher/tmp/django-nested-modals-0.0.8.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - processPackages [django-nested-modals]: Remove: archive file [/home/abi/fetcher/tmp/django-nested-modals-0.0.9.tar.gz]
+[2024-04-25 11:00:35] INFO root fetch - main [MainThread]: End processing [django-nested-modals]: success
+[2024-04-25 11:00:35] INFO root fetch - processPackages [can-j1939-ttpsc]: Downloading https://files.pythonhosted.org/packages/ca/31/71a58e466c3673af5421bc5ca9ea3e9bef1b70fe0cdda9285cbb56e0acd5/can-j1939-ttpsc-1.0.3.tar.gz
+[2024-04-25 11:00:35] INFO root fetch - processPackages [can-j1939-ttpsc]: executing diffoscope
+[2024-04-25 11:00:35] INFO root fetch - processPackages [can-j1939-ttpsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/can-j1939-ttpsc-1.0.2.tar.gz tmp/can-j1939-ttpsc-1.0.3.tar.gz --markdown 20240425/c/can-j1939-ttpsc/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 11:00:35] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-25 11:00:35] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/f8/11/fbb815700a24d95cfbe7365213d0aee80141c751106cf6f5ca79461d9263/imesh-0.0.8.tar.gz
+[2024-04-25 11:00:35] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2024-04-25 11:00:35] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/65/d5/beca2044d1b36d9a70d05aad8f203ea6e70bfd3d38166f2ae1c4cce35294/django_text_translator-2024.4.25.1.tar.gz
+[2024-04-25 11:00:35] INFO root fetch - processPackages [django-text-translator]: executing diffoscope
+[2024-04-25 11:00:35] INFO root fetch - processPackages [django-text-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_text_translator-2024.4.25.tar.gz tmp/django_text_translator-2024.4.25.1.tar.gz --markdown 20240425/d/django-text-translator/2024.4.25-2024.4.25.1/README.md --exclude *.pyd
+[2024-04-25 11:00:35] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-25 11:00:35] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240425/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 11:00:35] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2024-04-25 11:00:35] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20240425/i/ibm-watson-machine-learning/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-04-25 11:00:36] INFO root fetch - processPackages [imesh]: Downloading https://files.pythonhosted.org/packages/9b/8d/a9d2b6ef3ee8c478fed84a6db20ce40bbc8121280b7ede35f9e98d939a5d/imesh-0.0.9.tar.gz
+[2024-04-25 11:00:36] INFO root fetch - processPackages [resty-client]: Remove: archive file [/home/abi/fetcher/tmp/resty_client-0.0.3.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - processPackages [resty-client]: Remove: archive file [/home/abi/fetcher/tmp/resty_client-0.0.4.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - main [MainThread]: End processing [resty-client]: success
+[2024-04-25 11:00:36] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.8.0.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.9.0.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - main [MainThread]: End processing [netsuitesdk]: success
+[2024-04-25 11:00:36] INFO root fetch - processPackages [imesh]: executing diffoscope
+[2024-04-25 11:00:36] INFO root fetch - processPackages [imesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imesh-0.0.8.tar.gz tmp/imesh-0.0.9.tar.gz --markdown 20240425/i/imesh/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 11:00:36] INFO root fetch - processPackages [can-j1939-ttpsc]: Remove: archive file [/home/abi/fetcher/tmp/can-j1939-ttpsc-1.0.2.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - processPackages [can-j1939-ttpsc]: Remove: archive file [/home/abi/fetcher/tmp/can-j1939-ttpsc-1.0.3.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - main [MainThread]: End processing [can-j1939-ttpsc]: success
+[2024-04-25 11:00:36] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.25.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.25.1.tar.gz]
+[2024-04-25 11:00:36] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
+[2024-04-25 11:00:36] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-25 11:00:36] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-25 11:00:36] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-25 11:00:37] INFO root fetch - processPackages [tensorflow-model-analysis]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_model_analysis-0.9.1.tar.gz]
+[2024-04-25 11:00:37] INFO root fetch - processPackages [tensorflow-model-analysis]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_model_analysis-0.9.2.tar.gz]
+[2024-04-25 11:00:37] INFO root fetch - main [MainThread]: End processing [tensorflow-model-analysis]: success
+[2024-04-25 11:00:37] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.8.tar.gz]
+[2024-04-25 11:00:37] INFO root fetch - processPackages [imesh]: Remove: archive file [/home/abi/fetcher/tmp/imesh-0.0.9.tar.gz]
+[2024-04-25 11:00:37] INFO root fetch - main [MainThread]: End processing [imesh]: success
+[2024-04-25 11:00:39] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.96.tar.gz]
+[2024-04-25 11:00:39] INFO root fetch - processPackages [ibm-watson-machine-learning]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watson_machine_learning-1.0.99.tar.gz]
+[2024-04-25 11:00:39] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2024-04-25 11:00:39] INFO root fetch - main [MainThread]: Store serial: [22927872]
