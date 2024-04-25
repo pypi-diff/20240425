@@ -3929,3 +3929,120 @@
 [2024-04-25 03:02:20] INFO root fetch - processPackages [jx-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/jx_sqlite-5.607.24116.tar.gz]
 [2024-04-25 03:02:20] INFO root fetch - main [MainThread]: End processing [jx-sqlite]: success
 [2024-04-25 03:02:20] INFO root fetch - main [MainThread]: Store serial: [22922599]
+[2024-04-25 03:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922599]
+[2024-04-25 03:04:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: progress-api
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sandal
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: davml
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycde
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-bedrock-runtime
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-acm
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-waf
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-internetmonitor
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-codecatalyst
+[2024-04-25 03:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-keyspaces
+[2024-04-25 03:04:29] INFO root fetch - processPackages [davml]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [progress-api]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [davml]: Downloading https://files.pythonhosted.org/packages/6f/2d/6d1371ab0f269bae1c597990cd60f6d8291282c868193b60efffa15d5b68/davml-1.1.1.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [sandal]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-internetmonitor]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-keyspaces]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-waf]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-codecatalyst]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-acm]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev898] Old Version: [0.3.1.dev896]
+[2024-04-25 03:04:29] INFO root fetch - processPackages [progress-api]: Downloading https://files.pythonhosted.org/packages/2a/6e/5f65f6ca985addaf27d3d1333b28d4bf25b240434330c0ee6878449544db/progress-api-0.1.0a3.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [sandal]: Downloading https://files.pythonhosted.org/packages/8c/6c/a06344457d6b028acd2964ebcd02553c41814e59b40007e1e878b6205618/sandal-0.1.0a1.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-internetmonitor]: Downloading https://files.pythonhosted.org/packages/9b/a8/1fa42de549c3219ff87666c23f8b0a74de31e79b3e73738da5324899e6a6/botocore-a-la-carte-internetmonitor-1.34.90.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: Downloading https://files.pythonhosted.org/packages/63/6b/e9ed04b11968aa0d0925aca78484f6485a46bd2116033b4f0c4661a9b3c2/botocore-a-la-carte-bedrock-runtime-1.34.90.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-codecatalyst]: Downloading https://files.pythonhosted.org/packages/0d/5a/427d82b6cb687970cca7fdccc18e2ccc4ccde264ce6e211c5b745e2a6f40/botocore-a-la-carte-codecatalyst-1.34.90.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-waf]: Downloading https://files.pythonhosted.org/packages/1d/d4/48478593ba5719cadc1732e1cc34c9b53105f34360f746195cb132c2677a/botocore-a-la-carte-waf-1.34.90.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Downloading https://files.pythonhosted.org/packages/f0/97/dbf56b1533e6150fa0bb6c4fcce638eed1a1c10e617e7338222846592bd3/botocore-a-la-carte-acm-1.34.90.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [botocore-a-la-carte-keyspaces]: Downloading https://files.pythonhosted.org/packages/53/38/cbda070818b160eed47e5d8169f149057288c33a7bb61c6af8a39b9cc802/botocore-a-la-carte-keyspaces-1.34.90.tar.gz
+[2024-04-25 03:04:29] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/7d/fc/194dd063c997470acedb8472b9b909f7b0f91e519d3f771279b525a5da30/pycde-0.3.1.dev896-cp39-cp39-win_amd64.whl
+[2024-04-25 03:04:29] INFO root fetch - processPackages [davml]: Downloading https://files.pythonhosted.org/packages/bf/5a/916ae00d7623375bd0e4608e1a6147a26e351ad8eee1c1532c398a608538/davml-1.2.0.tar.gz
+[2024-04-25 03:04:30] INFO root fetch - processPackages [progress-api]: Downloading https://files.pythonhosted.org/packages/e4/fb/2f01650bdd645c9522a94a0f01e9d1b7167094ead65996dbed9bd533fa20/progress_api-0.1.0a4.tar.gz
+[2024-04-25 03:04:30] INFO root fetch - processPackages [davml]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [davml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/davml-1.1.1.tar.gz tmp/davml-1.2.0.tar.gz --markdown 20240425/d/davml/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [sandal]: Downloading https://files.pythonhosted.org/packages/e1/d8/a087c32d07a230131ca8b5b86025901e240b774a552300d7460ecaadda91/sandal-0.1.0a2.tar.gz
+[2024-04-25 03:04:30] INFO root fetch - processPackages [progress-api]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [progress-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/progress-api-0.1.0a3.tar.gz tmp/progress_api-0.1.0a4.tar.gz --markdown 20240425/p/progress-api/0.1.0a3-0.1.0a4/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: Downloading https://files.pythonhosted.org/packages/ed/d2/ca47794bf2c8ccef7c45e5257f7d757204408619de21f1ef239ef880b110/botocore_a_la_carte_bedrock_runtime-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-internetmonitor]: Downloading https://files.pythonhosted.org/packages/9e/ea/041f1cf0d5e273a8a615efb121cff00732868fadcb7f5d45776751f2efaf/botocore_a_la_carte_internetmonitor-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:30] INFO root fetch - processPackages [sandal]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [sandal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sandal-0.1.0a1.tar.gz tmp/sandal-0.1.0a2.tar.gz --markdown 20240425/s/sandal/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-waf]: Downloading https://files.pythonhosted.org/packages/1f/19/8cf537d8ca8611f7b362b2260dd23b5eb1e7d3577c389febb630092b6655/botocore_a_la_carte_waf-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-keyspaces]: Downloading https://files.pythonhosted.org/packages/8a/8d/725f7d5043bc31bda994c42248af329d5d52addf207be919dff9de919a6c/botocore_a_la_carte_keyspaces-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Downloading https://files.pythonhosted.org/packages/49/0b/abe55fffc1a4146fa3a2c561651d42d619b7f3943604c3834a12e5a4b722/botocore_a_la_carte_acm-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-codecatalyst]: Downloading https://files.pythonhosted.org/packages/81/09/fee405fee3fbacea1b546be0ccc461106d457935476d389e15d59a25721c/botocore_a_la_carte_codecatalyst-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-bedrock-runtime-1.34.90.tar.gz tmp/botocore_a_la_carte_bedrock_runtime-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-bedrock-runtime/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-internetmonitor]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-internetmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-internetmonitor-1.34.90.tar.gz tmp/botocore_a_la_carte_internetmonitor-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-internetmonitor/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-waf]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-waf-1.34.90.tar.gz tmp/botocore_a_la_carte_waf-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-waf/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-keyspaces]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-keyspaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-keyspaces-1.34.90.tar.gz tmp/botocore_a_la_carte_keyspaces-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-keyspaces/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-acm]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-acm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-acm-1.34.90.tar.gz tmp/botocore_a_la_carte_acm-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-acm/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-codecatalyst]: executing diffoscope
+[2024-04-25 03:04:30] INFO root fetch - processPackages [botocore-a-la-carte-codecatalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-codecatalyst-1.34.90.tar.gz tmp/botocore_a_la_carte_codecatalyst-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-codecatalyst/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:30] INFO root fetch - processPackages [davml]: Remove: archive file [/home/abi/fetcher/tmp/davml-1.1.1.tar.gz]
+[2024-04-25 03:04:30] INFO root fetch - processPackages [davml]: Remove: archive file [/home/abi/fetcher/tmp/davml-1.2.0.tar.gz]
+[2024-04-25 03:04:30] INFO root fetch - processPackages [davml]: Start processing: botocore-a-la-carte-finspace-data
+[2024-04-25 03:04:30] INFO root fetch - main [MainThread]: End processing [davml]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [progress-api]: Remove: archive file [/home/abi/fetcher/tmp/progress-api-0.1.0a3.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [progress-api]: Remove: archive file [/home/abi/fetcher/tmp/progress_api-0.1.0a4.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [progress-api]: Start processing: botocore-a-la-carte-signer
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [progress-api]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-bedrock-runtime-1.34.90.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_bedrock_runtime-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-bedrock-runtime]: Start processing: botocore-a-la-carte-trustedadvisor
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-bedrock-runtime]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [sandal]: Remove: archive file [/home/abi/fetcher/tmp/sandal-0.1.0a1.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [sandal]: Remove: archive file [/home/abi/fetcher/tmp/sandal-0.1.0a2.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [sandal]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-internetmonitor]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-internetmonitor-1.34.90.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-internetmonitor]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_internetmonitor-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-internetmonitor]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: Downloading https://files.pythonhosted.org/packages/12/82/b6de3f2876c3f8e5be08b9b7d9dc716525b8eb6b94d580103ef15a24ca99/botocore-a-la-carte-finspace-data-1.34.90.tar.gz
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-keyspaces]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-keyspaces-1.34.90.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-keyspaces]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_keyspaces-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-keyspaces]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-acm-1.34.90.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-acm]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_acm-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-acm]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-codecatalyst]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codecatalyst-1.34.90.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-codecatalyst]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_codecatalyst-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-codecatalyst]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-signer]: New version: [1.34.91] Old Version: [1.34.90]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-waf]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-waf-1.34.90.tar.gz]
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-waf]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_waf-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:31] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-waf]: success
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Downloading https://files.pythonhosted.org/packages/b7/39/79805195f275f2fd3a5540eb39c4a3690aff01423046cf35084eff62827d/botocore-a-la-carte-trustedadvisor-1.34.90.tar.gz
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-signer]: Downloading https://files.pythonhosted.org/packages/7e/9e/9b929cd13cf3ef69b23ebc8e8424168a3baf0214757a52de07d5dccfd065/botocore-a-la-carte-signer-1.34.90.tar.gz
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: Downloading https://files.pythonhosted.org/packages/78/af/de0d3a6149ddf0ca1a711059ce1678cfd7fe4bc0e0b71229b0a15efca739/botocore_a_la_carte_finspace_data-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: executing diffoscope
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-finspace-data-1.34.90.tar.gz tmp/botocore_a_la_carte_finspace_data-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-finspace-data/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Downloading https://files.pythonhosted.org/packages/4d/c1/5b07e86966d9db37313ec8fd2fe41c56f40de04d1e30e56e401fa3968a21/botocore_a_la_carte_trustedadvisor-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:31] INFO root fetch - processPackages [botocore-a-la-carte-signer]: Downloading https://files.pythonhosted.org/packages/db/f7/dd8483a4084bf6102d3d3c22fb952d2a338f026aab91102305bfd1f6a76a/botocore_a_la_carte_signer-1.34.91-py3-none-any.whl
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: executing diffoscope
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-trustedadvisor-1.34.90.tar.gz tmp/botocore_a_la_carte_trustedadvisor-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-trustedadvisor/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-signer]: executing diffoscope
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-signer-1.34.90.tar.gz tmp/botocore_a_la_carte_signer-1.34.91-py3-none-any.whl.zip --markdown 20240425/b/botocore-a-la-carte-signer/1.34.90-1.34.91/README.md --exclude *.pyd
+[2024-04-25 03:04:32] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/01/70/2473f64ce374753946b9880f830ec8287814f76f3199e34f1cbde5c30b29/pycde-0.3.1.dev898-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-finspace-data-1.34.90.tar.gz]
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-finspace-data]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_finspace_data-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:32] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-finspace-data]: success
+[2024-04-25 03:04:32] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21445907>=10485760
+[2024-04-25 03:04:32] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-trustedadvisor-1.34.90.tar.gz]
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-trustedadvisor]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_trustedadvisor-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:32] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-trustedadvisor]: success
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-signer]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-signer-1.34.90.tar.gz]
+[2024-04-25 03:04:32] INFO root fetch - processPackages [botocore-a-la-carte-signer]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_signer-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 03:04:32] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-signer]: success
+[2024-04-25 03:04:32] INFO root fetch - main [MainThread]: Store serial: [22922629]
