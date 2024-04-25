@@ -22706,3 +22706,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:02:39] INFO root fetch - processPackages [nncf]: Remove: archive file [/home/abi/fetcher/tmp/nncf-2.9.0.tar.gz]
 [2024-04-25 14:02:39] INFO root fetch - main [MainThread]: End processing [nncf]: success
 [2024-04-25 14:02:39] INFO root fetch - main [MainThread]: Store serial: [22930082]
+[2024-04-25 14:04:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930082]
+[2024-04-25 14:04:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 14:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-scheema
+[2024-04-25 14:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-04-25 14:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daves-utilities
+[2024-04-25 14:04:48] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-25 14:04:48] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 14:04:48] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-25 14:04:48] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/41/16/1467db4d90d43a602f2ac770596e59914b3bf7bb48b4d75c4a6428304347/daves_utilities-0.1.7.tar.gz
+[2024-04-25 14:04:48] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-25 14:04:48] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-04-25 14:04:50] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-04-25 14:04:50] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/cf/e0/f413e701522077db439a83f07e84dbe103cb1682a26eeb96166c6aaf7b18/daves_utilities-0.1.8.tar.gz
+[2024-04-25 14:04:50] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-25 14:04:50] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-04-25 14:04:50] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240425/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-25 14:04:50] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2024-04-25 14:04:50] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.7.tar.gz tmp/daves_utilities-0.1.8.tar.gz --markdown 20240425/d/daves-utilities/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 14:04:50] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-25 14:04:50] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240425/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-25 14:04:50] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.7.tar.gz]
+[2024-04-25 14:04:50] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.8.tar.gz]
+[2024-04-25 14:04:50] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2024-04-25 14:04:51] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-04-25 14:04:51] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-04-25 14:04:51] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-04-25 14:04:51] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-25 14:04:51] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-25 14:04:51] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-25 14:04:51] INFO root fetch - main [MainThread]: Store serial: [22930092]
