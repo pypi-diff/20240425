@@ -13442,3 +13442,81 @@
 [2024-04-25 09:24:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-25 09:24:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-25 09:24:30] INFO root fetch - main [MainThread]: Store serial: [22926513]
+[2024-04-25 09:26:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926513]
+[2024-04-25 09:26:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sign-oca
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shii-study
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyorchestra
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AES-Python
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-scheema
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: static_scenario_generator
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redis-mutator
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2024-04-25 09:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fs-tools
+[2024-04-25 09:26:40] INFO root fetch - processPackages [shii-study]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 09:26:40] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.5] Old Version: [0.0.7.4]
+[2024-04-25 09:26:40] INFO root fetch - processPackages [redis-mutator]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 09:26:40] INFO root fetch - processPackages [fs-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 09:26:40] INFO root fetch - processPackages [cg]: New version: [60.3.2] Old Version: [60.3.1]
+[2024-04-25 09:26:40] INFO root fetch - processPackages [AES-Python]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-25 09:26:40] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/ab/e9/72ab9cce834d775175b401513467f9e132c8e42386177fe136f3e21d64e4/shii_study-0.0.1-py2.py3-none-any.whl
+[2024-04-25 09:26:40] INFO root fetch - processPackages [pyorchestra]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-25 09:26:40] WARNING root fetch - processPackages [static_scenario_generator]: Skipping, unable to determine old version
+[2024-04-25 09:26:40] INFO root fetch - main [MainThread]: End processing [static_scenario_generator] error
+[2024-04-25 09:26:40] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-04-25 09:26:40] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/ac/b5/9553313109be23cdb87ec8ae2619875a42d71d4319c32a2f00becbb88853/flask_scheema-0.0.7.4-py3-none-any.whl
+[2024-04-25 09:26:40] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/c3/ef/dde97c30476a631eb198384cb2bba20bb685ab2be6158e27b492780f2781/redis_mutator-0.2.1.tar.gz
+[2024-04-25 09:26:40] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/8e/0f/330551b4229d45d39a447ec77dc563d32b0c87176403eed3b5c1343c7988/fs_tools-0.1.4.tar.gz
+[2024-04-25 09:26:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/13/84/217d4cc20a8824bd5a54a5617e3a143ceb70e794a71661e24eba708c9742/cg-60.3.1.tar.gz
+[2024-04-25 09:26:40] INFO root fetch - processPackages [AES-Python]: Downloading https://files.pythonhosted.org/packages/99/ac/8939405c69716edd88a6eab08b717757f035a1b4d1a87cd4598e393e7d89/aes_python-1.5.2.tar.gz
+[2024-04-25 09:26:40] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/6b/18/16d6e0389897a4913450d1a7bc4da6af0c3305c8f55a8216baf6425fdcbf/pyorchestra-0.6.1.tar.gz
+[2024-04-25 09:26:40] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/06/e7/a32bc2d7064034a8cf653c085a58f2f5b61219f5be0b1be1e2e434efc7e6/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl
+[2024-04-25 09:26:41] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/31/95/88c8c492cb806c8c6fa43caceff7a7c063366ea1034c8ad09d9aed8fc2c8/shii_study-0.0.2-py2.py3-none-any.whl
+[2024-04-25 09:26:41] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/6e/d1/c599a5e88e9d89fe38eca6eaa28553b16f1de9ed1e8b238c010f21a12903/flask_scheema-0.0.7.5-py3-none-any.whl
+[2024-04-25 09:26:41] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/08/1d/a51d037cf5d550b4a6f02daa50115522e8e18a0dd87160801d084fe0b276/redis_mutator-0.2.2.tar.gz
+[2024-04-25 09:26:41] INFO root fetch - processPackages [shii-study]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [shii-study]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shii_study-0.0.1-py2.py3-none-any.whl.zip tmp/shii_study-0.0.2-py2.py3-none-any.whl.zip --markdown 20240425/s/shii-study/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/29/7e/7d75b0606fd9feaa78da506d7c5704d123ba1acaf574d1629e9221bd1259/fs_tools-0.1.5.tar.gz
+[2024-04-25 09:26:41] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.4-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.5-py3-none-any.whl.zip --markdown 20240425/f/flask-scheema/0.0.7.4-0.0.7.5/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [redis-mutator]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [redis-mutator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_mutator-0.2.1.tar.gz tmp/redis_mutator-0.2.2.tar.gz --markdown 20240425/r/redis-mutator/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [AES-Python]: Downloading https://files.pythonhosted.org/packages/a5/50/73d70c1f5956a8a2e2d79cd8e1041d4a2cd641a3bd1769ab2f2db288ee9f/aes_python-1.5.3.tar.gz
+[2024-04-25 09:26:41] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.4.tar.gz tmp/fs_tools-0.1.5.tar.gz --markdown 20240425/f/fs-tools/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/4e/d0/bbd1187164be46ba7f352668a8050736a146d03174bbb9fab9fa2668fad1/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-25 09:26:41] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/fb/13/6d5b199d74db75dd20fc04faa829bf7744f22a7e6e6d6e7d9943102165c0/pyorchestra-0.6.2.tar.gz
+[2024-04-25 09:26:41] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ba/46/574b4e5b3a362edf5866f2dbbf5137566d1c86e752015485c93e1a1719f3/cg-60.3.2.tar.gz
+[2024-04-25 09:26:41] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-sign-oca/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [AES-Python]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [AES-Python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aes_python-1.5.2.tar.gz tmp/aes_python-1.5.3.tar.gz --markdown 20240425/A/AES-Python/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [pyorchestra]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [pyorchestra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorchestra-0.6.1.tar.gz tmp/pyorchestra-0.6.2.tar.gz --markdown 20240425/p/pyorchestra/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-25 09:26:41] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.3.1.tar.gz tmp/cg-60.3.2.tar.gz --markdown 20240425/c/cg/60.3.1-60.3.2/README.md --exclude *.pyd
+[2024-04-25 09:26:41] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-25 09:26:41] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-25 09:26:41] INFO root fetch - main [MainThread]: End processing [shii-study]: success
+[2024-04-25 09:26:42] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.2.1.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.2.2.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - main [MainThread]: End processing [redis-mutator]: success
+[2024-04-25 09:26:42] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.4.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.5.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-04-25 09:26:42] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.4-py3-none-any.whl.zip]
+[2024-04-25 09:26:42] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.5-py3-none-any.whl.zip]
+[2024-04-25 09:26:42] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-04-25 09:26:42] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.6.1.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.6.2.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - main [MainThread]: End processing [pyorchestra]: success
+[2024-04-25 09:26:42] INFO root fetch - processPackages [AES-Python]: Remove: archive file [/home/abi/fetcher/tmp/aes_python-1.5.2.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - processPackages [AES-Python]: Remove: archive file [/home/abi/fetcher/tmp/aes_python-1.5.3.tar.gz]
+[2024-04-25 09:26:42] INFO root fetch - main [MainThread]: End processing [AES-Python]: success
+[2024-04-25 09:26:42] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-25 09:26:42] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-25 09:26:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-04-25 09:26:46] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.1.tar.gz]
+[2024-04-25 09:26:46] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.2.tar.gz]
+[2024-04-25 09:26:46] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-25 09:26:46] INFO root fetch - main [MainThread]: Store serial: [22926537]
