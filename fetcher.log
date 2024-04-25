@@ -18316,3 +18316,62 @@
 [2024-04-25 11:35:34] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.4-py3-none-any.whl.zip]
 [2024-04-25 11:35:34] INFO root fetch - main [MainThread]: End processing [enkacard]: success
 [2024-04-25 11:35:34] INFO root fetch - main [MainThread]: Store serial: [22928242]
+[2024-04-25 11:37:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928242]
+[2024-04-25 11:38:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bondzai.idetect40-interface
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superT5
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chisel4ml
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laboneq
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: defog
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dplib-py
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fina-cal-abhi
+[2024-04-25 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unibot_hn
+[2024-04-25 11:38:04] INFO root fetch - processPackages [unibot_hn]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 11:38:04] INFO root fetch - processPackages [superT5]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 11:38:04] INFO root fetch - processPackages [dplib-py]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-25 11:38:04] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/1a/5b/386bf5b5158c7a8d1aede10e2c87c05090d02d6e9db925b30c2277db208c/unibot_hn-0.1.0.tar.gz
+[2024-04-25 11:38:04] WARNING root fetch - processPackages [bondzai.idetect40-interface]: Skipping, unable to determine old version
+[2024-04-25 11:38:04] INFO root fetch - main [MainThread]: End processing [bondzai.idetect40-interface] error
+[2024-04-25 11:38:04] INFO root fetch - processPackages [laboneq]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-25 11:38:04] WARNING root fetch - processPackages [fina-cal-abhi]: Skipping, unable to determine old version
+[2024-04-25 11:38:04] INFO root fetch - main [MainThread]: End processing [fina-cal-abhi] error
+[2024-04-25 11:38:04] INFO root fetch - processPackages [chisel4ml]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-25 11:38:04] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/17/51/f55750a12748bbbc772eb0ef9d6fe51852e4126ea8a3b57e2ba89c29cade/dplib_py-0.7.4.tar.gz
+[2024-04-25 11:38:04] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-25 11:38:05] INFO root fetch - processPackages [superT5]: Downloading https://files.pythonhosted.org/packages/95/6a/3c31506d67b21002e7430a04543782c42fb8a1db023feecd15a314be4686/supert5-0.0.1.tar.gz
+[2024-04-25 11:38:05] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/96/31/f373b30cc469d89c9dfe79cbefe9e007d7277a87683f980e89377046bf82/unibot_hn-0.1.1.tar.gz
+[2024-04-25 11:38:05] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/8c/66/9cbe789d55155adc9d577d42d38f36e55fb8aa8c0800768033c4bbb069be/laboneq-2.8.0-py3-none-any.whl
+[2024-04-25 11:38:05] INFO root fetch - processPackages [chisel4ml]: Downloading https://files.pythonhosted.org/packages/27/d0/e59aff92bd1057cf3c062b8ddc5f8c2baebd1c4b2349a29515683a3a428d/chisel4ml-0.3.0.tar.gz
+[2024-04-25 11:38:05] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/ab/f3/471c448520346a4a424eba49fb457087a3ec6b6a637b3fd6799306706b77/dplib_py-0.7.5.tar.gz
+[2024-04-25 11:38:05] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2024-04-25 11:38:05] INFO root fetch - processPackages [unibot_hn]: executing diffoscope
+[2024-04-25 11:38:05] INFO root fetch - processPackages [unibot_hn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibot_hn-0.1.0.tar.gz tmp/unibot_hn-0.1.1.tar.gz --markdown 20240425/u/unibot_hn/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 11:38:05] INFO root fetch - processPackages [dplib-py]: executing diffoscope
+[2024-04-25 11:38:05] INFO root fetch - processPackages [dplib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplib_py-0.7.4.tar.gz tmp/dplib_py-0.7.5.tar.gz --markdown 20240425/d/dplib-py/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-25 11:38:05] WARNING root fetch - processPackages [chisel4ml]: Skipping package: exceeds size limit 11741519>=10485760
+[2024-04-25 11:38:05] INFO root fetch - main [MainThread]: End processing [chisel4ml] error
+[2024-04-25 11:38:05] INFO root fetch - processPackages [superT5]: Downloading https://files.pythonhosted.org/packages/c6/25/b925a48197d893b1e07bb8fd7e3b6e22f389f12c08b1469f9426a3c0e487/supert5-0.0.2.tar.gz
+[2024-04-25 11:38:05] INFO root fetch - processPackages [superT5]: executing diffoscope
+[2024-04-25 11:38:05] INFO root fetch - processPackages [superT5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supert5-0.0.1.tar.gz tmp/supert5-0.0.2.tar.gz --markdown 20240425/s/superT5/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 11:38:05] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2024-04-25 11:38:05] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/3a/a1/716f6b29a1371e0e662d6a06e60a314276283acae5e30b79bec567dbae0a/laboneq-2.9.0-py3-none-any.whl
+[2024-04-25 11:38:05] INFO root fetch - processPackages [defog]: executing diffoscope
+[2024-04-25 11:38:05] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20240425/d/defog/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-25 11:38:05] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.1.0.tar.gz]
+[2024-04-25 11:38:05] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.1.1.tar.gz]
+[2024-04-25 11:38:05] INFO root fetch - main [MainThread]: End processing [unibot_hn]: success
+[2024-04-25 11:38:05] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2024-04-25 11:38:05] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.8.0-py3-none-any.whl.zip tmp/laboneq-2.9.0-py3-none-any.whl.zip --markdown 20240425/l/laboneq/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-25 11:38:06] INFO root fetch - processPackages [superT5]: Remove: archive file [/home/abi/fetcher/tmp/supert5-0.0.1.tar.gz]
+[2024-04-25 11:38:06] INFO root fetch - processPackages [superT5]: Remove: archive file [/home/abi/fetcher/tmp/supert5-0.0.2.tar.gz]
+[2024-04-25 11:38:06] INFO root fetch - main [MainThread]: End processing [superT5]: success
+[2024-04-25 11:38:06] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.4.tar.gz]
+[2024-04-25 11:38:06] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.5.tar.gz]
+[2024-04-25 11:38:06] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
+[2024-04-25 11:38:06] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2024-04-25 11:38:06] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2024-04-25 11:38:06] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2024-04-25 11:38:07] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.8.0-py3-none-any.whl.zip]
+[2024-04-25 11:38:07] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
+[2024-04-25 11:38:07] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2024-04-25 11:38:07] INFO root fetch - main [MainThread]: Store serial: [22928267]
