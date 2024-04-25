@@ -8908,3 +8908,60 @@
 [2024-04-25 04:43:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-04-25 04:43:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
 [2024-04-25 04:43:12] INFO root fetch - main [MainThread]: Store serial: [22924413]
+[2024-04-25 04:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924413]
+[2024-04-25 04:45:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 04:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TitanDevice
+[2024-04-25 04:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netboxcli
+[2024-04-25 04:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CheeseAPI
+[2024-04-25 04:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: STAIR-tools
+[2024-04-25 04:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: async-retriever
+[2024-04-25 04:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-25 04:45:21] INFO root fetch - processPackages [STAIR-tools]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-25 04:45:21] INFO root fetch - processPackages [CheeseAPI]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-25 04:45:21] INFO root fetch - processPackages [netboxcli]: New version: [1.1.6] Old Version: [1.0.0]
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.5.1] Old Version: [0.3.5]
+[2024-04-25 04:45:21] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/e7/47/9752c817f121534f618a2975349c77a97d8a32d1d8c7c6877ce57977097f/STAIR-tools-1.1.3.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/be/c7/2722c5c75c7afdce8f05b0635252f0d24190aa739a22760f1e742141ad0f/cheeseapi-1.0.0.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/3d/4d/2860c0b0340589b625a1b5eb1992201c694d7179824a9b5c7686e628b708/TitanDevice-0.3.3.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [async-retriever]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/22/b8/80a18ac2532b730aceb9f0de71e8bef686868e9a27f221dccf69e76c1d55/TitanDevice-0.3.5.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [netboxcli]: Downloading https://files.pythonhosted.org/packages/20/17/1bb97b03e570927c4a6269e72dfe11d2c2cf9902281444ac539d32965a5a/netboxcli-1.0.0.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/cf/9a/82bb5b6c4ef9cfbf94c0225cdbba128c7592a13365e109241dd8532e50ae/cheeseapi-1.1.0.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [async-retriever]: Downloading https://files.pythonhosted.org/packages/82/d7/e6f5fbc4989778fdb441de4eb5400239f7301cb249b3bcc99e2e39ad4fa2/async_retriever-0.3.7.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/c9/a8/ca881a63e8b200aceafdd9fdda77cce27ecffe6b667bf3d1aca220727413/STAIR-tools-1.1.4.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/92/03/ce6a3d81b56dfd8006a8b0cff7665f6ce8b54c5a06a3dc0cef800e46f1ae/TitanDevice-0.3.4.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2024-04-25 04:45:21] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheeseapi-1.0.0.tar.gz tmp/cheeseapi-1.1.0.tar.gz --markdown 20240425/C/CheeseAPI/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-25 04:45:21] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-04-25 04:45:21] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.1.3.tar.gz tmp/STAIR-tools-1.1.4.tar.gz --markdown 20240425/S/STAIR-tools/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.3.tar.gz tmp/TitanDevice-0.3.4.tar.gz --markdown 20240425/T/TitanDevice/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-25 04:45:21] INFO root fetch - processPackages [netboxcli]: Downloading https://files.pythonhosted.org/packages/de/c0/ce7b64499b9a468c21c15d32c9b919a683fd9580c2ed06a5fba3d7bc89c6/netboxcli-1.1.6.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/69/19/f1bcd8d4dea65b7338f14934c5b463b18e7a17f20428256562b5327c91b9/TitanDevice-0.3.5.1.tar.gz
+[2024-04-25 04:45:21] INFO root fetch - processPackages [netboxcli]: executing diffoscope
+[2024-04-25 04:45:21] INFO root fetch - processPackages [netboxcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netboxcli-1.0.0.tar.gz tmp/netboxcli-1.1.6.tar.gz --markdown 20240425/n/netboxcli/1.0.0-1.1.6/README.md --exclude *.pyd
+[2024-04-25 04:45:22] INFO root fetch - processPackages [async-retriever]: Downloading https://files.pythonhosted.org/packages/cb/1f/8c5b4ca23f7dacf9c4ff49364ce4f474d4c24a8e7efd4a090e61ac6501fa/async_retriever-0.3.8.tar.gz
+[2024-04-25 04:45:22] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-25 04:45:22] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.5.tar.gz tmp/TitanDevice-0.3.5.1.tar.gz --markdown 20240425/T/TitanDevice/0.3.5-0.3.5.1/README.md --exclude *.pyd
+[2024-04-25 04:45:22] INFO root fetch - processPackages [async-retriever]: executing diffoscope
+[2024-04-25 04:45:22] INFO root fetch - processPackages [async-retriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_retriever-0.3.7.tar.gz tmp/async_retriever-0.3.8.tar.gz --markdown 20240425/a/async-retriever/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-04-25 04:45:22] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.3.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.4.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-04-25 04:45:22] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.3.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.4.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-25 04:45:22] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.0.0.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.1.0.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2024-04-25 04:45:22] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.5.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.5.1.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-25 04:45:22] INFO root fetch - processPackages [netboxcli]: Remove: archive file [/home/abi/fetcher/tmp/netboxcli-1.0.0.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - processPackages [netboxcli]: Remove: archive file [/home/abi/fetcher/tmp/netboxcli-1.1.6.tar.gz]
+[2024-04-25 04:45:22] INFO root fetch - main [MainThread]: End processing [netboxcli]: success
+[2024-04-25 04:45:23] INFO root fetch - processPackages [async-retriever]: Remove: archive file [/home/abi/fetcher/tmp/async_retriever-0.3.7.tar.gz]
+[2024-04-25 04:45:23] INFO root fetch - processPackages [async-retriever]: Remove: archive file [/home/abi/fetcher/tmp/async_retriever-0.3.8.tar.gz]
+[2024-04-25 04:45:23] INFO root fetch - main [MainThread]: End processing [async-retriever]: success
+[2024-04-25 04:45:23] INFO root fetch - main [MainThread]: Store serial: [22924429]
