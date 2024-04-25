@@ -13289,3 +13289,74 @@
 [2024-04-25 09:19:58] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-04-25 09:19:58] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-04-25 09:19:58] INFO root fetch - main [MainThread]: Store serial: [22926454]
+[2024-04-25 09:22:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926454]
+[2024-04-25 09:22:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 09:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cz-kpn
+[2024-04-25 09:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-ocr
+[2024-04-25 09:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinns
+[2024-04-25 09:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfs-client
+[2024-04-25 09:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visyn-core
+[2024-04-25 09:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libximc
+[2024-04-25 09:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insights-core
+[2024-04-25 09:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grafana-openai-monitoring
+[2024-04-25 09:22:07] INFO root fetch - processPackages [tf-ocr]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [visyn-core]: New version: [9.2.2] Old Version: [9.2.0]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [tf-ocr]: Downloading https://files.pythonhosted.org/packages/3d/6d/20d76afa91fff7a2248217a5569b97cd709c55f89443e1491378546d5b9e/tf_ocr-0.1.2.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [tfs-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [cz-kpn]: New version: [3.2.6] Old Version: [3.2.5]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [grafana-openai-monitoring]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [libximc]: New version: [2.14.22] Old Version: [2.14.20]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [jinns]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [insights-core]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-25 09:22:07] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/aa/9b/e68c9433a956d941663c46c54ced678d286e961c058d42bb033949e56fcc/visyn_core-9.2.0-py3-none-any.whl
+[2024-04-25 09:22:07] INFO root fetch - processPackages [cz-kpn]: Downloading https://files.pythonhosted.org/packages/62/5b/4413ad9522cf05780b78d88ed5f70f099254d44536cceff764305f6ec18a/cz_kpn-3.2.5.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [tf-ocr]: Downloading https://files.pythonhosted.org/packages/be/f7/fbcc8e5719050877130bc6eed216f83bf79b74cfc43f1abbfd835cacbb8a/tf_ocr-0.1.3.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [tfs-client]: Downloading https://files.pythonhosted.org/packages/74/0a/ef6bdc1f6afce3fdb2309b5273ee28464e13feca9b24cd395044582bcedc/tfs_client-0.1.6.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [grafana-openai-monitoring]: Downloading https://files.pythonhosted.org/packages/bf/97/249843d68cb4453bb4d311e4e2d0ef799aa6da5391bbbf49e96ba048ac81/grafana_openai_monitoring-0.0.8.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [jinns]: Downloading https://files.pythonhosted.org/packages/56/e4/aa35b8e8e7af4780c5dfe5f9900939977ee514055b593a67eef89d9098ef/jinns-0.8.5.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [libximc]: Downloading https://files.pythonhosted.org/packages/f1/12/adc5accc12256cb3933385c9436c93ce71fc5f66b859cda8b46e9e309b3f/libximc-2.14.20.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/ba/d8/b4d9d13c98972e4370422b1d57a92708ffaadff3c348f7dbda016efd4b6e/insights-core-3.3.8.tar.gz
+[2024-04-25 09:22:07] WARNING root fetch - processPackages [jinns]: Skipping package: exceeds size limit 18038345>=10485760
+[2024-04-25 09:22:07] INFO root fetch - main [MainThread]: End processing [jinns] error
+[2024-04-25 09:22:07] INFO root fetch - processPackages [tf-ocr]: executing diffoscope
+[2024-04-25 09:22:07] INFO root fetch - processPackages [tf-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_ocr-0.1.2.tar.gz tmp/tf_ocr-0.1.3.tar.gz --markdown 20240425/t/tf-ocr/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 09:22:07] INFO root fetch - processPackages [grafana-openai-monitoring]: Downloading https://files.pythonhosted.org/packages/30/e4/e96a3fcc23803cb60daf2bedb1d2a3e4132514975c6f2bc9ac4723d0f180/grafana_openai_monitoring-0.0.9.tar.gz
+[2024-04-25 09:22:07] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/78/7c/1c6d8a9ef457ec160296a0e6443b89719e6bbb520583ae2b72b8c68f6e10/visyn_core-9.2.2-py3-none-any.whl
+[2024-04-25 09:22:07] INFO root fetch - processPackages [cz-kpn]: Downloading https://files.pythonhosted.org/packages/85/8a/f066c57af09ded034cc08e9bef9971f12b673405ddb3d87c15839e4a2f58/cz_kpn-3.2.6.tar.gz
+[2024-04-25 09:22:08] INFO root fetch - processPackages [tfs-client]: Downloading https://files.pythonhosted.org/packages/aa/bc/336a9ed299797c472e39d7a687dc91a3d09ba5247f32157a5810e6a50b44/tfs_client-0.1.7.tar.gz
+[2024-04-25 09:22:08] INFO root fetch - processPackages [visyn-core]: executing diffoscope
+[2024-04-25 09:22:08] INFO root fetch - processPackages [visyn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visyn_core-9.2.0-py3-none-any.whl.zip tmp/visyn_core-9.2.2-py3-none-any.whl.zip --markdown 20240425/v/visyn-core/9.2.0-9.2.2/README.md --exclude *.pyd
+[2024-04-25 09:22:08] INFO root fetch - processPackages [grafana-openai-monitoring]: executing diffoscope
+[2024-04-25 09:22:08] INFO root fetch - processPackages [grafana-openai-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_openai_monitoring-0.0.8.tar.gz tmp/grafana_openai_monitoring-0.0.9.tar.gz --markdown 20240425/g/grafana-openai-monitoring/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 09:22:08] INFO root fetch - processPackages [tfs-client]: executing diffoscope
+[2024-04-25 09:22:08] INFO root fetch - processPackages [tfs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfs_client-0.1.6.tar.gz tmp/tfs_client-0.1.7.tar.gz --markdown 20240425/t/tfs-client/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-25 09:22:08] INFO root fetch - processPackages [cz-kpn]: executing diffoscope
+[2024-04-25 09:22:08] INFO root fetch - processPackages [cz-kpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_kpn-3.2.5.tar.gz tmp/cz_kpn-3.2.6.tar.gz --markdown 20240425/c/cz-kpn/3.2.5-3.2.6/README.md --exclude *.pyd
+[2024-04-25 09:22:08] INFO root fetch - processPackages [tf-ocr]: Remove: archive file [/home/abi/fetcher/tmp/tf_ocr-0.1.2.tar.gz]
+[2024-04-25 09:22:08] INFO root fetch - processPackages [tf-ocr]: Remove: archive file [/home/abi/fetcher/tmp/tf_ocr-0.1.3.tar.gz]
+[2024-04-25 09:22:08] INFO root fetch - main [MainThread]: End processing [tf-ocr]: success
+[2024-04-25 09:22:08] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/24/e5/442fc4f4958a234b3da006d746cfaa647f4bd2048585f64608614d4ba7da/insights-core-3.3.9.tar.gz
+[2024-04-25 09:22:08] INFO root fetch - processPackages [libximc]: Downloading https://files.pythonhosted.org/packages/45/3c/1ed2bc861a3d634bc8c0458000b6eb6d8b9aa48189cc3af1a7bded6249ac/libximc-2.14.22-py3-none-any.whl
+[2024-04-25 09:22:08] INFO root fetch - processPackages [grafana-openai-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/grafana_openai_monitoring-0.0.8.tar.gz]
+[2024-04-25 09:22:08] INFO root fetch - processPackages [grafana-openai-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/grafana_openai_monitoring-0.0.9.tar.gz]
+[2024-04-25 09:22:08] INFO root fetch - main [MainThread]: End processing [grafana-openai-monitoring]: success
+[2024-04-25 09:22:08] INFO root fetch - processPackages [tfs-client]: Remove: archive file [/home/abi/fetcher/tmp/tfs_client-0.1.6.tar.gz]
+[2024-04-25 09:22:08] INFO root fetch - processPackages [tfs-client]: Remove: archive file [/home/abi/fetcher/tmp/tfs_client-0.1.7.tar.gz]
+[2024-04-25 09:22:08] INFO root fetch - main [MainThread]: End processing [tfs-client]: success
+[2024-04-25 09:22:08] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2024-04-25 09:22:08] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.3.8.tar.gz tmp/insights-core-3.3.9.tar.gz --markdown 20240425/i/insights-core/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-25 09:22:09] INFO root fetch - processPackages [cz-kpn]: Remove: archive file [/home/abi/fetcher/tmp/cz_kpn-3.2.5.tar.gz]
+[2024-04-25 09:22:09] INFO root fetch - processPackages [cz-kpn]: Remove: archive file [/home/abi/fetcher/tmp/cz_kpn-3.2.6.tar.gz]
+[2024-04-25 09:22:09] INFO root fetch - main [MainThread]: End processing [cz-kpn]: success
+[2024-04-25 09:22:09] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-9.2.0-py3-none-any.whl.zip]
+[2024-04-25 09:22:09] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-9.2.2-py3-none-any.whl.zip]
+[2024-04-25 09:22:09] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
+[2024-04-25 09:22:09] INFO root fetch - processPackages [libximc]: executing diffoscope
+[2024-04-25 09:22:09] INFO root fetch - processPackages [libximc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libximc-2.14.20.tar.gz tmp/libximc-2.14.22-py3-none-any.whl.zip --markdown 20240425/l/libximc/2.14.20-2.14.22/README.md --exclude *.pyd
+[2024-04-25 09:22:11] INFO root fetch - processPackages [libximc]: Remove: archive file [/home/abi/fetcher/tmp/libximc-2.14.20.tar.gz]
+[2024-04-25 09:22:11] INFO root fetch - processPackages [libximc]: Remove: archive file [/home/abi/fetcher/tmp/libximc-2.14.22-py3-none-any.whl.zip]
+[2024-04-25 09:22:11] INFO root fetch - main [MainThread]: End processing [libximc]: success
+[2024-04-25 09:22:14] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.8.tar.gz]
+[2024-04-25 09:22:14] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
+[2024-04-25 09:22:14] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2024-04-25 09:22:14] INFO root fetch - main [MainThread]: Store serial: [22926479]
