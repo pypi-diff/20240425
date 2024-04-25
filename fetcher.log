@@ -22998,3 +22998,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:15:54] INFO root fetch - processPackages [threedigrid]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-2.2.8.tar.gz]
 [2024-04-25 14:15:54] INFO root fetch - main [MainThread]: End processing [threedigrid]: success
 [2024-04-25 14:15:54] INFO root fetch - main [MainThread]: Store serial: [22930192]
+[2024-04-25 14:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930192]
+[2024-04-25 14:18:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 14:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gasconsumption
+[2024-04-25 14:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glue-jupyter
+[2024-04-25 14:18:04] INFO root fetch - processPackages [gasconsumption]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-04-25 14:18:04] INFO root fetch - processPackages [glue-jupyter]: New version: [0.9] Old Version: [0.8.1]
+[2024-04-25 14:18:04] INFO root fetch - processPackages [glue-jupyter]: Downloading https://files.pythonhosted.org/packages/0e/98/96e876cdb94555cb68ab97c57d455516379a21d382e35ba4085fd4868bf0/glue-jupyter-0.8.1.tar.gz
+[2024-04-25 14:18:04] INFO root fetch - processPackages [gasconsumption]: Downloading https://files.pythonhosted.org/packages/fd/bb/45218f032b5ac06a91ec43bfd334f6f877a192e9b269fba1461788ec99cf/gasconsumption-0.0.4.tar.gz
+[2024-04-25 14:18:04] INFO root fetch - processPackages [gasconsumption]: Downloading https://files.pythonhosted.org/packages/e6/8c/bfc5f96eea2b56c181188512a9daf7a486a4ba89c1de9b29782b298c7b4b/gasconsumption-0.0.6.tar.gz
+[2024-04-25 14:18:04] INFO root fetch - processPackages [glue-jupyter]: Downloading https://files.pythonhosted.org/packages/8e/3f/49f4bd6e055f894bf9d05c703d4bae73d2a122cdac367ee2235ca1dab678/glue-jupyter-0.9.tar.gz
+[2024-04-25 14:18:04] INFO root fetch - processPackages [gasconsumption]: executing diffoscope
+[2024-04-25 14:18:04] INFO root fetch - processPackages [gasconsumption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gasconsumption-0.0.4.tar.gz tmp/gasconsumption-0.0.6.tar.gz --markdown 20240425/g/gasconsumption/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-04-25 14:18:04] INFO root fetch - processPackages [glue-jupyter]: executing diffoscope
+[2024-04-25 14:18:04] INFO root fetch - processPackages [glue-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue-jupyter-0.8.1.tar.gz tmp/glue-jupyter-0.9.tar.gz --markdown 20240425/g/glue-jupyter/0.8.1-0.9/README.md --exclude *.pyd
+[2024-04-25 14:18:05] INFO root fetch - processPackages [gasconsumption]: Remove: archive file [/home/abi/fetcher/tmp/gasconsumption-0.0.4.tar.gz]
+[2024-04-25 14:18:05] INFO root fetch - processPackages [gasconsumption]: Remove: archive file [/home/abi/fetcher/tmp/gasconsumption-0.0.6.tar.gz]
+[2024-04-25 14:18:05] INFO root fetch - main [MainThread]: End processing [gasconsumption]: success
+[2024-04-25 14:18:05] INFO root fetch - processPackages [glue-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/glue-jupyter-0.8.1.tar.gz]
+[2024-04-25 14:18:05] INFO root fetch - processPackages [glue-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/glue-jupyter-0.9.tar.gz]
+[2024-04-25 14:18:05] INFO root fetch - main [MainThread]: End processing [glue-jupyter]: success
+[2024-04-25 14:18:05] INFO root fetch - main [MainThread]: Store serial: [22930199]
