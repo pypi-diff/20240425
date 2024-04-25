@@ -10506,3 +10506,33 @@
 [2024-04-25 06:31:44] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.6.tar.gz]
 [2024-04-25 06:31:44] INFO root fetch - main [MainThread]: End processing [python-115]: success
 [2024-04-25 06:31:44] INFO root fetch - main [MainThread]: Store serial: [22925199]
+[2024-04-25 06:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925199]
+[2024-04-25 06:33:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 06:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindspore-gs
+[2024-04-25 06:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindinsight
+[2024-04-25 06:33:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitwarden-import-msecure
+[2024-04-25 06:33:53] INFO root fetch - processPackages [mindspore-gs]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 06:33:53] INFO root fetch - processPackages [mindinsight]: New version: [2.3.0rc1] Old Version: [2.2.0]
+[2024-04-25 06:33:53] INFO root fetch - processPackages [bitwarden-import-msecure]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-04-25 06:33:53] INFO root fetch - processPackages [mindspore-gs]: Downloading https://files.pythonhosted.org/packages/d0/d8/f2320418d69b924b014aca046a8626337a9e4984ebafb46fa80673d86b31/mindspore_gs-0.3.0-py3-none-any.whl
+[2024-04-25 06:33:53] INFO root fetch - processPackages [mindinsight]: Downloading https://files.pythonhosted.org/packages/e1/c3/1dd5910edbc03496512e95a6106d88d71cecfa3e27e9667ae14abb082eb6/mindinsight-2.2.0-py3-none-any.whl
+[2024-04-25 06:33:53] INFO root fetch - processPackages [bitwarden-import-msecure]: Downloading https://files.pythonhosted.org/packages/d5/fe/ce93a351170b640b0bb80591fb5f4a03752c0602823fd52dfa561370ce82/bitwarden_import_msecure-1.4.1.tar.gz
+[2024-04-25 06:33:53] INFO root fetch - processPackages [mindspore-gs]: Downloading https://files.pythonhosted.org/packages/f2/d6/12b78ac37460430e3261f110dbfd31d092383f1bb4c1c4faf05bf0c7cd39/mindspore_gs-0.4.0-py3-none-any.whl
+[2024-04-25 06:33:53] INFO root fetch - processPackages [bitwarden-import-msecure]: Downloading https://files.pythonhosted.org/packages/ac/52/5e7ad8b6686ff61e30e75eaed455f67de348bf806c464fd51fd1ce3c8f8b/bitwarden_import_msecure-1.5.0.tar.gz
+[2024-04-25 06:33:54] INFO root fetch - processPackages [mindspore-gs]: executing diffoscope
+[2024-04-25 06:33:54] INFO root fetch - processPackages [mindspore-gs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindspore_gs-0.3.0-py3-none-any.whl.zip tmp/mindspore_gs-0.4.0-py3-none-any.whl.zip --markdown 20240425/m/mindspore-gs/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 06:33:54] INFO root fetch - processPackages [bitwarden-import-msecure]: executing diffoscope
+[2024-04-25 06:33:54] INFO root fetch - processPackages [bitwarden-import-msecure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitwarden_import_msecure-1.4.1.tar.gz tmp/bitwarden_import_msecure-1.5.0.tar.gz --markdown 20240425/b/bitwarden-import-msecure/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-04-25 06:33:54] INFO root fetch - processPackages [mindinsight]: Downloading https://files.pythonhosted.org/packages/bc/13/55abe8e465a85b713d838277d031212856d94e40d87a93b6949c1c86bae6/mindinsight-2.3.0rc1-py3-none-any.whl
+[2024-04-25 06:33:54] INFO root fetch - processPackages [mindinsight]: executing diffoscope
+[2024-04-25 06:33:54] INFO root fetch - processPackages [mindinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindinsight-2.2.0-py3-none-any.whl.zip tmp/mindinsight-2.3.0rc1-py3-none-any.whl.zip --markdown 20240425/m/mindinsight/2.2.0-2.3.0rc1/README.md --exclude *.pyd
+[2024-04-25 06:33:54] INFO root fetch - processPackages [bitwarden-import-msecure]: Remove: archive file [/home/abi/fetcher/tmp/bitwarden_import_msecure-1.4.1.tar.gz]
+[2024-04-25 06:33:54] INFO root fetch - processPackages [bitwarden-import-msecure]: Remove: archive file [/home/abi/fetcher/tmp/bitwarden_import_msecure-1.5.0.tar.gz]
+[2024-04-25 06:33:54] INFO root fetch - main [MainThread]: End processing [bitwarden-import-msecure]: success
+[2024-04-25 06:33:55] INFO root fetch - processPackages [mindspore-gs]: Remove: archive file [/home/abi/fetcher/tmp/mindspore_gs-0.3.0-py3-none-any.whl.zip]
+[2024-04-25 06:33:55] INFO root fetch - processPackages [mindspore-gs]: Remove: archive file [/home/abi/fetcher/tmp/mindspore_gs-0.4.0-py3-none-any.whl.zip]
+[2024-04-25 06:33:55] INFO root fetch - main [MainThread]: End processing [mindspore-gs]: success
+[2024-04-25 06:35:05] INFO root fetch - processPackages [mindinsight]: Remove: archive file [/home/abi/fetcher/tmp/mindinsight-2.2.0-py3-none-any.whl.zip]
+[2024-04-25 06:35:05] INFO root fetch - processPackages [mindinsight]: Remove: archive file [/home/abi/fetcher/tmp/mindinsight-2.3.0rc1-py3-none-any.whl.zip]
+[2024-04-25 06:35:05] INFO root fetch - main [MainThread]: End processing [mindinsight]: success
+[2024-04-25 06:35:05] INFO root fetch - main [MainThread]: Store serial: [22925208]
