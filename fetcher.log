@@ -20305,3 +20305,56 @@
 [2024-04-25 12:40:39] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.9.0.220.tar.gz]
 [2024-04-25 12:40:39] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
 [2024-04-25 12:40:39] INFO root fetch - main [MainThread]: Store serial: [22929039]
+[2024-04-25 12:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929039]
+[2024-04-25 12:42:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 12:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chisel4ml
+[2024-04-25 12:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdk
+[2024-04-25 12:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glasswall
+[2024-04-25 12:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plette
+[2024-04-25 12:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acapy_wallet_groups_plugin
+[2024-04-25 12:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensr-utils
+[2024-04-25 12:42:49] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 12:42:49] INFO root fetch - processPackages [plette]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-25 12:42:49] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-04-25 12:42:49] INFO root fetch - processPackages [chisel4ml]: New version: [0.3.2] Old Version: [0.3.0]
+[2024-04-25 12:42:49] INFO root fetch - processPackages [plette]: Downloading https://files.pythonhosted.org/packages/cf/a5/93da01eb2543d09b2b234347804887c18dc4fa418080a314d4890781f724/plette-1.0.0.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [glasswall]: New version: [5.2.1] Old Version: [5.2.0]
+[2024-04-25 12:42:49] INFO root fetch - processPackages [fdk]: New version: [0.1.72] Old Version: [0.1.71]
+[2024-04-25 12:42:49] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Downloading https://files.pythonhosted.org/packages/8f/19/39930df771ae96a7f48b32ac05e2588eb0d9abb9c05dd450ab9a9c7ba256/acapy_wallet_groups_plugin-0.6.2.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [plette]: Downloading https://files.pythonhosted.org/packages/8a/b8/205d63dc0f9274c93ce5078a84e258fa790ca5c1857e7287be4d2378ad41/plette-2.0.0.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [chisel4ml]: Downloading https://files.pythonhosted.org/packages/27/d0/e59aff92bd1057cf3c062b8ddc5f8c2baebd1c4b2349a29515683a3a428d/chisel4ml-0.3.0.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/26/a1/998bdc14a093660ddda26153db26ecd07666ab89adde2a7ba57c321fdf20/fdk-0.1.71.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/dc/d6/09cadf61f142d5a342491e788f3cc43e97362171153717e3f01f2e478a75/glasswall-5.2.0.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 12:42:49] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 12:42:49] WARNING root fetch - processPackages [chisel4ml]: Skipping package: exceeds size limit 11741519>=10485760
+[2024-04-25 12:42:49] INFO root fetch - main [MainThread]: End processing [chisel4ml] error
+[2024-04-25 12:42:49] INFO root fetch - processPackages [plette]: executing diffoscope
+[2024-04-25 12:42:49] INFO root fetch - processPackages [plette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plette-1.0.0.tar.gz tmp/plette-2.0.0.tar.gz --markdown 20240425/p/plette/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-25 12:42:49] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/9a/cc/678f52aac34dae38ea93fdbddd4d5e1d35b0c72e80562388f1576f7a4cde/fdk-0.1.72.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/c4/2a/9a7a2aede2f0f26bdd96211e877687598ab51787a8d706f7d7e8d778b275/glasswall-5.2.1-py3-none-any.whl
+[2024-04-25 12:42:49] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Downloading https://files.pythonhosted.org/packages/f9/e1/016cafbfd4584085fb722abd5451bc2549b8699ecab3e0beff3945937599/acapy_wallet_groups_plugin-0.7.0.tar.gz
+[2024-04-25 12:42:49] INFO root fetch - processPackages [fdk]: executing diffoscope
+[2024-04-25 12:42:49] INFO root fetch - processPackages [fdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk-0.1.71.tar.gz tmp/fdk-0.1.72.tar.gz --markdown 20240425/f/fdk/0.1.71-0.1.72/README.md --exclude *.pyd
+[2024-04-25 12:42:49] INFO root fetch - processPackages [glasswall]: executing diffoscope
+[2024-04-25 12:42:49] INFO root fetch - processPackages [glasswall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasswall-5.2.0.tar.gz tmp/glasswall-5.2.1-py3-none-any.whl.zip --markdown 20240425/g/glasswall/5.2.0-5.2.1/README.md --exclude *.pyd
+[2024-04-25 12:42:49] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: executing diffoscope
+[2024-04-25 12:42:49] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acapy_wallet_groups_plugin-0.6.2.tar.gz tmp/acapy_wallet_groups_plugin-0.7.0.tar.gz --markdown 20240425/a/acapy_wallet_groups_plugin/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-04-25 12:42:50] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 12:42:50] INFO root fetch - processPackages [plette]: Remove: archive file [/home/abi/fetcher/tmp/plette-1.0.0.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - processPackages [plette]: Remove: archive file [/home/abi/fetcher/tmp/plette-2.0.0.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - main [MainThread]: End processing [plette]: success
+[2024-04-25 12:42:50] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Remove: archive file [/home/abi/fetcher/tmp/acapy_wallet_groups_plugin-0.6.2.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Remove: archive file [/home/abi/fetcher/tmp/acapy_wallet_groups_plugin-0.7.0.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - main [MainThread]: End processing [acapy_wallet_groups_plugin]: success
+[2024-04-25 12:42:50] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.2.0.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - processPackages [glasswall]: Remove: archive file [/home/abi/fetcher/tmp/glasswall-5.2.1-py3-none-any.whl.zip]
+[2024-04-25 12:42:50] INFO root fetch - main [MainThread]: End processing [glasswall]: success
+[2024-04-25 12:42:50] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.71.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.72.tar.gz]
+[2024-04-25 12:42:50] INFO root fetch - main [MainThread]: End processing [fdk]: success
+[2024-04-25 12:42:50] INFO root fetch - main [MainThread]: Store serial: [22929056]
