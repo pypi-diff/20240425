@@ -17947,3 +17947,27 @@
 [2024-04-25 11:19:04] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.53.tar.gz]
 [2024-04-25 11:19:04] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
 [2024-04-25 11:19:04] INFO root fetch - main [MainThread]: Store serial: [22928064]
+[2024-04-25 11:21:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928064]
+[2024-04-25 11:21:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: octomy-batch
+[2024-04-25 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbimage
+[2024-04-25 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sigmund
+[2024-04-25 11:21:21] WARNING root fetch - processPackages [sigmund]: Skipping, unable to determine old version
+[2024-04-25 11:21:21] INFO root fetch - main [MainThread]: End processing [sigmund] error
+[2024-04-25 11:21:21] INFO root fetch - processPackages [octomy-batch]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-25 11:21:21] INFO root fetch - processPackages [vbimage]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 11:21:21] INFO root fetch - processPackages [octomy-batch]: Downloading https://files.pythonhosted.org/packages/36/b2/7e792daa443fd3910c6269389deea34a35b7531569ba31d4947f96bdc075/octomy-batch-2.0.8.tar.gz
+[2024-04-25 11:21:21] INFO root fetch - processPackages [vbimage]: Downloading https://files.pythonhosted.org/packages/68/4a/592b6169a4c0dce31e9ec0c8ea971cb0b07b488e5311e3ace5017a94fc9a/vbimage-0.1.8.tar.gz
+[2024-04-25 11:21:22] INFO root fetch - processPackages [octomy-batch]: Downloading https://files.pythonhosted.org/packages/72/43/0c513f0e16a432d7ef227098cb6152ecde69f2fb43ab178074c96cf996db/octomy-batch-2.0.9.tar.gz
+[2024-04-25 11:21:22] INFO root fetch - processPackages [vbimage]: Downloading https://files.pythonhosted.org/packages/cd/c9/275f7f26a834e6b1512b0c75f07c95f28e4ba7d4ae4c44dc4244b1a54e0d/vbimage-0.1.9.tar.gz
+[2024-04-25 11:21:22] INFO root fetch - processPackages [octomy-batch]: executing diffoscope
+[2024-04-25 11:21:22] INFO root fetch - processPackages [octomy-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomy-batch-2.0.8.tar.gz tmp/octomy-batch-2.0.9.tar.gz --markdown 20240425/o/octomy-batch/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-25 11:21:22] INFO root fetch - processPackages [vbimage]: executing diffoscope
+[2024-04-25 11:21:22] INFO root fetch - processPackages [vbimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimage-0.1.8.tar.gz tmp/vbimage-0.1.9.tar.gz --markdown 20240425/v/vbimage/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 11:21:22] INFO root fetch - processPackages [octomy-batch]: Remove: archive file [/home/abi/fetcher/tmp/octomy-batch-2.0.8.tar.gz]
+[2024-04-25 11:21:22] INFO root fetch - processPackages [octomy-batch]: Remove: archive file [/home/abi/fetcher/tmp/octomy-batch-2.0.9.tar.gz]
+[2024-04-25 11:21:22] INFO root fetch - main [MainThread]: End processing [octomy-batch]: success
+[2024-04-25 11:21:22] INFO root fetch - processPackages [vbimage]: Remove: archive file [/home/abi/fetcher/tmp/vbimage-0.1.8.tar.gz]
+[2024-04-25 11:21:22] INFO root fetch - processPackages [vbimage]: Remove: archive file [/home/abi/fetcher/tmp/vbimage-0.1.9.tar.gz]
+[2024-04-25 11:21:22] INFO root fetch - main [MainThread]: End processing [vbimage]: success
+[2024-04-25 11:21:22] INFO root fetch - main [MainThread]: Store serial: [22928082]
