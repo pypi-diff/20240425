@@ -3601,3 +3601,29 @@
 [2024-04-25 02:44:21] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-9.5.0-cp37-abi3-win_amd64.whl.zip]
 [2024-04-25 02:44:21] INFO root fetch - main [MainThread]: End processing [ezkl]: success
 [2024-04-25 02:44:21] INFO root fetch - main [MainThread]: Store serial: [22922432]
+[2024-04-25 02:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922432]
+[2024-04-25 02:46:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 02:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2024-04-25 02:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nm-magic-wand-nightly
+[2024-04-25 02:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espn-scraper
+[2024-04-25 02:46:30] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404240044] Old Version: [4.9.4.dev202404230044]
+[2024-04-25 02:46:30] INFO root fetch - processPackages [espn-scraper]: New version: [0.15.0] Old Version: [0.14.9]
+[2024-04-25 02:46:30] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240425] Old Version: [0.2.2.20240424]
+[2024-04-25 02:46:30] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/25/50/6ea500a28f90eb3faac6f81a4ddf437a45510c1f893c9f1d9bc1a5af0e1d/tfds-nightly-4.9.4.dev202404230044.tar.gz
+[2024-04-25 02:46:30] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/50/df/93be25b2d61e1526d30fd176961b5f5ab45e305a8be47a379170627a4b90/nm_magic_wand_nightly-0.2.2.20240424-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-25 02:46:30] INFO root fetch - processPackages [espn-scraper]: Downloading https://files.pythonhosted.org/packages/fa/40/1e835a1eb5de7166570f3ff91e72fe485878e1e2773cb22704672b003d9e/espn_scraper-0.14.9.tar.gz
+[2024-04-25 02:46:30] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76591258>=10485760
+[2024-04-25 02:46:30] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-25 02:46:30] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/46/41/420b5ba6ce6114ae890626c5e43abae4bb51d5214736bd6a485370bbf9ae/tfds-nightly-4.9.4.dev202404240044.tar.gz
+[2024-04-25 02:46:31] INFO root fetch - processPackages [espn-scraper]: Downloading https://files.pythonhosted.org/packages/70/9a/2d791ecd7832c690f3320fa79391ccef4c8b0a0c327d061af0a697121089/espn_scraper-0.15.0.tar.gz
+[2024-04-25 02:46:31] INFO root fetch - processPackages [espn-scraper]: executing diffoscope
+[2024-04-25 02:46:31] INFO root fetch - processPackages [espn-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espn_scraper-0.14.9.tar.gz tmp/espn_scraper-0.15.0.tar.gz --markdown 20240425/e/espn-scraper/0.14.9-0.15.0/README.md --exclude *.pyd
+[2024-04-25 02:46:31] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-25 02:46:31] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404230044.tar.gz tmp/tfds-nightly-4.9.4.dev202404240044.tar.gz --markdown 20240425/t/tfds-nightly/4.9.4.dev202404230044-4.9.4.dev202404240044/README.md --exclude *.pyd
+[2024-04-25 02:46:31] INFO root fetch - processPackages [espn-scraper]: Remove: archive file [/home/abi/fetcher/tmp/espn_scraper-0.14.9.tar.gz]
+[2024-04-25 02:46:31] INFO root fetch - processPackages [espn-scraper]: Remove: archive file [/home/abi/fetcher/tmp/espn_scraper-0.15.0.tar.gz]
+[2024-04-25 02:46:31] INFO root fetch - main [MainThread]: End processing [espn-scraper]: success
+[2024-04-25 02:46:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404230044.tar.gz]
+[2024-04-25 02:46:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404240044.tar.gz]
+[2024-04-25 02:46:40] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-25 02:46:40] INFO root fetch - main [MainThread]: Store serial: [22922449]
