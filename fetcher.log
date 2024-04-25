@@ -10024,3 +10024,47 @@
 [2024-04-25 05:49:28] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.0.9.tar.gz]
 [2024-04-25 05:49:28] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
 [2024-04-25 05:49:28] INFO root fetch - main [MainThread]: Store serial: [22924924]
+[2024-04-25 05:51:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924924]
+[2024-04-25 05:51:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 05:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindspore
+[2024-04-25 05:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-pex-config
+[2024-04-25 05:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zscaler-sdk-python
+[2024-04-25 05:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-utils
+[2024-04-25 05:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zcmds
+[2024-04-25 05:51:37] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 05:51:37] INFO root fetch - processPackages [zscaler-sdk-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 05:51:37] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-25 05:51:37] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-25 05:51:37] INFO root fetch - processPackages [lsst-utils]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-25 05:51:37] INFO root fetch - processPackages [mindspore]: New version: [2.2.14] Old Version: [2.2.13]
+[2024-04-25 05:51:37] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/ad/26/af9c7a554bbbdcda340aeca2cb566bbad869d77f745888370979fd51e284/zscaler-sdk-python-0.1.2.tar.gz
+[2024-04-25 05:51:37] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/58/b5/29b7f46aaa2c52d8e18673b652f17dea0cc0f60e2f278307bd67945e02e2/lsst-pex-config-26.2024.800.tar.gz
+[2024-04-25 05:51:37] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/ed/5d/f11e2fba9009a3966e3ad3808df1c75920b3150e3cb4fb5156c40ff235e6/lsst-utils-26.2024.800.tar.gz
+[2024-04-25 05:51:37] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-25 05:51:37] INFO root fetch - processPackages [mindspore]: Downloading https://files.pythonhosted.org/packages/58/18/1c3a0f78f8a2f4a35210e8233e61a8e2f8c86c3a68a94a2e3c2372235123/mindspore-2.2.13-cp39-none-any.whl
+[2024-04-25 05:51:37] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-25 05:51:37] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240425/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 05:51:37] WARNING root fetch - processPackages [mindspore]: Skipping package: exceeds size limit 186068829>=10485760
+[2024-04-25 05:51:37] INFO root fetch - main [MainThread]: End processing [mindspore] error
+[2024-04-25 05:51:38] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/f1/b5/3e67bde446668a08a5853e49e22001cdc30c4ff4038d61d643aae8d56482/zscaler_sdk_python-0.1.3.tar.gz
+[2024-04-25 05:51:38] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/3a/b0/00ae70f50a7a45b76e5b25ec673e5b103de58050d46db15665081dceab41/lsst-pex-config-26.2024.900.tar.gz
+[2024-04-25 05:51:38] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/11/99/dc95fd67b816479a3f3131f0b7c98fc268e870b8e9d34f0154ddb34f84b4/lsst-utils-26.2024.900.tar.gz
+[2024-04-25 05:51:38] INFO root fetch - processPackages [zscaler-sdk-python]: executing diffoscope
+[2024-04-25 05:51:38] INFO root fetch - processPackages [zscaler-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler-sdk-python-0.1.2.tar.gz tmp/zscaler_sdk_python-0.1.3.tar.gz --markdown 20240425/z/zscaler-sdk-python/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 05:51:38] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2024-04-25 05:51:38] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.2024.800.tar.gz tmp/lsst-pex-config-26.2024.900.tar.gz --markdown 20240425/l/lsst-pex-config/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-25 05:51:38] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2024-04-25 05:51:38] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.2024.800.tar.gz tmp/lsst-utils-26.2024.900.tar.gz --markdown 20240425/l/lsst-utils/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-04-25 05:51:38] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-25 05:51:38] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-25 05:51:38] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-25 05:51:39] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.800.tar.gz]
+[2024-04-25 05:51:39] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.900.tar.gz]
+[2024-04-25 05:51:39] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2024-04-25 05:51:39] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.2024.800.tar.gz]
+[2024-04-25 05:51:39] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.2024.900.tar.gz]
+[2024-04-25 05:51:39] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2024-04-25 05:51:39] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler-sdk-python-0.1.2.tar.gz]
+[2024-04-25 05:51:39] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_sdk_python-0.1.3.tar.gz]
+[2024-04-25 05:51:39] INFO root fetch - main [MainThread]: End processing [zscaler-sdk-python]: success
+[2024-04-25 05:51:39] INFO root fetch - main [MainThread]: Store serial: [22924937]
