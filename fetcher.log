@@ -12127,3 +12127,81 @@
 [2024-04-25 08:26:27] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.4.tar.gz]
 [2024-04-25 08:26:27] INFO root fetch - main [MainThread]: End processing [mongo-m]: success
 [2024-04-25 08:26:27] INFO root fetch - main [MainThread]: Store serial: [22926030]
+[2024-04-25 08:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926030]
+[2024-04-25 08:28:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: energy-base
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magic-toolkit
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecord-cli
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-simulator-xiuxian
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ZjjLab-tools
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bivariate
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: depthcharge-ms
+[2024-04-25 08:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-jwt-oidc
+[2024-04-25 08:28:37] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: New version: [0.5.30] Old Version: [0.5.27]
+[2024-04-25 08:28:37] WARNING root fetch - processPackages [ZjjLab-tools]: Skipping, unable to determine old version
+[2024-04-25 08:28:37] INFO root fetch - main [MainThread]: End processing [ZjjLab-tools] error
+[2024-04-25 08:28:37] INFO root fetch - processPackages [flask-jwt-oidc]: New version: [0.5.0] Old Version: [0.3.0]
+[2024-04-25 08:28:37] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-25 08:28:37] INFO root fetch - processPackages [energy-base]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-04-25 08:28:37] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/60/14/c6264899c0e49c77ef3f035ab3c813c66791e9e1b19fc98e05cf57be3f12/nonebot_plugin_simulator_xiuxian-0.5.27.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [depthcharge-ms]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-25 08:28:37] INFO root fetch - processPackages [magic-toolkit]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-25 08:28:37] INFO root fetch - processPackages [bivariate]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-25 08:28:37] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-25 08:28:37] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/1e/f6/d50dea7313f99f531b0be05e31b7b772f91651f257eba0ca10979051adf0/energy_base-1.7.3.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [flask-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/74/9d/73b0203f55f7b8b8f6d128e0357b0c33941174ce1f91b3b3181fddd0fb90/flask_jwt_oidc-0.3.0.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [magic-toolkit]: Downloading https://files.pythonhosted.org/packages/4b/66/a30cf96c5a554763263c32bf5e7fbe683609013c2004a3574bffa3d0f1a8/magic_toolkit-1.0.3-py3-none-any.whl
+[2024-04-25 08:28:37] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/e1/7b/5c511ab59f8daa9ef942c735bdad52bf3a4921c8df067d93263e377592dc/depthcharge_ms-0.4.1.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/be/19/1d33ba0326ef88c1d803a34d1b10c90e60039cea758f1638cfd77b710cdf/nonebot_plugin_simulator_xiuxian-0.5.30.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [bivariate]: Downloading https://files.pythonhosted.org/packages/9d/b7/f9e5ec8d8ef0d47b467874579c5cffbcbf9c4eac7448ed6d9c66cecec3d6/bivariate-2.0.2.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: executing diffoscope
+[2024-04-25 08:28:37] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_simulator_xiuxian-0.5.27.tar.gz tmp/nonebot_plugin_simulator_xiuxian-0.5.30.tar.gz --markdown 20240425/n/nonebot-plugin-simulator-xiuxian/0.5.27-0.5.30/README.md --exclude *.pyd
+[2024-04-25 08:28:37] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/7e/8d/3af818f63aa73bbc59cb7d90c244b79d8a7d37b8131e92d1e28e479859d6/energy_base-1.7.4.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [flask-jwt-oidc]: Downloading https://files.pythonhosted.org/packages/24/fa/42005ca6069044a3c6c81a527d0423f6ec185a6653702f28b9993c49f07c/flask_jwt_oidc-0.5.0.tar.gz
+[2024-04-25 08:28:37] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-25 08:28:37] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240425/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-25 08:28:37] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-25 08:28:37] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.7.3.tar.gz tmp/energy_base-1.7.4.tar.gz --markdown 20240425/e/energy-base/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-04-25 08:28:38] INFO root fetch - processPackages [magic-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/32/4279460ad39ddd37fdbbe28fe08f49be78b814d36908bc11df6a007f10cd/magic_toolkit-1.1.0-py3-none-any.whl
+[2024-04-25 08:28:38] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-25 08:28:38] INFO root fetch - processPackages [flask-jwt-oidc]: executing diffoscope
+[2024-04-25 08:28:38] INFO root fetch - processPackages [flask-jwt-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_jwt_oidc-0.3.0.tar.gz tmp/flask_jwt_oidc-0.5.0.tar.gz --markdown 20240425/f/flask-jwt-oidc/0.3.0-0.5.0/README.md --exclude *.pyd
+[2024-04-25 08:28:38] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/8b/b0/376835e0627a7a2cb2283e3ae0034473819eab40b1cc8315780f45a4f0ef/depthcharge_ms-0.4.2.tar.gz
+[2024-04-25 08:28:38] INFO root fetch - processPackages [bivariate]: Downloading https://files.pythonhosted.org/packages/8a/71/48a69d8563b6c0077a9ff21042838556ac97a20b6028c83905e6d2ee8b6a/bivariate-2.0.3.tar.gz
+[2024-04-25 08:28:38] INFO root fetch - processPackages [magic-toolkit]: executing diffoscope
+[2024-04-25 08:28:38] INFO root fetch - processPackages [magic-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_toolkit-1.0.3-py3-none-any.whl.zip tmp/magic_toolkit-1.1.0-py3-none-any.whl.zip --markdown 20240425/m/magic-toolkit/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-04-25 08:28:38] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-25 08:28:38] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240425/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-25 08:28:38] INFO root fetch - processPackages [bivariate]: executing diffoscope
+[2024-04-25 08:28:38] INFO root fetch - processPackages [bivariate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bivariate-2.0.2.tar.gz tmp/bivariate-2.0.3.tar.gz --markdown 20240425/b/bivariate/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-25 08:28:38] INFO root fetch - processPackages [depthcharge-ms]: executing diffoscope
+[2024-04-25 08:28:38] INFO root fetch - processPackages [depthcharge-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthcharge_ms-0.4.1.tar.gz tmp/depthcharge_ms-0.4.2.tar.gz --markdown 20240425/d/depthcharge-ms/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-25 08:28:38] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.27.tar.gz]
+[2024-04-25 08:28:38] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.30.tar.gz]
+[2024-04-25 08:28:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-simulator-xiuxian]: success
+[2024-04-25 08:28:38] INFO root fetch - processPackages [flask-jwt-oidc]: Remove: archive file [/home/abi/fetcher/tmp/flask_jwt_oidc-0.3.0.tar.gz]
+[2024-04-25 08:28:38] INFO root fetch - processPackages [flask-jwt-oidc]: Remove: archive file [/home/abi/fetcher/tmp/flask_jwt_oidc-0.5.0.tar.gz]
+[2024-04-25 08:28:38] INFO root fetch - main [MainThread]: End processing [flask-jwt-oidc]: success
+[2024-04-25 08:28:38] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.3.tar.gz]
+[2024-04-25 08:28:38] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.4.tar.gz]
+[2024-04-25 08:28:38] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-25 08:28:38] INFO root fetch - processPackages [magic-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/magic_toolkit-1.0.3-py3-none-any.whl.zip]
+[2024-04-25 08:28:38] INFO root fetch - processPackages [magic-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/magic_toolkit-1.1.0-py3-none-any.whl.zip]
+[2024-04-25 08:28:38] INFO root fetch - main [MainThread]: End processing [magic-toolkit]: success
+[2024-04-25 08:28:39] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-25 08:28:39] INFO root fetch - processPackages [bivariate]: Remove: archive file [/home/abi/fetcher/tmp/bivariate-2.0.2.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - processPackages [bivariate]: Remove: archive file [/home/abi/fetcher/tmp/bivariate-2.0.3.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - main [MainThread]: End processing [bivariate]: success
+[2024-04-25 08:28:39] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.1.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.2.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
+[2024-04-25 08:28:39] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-25 08:28:39] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-25 08:28:39] INFO root fetch - main [MainThread]: Store serial: [22926057]
