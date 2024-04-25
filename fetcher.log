@@ -9842,3 +9842,29 @@
 [2024-04-25 05:36:25] INFO root fetch - processPackages [karaoke-prep]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_prep-0.9.2.tar.gz]
 [2024-04-25 05:36:25] INFO root fetch - main [MainThread]: End processing [karaoke-prep]: success
 [2024-04-25 05:36:25] INFO root fetch - main [MainThread]: Store serial: [22924797]
+[2024-04-25 05:38:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924797]
+[2024-04-25 05:38:33] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-25 05:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924799]
+[2024-04-25 05:40:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcmds
+[2024-04-25 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: increase
+[2024-04-25 05:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msmart-vog
+[2024-04-25 05:40:39] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 05:40:39] WARNING root fetch - processPackages [msmart-vog]: Skipping, unable to determine old version
+[2024-04-25 05:40:39] INFO root fetch - main [MainThread]: End processing [msmart-vog] error
+[2024-04-25 05:40:39] INFO root fetch - processPackages [increase]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-25 05:40:39] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-25 05:40:39] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/38/04/23245208877a10fba93c724199da0ea129bcdee0336c4a86f3be0888834e/increase-0.8.1.tar.gz
+[2024-04-25 05:40:39] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-25 05:40:39] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-25 05:40:39] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240425/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 05:40:39] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/35/1a/9728c759dc28ac734c6c3220f0abf89c385a19f2c0b2edab7e7707dd5fe5/increase-0.9.0.tar.gz
+[2024-04-25 05:40:39] INFO root fetch - processPackages [increase]: executing diffoscope
+[2024-04-25 05:40:39] INFO root fetch - processPackages [increase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increase-0.8.1.tar.gz tmp/increase-0.9.0.tar.gz --markdown 20240425/i/increase/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-25 05:40:40] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-25 05:40:40] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-25 05:40:40] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-25 05:40:41] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.1.tar.gz]
+[2024-04-25 05:40:41] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.9.0.tar.gz]
+[2024-04-25 05:40:41] INFO root fetch - main [MainThread]: End processing [increase]: success
+[2024-04-25 05:40:41] INFO root fetch - main [MainThread]: Store serial: [22924813]
