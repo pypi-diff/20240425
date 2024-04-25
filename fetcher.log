@@ -9563,3 +9563,35 @@
 [2024-04-25 05:18:30] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
 [2024-04-25 05:18:30] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
 [2024-04-25 05:18:30] INFO root fetch - main [MainThread]: Store serial: [22924639]
+[2024-04-25 05:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924639]
+[2024-04-25 05:20:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 05:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-04-25 05:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gctl
+[2024-04-25 05:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wrenfold
+[2024-04-25 05:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: centerline-width
+[2024-04-25 05:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nextai-vllm
+[2024-04-25 05:20:39] WARNING root fetch - processPackages [wrenfold]: Skipping, unable to determine old version
+[2024-04-25 05:20:39] INFO root fetch - main [MainThread]: End processing [wrenfold] error
+[2024-04-25 05:20:39] WARNING root fetch - processPackages [gctl]: Skipping, unable to determine old version
+[2024-04-25 05:20:39] INFO root fetch - main [MainThread]: End processing [gctl] error
+[2024-04-25 05:20:39] INFO root fetch - processPackages [nextai-vllm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-25 05:20:39] INFO root fetch - processPackages [centerline-width]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-25 05:20:39] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 05:20:39] INFO root fetch - processPackages [nextai-vllm]: Downloading https://files.pythonhosted.org/packages/22/d6/774544a4156257a136eb16f5da7beaa2382092fd9fbce4781ae3cdb3e642/nextai_vllm-0.0.6-cp310-cp310-manylinux1_x86_64.whl
+[2024-04-25 05:20:39] INFO root fetch - processPackages [centerline-width]: Downloading https://files.pythonhosted.org/packages/4a/39/693292df73a9762951ca5827d73357313c6f876415e43ad9b42f615e09a9/centerline-width-1.5.0.tar.gz
+[2024-04-25 05:20:39] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-25 05:20:39] INFO root fetch - processPackages [centerline-width]: Downloading https://files.pythonhosted.org/packages/14/1b/c829d3c87cd90e3363d114c3414965b5aaf3198e80c8cfb57d619e0723eb/centerline-width-1.6.0.tar.gz
+[2024-04-25 05:20:40] INFO root fetch - processPackages [centerline-width]: executing diffoscope
+[2024-04-25 05:20:40] INFO root fetch - processPackages [centerline-width]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centerline-width-1.5.0.tar.gz tmp/centerline-width-1.6.0.tar.gz --markdown 20240425/c/centerline-width/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-25 05:20:40] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-25 05:20:40] WARNING root fetch - processPackages [nextai-vllm]: Skipping package: exceeds size limit 87354239>=10485760
+[2024-04-25 05:20:40] INFO root fetch - main [MainThread]: End processing [nextai-vllm] error
+[2024-04-25 05:20:40] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-25 05:20:40] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240425/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 05:20:40] INFO root fetch - processPackages [centerline-width]: Remove: archive file [/home/abi/fetcher/tmp/centerline-width-1.5.0.tar.gz]
+[2024-04-25 05:20:40] INFO root fetch - processPackages [centerline-width]: Remove: archive file [/home/abi/fetcher/tmp/centerline-width-1.6.0.tar.gz]
+[2024-04-25 05:20:40] INFO root fetch - main [MainThread]: End processing [centerline-width]: success
+[2024-04-25 05:20:41] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-25 05:20:41] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-25 05:20:41] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-25 05:20:41] INFO root fetch - main [MainThread]: Store serial: [22924665]
