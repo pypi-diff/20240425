@@ -20105,3 +20105,45 @@
 [2024-04-25 12:33:43] INFO root fetch - processPackages [cdk-opinionated-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk_opinionated_constructs-3.7.1.tar.gz]
 [2024-04-25 12:33:43] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
 [2024-04-25 12:33:43] INFO root fetch - main [MainThread]: Store serial: [22928969]
+[2024-04-25 12:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928969]
+[2024-04-25 12:35:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sw-milagro-bls-binding
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensr-utils
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-run-api
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textual
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-25 12:35:52] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 12:35:52] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 12:35:52] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 12:35:52] INFO root fetch - processPackages [dbt-run-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/f9/1d/c7ce69cef6bb3180ba60c4ebf421d6f1c1041eaddd3d28f16b8612a54d4f/ctrip-app-ui-0.1.6.tar.gz
+[2024-04-25 12:35:52] WARNING root fetch - processPackages [sw-milagro-bls-binding]: Skipping, unable to determine old version
+[2024-04-25 12:35:52] INFO root fetch - main [MainThread]: End processing [sw-milagro-bls-binding] error
+[2024-04-25 12:35:52] INFO root fetch - processPackages [dbt-run-api]: Downloading https://files.pythonhosted.org/packages/cf/c3/247b893e9f93f074bba34cba89eea028dea95b3c34fe48df159a17365290/dbt_run_api-0.1.2.tar.gz
+[2024-04-25 12:35:52] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2024-04-25 12:35:52] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/65/5d/6ac03ee11cdb4191c9953bfea43f9a61aaa2a0b64585aa72c09f6a37858b/ctrip-app-ui-0.1.7.tar.gz
+[2024-04-25 12:35:52] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 12:35:52] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 12:35:52] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.6.tar.gz tmp/ctrip-app-ui-0.1.7.tar.gz --markdown 20240425/c/ctrip-app-ui/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-25 12:35:53] INFO root fetch - processPackages [dbt-run-api]: Downloading https://files.pythonhosted.org/packages/74/47/e9e35edfbda54b9b182cb65fbf542bbafb2e269d9c6eb13a54977a2de174/dbt_run_api-0.1.3.tar.gz
+[2024-04-25 12:35:53] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2024-04-25 12:35:53] INFO root fetch - processPackages [dbt-run-api]: executing diffoscope
+[2024-04-25 12:35:53] INFO root fetch - processPackages [dbt-run-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_run_api-0.1.2.tar.gz tmp/dbt_run_api-0.1.3.tar.gz --markdown 20240425/d/dbt-run-api/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 12:35:53] INFO root fetch - processPackages [textual]: executing diffoscope
+[2024-04-25 12:35:53] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20240425/t/textual/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 12:35:53] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.6.tar.gz]
+[2024-04-25 12:35:53] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.7.tar.gz]
+[2024-04-25 12:35:53] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 12:35:53] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 12:35:53] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 12:35:53] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 12:35:53] INFO root fetch - processPackages [dbt-run-api]: Remove: archive file [/home/abi/fetcher/tmp/dbt_run_api-0.1.2.tar.gz]
+[2024-04-25 12:35:53] INFO root fetch - processPackages [dbt-run-api]: Remove: archive file [/home/abi/fetcher/tmp/dbt_run_api-0.1.3.tar.gz]
+[2024-04-25 12:35:53] INFO root fetch - main [MainThread]: End processing [dbt-run-api]: success
+[2024-04-25 12:35:54] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2024-04-25 12:35:54] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2024-04-25 12:35:54] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2024-04-25 12:35:54] INFO root fetch - main [MainThread]: Store serial: [22928985]
