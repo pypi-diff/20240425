@@ -3815,3 +3815,45 @@
 [2024-04-25 02:55:40] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2024.4.25.dev0-py3-none-any.whl.zip]
 [2024-04-25 02:55:40] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2024-04-25 02:55:40] INFO root fetch - main [MainThread]: Store serial: [22922510]
+[2024-04-25 02:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922510]
+[2024-04-25 02:57:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 02:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jx-python
+[2024-04-25 02:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stable-ts-whisperless
+[2024-04-25 02:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oaklib
+[2024-04-25 02:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fintekkers-ledger-models
+[2024-04-25 02:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: primemetric
+[2024-04-25 02:57:48] INFO root fetch - processPackages [jx-python]: New version: [4.606.24115] Old Version: [4.586.24095]
+[2024-04-25 02:57:48] INFO root fetch - processPackages [primemetric]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-25 02:57:48] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.76] Old Version: [0.1.75]
+[2024-04-25 02:57:48] WARNING root fetch - processPackages [stable-ts-whisperless]: Skipping, unable to determine old version
+[2024-04-25 02:57:48] INFO root fetch - main [MainThread]: End processing [stable-ts-whisperless] error
+[2024-04-25 02:57:48] INFO root fetch - processPackages [primemetric]: Downloading https://files.pythonhosted.org/packages/bb/d3/01a00a2f10d06c7ef74229db3aaa67c9f0c4e7a103ec5f52b72684925e21/primemetric-3.1.0.tar.gz
+[2024-04-25 02:57:48] INFO root fetch - processPackages [oaklib]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-25 02:57:48] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/3d/eb/068a9eb9b54ce955aea857f4fff514aea10ba082e66b0bea71bedb5a5fcc/jx-python-4.586.24095.tar.gz
+[2024-04-25 02:57:48] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/ef/0c/f773bc8ee3a0a79b75c16345bef590a701ab6a00c076daa543a8a76f8dff/fintekkers-ledger-models-0.1.75.tar.gz
+[2024-04-25 02:57:49] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/38/ac/3bbbe238fdb511d909226d6bda0b58878559c78b6caec6604e3b81d7415a/oaklib-0.6.3.tar.gz
+[2024-04-25 02:57:49] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/40/23/4be3dcad3e16db1747278a60d1db300e489fa2b16db397b62978f97008f8/jx_python-4.606.24115.tar.gz
+[2024-04-25 02:57:49] INFO root fetch - processPackages [primemetric]: Downloading https://files.pythonhosted.org/packages/83/c6/d7313100905b368be83ff03a6e1046ddcb7b37a8e6f3964fc663b4b95b3c/primemetric-3.2.0.tar.gz
+[2024-04-25 02:57:49] INFO root fetch - processPackages [jx-python]: executing diffoscope
+[2024-04-25 02:57:49] INFO root fetch - processPackages [jx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jx-python-4.586.24095.tar.gz tmp/jx_python-4.606.24115.tar.gz --markdown 20240425/j/jx-python/4.586.24095-4.606.24115/README.md --exclude *.pyd
+[2024-04-25 02:57:49] INFO root fetch - processPackages [primemetric]: executing diffoscope
+[2024-04-25 02:57:49] INFO root fetch - processPackages [primemetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primemetric-3.1.0.tar.gz tmp/primemetric-3.2.0.tar.gz --markdown 20240425/p/primemetric/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-04-25 02:57:49] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/c6/24/520f3a561abb6b86c623700b6b07f55c74ec964f78a7f753f469822ae728/fintekkers-ledger-models-0.1.76.tar.gz
+[2024-04-25 02:57:49] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/f0/31/06b12a70be32bb84d0720881c5130e3fd0b57b4986fe6d5ef16a1c470a92/oaklib-0.6.4.tar.gz
+[2024-04-25 02:57:49] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2024-04-25 02:57:49] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.75.tar.gz tmp/fintekkers-ledger-models-0.1.76.tar.gz --markdown 20240425/f/fintekkers-ledger-models/0.1.75-0.1.76/README.md --exclude *.pyd
+[2024-04-25 02:57:49] INFO root fetch - processPackages [oaklib]: executing diffoscope
+[2024-04-25 02:57:49] INFO root fetch - processPackages [oaklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaklib-0.6.3.tar.gz tmp/oaklib-0.6.4.tar.gz --markdown 20240425/o/oaklib/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-25 02:57:49] INFO root fetch - processPackages [primemetric]: Remove: archive file [/home/abi/fetcher/tmp/primemetric-3.1.0.tar.gz]
+[2024-04-25 02:57:49] INFO root fetch - processPackages [primemetric]: Remove: archive file [/home/abi/fetcher/tmp/primemetric-3.2.0.tar.gz]
+[2024-04-25 02:57:49] INFO root fetch - main [MainThread]: End processing [primemetric]: success
+[2024-04-25 02:57:50] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.75.tar.gz]
+[2024-04-25 02:57:50] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.76.tar.gz]
+[2024-04-25 02:57:50] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2024-04-25 02:57:50] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx-python-4.586.24095.tar.gz]
+[2024-04-25 02:57:50] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx_python-4.606.24115.tar.gz]
+[2024-04-25 02:57:50] INFO root fetch - main [MainThread]: End processing [jx-python]: success
+[2024-04-25 02:57:51] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.3.tar.gz]
+[2024-04-25 02:57:51] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.4.tar.gz]
+[2024-04-25 02:57:51] INFO root fetch - main [MainThread]: End processing [oaklib]: success
+[2024-04-25 02:57:51] INFO root fetch - main [MainThread]: Store serial: [22922526]
