@@ -11922,3 +11922,37 @@
 [2024-04-25 08:11:08] INFO root fetch - processPackages [odoo14-addon-sale-report-delivery-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_report_delivery_date-14.0.1.0.1.dev6-py3-none-any.whl.zip]
 [2024-04-25 08:11:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-report-delivery-date]: success
 [2024-04-25 08:11:08] INFO root fetch - main [MainThread]: Store serial: [22925934]
+[2024-04-25 08:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925934]
+[2024-04-25 08:13:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-order-invoice-date
+[2024-04-25 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncTwitterClient
+[2024-04-25 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_zenblog_ds
+[2024-04-25 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nue
+[2024-04-25 08:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyg-nightly
+[2024-04-25 08:13:17] INFO root fetch - processPackages [django_zenblog_ds]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-25 08:13:17] INFO root fetch - processPackages [asyncTwitterClient]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-25 08:13:17] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240424] Old Version: [2.6.0.dev20240423]
+[2024-04-25 08:13:17] INFO root fetch - processPackages [django_zenblog_ds]: Downloading https://files.pythonhosted.org/packages/79/f1/caf91f54b59eb875c454782fa79e974cd623feff634888e85c5cb5c36de5/django_zenblog_ds-2.1.1.tar.gz
+[2024-04-25 08:13:17] WARNING root fetch - processPackages [nue]: Skipping, unable to determine old version
+[2024-04-25 08:13:17] INFO root fetch - main [MainThread]: End processing [nue] error
+[2024-04-25 08:13:17] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-date]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1.dev4]
+[2024-04-25 08:13:17] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/84/f1/043f1a94e0cd8ca4294d0e4b474438f8d6de60ad8aa15211a23cb27e3aaf/pyg_nightly-2.6.0.dev20240423.tar.gz
+[2024-04-25 08:13:17] WARNING root fetch - processPackages [django_zenblog_ds]: Skipping package: exceeds size limit 12660313>=10485760
+[2024-04-25 08:13:17] INFO root fetch - main [MainThread]: End processing [django_zenblog_ds] error
+[2024-04-25 08:13:17] INFO root fetch - processPackages [asyncTwitterClient]: Downloading https://files.pythonhosted.org/packages/83/a3/909fc47cc503c29cc38a06355f76342378c27556d4fe62c1b148be490b11/asyncTwitterClient-0.1.0.tar.gz
+[2024-04-25 08:13:17] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-date]: Downloading https://files.pythonhosted.org/packages/22/83/90ad9248eb619341a59556e72fe55da6d58035add79eeaa16c0af2732247/odoo14_addon_sale_order_invoice_date-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-25 08:13:17] ERROR root fetch - processPackages [asyncTwitterClient]: Unable to fetch info: No such project/version 'asyncTwitterClient' 0.2.0
+[2024-04-25 08:13:17] INFO root fetch - main [MainThread]: End processing [asyncTwitterClient] error
+[2024-04-25 08:13:18] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e0/6f/17580999e4bb1de435e72503ef8a6a82564c90c2c90ba7ad62f8e4486bf2/pyg_nightly-2.6.0.dev20240424.tar.gz
+[2024-04-25 08:13:18] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-date]: Downloading https://files.pythonhosted.org/packages/a3/0e/6bf87a9fce95c2e82cf232556cf1ce71eaf035792e72d5241d8541956bb3/odoo14_addon_sale_order_invoice_date-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-04-25 08:13:18] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-25 08:13:18] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240423.tar.gz tmp/pyg_nightly-2.6.0.dev20240424.tar.gz --markdown 20240425/p/pyg-nightly/2.6.0.dev20240423-2.6.0.dev20240424/README.md --exclude *.pyd
+[2024-04-25 08:13:18] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-date]: executing diffoscope
+[2024-04-25 08:13:18] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_invoice_date-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_invoice_date-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20240425/o/odoo14-addon-sale-order-invoice-date/14.0.1.0.1.dev4-14.0.1.0.2.dev2/README.md --exclude *.pyd
+[2024-04-25 08:13:18] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoice_date-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-25 08:13:18] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoice_date-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-04-25 08:13:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-invoice-date]: success
+[2024-04-25 08:13:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240423.tar.gz]
+[2024-04-25 08:13:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240424.tar.gz]
+[2024-04-25 08:13:20] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-25 08:13:20] INFO root fetch - main [MainThread]: Store serial: [22925957]
