@@ -14631,3 +14631,54 @@
 [2024-04-25 10:06:41] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.43.tar.gz]
 [2024-04-25 10:06:41] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
 [2024-04-25 10:06:41] INFO root fetch - main [MainThread]: Store serial: [22926972]
+[2024-04-25 10:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926972]
+[2024-04-25 10:08:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 10:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimum-intel
+[2024-04-25 10:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: particleannotation
+[2024-04-25 10:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bondzai.idetect40-interface
+[2024-04-25 10:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2024-04-25 10:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: floodmodeller-api
+[2024-04-25 10:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EasyPage
+[2024-04-25 10:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nichejepa
+[2024-04-25 10:08:52] INFO root fetch - processPackages [EasyPage]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-25 10:08:52] INFO root fetch - processPackages [bondzai.idetect40-interface]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 10:08:52] INFO root fetch - processPackages [optimum-intel]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-25 10:08:52] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240424] Old Version: [0.4.5.dev20240423]
+[2024-04-25 10:08:52] WARNING root fetch - processPackages [particleannotation]: Skipping, unable to determine old version
+[2024-04-25 10:08:52] INFO root fetch - main [MainThread]: End processing [particleannotation] error
+[2024-04-25 10:08:52] WARNING root fetch - processPackages [nichejepa]: Skipping, unable to determine old version
+[2024-04-25 10:08:52] INFO root fetch - main [MainThread]: End processing [nichejepa] error
+[2024-04-25 10:08:52] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/c7/f5/11eed995d926b262d598adc65b5081a45c628ac207f284d2ecacc3a8e4f2/EasyPage-0.0.0.tar.gz
+[2024-04-25 10:08:52] INFO root fetch - processPackages [floodmodeller-api]: New version: [0.4.3] Old Version: [0.4.2.post1]
+[2024-04-25 10:08:52] INFO root fetch - processPackages [bondzai.idetect40-interface]: Downloading https://files.pythonhosted.org/packages/19/19/f5fccb08fdf34c27377f81079b7696892afda61070e00ea0293fe128e399/bondzai.idetect40-interface-0.0.3.tar.gz
+[2024-04-25 10:08:52] INFO root fetch - processPackages [optimum-intel]: Downloading https://files.pythonhosted.org/packages/e3/5e/a0b3d7b1e4a43364360bc40061fc406e52ec47e771461442275e18e445d1/optimum-intel-1.9.3.tar.gz
+[2024-04-25 10:08:52] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/1f/4e/5353b20539d3de863051bb5815a574f8fe8927f20932d53a0e833c2a700c/pyglove-0.4.5.dev20240423.tar.gz
+[2024-04-25 10:08:52] INFO root fetch - processPackages [floodmodeller-api]: Downloading https://files.pythonhosted.org/packages/71/a9/12f9933ee06a15c6f704343b55c3ac3f6daab81548c0586e16667e80c216/floodmodeller_api-0.4.2.post1.tar.gz
+[2024-04-25 10:08:53] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/5c/53/ca018cf1c30674cc02c78d8cfe700d0370ebea2cc05a61589303d5e39715/EasyPage-0.0.1.tar.gz
+[2024-04-25 10:08:53] INFO root fetch - processPackages [optimum-intel]: Downloading https://files.pythonhosted.org/packages/82/32/073cc4b4c712de50517375703da809eb2945eb4adfc1d61a52defca2d5f9/optimum-intel-1.9.4.tar.gz
+[2024-04-25 10:08:53] INFO root fetch - processPackages [bondzai.idetect40-interface]: Downloading https://files.pythonhosted.org/packages/17/5d/e8815e010a7f610eb05013ed70cd8a6c178986ec5ab2c86bf26f08d6ce14/bondzai.idetect40-interface-0.0.4.tar.gz
+[2024-04-25 10:08:53] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-04-25 10:08:53] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.0.tar.gz tmp/EasyPage-0.0.1.tar.gz --markdown 20240425/E/EasyPage/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-25 10:08:53] INFO root fetch - processPackages [optimum-intel]: executing diffoscope
+[2024-04-25 10:08:53] INFO root fetch - processPackages [optimum-intel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-intel-1.9.3.tar.gz tmp/optimum-intel-1.9.4.tar.gz --markdown 20240425/o/optimum-intel/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-04-25 10:08:53] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/1b/75/244286d43253fd0938d5a967731e9e1cc8ae3f1023ed53d308b4b23698cf/pyglove-0.4.5.dev20240424.tar.gz
+[2024-04-25 10:08:53] INFO root fetch - processPackages [bondzai.idetect40-interface]: executing diffoscope
+[2024-04-25 10:08:53] INFO root fetch - processPackages [bondzai.idetect40-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bondzai.idetect40-interface-0.0.3.tar.gz tmp/bondzai.idetect40-interface-0.0.4.tar.gz --markdown 20240425/b/bondzai.idetect40-interface/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 10:08:53] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-25 10:08:53] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240423.tar.gz tmp/pyglove-0.4.5.dev20240424.tar.gz --markdown 20240425/p/pyglove/0.4.5.dev20240423-0.4.5.dev20240424/README.md --exclude *.pyd
+[2024-04-25 10:08:53] INFO root fetch - processPackages [floodmodeller-api]: Downloading https://files.pythonhosted.org/packages/f8/db/909b2d3c42b6494577343f496cb01627e6d7e589a3f7b1eea7a6eb6d10d4/floodmodeller_api-0.4.3.tar.gz
+[2024-04-25 10:08:53] WARNING root fetch - processPackages [floodmodeller-api]: Skipping package: exceeds size limit 13403884>=10485760
+[2024-04-25 10:08:53] INFO root fetch - main [MainThread]: End processing [floodmodeller-api] error
+[2024-04-25 10:08:54] INFO root fetch - processPackages [bondzai.idetect40-interface]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.idetect40-interface-0.0.3.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - processPackages [bondzai.idetect40-interface]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.idetect40-interface-0.0.4.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - main [MainThread]: End processing [bondzai.idetect40-interface]: success
+[2024-04-25 10:08:54] INFO root fetch - processPackages [optimum-intel]: Remove: archive file [/home/abi/fetcher/tmp/optimum-intel-1.9.3.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - processPackages [optimum-intel]: Remove: archive file [/home/abi/fetcher/tmp/optimum-intel-1.9.4.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - main [MainThread]: End processing [optimum-intel]: success
+[2024-04-25 10:08:54] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.0.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.1.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-04-25 10:08:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240423.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240424.tar.gz]
+[2024-04-25 10:08:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-25 10:08:54] INFO root fetch - main [MainThread]: Store serial: [22927001]
