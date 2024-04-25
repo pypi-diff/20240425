@@ -19388,3 +19388,60 @@
 [2024-04-25 12:12:32] INFO root fetch - processPackages [simplecalculatorkms]: Remove: archive file [/home/abi/fetcher/tmp/simplecalculatorkms-0.0.3.tar.gz]
 [2024-04-25 12:12:32] INFO root fetch - main [MainThread]: End processing [simplecalculatorkms]: success
 [2024-04-25 12:12:32] INFO root fetch - main [MainThread]: Store serial: [22928705]
+[2024-04-25 12:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928705]
+[2024-04-25 12:14:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cj-package
+[2024-04-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcnodes-plotly
+[2024-04-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapegraphai
+[2024-04-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tui-dsg
+[2024-04-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsp-tools
+[2024-04-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awsso
+[2024-04-25 12:14:41] INFO root fetch - processPackages [awsso]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-25 12:14:41] INFO root fetch - processPackages [scrapegraphai]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-25 12:14:41] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 12:14:41] INFO root fetch - processPackages [funcnodes-plotly]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 12:14:41] INFO root fetch - processPackages [tui-dsg]: New version: [202404250955] Old Version: [202404221312]
+[2024-04-25 12:14:41] INFO root fetch - processPackages [dsp-tools]: New version: [7.1.3.post1] Old Version: [7.1.3]
+[2024-04-25 12:14:41] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/20/b2/f409315852118ceaaa468fb22527fe90c8ce8299667b9cb0edb61683a5b0/awsso-0.4.3.tar.gz
+[2024-04-25 12:14:41] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/0c/40/e2087267c4040372e7f08b1f889db36637206000ec487611c2f6812a36fb/scrapegraphai-0.2.6.tar.gz
+[2024-04-25 12:14:41] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-25 12:14:41] INFO root fetch - processPackages [funcnodes-plotly]: Downloading https://files.pythonhosted.org/packages/db/65/3207a9471d8c4448996133ef5554d15c08e7169df093255821adb3c66fe0/funcnodes_plotly-0.1.0.tar.gz
+[2024-04-25 12:14:41] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/ea/3e/cb7ddf68a8b9a2d91574104caab2d4bd6c1f2314e267d80a31b513b657c0/tui_dsg-202404221312.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/49/72/539674aef418fb6a7dcb6b849714763a1c24accc699ab30de34059badfac/awsso-0.4.4.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/9c/6e/37f697b5763291d17d50a8bbb6fddebcc163663671c74171192d5ac712f5/dsp_tools-7.1.3.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/bf/37/188602b98f9ce067a526aa2475561c8faa0ccfc6eb5fbfe33f4fc823e0d7/scrapegraphai-0.2.7.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [awsso]: executing diffoscope
+[2024-04-25 12:14:42] INFO root fetch - processPackages [awsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsso-0.4.3.tar.gz tmp/awsso-0.4.4.tar.gz --markdown 20240425/a/awsso/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-25 12:14:42] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-25 12:14:42] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240425/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 12:14:42] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-25 12:14:42] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.2.6.tar.gz tmp/scrapegraphai-0.2.7.tar.gz --markdown 20240425/s/scrapegraphai/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-25 12:14:42] INFO root fetch - processPackages [funcnodes-plotly]: Downloading https://files.pythonhosted.org/packages/82/f2/f83d214764464abf5843675557b94b62462298036efc5747bf6797b62315/funcnodes_plotly-0.1.1.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/3f/9b/174f29b37028b3dc0954bc6b29eb5caecc7d04ffeeef715b94fbd4333f49/tui_dsg-202404250955.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [funcnodes-plotly]: executing diffoscope
+[2024-04-25 12:14:42] INFO root fetch - processPackages [funcnodes-plotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_plotly-0.1.0.tar.gz tmp/funcnodes_plotly-0.1.1.tar.gz --markdown 20240425/f/funcnodes-plotly/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 12:14:42] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/ff/04/192327907e34a9ff3f28205c69b1a394130d4f2e600adde636374f101742/dsp_tools-7.1.3.post1.tar.gz
+[2024-04-25 12:14:42] INFO root fetch - processPackages [tui-dsg]: executing diffoscope
+[2024-04-25 12:14:42] INFO root fetch - processPackages [tui-dsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsg-202404221312.tar.gz tmp/tui_dsg-202404250955.tar.gz --markdown 20240425/t/tui-dsg/202404221312-202404250955/README.md --exclude *.pyd
+[2024-04-25 12:14:42] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-04-25 12:14:42] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.1.3.tar.gz tmp/dsp_tools-7.1.3.post1.tar.gz --markdown 20240425/d/dsp-tools/7.1.3-7.1.3.post1/README.md --exclude *.pyd
+[2024-04-25 12:14:43] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-25 12:14:43] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.4.3.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.4.4.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - main [MainThread]: End processing [awsso]: success
+[2024-04-25 12:14:43] INFO root fetch - processPackages [funcnodes-plotly]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_plotly-0.1.0.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - processPackages [funcnodes-plotly]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_plotly-0.1.1.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - main [MainThread]: End processing [funcnodes-plotly]: success
+[2024-04-25 12:14:43] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.6.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.7.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-25 12:14:43] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202404221312.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202404250955.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - main [MainThread]: End processing [tui-dsg]: success
+[2024-04-25 12:14:43] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.post1.tar.gz]
+[2024-04-25 12:14:43] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-04-25 12:14:43] INFO root fetch - main [MainThread]: Store serial: [22928728]
