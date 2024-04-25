@@ -10170,3 +10170,72 @@
 [2024-04-25 05:58:13] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc9.tar.gz]
 [2024-04-25 05:58:13] INFO root fetch - main [MainThread]: End processing [pypreql]: success
 [2024-04-25 05:58:13] INFO root fetch - main [MainThread]: Store serial: [22924981]
+[2024-04-25 06:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924981]
+[2024-04-25 06:00:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypreql
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: factorial-testing-tt
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-fieldservice
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tglc
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addons-oca-field-service
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fieldservice-account-analytic
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymindcore
+[2024-04-25 06:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-fieldservice-size
+[2024-04-25 06:00:21] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.5]
+[2024-04-25 06:00:21] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-04-25 06:00:21] INFO root fetch - processPackages [tglc]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-25 06:00:21] INFO root fetch - processPackages [pymindcore]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-25 06:00:21] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.5]
+[2024-04-25 06:00:22] WARNING root fetch - processPackages [factorial-testing-tt]: Skipping, unable to determine old version
+[2024-04-25 06:00:22] INFO root fetch - main [MainThread]: End processing [factorial-testing-tt] error
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addons-oca-field-service]: New version: [14.0.20240424.0] Old Version: [14.0.20221220.0]
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Downloading https://files.pythonhosted.org/packages/04/dd/39d317b14c6e4e4b0bc824f31568e0470da75c850f011d1c3006f3831153/odoo_addon_fieldservice_account_analytic-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/43/b8/2abb29f2547d81aff3f05e6578226b18359897a8e67919d46a46231d0bed/pypreql-0.0.1rc8.tar.gz
+[2024-04-25 06:00:22] INFO root fetch - processPackages [tglc]: Downloading https://files.pythonhosted.org/packages/03/ed/b96dab1b14c5c3feb3cb5a33cd91aa9965fb3f85ff6478f0d8406d60e84b/tglc-0.6.1.tar.gz
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pymindcore]: Downloading https://files.pythonhosted.org/packages/f6/da/56833f61a507b9ae5101a46a9f4a59fba57de98882572b880c0b48164ce1/pymindcore-0.1.2.tar.gz
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Downloading https://files.pythonhosted.org/packages/6e/cb/d246449c22206918a636ded729d5639dee0c12083a63175c692e25b07146/odoo_addon_fieldservice_size-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/90/72/92841085733f96ac053e797ee3bee660636fdaae63a4fecfde42d2c622cb/odoo14_addons_oca_field_service-14.0.20221220.0-py3-none-any.whl
+[2024-04-25 06:00:22] INFO root fetch - processPackages [tglc]: Downloading https://files.pythonhosted.org/packages/68/a9/f522105794cd3f09125d6919dc1baab5fcb3c8177a68561e23b988154994/tglc-0.6.2.tar.gz
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/e9/0a/4f403fad2559da21b84ccd3f022dd4377bd624888854366878da08ecd357/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Downloading https://files.pythonhosted.org/packages/f1/fb/329243d9e4cc7c8e8e444b52d6a25c3cf75bf5fad2328be0c4d8fd63770c/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/1a/ce/33794a7ef68067e22a883f6d200722a8ccfc530b6b40d7ba9956ed4ff8bf/pypreql-0.0.1rc9.tar.gz
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pymindcore]: Downloading https://files.pythonhosted.org/packages/3c/35/41814cb11f0ce937946f48deec623450274f6643514873da016948a759a8/pymindcore-0.2.0.tar.gz
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Downloading https://files.pythonhosted.org/packages/59/c0/8ac5dea8ebaf40af99f526c7172d57f105f38619e78fb135607bf86ae48e/odoo_addon_fieldservice_size-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: executing diffoscope
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_account_analytic-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-fieldservice-account-analytic/16.0.1.0.0.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-25 06:00:22] INFO root fetch - processPackages [tglc]: executing diffoscope
+[2024-04-25 06:00:22] INFO root fetch - processPackages [tglc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tglc-0.6.1.tar.gz tmp/tglc-0.6.2.tar.gz --markdown 20240425/t/tglc/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc8.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20240425/p/pypreql/0.0.1rc8-0.0.1rc9/README.md --exclude *.pyd
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pymindcore]: executing diffoscope
+[2024-04-25 06:00:22] INFO root fetch - processPackages [pymindcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymindcore-0.1.2.tar.gz tmp/pymindcore-0.2.0.tar.gz --markdown 20240425/p/pymindcore/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: executing diffoscope
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_size-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_size-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-fieldservice-size/16.0.1.0.0.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/9d/78/4595459930d9c53351741dc90bb440fa3e62d4c189bbb9ce0ca18c72542b/odoo14_addons_oca_field_service-14.0.20240424.0-py3-none-any.whl
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addons-oca-field-service]: executing diffoscope
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_field_service-14.0.20221220.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_field_service-14.0.20240424.0-py3-none-any.whl.zip --markdown 20240425/o/odoo14-addons-oca-field-service/14.0.20221220.0-14.0.20240424.0/README.md --exclude *.pyd
+[2024-04-25 06:00:22] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/3d/74/ca80c19c22d228dc8ed506d3f593667c03000d63f4bac7c7c02685ea3c2a/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240425/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/README.md --exclude *.pyd
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_size-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo-addon-fieldservice-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_size-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-25 06:00:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-size]: success
+[2024-04-25 06:00:23] INFO root fetch - processPackages [pymindcore]: Remove: archive file [/home/abi/fetcher/tmp/pymindcore-0.1.2.tar.gz]
+[2024-04-25 06:00:23] INFO root fetch - processPackages [pymindcore]: Remove: archive file [/home/abi/fetcher/tmp/pymindcore-0.2.0.tar.gz]
+[2024-04-25 06:00:23] INFO root fetch - main [MainThread]: End processing [pymindcore]: success
+[2024-04-25 06:00:23] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc8.tar.gz]
+[2024-04-25 06:00:23] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc9.tar.gz]
+[2024-04-25 06:00:23] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_account_analytic-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo-addon-fieldservice-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_account_analytic-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-25 06:00:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-account-analytic]: success
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo14-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_field_service-14.0.20221220.0-py3-none-any.whl.zip]
+[2024-04-25 06:00:23] INFO root fetch - processPackages [odoo14-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_field_service-14.0.20240424.0-py3-none-any.whl.zip]
+[2024-04-25 06:00:23] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-field-service]: success
+[2024-04-25 06:00:23] INFO root fetch - processPackages [tglc]: Remove: archive file [/home/abi/fetcher/tmp/tglc-0.6.1.tar.gz]
+[2024-04-25 06:00:23] INFO root fetch - processPackages [tglc]: Remove: archive file [/home/abi/fetcher/tmp/tglc-0.6.2.tar.gz]
+[2024-04-25 06:00:23] INFO root fetch - main [MainThread]: End processing [tglc]: success
+[2024-04-25 06:00:24] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip]
+[2024-04-25 06:00:24] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-25 06:00:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2024-04-25 06:00:24] INFO root fetch - main [MainThread]: Store serial: [22925003]
