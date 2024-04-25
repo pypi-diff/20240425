@@ -10947,3 +10947,69 @@
 [2024-04-25 07:05:13] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.2-py3-none-any.whl.zip]
 [2024-04-25 07:05:13] INFO root fetch - main [MainThread]: End processing [webchanges]: success
 [2024-04-25 07:05:13] INFO root fetch - main [MainThread]: Store serial: [22925375]
+[2024-04-25 07:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925375]
+[2024-04-25 07:07:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-leaflet-geojson
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osw-confidence-metric
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zcmds
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runes-client
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ZoomFoundry
+[2024-04-25 07:07:21] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240424] Old Version: [0.1.2.dev20240423]
+[2024-04-25 07:07:21] INFO root fetch - processPackages [runes-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-25 07:07:21] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 07:07:21] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 07:07:21] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/13/b5/1b17363c312f8ced938e2c2980f807e500f2885087f1703850865479d8bf/rapid_pe-0.1.2.dev20240423.tar.gz
+[2024-04-25 07:07:21] INFO root fetch - processPackages [datasette-leaflet-geojson]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-25 07:07:21] INFO root fetch - processPackages [osw-confidence-metric]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 07:07:21] INFO root fetch - processPackages [ZoomFoundry]: New version: [6.9.1] Old Version: [6.7.5]
+[2024-04-25 07:07:21] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/c9/3b/dd7c724e59c2893b93ccd77244e6103e2e5a36cecc5a38f0d747f6a078d0/runes-client-0.9.1.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [datasette-leaflet-geojson]: Downloading https://files.pythonhosted.org/packages/e7/29/4f5a63c9691b89f71f5d91b43aa79525a29143899ecffc6cf9135cdb1dd7/datasette-leaflet-geojson-0.8.1.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [osw-confidence-metric]: Downloading https://files.pythonhosted.org/packages/bb/3a/68113e30eb33811e6ce9560f56a3be0981cf4f9b383fdc5925918bc6d09d/osw_confidence_metric-0.0.3-py3-none-any.whl
+[2024-04-25 07:07:22] INFO root fetch - processPackages [ZoomFoundry]: Downloading https://files.pythonhosted.org/packages/7b/44/dda30d53379fe6decd2f663d6d5c89e57914d70fd6745fe1bd1b4bba71be/ZoomFoundry-6.7.5.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/5d/36/dfa1ba05f42d9e4e26dde908827612815dbb27d8b56c8b9254dd3ee27de6/runes-client-0.9.2.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/36/d9/6f45af64c57e40a33c04949e474dc5d1979e654c9479b2fe63f1453aa2d0/rapid_pe-0.1.2.dev20240424.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [runes-client]: executing diffoscope
+[2024-04-25 07:07:22] INFO root fetch - processPackages [runes-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-client-0.9.1.tar.gz tmp/runes-client-0.9.2.tar.gz --markdown 20240425/r/runes-client/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-25 07:07:22] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-04-25 07:07:22] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240425/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 07:07:22] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-25 07:07:22] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240423.tar.gz tmp/rapid_pe-0.1.2.dev20240424.tar.gz --markdown 20240425/r/rapid-pe/0.1.2.dev20240423-0.1.2.dev20240424/README.md --exclude *.pyd
+[2024-04-25 07:07:22] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-25 07:07:22] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240425/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 07:07:22] INFO root fetch - processPackages [osw-confidence-metric]: Downloading https://files.pythonhosted.org/packages/af/91/6143021b3b563b8a1a7dc18109ce43dfe6f8d1a76aba8dce5dd3f3943bcd/osw_confidence_metric-0.0.4-py3-none-any.whl
+[2024-04-25 07:07:22] INFO root fetch - processPackages [datasette-leaflet-geojson]: Downloading https://files.pythonhosted.org/packages/0f/80/914c65057714798c97bdcdaaa480dcdcb94c246358d00cd185e9e9c91fa1/datasette_leaflet_geojson-0.8.2.tar.gz
+[2024-04-25 07:07:22] INFO root fetch - processPackages [osw-confidence-metric]: executing diffoscope
+[2024-04-25 07:07:22] INFO root fetch - processPackages [osw-confidence-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw_confidence_metric-0.0.3-py3-none-any.whl.zip tmp/osw_confidence_metric-0.0.4-py3-none-any.whl.zip --markdown 20240425/o/osw-confidence-metric/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 07:07:22] INFO root fetch - processPackages [datasette-leaflet-geojson]: executing diffoscope
+[2024-04-25 07:07:22] INFO root fetch - processPackages [datasette-leaflet-geojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-leaflet-geojson-0.8.1.tar.gz tmp/datasette_leaflet_geojson-0.8.2.tar.gz --markdown 20240425/d/datasette-leaflet-geojson/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-25 07:07:23] INFO root fetch - processPackages [ZoomFoundry]: Downloading https://files.pythonhosted.org/packages/2f/35/4c009609141d05e029b6d7ac2e7ec9c8fed641956394c5d8cf848ae2c35f/ZoomFoundry-6.9.1.tar.gz
+[2024-04-25 07:07:23] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240423.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240424.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-25 07:07:23] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-04-25 07:07:23] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.9.1.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.9.2.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - main [MainThread]: End processing [runes-client]: success
+[2024-04-25 07:07:23] INFO root fetch - processPackages [osw-confidence-metric]: Remove: archive file [/home/abi/fetcher/tmp/osw_confidence_metric-0.0.3-py3-none-any.whl.zip]
+[2024-04-25 07:07:23] INFO root fetch - processPackages [osw-confidence-metric]: Remove: archive file [/home/abi/fetcher/tmp/osw_confidence_metric-0.0.4-py3-none-any.whl.zip]
+[2024-04-25 07:07:23] INFO root fetch - main [MainThread]: End processing [osw-confidence-metric]: success
+[2024-04-25 07:07:23] INFO root fetch - processPackages [datasette-leaflet-geojson]: Remove: archive file [/home/abi/fetcher/tmp/datasette-leaflet-geojson-0.8.1.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - processPackages [datasette-leaflet-geojson]: Remove: archive file [/home/abi/fetcher/tmp/datasette_leaflet_geojson-0.8.2.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - main [MainThread]: End processing [datasette-leaflet-geojson]: success
+[2024-04-25 07:07:23] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-25 07:07:23] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-25 07:07:23] INFO root fetch - processPackages [ZoomFoundry]: executing diffoscope
+[2024-04-25 07:07:23] INFO root fetch - processPackages [ZoomFoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZoomFoundry-6.7.5.tar.gz tmp/ZoomFoundry-6.9.1.tar.gz --markdown 20240425/Z/ZoomFoundry/6.7.5-6.9.1/README.md --exclude *.pyd
+[2024-04-25 07:07:25] INFO root fetch - processPackages [ZoomFoundry]: Remove: archive file [/home/abi/fetcher/tmp/ZoomFoundry-6.7.5.tar.gz]
+[2024-04-25 07:07:25] INFO root fetch - processPackages [ZoomFoundry]: Remove: archive file [/home/abi/fetcher/tmp/ZoomFoundry-6.9.1.tar.gz]
+[2024-04-25 07:07:25] INFO root fetch - main [MainThread]: End processing [ZoomFoundry]: success
+[2024-04-25 07:07:25] INFO root fetch - main [MainThread]: Store serial: [22925395]
