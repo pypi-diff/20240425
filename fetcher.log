@@ -20622,3 +20622,42 @@
 [2024-04-25 12:55:57] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.2.5.tar.gz]
 [2024-04-25 12:55:57] INFO root fetch - main [MainThread]: End processing [maling]: success
 [2024-04-25 12:55:57] INFO root fetch - main [MainThread]: Store serial: [22929165]
+[2024-04-25 12:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929165]
+[2024-04-25 12:58:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 12:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shii-study
+[2024-04-25 12:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcnodes-numpy
+[2024-04-25 12:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensr-utils
+[2024-04-25 12:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES
+[2024-04-25 12:58:06] INFO root fetch - processPackages [shii-study]: New version: [1.0.0] Old Version: [0.0.4]
+[2024-04-25 12:58:06] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-25 12:58:06] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 12:58:06] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/cf/94/8bf18a8c2ce76a22dafcd8c5b6c369dcfd75adb516c78224a51f12fe8d6a/shii_study-0.0.4-py2.py3-none-any.whl
+[2024-04-25 12:58:06] INFO root fetch - processPackages [funcnodes-numpy]: New version: [0.1.52] Old Version: [0.1.51]
+[2024-04-25 12:58:06] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 12:58:06] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-04-25 12:58:07] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/55/17/65eb3085b04a0d3e238cce6438d43c9506ae3b6fca0b29961efeb1520c78/funcnodes_numpy-0.1.51.tar.gz
+[2024-04-25 12:58:07] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 12:58:07] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-04-25 12:58:07] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/92/d1/1523007c060832815c8c13f396adbfc525e009ab57ee8f1726cec2b6cf99/shii_study-1.0.0-py2.py3-none-any.whl
+[2024-04-25 12:58:07] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 12:58:07] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 12:58:07] INFO root fetch - processPackages [shii-study]: executing diffoscope
+[2024-04-25 12:58:07] INFO root fetch - processPackages [shii-study]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shii_study-0.0.4-py2.py3-none-any.whl.zip tmp/shii_study-1.0.0-py2.py3-none-any.whl.zip --markdown 20240425/s/shii-study/0.0.4-1.0.0/README.md --exclude *.pyd
+[2024-04-25 12:58:07] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-04-25 12:58:07] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240425/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-25 12:58:07] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/ed/bd/b64f76474f413d8ad78d78fedbed822f3e94b8f7c868b2b5e56142180652/funcnodes_numpy-0.1.52.tar.gz
+[2024-04-25 12:58:07] INFO root fetch - processPackages [funcnodes-numpy]: executing diffoscope
+[2024-04-25 12:58:07] INFO root fetch - processPackages [funcnodes-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_numpy-0.1.51.tar.gz tmp/funcnodes_numpy-0.1.52.tar.gz --markdown 20240425/f/funcnodes-numpy/0.1.51-0.1.52/README.md --exclude *.pyd
+[2024-04-25 12:58:08] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 12:58:08] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 12:58:08] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 12:58:08] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.4-py2.py3-none-any.whl.zip]
+[2024-04-25 12:58:08] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-1.0.0-py2.py3-none-any.whl.zip]
+[2024-04-25 12:58:08] INFO root fetch - main [MainThread]: End processing [shii-study]: success
+[2024-04-25 12:58:08] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.51.tar.gz]
+[2024-04-25 12:58:08] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.52.tar.gz]
+[2024-04-25 12:58:08] INFO root fetch - main [MainThread]: End processing [funcnodes-numpy]: success
+[2024-04-25 12:58:08] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-04-25 12:58:08] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-04-25 12:58:08] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-04-25 12:58:08] INFO root fetch - main [MainThread]: Store serial: [22929175]
