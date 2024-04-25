@@ -10343,3 +10343,30 @@
 [2024-04-25 06:12:11] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
 [2024-04-25 06:12:11] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
 [2024-04-25 06:12:11] INFO root fetch - main [MainThread]: Store serial: [22925039]
+[2024-04-25 06:14:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925039]
+[2024-04-25 06:14:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 06:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spk-dev-utils
+[2024-04-25 06:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: worker-dispatcher
+[2024-04-25 06:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py2docfx
+[2024-04-25 06:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyany2json
+[2024-04-25 06:14:20] INFO root fetch - processPackages [py2docfx]: New version: [0.1.5rc1704966] Old Version: [0.1.5.dev1704905]
+[2024-04-25 06:14:20] WARNING root fetch - processPackages [spk-dev-utils]: Skipping, unable to determine old version
+[2024-04-25 06:14:20] INFO root fetch - main [MainThread]: End processing [spk-dev-utils] error
+[2024-04-25 06:14:20] INFO root fetch - processPackages [worker-dispatcher]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 06:14:20] WARNING root fetch - processPackages [pyany2json]: Skipping, unable to determine old version
+[2024-04-25 06:14:20] INFO root fetch - main [MainThread]: End processing [pyany2json] error
+[2024-04-25 06:14:20] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/44/4f/b6902e63fff30df3d967d61a70d15aa2a5caa1f2c2969f8912a8989b4517/py2docfx-0.1.5.dev1704905-py3-none-any.whl
+[2024-04-25 06:14:21] INFO root fetch - processPackages [worker-dispatcher]: Downloading https://files.pythonhosted.org/packages/e5/d6/51588dcaec35b3b941e2207e12afefe723f0fccd86f83e0ad76f86b70f9d/worker_dispatcher-0.0.1.tar.gz
+[2024-04-25 06:14:21] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/f7/c2/d4bd2ca9855cc2078537e54ece7d1522d78240960cac73d26ce097c9d8dc/py2docfx-0.1.5rc1704966-py3-none-any.whl
+[2024-04-25 06:14:21] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-25 06:14:21] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.5.dev1704905-py3-none-any.whl.zip tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip --markdown 20240425/p/py2docfx/0.1.5.dev1704905-0.1.5rc1704966/README.md --exclude *.pyd
+[2024-04-25 06:14:21] INFO root fetch - processPackages [worker-dispatcher]: Downloading https://files.pythonhosted.org/packages/36/e0/f351c187b324e939a56eb51d160fc724f168e49b9373fc827b691c21f690/worker_dispatcher-0.0.2.tar.gz
+[2024-04-25 06:14:21] INFO root fetch - processPackages [worker-dispatcher]: executing diffoscope
+[2024-04-25 06:14:21] INFO root fetch - processPackages [worker-dispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worker_dispatcher-0.0.1.tar.gz tmp/worker_dispatcher-0.0.2.tar.gz --markdown 20240425/w/worker-dispatcher/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 06:14:21] INFO root fetch - processPackages [worker-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/worker_dispatcher-0.0.1.tar.gz]
+[2024-04-25 06:14:21] INFO root fetch - processPackages [worker-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/worker_dispatcher-0.0.2.tar.gz]
+[2024-04-25 06:14:21] INFO root fetch - main [MainThread]: End processing [worker-dispatcher]: success
+[2024-04-25 06:14:22] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5.dev1704905-py3-none-any.whl.zip]
+[2024-04-25 06:14:22] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip]
+[2024-04-25 06:14:22] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-25 06:14:22] INFO root fetch - main [MainThread]: Store serial: [22925054]
