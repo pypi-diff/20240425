@@ -17906,3 +17906,44 @@
 [2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [nnunetv2]: success
 [2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-04-25 11:16:44] INFO root fetch - main [MainThread]: Store serial: [22928040]
+[2024-04-25 11:18:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928040]
+[2024-04-25 11:19:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 11:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvino
+[2024-04-25 11:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annoread
+[2024-04-25 11:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moveread-models
+[2024-04-25 11:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Rabbit-in-a-Blender
+[2024-04-25 11:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: appteka
+[2024-04-25 11:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superlinked
+[2024-04-25 11:19:00] WARNING root fetch - processPackages [moveread-models]: Skipping, unable to determine old version
+[2024-04-25 11:19:00] INFO root fetch - main [MainThread]: End processing [moveread-models] error
+[2024-04-25 11:19:00] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-25 11:19:00] INFO root fetch - processPackages [openvino]: New version: [2024.1.0] Old Version: [2024.0.0]
+[2024-04-25 11:19:00] WARNING root fetch - processPackages [annoread]: Skipping, unable to determine old version
+[2024-04-25 11:19:00] INFO root fetch - main [MainThread]: End processing [annoread] error
+[2024-04-25 11:19:00] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-25 11:19:00] INFO root fetch - processPackages [appteka]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-04-25 11:19:00] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.53] Old Version: [0.0.52]
+[2024-04-25 11:19:01] INFO root fetch - processPackages [openvino]: Downloading https://files.pythonhosted.org/packages/f2/ff/d6628fddab100ce2a07e80fc6322d88a634abd3f23983fb0868faf468b24/openvino-2024.0.0-14509-cp39-cp39-win_amd64.whl
+[2024-04-25 11:19:01] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-25 11:19:01] INFO root fetch - processPackages [appteka]: Downloading https://files.pythonhosted.org/packages/0f/50/9f450e8a463ff81464c9b6d235907b4f07d167a5f51758cd07d50a8e0a95/appteka-0.8.7.tar.gz
+[2024-04-25 11:19:01] WARNING root fetch - processPackages [openvino]: Skipping package: exceeds size limit 31745754>=10485760
+[2024-04-25 11:19:01] INFO root fetch - main [MainThread]: End processing [openvino] error
+[2024-04-25 11:19:01] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/54/28/6b963a3db7006a3ed3fda5b69adfd41165431796ce6a3b118be2612e0c8f/rabbit_in_a_blender-0.0.52.tar.gz
+[2024-04-25 11:19:01] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-25 11:19:01] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240425/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-25 11:19:01] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/4f/62/d97c20d9e9ad90772f6f3d85e9c4156022f9d00c96ff4328f1e459f1f42e/rabbit_in_a_blender-0.0.53.tar.gz
+[2024-04-25 11:19:01] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2024-04-25 11:19:01] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbit_in_a_blender-0.0.52.tar.gz tmp/rabbit_in_a_blender-0.0.53.tar.gz --markdown 20240425/R/Rabbit-in-a-Blender/0.0.52-0.0.53/README.md --exclude *.pyd
+[2024-04-25 11:19:01] INFO root fetch - processPackages [appteka]: Downloading https://files.pythonhosted.org/packages/9d/20/f8e7259d46978c1b231c8a99b6a3956ca91721ef1f1076a337af3d5cf161/appteka-0.9.0.tar.gz
+[2024-04-25 11:19:02] INFO root fetch - processPackages [appteka]: executing diffoscope
+[2024-04-25 11:19:02] INFO root fetch - processPackages [appteka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appteka-0.8.7.tar.gz tmp/appteka-0.9.0.tar.gz --markdown 20240425/a/appteka/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-04-25 11:19:02] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-25 11:19:02] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-25 11:19:02] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-25 11:19:02] INFO root fetch - processPackages [appteka]: Remove: archive file [/home/abi/fetcher/tmp/appteka-0.8.7.tar.gz]
+[2024-04-25 11:19:02] INFO root fetch - processPackages [appteka]: Remove: archive file [/home/abi/fetcher/tmp/appteka-0.9.0.tar.gz]
+[2024-04-25 11:19:02] INFO root fetch - main [MainThread]: End processing [appteka]: success
+[2024-04-25 11:19:04] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.52.tar.gz]
+[2024-04-25 11:19:04] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.53.tar.gz]
+[2024-04-25 11:19:04] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2024-04-25 11:19:04] INFO root fetch - main [MainThread]: Store serial: [22928064]
