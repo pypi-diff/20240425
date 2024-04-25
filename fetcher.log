@@ -17845,3 +17845,64 @@
 [2024-04-25 11:14:27] INFO root fetch - processPackages [ipymolstar]: Remove: archive file [/home/abi/fetcher/tmp/ipymolstar-0.0.4.tar.gz]
 [2024-04-25 11:14:27] INFO root fetch - main [MainThread]: End processing [ipymolstar]: success
 [2024-04-25 11:14:27] INFO root fetch - main [MainThread]: Store serial: [22928019]
+[2024-04-25 11:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928019]
+[2024-04-25 11:16:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prefect-dbt-flow
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superT5
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nnunetv2
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: r-shepard
+[2024-04-25 11:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EasyPage
+[2024-04-25 11:16:42] WARNING root fetch - processPackages [r-shepard]: Skipping, unable to determine old version
+[2024-04-25 11:16:42] INFO root fetch - processPackages [EasyPage]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 11:16:42] INFO root fetch - main [MainThread]: End processing [r-shepard] error
+[2024-04-25 11:16:42] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-25 11:16:42] INFO root fetch - processPackages [prefect-dbt-flow]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-25 11:16:42] WARNING root fetch - processPackages [superT5]: Skipping, unable to determine old version
+[2024-04-25 11:16:42] INFO root fetch - main [MainThread]: End processing [superT5] error
+[2024-04-25 11:16:42] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/af/a2/4eb5494a546b2a896d580073a4b16ed9e859a4da1980912a8aa12d13c2d9/EasyPage-0.0.2.tar.gz
+[2024-04-25 11:16:42] INFO root fetch - processPackages [nnunetv2]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-25 11:16:42] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-25 11:16:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-25 11:16:42] INFO root fetch - processPackages [nnunetv2]: Downloading https://files.pythonhosted.org/packages/f9/67/d5586912ac20b56ac524b9c2d032d68ea3caa22229bf00ccc44ddcdbc2ba/nnunetv2-2.4.1.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-25 11:16:43] INFO root fetch - processPackages [prefect-dbt-flow]: Downloading https://files.pythonhosted.org/packages/08/21/d1a426585f63c7469c560015a36b5c3acd01903c63f7019c5fe0d5ea5cd7/prefect_dbt_flow-0.5.7.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/6d/18/6545c766877d5fbc52adadf0787ea6b26a715b403e48877146e14d6c160f/EasyPage-0.0.3.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-04-25 11:16:43] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.2.tar.gz tmp/EasyPage-0.0.3.tar.gz --markdown 20240425/E/EasyPage/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 11:16:43] INFO root fetch - processPackages [prefect-dbt-flow]: Downloading https://files.pythonhosted.org/packages/ec/98/d0790cc3ddfb1eee505dcb08b492f91b7ef72c76ab056929d15ca178e4c7/prefect_dbt_flow-0.5.8-py3-none-any.whl
+[2024-04-25 11:16:43] INFO root fetch - processPackages [nnunetv2]: Downloading https://files.pythonhosted.org/packages/9b/84/ab721bc31bfdafaf199cd78913b29d9413b993c27028572a1487231e343f/nnunetv2-2.4.2.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-25 11:16:43] INFO root fetch - processPackages [prefect-dbt-flow]: executing diffoscope
+[2024-04-25 11:16:43] INFO root fetch - processPackages [prefect-dbt-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect_dbt_flow-0.5.7.tar.gz tmp/prefect_dbt_flow-0.5.8-py3-none-any.whl.zip --markdown 20240425/p/prefect-dbt-flow/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-25 11:16:43] INFO root fetch - processPackages [nnunetv2]: executing diffoscope
+[2024-04-25 11:16:43] INFO root fetch - processPackages [nnunetv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnunetv2-2.4.1.tar.gz tmp/nnunetv2-2.4.2.tar.gz --markdown 20240425/n/nnunetv2/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-25 11:16:43] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-25 11:16:43] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240425/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240425/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-25 11:16:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240425/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-25 11:16:44] INFO root fetch - processPackages [prefect-dbt-flow]: Remove: archive file [/home/abi/fetcher/tmp/prefect_dbt_flow-0.5.7.tar.gz]
+[2024-04-25 11:16:44] INFO root fetch - processPackages [prefect-dbt-flow]: Remove: archive file [/home/abi/fetcher/tmp/prefect_dbt_flow-0.5.8-py3-none-any.whl.zip]
+[2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [prefect-dbt-flow]: success
+[2024-04-25 11:16:44] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.2.tar.gz]
+[2024-04-25 11:16:44] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.3.tar.gz]
+[2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-04-25 11:16:44] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-25 11:16:44] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-25 11:16:44] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-25 11:16:44] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-25 11:16:44] INFO root fetch - processPackages [nnunetv2]: Remove: archive file [/home/abi/fetcher/tmp/nnunetv2-2.4.1.tar.gz]
+[2024-04-25 11:16:44] INFO root fetch - processPackages [nnunetv2]: Remove: archive file [/home/abi/fetcher/tmp/nnunetv2-2.4.2.tar.gz]
+[2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [nnunetv2]: success
+[2024-04-25 11:16:44] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-25 11:16:44] INFO root fetch - main [MainThread]: Store serial: [22928040]
