@@ -12515,3 +12515,42 @@
 [2024-04-25 08:46:30] INFO root fetch - processPackages [mpl-data-cast]: Remove: archive file [/home/abi/fetcher/tmp/mpl_data_cast-0.6.4.tar.gz]
 [2024-04-25 08:46:30] INFO root fetch - main [MainThread]: End processing [mpl-data-cast]: success
 [2024-04-25 08:46:30] INFO root fetch - main [MainThread]: Store serial: [22926154]
+[2024-04-25 08:48:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926154]
+[2024-04-25 08:48:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moveread-datasets
+[2024-04-25 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finae
+[2024-04-25 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecv-python-development
+[2024-04-25 08:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-stock-mts-mto-rule
+[2024-04-25 08:48:38] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.2.dev2]
+[2024-04-25 08:48:38] INFO root fetch - processPackages [moveread-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 08:48:38] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-04-25 08:48:38] INFO root fetch - processPackages [finae]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 08:48:38] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Downloading https://files.pythonhosted.org/packages/61/67/fa932b28a875ed720dec64a2ba37066b226bdbf0f513fe6190a7b2e41982/odoo14_addon_stock_mts_mto_rule-14.0.1.1.2.dev2-py3-none-any.whl
+[2024-04-25 08:48:38] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/77/30/f34ccff698b7b532f495ee355c0db0c40d44c56778460eb89f9ed72d2b00/ecv-python-development-0.0.39.tar.gz
+[2024-04-25 08:48:39] INFO root fetch - processPackages [moveread-datasets]: Downloading https://files.pythonhosted.org/packages/19/76/0be6371a45f36dcbc71c097fcbcf7e29c1bf68716f6548669d1681da0e6d/moveread_datasets-0.1.0.tar.gz
+[2024-04-25 08:48:39] INFO root fetch - processPackages [finae]: Downloading https://files.pythonhosted.org/packages/28/0a/cdf98d5790c66d09f6fdb3f2e1b3c590d33af5068653032d7f9ac9cec733/finae-0.0.1.tar.gz
+[2024-04-25 08:48:39] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Downloading https://files.pythonhosted.org/packages/e0/ca/3b04bf61378b73c0903dd47bd301f7e39885a00fa573eb564a2fc68942af/odoo14_addon_stock_mts_mto_rule-14.0.1.2.0-py3-none-any.whl
+[2024-04-25 08:48:39] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ef/0f/c468b4c7255327b4fe3f2e49f5461d075ef3a0fcdd4d6ab148f2811df56d/ecv-python-development-0.0.40.tar.gz
+[2024-04-25 08:48:39] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: executing diffoscope
+[2024-04-25 08:48:39] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.1.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.2.0-py3-none-any.whl.zip --markdown 20240425/o/odoo14-addon-stock-mts-mto-rule/14.0.1.1.2.dev2-14.0.1.2.0/README.md --exclude *.pyd
+[2024-04-25 08:48:39] INFO root fetch - processPackages [moveread-datasets]: Downloading https://files.pythonhosted.org/packages/f2/68/7c2b0e621dea30aabebdafe847e87258b807da00ec3a81561e1e0bc50b45/moveread_datasets-0.1.1.tar.gz
+[2024-04-25 08:48:39] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 08:48:39] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.39.tar.gz tmp/ecv-python-development-0.0.40.tar.gz --markdown 20240425/e/ecv-python-development/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-04-25 08:48:39] INFO root fetch - processPackages [finae]: Downloading https://files.pythonhosted.org/packages/e7/0f/8722b90e92aecc1e15c8346a109440f78c98d0f9aacd9c4b2b69557c4d06/finae-0.0.2.tar.gz
+[2024-04-25 08:48:39] INFO root fetch - processPackages [moveread-datasets]: executing diffoscope
+[2024-04-25 08:48:39] INFO root fetch - processPackages [moveread-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moveread_datasets-0.1.0.tar.gz tmp/moveread_datasets-0.1.1.tar.gz --markdown 20240425/m/moveread-datasets/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 08:48:39] INFO root fetch - processPackages [finae]: executing diffoscope
+[2024-04-25 08:48:39] INFO root fetch - processPackages [finae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finae-0.0.1.tar.gz tmp/finae-0.0.2.tar.gz --markdown 20240425/f/finae/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 08:48:40] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.39.tar.gz]
+[2024-04-25 08:48:40] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.40.tar.gz]
+[2024-04-25 08:48:40] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 08:48:40] INFO root fetch - processPackages [moveread-datasets]: Remove: archive file [/home/abi/fetcher/tmp/moveread_datasets-0.1.0.tar.gz]
+[2024-04-25 08:48:40] INFO root fetch - processPackages [moveread-datasets]: Remove: archive file [/home/abi/fetcher/tmp/moveread_datasets-0.1.1.tar.gz]
+[2024-04-25 08:48:40] INFO root fetch - main [MainThread]: End processing [moveread-datasets]: success
+[2024-04-25 08:48:40] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.1.2.dev2-py3-none-any.whl.zip]
+[2024-04-25 08:48:40] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-25 08:48:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-mts-mto-rule]: success
+[2024-04-25 08:48:40] INFO root fetch - processPackages [finae]: Remove: archive file [/home/abi/fetcher/tmp/finae-0.0.1.tar.gz]
+[2024-04-25 08:48:40] INFO root fetch - processPackages [finae]: Remove: archive file [/home/abi/fetcher/tmp/finae-0.0.2.tar.gz]
+[2024-04-25 08:48:40] INFO root fetch - main [MainThread]: End processing [finae]: success
+[2024-04-25 08:48:40] INFO root fetch - main [MainThread]: Store serial: [22926166]
