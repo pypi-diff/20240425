@@ -22618,3 +22618,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:00:18] INFO root fetch - processPackages [hyperon]: Remove: archive file [/home/abi/fetcher/tmp/hyperon-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-25 14:00:18] INFO root fetch - main [MainThread]: End processing [hyperon]: success
 [2024-04-25 14:00:18] INFO root fetch - main [MainThread]: Store serial: [22930050]
+[2024-04-25 14:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930050]
+[2024-04-25 14:02:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-myst
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synthetic-aia-mia
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyNeuroML
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gentab
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-scheema
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pantos-common
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nncf
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbcli-mig
+[2024-04-25 14:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: getstream
+[2024-04-25 14:02:32] INFO root fetch - processPackages [jupyterlab-myst]: New version: [2.4.0] Old Version: [2.3.2]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [getstream]: New version: [1.0.0rc16] Old Version: [0.4.0]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [synthetic-aia-mia]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [jupyterlab-myst]: Downloading https://files.pythonhosted.org/packages/51/ed/75b7ec5c8fce167f5dc8afc6f5e79fe1e327889b0b50ff3e11a5393e5b0f/jupyterlab_myst-2.3.2.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-04-25 14:02:32] INFO root fetch - processPackages [gentab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [nncf]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-04-25 14:02:32] WARNING root fetch - processPackages [pantos-common]: Skipping, unable to determine old version
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pantos-common]: Start processing: pixelyai-core
+[2024-04-25 14:02:32] INFO root fetch - main [MainThread]: End processing [pantos-common] error
+[2024-04-25 14:02:32] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pyNeuroML]: New version: [1.2.9] Old Version: [1.2.7]
+[2024-04-25 14:02:32] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/71/1f/cbb913914b0095d6eb274766225eb57975f1134a23cab010169c38a7d28e/getstream-0.4.0.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pixelyai-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-25 14:02:32] WARNING root fetch - processPackages [jupyterlab-myst]: Skipping package: exceeds size limit 12623416>=10485760
+[2024-04-25 14:02:32] INFO root fetch - main [MainThread]: End processing [jupyterlab-myst] error
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pixelyai-core]: Downloading https://files.pythonhosted.org/packages/ac/3b/4386d2fdb0afe91b912cb487519521fe61232759b601b30616852dd0ae4f/pixelyai_core-0.0.4.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [synthetic-aia-mia]: Downloading https://files.pythonhosted.org/packages/ac/a7/4b74c7e4ecfe669e7feb5457494d74cefdfe4b615b36b82866672ffdf117/synthetic_aia_mia-0.0.8.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pyNeuroML]: Downloading https://files.pythonhosted.org/packages/4b/2e/e3fd94a021568dc55edc98305187f0eacb93e80265dfe332fe75067ff0b1/pyNeuroML-1.2.7.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [gentab]: Downloading https://files.pythonhosted.org/packages/ce/63/567412d0bd22b1403aed06fccf48bf68d621537c50844efa1d77a031a788/gentab-0.1.1.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-04-25 14:02:32] INFO root fetch - processPackages [nncf]: Downloading https://files.pythonhosted.org/packages/ef/4d/cd9010386ed8568c238f9de5fe8d0b214f14355bcce34e8d3f42a07c10fc/nncf-2.8.1.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-25 14:02:32] WARNING root fetch - processPackages [pyNeuroML]: Skipping package: exceeds size limit 28311082>=10485760
+[2024-04-25 14:02:32] INFO root fetch - main [MainThread]: End processing [pyNeuroML] error
+[2024-04-25 14:02:32] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-25 14:02:32] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/5c/1b/b893d46dbf04328f18f0e7b6f68073de55d3c48069b7f80049cccc201594/getstream-1.0.0rc16.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-04-25 14:02:32] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240425/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-25 14:02:32] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-25 14:02:32] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240425/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pixelyai-core]: Downloading https://files.pythonhosted.org/packages/0d/1c/41f1e0fae55a8336787f31ad894d2c223ecc58acc49e50555d8d1f988a05/pixelyai_core-0.0.5.tar.gz
+[2024-04-25 14:02:32] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-25 14:02:32] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240425/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 14:02:32] INFO root fetch - processPackages [getstream]: executing diffoscope
+[2024-04-25 14:02:32] INFO root fetch - processPackages [getstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getstream-0.4.0.tar.gz tmp/getstream-1.0.0rc16.tar.gz --markdown 20240425/g/getstream/0.4.0-1.0.0rc16/README.md --exclude *.pyd
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pixelyai-core]: executing diffoscope
+[2024-04-25 14:02:32] INFO root fetch - processPackages [pixelyai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelyai_core-0.0.4.tar.gz tmp/pixelyai_core-0.0.5.tar.gz --markdown 20240425/p/pixelyai-core/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-25 14:02:32] INFO root fetch - processPackages [gentab]: Downloading https://files.pythonhosted.org/packages/6d/56/c39995680f2aef83dd4b69cafa9e0c2739d9afbcaa74cb8666f892572b1d/gentab-0.1.2.tar.gz
+[2024-04-25 14:02:33] INFO root fetch - processPackages [synthetic-aia-mia]: Downloading https://files.pythonhosted.org/packages/80/38/e87a2a4460fb149ee691426d520c46087c724438cf8d716c5ee7effbb51f/synthetic_aia_mia-0.0.9.tar.gz
+[2024-04-25 14:02:33] INFO root fetch - processPackages [gentab]: executing diffoscope
+[2024-04-25 14:02:33] INFO root fetch - processPackages [gentab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentab-0.1.1.tar.gz tmp/gentab-0.1.2.tar.gz --markdown 20240425/g/gentab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 14:02:33] INFO root fetch - processPackages [nncf]: Downloading https://files.pythonhosted.org/packages/cc/4a/3d275dd0b3d13c6d51c32b0bb071c6ee18b6bcb93750d49b1876aed7b809/nncf-2.9.0.tar.gz
+[2024-04-25 14:02:33] INFO root fetch - processPackages [nncf]: executing diffoscope
+[2024-04-25 14:02:33] INFO root fetch - processPackages [nncf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nncf-2.8.1.tar.gz tmp/nncf-2.9.0.tar.gz --markdown 20240425/n/nncf/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-04-25 14:02:33] INFO root fetch - processPackages [synthetic-aia-mia]: executing diffoscope
+[2024-04-25 14:02:33] INFO root fetch - processPackages [synthetic-aia-mia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_aia_mia-0.0.8.tar.gz tmp/synthetic_aia_mia-0.0.9.tar.gz --markdown 20240425/s/synthetic-aia-mia/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 14:02:33] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-25 14:02:33] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-25 14:02:33] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-25 14:02:33] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-04-25 14:02:33] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-04-25 14:02:33] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-04-25 14:02:33] INFO root fetch - processPackages [pixelyai-core]: Remove: archive file [/home/abi/fetcher/tmp/pixelyai_core-0.0.4.tar.gz]
+[2024-04-25 14:02:33] INFO root fetch - processPackages [pixelyai-core]: Remove: archive file [/home/abi/fetcher/tmp/pixelyai_core-0.0.5.tar.gz]
+[2024-04-25 14:02:33] INFO root fetch - main [MainThread]: End processing [pixelyai-core]: success
+[2024-04-25 14:02:33] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-0.4.0.tar.gz]
+[2024-04-25 14:02:33] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-1.0.0rc16.tar.gz]
+[2024-04-25 14:02:33] INFO root fetch - main [MainThread]: End processing [getstream]: success
+[2024-04-25 14:02:34] INFO root fetch - processPackages [gentab]: Remove: archive file [/home/abi/fetcher/tmp/gentab-0.1.1.tar.gz]
+[2024-04-25 14:02:34] INFO root fetch - processPackages [gentab]: Remove: archive file [/home/abi/fetcher/tmp/gentab-0.1.2.tar.gz]
+[2024-04-25 14:02:34] INFO root fetch - main [MainThread]: End processing [gentab]: success
+[2024-04-25 14:02:34] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-25 14:02:34] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-25 14:02:34] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-25 14:02:34] INFO root fetch - processPackages [synthetic-aia-mia]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_aia_mia-0.0.8.tar.gz]
+[2024-04-25 14:02:34] INFO root fetch - processPackages [synthetic-aia-mia]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_aia_mia-0.0.9.tar.gz]
+[2024-04-25 14:02:34] INFO root fetch - main [MainThread]: End processing [synthetic-aia-mia]: success
+[2024-04-25 14:02:39] INFO root fetch - processPackages [nncf]: Remove: archive file [/home/abi/fetcher/tmp/nncf-2.8.1.tar.gz]
+[2024-04-25 14:02:39] INFO root fetch - processPackages [nncf]: Remove: archive file [/home/abi/fetcher/tmp/nncf-2.9.0.tar.gz]
+[2024-04-25 14:02:39] INFO root fetch - main [MainThread]: End processing [nncf]: success
+[2024-04-25 14:02:39] INFO root fetch - main [MainThread]: Store serial: [22930082]
