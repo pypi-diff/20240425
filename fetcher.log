@@ -10669,3 +10669,42 @@
 [2024-04-25 06:46:09] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-25 06:46:09] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-25 06:46:09] INFO root fetch - main [MainThread]: Store serial: [22925265]
+[2024-04-25 06:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925265]
+[2024-04-25 06:48:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-chat-handler
+[2024-04-25 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caikit-nlp
+[2024-04-25 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygame-magics
+[2024-04-25 06:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bnpm
+[2024-04-25 06:48:19] INFO root fetch - processPackages [streamlit-chat-handler]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 06:48:19] INFO root fetch - processPackages [pygame-magics]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-25 06:48:19] INFO root fetch - processPackages [bnpm]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-25 06:48:19] INFO root fetch - processPackages [caikit-nlp]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 06:48:19] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/45/f1/533d684ec322e93b47ae6ccaeefc6beb74c5eceee02fe94e20ea4869bab5/streamlit_chat_handler-0.0.2.tar.gz
+[2024-04-25 06:48:19] INFO root fetch - processPackages [bnpm]: Downloading https://files.pythonhosted.org/packages/9c/98/14de193e89b0c9b0988d6227d8a3b53ed0fe0f0ebe2ddd166944baa80839/bnpm-0.5.1.tar.gz
+[2024-04-25 06:48:19] INFO root fetch - processPackages [pygame-magics]: Downloading https://files.pythonhosted.org/packages/9f/f9/d902befe96589755124bacb858c9eb339d33321a3c3b67687bce8198ebfe/pygame_magics-0.4.0.tar.gz
+[2024-04-25 06:48:19] INFO root fetch - processPackages [caikit-nlp]: Downloading https://files.pythonhosted.org/packages/72/4c/37eda2c874b59b1b1dd96002b07fbb789215c8fbc67b335c97f85350899c/caikit-nlp-0.4.8.tar.gz
+[2024-04-25 06:48:19] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/4a/e3/3d418d9d63a010703555226b843083c88a9b94d83de528da83a5401d5c84/streamlit_chat_handler-0.0.3.tar.gz
+[2024-04-25 06:48:19] INFO root fetch - processPackages [bnpm]: Downloading https://files.pythonhosted.org/packages/75/db/c894a70fc50279d945de700867a2a972f11ba772aa41b40b2e2fd112d261/bnpm-0.5.2.tar.gz
+[2024-04-25 06:48:19] INFO root fetch - processPackages [streamlit-chat-handler]: executing diffoscope
+[2024-04-25 06:48:19] INFO root fetch - processPackages [streamlit-chat-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chat_handler-0.0.2.tar.gz tmp/streamlit_chat_handler-0.0.3.tar.gz --markdown 20240425/s/streamlit-chat-handler/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 06:48:19] INFO root fetch - processPackages [pygame-magics]: Downloading https://files.pythonhosted.org/packages/df/1d/aff3d05ee6d1cc5a8545cac606ec90d1132cd140f414c7373b94c130edf8/pygame_magics-0.5.0.tar.gz
+[2024-04-25 06:48:19] INFO root fetch - processPackages [bnpm]: executing diffoscope
+[2024-04-25 06:48:19] INFO root fetch - processPackages [bnpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnpm-0.5.1.tar.gz tmp/bnpm-0.5.2.tar.gz --markdown 20240425/b/bnpm/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-25 06:48:19] INFO root fetch - processPackages [pygame-magics]: executing diffoscope
+[2024-04-25 06:48:19] INFO root fetch - processPackages [pygame-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_magics-0.4.0.tar.gz tmp/pygame_magics-0.5.0.tar.gz --markdown 20240425/p/pygame-magics/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-25 06:48:19] INFO root fetch - processPackages [caikit-nlp]: Downloading https://files.pythonhosted.org/packages/a5/f1/cd17614ddbe1a2bdf006195176f52a91780aa04dd60b1f7ba7e93d57478c/caikit_nlp-0.4.9.tar.gz
+[2024-04-25 06:48:20] INFO root fetch - processPackages [caikit-nlp]: executing diffoscope
+[2024-04-25 06:48:20] INFO root fetch - processPackages [caikit-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-nlp-0.4.8.tar.gz tmp/caikit_nlp-0.4.9.tar.gz --markdown 20240425/c/caikit-nlp/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 06:48:20] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.0.2.tar.gz]
+[2024-04-25 06:48:20] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.0.3.tar.gz]
+[2024-04-25 06:48:20] INFO root fetch - main [MainThread]: End processing [streamlit-chat-handler]: success
+[2024-04-25 06:48:20] INFO root fetch - processPackages [pygame-magics]: Remove: archive file [/home/abi/fetcher/tmp/pygame_magics-0.4.0.tar.gz]
+[2024-04-25 06:48:20] INFO root fetch - processPackages [pygame-magics]: Remove: archive file [/home/abi/fetcher/tmp/pygame_magics-0.5.0.tar.gz]
+[2024-04-25 06:48:20] INFO root fetch - main [MainThread]: End processing [pygame-magics]: success
+[2024-04-25 06:48:20] INFO root fetch - processPackages [bnpm]: Remove: archive file [/home/abi/fetcher/tmp/bnpm-0.5.1.tar.gz]
+[2024-04-25 06:48:20] INFO root fetch - processPackages [bnpm]: Remove: archive file [/home/abi/fetcher/tmp/bnpm-0.5.2.tar.gz]
+[2024-04-25 06:48:20] INFO root fetch - main [MainThread]: End processing [bnpm]: success
+[2024-04-25 06:48:21] INFO root fetch - processPackages [caikit-nlp]: Remove: archive file [/home/abi/fetcher/tmp/caikit-nlp-0.4.8.tar.gz]
+[2024-04-25 06:48:21] INFO root fetch - processPackages [caikit-nlp]: Remove: archive file [/home/abi/fetcher/tmp/caikit_nlp-0.4.9.tar.gz]
+[2024-04-25 06:48:21] INFO root fetch - main [MainThread]: End processing [caikit-nlp]: success
+[2024-04-25 06:48:21] INFO root fetch - main [MainThread]: Store serial: [22925282]
