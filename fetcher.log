@@ -13172,3 +13172,39 @@
 [2024-04-25 09:13:19] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.1.tar.gz]
 [2024-04-25 09:13:19] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-25 09:13:19] INFO root fetch - main [MainThread]: Store serial: [22926396]
+[2024-04-25 09:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926396]
+[2024-04-25 09:15:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 09:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ZjjLab-tools
+[2024-04-25 09:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: knot-tube
+[2024-04-25 09:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-04-25 09:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celldino
+[2024-04-25 09:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-mutator
+[2024-04-25 09:15:29] INFO root fetch - processPackages [redis-mutator]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-25 09:15:29] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-25 09:15:29] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/ce/47/921833f0de893f078cf99f0c82fc6d2ce711f4c1cfeba254497b478abeaf/redis_mutator-0.2.0.tar.gz
+[2024-04-25 09:15:29] WARNING root fetch - processPackages [celldino]: Skipping, unable to determine old version
+[2024-04-25 09:15:29] INFO root fetch - main [MainThread]: End processing [celldino] error
+[2024-04-25 09:15:29] WARNING root fetch - processPackages [ZjjLab-tools]: Skipping, unable to determine old version
+[2024-04-25 09:15:29] INFO root fetch - main [MainThread]: End processing [ZjjLab-tools] error
+[2024-04-25 09:15:29] INFO root fetch - processPackages [knot-tube]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 09:15:29] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-25 09:15:29] INFO root fetch - processPackages [knot-tube]: Downloading https://files.pythonhosted.org/packages/e5/9e/32716b6cda99accc8d6dd02c4815df6896b7cff6a41186faeefedfff09b6/knot_tube-0.2.1.tar.gz
+[2024-04-25 09:15:29] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-25 09:15:29] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/c3/ef/dde97c30476a631eb198384cb2bba20bb685ab2be6158e27b492780f2781/redis_mutator-0.2.1.tar.gz
+[2024-04-25 09:15:30] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-25 09:15:30] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240425/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-25 09:15:30] INFO root fetch - processPackages [redis-mutator]: executing diffoscope
+[2024-04-25 09:15:30] INFO root fetch - processPackages [redis-mutator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_mutator-0.2.0.tar.gz tmp/redis_mutator-0.2.1.tar.gz --markdown 20240425/r/redis-mutator/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-25 09:15:30] INFO root fetch - processPackages [knot-tube]: Downloading https://files.pythonhosted.org/packages/a9/d5/4be5c876794b85266a273219b4b6e9152e68347435cac502eb89b558e7c5/knot_tube-0.2.2.tar.gz
+[2024-04-25 09:15:30] INFO root fetch - processPackages [knot-tube]: executing diffoscope
+[2024-04-25 09:15:30] INFO root fetch - processPackages [knot-tube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knot_tube-0.2.1.tar.gz tmp/knot_tube-0.2.2.tar.gz --markdown 20240425/k/knot-tube/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 09:15:30] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.2.0.tar.gz]
+[2024-04-25 09:15:30] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.2.1.tar.gz]
+[2024-04-25 09:15:30] INFO root fetch - main [MainThread]: End processing [redis-mutator]: success
+[2024-04-25 09:15:30] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-25 09:15:30] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-25 09:15:30] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-25 09:15:30] INFO root fetch - processPackages [knot-tube]: Remove: archive file [/home/abi/fetcher/tmp/knot_tube-0.2.1.tar.gz]
+[2024-04-25 09:15:30] INFO root fetch - processPackages [knot-tube]: Remove: archive file [/home/abi/fetcher/tmp/knot_tube-0.2.2.tar.gz]
+[2024-04-25 09:15:30] INFO root fetch - main [MainThread]: End processing [knot-tube]: success
+[2024-04-25 09:15:30] INFO root fetch - main [MainThread]: Store serial: [22926425]
