@@ -18375,3 +18375,52 @@
 [2024-04-25 11:38:07] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
 [2024-04-25 11:38:07] INFO root fetch - main [MainThread]: End processing [laboneq]: success
 [2024-04-25 11:38:07] INFO root fetch - main [MainThread]: Store serial: [22928267]
+[2024-04-25 11:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928267]
+[2024-04-25 11:40:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-grappelli
+[2024-04-25 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomlite
+[2024-04-25 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-rattler
+[2024-04-25 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qgis-deployment-toolbelt
+[2024-04-25 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abilian-sbe
+[2024-04-25 11:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openstef
+[2024-04-25 11:40:31] INFO root fetch - processPackages [qgis-deployment-toolbelt]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 11:40:31] INFO root fetch - processPackages [openstef]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-04-25 11:40:31] INFO root fetch - processPackages [py-rattler]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 11:40:31] INFO root fetch - processPackages [abilian-sbe]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-25 11:40:31] INFO root fetch - processPackages [django-grappelli]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-25 11:40:31] INFO root fetch - processPackages [atomlite]: New version: [4.4.3] Old Version: [4.4.2]
+[2024-04-25 11:40:31] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/4d/af/26cc6ca37c9029d2a68da3981972d583a710238e073fe44d2f33c039d869/qgis-deployment-toolbelt-0.8.0.tar.gz
+[2024-04-25 11:40:31] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/a9/ca/0ab178d9f50ee4260fdc377d915b49d57bce978b56773f1c26bfbb1f800f/openstef-3.4.8.tar.gz
+[2024-04-25 11:40:31] WARNING root fetch - processPackages [openstef]: Skipping package: exceeds size limit 62278984>=10485760
+[2024-04-25 11:40:31] INFO root fetch - main [MainThread]: End processing [openstef] error
+[2024-04-25 11:40:31] INFO root fetch - processPackages [django-grappelli]: Downloading https://files.pythonhosted.org/packages/8c/05/2c3c1a13e2f5073b1cea5e3920553aef89f02287d38fc4e23d79397f656a/django-grappelli-3.0.8.tar.gz
+[2024-04-25 11:40:31] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/34/96/334c84e09420434bf853cd1957a04c1cacc4d37c3fab04060c0ebee791bf/py_rattler-0.3.0.tar.gz
+[2024-04-25 11:40:31] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/d5/9a/086bf308844e6a51bcccd209e648d370690f6c9e5bb19bcf231bf1cad2dc/qgis-deployment-toolbelt-0.9.0.tar.gz
+[2024-04-25 11:40:31] WARNING root fetch - processPackages [django-grappelli]: Skipping package: exceeds size limit 11062097>=10485760
+[2024-04-25 11:40:31] INFO root fetch - main [MainThread]: End processing [django-grappelli] error
+[2024-04-25 11:40:31] INFO root fetch - processPackages [abilian-sbe]: Downloading https://files.pythonhosted.org/packages/90/89/818cd51c15fffa8458233091259570a4b86bd2c03e9cc73390435c232c05/abilian_sbe-1.1.6.tar.gz
+[2024-04-25 11:40:31] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/62/a2/cd5c95548f321ff48645a06894e80a9f953000d9ef334878718f5d7f6244/atomlite-4.4.2.tar.gz
+[2024-04-25 11:40:31] INFO root fetch - processPackages [qgis-deployment-toolbelt]: executing diffoscope
+[2024-04-25 11:40:31] INFO root fetch - processPackages [qgis-deployment-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-deployment-toolbelt-0.8.0.tar.gz tmp/qgis-deployment-toolbelt-0.9.0.tar.gz --markdown 20240425/q/qgis-deployment-toolbelt/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 11:40:32] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.8.0.tar.gz]
+[2024-04-25 11:40:32] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.9.0.tar.gz]
+[2024-04-25 11:40:32] INFO root fetch - main [MainThread]: End processing [qgis-deployment-toolbelt]: success
+[2024-04-25 11:40:32] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/e6/80/34bd1c6b58dbdbaee641ec604c361d574dd5e85da84b12fef2b9db3de813/atomlite-4.4.3.tar.gz
+[2024-04-25 11:40:32] INFO root fetch - processPackages [atomlite]: executing diffoscope
+[2024-04-25 11:40:32] INFO root fetch - processPackages [atomlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomlite-4.4.2.tar.gz tmp/atomlite-4.4.3.tar.gz --markdown 20240425/a/atomlite/4.4.2-4.4.3/README.md --exclude *.pyd
+[2024-04-25 11:40:32] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/c0/1a/d87ca172cef77dd92e41fa1326b68cfdfb4dce4833d3069453cf9c9b660b/py_rattler-0.4.0.tar.gz
+[2024-04-25 11:40:33] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-4.4.2.tar.gz]
+[2024-04-25 11:40:33] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-4.4.3.tar.gz]
+[2024-04-25 11:40:33] INFO root fetch - main [MainThread]: End processing [atomlite]: success
+[2024-04-25 11:40:33] INFO root fetch - processPackages [abilian-sbe]: Downloading https://files.pythonhosted.org/packages/f4/d7/2afbbe59c07ffdb85b66cfaf9def28cbe4707e7504b429da69d8bce3529a/abilian_sbe-1.1.7.tar.gz
+[2024-04-25 11:40:33] INFO root fetch - processPackages [py-rattler]: executing diffoscope
+[2024-04-25 11:40:33] INFO root fetch - processPackages [py-rattler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_rattler-0.3.0.tar.gz tmp/py_rattler-0.4.0.tar.gz --markdown 20240425/p/py-rattler/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 11:40:33] INFO root fetch - processPackages [abilian-sbe]: executing diffoscope
+[2024-04-25 11:40:33] INFO root fetch - processPackages [abilian-sbe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abilian_sbe-1.1.6.tar.gz tmp/abilian_sbe-1.1.7.tar.gz --markdown 20240425/a/abilian-sbe/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-25 11:40:37] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.3.0.tar.gz]
+[2024-04-25 11:40:37] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.4.0.tar.gz]
+[2024-04-25 11:40:37] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
+[2024-04-25 11:40:39] INFO root fetch - processPackages [abilian-sbe]: Remove: archive file [/home/abi/fetcher/tmp/abilian_sbe-1.1.6.tar.gz]
+[2024-04-25 11:40:39] INFO root fetch - processPackages [abilian-sbe]: Remove: archive file [/home/abi/fetcher/tmp/abilian_sbe-1.1.7.tar.gz]
+[2024-04-25 11:40:39] INFO root fetch - main [MainThread]: End processing [abilian-sbe]: success
+[2024-04-25 11:40:39] INFO root fetch - main [MainThread]: Store serial: [22928300]
