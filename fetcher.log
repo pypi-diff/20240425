@@ -9270,3 +9270,42 @@
 [2024-04-25 05:01:00] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz]
 [2024-04-25 05:01:00] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-onpremise]: success
 [2024-04-25 05:01:00] INFO root fetch - main [MainThread]: Store serial: [22924529]
+[2024-04-25 05:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924529]
+[2024-04-25 05:03:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 05:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-04-25 05:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-04-25 05:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-04-25 05:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testingiasdf1
+[2024-04-25 05:03:09] INFO root fetch - processPackages [testingiasdf1]: New version: [2.31.8] Old Version: [2.31.7]
+[2024-04-25 05:03:09] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-25 05:03:09] INFO root fetch - processPackages [zfx]: New version: [20240425a0] Old Version: [20240423b0]
+[2024-04-25 05:03:09] INFO root fetch - processPackages [testingiasdf1]: Downloading https://files.pythonhosted.org/packages/98/db/8c98566b5da705f97f094964669f9980216a0f52b92fd609fb3d43cbe5ac/testingiasdf1-2.31.7.tar.gz
+[2024-04-25 05:03:09] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 05:03:09] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-25 05:03:09] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/dc/37/335cc84e52f97421da314b6384e54e6f7b16c174b27ccd1ab2244f6c700a/zfx-20240423b0.tar.gz
+[2024-04-25 05:03:09] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-25 05:03:09] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-25 05:03:09] INFO root fetch - processPackages [testingiasdf1]: Downloading https://files.pythonhosted.org/packages/42/3d/d00d4da6227ec2e36c67ebcea5f5ead7b7e2304cd0837e644f42d82d45b3/testingiasdf1-2.31.8.tar.gz
+[2024-04-25 05:03:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-25 05:03:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240425/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-25 05:03:10] INFO root fetch - processPackages [testingiasdf1]: executing diffoscope
+[2024-04-25 05:03:10] INFO root fetch - processPackages [testingiasdf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingiasdf1-2.31.7.tar.gz tmp/testingiasdf1-2.31.8.tar.gz --markdown 20240425/t/testingiasdf1/2.31.7-2.31.8/README.md --exclude *.pyd
+[2024-04-25 05:03:10] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/04/69/14f4a4847a444b55c0c3ff28ca62d07f6e60ac904f62c66597989b86fda4/zfx-20240425a0.tar.gz
+[2024-04-25 05:03:10] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-25 05:03:10] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-20240423b0.tar.gz tmp/zfx-20240425a0.tar.gz --markdown 20240425/z/zfx/20240423b0-20240425a0/README.md --exclude *.pyd
+[2024-04-25 05:03:10] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-25 05:03:10] INFO root fetch - processPackages [testingiasdf1]: Remove: archive file [/home/abi/fetcher/tmp/testingiasdf1-2.31.7.tar.gz]
+[2024-04-25 05:03:10] INFO root fetch - processPackages [testingiasdf1]: Remove: archive file [/home/abi/fetcher/tmp/testingiasdf1-2.31.8.tar.gz]
+[2024-04-25 05:03:10] INFO root fetch - main [MainThread]: End processing [testingiasdf1]: success
+[2024-04-25 05:03:10] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-25 05:03:10] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-25 05:03:10] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-25 05:03:10] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-25 05:03:10] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240425/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 05:03:10] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240423b0.tar.gz]
+[2024-04-25 05:03:10] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240425a0.tar.gz]
+[2024-04-25 05:03:10] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-25 05:03:11] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-25 05:03:11] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-25 05:03:11] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-25 05:03:11] INFO root fetch - main [MainThread]: Store serial: [22924544]
