@@ -20203,3 +20203,105 @@
 [2024-04-25 12:38:04] INFO root fetch - processPackages [caerp-celery]: Remove: archive file [/home/abi/fetcher/tmp/caerp_celery-2024.1.2a2.tar.gz]
 [2024-04-25 12:38:04] INFO root fetch - main [MainThread]: End processing [caerp-celery]: success
 [2024-04-25 12:38:04] INFO root fetch - main [MainThread]: Store serial: [22929008]
+[2024-04-25 12:40:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929008]
+[2024-04-25 12:40:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passwordless
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skypilot-nightly
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brynq-sdk-task-scheduler
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpr_sdk
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymemgpt-nightly
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oaipmh-scythe
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FlowVisor
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-data-services
+[2024-04-25 12:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zadarapyV2
+[2024-04-25 12:40:13] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [zadarapyV2]: New version: [23.9.0.220] Old Version: [23.9.0.147]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240424] Old Version: [1.0.0.dev20240423]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [cpr_sdk]: New version: [1.1.2] Old Version: [1.1.0]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [FlowVisor]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [oaipmh-scythe]: New version: [0.12.1] Old Version: [0.12.0]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [passwordless]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8831123099] Old Version: [2.0.0.dev8779326749]
+[2024-04-25 12:40:13] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Downloading https://files.pythonhosted.org/packages/c0/68/f7628bd9d44ca21eababba002ee7c3455ccefe8e67856ecdfd8965aa32a9/brynq_sdk_task_scheduler-1.1.0.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/7e/e4/ca8dc39baefddebaf5e9d79a88b9fe41563c2914d35a90541ecd2c2cb5bc/skypilot_nightly-1.0.0.dev20240423.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [oaipmh-scythe]: Downloading https://files.pythonhosted.org/packages/de/af/8b80ed7d681861e4bea2cdf870106871e8a69d7b5b8b25ce7ff1b3aa6d02/oaipmh_scythe-0.12.0.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/63/ca/5d3c3d8b05886d6435f036255ce4bb36e3ac80f9dc667cb59813d273a737/zadarapyV2-23.9.0.147.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [cpr_sdk]: Downloading https://files.pythonhosted.org/packages/60/27/ec3fee2579e672b2b0bc46f145103c4cc0c8ece0a0f0ec44258426984aaf/cpr_sdk-1.1.0.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/b3/cc/3212a2def5b4f697bb40a50902f08a38715a730d602162fd4330776a97ce/FlowVisor-0.0.3.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/2a/cd/4436a1e80400795cc3ce9cc1c387f8a34f451b65c47f6c2f36ca5cf6567a/th2_data_services-2.0.0.dev8779326749.tar.gz
+[2024-04-25 12:40:13] INFO root fetch - processPackages [passwordless]: Downloading https://files.pythonhosted.org/packages/ef/a9/04783b6735996182d8294c532a567ed14d861d94ec2d9d21f901fe4eb894/passwordless-1.0.0.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Downloading https://files.pythonhosted.org/packages/37/14/8cbec9b300fedbb8bc82e19b4db3f16a569d2af793b40cd2500d3e2a1483/brynq_sdk_task_scheduler-1.1.1.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240425/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [oaipmh-scythe]: Downloading https://files.pythonhosted.org/packages/57/65/c7b743d9c5ee071e9d2e369191a81e259c9049c1cb7175d81c3e3d70ed18/oaipmh_scythe-0.12.1.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_task_scheduler-1.1.0.tar.gz tmp/brynq_sdk_task_scheduler-1.1.1.tar.gz --markdown 20240425/b/brynq-sdk-task-scheduler/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240425/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/3e/0d/8182e0fc4c76b758e560a56e2ec7f7bb82540f41b48e442ad52bf3711e33/FlowVisor-0.1.0.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/81/0f/c3511ebf4b14bdeb3dde21638a56814ea5254364230ad82ca3383242774f/skypilot_nightly-1.0.0.dev20240424.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [cpr_sdk]: Downloading https://files.pythonhosted.org/packages/24/6c/97afb4a63a9f4eca26ddf9a967292539ae7bdd0034630c9cc74ed8d44e8d/cpr_sdk-1.1.2.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [passwordless]: Downloading https://files.pythonhosted.org/packages/44/58/590ea6e613cb85020fb7aa8bff1ef98780b1c37df9ab848cb81424f1efe4/passwordless-1.0.1.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [zadarapyV2]: Downloading https://files.pythonhosted.org/packages/c2/c6/6be41c77d9586c3439b2241b1eca49220f9dd0028bc9e7203d02862c0cc7/zadarapyV2-23.9.0.220.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [oaipmh-scythe]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [oaipmh-scythe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaipmh_scythe-0.12.0.tar.gz tmp/oaipmh_scythe-0.12.1.tar.gz --markdown 20240425/o/oaipmh-scythe/0.12.0-0.12.1/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/1a/10/fed431c66b8014c10bdae811ce13921405e4809aca2af764750cb4d811a4/th2_data_services-2.0.0.dev8831123099.tar.gz
+[2024-04-25 12:40:14] INFO root fetch - processPackages [FlowVisor]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [FlowVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowVisor-0.0.3.tar.gz tmp/FlowVisor-0.1.0.tar.gz --markdown 20240425/F/FlowVisor/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [cpr_sdk]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [cpr_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpr_sdk-1.1.0.tar.gz tmp/cpr_sdk-1.1.2.tar.gz --markdown 20240425/c/cpr_sdk/1.1.0-1.1.2/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [passwordless]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [passwordless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordless-1.0.0.tar.gz tmp/passwordless-1.0.1.tar.gz --markdown 20240425/p/passwordless/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240423.tar.gz tmp/skypilot_nightly-1.0.0.dev20240424.tar.gz --markdown 20240425/s/skypilot-nightly/1.0.0.dev20240423-1.0.0.dev20240424/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [zadarapyV2]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [zadarapyV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zadarapyV2-23.9.0.147.tar.gz tmp/zadarapyV2-23.9.0.220.tar.gz --markdown 20240425/z/zadarapyV2/23.9.0.147-23.9.0.220/README.md --exclude *.pyd
+[2024-04-25 12:40:14] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-04-25 12:40:14] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8779326749.tar.gz tmp/th2_data_services-2.0.0.dev8831123099.tar.gz --markdown 20240425/t/th2-data-services/2.0.0.dev8779326749-2.0.0.dev8831123099/README.md --exclude *.pyd
+[2024-04-25 12:40:15] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_task_scheduler-1.1.0.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_task_scheduler-1.1.1.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Start processing: amsdal_cli
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [brynq-sdk-task-scheduler]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [amsdal_cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [cpr_sdk]: Remove: archive file [/home/abi/fetcher/tmp/cpr_sdk-1.1.0.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [cpr_sdk]: Remove: archive file [/home/abi/fetcher/tmp/cpr_sdk-1.1.2.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [cpr_sdk]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/b1/2a/9a1fe1e569a982ea69cf606479e1349d2dbf1dead6d4533c56c7bb2de9eb/amsdal_cli-0.1.8.tar.gz
+[2024-04-25 12:40:15] INFO root fetch - processPackages [oaipmh-scythe]: Remove: archive file [/home/abi/fetcher/tmp/oaipmh_scythe-0.12.0.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [oaipmh-scythe]: Remove: archive file [/home/abi/fetcher/tmp/oaipmh_scythe-0.12.1.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [oaipmh-scythe]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.0.3.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.1.0.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [FlowVisor]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [passwordless]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-1.0.0.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [passwordless]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-1.0.1.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [passwordless]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8779326749.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8831123099.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-25 12:40:15] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-25 12:40:15] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/2e/70/c1d522a5ebf5174e244cac677d1f74f68febc7768d2d7eca45d5aef1da7e/amsdal_cli-0.1.9.tar.gz
+[2024-04-25 12:40:16] INFO root fetch - processPackages [amsdal_cli]: executing diffoscope
+[2024-04-25 12:40:16] INFO root fetch - processPackages [amsdal_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_cli-0.1.8.tar.gz tmp/amsdal_cli-0.1.9.tar.gz --markdown 20240425/a/amsdal_cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 12:40:16] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240423.tar.gz]
+[2024-04-25 12:40:16] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240424.tar.gz]
+[2024-04-25 12:40:16] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-25 12:40:16] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.8.tar.gz]
+[2024-04-25 12:40:16] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.9.tar.gz]
+[2024-04-25 12:40:16] INFO root fetch - main [MainThread]: End processing [amsdal_cli]: success
+[2024-04-25 12:40:39] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.9.0.147.tar.gz]
+[2024-04-25 12:40:39] INFO root fetch - processPackages [zadarapyV2]: Remove: archive file [/home/abi/fetcher/tmp/zadarapyV2-23.9.0.220.tar.gz]
+[2024-04-25 12:40:39] INFO root fetch - main [MainThread]: End processing [zadarapyV2]: success
+[2024-04-25 12:40:39] INFO root fetch - main [MainThread]: Store serial: [22929039]
