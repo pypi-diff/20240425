@@ -12491,3 +12491,27 @@
 [2024-04-25 08:44:19] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack_ext-3.3.1.dev20240424163921.tar.gz]
 [2024-04-25 08:44:19] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
 [2024-04-25 08:44:19] INFO root fetch - main [MainThread]: Store serial: [22926146]
+[2024-04-25 08:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926146]
+[2024-04-25 08:46:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 08:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-request
+[2024-04-25 08:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpl-data-cast
+[2024-04-25 08:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moveread-datasets
+[2024-04-25 08:46:28] WARNING root fetch - processPackages [moveread-datasets]: Skipping, unable to determine old version
+[2024-04-25 08:46:28] INFO root fetch - main [MainThread]: End processing [moveread-datasets] error
+[2024-04-25 08:46:28] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.0.7] Old Version: [17.0.1.0.0.6]
+[2024-04-25 08:46:28] INFO root fetch - processPackages [mpl-data-cast]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-25 08:46:28] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/d8/38/db161fabb4d4e4ba66bbaf02fb47fea30719fcf81c5a927cac3561f40e08/odoo_addon_stock_request-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-25 08:46:28] INFO root fetch - processPackages [mpl-data-cast]: Downloading https://files.pythonhosted.org/packages/b5/51/0d6c4d4f89e67e04827db6d4523fc9c5cf3a63080f0e7f0845f944a60232/mpl_data_cast-0.6.3.tar.gz
+[2024-04-25 08:46:29] INFO root fetch - processPackages [mpl-data-cast]: Downloading https://files.pythonhosted.org/packages/3b/34/8fd7d8b2383c831befdfbdd9cbba8e7fea8bf11b2013f3718976411be48b/mpl_data_cast-0.6.4.tar.gz
+[2024-04-25 08:46:29] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/11/8c/9fbd4fd236211b09082314d88b2a37814c743959b046ae8c85d5b3ebad82/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl
+[2024-04-25 08:46:29] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-04-25 08:46:29] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-stock-request/17.0.1.0.0.6-17.0.1.0.0.7/README.md --exclude *.pyd
+[2024-04-25 08:46:29] INFO root fetch - processPackages [mpl-data-cast]: executing diffoscope
+[2024-04-25 08:46:29] INFO root fetch - processPackages [mpl-data-cast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpl_data_cast-0.6.3.tar.gz tmp/mpl_data_cast-0.6.4.tar.gz --markdown 20240425/m/mpl-data-cast/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-25 08:46:30] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-25 08:46:30] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-25 08:46:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-04-25 08:46:30] INFO root fetch - processPackages [mpl-data-cast]: Remove: archive file [/home/abi/fetcher/tmp/mpl_data_cast-0.6.3.tar.gz]
+[2024-04-25 08:46:30] INFO root fetch - processPackages [mpl-data-cast]: Remove: archive file [/home/abi/fetcher/tmp/mpl_data_cast-0.6.4.tar.gz]
+[2024-04-25 08:46:30] INFO root fetch - main [MainThread]: End processing [mpl-data-cast]: success
+[2024-04-25 08:46:30] INFO root fetch - main [MainThread]: Store serial: [22926154]
