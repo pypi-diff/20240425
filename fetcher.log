@@ -3469,3 +3469,87 @@
 [2024-04-25 02:37:44] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.4.4.tar.gz]
 [2024-04-25 02:37:44] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-04-25 02:37:44] INFO root fetch - main [MainThread]: Store serial: [22922375]
+[2024-04-25 02:39:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922375]
+[2024-04-25 02:39:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-tweet-queue
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphlit-client
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChemoBiolysis
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runes-client
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pz-rail-base
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cyberdrop-dl
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cgg
+[2024-04-25 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto-test-common
+[2024-04-25 02:39:54] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240424001] Old Version: [1.0.20240423001]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [runes-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [pz-rail-base]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/1f/f3/ebb8eef76560c807f497e9cc9f5945e2e2f5ec76966472cbef4143d98468/graphlit_client-1.0.20240423001.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [ChemoBiolysis]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [cgg]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-25 02:39:54] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [ChemoBiolysis]: Downloading https://files.pythonhosted.org/packages/63/d0/87482dff7796a35c72a1a1fef918eb2d4d08f2f19cd1559ddd50857ecae7/ChemoBiolysis-0.0.2.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/c9/3b/dd7c724e59c2893b93ccd77244e6103e2e5a36cecc5a38f0d747f6a078d0/runes-client-0.9.1.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [pz-rail-base]: Downloading https://files.pythonhosted.org/packages/c7/e9/bc961586eae702080062a5124b55902095bbca31b395b1768ffefafb931c/pz-rail-base-0.2.3.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/d0/4d/1bcce6fd4b01edc3088927c67c6a1f036da4325e2d64f9023ffc785bf41f/cyberdrop_dl-5.2.8.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/d0/c5/d6ee84c5835c2f74e148ac45b556fc222a16ca4e6d9e8cca375893490b92/auto-test-common-2.0.1.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [cgg]: Downloading https://files.pythonhosted.org/packages/58/43/6d5417f314e120f3231622b38a2b6306caf587dd732d35673fd5e44f2dd5/cgg-0.2.6.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/3d/67/d865e095666e039dd38f77622e4823a1a486b6e926bed58265a3a98e120e/graphlit_client-1.0.20240424001.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-04-25 02:39:54] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-1.0.20240423001.tar.gz tmp/graphlit_client-1.0.20240424001.tar.gz --markdown 20240425/g/graphlit-client/1.0.20240423001-1.0.20240424001/README.md --exclude *.pyd
+[2024-04-25 02:39:54] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-25 02:39:54] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240425/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-25 02:39:54] INFO root fetch - processPackages [ChemoBiolysis]: Downloading https://files.pythonhosted.org/packages/bf/bb/6eb2f6152b1b12ac9b02fda9baedc94d36242a3e9e9eb29e12201cd4d579/ChemoBiolysis-0.0.3.tar.gz
+[2024-04-25 02:39:54] INFO root fetch - processPackages [runes-client]: Downloading https://files.pythonhosted.org/packages/5d/36/dfa1ba05f42d9e4e26dde908827612815dbb27d8b56c8b9254dd3ee27de6/runes-client-0.9.2.tar.gz
+[2024-04-25 02:39:55] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/b0/11/f9565d153edd3d2d163c8ff7921229c1088f27d605ed30a2b96ff0fa6eca/auto-test-common-2.0.2.tar.gz
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cgg]: Downloading https://files.pythonhosted.org/packages/58/a5/961e79a1bc8cc17eb355f97d010ef09cf6efe2289f15b8ed9c8cad88aab3/cgg-0.2.7.tar.gz
+[2024-04-25 02:39:55] INFO root fetch - processPackages [ChemoBiolysis]: executing diffoscope
+[2024-04-25 02:39:55] INFO root fetch - processPackages [ChemoBiolysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChemoBiolysis-0.0.2.tar.gz tmp/ChemoBiolysis-0.0.3.tar.gz --markdown 20240425/C/ChemoBiolysis/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-25 02:39:55] INFO root fetch - processPackages [runes-client]: executing diffoscope
+[2024-04-25 02:39:55] INFO root fetch - processPackages [runes-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-client-0.9.1.tar.gz tmp/runes-client-0.9.2.tar.gz --markdown 20240425/r/runes-client/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/a7/7a/092028b397178a9db79ef8faa65d75bf211ee19118810447fad4b661a628/cyberdrop_dl-5.2.9.tar.gz
+[2024-04-25 02:39:55] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-25 02:39:55] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.1.tar.gz tmp/auto-test-common-2.0.2.tar.gz --markdown 20240425/a/auto-test-common/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cgg]: executing diffoscope
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgg-0.2.6.tar.gz tmp/cgg-0.2.7.tar.gz --markdown 20240425/c/cgg/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240425/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-04-25 02:39:55] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.2.8.tar.gz tmp/cyberdrop_dl-5.2.9.tar.gz --markdown 20240425/c/cyberdrop-dl/5.2.8-5.2.9/README.md --exclude *.pyd
+[2024-04-25 02:39:55] INFO root fetch - processPackages [pz-rail-base]: Downloading https://files.pythonhosted.org/packages/42/41/a4ed6df3321586dcdacb170c5ec1a9ae33959cc36928d592c78b00e2f050/pz_rail_base-0.2.4.tar.gz
+[2024-04-25 02:39:55] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-25 02:39:55] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-25 02:39:55] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-25 02:39:55] INFO root fetch - processPackages [pz-rail-base]: executing diffoscope
+[2024-04-25 02:39:55] INFO root fetch - processPackages [pz-rail-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-base-0.2.3.tar.gz tmp/pz_rail_base-0.2.4.tar.gz --markdown 20240425/p/pz-rail-base/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-25 02:39:56] INFO root fetch - processPackages [cgg]: Remove: archive file [/home/abi/fetcher/tmp/cgg-0.2.6.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - processPackages [cgg]: Remove: archive file [/home/abi/fetcher/tmp/cgg-0.2.7.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - main [MainThread]: End processing [cgg]: success
+[2024-04-25 02:39:56] INFO root fetch - processPackages [ChemoBiolysis]: Remove: archive file [/home/abi/fetcher/tmp/ChemoBiolysis-0.0.2.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - processPackages [ChemoBiolysis]: Remove: archive file [/home/abi/fetcher/tmp/ChemoBiolysis-0.0.3.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - main [MainThread]: End processing [ChemoBiolysis]: success
+[2024-04-25 02:39:56] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240423001.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240424001.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-04-25 02:39:56] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.9.1.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - processPackages [runes-client]: Remove: archive file [/home/abi/fetcher/tmp/runes-client-0.9.2.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - main [MainThread]: End processing [runes-client]: success
+[2024-04-25 02:39:56] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-25 02:39:56] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.1.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.2.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-25 02:39:56] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.8.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
+[2024-04-25 02:39:56] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-04-25 02:39:57] INFO root fetch - processPackages [pz-rail-base]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-base-0.2.3.tar.gz]
+[2024-04-25 02:39:57] INFO root fetch - processPackages [pz-rail-base]: Remove: archive file [/home/abi/fetcher/tmp/pz_rail_base-0.2.4.tar.gz]
+[2024-04-25 02:39:57] INFO root fetch - main [MainThread]: End processing [pz-rail-base]: success
+[2024-04-25 02:39:57] INFO root fetch - main [MainThread]: Store serial: [22922403]
