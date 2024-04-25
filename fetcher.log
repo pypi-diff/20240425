@@ -8148,3 +8148,18 @@
 [2024-04-25 03:57:29] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
 [2024-04-25 03:57:29] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2024-04-25 03:57:29] INFO root fetch - main [MainThread]: Store serial: [22924111]
+[2024-04-25 03:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924111]
+[2024-04-25 03:59:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 03:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ensure-import
+[2024-04-25 03:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinxcontrib-data-pipeline
+[2024-04-25 03:59:37] WARNING root fetch - processPackages [sphinxcontrib-data-pipeline]: Skipping, unable to determine old version
+[2024-04-25 03:59:37] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-data-pipeline] error
+[2024-04-25 03:59:37] INFO root fetch - processPackages [ensure-import]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-25 03:59:37] INFO root fetch - processPackages [ensure-import]: Downloading https://files.pythonhosted.org/packages/55/0e/639244925f89ce4f6196c847f6e194759508ab419e42f9d458c039693899/ensure_import-0.3.5.tar.gz
+[2024-04-25 03:59:38] INFO root fetch - processPackages [ensure-import]: Downloading https://files.pythonhosted.org/packages/dd/7b/a3b0711d3ad9306205565326a46b9bbb22c81f6697d14e32f684adb2571a/ensure_import-0.3.6.tar.gz
+[2024-04-25 03:59:38] INFO root fetch - processPackages [ensure-import]: executing diffoscope
+[2024-04-25 03:59:38] INFO root fetch - processPackages [ensure-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensure_import-0.3.5.tar.gz tmp/ensure_import-0.3.6.tar.gz --markdown 20240425/e/ensure-import/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-25 03:59:38] INFO root fetch - processPackages [ensure-import]: Remove: archive file [/home/abi/fetcher/tmp/ensure_import-0.3.5.tar.gz]
+[2024-04-25 03:59:38] INFO root fetch - processPackages [ensure-import]: Remove: archive file [/home/abi/fetcher/tmp/ensure_import-0.3.6.tar.gz]
+[2024-04-25 03:59:38] INFO root fetch - main [MainThread]: End processing [ensure-import]: success
+[2024-04-25 03:59:38] INFO root fetch - main [MainThread]: Store serial: [22924117]
