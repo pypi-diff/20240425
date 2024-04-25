@@ -10384,3 +10384,30 @@
 [2024-04-25 06:18:38] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.1.tar.gz]
 [2024-04-25 06:18:38] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2024-04-25 06:18:38] INFO root fetch - main [MainThread]: Store serial: [22925057]
+[2024-04-25 06:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925057]
+[2024-04-25 06:20:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 06:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instructlab-quantize
+[2024-04-25 06:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: factorialtesting-v0
+[2024-04-25 06:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rov-collector
+[2024-04-25 06:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai
+[2024-04-25 06:20:47] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-25 06:20:47] WARNING root fetch - processPackages [instructlab-quantize]: Skipping, unable to determine old version
+[2024-04-25 06:20:47] INFO root fetch - main [MainThread]: End processing [instructlab-quantize] error
+[2024-04-25 06:20:47] WARNING root fetch - processPackages [factorialtesting-v0]: Skipping, unable to determine old version
+[2024-04-25 06:20:47] INFO root fetch - main [MainThread]: End processing [factorialtesting-v0] error
+[2024-04-25 06:20:47] INFO root fetch - processPackages [rov-collector]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-25 06:20:47] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-04-25 06:20:47] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-04-25 06:20:47] INFO root fetch - processPackages [rov-collector]: Downloading https://files.pythonhosted.org/packages/d2/61/d457b9a28e579bd3830027c47f805f281155c0bceafb8ea5ee8385e21fc1/rov_collector-1.1.4.tar.gz
+[2024-04-25 06:20:47] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-04-25 06:20:47] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240425/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-25 06:20:48] INFO root fetch - processPackages [rov-collector]: Downloading https://files.pythonhosted.org/packages/25/87/9002a978cc503676caf27875f54ddcd8febf84bce43d5b693f5a223bed75/rov_collector-1.1.5.tar.gz
+[2024-04-25 06:20:48] INFO root fetch - processPackages [rov-collector]: executing diffoscope
+[2024-04-25 06:20:48] INFO root fetch - processPackages [rov-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_collector-1.1.4.tar.gz tmp/rov_collector-1.1.5.tar.gz --markdown 20240425/r/rov-collector/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-25 06:20:48] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-04-25 06:20:48] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-04-25 06:20:48] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-04-25 06:20:48] INFO root fetch - processPackages [rov-collector]: Remove: archive file [/home/abi/fetcher/tmp/rov_collector-1.1.4.tar.gz]
+[2024-04-25 06:20:48] INFO root fetch - processPackages [rov-collector]: Remove: archive file [/home/abi/fetcher/tmp/rov_collector-1.1.5.tar.gz]
+[2024-04-25 06:20:48] INFO root fetch - main [MainThread]: End processing [rov-collector]: success
+[2024-04-25 06:20:48] INFO root fetch - main [MainThread]: Store serial: [22925073]
