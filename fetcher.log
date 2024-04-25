@@ -21744,3 +21744,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:31:13] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8831123099.tar.gz]
 [2024-04-25 13:31:13] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
 [2024-04-25 13:31:13] INFO root fetch - main [MainThread]: Store serial: [22929672]
+[2024-04-25 13:33:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929672]
+[2024-04-25 13:33:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 13:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ropt
+[2024-04-25 13:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yamlparser
+[2024-04-25 13:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-smartbase-admin
+[2024-04-25 13:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: storey
+[2024-04-25 13:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdo-sdk-python
+[2024-04-25 13:33:22] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-25 13:33:22] INFO root fetch - processPackages [ropt]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-25 13:33:22] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-25 13:33:22] INFO root fetch - processPackages [yamlparser]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-25 13:33:22] INFO root fetch - processPackages [storey]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-25 13:33:22] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/0c/03/2a5c4c35b1ea6949774eb853a8ad7de9fdab11644375545c8b0ec42c41d3/ropt-0.1.6.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [yamlparser]: Downloading https://files.pythonhosted.org/packages/8d/59/ce43a9af6daa2b16b156b63418f3908fb15759edb007036ba9bc9204fea2/yamlparser-0.1.6.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-25 13:33:22] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240425/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-25 13:33:22] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/77/2e/a2a7f717a0572b3cd61b0cc4f4a8b52e76c1bc234d9c6f0f1dd213599f08/ropt-0.2.0.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [yamlparser]: Downloading https://files.pythonhosted.org/packages/dd/77/6daa653e9d9ba9542c8e1096fab07443b8ce29dd7631d21b1390ada95377/yamlparser-0.1.7.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/7a/07/b7c06ed930f7729cbabcef2eff7245adf34a98245820a6dc5cc2585c3d31/storey-1.7.9.tar.gz
+[2024-04-25 13:33:22] INFO root fetch - processPackages [yamlparser]: executing diffoscope
+[2024-04-25 13:33:22] INFO root fetch - processPackages [yamlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamlparser-0.1.6.tar.gz tmp/yamlparser-0.1.7.tar.gz --markdown 20240425/y/yamlparser/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-25 13:33:22] INFO root fetch - processPackages [ropt]: executing diffoscope
+[2024-04-25 13:33:22] INFO root fetch - processPackages [ropt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt-0.1.6.tar.gz tmp/ropt-0.2.0.tar.gz --markdown 20240425/r/ropt/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-25 13:33:22] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-04-25 13:33:22] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.8.tar.gz tmp/storey-1.7.9.tar.gz --markdown 20240425/s/storey/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-25 13:33:23] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-04-25 13:33:23] INFO root fetch - processPackages [yamlparser]: Remove: archive file [/home/abi/fetcher/tmp/yamlparser-0.1.6.tar.gz]
+[2024-04-25 13:33:23] INFO root fetch - processPackages [yamlparser]: Remove: archive file [/home/abi/fetcher/tmp/yamlparser-0.1.7.tar.gz]
+[2024-04-25 13:33:23] INFO root fetch - main [MainThread]: End processing [yamlparser]: success
+[2024-04-25 13:33:23] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-04-25 13:33:23] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
+[2024-04-25 13:33:23] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-04-25 13:33:23] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-25 13:33:23] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-25 13:33:23] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-25 13:33:24] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-04-25 13:33:24] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240425/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-04-25 13:33:24] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.1.6.tar.gz]
+[2024-04-25 13:33:24] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.2.0.tar.gz]
+[2024-04-25 13:33:24] INFO root fetch - main [MainThread]: End processing [ropt]: success
+[2024-04-25 13:33:28] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-04-25 13:33:28] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-04-25 13:33:28] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-04-25 13:33:28] INFO root fetch - main [MainThread]: Store serial: [22929688]
