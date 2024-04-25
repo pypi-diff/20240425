@@ -10648,3 +10648,24 @@
 [2024-04-25 06:43:59] INFO root fetch - processPackages [dsm-django-socialauth]: Remove: archive file [/home/abi/fetcher/tmp/dsm-django-socialauth-1.0.9.tar.gz]
 [2024-04-25 06:43:59] INFO root fetch - main [MainThread]: End processing [dsm-django-socialauth]: success
 [2024-04-25 06:43:59] INFO root fetch - main [MainThread]: Store serial: [22925256]
+[2024-04-25 06:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925256]
+[2024-04-25 06:46:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 06:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finvizlite
+[2024-04-25 06:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomic-bomb-engine
+[2024-04-25 06:46:07] INFO root fetch - processPackages [finvizlite]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 06:46:08] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 06:46:08] INFO root fetch - processPackages [finvizlite]: Downloading https://files.pythonhosted.org/packages/71/9c/0d68c5e4ce89bcee847d5cec3d0bd2a9f5c03fa2067dc38573e07a825d28/finvizlite-0.1.1.tar.gz
+[2024-04-25 06:46:08] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-25 06:46:08] INFO root fetch - processPackages [finvizlite]: Downloading https://files.pythonhosted.org/packages/dc/d7/28103420388e0de4ae79a5f7612e1130ad8720c6d4ffef0ca40f7b6ff6f2/finvizlite-0.1.2.tar.gz
+[2024-04-25 06:46:08] INFO root fetch - processPackages [finvizlite]: executing diffoscope
+[2024-04-25 06:46:08] INFO root fetch - processPackages [finvizlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finvizlite-0.1.1.tar.gz tmp/finvizlite-0.1.2.tar.gz --markdown 20240425/f/finvizlite/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 06:46:08] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-25 06:46:09] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-25 06:46:09] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240425/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 06:46:09] INFO root fetch - processPackages [finvizlite]: Remove: archive file [/home/abi/fetcher/tmp/finvizlite-0.1.1.tar.gz]
+[2024-04-25 06:46:09] INFO root fetch - processPackages [finvizlite]: Remove: archive file [/home/abi/fetcher/tmp/finvizlite-0.1.2.tar.gz]
+[2024-04-25 06:46:09] INFO root fetch - main [MainThread]: End processing [finvizlite]: success
+[2024-04-25 06:46:09] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-25 06:46:09] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-25 06:46:09] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-25 06:46:09] INFO root fetch - main [MainThread]: Store serial: [22925265]
