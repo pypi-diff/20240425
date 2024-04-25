@@ -2943,3 +2943,24 @@
 [2024-04-25 02:09:35] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
 [2024-04-25 02:09:35] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
 [2024-04-25 02:09:35] INFO root fetch - main [MainThread]: Store serial: [22922136]
+[2024-04-25 02:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922136]
+[2024-04-25 02:11:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 02:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbb-nightly
+[2024-04-25 02:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-quantizers-nightly
+[2024-04-25 02:11:43] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202404240009] Old Version: [4.1.7.dev202404230010]
+[2024-04-25 02:11:43] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/f3/a7/0ab893cb97ee1a63c28470de1ac7ad49359829e65d3ccdcb9497a9a8ca3f/openbb_nightly-4.1.7.dev202404230010.tar.gz
+[2024-04-25 02:11:43] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240425.post1013] Old Version: [1.5.0.20240424.post1019]
+[2024-04-25 02:11:44] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/17/3c/403bf998d29b142d52eaa22ead8dc2c856ca7df107c6e779e392b4b26854/mct-quantizers-nightly-1.5.0.20240424.post1019.tar.gz
+[2024-04-25 02:11:44] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/47/41/04d14ff6917ec0c85d49a86cf8329cbbb118915f2eed8e540be71c0c08ba/mct-quantizers-nightly-1.5.0.20240425.post1013.tar.gz
+[2024-04-25 02:11:44] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/61/89/190c10787d1f7165af33863a6cf58ad2bd3515ef458759d135ec51772531/openbb_nightly-4.1.7.dev202404240009.tar.gz
+[2024-04-25 02:11:44] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-25 02:11:44] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240424.post1019.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240425.post1013.tar.gz --markdown 20240425/m/mct-quantizers-nightly/1.5.0.20240424.post1019-1.5.0.20240425.post1013/README.md --exclude *.pyd
+[2024-04-25 02:11:44] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-25 02:11:44] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202404230010.tar.gz tmp/openbb_nightly-4.1.7.dev202404240009.tar.gz --markdown 20240425/o/openbb-nightly/4.1.7.dev202404230010-4.1.7.dev202404240009/README.md --exclude *.pyd
+[2024-04-25 02:11:45] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240424.post1019.tar.gz]
+[2024-04-25 02:11:45] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240425.post1013.tar.gz]
+[2024-04-25 02:11:45] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-25 02:11:48] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404230010.tar.gz]
+[2024-04-25 02:11:48] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404240009.tar.gz]
+[2024-04-25 02:11:48] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-25 02:11:48] INFO root fetch - main [MainThread]: Store serial: [22922149]
