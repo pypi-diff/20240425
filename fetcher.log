@@ -21424,3 +21424,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:20:08] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-25 13:20:08] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
 [2024-04-25 13:20:08] INFO root fetch - main [MainThread]: Store serial: [22929540]
+[2024-04-25 13:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929540]
+[2024-04-25 13:22:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glance-store
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-observabilityclient
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airda
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: math-ops-131
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuackOSM
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gouge
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audiometry-trainer
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: croudtech-bootstrap
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kkpyai
+[2024-04-25 13:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qstd-core
+[2024-04-25 13:22:16] INFO root fetch - processPackages [qstd-core]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [audiometry-trainer]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [math-ops-131]: New version: [1.3] Old Version: [1.2]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [kkpyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 13:22:16] WARNING root fetch - processPackages [airda]: Skipping, unable to determine old version
+[2024-04-25 13:22:16] INFO root fetch - processPackages [airda]: Start processing: profiles-pycorelib
+[2024-04-25 13:22:16] INFO root fetch - main [MainThread]: End processing [airda] error
+[2024-04-25 13:22:16] INFO root fetch - processPackages [glance-store]: New version: [4.8.0] Old Version: [4.7.0]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [gouge]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [croudtech-bootstrap]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [QuackOSM]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [python-observabilityclient]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-25 13:22:16] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/ce/a8/54939288fd6acbfd612920a7328595121935000111eda6bbb633d211a4b9/qstd_core-0.2.2.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/62/44/7f909c653f90c436dd8ea17dc31c1b684d21b668515153786c22574821d2/math_ops_131-1.2.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/42/26/185f5472ec8dcbb4136a7febe51e45fa4229622f048146f324185a39f048/audiometry_trainer-0.1.5.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/41/d3/9eaff2d61cda5a93cc3aa554dac6f205851c8b6303358abc745bc574c29b/kkpyai-0.8.0.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/e1/c2/15cd5ec80488769c944f10311730b284c5da571ae750fd99fca01cc9be9a/gouge-2.2.1.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [profiles-pycorelib]: New version: [0.12.0] Old Version: [0.11.0]
+[2024-04-25 13:22:17] INFO root fetch - processPackages [croudtech-bootstrap]: Downloading https://files.pythonhosted.org/packages/0b/0e/087f0301d3f57db1d16a8dc2e9230d43f03cfcc181251535b749bf492592/croudtech-bootstrap-0.1.8.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/98/98/724a9e484f46cb299537e024b0c0a88a38242fa1be16dcacc5d344b0036f/glance_store-4.7.0.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [QuackOSM]: Downloading https://files.pythonhosted.org/packages/5e/dc/77799b5f8e1a29a54f9c6d3a11f00822b2e20f63a572d825e5dcb1141e8c/quackosm-0.6.1.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [python-observabilityclient]: Downloading https://files.pythonhosted.org/packages/1f/53/b1db3bd8940156a99839372c26d6317fa2e48b9c8f99b36efa3aa07d5ccd/python-observabilityclient-0.1.1.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/9e/19/3e770359d7e2fedb767db029e1e6cc6313e6cb04f432604563614b04470b/math_ops_131-1.3.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/5d/fb/68ee41a5230bff7f50616754d4177eecd0f6602c85b5310d16ae044f2361/kkpyai-0.9.0.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [profiles-pycorelib]: Downloading https://files.pythonhosted.org/packages/42/f5/37de55ff9da17d8308f9d34d5c30bb3c00c16c7875a6b61ca78d28dd9f6e/profiles_pycorelib-0.11.0-py3-none-any.whl
+[2024-04-25 13:22:17] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 13:22:17] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.2.tar.gz tmp/math_ops_131-1.3.tar.gz --markdown 20240425/m/math-ops-131/1.2-1.3/README.md --exclude *.pyd
+[2024-04-25 13:22:17] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-04-25 13:22:17] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.8.0.tar.gz tmp/kkpyai-0.9.0.tar.gz --markdown 20240425/k/kkpyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 13:22:17] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/2c/7a/4e6a9cea02bc272770135a4dbd2cd16046554858a4dab59d316d641b843d/qstd_core-0.2.3.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [gouge]: Downloading https://files.pythonhosted.org/packages/53/ff/3aed91a2a7eaa55720a5ba4ab6dc0ba6bb56c86a547b49524e01a0651181/gouge-2.2.2.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [croudtech-bootstrap]: Downloading https://files.pythonhosted.org/packages/3b/e2/bd90b18800e19447b54e3cd90a2c1291c512c9f376f7b5f82c55ab89a5c0/croudtech-bootstrap-0.1.9.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [python-observabilityclient]: Downloading https://files.pythonhosted.org/packages/f4/cc/030a6d00689993a8c8bc57f2949be1025534da41739fc3c07f255d070761/python-observabilityclient-0.2.0.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [qstd-core]: executing diffoscope
+[2024-04-25 13:22:17] INFO root fetch - processPackages [qstd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_core-0.2.2.tar.gz tmp/qstd_core-0.2.3.tar.gz --markdown 20240425/q/qstd-core/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-25 13:22:17] INFO root fetch - processPackages [gouge]: executing diffoscope
+[2024-04-25 13:22:17] INFO root fetch - processPackages [gouge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gouge-2.2.1.tar.gz tmp/gouge-2.2.2.tar.gz --markdown 20240425/g/gouge/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-25 13:22:17] INFO root fetch - processPackages [audiometry-trainer]: Downloading https://files.pythonhosted.org/packages/a1/9c/73f5396f6d5f0370df4c2b8dc54dff7b6a5af5778207151ecaf45721a104/audiometry_trainer-0.1.6.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [croudtech-bootstrap]: executing diffoscope
+[2024-04-25 13:22:17] INFO root fetch - processPackages [croudtech-bootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croudtech-bootstrap-0.1.8.tar.gz tmp/croudtech-bootstrap-0.1.9.tar.gz --markdown 20240425/c/croudtech-bootstrap/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 13:22:17] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/cb/40/fa9a3126fed94c920a7295b4009a270b5349b669a26643f21f5855d14a2e/glance_store-4.8.0.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [python-observabilityclient]: executing diffoscope
+[2024-04-25 13:22:17] INFO root fetch - processPackages [python-observabilityclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-observabilityclient-0.1.1.tar.gz tmp/python-observabilityclient-0.2.0.tar.gz --markdown 20240425/p/python-observabilityclient/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-25 13:22:17] INFO root fetch - processPackages [QuackOSM]: Downloading https://files.pythonhosted.org/packages/83/ad/a7f0f5f872c88aa1ee69733911086834bd4ea1790f7cabbd065fa50961f7/quackosm-0.7.0.tar.gz
+[2024-04-25 13:22:17] INFO root fetch - processPackages [profiles-pycorelib]: Downloading https://files.pythonhosted.org/packages/e2/a7/70a41a8e3631edca39d2f04ca8a1539b9c8c95c71af2459e3f98c19ddf1e/profiles_pycorelib-0.12.0-py3-none-any.whl
+[2024-04-25 13:22:17] INFO root fetch - processPackages [glance-store]: executing diffoscope
+[2024-04-25 13:22:17] INFO root fetch - processPackages [glance-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance_store-4.7.0.tar.gz tmp/glance_store-4.8.0.tar.gz --markdown 20240425/g/glance-store/4.7.0-4.8.0/README.md --exclude *.pyd
+[2024-04-25 13:22:18] INFO root fetch - processPackages [QuackOSM]: executing diffoscope
+[2024-04-25 13:22:18] INFO root fetch - processPackages [QuackOSM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quackosm-0.6.1.tar.gz tmp/quackosm-0.7.0.tar.gz --markdown 20240425/Q/QuackOSM/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-25 13:22:18] INFO root fetch - processPackages [audiometry-trainer]: executing diffoscope
+[2024-04-25 13:22:18] INFO root fetch - processPackages [audiometry-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiometry_trainer-0.1.5.tar.gz tmp/audiometry_trainer-0.1.6.tar.gz --markdown 20240425/a/audiometry-trainer/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-25 13:22:18] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.2.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 13:22:18] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.8.0.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.9.0.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-04-25 13:22:18] INFO root fetch - processPackages [profiles-pycorelib]: executing diffoscope
+[2024-04-25 13:22:18] INFO root fetch - processPackages [profiles-pycorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles_pycorelib-0.11.0-py3-none-any.whl.zip tmp/profiles_pycorelib-0.12.0-py3-none-any.whl.zip --markdown 20240425/p/profiles-pycorelib/0.11.0-0.12.0/README.md --exclude *.pyd
+[2024-04-25 13:22:18] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.2.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.3.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - main [MainThread]: End processing [qstd-core]: success
+[2024-04-25 13:22:18] INFO root fetch - processPackages [python-observabilityclient]: Remove: archive file [/home/abi/fetcher/tmp/python-observabilityclient-0.1.1.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - processPackages [python-observabilityclient]: Remove: archive file [/home/abi/fetcher/tmp/python-observabilityclient-0.2.0.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - main [MainThread]: End processing [python-observabilityclient]: success
+[2024-04-25 13:22:18] INFO root fetch - processPackages [croudtech-bootstrap]: Remove: archive file [/home/abi/fetcher/tmp/croudtech-bootstrap-0.1.8.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - processPackages [croudtech-bootstrap]: Remove: archive file [/home/abi/fetcher/tmp/croudtech-bootstrap-0.1.9.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - main [MainThread]: End processing [croudtech-bootstrap]: success
+[2024-04-25 13:22:18] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.1.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - processPackages [gouge]: Remove: archive file [/home/abi/fetcher/tmp/gouge-2.2.2.tar.gz]
+[2024-04-25 13:22:18] INFO root fetch - main [MainThread]: End processing [gouge]: success
+[2024-04-25 13:22:19] INFO root fetch - processPackages [QuackOSM]: Remove: archive file [/home/abi/fetcher/tmp/quackosm-0.6.1.tar.gz]
+[2024-04-25 13:22:19] INFO root fetch - processPackages [QuackOSM]: Remove: archive file [/home/abi/fetcher/tmp/quackosm-0.7.0.tar.gz]
+[2024-04-25 13:22:19] INFO root fetch - main [MainThread]: End processing [QuackOSM]: success
+[2024-04-25 13:22:19] INFO root fetch - processPackages [profiles-pycorelib]: Remove: archive file [/home/abi/fetcher/tmp/profiles_pycorelib-0.11.0-py3-none-any.whl.zip]
+[2024-04-25 13:22:19] INFO root fetch - processPackages [profiles-pycorelib]: Remove: archive file [/home/abi/fetcher/tmp/profiles_pycorelib-0.12.0-py3-none-any.whl.zip]
+[2024-04-25 13:22:19] INFO root fetch - main [MainThread]: End processing [profiles-pycorelib]: success
+[2024-04-25 13:22:19] INFO root fetch - processPackages [glance-store]: Remove: archive file [/home/abi/fetcher/tmp/glance_store-4.7.0.tar.gz]
+[2024-04-25 13:22:19] INFO root fetch - processPackages [glance-store]: Remove: archive file [/home/abi/fetcher/tmp/glance_store-4.8.0.tar.gz]
+[2024-04-25 13:22:19] INFO root fetch - main [MainThread]: End processing [glance-store]: success
+[2024-04-25 13:22:22] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.5.tar.gz]
+[2024-04-25 13:22:22] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.6.tar.gz]
+[2024-04-25 13:22:22] INFO root fetch - main [MainThread]: End processing [audiometry-trainer]: success
+[2024-04-25 13:22:22] INFO root fetch - main [MainThread]: Store serial: [22929573]
