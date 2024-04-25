@@ -22196,3 +22196,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:46:41] INFO root fetch - processPackages [dmpcpwa]: Remove: archive file [/home/abi/fetcher/tmp/dmpcpwa-0.0.2.tar.gz]
 [2024-04-25 13:46:41] INFO root fetch - main [MainThread]: End processing [dmpcpwa]: success
 [2024-04-25 13:46:41] INFO root fetch - main [MainThread]: Store serial: [22929844]
+[2024-04-25 13:48:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929844]
+[2024-04-25 13:48:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gtagora-connector
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prediction-market-agent-tooling
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataset-tools
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmaps-avoid-swiss
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: craft-ai-sdk
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybrams
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rust_docs_scraper
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multidefusion
+[2024-04-25 13:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyplanemono-minimal
+[2024-04-25 13:48:50] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-25 13:48:50] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 13:48:50] INFO root fetch - processPackages [pybrams]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 13:48:50] INFO root fetch - processPackages [multidefusion]: New version: [0.0.6] Old Version: [0.0.16]
+[2024-04-25 13:48:50] WARNING root fetch - processPackages [pyplanemono-minimal]: Skipping, unable to determine old version
+[2024-04-25 13:48:50] INFO root fetch - main [MainThread]: End processing [pyplanemono-minimal] error
+[2024-04-25 13:48:50] INFO root fetch - processPackages [gmaps-avoid-swiss]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 13:48:50] WARNING root fetch - processPackages [rust_docs_scraper]: Skipping, unable to determine old version
+[2024-04-25 13:48:50] INFO root fetch - main [MainThread]: End processing [rust_docs_scraper] error
+[2024-04-25 13:48:50] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [gtagora-connector]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-25 13:48:50] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [pybrams]: Downloading https://files.pythonhosted.org/packages/dd/86/5169843f4a612be607c7689869b23c2b84d4c5a52237dfb12733288568c6/pybrams-0.0.8.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 13:48:50] INFO root fetch - processPackages [gtagora-connector]: Downloading https://files.pythonhosted.org/packages/2d/04/33ca5a6921c0081ffc3f5ae55f61be58c722583429ae9ea63ff384bf428d/gtagora-connector-1.4.3.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [gmaps-avoid-swiss]: Downloading https://files.pythonhosted.org/packages/41/f6/2a28c20ac4a5fc37439e816a0cf7c0ea20d9224762a0329b91ccbf41ba0e/gmaps_avoid_swiss-0.1.7.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [multidefusion]: Downloading https://files.pythonhosted.org/packages/ba/5f/ca1f8c793e0eb849746475f8b1821c9de350a4845623ef447cc291a4e34c/multidefusion-0.0.16.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [pybrams]: Downloading https://files.pythonhosted.org/packages/9e/b5/4663cda9e72cfa30e5bbc6e1627fcc37e7d9be9e13c9eb5c5e45710b7296/pybrams-0.0.9.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-04-25 13:48:50] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-25 13:48:50] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240425/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 13:48:50] INFO root fetch - processPackages [pybrams]: executing diffoscope
+[2024-04-25 13:48:50] INFO root fetch - processPackages [pybrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrams-0.0.8.tar.gz tmp/pybrams-0.0.9.tar.gz --markdown 20240425/p/pybrams/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 13:48:50] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-04-25 13:48:50] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240425/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-04-25 13:48:50] INFO root fetch - processPackages [gtagora-connector]: Downloading https://files.pythonhosted.org/packages/cc/4b/f340616759c03e9a809b7200d318e13efde82afd6ace2bdb06ff1d4f050a/gtagora_connector-1.4.4.tar.gz
+[2024-04-25 13:48:51] INFO root fetch - processPackages [gmaps-avoid-swiss]: Downloading https://files.pythonhosted.org/packages/a9/91/b477ee38ed523aa98a2c86556078abf849a7372e42c60fdb64cd4541ba43/gmaps_avoid_swiss-0.1.8.tar.gz
+[2024-04-25 13:48:51] INFO root fetch - processPackages [gtagora-connector]: executing diffoscope
+[2024-04-25 13:48:51] INFO root fetch - processPackages [gtagora-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtagora-connector-1.4.3.tar.gz tmp/gtagora_connector-1.4.4.tar.gz --markdown 20240425/g/gtagora-connector/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-25 13:48:51] INFO root fetch - processPackages [multidefusion]: Downloading https://files.pythonhosted.org/packages/71/c6/69c3646915a255d3c6a2a81eec500a18d5846357e6cf00eb9d65ea8a1e1c/multidefusion-0.0.6.tar.gz
+[2024-04-25 13:48:51] INFO root fetch - processPackages [gmaps-avoid-swiss]: executing diffoscope
+[2024-04-25 13:48:51] INFO root fetch - processPackages [gmaps-avoid-swiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmaps_avoid_swiss-0.1.7.tar.gz tmp/gmaps_avoid_swiss-0.1.8.tar.gz --markdown 20240425/g/gmaps-avoid-swiss/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 13:48:51] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-04-25 13:48:51] INFO root fetch - processPackages [multidefusion]: executing diffoscope
+[2024-04-25 13:48:51] INFO root fetch - processPackages [multidefusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidefusion-0.0.16.tar.gz tmp/multidefusion-0.0.6.tar.gz --markdown 20240425/m/multidefusion/0.0.16-0.0.6/README.md --exclude *.pyd
+[2024-04-25 13:48:51] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-04-25 13:48:51] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240425/c/craft-ai-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 13:48:51] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-25 13:48:51] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-25 13:48:51] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-25 13:48:51] INFO root fetch - processPackages [pybrams]: Remove: archive file [/home/abi/fetcher/tmp/pybrams-0.0.8.tar.gz]
+[2024-04-25 13:48:51] INFO root fetch - processPackages [pybrams]: Remove: archive file [/home/abi/fetcher/tmp/pybrams-0.0.9.tar.gz]
+[2024-04-25 13:48:51] INFO root fetch - main [MainThread]: End processing [pybrams]: success
+[2024-04-25 13:48:51] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-04-25 13:48:51] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-04-25 13:48:51] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-04-25 13:48:52] INFO root fetch - processPackages [gtagora-connector]: Remove: archive file [/home/abi/fetcher/tmp/gtagora-connector-1.4.3.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - processPackages [gtagora-connector]: Remove: archive file [/home/abi/fetcher/tmp/gtagora_connector-1.4.4.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - main [MainThread]: End processing [gtagora-connector]: success
+[2024-04-25 13:48:52] INFO root fetch - processPackages [multidefusion]: Remove: archive file [/home/abi/fetcher/tmp/multidefusion-0.0.16.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - processPackages [multidefusion]: Remove: archive file [/home/abi/fetcher/tmp/multidefusion-0.0.6.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - main [MainThread]: End processing [multidefusion]: success
+[2024-04-25 13:48:52] INFO root fetch - processPackages [gmaps-avoid-swiss]: Remove: archive file [/home/abi/fetcher/tmp/gmaps_avoid_swiss-0.1.7.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - processPackages [gmaps-avoid-swiss]: Remove: archive file [/home/abi/fetcher/tmp/gmaps_avoid_swiss-0.1.8.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - main [MainThread]: End processing [gmaps-avoid-swiss]: success
+[2024-04-25 13:48:52] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-04-25 13:48:52] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-04-25 13:48:52] INFO root fetch - main [MainThread]: Store serial: [22929883]
