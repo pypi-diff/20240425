@@ -20358,3 +20358,24 @@
 [2024-04-25 12:42:50] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.72.tar.gz]
 [2024-04-25 12:42:50] INFO root fetch - main [MainThread]: End processing [fdk]: success
 [2024-04-25 12:42:50] INFO root fetch - main [MainThread]: Store serial: [22929056]
+[2024-04-25 12:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929056]
+[2024-04-25 12:44:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 12:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teapy
+[2024-04-25 12:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-identity-sdk
+[2024-04-25 12:44:59] INFO root fetch - processPackages [teapy]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-25 12:44:59] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-25 12:44:59] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-04-25 12:44:59] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-04-25 12:44:59] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/c6/c8/08318d5645434d4730bc3bb69ec768cbc532bd4e1c02ddd47bb8b29798a9/teapy-0.7.1.tar.gz
+[2024-04-25 12:44:59] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-25 12:44:59] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240425/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-25 12:45:00] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/c7/26/464c91a1ae581cad7acc00f7d0cf81e2bc96a4e30129fecc4aae88140216/teapy-0.7.2.tar.gz
+[2024-04-25 12:45:00] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2024-04-25 12:45:00] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.7.1.tar.gz tmp/teapy-0.7.2.tar.gz --markdown 20240425/t/teapy/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-25 12:45:00] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-04-25 12:45:00] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-04-25 12:45:00] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-25 12:45:01] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.7.1.tar.gz]
+[2024-04-25 12:45:01] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.7.2.tar.gz]
+[2024-04-25 12:45:01] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2024-04-25 12:45:01] INFO root fetch - main [MainThread]: Store serial: [22929064]
