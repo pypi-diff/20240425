@@ -19838,3 +19838,90 @@
 [2024-04-25 12:24:54] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.tar.gz]
 [2024-04-25 12:24:54] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
 [2024-04-25 12:24:54] INFO root fetch - main [MainThread]: Store serial: [22928877]
+[2024-04-25 12:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928877]
+[2024-04-25 12:27:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argus-ticket-github
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hydro-analysis-toolkit
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomlite
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labelme-toolkit
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gctl
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awsso
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refract-serving
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensr-utils
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mongo-m
+[2024-04-25 12:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ctrip-app-ui
+[2024-04-25 12:27:06] INFO root fetch - processPackages [atomlite]: New version: [4.4.3] Old Version: [4.4.2]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [awsso]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [refract-serving]: New version: [1.0.1a0] Old Version: [0.0.9]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [mongo-m]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [argus-ticket-github]: New version: [1.1] Old Version: [1.0]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [gctl]: New version: [1.1] Old Version: [1.0]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [hydro-analysis-toolkit]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-25 12:27:06] WARNING root fetch - processPackages [labelme-toolkit]: Skipping, unable to determine old version
+[2024-04-25 12:27:06] INFO root fetch - main [MainThread]: End processing [labelme-toolkit] error
+[2024-04-25 12:27:06] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 12:27:06] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/62/a2/cd5c95548f321ff48645a06894e80a9f953000d9ef334878718f5d7f6244/atomlite-4.4.2.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/cf/c7/ded03135dac7957954adf5cac0fbe9617cbc25dbb68e748d47ee871c1a5d/ctrip-app-ui-0.1.5.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/49/72/539674aef418fb6a7dcb6b849714763a1c24accc699ab30de34059badfac/awsso-0.4.4.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/0a/58/0a681a477c4bd913538368ea83d45f52a592600f9f04896d1fef19d2ec60/mongo_m-1.1.1.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [argus-ticket-github]: Downloading https://files.pythonhosted.org/packages/1b/34/2448290bc1d70ab6c4afbf5d6b6a96620f907ecaee1bf3770e538e308609/argus_ticket_github-1.0.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/f1/d4/c73b1d1a25f4eda7381637e4eb99e9ba23fd81f6ec44db9d2143ab5ddcdb/refract-serving-0.0.9.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [hydro-analysis-toolkit]: Downloading https://files.pythonhosted.org/packages/9e/78/fe9105acd4f928e2360cba472217aa8dc59f43eb6fcea177eb6f5badc521/hydro_analysis_toolkit-0.6.0.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [gctl]: Downloading https://files.pythonhosted.org/packages/64/ed/01d6a2976d357c79286e092b68594df739c36319d6b265c5a0a152398bb3/gctl-1.0.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/e6/80/34bd1c6b58dbdbaee641ec604c361d574dd5e85da84b12fef2b9db3de813/atomlite-4.4.3.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [argus-ticket-github]: Downloading https://files.pythonhosted.org/packages/47/b6/b2d31fe0343d0772911d09a4df17b82b861b4344df766faf28aa2149a9bd/argus_ticket_github-1.1-py3-none-any.whl
+[2024-04-25 12:27:06] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/f9/1d/c7ce69cef6bb3180ba60c4ebf421d6f1c1041eaddd3d28f16b8612a54d4f/ctrip-app-ui-0.1.6.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [awsso]: Downloading https://files.pythonhosted.org/packages/23/07/baffcea8f7feccb28c5e658a95ef2c27b6541520c392c988439779cc37ee/awsso-0.4.5.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [atomlite]: executing diffoscope
+[2024-04-25 12:27:06] INFO root fetch - processPackages [atomlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomlite-4.4.2.tar.gz tmp/atomlite-4.4.3.tar.gz --markdown 20240425/a/atomlite/4.4.2-4.4.3/README.md --exclude *.pyd
+[2024-04-25 12:27:06] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/02/6f/9381eea482d1e886f01b006be33e9bf54fc976944f4e8ebebee70b76ecab/mongo_m-1.1.2.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/cd/90/901baff63e451378f6aa62b42db59239ec5dbfa0571c10419f3db637cade/refract-serving-1.0.1a0.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [argus-ticket-github]: executing diffoscope
+[2024-04-25 12:27:06] INFO root fetch - processPackages [argus-ticket-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_ticket_github-1.0.tar.gz tmp/argus_ticket_github-1.1-py3-none-any.whl.zip --markdown 20240425/a/argus-ticket-github/1.0-1.1/README.md --exclude *.pyd
+[2024-04-25 12:27:06] INFO root fetch - processPackages [awsso]: executing diffoscope
+[2024-04-25 12:27:06] INFO root fetch - processPackages [awsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsso-0.4.4.tar.gz tmp/awsso-0.4.5.tar.gz --markdown 20240425/a/awsso/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-25 12:27:06] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 12:27:06] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.5.tar.gz tmp/ctrip-app-ui-0.1.6.tar.gz --markdown 20240425/c/ctrip-app-ui/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-25 12:27:06] INFO root fetch - processPackages [gctl]: Downloading https://files.pythonhosted.org/packages/25/de/ed08d5be65749241cf03b19b05d916995ab61d2cf9e66735f46bcd4532de/gctl-1.1.tar.gz
+[2024-04-25 12:27:06] INFO root fetch - processPackages [mongo-m]: executing diffoscope
+[2024-04-25 12:27:06] INFO root fetch - processPackages [mongo-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_m-1.1.1.tar.gz tmp/mongo_m-1.1.2.tar.gz --markdown 20240425/m/mongo-m/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-25 12:27:06] INFO root fetch - processPackages [hydro-analysis-toolkit]: Downloading https://files.pythonhosted.org/packages/2b/f2/39752d8748f72eafca830faf63d524bf3deaabd2ea3198d6c4b8592c877a/hydro_analysis_toolkit-0.7.0.tar.gz
+[2024-04-25 12:27:07] INFO root fetch - processPackages [refract-serving]: executing diffoscope
+[2024-04-25 12:27:07] INFO root fetch - processPackages [refract-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refract-serving-0.0.9.tar.gz tmp/refract-serving-1.0.1a0.tar.gz --markdown 20240425/r/refract-serving/0.0.9-1.0.1a0/README.md --exclude *.pyd
+[2024-04-25 12:27:07] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 12:27:07] INFO root fetch - processPackages [gctl]: executing diffoscope
+[2024-04-25 12:27:07] INFO root fetch - processPackages [gctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gctl-1.0.tar.gz tmp/gctl-1.1.tar.gz --markdown 20240425/g/gctl/1.0-1.1/README.md --exclude *.pyd
+[2024-04-25 12:27:07] INFO root fetch - processPackages [hydro-analysis-toolkit]: executing diffoscope
+[2024-04-25 12:27:07] INFO root fetch - processPackages [hydro-analysis-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydro_analysis_toolkit-0.6.0.tar.gz tmp/hydro_analysis_toolkit-0.7.0.tar.gz --markdown 20240425/h/hydro-analysis-toolkit/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-25 12:27:07] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 12:27:07] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 12:27:07] INFO root fetch - processPackages [argus-ticket-github]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_github-1.0.tar.gz]
+[2024-04-25 12:27:07] INFO root fetch - processPackages [argus-ticket-github]: Remove: archive file [/home/abi/fetcher/tmp/argus_ticket_github-1.1-py3-none-any.whl.zip]
+[2024-04-25 12:27:07] INFO root fetch - main [MainThread]: End processing [argus-ticket-github]: success
+[2024-04-25 12:27:07] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.4.4.tar.gz]
+[2024-04-25 12:27:07] INFO root fetch - processPackages [awsso]: Remove: archive file [/home/abi/fetcher/tmp/awsso-0.4.5.tar.gz]
+[2024-04-25 12:27:07] INFO root fetch - main [MainThread]: End processing [awsso]: success
+[2024-04-25 12:27:07] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-4.4.2.tar.gz]
+[2024-04-25 12:27:07] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-4.4.3.tar.gz]
+[2024-04-25 12:27:07] INFO root fetch - main [MainThread]: End processing [atomlite]: success
+[2024-04-25 12:27:08] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.1.1.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.1.2.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - main [MainThread]: End processing [mongo-m]: success
+[2024-04-25 12:27:08] INFO root fetch - processPackages [gctl]: Remove: archive file [/home/abi/fetcher/tmp/gctl-1.0.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - processPackages [gctl]: Remove: archive file [/home/abi/fetcher/tmp/gctl-1.1.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - main [MainThread]: End processing [gctl]: success
+[2024-04-25 12:27:08] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.5.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.6.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 12:27:08] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-0.0.9.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-1.0.1a0.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - main [MainThread]: End processing [refract-serving]: success
+[2024-04-25 12:27:08] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 12:27:08] INFO root fetch - processPackages [hydro-analysis-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hydro_analysis_toolkit-0.6.0.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - processPackages [hydro-analysis-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hydro_analysis_toolkit-0.7.0.tar.gz]
+[2024-04-25 12:27:08] INFO root fetch - main [MainThread]: End processing [hydro-analysis-toolkit]: success
+[2024-04-25 12:27:08] INFO root fetch - main [MainThread]: Store serial: [22928912]
