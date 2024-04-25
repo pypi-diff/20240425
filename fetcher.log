@@ -11341,3 +11341,38 @@
 [2024-04-25 07:36:03] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-25 07:36:03] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-25 07:36:03] INFO root fetch - main [MainThread]: Store serial: [22925583]
+[2024-04-25 07:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925583]
+[2024-04-25 07:38:13] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-25 07:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925584]
+[2024-04-25 07:40:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 07:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-csas
+[2024-04-25 07:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-js
+[2024-04-25 07:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongo-m
+[2024-04-25 07:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fse-baro
+[2024-04-25 07:40:19] INFO root fetch - processPackages [fse-baro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 07:40:19] INFO root fetch - processPackages [streamlit-js]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-25 07:40:19] INFO root fetch - processPackages [aliyun-python-sdk-csas]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 07:40:19] WARNING root fetch - processPackages [mongo-m]: Skipping, unable to determine old version
+[2024-04-25 07:40:19] INFO root fetch - main [MainThread]: End processing [mongo-m] error
+[2024-04-25 07:40:19] INFO root fetch - processPackages [streamlit-js]: Downloading https://files.pythonhosted.org/packages/ac/14/1561dd90e579e33a95e5f15f40b34f1ba8650b0150f61c41a372634ba531/streamlit-js-1.0.5.tar.gz
+[2024-04-25 07:40:19] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/2e/ce/0c60fce55cd544c31299f8b448be7e997d6f5d4e4ad4036be331c3486e9d/fse_baro-0.0.8.tar.gz
+[2024-04-25 07:40:19] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Downloading https://files.pythonhosted.org/packages/0f/da/0e4eabbf161b3c18aef2ab676c12ea4d9c71413d057d122964c8a9c3a2a2/aliyun-python-sdk-csas-1.0.4.tar.gz
+[2024-04-25 07:40:19] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/0e/b7/eb2ad8c743ba51e729ff5a3d47695e3bc94578638dad5d5dcf94cfb672bb/fse_baro-0.0.9.tar.gz
+[2024-04-25 07:40:19] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-25 07:40:19] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.0.8.tar.gz tmp/fse_baro-0.0.9.tar.gz --markdown 20240425/f/fse-baro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 07:40:19] INFO root fetch - processPackages [streamlit-js]: Downloading https://files.pythonhosted.org/packages/02/a2/f193ffddd96977207e476c712541133bd29c3bf62453f9a4e1e192f9c81f/streamlit-js-1.0.6.tar.gz
+[2024-04-25 07:40:19] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Downloading https://files.pythonhosted.org/packages/8f/dc/f3f81a4d2311cf3a5e5c2028fc452220246533d26855124aa67cdc6da065/aliyun-python-sdk-csas-1.0.5.tar.gz
+[2024-04-25 07:40:19] INFO root fetch - processPackages [streamlit-js]: executing diffoscope
+[2024-04-25 07:40:19] INFO root fetch - processPackages [streamlit-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-js-1.0.5.tar.gz tmp/streamlit-js-1.0.6.tar.gz --markdown 20240425/s/streamlit-js/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-25 07:40:19] INFO root fetch - processPackages [aliyun-python-sdk-csas]: executing diffoscope
+[2024-04-25 07:40:19] INFO root fetch - processPackages [aliyun-python-sdk-csas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-csas-1.0.4.tar.gz tmp/aliyun-python-sdk-csas-1.0.5.tar.gz --markdown 20240425/a/aliyun-python-sdk-csas/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 07:40:20] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.0.8.tar.gz]
+[2024-04-25 07:40:20] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.0.9.tar.gz]
+[2024-04-25 07:40:20] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-25 07:40:20] INFO root fetch - processPackages [streamlit-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-js-1.0.5.tar.gz]
+[2024-04-25 07:40:20] INFO root fetch - processPackages [streamlit-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-js-1.0.6.tar.gz]
+[2024-04-25 07:40:20] INFO root fetch - main [MainThread]: End processing [streamlit-js]: success
+[2024-04-25 07:40:20] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-csas-1.0.4.tar.gz]
+[2024-04-25 07:40:20] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-csas-1.0.5.tar.gz]
+[2024-04-25 07:40:20] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-csas]: success
+[2024-04-25 07:40:20] INFO root fetch - main [MainThread]: Store serial: [22925605]
