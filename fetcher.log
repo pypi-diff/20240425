@@ -11177,3 +11177,35 @@
 [2024-04-25 07:22:36] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.9.tar.gz]
 [2024-04-25 07:22:36] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
 [2024-04-25 07:22:36] INFO root fetch - main [MainThread]: Store serial: [22925445]
+[2024-04-25 07:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925445]
+[2024-04-25 07:24:45] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-25 07:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925445]
+[2024-04-25 07:26:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 07:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roman
+[2024-04-25 07:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdapy
+[2024-04-25 07:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tamp
+[2024-04-25 07:26:50] INFO root fetch - processPackages [tamp]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-25 07:26:50] INFO root fetch - processPackages [roman]: New version: [4.2] Old Version: [4.1]
+[2024-04-25 07:26:50] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/af/fb/61caf5532e9acb7fed89b37434b1c5373017701bf5ec1edc994c4fb1b579/tamp-1.3.1.tar.gz
+[2024-04-25 07:26:50] INFO root fetch - processPackages [mdapy]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 07:26:50] INFO root fetch - processPackages [roman]: Downloading https://files.pythonhosted.org/packages/32/0c/10c242792e9c857d5d8df19780abec0f241c8a3d9631cccbce16d0f1c769/roman-4.1.tar.gz
+[2024-04-25 07:26:50] INFO root fetch - processPackages [mdapy]: Downloading https://files.pythonhosted.org/packages/30/da/39c197571d39140c1df94449bbcf16b86a62ce85ed2899e3e0098e41e22b/mdapy-0.9.8.tar.gz
+[2024-04-25 07:26:50] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/b2/e7/33789761d6644566f26ed2fcb431d1926ee87adeb0b1da4b1f80dc675eed/tamp-1.4.0.tar.gz
+[2024-04-25 07:26:50] INFO root fetch - processPackages [tamp]: executing diffoscope
+[2024-04-25 07:26:50] INFO root fetch - processPackages [tamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamp-1.3.1.tar.gz tmp/tamp-1.4.0.tar.gz --markdown 20240425/t/tamp/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-25 07:26:50] INFO root fetch - processPackages [roman]: Downloading https://files.pythonhosted.org/packages/2d/be/4fa4fbe13def6194e76270bd213d8924346e0a30be8e006d898359db1a00/roman-4.2.tar.gz
+[2024-04-25 07:26:51] INFO root fetch - processPackages [roman]: executing diffoscope
+[2024-04-25 07:26:51] INFO root fetch - processPackages [roman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roman-4.1.tar.gz tmp/roman-4.2.tar.gz --markdown 20240425/r/roman/4.1-4.2/README.md --exclude *.pyd
+[2024-04-25 07:26:51] INFO root fetch - processPackages [tamp]: Remove: archive file [/home/abi/fetcher/tmp/tamp-1.3.1.tar.gz]
+[2024-04-25 07:26:51] INFO root fetch - processPackages [tamp]: Remove: archive file [/home/abi/fetcher/tmp/tamp-1.4.0.tar.gz]
+[2024-04-25 07:26:51] INFO root fetch - main [MainThread]: End processing [tamp]: success
+[2024-04-25 07:26:51] INFO root fetch - processPackages [roman]: Remove: archive file [/home/abi/fetcher/tmp/roman-4.1.tar.gz]
+[2024-04-25 07:26:51] INFO root fetch - processPackages [roman]: Remove: archive file [/home/abi/fetcher/tmp/roman-4.2.tar.gz]
+[2024-04-25 07:26:51] INFO root fetch - main [MainThread]: End processing [roman]: success
+[2024-04-25 07:26:52] INFO root fetch - processPackages [mdapy]: Downloading https://files.pythonhosted.org/packages/0d/a6/03cb123e3f24cde08eaf401b4658862b10eb9fe8431d5f87d8b08257888a/mdapy-0.9.9.tar.gz
+[2024-04-25 07:26:53] INFO root fetch - processPackages [mdapy]: executing diffoscope
+[2024-04-25 07:26:53] INFO root fetch - processPackages [mdapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdapy-0.9.8.tar.gz tmp/mdapy-0.9.9.tar.gz --markdown 20240425/m/mdapy/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 07:26:55] INFO root fetch - processPackages [mdapy]: Remove: archive file [/home/abi/fetcher/tmp/mdapy-0.9.8.tar.gz]
+[2024-04-25 07:26:55] INFO root fetch - processPackages [mdapy]: Remove: archive file [/home/abi/fetcher/tmp/mdapy-0.9.9.tar.gz]
+[2024-04-25 07:26:55] INFO root fetch - main [MainThread]: End processing [mdapy]: success
+[2024-04-25 07:26:55] INFO root fetch - main [MainThread]: Store serial: [22925472]
