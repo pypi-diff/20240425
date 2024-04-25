@@ -3771,3 +3771,47 @@
 [2024-04-25 02:53:29] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-25 02:53:29] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-25 02:53:29] INFO root fetch - main [MainThread]: Store serial: [22922493]
+[2024-04-25 02:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922493]
+[2024-04-25 02:55:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 02:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raydp-nightly
+[2024-04-25 02:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPTPlugins4All
+[2024-04-25 02:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-04-25 02:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: githc
+[2024-04-25 02:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: step-in-line
+[2024-04-25 02:55:38] INFO root fetch - processPackages [githc]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 02:55:38] INFO root fetch - processPackages [step-in-line]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-25 02:55:38] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240425.0.15.652558] Old Version: [20240424.18.56.2059]
+[2024-04-25 02:55:38] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 02:55:38] INFO root fetch - processPackages [githc]: Downloading https://files.pythonhosted.org/packages/23/4c/e5ac6380550ba5b77d8772d7f327c96662107e8d31674fc082fcc07bcf69/githc-0.1.1.tar.gz
+[2024-04-25 02:55:38] INFO root fetch - processPackages [raydp-nightly]: New version: [2024.4.25.dev0] Old Version: [2024.4.13.dev0]
+[2024-04-25 02:55:38] INFO root fetch - processPackages [step-in-line]: Downloading https://files.pythonhosted.org/packages/6d/2f/ed0a733f580848a8ab4f78adddf704475fa1c6985043d0f6f2b3c3f30420/step_in_line-0.4.1.tar.gz
+[2024-04-25 02:55:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/e9/97/511785ebc0b215b242e6abbba735c91f2043638d0df976c4ea1ebc82b52e/certora-cli-alpha-master-20240424.18.56.2059.tar.gz
+[2024-04-25 02:55:38] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-04-25 02:55:38] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14530505>=10485760
+[2024-04-25 02:55:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-25 02:55:38] INFO root fetch - processPackages [githc]: Downloading https://files.pythonhosted.org/packages/c0/23/477f34a4757631dfe2682c8b6559d17e5cb1f74d407d8763db413450a9ee/githc-0.1.2.tar.gz
+[2024-04-25 02:55:38] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/62/8b/735aeae465a46160419a24ab0277c59964b096689e353e8cacc9384a32e0/raydp_nightly-2024.4.13.dev0-py3-none-any.whl
+[2024-04-25 02:55:38] INFO root fetch - processPackages [githc]: executing diffoscope
+[2024-04-25 02:55:38] INFO root fetch - processPackages [githc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githc-0.1.1.tar.gz tmp/githc-0.1.2.tar.gz --markdown 20240425/g/githc/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 02:55:38] INFO root fetch - processPackages [step-in-line]: Downloading https://files.pythonhosted.org/packages/95/a2/34f101948a472be550d3ac1f37c1f9b20b1166e64b6bc0ff96d27196f561/step_in_line-0.5.0.tar.gz
+[2024-04-25 02:55:38] INFO root fetch - processPackages [step-in-line]: executing diffoscope
+[2024-04-25 02:55:38] INFO root fetch - processPackages [step-in-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/step_in_line-0.4.1.tar.gz tmp/step_in_line-0.5.0.tar.gz --markdown 20240425/s/step-in-line/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-25 02:55:38] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-04-25 02:55:39] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/10/54/19960ae10418901a68d3deada45b89ed738bed83bd7f8a7e15ee06d8da22/raydp_nightly-2024.4.25.dev0-py3-none-any.whl
+[2024-04-25 02:55:39] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2024-04-25 02:55:39] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2024.4.13.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2024.4.25.dev0-py3-none-any.whl.zip --markdown 20240425/r/raydp-nightly/2024.4.13.dev0-2024.4.25.dev0/README.md --exclude *.pyd
+[2024-04-25 02:55:39] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-04-25 02:55:39] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240425/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 02:55:39] INFO root fetch - processPackages [githc]: Remove: archive file [/home/abi/fetcher/tmp/githc-0.1.1.tar.gz]
+[2024-04-25 02:55:39] INFO root fetch - processPackages [githc]: Remove: archive file [/home/abi/fetcher/tmp/githc-0.1.2.tar.gz]
+[2024-04-25 02:55:39] INFO root fetch - main [MainThread]: End processing [githc]: success
+[2024-04-25 02:55:39] INFO root fetch - processPackages [step-in-line]: Remove: archive file [/home/abi/fetcher/tmp/step_in_line-0.4.1.tar.gz]
+[2024-04-25 02:55:39] INFO root fetch - processPackages [step-in-line]: Remove: archive file [/home/abi/fetcher/tmp/step_in_line-0.5.0.tar.gz]
+[2024-04-25 02:55:39] INFO root fetch - main [MainThread]: End processing [step-in-line]: success
+[2024-04-25 02:55:39] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-04-25 02:55:39] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-04-25 02:55:39] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-04-25 02:55:40] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2024.4.13.dev0-py3-none-any.whl.zip]
+[2024-04-25 02:55:40] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2024.4.25.dev0-py3-none-any.whl.zip]
+[2024-04-25 02:55:40] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2024-04-25 02:55:40] INFO root fetch - main [MainThread]: Store serial: [22922510]
