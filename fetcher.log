@@ -21942,3 +21942,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:37:50] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105358654>=10485760
 [2024-04-25 13:37:50] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
 [2024-04-25 13:37:50] INFO root fetch - main [MainThread]: Store serial: [22929748]
+[2024-04-25 13:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929748]
+[2024-04-25 13:40:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 13:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: obsrv
+[2024-04-25 13:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scarcc
+[2024-04-25 13:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-quart-app
+[2024-04-25 13:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalegen-cli
+[2024-04-25 13:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pricecypher-sdk
+[2024-04-25 13:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KBDD
+[2024-04-25 13:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daves-utilities
+[2024-04-25 13:40:00] INFO root fetch - processPackages [KBDD]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 13:40:00] INFO root fetch - processPackages [scarcc]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 13:40:00] WARNING root fetch - processPackages [my-quart-app]: Skipping, unable to determine old version
+[2024-04-25 13:40:00] INFO root fetch - main [MainThread]: End processing [my-quart-app] error
+[2024-04-25 13:40:00] WARNING root fetch - processPackages [obsrv]: Skipping, unable to determine old version
+[2024-04-25 13:40:00] INFO root fetch - main [MainThread]: End processing [obsrv] error
+[2024-04-25 13:40:00] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/00/d4/7a83e82a20c5b09a83cfadc5399c6d612efeebdec58ff8a62b7830e43fcc/KBDD-0.1.2.tar.gz
+[2024-04-25 13:40:00] INFO root fetch - processPackages [scalegen-cli]: New version: [0.0.3] Old Version: [0.0.2.post1]
+[2024-04-25 13:40:00] INFO root fetch - processPackages [pricecypher-sdk]: New version: [2.1.0] Old Version: [2.0.0.dev2]
+[2024-04-25 13:40:00] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 13:40:00] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/03/c7/17a46f539e98f3fb821d40264f161f8a6fe8141cbe7e281ece19adcbf843/scarcc-0.1.4.tar.gz
+[2024-04-25 13:40:00] INFO root fetch - processPackages [scalegen-cli]: Downloading https://files.pythonhosted.org/packages/de/5e/1928b961eecbd243c8a8c84d615c6770b70e7e940b6d28fc9a991abbabe3/scalegen-cli-0.0.2.post1.tar.gz
+[2024-04-25 13:40:00] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/69/a4/17b70ec4f1020a6eb4c2b9e4d2c225c3f4cbe4625fcd804681425cc91a36/KBDD-0.1.3.tar.gz
+[2024-04-25 13:40:00] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/4d/31/87d8bd4eca2e526584914f8f34b9eeab7385aa1b3e73ba914bed5a4d51d1/pricecypher-sdk-2.0.0.dev2.tar.gz
+[2024-04-25 13:40:00] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/41/16/1467db4d90d43a602f2ac770596e59914b3bf7bb48b4d75c4a6428304347/daves_utilities-0.1.7.tar.gz
+[2024-04-25 13:40:00] INFO root fetch - processPackages [KBDD]: executing diffoscope
+[2024-04-25 13:40:00] INFO root fetch - processPackages [KBDD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KBDD-0.1.2.tar.gz tmp/KBDD-0.1.3.tar.gz --markdown 20240425/K/KBDD/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 13:40:00] INFO root fetch - processPackages [scarcc]: Downloading https://files.pythonhosted.org/packages/2d/0e/416bb45c9e0f28ee2e58ab634e4fb66d3fb571ea74d5d0ce539f914f1525/scarcc-0.1.5.tar.gz
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scalegen-cli]: Downloading https://files.pythonhosted.org/packages/8b/b2/e40cc1a8fbd4d329752f11f01ee6cef2c13a4759060498f2820e782b4e36/scalegen-cli-0.0.3.tar.gz
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scarcc]: executing diffoscope
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scarcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarcc-0.1.4.tar.gz tmp/scarcc-0.1.5.tar.gz --markdown 20240425/s/scarcc/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scalegen-cli]: executing diffoscope
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scalegen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalegen-cli-0.0.2.post1.tar.gz tmp/scalegen-cli-0.0.3.tar.gz --markdown 20240425/s/scalegen-cli/0.0.2.post1-0.0.3/README.md --exclude *.pyd
+[2024-04-25 13:40:01] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/1c/1f/6dbde3473433ad948843e36699e675ef7dba837e4c4c85e65e5a5217e103/pricecypher_sdk-2.1.0.tar.gz
+[2024-04-25 13:40:01] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/cf/e0/f413e701522077db439a83f07e84dbe103cb1682a26eeb96166c6aaf7b18/daves_utilities-0.1.8.tar.gz
+[2024-04-25 13:40:01] INFO root fetch - processPackages [pricecypher-sdk]: executing diffoscope
+[2024-04-25 13:40:01] INFO root fetch - processPackages [pricecypher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pricecypher-sdk-2.0.0.dev2.tar.gz tmp/pricecypher_sdk-2.1.0.tar.gz --markdown 20240425/p/pricecypher-sdk/2.0.0.dev2-2.1.0/README.md --exclude *.pyd
+[2024-04-25 13:40:01] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2024-04-25 13:40:01] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.7.tar.gz tmp/daves_utilities-0.1.8.tar.gz --markdown 20240425/d/daves-utilities/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 13:40:01] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.1.2.tar.gz]
+[2024-04-25 13:40:01] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.1.3.tar.gz]
+[2024-04-25 13:40:01] INFO root fetch - main [MainThread]: End processing [KBDD]: success
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scalegen-cli]: Remove: archive file [/home/abi/fetcher/tmp/scalegen-cli-0.0.2.post1.tar.gz]
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scalegen-cli]: Remove: archive file [/home/abi/fetcher/tmp/scalegen-cli-0.0.3.tar.gz]
+[2024-04-25 13:40:01] INFO root fetch - main [MainThread]: End processing [scalegen-cli]: success
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.4.tar.gz]
+[2024-04-25 13:40:01] INFO root fetch - processPackages [scarcc]: Remove: archive file [/home/abi/fetcher/tmp/scarcc-0.1.5.tar.gz]
+[2024-04-25 13:40:01] INFO root fetch - main [MainThread]: End processing [scarcc]: success
+[2024-04-25 13:40:02] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.7.tar.gz]
+[2024-04-25 13:40:02] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.8.tar.gz]
+[2024-04-25 13:40:02] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2024-04-25 13:40:02] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher-sdk-2.0.0.dev2.tar.gz]
+[2024-04-25 13:40:02] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.0.tar.gz]
+[2024-04-25 13:40:02] INFO root fetch - main [MainThread]: End processing [pricecypher-sdk]: success
+[2024-04-25 13:40:02] INFO root fetch - main [MainThread]: Store serial: [22929770]
