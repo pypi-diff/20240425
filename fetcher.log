@@ -10586,3 +10586,20 @@
 [2024-04-25 06:37:16] INFO root fetch - processPackages [querent]: Remove: archive file [/home/abi/fetcher/tmp/querent-3.0.4.tar.gz]
 [2024-04-25 06:37:16] INFO root fetch - main [MainThread]: End processing [querent]: success
 [2024-04-25 06:37:16] INFO root fetch - main [MainThread]: Store serial: [22925234]
+[2024-04-25 06:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925234]
+[2024-04-25 06:39:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 06:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindspore
+[2024-04-25 06:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: centurypy
+[2024-04-25 06:39:25] INFO root fetch - processPackages [centurypy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 06:39:25] INFO root fetch - processPackages [mindspore]: New version: [2.3.0rc1] Old Version: [2.2.14]
+[2024-04-25 06:39:26] INFO root fetch - processPackages [mindspore]: Downloading https://files.pythonhosted.org/packages/68/b6/5bc2e69111711d8537c8fe3deb0ee261524d09a6861c8d525f765904f543/mindspore-2.2.14-cp39-none-any.whl
+[2024-04-25 06:39:26] INFO root fetch - processPackages [centurypy]: Downloading https://files.pythonhosted.org/packages/59/a0/8cc14a5af6a1867406a8db9e3ae0c78d7717a78e576d9757facb7438f398/centurypy-1.0.1.tar.gz
+[2024-04-25 06:39:26] WARNING root fetch - processPackages [mindspore]: Skipping package: exceeds size limit 173430754>=10485760
+[2024-04-25 06:39:26] INFO root fetch - main [MainThread]: End processing [mindspore] error
+[2024-04-25 06:39:26] INFO root fetch - processPackages [centurypy]: Downloading https://files.pythonhosted.org/packages/a5/06/3c7cc1c09ec4683e86fa7834938399d8ea57ef69f5645384ff3bb57ca585/centurypy-1.0.2.tar.gz
+[2024-04-25 06:39:26] INFO root fetch - processPackages [centurypy]: executing diffoscope
+[2024-04-25 06:39:26] INFO root fetch - processPackages [centurypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centurypy-1.0.1.tar.gz tmp/centurypy-1.0.2.tar.gz --markdown 20240425/c/centurypy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 06:39:27] INFO root fetch - processPackages [centurypy]: Remove: archive file [/home/abi/fetcher/tmp/centurypy-1.0.1.tar.gz]
+[2024-04-25 06:39:27] INFO root fetch - processPackages [centurypy]: Remove: archive file [/home/abi/fetcher/tmp/centurypy-1.0.2.tar.gz]
+[2024-04-25 06:39:27] INFO root fetch - main [MainThread]: End processing [centurypy]: success
+[2024-04-25 06:39:27] INFO root fetch - main [MainThread]: Store serial: [22925239]
