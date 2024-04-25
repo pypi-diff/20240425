@@ -13661,3 +13661,69 @@
 [2024-04-25 09:31:12] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.7.0.tar.gz]
 [2024-04-25 09:31:12] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-alert]: success
 [2024-04-25 09:31:12] INFO root fetch - main [MainThread]: Store serial: [22926592]
+[2024-04-25 09:33:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926592]
+[2024-04-25 09:33:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-scheema
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-mpesa-koros
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helmet
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whitespace-correction
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: haskellian
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hun-date-parser
+[2024-04-25 09:33:22] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 09:33:22] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.6] Old Version: [0.0.7.5]
+[2024-04-25 09:33:22] INFO root fetch - processPackages [helmet]: New version: [1.0.1] Old Version: [0.1.2]
+[2024-04-25 09:33:22] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-04-25 09:33:22] INFO root fetch - processPackages [python-mpesa-koros]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 09:33:22] INFO root fetch - processPackages [whitespace-correction]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 09:33:22] INFO root fetch - processPackages [hun-date-parser]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-25 09:33:22] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/89/72/35a215f8852707eed72d4c0f47be717fda26624722b4623ac137ae332814/ctrip-app-ui-0.0.3.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/6e/d1/c599a5e88e9d89fe38eca6eaa28553b16f1de9ed1e8b238c010f21a12903/flask_scheema-0.0.7.5-py3-none-any.whl
+[2024-04-25 09:33:23] INFO root fetch - processPackages [helmet]: Downloading https://files.pythonhosted.org/packages/0c/fe/95139171a068ae89fe31517e6bb396014bb48307e49254539a1607d646ed/helmet-0.1.2.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [whitespace-correction]: Downloading https://files.pythonhosted.org/packages/a4/42/31d71549f3acb90e7d54c47def62ef9eb1d9637a95c28b97c3a0c635417a/whitespace_correction-0.2.1-py2.py3-none-any.whl
+[2024-04-25 09:33:23] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [hun-date-parser]: Downloading https://files.pythonhosted.org/packages/ec/1c/7749b9b1c0cac304ad1abbd3defd2ed3ceaf588069bee93e26da6ba47809/hun-date-parser-0.2.4.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/d8/ed/981aba274f17c7a546c42720a4c6e8d6b5e5f88800516f60c9e457f05e44/python_mpesa_koros-0.1.7.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/e9/14/f7f8ded535f15178312407a8faeb616236be800a15351e7a18207c067c37/ctrip-app-ui-0.0.4.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-04-25 09:33:23] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240425/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 09:33:23] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/41/bb/d77951bdc5295e364c865b9ef8df3ddc3ed7412f87bb2397ad87ab24a3c6/flask_scheema-0.0.7.6-py3-none-any.whl
+[2024-04-25 09:33:23] INFO root fetch - processPackages [helmet]: Downloading https://files.pythonhosted.org/packages/fa/77/02461fd0f85dee5af3a7cf68d78c3277e303a9aa04309fcb8651bd66f18d/helmet-1.0.1.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 09:33:23] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.0.3.tar.gz tmp/ctrip-app-ui-0.0.4.tar.gz --markdown 20240425/c/ctrip-app-ui/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 09:33:23] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-04-25 09:33:23] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.5-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.6-py3-none-any.whl.zip --markdown 20240425/f/flask-scheema/0.0.7.5-0.0.7.6/README.md --exclude *.pyd
+[2024-04-25 09:33:23] INFO root fetch - processPackages [whitespace-correction]: Downloading https://files.pythonhosted.org/packages/c7/e3/575210ea3083911a8096705645f43caa81cf392f8ff6ce1b477164189f78/whitespace_correction-0.2.2-py2.py3-none-any.whl
+[2024-04-25 09:33:23] INFO root fetch - processPackages [helmet]: executing diffoscope
+[2024-04-25 09:33:23] INFO root fetch - processPackages [helmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helmet-0.1.2.tar.gz tmp/helmet-1.0.1.tar.gz --markdown 20240425/h/helmet/0.1.2-1.0.1/README.md --exclude *.pyd
+[2024-04-25 09:33:23] INFO root fetch - processPackages [hun-date-parser]: Downloading https://files.pythonhosted.org/packages/31/6c/fdd30cb61ccd51cf7832811b04e1e97695acd57ba8a112918835105f52e1/hun-date-parser-0.2.5.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/c3/97/e382fab792eb786cff4a7e54d3a4f5c3d67e016ffa66185145f8d1836224/python_mpesa_koros-0.1.8.tar.gz
+[2024-04-25 09:33:23] INFO root fetch - processPackages [whitespace-correction]: executing diffoscope
+[2024-04-25 09:33:23] INFO root fetch - processPackages [whitespace-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitespace_correction-0.2.1-py2.py3-none-any.whl.zip tmp/whitespace_correction-0.2.2-py2.py3-none-any.whl.zip --markdown 20240425/w/whitespace-correction/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 09:33:23] INFO root fetch - processPackages [hun-date-parser]: executing diffoscope
+[2024-04-25 09:33:23] INFO root fetch - processPackages [hun-date-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hun-date-parser-0.2.4.tar.gz tmp/hun-date-parser-0.2.5.tar.gz --markdown 20240425/h/hun-date-parser/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-25 09:33:23] INFO root fetch - processPackages [python-mpesa-koros]: executing diffoscope
+[2024-04-25 09:33:23] INFO root fetch - processPackages [python-mpesa-koros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_mpesa_koros-0.1.7.tar.gz tmp/python_mpesa_koros-0.1.8.tar.gz --markdown 20240425/p/python-mpesa-koros/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 09:33:24] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-04-25 09:33:24] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.3.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.4.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 09:33:24] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.5-py3-none-any.whl.zip]
+[2024-04-25 09:33:24] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.6-py3-none-any.whl.zip]
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-04-25 09:33:24] INFO root fetch - processPackages [helmet]: Remove: archive file [/home/abi/fetcher/tmp/helmet-0.1.2.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - processPackages [helmet]: Remove: archive file [/home/abi/fetcher/tmp/helmet-1.0.1.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [helmet]: success
+[2024-04-25 09:33:24] INFO root fetch - processPackages [whitespace-correction]: Remove: archive file [/home/abi/fetcher/tmp/whitespace_correction-0.2.1-py2.py3-none-any.whl.zip]
+[2024-04-25 09:33:24] INFO root fetch - processPackages [whitespace-correction]: Remove: archive file [/home/abi/fetcher/tmp/whitespace_correction-0.2.2-py2.py3-none-any.whl.zip]
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [whitespace-correction]: success
+[2024-04-25 09:33:24] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-0.1.7.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-0.1.8.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [python-mpesa-koros]: success
+[2024-04-25 09:33:24] INFO root fetch - processPackages [hun-date-parser]: Remove: archive file [/home/abi/fetcher/tmp/hun-date-parser-0.2.4.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - processPackages [hun-date-parser]: Remove: archive file [/home/abi/fetcher/tmp/hun-date-parser-0.2.5.tar.gz]
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: End processing [hun-date-parser]: success
+[2024-04-25 09:33:24] INFO root fetch - main [MainThread]: Store serial: [22926612]
