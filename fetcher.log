@@ -22094,3 +22094,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:42:15] INFO root fetch - processPackages [scikit-robot]: Remove: archive file [/home/abi/fetcher/tmp/scikit-robot-0.0.9.tar.gz]
 [2024-04-25 13:42:15] INFO root fetch - main [MainThread]: End processing [scikit-robot]: success
 [2024-04-25 13:42:15] INFO root fetch - main [MainThread]: Store serial: [22929804]
+[2024-04-25 13:44:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929804]
+[2024-04-25 13:44:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: math-ops-131
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simo
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipycanvas
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oasees-sdk
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AdroitFisherman
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dmpcrl
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funcnodes_images
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-25 13:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sybil-engine
+[2024-04-25 13:44:24] INFO root fetch - processPackages [math-ops-131]: New version: [1.3.1] Old Version: [1.3]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [funcnodes_images]: New version: [0.1.14] Old Version: [0.1.13]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/9e/19/3e770359d7e2fedb767db029e1e6cc6313e6cb04f432604563614b04470b/math_ops_131-1.3.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/0a/29/c199671596fcad1646caf12f1752d0a2203a1482480fe0f103f8b87dcc17/funcnodes_images-0.1.13.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [oasees-sdk]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [AdroitFisherman]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [ipycanvas]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [dmpcrl]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240425] Old Version: [2.5.0b20240424]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [sybil-engine]: New version: [7.2.0] Old Version: [7.1.0]
+[2024-04-25 13:44:24] INFO root fetch - processPackages [oasees-sdk]: Downloading https://files.pythonhosted.org/packages/24/2e/2cbf205f79c638267a770778bcc348b2fc65a5270889f168e0ad1907c547/oasees_sdk-0.2.0.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [ipycanvas]: Downloading https://files.pythonhosted.org/packages/22/b0/8ac0942b3f6719803c6587e54c39738207b08e8c4f247dc48ae016c10c2d/ipycanvas-0.9.0.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [AdroitFisherman]: Downloading https://files.pythonhosted.org/packages/39/04/b6883c95c179d8f7e58d00417c669631574abf6dc66548492db38c0c3377/AdroitFisherman-0.0.22.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [dmpcrl]: Downloading https://files.pythonhosted.org/packages/af/9c/caa3ac25fc498bb8a9e2dd0281616df59054ad0fce1c799885dedf4253a5/dmpcrl-1.0.1.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/da/08/e7ddbb0641a0335158f6c84396be87d6795bd5a9069780873e713eae11ca/sybil_engine-7.1.0.tar.gz
+[2024-04-25 13:44:24] WARNING root fetch - processPackages [AdroitFisherman]: Skipping package: exceeds size limit 30485440>=10485760
+[2024-04-25 13:44:24] INFO root fetch - main [MainThread]: End processing [AdroitFisherman] error
+[2024-04-25 13:44:24] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/9e/63/b43abb1f3e9511e975688721cc9b8b096c1ef661e1403da89b32b835d95e/math_ops_131-1.3.1.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/a5/ff/b55986fb73c5225c970fbf1ec6ab41ec386b5b4bc4d2dfc9b8094450a9fd/bigdl_core_xe_esimd_21-2.5.0b20240424-cp39-cp39-win_amd64.whl
+[2024-04-25 13:44:24] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/8b/ef/235f7d0acf730255b1e56e7d9cd458ec0e285d7d46c7fc439cbc4f971040/funcnodes_images-0.1.14.tar.gz
+[2024-04-25 13:44:24] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-04-25 13:44:24] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-25 13:44:24] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 13:44:24] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.3.tar.gz tmp/math_ops_131-1.3.1.tar.gz --markdown 20240425/m/math-ops-131/1.3-1.3.1/README.md --exclude *.pyd
+[2024-04-25 13:44:24] INFO root fetch - processPackages [funcnodes_images]: executing diffoscope
+[2024-04-25 13:44:24] INFO root fetch - processPackages [funcnodes_images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_images-0.1.13.tar.gz tmp/funcnodes_images-0.1.14.tar.gz --markdown 20240425/f/funcnodes_images/0.1.13-0.1.14/README.md --exclude *.pyd
+[2024-04-25 13:44:24] INFO root fetch - processPackages [oasees-sdk]: Downloading https://files.pythonhosted.org/packages/b0/2f/04d34d5b86d5d40cb81701bea4a1a33897d9e75f04281d188eee77d61b27/oasees_sdk-0.2.1.tar.gz
+[2024-04-25 13:44:24] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-25 13:44:24] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240425/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-25 13:44:25] INFO root fetch - processPackages [oasees-sdk]: executing diffoscope
+[2024-04-25 13:44:25] INFO root fetch - processPackages [oasees-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasees_sdk-0.2.0.tar.gz tmp/oasees_sdk-0.2.1.tar.gz --markdown 20240425/o/oasees-sdk/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-25 13:44:25] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/e3/e7/c767634d11c2b0499c98ce97aae441a8ee114f2b4fd2e98114cb93b84e79/sybil_engine-7.2.0.tar.gz
+[2024-04-25 13:44:25] INFO root fetch - processPackages [dmpcrl]: Downloading https://files.pythonhosted.org/packages/ef/b4/bd730569ffb3e317ae3bda607a6ca298d6ee862999f8355796d77a2ad54a/dmpcrl-1.0.2.tar.gz
+[2024-04-25 13:44:25] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-04-25 13:44:25] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-7.1.0.tar.gz tmp/sybil_engine-7.2.0.tar.gz --markdown 20240425/s/sybil-engine/7.1.0-7.2.0/README.md --exclude *.pyd
+[2024-04-25 13:44:25] INFO root fetch - processPackages [dmpcrl]: executing diffoscope
+[2024-04-25 13:44:25] INFO root fetch - processPackages [dmpcrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmpcrl-1.0.1.tar.gz tmp/dmpcrl-1.0.2.tar.gz --markdown 20240425/d/dmpcrl/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 13:44:25] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/6b/fb/2510ecd1bbacdeb43804469992bef452b85f20f0224c620bcd8025605d4f/bigdl_core_xe_esimd_21-2.5.0b20240425-cp39-cp39-win_amd64.whl
+[2024-04-25 13:44:25] INFO root fetch - processPackages [ipycanvas]: Downloading https://files.pythonhosted.org/packages/de/d2/7b5c88f4c8b21692d774c6ad82b2669d47537afd3608fc8a740a9fe9875a/ipycanvas-0.9.1.tar.gz
+[2024-04-25 13:44:25] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-25 13:44:25] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240424-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240425-cp39-cp39-win_amd64.whl.zip --markdown 20240425/b/bigdl-core-xe-esimd-21/2.5.0b20240424-2.5.0b20240425/README.md --exclude *.pyd
+[2024-04-25 13:44:25] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.1.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 13:44:25] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.13.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.14.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - main [MainThread]: End processing [funcnodes_images]: success
+[2024-04-25 13:44:25] INFO root fetch - processPackages [oasees-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oasees_sdk-0.2.0.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - processPackages [oasees-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oasees_sdk-0.2.1.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - main [MainThread]: End processing [oasees-sdk]: success
+[2024-04-25 13:44:25] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-25 13:44:25] INFO root fetch - processPackages [dmpcrl]: Remove: archive file [/home/abi/fetcher/tmp/dmpcrl-1.0.1.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - processPackages [dmpcrl]: Remove: archive file [/home/abi/fetcher/tmp/dmpcrl-1.0.2.tar.gz]
+[2024-04-25 13:44:25] INFO root fetch - main [MainThread]: End processing [dmpcrl]: success
+[2024-04-25 13:44:26] INFO root fetch - processPackages [ipycanvas]: executing diffoscope
+[2024-04-25 13:44:26] INFO root fetch - processPackages [ipycanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipycanvas-0.9.0.tar.gz tmp/ipycanvas-0.9.1.tar.gz --markdown 20240425/i/ipycanvas/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 13:44:26] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.1.0.tar.gz]
+[2024-04-25 13:44:26] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-7.2.0.tar.gz]
+[2024-04-25 13:44:26] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-04-25 13:44:26] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240424-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 13:44:26] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240425-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 13:44:26] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-04-25 13:44:30] INFO root fetch - processPackages [ipycanvas]: Remove: archive file [/home/abi/fetcher/tmp/ipycanvas-0.9.0.tar.gz]
+[2024-04-25 13:44:30] INFO root fetch - processPackages [ipycanvas]: Remove: archive file [/home/abi/fetcher/tmp/ipycanvas-0.9.1.tar.gz]
+[2024-04-25 13:44:30] INFO root fetch - main [MainThread]: End processing [ipycanvas]: success
+[2024-04-25 13:44:30] INFO root fetch - main [MainThread]: Store serial: [22929837]
