@@ -23152,3 +23152,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:26:44] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-25 14:26:44] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-25 14:26:44] INFO root fetch - main [MainThread]: Store serial: [22930252]
+[2024-04-25 14:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930252]
+[2024-04-25 14:28:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uyghur-tili-quralliri
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-mig
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: android-cli
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-model-builder-drafts
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NaxToPy
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grooveshop-django-api
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: muko
+[2024-04-25 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: math-ops-131
+[2024-04-25 14:28:54] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [oarepo-model-builder-drafts]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [uyghur-tili-quralliri]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [math-ops-131]: New version: [1.5] Old Version: [1.3.3]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [android-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [muko]: New version: [2.33] Old Version: [2.32]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [NaxToPy]: New version: [2.0.0] Old Version: [1.5.6]
+[2024-04-25 14:28:54] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-25 14:28:55] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/31/b3/bc63925883eaf5ef8d248d18fe2eac06c4761c360c618d8009868af1e5e4/oarepo-model-builder-drafts-4.0.8.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/b6/95/4e9fefd9003404c5770137cff51bf91a094faff1a651a7306a37dc4123f9/math_ops_131-1.3.3.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [uyghur-tili-quralliri]: Downloading https://files.pythonhosted.org/packages/c1/06/4d6ed56ca9373ff391072c57e43e32e344bffb0d5dd986b583543d716ba9/uyghur-tili-quralliri-0.1.1.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [android-cli]: Downloading https://files.pythonhosted.org/packages/bc/5c/d303060872ae42db585d25e69f887d38ea9de7cc5ff31958d2be23d95f0c/android-cli-1.0.8.tar.gz
+[2024-04-25 14:28:55] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-04-25 14:28:55] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-25 14:28:55] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/3e/db/b9481ab44bc0b1833630f189b2afb261706391741ff4d4abf766b3c46a3d/muko-2.32-py3-none-any.whl
+[2024-04-25 14:28:55] INFO root fetch - processPackages [NaxToPy]: Downloading https://files.pythonhosted.org/packages/79/7a/ef9695bea4f49fad9ede65c75feabde7721b008b466ff0600fc51b4d89d0/NaxToPy-1.5.6.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-25 14:28:55] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/6e/a2/1bbc1d5908b4f61b249b23e3a9b5dd43ef90994b3c98a94ed0b7e6cd4006/oarepo-model-builder-drafts-4.0.9.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/22/62/caa0cc722aa7ba20ffd2ae6016d2a8aeae6abf4a9a1ab244f10da4faf6b7/math_ops_131-1.5-py3-none-any.whl
+[2024-04-25 14:28:55] INFO root fetch - processPackages [uyghur-tili-quralliri]: Downloading https://files.pythonhosted.org/packages/21/57/8528ac835a6d2e7256148843a84cdaa4ff381e1a4c9c7e7e7ac31ff1a0ea/uyghur-tili-quralliri-0.1.2.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-25 14:28:55] INFO root fetch - processPackages [android-cli]: Downloading https://files.pythonhosted.org/packages/b1/fd/d8111e4126446d7686d2c0217229d818aeee992e62a16d7dab4457fc2cde/android-cli-1.0.9.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240425/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 14:28:55] INFO root fetch - processPackages [oarepo-model-builder-drafts]: executing diffoscope
+[2024-04-25 14:28:55] INFO root fetch - processPackages [oarepo-model-builder-drafts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-drafts-4.0.8.tar.gz tmp/oarepo-model-builder-drafts-4.0.9.tar.gz --markdown 20240425/o/oarepo-model-builder-drafts/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-25 14:28:55] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 14:28:55] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.3.3.tar.gz tmp/math_ops_131-1.5-py3-none-any.whl.zip --markdown 20240425/m/math-ops-131/1.3.3-1.5/README.md --exclude *.pyd
+[2024-04-25 14:28:55] INFO root fetch - processPackages [uyghur-tili-quralliri]: executing diffoscope
+[2024-04-25 14:28:55] INFO root fetch - processPackages [uyghur-tili-quralliri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uyghur-tili-quralliri-0.1.1.tar.gz tmp/uyghur-tili-quralliri-0.1.2.tar.gz --markdown 20240425/u/uyghur-tili-quralliri/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 14:28:55] INFO root fetch - processPackages [NaxToPy]: Downloading https://files.pythonhosted.org/packages/b0/c9/51c597d8c57e93796a0eaafb8a7864da04f6ba4d58e49ce9c5c1fe14d91b/naxtopy-2.0.0.tar.gz
+[2024-04-25 14:28:55] INFO root fetch - processPackages [android-cli]: executing diffoscope
+[2024-04-25 14:28:55] INFO root fetch - processPackages [android-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-cli-1.0.8.tar.gz tmp/android-cli-1.0.9.tar.gz --markdown 20240425/a/android-cli/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 14:28:55] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/7e/8f/a64659a4c15c1c7dd918706618ed9d789669b7de3a91b3ffe19c2b706f5a/muko-2.33-py3-none-any.whl
+[2024-04-25 14:28:55] INFO root fetch - processPackages [NaxToPy]: executing diffoscope
+[2024-04-25 14:28:55] INFO root fetch - processPackages [NaxToPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NaxToPy-1.5.6.tar.gz tmp/naxtopy-2.0.0.tar.gz --markdown 20240425/N/NaxToPy/1.5.6-2.0.0/README.md --exclude *.pyd
+[2024-04-25 14:28:56] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-25 14:28:56] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.32-py3-none-any.whl.zip tmp/muko-2.33-py3-none-any.whl.zip --markdown 20240425/m/muko/2.32-2.33/README.md --exclude *.pyd
+[2024-04-25 14:28:56] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.3.tar.gz]
+[2024-04-25 14:28:56] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.5-py3-none-any.whl.zip]
+[2024-04-25 14:28:56] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 14:28:56] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-4.0.8.tar.gz]
+[2024-04-25 14:28:56] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-drafts-4.0.9.tar.gz]
+[2024-04-25 14:28:56] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-drafts]: success
+[2024-04-25 14:28:56] INFO root fetch - processPackages [uyghur-tili-quralliri]: Remove: archive file [/home/abi/fetcher/tmp/uyghur-tili-quralliri-0.1.1.tar.gz]
+[2024-04-25 14:28:56] INFO root fetch - processPackages [uyghur-tili-quralliri]: Remove: archive file [/home/abi/fetcher/tmp/uyghur-tili-quralliri-0.1.2.tar.gz]
+[2024-04-25 14:28:56] INFO root fetch - main [MainThread]: End processing [uyghur-tili-quralliri]: success
+[2024-04-25 14:28:56] INFO root fetch - processPackages [android-cli]: Remove: archive file [/home/abi/fetcher/tmp/android-cli-1.0.8.tar.gz]
+[2024-04-25 14:28:56] INFO root fetch - processPackages [android-cli]: Remove: archive file [/home/abi/fetcher/tmp/android-cli-1.0.9.tar.gz]
+[2024-04-25 14:28:56] INFO root fetch - main [MainThread]: End processing [android-cli]: success
+[2024-04-25 14:28:57] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-25 14:28:57] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-25 14:28:57] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-25 14:28:57] INFO root fetch - processPackages [NaxToPy]: Remove: archive file [/home/abi/fetcher/tmp/NaxToPy-1.5.6.tar.gz]
+[2024-04-25 14:28:57] INFO root fetch - processPackages [NaxToPy]: Remove: archive file [/home/abi/fetcher/tmp/naxtopy-2.0.0.tar.gz]
+[2024-04-25 14:28:57] INFO root fetch - main [MainThread]: End processing [NaxToPy]: success
+[2024-04-25 14:29:00] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.32-py3-none-any.whl.zip]
+[2024-04-25 14:29:00] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.33-py3-none-any.whl.zip]
+[2024-04-25 14:29:00] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-25 14:29:00] INFO root fetch - main [MainThread]: Store serial: [22930278]
