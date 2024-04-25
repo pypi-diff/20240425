@@ -11021,3 +11021,24 @@
 [2024-04-25 07:09:34] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
 [2024-04-25 07:09:34] INFO root fetch - main [MainThread]: End processing [atopile] error
 [2024-04-25 07:09:34] INFO root fetch - main [MainThread]: Store serial: [22925398]
+[2024-04-25 07:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925398]
+[2024-04-25 07:11:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 07:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: not1mm
+[2024-04-25 07:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mrp-bom-tracking
+[2024-04-25 07:11:43] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-25 07:11:43] INFO root fetch - processPackages [not1mm]: New version: [24.4.9.4] Old Version: [24.4.9.3]
+[2024-04-25 07:11:43] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Downloading https://files.pythonhosted.org/packages/c8/fb/23d38e6e9369396bdf6120a5630de8bcd6dd0cdfaaa62df8742742387184/odoo_addon_mrp_bom_tracking-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-25 07:11:43] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/b8/00/b03681f5655c45369caddca017889f36126fee3262c35e9da8f3d6f1441a/not1mm-24.4.9.3.tar.gz
+[2024-04-25 07:11:43] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Downloading https://files.pythonhosted.org/packages/b1/d2/0b845cecf4bc97071243b8dcacf268a4bb793a6bdd09b58e2e63c860d17a/odoo_addon_mrp_bom_tracking-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-25 07:11:43] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: executing diffoscope
+[2024-04-25 07:11:43] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_tracking-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_tracking-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-mrp-bom-tracking/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-25 07:11:44] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/c4/f2/3f14d0987ddd58d58de31dc0d16d56797a0b91715fcd53bbe0b64fd6b7a5/not1mm-24.4.9.4.tar.gz
+[2024-04-25 07:11:44] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_tracking-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-25 07:11:44] INFO root fetch - processPackages [odoo-addon-mrp-bom-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_tracking-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-25 07:11:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-tracking]: success
+[2024-04-25 07:11:44] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-25 07:11:44] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.4.9.3.tar.gz tmp/not1mm-24.4.9.4.tar.gz --markdown 20240425/n/not1mm/24.4.9.3-24.4.9.4/README.md --exclude *.pyd
+[2024-04-25 07:11:46] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.3.tar.gz]
+[2024-04-25 07:11:46] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.4.tar.gz]
+[2024-04-25 07:11:46] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-25 07:11:46] INFO root fetch - main [MainThread]: Store serial: [22925403]
