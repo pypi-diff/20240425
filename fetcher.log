@@ -14378,3 +14378,41 @@
 [2024-04-25 09:57:49] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-04-25 09:57:50] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-04-25 09:57:50] INFO root fetch - main [MainThread]: Store serial: [22926871]
+[2024-04-25 09:59:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926871]
+[2024-04-25 10:00:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 10:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-researcher
+[2024-04-25 10:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Qubx
+[2024-04-25 10:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bellek
+[2024-04-25 10:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: particleannotation
+[2024-04-25 10:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: numerous
+[2024-04-25 10:00:00] WARNING root fetch - processPackages [particleannotation]: Skipping, unable to determine old version
+[2024-04-25 10:00:00] INFO root fetch - main [MainThread]: End processing [particleannotation] error
+[2024-04-25 10:00:00] INFO root fetch - processPackages [gpt-researcher]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-25 10:00:00] INFO root fetch - processPackages [bellek]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-25 10:00:00] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/93/2d/0df674d3c088d1debd011a22524810e3ffec421ad4756e38d18ea807619f/gpt-researcher-0.2.6.tar.gz
+[2024-04-25 10:00:00] INFO root fetch - processPackages [Qubx]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-25 10:00:00] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/26/4a/fccdc0d1ab493a2f8ff61dc7887c3dfae74cbb14da793a33c1372d57e126/bellek-0.98.0.tar.gz
+[2024-04-25 10:00:00] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 10:00:00] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/76/43/1eb5fc3e89ea36219f334011edbe9fecf5db4c1cbbe36a31e3c910ad7860/qubx-0.0.1.tar.gz
+[2024-04-25 10:00:00] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/e0/57/01ef9f216f3e2aa5badb548a3264e163ead52552e983596101f6a8a66d51/gpt-researcher-0.2.7.tar.gz
+[2024-04-25 10:00:00] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/1a/2c/d10c9a7db975b462d348e242a313e4d15e3c11363d764f5a1f40176b3e42/bellek-0.99.0.tar.gz
+[2024-04-25 10:00:00] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-04-25 10:00:00] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.2.6.tar.gz tmp/gpt-researcher-0.2.7.tar.gz --markdown 20240425/g/gpt-researcher/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-25 10:00:00] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-25 10:00:00] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.98.0.tar.gz tmp/bellek-0.99.0.tar.gz --markdown 20240425/b/bellek/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-25 10:00:00] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-25 10:00:00] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-25 10:00:00] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-25 10:00:00] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/2e/d9/014ece742e3052646b87ab8dec023b3ddd8b854b90fa6ca199d0ff0f587c/qubx-0.1.0.tar.gz
+[2024-04-25 10:00:01] INFO root fetch - processPackages [Qubx]: executing diffoscope
+[2024-04-25 10:00:01] INFO root fetch - processPackages [Qubx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qubx-0.0.1.tar.gz tmp/qubx-0.1.0.tar.gz --markdown 20240425/Q/Qubx/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-25 10:00:01] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.98.0.tar.gz]
+[2024-04-25 10:00:01] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.99.0.tar.gz]
+[2024-04-25 10:00:01] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-25 10:00:01] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.2.6.tar.gz]
+[2024-04-25 10:00:01] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.2.7.tar.gz]
+[2024-04-25 10:00:01] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-04-25 10:00:01] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.0.1.tar.gz]
+[2024-04-25 10:00:01] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.0.tar.gz]
+[2024-04-25 10:00:01] INFO root fetch - main [MainThread]: End processing [Qubx]: success
+[2024-04-25 10:00:01] INFO root fetch - main [MainThread]: Store serial: [22926883]
