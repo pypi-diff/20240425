@@ -13360,3 +13360,85 @@
 [2024-04-25 09:22:14] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
 [2024-04-25 09:22:14] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2024-04-25 09:22:14] INFO root fetch - main [MainThread]: Store serial: [22926479]
+[2024-04-25 09:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926479]
+[2024-04-25 09:24:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplecalculatorkms
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mongo-m
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moveread-boxes
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feasytools
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xplainable
+[2024-04-25 09:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moveread-boxes
+[2024-04-25 09:24:25] INFO root fetch - processPackages [mongo-m]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-25 09:24:25] WARNING root fetch - processPackages [moveread-boxes]: Skipping, unable to determine old version
+[2024-04-25 09:24:25] INFO root fetch - processPackages [moveread-boxes]: Start processing: moveread-datasets
+[2024-04-25 09:24:25] INFO root fetch - main [MainThread]: End processing [moveread-boxes] error
+[2024-04-25 09:24:25] INFO root fetch - processPackages [feasytools]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-25 09:24:25] WARNING root fetch - processPackages [moveread-boxes]: Skipping, unable to determine old version
+[2024-04-25 09:24:25] INFO root fetch - main [MainThread]: End processing [moveread-boxes] error
+[2024-04-25 09:24:25] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev9] Old Version: [0.0.6.dev8]
+[2024-04-25 09:24:25] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-25 09:24:25] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240425063645] Old Version: [3.4.0]
+[2024-04-25 09:24:25] INFO root fetch - processPackages [moveread-datasets]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 09:24:25] WARNING root fetch - processPackages [simplecalculatorkms]: Skipping, unable to determine old version
+[2024-04-25 09:24:25] INFO root fetch - main [MainThread]: End processing [simplecalculatorkms] error
+[2024-04-25 09:24:25] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240425063645] Old Version: [3.4.0]
+[2024-04-25 09:24:25] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/a1/f5/d3a4456e12852d99bb24e9aecbc1ffb75e1d6b8c9165965d468d04b61dad/mongo_m-1.0.5.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [xplainable]: New version: [1.2.3] Old Version: [1.2.2.post1]
+[2024-04-25 09:24:25] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/4c/fb/6fe241ac6d862dfb6a1d5ca519e8c52d18ddd46b649f0e5498e6dd0e8f95/torch_model_manager-0.0.6.dev8.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/80/b1/188b7ee3ccf8dc35107a719da46c0a887d7500b4ab40729b01a49e4668ba/feasytools-0.0.6.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [moveread-datasets]: Downloading https://files.pythonhosted.org/packages/19/76/0be6371a45f36dcbc71c097fcbcf7e29c1bf68716f6548669d1681da0e6d/moveread_datasets-0.1.0.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a8/82/a9eaa0b95534221ec87482cc9a8f8d9af2b64c79c460938a341707e7e24d/localstack_core-3.4.0.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a8/82/a9eaa0b95534221ec87482cc9a8f8d9af2b64c79c460938a341707e7e24d/localstack_core-3.4.0.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/2c/8e/04077c3ee6e8e2b9dd750c54f8bbf16c43024ebecc2e6ad18b233d172815/torch_model_manager-0.0.6.dev9.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/18/b1/1b7de82f37fb3505c60a01fba347f9754b68dcf196fd4bf46fe079cb037a/xplainable-1.2.2.post1.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [moveread-datasets]: Downloading https://files.pythonhosted.org/packages/f2/68/7c2b0e621dea30aabebdafe847e87258b807da00ec3a81561e1e0bc50b45/moveread_datasets-0.1.1.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/54/7a/a8b562b6712449718a4f3f2bfcb3dc17906c9f87a61132adf02565976da2/mongo_m-1.0.6.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-25 09:24:25] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev8.tar.gz tmp/torch_model_manager-0.0.6.dev9.tar.gz --markdown 20240425/t/torch-model-manager/0.0.6.dev8-0.0.6.dev9/README.md --exclude *.pyd
+[2024-04-25 09:24:25] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/7e/4d/798b284f0259d5938a1d5c1206533fefede9a5fee0add5ee362e6b61a79a/feasytools-0.0.7.tar.gz
+[2024-04-25 09:24:25] INFO root fetch - processPackages [mongo-m]: executing diffoscope
+[2024-04-25 09:24:25] INFO root fetch - processPackages [mongo-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_m-1.0.5.tar.gz tmp/mongo_m-1.0.6.tar.gz --markdown 20240425/m/mongo-m/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-25 09:24:25] INFO root fetch - processPackages [moveread-datasets]: executing diffoscope
+[2024-04-25 09:24:25] INFO root fetch - processPackages [moveread-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moveread_datasets-0.1.0.tar.gz tmp/moveread_datasets-0.1.1.tar.gz --markdown 20240425/m/moveread-datasets/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 09:24:25] INFO root fetch - processPackages [feasytools]: executing diffoscope
+[2024-04-25 09:24:25] INFO root fetch - processPackages [feasytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feasytools-0.0.6.tar.gz tmp/feasytools-0.0.7.tar.gz --markdown 20240425/f/feasytools/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-25 09:24:26] INFO root fetch - processPackages [xplainable]: Downloading https://files.pythonhosted.org/packages/92/91/dc3d31acfe2db508a064e51a4e8fde8270154c5c03518908b93f2be4eb27/xplainable-1.2.3.tar.gz
+[2024-04-25 09:24:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-25 09:24:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240425/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-25 09:24:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/8f/b2/256ca49a5311dfca3552208fec4f8081366e451b10ae1121d038dd3ace1b/localstack_core-3.4.1.dev20240425063645.tar.gz
+[2024-04-25 09:24:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/8f/b2/256ca49a5311dfca3552208fec4f8081366e451b10ae1121d038dd3ace1b/localstack_core-3.4.1.dev20240425063645.tar.gz
+[2024-04-25 09:24:26] INFO root fetch - processPackages [xplainable]: executing diffoscope
+[2024-04-25 09:24:26] INFO root fetch - processPackages [xplainable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable-1.2.2.post1.tar.gz tmp/xplainable-1.2.3.tar.gz --markdown 20240425/x/xplainable/1.2.2.post1-1.2.3/README.md --exclude *.pyd
+[2024-04-25 09:24:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-25 09:24:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.0.tar.gz tmp/localstack_core-3.4.1.dev20240425063645.tar.gz --markdown 20240425/l/localstack-core/3.4.0-3.4.1.dev20240425063645/README.md --exclude *.pyd
+[2024-04-25 09:24:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-25 09:24:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.0.tar.gz tmp/localstack_core-3.4.1.dev20240425063645.tar.gz --markdown 20240425/l/localstack-core/3.4.0-3.4.1.dev20240425063645/README.md --exclude *.pyd
+[2024-04-25 09:24:26] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev8.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev9.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-25 09:24:26] INFO root fetch - processPackages [moveread-datasets]: Remove: archive file [/home/abi/fetcher/tmp/moveread_datasets-0.1.0.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - processPackages [moveread-datasets]: Remove: archive file [/home/abi/fetcher/tmp/moveread_datasets-0.1.1.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - main [MainThread]: End processing [moveread-datasets]: success
+[2024-04-25 09:24:26] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.6.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.7.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - main [MainThread]: End processing [feasytools]: success
+[2024-04-25 09:24:26] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.5.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.6.tar.gz]
+[2024-04-25 09:24:26] INFO root fetch - main [MainThread]: End processing [mongo-m]: success
+[2024-04-25 09:24:27] INFO root fetch - processPackages [xplainable]: Remove: archive file [/home/abi/fetcher/tmp/xplainable-1.2.2.post1.tar.gz]
+[2024-04-25 09:24:27] INFO root fetch - processPackages [xplainable]: Remove: archive file [/home/abi/fetcher/tmp/xplainable-1.2.3.tar.gz]
+[2024-04-25 09:24:27] INFO root fetch - main [MainThread]: End processing [xplainable]: success
+[2024-04-25 09:24:28] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-25 09:24:28] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-25 09:24:28] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-25 09:24:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.0.tar.gz]
+[2024-04-25 09:24:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240425063645.tar.gz]
+[2024-04-25 09:24:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-25 09:24:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-25 09:24:30] INFO root fetch - main [MainThread]: Store serial: [22926513]
