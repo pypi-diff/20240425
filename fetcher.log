@@ -20846,3 +20846,63 @@
 [2024-04-25 13:04:44] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-04-25 13:04:44] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-04-25 13:04:44] INFO root fetch - main [MainThread]: Store serial: [22929240]
+[2024-04-25 13:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929240]
+[2024-04-25 13:06:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 13:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scCellFie
+[2024-04-25 13:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-04-25 13:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-container-scaffold
+[2024-04-25 13:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stereobot-gp
+[2024-04-25 13:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcnodes-plotly
+[2024-04-25 13:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: symply
+[2024-04-25 13:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: epyt-c
+[2024-04-25 13:06:54] INFO root fetch - processPackages [phidata]: New version: [2.3.9] Old Version: [2.3.82]
+[2024-04-25 13:06:54] INFO root fetch - processPackages [scCellFie]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 13:06:54] INFO root fetch - processPackages [symply]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 13:06:54] INFO root fetch - processPackages [flask-container-scaffold]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-25 13:06:54] INFO root fetch - processPackages [funcnodes-plotly]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 13:06:54] INFO root fetch - processPackages [stereobot-gp]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 13:06:54] WARNING root fetch - processPackages [epyt-c]: Skipping, unable to determine old version
+[2024-04-25 13:06:54] INFO root fetch - main [MainThread]: End processing [epyt-c] error
+[2024-04-25 13:06:54] INFO root fetch - processPackages [funcnodes-plotly]: Downloading https://files.pythonhosted.org/packages/82/f2/f83d214764464abf5843675557b94b62462298036efc5747bf6797b62315/funcnodes_plotly-0.1.1.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/fa/f4/791c4807b36ed238fb47d07efb39631ef99b1c226ee9430c71735c6c9849/phidata-2.3.82.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/c7/2b/e303eed2448ac8f35bb5a5e7a1a623c3e55dc32ef2a66a60ba841aab7a2a/scCellFie-0.1.7.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [symply]: Downloading https://files.pythonhosted.org/packages/44/a0/c820e60661221ff493e70abdd5d14ea34a9db77db7cea6a3089418cbb307/symply-0.1.1.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [flask-container-scaffold]: Downloading https://files.pythonhosted.org/packages/87/71/f687839af33b8e3ced4949c95ccbe1991b28684196a95cf537ec15a69d90/flask-container-scaffold-0.2.1.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [stereobot-gp]: Downloading https://files.pythonhosted.org/packages/06/b8/0efca77d9b036eddabb792a86768a35ecfac5de62963317136ae436ebff7/stereobot_gp-0.0.1.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [funcnodes-plotly]: Downloading https://files.pythonhosted.org/packages/d7/ab/4a8ec6dd61b8c61e17b6d1587432852da4f8b59019888a3838be6985c086/funcnodes_plotly-0.1.2.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [symply]: Downloading https://files.pythonhosted.org/packages/b2/6e/7b6761c7fd47451729e0ff091ee4a17ed905014d1a562064bcb5932a379e/symply-0.1.2.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/cf/39/e4dc4b44b23dfbae895c6c3e095ecdc83f1274cef1819df89aa565c45d45/sccellfie-0.1.8.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/51/63/c5ed33bf592cd65cdcb90c64ded88ab6bc7786db2184c64f6484d61e92d0/phidata-2.3.9.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [flask-container-scaffold]: Downloading https://files.pythonhosted.org/packages/ec/a9/4bd02d4793100c81bba6d428c8191f69ef572c059967809b14fd174eff4a/flask_container_scaffold-0.3.0.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [funcnodes-plotly]: executing diffoscope
+[2024-04-25 13:06:54] INFO root fetch - processPackages [funcnodes-plotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_plotly-0.1.1.tar.gz tmp/funcnodes_plotly-0.1.2.tar.gz --markdown 20240425/f/funcnodes-plotly/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 13:06:54] INFO root fetch - processPackages [stereobot-gp]: Downloading https://files.pythonhosted.org/packages/bd/60/e62c99a8bbd1ff1b87a9715a198d0f8570772cd1d83fc19b8a7a81409507/stereobot_gp-0.0.2.tar.gz
+[2024-04-25 13:06:54] INFO root fetch - processPackages [symply]: executing diffoscope
+[2024-04-25 13:06:54] INFO root fetch - processPackages [symply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symply-0.1.1.tar.gz tmp/symply-0.1.2.tar.gz --markdown 20240425/s/symply/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 13:06:54] INFO root fetch - processPackages [scCellFie]: executing diffoscope
+[2024-04-25 13:06:54] INFO root fetch - processPackages [scCellFie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCellFie-0.1.7.tar.gz tmp/sccellfie-0.1.8.tar.gz --markdown 20240425/s/scCellFie/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 13:06:55] INFO root fetch - processPackages [flask-container-scaffold]: executing diffoscope
+[2024-04-25 13:06:55] INFO root fetch - processPackages [flask-container-scaffold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-container-scaffold-0.2.1.tar.gz tmp/flask_container_scaffold-0.3.0.tar.gz --markdown 20240425/f/flask-container-scaffold/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-25 13:06:55] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-04-25 13:06:55] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.3.82.tar.gz tmp/phidata-2.3.9.tar.gz --markdown 20240425/p/phidata/2.3.82-2.3.9/README.md --exclude *.pyd
+[2024-04-25 13:06:55] INFO root fetch - processPackages [stereobot-gp]: executing diffoscope
+[2024-04-25 13:06:55] INFO root fetch - processPackages [stereobot-gp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stereobot_gp-0.0.1.tar.gz tmp/stereobot_gp-0.0.2.tar.gz --markdown 20240425/s/stereobot-gp/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 13:06:55] INFO root fetch - processPackages [symply]: Remove: archive file [/home/abi/fetcher/tmp/symply-0.1.1.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - processPackages [symply]: Remove: archive file [/home/abi/fetcher/tmp/symply-0.1.2.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - main [MainThread]: End processing [symply]: success
+[2024-04-25 13:06:55] INFO root fetch - processPackages [funcnodes-plotly]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_plotly-0.1.1.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - processPackages [funcnodes-plotly]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_plotly-0.1.2.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - main [MainThread]: End processing [funcnodes-plotly]: success
+[2024-04-25 13:06:55] INFO root fetch - processPackages [flask-container-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/flask-container-scaffold-0.2.1.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - processPackages [flask-container-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/flask_container_scaffold-0.3.0.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - main [MainThread]: End processing [flask-container-scaffold]: success
+[2024-04-25 13:06:55] INFO root fetch - processPackages [stereobot-gp]: Remove: archive file [/home/abi/fetcher/tmp/stereobot_gp-0.0.1.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - processPackages [stereobot-gp]: Remove: archive file [/home/abi/fetcher/tmp/stereobot_gp-0.0.2.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - main [MainThread]: End processing [stereobot-gp]: success
+[2024-04-25 13:06:55] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/scCellFie-0.1.7.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/sccellfie-0.1.8.tar.gz]
+[2024-04-25 13:06:55] INFO root fetch - main [MainThread]: End processing [scCellFie]: success
+[2024-04-25 13:06:57] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.82.tar.gz]
+[2024-04-25 13:06:57] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
+[2024-04-25 13:06:57] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-04-25 13:06:57] INFO root fetch - main [MainThread]: Store serial: [22929268]
