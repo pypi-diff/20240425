@@ -13932,3 +13932,42 @@
 [2024-04-25 09:40:08] INFO root fetch - processPackages [mugicli]: Remove: archive file [/home/abi/fetcher/tmp/mugicli-0.0.9-py3-none-any.whl.zip]
 [2024-04-25 09:40:08] INFO root fetch - main [MainThread]: End processing [mugicli]: success
 [2024-04-25 09:40:08] INFO root fetch - main [MainThread]: Store serial: [22926698]
+[2024-04-25 09:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926698]
+[2024-04-25 09:42:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: podonos
+[2024-04-25 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-mpesa-koros
+[2024-04-25 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: castor-extractor
+[2024-04-25 09:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-ctc
+[2024-04-25 09:42:19] INFO root fetch - processPackages [python-mpesa-koros]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 09:42:19] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/d8/ed/981aba274f17c7a546c42720a4c6e8d6b5e5f88800516f60c9e457f05e44/python_mpesa_koros-0.1.7.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [tf-ctc]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 09:42:19] INFO root fetch - processPackages [podonos]: New version: [0.1.0] Old Version: [0.0.12]
+[2024-04-25 09:42:19] INFO root fetch - processPackages [castor-extractor]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-04-25 09:42:19] INFO root fetch - processPackages [tf-ctc]: Downloading https://files.pythonhosted.org/packages/2c/7c/b7cf67133b72ca22f5101e19e6191bd80898001223526def69ee650a6bad/tf_ctc-0.1.4.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/24/ae/7d5f85136f27ac52452ae7e111676b11b5ea45ecd4220d707fd531c98b30/castor_extractor-0.9.0.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [podonos]: Downloading https://files.pythonhosted.org/packages/c4/0f/aa6b6aa7de3afbc838ee5adba060a1e3eeb1aab03e9bc2cf1fc473a8f991/podonos-0.0.12.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/c3/97/e382fab792eb786cff4a7e54d3a4f5c3d67e016ffa66185145f8d1836224/python_mpesa_koros-0.1.8.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [python-mpesa-koros]: executing diffoscope
+[2024-04-25 09:42:19] INFO root fetch - processPackages [python-mpesa-koros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_mpesa_koros-0.1.7.tar.gz tmp/python_mpesa_koros-0.1.8.tar.gz --markdown 20240425/p/python-mpesa-koros/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 09:42:19] INFO root fetch - processPackages [tf-ctc]: Downloading https://files.pythonhosted.org/packages/4c/7e/5f383d7cdb9fe287cadc238e34d243b749b3210a1d03681961d657bc6563/tf_ctc-0.1.5.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/82/9e/87b7b468b52cc566af927aded940bce726d5249d88f184d6aa2f55f62308/castor_extractor-0.9.2.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [podonos]: Downloading https://files.pythonhosted.org/packages/33/a0/42092736b3e3c28f8858f5e717b6efd952fd3c2c2f1f033890479ec169ca/podonos-0.1.0.tar.gz
+[2024-04-25 09:42:19] INFO root fetch - processPackages [tf-ctc]: executing diffoscope
+[2024-04-25 09:42:19] INFO root fetch - processPackages [tf-ctc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_ctc-0.1.4.tar.gz tmp/tf_ctc-0.1.5.tar.gz --markdown 20240425/t/tf-ctc/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 09:42:19] INFO root fetch - processPackages [podonos]: executing diffoscope
+[2024-04-25 09:42:19] INFO root fetch - processPackages [podonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podonos-0.0.12.tar.gz tmp/podonos-0.1.0.tar.gz --markdown 20240425/p/podonos/0.0.12-0.1.0/README.md --exclude *.pyd
+[2024-04-25 09:42:19] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2024-04-25 09:42:19] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.9.0.tar.gz tmp/castor_extractor-0.9.2.tar.gz --markdown 20240425/c/castor-extractor/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-04-25 09:42:20] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-0.1.7.tar.gz]
+[2024-04-25 09:42:20] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-0.1.8.tar.gz]
+[2024-04-25 09:42:20] INFO root fetch - main [MainThread]: End processing [python-mpesa-koros]: success
+[2024-04-25 09:42:20] INFO root fetch - processPackages [tf-ctc]: Remove: archive file [/home/abi/fetcher/tmp/tf_ctc-0.1.4.tar.gz]
+[2024-04-25 09:42:20] INFO root fetch - processPackages [tf-ctc]: Remove: archive file [/home/abi/fetcher/tmp/tf_ctc-0.1.5.tar.gz]
+[2024-04-25 09:42:20] INFO root fetch - main [MainThread]: End processing [tf-ctc]: success
+[2024-04-25 09:42:20] INFO root fetch - processPackages [podonos]: Remove: archive file [/home/abi/fetcher/tmp/podonos-0.0.12.tar.gz]
+[2024-04-25 09:42:20] INFO root fetch - processPackages [podonos]: Remove: archive file [/home/abi/fetcher/tmp/podonos-0.1.0.tar.gz]
+[2024-04-25 09:42:20] INFO root fetch - main [MainThread]: End processing [podonos]: success
+[2024-04-25 09:42:21] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.9.0.tar.gz]
+[2024-04-25 09:42:21] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.9.2.tar.gz]
+[2024-04-25 09:42:21] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2024-04-25 09:42:21] INFO root fetch - main [MainThread]: Store serial: [22926711]
