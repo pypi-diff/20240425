@@ -10140,3 +10140,33 @@
 [2024-04-25 05:56:01] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-04-25 05:56:01] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-25 05:56:01] INFO root fetch - main [MainThread]: Store serial: [22924975]
+[2024-04-25 05:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924975]
+[2024-04-25 05:58:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadreamer.dev
+[2024-04-25 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gliner-spacy
+[2024-04-25 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypreql
+[2024-04-25 05:58:10] INFO root fetch - processPackages [gliner-spacy]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-25 05:58:10] INFO root fetch - processPackages [datadreamer.dev]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 05:58:10] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-04-25 05:58:10] INFO root fetch - processPackages [gliner-spacy]: Downloading https://files.pythonhosted.org/packages/f9/21/49762687d83d3502673455ab8fdabefb906d02c160619d15b8010cb3d3b4/gliner-spacy-0.0.5.tar.gz
+[2024-04-25 05:58:10] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/1f/2c/32b5de0e35ed3db2eca18fdce324ee199b1fcc089bc278d325fc111ad6b4/datadreamer_dev-0.8.0.tar.gz
+[2024-04-25 05:58:10] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/43/b8/2abb29f2547d81aff3f05e6578226b18359897a8e67919d46a46231d0bed/pypreql-0.0.1rc8.tar.gz
+[2024-04-25 05:58:11] INFO root fetch - processPackages [gliner-spacy]: Downloading https://files.pythonhosted.org/packages/19/43/29c1e9a20df69aeea7f075ed475cc91687a3badbec97202bfaa75550c524/gliner-spacy-0.0.6.tar.gz
+[2024-04-25 05:58:11] INFO root fetch - processPackages [gliner-spacy]: executing diffoscope
+[2024-04-25 05:58:11] INFO root fetch - processPackages [gliner-spacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gliner-spacy-0.0.5.tar.gz tmp/gliner-spacy-0.0.6.tar.gz --markdown 20240425/g/gliner-spacy/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-25 05:58:11] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/2a/ec/b17b0b2244a9b377c90f022ce710f823144beca2aad8793c5118553bc133/datadreamer_dev-0.9.0.tar.gz
+[2024-04-25 05:58:11] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/1a/ce/33794a7ef68067e22a883f6d200722a8ccfc530b6b40d7ba9956ed4ff8bf/pypreql-0.0.1rc9.tar.gz
+[2024-04-25 05:58:11] INFO root fetch - processPackages [datadreamer.dev]: executing diffoscope
+[2024-04-25 05:58:11] INFO root fetch - processPackages [datadreamer.dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadreamer_dev-0.8.0.tar.gz tmp/datadreamer_dev-0.9.0.tar.gz --markdown 20240425/d/datadreamer.dev/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 05:58:11] INFO root fetch - processPackages [gliner-spacy]: Remove: archive file [/home/abi/fetcher/tmp/gliner-spacy-0.0.5.tar.gz]
+[2024-04-25 05:58:11] INFO root fetch - processPackages [gliner-spacy]: Remove: archive file [/home/abi/fetcher/tmp/gliner-spacy-0.0.6.tar.gz]
+[2024-04-25 05:58:11] INFO root fetch - main [MainThread]: End processing [gliner-spacy]: success
+[2024-04-25 05:58:12] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2024-04-25 05:58:12] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc8.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20240425/p/pypreql/0.0.1rc8-0.0.1rc9/README.md --exclude *.pyd
+[2024-04-25 05:58:12] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.8.0.tar.gz]
+[2024-04-25 05:58:12] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.9.0.tar.gz]
+[2024-04-25 05:58:12] INFO root fetch - main [MainThread]: End processing [datadreamer.dev]: success
+[2024-04-25 05:58:13] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc8.tar.gz]
+[2024-04-25 05:58:13] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc9.tar.gz]
+[2024-04-25 05:58:13] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2024-04-25 05:58:13] INFO root fetch - main [MainThread]: Store serial: [22924981]
