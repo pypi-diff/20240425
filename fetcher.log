@@ -21580,3 +21580,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:24:37] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip]
 [2024-04-25 13:24:37] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-04-25 13:24:37] INFO root fetch - main [MainThread]: Store serial: [22929599]
+[2024-04-25 13:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929599]
+[2024-04-25 13:26:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 13:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cwltest
+[2024-04-25 13:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytonapi
+[2024-04-25 13:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-opinionated-constructs
+[2024-04-25 13:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: attune-project-api
+[2024-04-25 13:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsee-core
+[2024-04-25 13:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: journeylib
+[2024-04-25 13:26:47] INFO root fetch - processPackages [attune-project-api]: New version: [24.2.9] Old Version: [24.2.8]
+[2024-04-25 13:26:47] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-04-25 13:26:47] WARNING root fetch - processPackages [journeylib]: Skipping, unable to determine old version
+[2024-04-25 13:26:47] INFO root fetch - main [MainThread]: End processing [journeylib] error
+[2024-04-25 13:26:47] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/73/4b/c5b3857e1569fddfe6405dfe4dadcfa9461b229aa137772960af188000a4/attune-project-api-24.2.8.tar.gz
+[2024-04-25 13:26:47] INFO root fetch - processPackages [pytonapi]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-04-25 13:26:47] INFO root fetch - processPackages [cwltest]: New version: [2.5.20240425111257] Old Version: [2.5.20240304113812]
+[2024-04-25 13:26:47] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/d4/b6/59c00c47cb0141df69dc8b410966134822d359a4828e3e399de9de0cd04c/cdk-opinionated-constructs-3.7.0.tar.gz
+[2024-04-25 13:26:47] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-25 13:26:47] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/60/6e/44ce963eadba40e69a999bc50fa6db01db0c4716b0d46e3abc7726f6d5bf/pytonapi-0.2.6.tar.gz
+[2024-04-25 13:26:47] INFO root fetch - processPackages [cwltest]: Downloading https://files.pythonhosted.org/packages/42/67/062614afd2ba0fe259a9d3bb1a5b84844b14a5510cdbb3ba649699156a85/cwltest-2.5.20240304113812.tar.gz
+[2024-04-25 13:26:48] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-04-25 13:26:48] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/92/3d/d973476dff07eeb6046df9eba721affaece7d77483bae608e20ddb7ca302/cdk_opinionated_constructs-3.7.1.tar.gz
+[2024-04-25 13:26:48] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/2f/35/277bd180a825d466aadebd8ec054cd0315632bca84f031b52de2fd26d2d5/attune_project_api-24.2.9.tar.gz
+[2024-04-25 13:26:48] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2024-04-25 13:26:48] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-opinionated-constructs-3.7.0.tar.gz tmp/cdk_opinionated_constructs-3.7.1.tar.gz --markdown 20240425/c/cdk-opinionated-constructs/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-04-25 13:26:48] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2024-04-25 13:26:48] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-24.2.8.tar.gz tmp/attune_project_api-24.2.9.tar.gz --markdown 20240425/a/attune-project-api/24.2.8-24.2.9/README.md --exclude *.pyd
+[2024-04-25 13:26:48] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/7d/8c/04a3b6720727122281c55684c6f383482540f748ebc400a7f089aded728e/pytonapi-0.2.8.tar.gz
+[2024-04-25 13:26:48] INFO root fetch - processPackages [cwltest]: Downloading https://files.pythonhosted.org/packages/69/43/3cc85b42dbba46904e7abfee9835bdf35ce758f7cb10d47228e2db731536/cwltest-2.5.20240425111257.tar.gz
+[2024-04-25 13:26:48] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/87/4f/31752247b806b1f52883033ecb4efbcec34d8a58a18a3a051c733dd38686/parsee_core-0.1.4.9.tar.gz
+[2024-04-25 13:26:48] INFO root fetch - processPackages [pytonapi]: executing diffoscope
+[2024-04-25 13:26:48] INFO root fetch - processPackages [pytonapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonapi-0.2.6.tar.gz tmp/pytonapi-0.2.8.tar.gz --markdown 20240425/p/pytonapi/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-04-25 13:26:48] INFO root fetch - processPackages [cwltest]: executing diffoscope
+[2024-04-25 13:26:48] INFO root fetch - processPackages [cwltest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwltest-2.5.20240304113812.tar.gz tmp/cwltest-2.5.20240425111257.tar.gz --markdown 20240425/c/cwltest/2.5.20240304113812-2.5.20240425111257/README.md --exclude *.pyd
+[2024-04-25 13:26:48] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-25 13:26:48] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.8.tar.gz tmp/parsee_core-0.1.4.9.tar.gz --markdown 20240425/p/parsee-core/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-04-25 13:26:49] INFO root fetch - processPackages [cdk-opinionated-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-opinionated-constructs-3.7.0.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - processPackages [cdk-opinionated-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk_opinionated_constructs-3.7.1.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2024-04-25 13:26:49] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-24.2.8.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune_project_api-24.2.9.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2024-04-25 13:26:49] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.9.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-25 13:26:49] INFO root fetch - processPackages [cwltest]: Remove: archive file [/home/abi/fetcher/tmp/cwltest-2.5.20240304113812.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - processPackages [cwltest]: Remove: archive file [/home/abi/fetcher/tmp/cwltest-2.5.20240425111257.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - main [MainThread]: End processing [cwltest]: success
+[2024-04-25 13:26:49] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.6.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.8.tar.gz]
+[2024-04-25 13:26:49] INFO root fetch - main [MainThread]: End processing [pytonapi]: success
+[2024-04-25 13:26:49] INFO root fetch - main [MainThread]: Store serial: [22929624]
