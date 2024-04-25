@@ -17263,3 +17263,104 @@
 [2024-04-25 10:53:01] INFO root fetch - processPackages [platformio]: Remove: archive file [/home/abi/fetcher/tmp/platformio-6.1.9.tar.gz]
 [2024-04-25 10:53:01] INFO root fetch - main [MainThread]: End processing [platformio]: success
 [2024-04-25 10:53:01] INFO root fetch - main [MainThread]: Store serial: [22927774]
+[2024-04-25 10:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927774]
+[2024-04-25 10:55:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-rag
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-analyzer
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydra-genetics
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taipy-gui
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfx
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MeMeST
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satcfdi
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybertensor
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splicekit
+[2024-04-25 10:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solara-ui
+[2024-04-25 10:55:18] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [zfx]: New version: [20240425b0] Old Version: [20240425a0]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [satcfdi]: New version: [4.4.9] Old Version: [4.4.8]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/04/69/14f4a4847a444b55c0c3ff28ca62d07f6e60ac904f62c66597989b86fda4/zfx-20240425a0.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [taipy-gui]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [hydra-genetics]: New version: [2.0.0] Old Version: [1.9.1]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [solara-ui]: New version: [1.32.0] Old Version: [1.31.0]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [cybertensor]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [langchain-rag]: New version: [0.1.46] Old Version: [0.1.45]
+[2024-04-25 10:55:18] WARNING root fetch - processPackages [torch-analyzer]: Skipping, unable to determine old version
+[2024-04-25 10:55:18] INFO root fetch - processPackages [torch-analyzer]: Start processing: solara-server
+[2024-04-25 10:55:18] INFO root fetch - main [MainThread]: End processing [torch-analyzer] error
+[2024-04-25 10:55:18] INFO root fetch - processPackages [splicekit]: New version: [0.6] Old Version: [0.5.1]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/f3/67/e32b7e44d6291baa2ace4643f65dfe80e0450563991ca1b682dbe15fb364/satcfdi-4.4.8.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [solara-ui]: Downloading https://files.pythonhosted.org/packages/77/e3/d1bdf4a9da23b637cfd923365f676cf1781a22554722868ca51b44c72624/solara_ui-1.31.0.tar.gz
+[2024-04-25 10:55:18] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10631018>=10485760
+[2024-04-25 10:55:18] INFO root fetch - processPackages [satcfdi]: Start processing: futu-api
+[2024-04-25 10:55:18] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2024-04-25 10:55:18] INFO root fetch - processPackages [solara-server]: New version: [1.32.0] Old Version: [1.31.0]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/34/88/649b73153d1f4a6581a2ec3e479b32d9fa5b38bcb7ee74e2dff4a83088cf/taipy-gui-3.1.1.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [solara-server]: Downloading https://files.pythonhosted.org/packages/36/33/c2c8f7808620b9f97f2b828a9da894f86e2774946528859784d986742aea/solara_server-1.31.0.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [cybertensor]: Downloading https://files.pythonhosted.org/packages/b7/93/66d12548b402d1c0966db052563495f47028d55b1c185e38699f57a11470/cybertensor-0.2.1.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [langchain-rag]: Downloading https://files.pythonhosted.org/packages/60/18/ad0d92a1580d532371e966fb2d2e1f320ec9b7d23ea19bf77a0b204e4fd3/langchain_rag-0.1.45.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/af/e8/30e83c7972d39fb04a00a61a4fffacc8583adc7a2c90def8fc76112aa15d/splicekit-0.5.1.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/e3/73/21573d12447abe3b43aca4e7c26239a5257ab2b9222f47b3dd3747190a08/hydra-genetics-1.9.1.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [futu-api]: New version: [8.2.4208] Old Version: [8.1.4108]
+[2024-04-25 10:55:18] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/06/0b/bfe1811bafa9202879ccb3a05400503d4a9be7154bf40b61480fd7ecdfef/zfx-20240425b0.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-25 10:55:18] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-25 10:55:18] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-20240425a0.tar.gz tmp/zfx-20240425b0.tar.gz --markdown 20240425/z/zfx/20240425a0-20240425b0/README.md --exclude *.pyd
+[2024-04-25 10:55:18] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-25 10:55:18] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240425/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-25 10:55:18] INFO root fetch - processPackages [solara-ui]: Downloading https://files.pythonhosted.org/packages/72/9a/179c8fde4e608ad173c85e43d2ffd8a23964375e625c07ec27a538bdb0db/solara_ui-1.32.0.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [futu-api]: Downloading https://files.pythonhosted.org/packages/32/7c/0afbdc456a690c64aaa5cc597cddc98a544e3a9ea8ab95d469a6391555be/futu-api-8.1.4108.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [solara-server]: Downloading https://files.pythonhosted.org/packages/b3/52/5dd40c2fc7f6148557faf69fa245b4bfe41cd5cd8a78b02b77114aab5030/solara_server-1.32.0.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [langchain-rag]: Downloading https://files.pythonhosted.org/packages/09/8f/562bfc8bdf30c0c3c807056516ca52e0d45160971dff960b929dca96d070/langchain_rag-0.1.46.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [splicekit]: Downloading https://files.pythonhosted.org/packages/7c/99/343adbab1466dcca1d03ad2151c5204f08117f29c004fceda02f710efad9/splicekit-0.6.tar.gz
+[2024-04-25 10:55:18] INFO root fetch - processPackages [cybertensor]: Downloading https://files.pythonhosted.org/packages/dd/0d/217e35c413d75b48551ec8c402c38d49c77c3562b85695cb9c010edea3d0/cybertensor-0.2.2.tar.gz
+[2024-04-25 10:55:19] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/36/1e/5a7f6110c3ff91c81eedb146122b77cbe0e7745237723bca08c3c9139191/hydra_genetics-2.0.0.tar.gz
+[2024-04-25 10:55:19] INFO root fetch - processPackages [solara-server]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [solara-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_server-1.31.0.tar.gz tmp/solara_server-1.32.0.tar.gz --markdown 20240425/s/solara-server/1.31.0-1.32.0/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - processPackages [taipy-gui]: Downloading https://files.pythonhosted.org/packages/75/9b/020b364b0a6406714f8e24210e604696552b48fe1a80abc5015d19c5b04d/taipy-gui-3.1.2.tar.gz
+[2024-04-25 10:55:19] INFO root fetch - processPackages [splicekit]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [splicekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splicekit-0.5.1.tar.gz tmp/splicekit-0.6.tar.gz --markdown 20240425/s/splicekit/0.5.1-0.6/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - processPackages [langchain-rag]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [solara-ui]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [langchain-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_rag-0.1.45.tar.gz tmp/langchain_rag-0.1.46.tar.gz --markdown 20240425/l/langchain-rag/0.1.45-0.1.46/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - processPackages [solara-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_ui-1.31.0.tar.gz tmp/solara_ui-1.32.0.tar.gz --markdown 20240425/s/solara-ui/1.31.0-1.32.0/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - processPackages [cybertensor]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [cybertensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybertensor-0.2.1.tar.gz tmp/cybertensor-0.2.2.tar.gz --markdown 20240425/c/cybertensor/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - processPackages [futu-api]: Downloading https://files.pythonhosted.org/packages/af/e8/e16800b741844d646acc51d80aa01724d10f771dc60cac101873022b0b14/futu-api-8.2.4208.tar.gz
+[2024-04-25 10:55:19] INFO root fetch - processPackages [hydra-genetics]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [hydra-genetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra-genetics-1.9.1.tar.gz tmp/hydra_genetics-2.0.0.tar.gz --markdown 20240425/h/hydra-genetics/1.9.1-2.0.0/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - processPackages [taipy-gui]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [taipy-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taipy-gui-3.1.1.tar.gz tmp/taipy-gui-3.1.2.tar.gz --markdown 20240425/t/taipy-gui/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-25 10:55:19] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-25 10:55:19] INFO root fetch - processPackages [futu-api]: executing diffoscope
+[2024-04-25 10:55:19] INFO root fetch - processPackages [futu-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/futu-api-8.1.4108.tar.gz tmp/futu-api-8.2.4208.tar.gz --markdown 20240425/f/futu-api/8.1.4108-8.2.4208/README.md --exclude *.pyd
+[2024-04-25 10:55:19] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-25 10:55:19] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240425a0.tar.gz]
+[2024-04-25 10:55:19] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240425b0.tar.gz]
+[2024-04-25 10:55:19] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-25 10:55:20] INFO root fetch - processPackages [solara-server]: Remove: archive file [/home/abi/fetcher/tmp/solara_server-1.31.0.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - processPackages [solara-server]: Remove: archive file [/home/abi/fetcher/tmp/solara_server-1.32.0.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - main [MainThread]: End processing [solara-server]: success
+[2024-04-25 10:55:20] INFO root fetch - processPackages [langchain-rag]: Remove: archive file [/home/abi/fetcher/tmp/langchain_rag-0.1.45.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - processPackages [langchain-rag]: Remove: archive file [/home/abi/fetcher/tmp/langchain_rag-0.1.46.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - main [MainThread]: End processing [langchain-rag]: success
+[2024-04-25 10:55:20] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.5.1.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - processPackages [splicekit]: Remove: archive file [/home/abi/fetcher/tmp/splicekit-0.6.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - main [MainThread]: End processing [splicekit]: success
+[2024-04-25 10:55:20] INFO root fetch - processPackages [cybertensor]: Remove: archive file [/home/abi/fetcher/tmp/cybertensor-0.2.1.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - processPackages [cybertensor]: Remove: archive file [/home/abi/fetcher/tmp/cybertensor-0.2.2.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - main [MainThread]: End processing [cybertensor]: success
+[2024-04-25 10:55:20] INFO root fetch - processPackages [hydra-genetics]: Remove: archive file [/home/abi/fetcher/tmp/hydra-genetics-1.9.1.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - processPackages [hydra-genetics]: Remove: archive file [/home/abi/fetcher/tmp/hydra_genetics-2.0.0.tar.gz]
+[2024-04-25 10:55:20] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
+[2024-04-25 10:55:21] INFO root fetch - processPackages [futu-api]: Remove: archive file [/home/abi/fetcher/tmp/futu-api-8.1.4108.tar.gz]
+[2024-04-25 10:55:21] INFO root fetch - processPackages [futu-api]: Remove: archive file [/home/abi/fetcher/tmp/futu-api-8.2.4208.tar.gz]
+[2024-04-25 10:55:21] INFO root fetch - main [MainThread]: End processing [futu-api]: success
+[2024-04-25 10:55:22] INFO root fetch - processPackages [solara-ui]: Remove: archive file [/home/abi/fetcher/tmp/solara_ui-1.31.0.tar.gz]
+[2024-04-25 10:55:22] INFO root fetch - processPackages [solara-ui]: Remove: archive file [/home/abi/fetcher/tmp/solara_ui-1.32.0.tar.gz]
+[2024-04-25 10:55:22] INFO root fetch - main [MainThread]: End processing [solara-ui]: success
+[2024-04-25 10:58:14] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.1.1.tar.gz]
+[2024-04-25 10:58:14] INFO root fetch - processPackages [taipy-gui]: Remove: archive file [/home/abi/fetcher/tmp/taipy-gui-3.1.2.tar.gz]
+[2024-04-25 10:58:14] INFO root fetch - main [MainThread]: End processing [taipy-gui]: success
+[2024-04-25 10:58:14] INFO root fetch - main [MainThread]: Store serial: [22927810]
