@@ -8300,3 +8300,29 @@
 [2024-04-25 04:08:21] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.4.tar.gz]
 [2024-04-25 04:08:21] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2024-04-25 04:08:21] INFO root fetch - main [MainThread]: Store serial: [22924186]
+[2024-04-25 04:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924186]
+[2024-04-25 04:10:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 04:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScaleConvertionTools
+[2024-04-25 04:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spit
+[2024-04-25 04:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quadax
+[2024-04-25 04:10:29] INFO root fetch - processPackages [spit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 04:10:29] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/b0/7d/95b428f5054ceaa7df9d2570781e0a517f600a27a4088a45806eaf3f7ccf/spit-0.1.8.tar.gz
+[2024-04-25 04:10:29] INFO root fetch - processPackages [ScaleConvertionTools]: New version: [0.3] Old Version: [0.2]
+[2024-04-25 04:10:29] INFO root fetch - processPackages [quadax]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-25 04:10:29] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a3/41/95c2b32d3c225f7fa0cd1b957d8a4e11da5b22cececd0396c623963ac6eb/spit-0.1.9.tar.gz
+[2024-04-25 04:10:29] INFO root fetch - processPackages [quadax]: Downloading https://files.pythonhosted.org/packages/5c/a9/1cfdca2ef6366e1ecb96c6101238cb879c9d7004355332ca0610b477a32e/quadax-0.2.0.tar.gz
+[2024-04-25 04:10:29] INFO root fetch - processPackages [ScaleConvertionTools]: Downloading https://files.pythonhosted.org/packages/8c/de/f3c0318b1094a630e10aef7568784600f3d29a951add0071781f864ac05c/ScaleConvertionTools-0.2.tar.gz
+[2024-04-25 04:10:30] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-04-25 04:10:30] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.1.8.tar.gz tmp/spit-0.1.9.tar.gz --markdown 20240425/s/spit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 04:10:30] WARNING root fetch - processPackages [ScaleConvertionTools]: Skipping package: exceeds size limit 51910355>=10485760
+[2024-04-25 04:10:30] INFO root fetch - main [MainThread]: End processing [ScaleConvertionTools] error
+[2024-04-25 04:10:30] INFO root fetch - processPackages [quadax]: Downloading https://files.pythonhosted.org/packages/ff/8d/0c0abcb6ab5bc8911a9c05a865e72d1b497a9523e47ecde85bc237d16202/quadax-0.2.1.tar.gz
+[2024-04-25 04:10:30] INFO root fetch - processPackages [quadax]: executing diffoscope
+[2024-04-25 04:10:30] INFO root fetch - processPackages [quadax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quadax-0.2.0.tar.gz tmp/quadax-0.2.1.tar.gz --markdown 20240425/q/quadax/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-25 04:10:30] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.8.tar.gz]
+[2024-04-25 04:10:30] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.9.tar.gz]
+[2024-04-25 04:10:30] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-04-25 04:10:30] INFO root fetch - processPackages [quadax]: Remove: archive file [/home/abi/fetcher/tmp/quadax-0.2.0.tar.gz]
+[2024-04-25 04:10:30] INFO root fetch - processPackages [quadax]: Remove: archive file [/home/abi/fetcher/tmp/quadax-0.2.1.tar.gz]
+[2024-04-25 04:10:30] INFO root fetch - main [MainThread]: End processing [quadax]: success
+[2024-04-25 04:10:30] INFO root fetch - main [MainThread]: Store serial: [22924197]
