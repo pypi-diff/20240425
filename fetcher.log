@@ -10804,3 +10804,50 @@
 [2024-04-25 06:54:01] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b3.tar.gz]
 [2024-04-25 06:54:01] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2024-04-25 06:54:01] INFO root fetch - main [MainThread]: Store serial: [22925317]
+[2024-04-25 06:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925317]
+[2024-04-25 06:56:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 06:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-js
+[2024-04-25 06:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atksh-utils
+[2024-04-25 06:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LnT-HR-AI
+[2024-04-25 06:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hello-world-ly7860
+[2024-04-25 06:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instructlab-quantize
+[2024-04-25 06:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atopile
+[2024-04-25 06:56:10] INFO root fetch - processPackages [LnT-HR-AI]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 06:56:10] INFO root fetch - processPackages [atopile]: New version: [0.3.0.dev0] Old Version: [0.2.9]
+[2024-04-25 06:56:11] INFO root fetch - processPackages [instructlab-quantize]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-04-25 06:56:11] WARNING root fetch - processPackages [hello-world-ly7860]: Skipping, unable to determine old version
+[2024-04-25 06:56:11] INFO root fetch - main [MainThread]: End processing [hello-world-ly7860] error
+[2024-04-25 06:56:11] INFO root fetch - processPackages [atopile]: Downloading https://files.pythonhosted.org/packages/b9/4b/f9ec536fd464d0e26a65a2027efe19630c4f5dbd38d7329e74df46ff0a91/atopile-0.2.9.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [streamlit-js]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 06:56:11] INFO root fetch - processPackages [atksh-utils]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-25 06:56:11] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/50/37/01e09ad9d40efaf33cb3a5f7a1580da168f8f012aed7ba8b8a47bf6b39c5/lnt_hr_ai-0.0.2.tar.gz
+[2024-04-25 06:56:11] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
+[2024-04-25 06:56:11] INFO root fetch - main [MainThread]: End processing [atopile] error
+[2024-04-25 06:56:11] INFO root fetch - processPackages [streamlit-js]: Downloading https://files.pythonhosted.org/packages/4b/23/567c800e30771ad8796ceab51a76129c497ea837b641fa6ce9012d0a212f/streamlit-js-1.0.4.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/ec/61/294ab4c4fad9b919693afec90ee0b09ee8152ca84598c7e3ffa6c9281e5b/atksh-utils-0.8.4.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [instructlab-quantize]: Downloading https://files.pythonhosted.org/packages/e3/0b/64f13317ed1da686414936394a22ce0ca21c8c0b873d4635548629fbd6c1/instructlab_quantize-0.0.1.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [LnT-HR-AI]: Downloading https://files.pythonhosted.org/packages/7d/47/1d14648b6cf634f83ddccf122ae9b0602598fbf3f9948fb2e6664ab637ff/lnt_hr_ai-0.0.3.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [streamlit-js]: Downloading https://files.pythonhosted.org/packages/ac/14/1561dd90e579e33a95e5f15f40b34f1ba8650b0150f61c41a372634ba531/streamlit-js-1.0.5.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [LnT-HR-AI]: executing diffoscope
+[2024-04-25 06:56:11] INFO root fetch - processPackages [LnT-HR-AI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnt_hr_ai-0.0.2.tar.gz tmp/lnt_hr_ai-0.0.3.tar.gz --markdown 20240425/L/LnT-HR-AI/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 06:56:11] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/61/f8/37369c4b799936fa81545040ef6384f50d3f4c2c050104a2d481f9a5434a/atksh_utils-0.8.5.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [instructlab-quantize]: Downloading https://files.pythonhosted.org/packages/fe/00/8d4c9c20e5d969b46755eb8b2148e073b334dad0d7f8596cc98ded6d6352/instructlab_quantize-0.0.4.tar.gz
+[2024-04-25 06:56:11] INFO root fetch - processPackages [streamlit-js]: executing diffoscope
+[2024-04-25 06:56:11] INFO root fetch - processPackages [streamlit-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-js-1.0.4.tar.gz tmp/streamlit-js-1.0.5.tar.gz --markdown 20240425/s/streamlit-js/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 06:56:11] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2024-04-25 06:56:11] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.8.4.tar.gz tmp/atksh_utils-0.8.5.tar.gz --markdown 20240425/a/atksh-utils/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-25 06:56:12] INFO root fetch - processPackages [instructlab-quantize]: executing diffoscope
+[2024-04-25 06:56:12] INFO root fetch - processPackages [instructlab-quantize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructlab_quantize-0.0.1.tar.gz tmp/instructlab_quantize-0.0.4.tar.gz --markdown 20240425/i/instructlab-quantize/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-04-25 06:56:12] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.2.tar.gz]
+[2024-04-25 06:56:12] INFO root fetch - processPackages [LnT-HR-AI]: Remove: archive file [/home/abi/fetcher/tmp/lnt_hr_ai-0.0.3.tar.gz]
+[2024-04-25 06:56:12] INFO root fetch - main [MainThread]: End processing [LnT-HR-AI]: success
+[2024-04-25 06:56:12] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.8.4.tar.gz]
+[2024-04-25 06:56:12] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh_utils-0.8.5.tar.gz]
+[2024-04-25 06:56:12] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2024-04-25 06:56:12] INFO root fetch - processPackages [instructlab-quantize]: Remove: archive file [/home/abi/fetcher/tmp/instructlab_quantize-0.0.1.tar.gz]
+[2024-04-25 06:56:12] INFO root fetch - processPackages [instructlab-quantize]: Remove: archive file [/home/abi/fetcher/tmp/instructlab_quantize-0.0.4.tar.gz]
+[2024-04-25 06:56:12] INFO root fetch - main [MainThread]: End processing [instructlab-quantize]: success
+[2024-04-25 06:56:22] INFO root fetch - processPackages [streamlit-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-js-1.0.4.tar.gz]
+[2024-04-25 06:56:22] INFO root fetch - processPackages [streamlit-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-js-1.0.5.tar.gz]
+[2024-04-25 06:56:22] INFO root fetch - main [MainThread]: End processing [streamlit-js]: success
+[2024-04-25 06:56:22] INFO root fetch - main [MainThread]: Store serial: [22925339]
