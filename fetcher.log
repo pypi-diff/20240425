@@ -8163,3 +8163,45 @@
 [2024-04-25 03:59:38] INFO root fetch - processPackages [ensure-import]: Remove: archive file [/home/abi/fetcher/tmp/ensure_import-0.3.6.tar.gz]
 [2024-04-25 03:59:38] INFO root fetch - main [MainThread]: End processing [ensure-import]: success
 [2024-04-25 03:59:38] INFO root fetch - main [MainThread]: Store serial: [22924117]
+[2024-04-25 04:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924117]
+[2024-04-25 04:01:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 04:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: traderusty
+[2024-04-25 04:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yut23-utils
+[2024-04-25 04:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-115
+[2024-04-25 04:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nixtla
+[2024-04-25 04:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nixtlats
+[2024-04-25 04:01:47] INFO root fetch - processPackages [nixtla]: New version: [0.4.0] Old Version: [0.0.2]
+[2024-04-25 04:01:47] WARNING root fetch - processPackages [traderusty]: Skipping, unable to determine old version
+[2024-04-25 04:01:47] INFO root fetch - main [MainThread]: End processing [traderusty] error
+[2024-04-25 04:01:47] INFO root fetch - processPackages [yut23-utils]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-25 04:01:47] INFO root fetch - processPackages [python-115]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2024-04-25 04:01:47] INFO root fetch - processPackages [nixtlats]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 04:01:47] INFO root fetch - processPackages [nixtla]: Downloading https://files.pythonhosted.org/packages/cd/52/e669128fa8994a7ed933eaacdb4cca296b45995f38f8e3113ba525c2e792/nixtla-0.0.2.tar.gz
+[2024-04-25 04:01:47] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/66/df/20cde91d815457b5a52b05dbf9b674c55a5963cb399742263be173d0d3da/python_115-0.0.6.3.tar.gz
+[2024-04-25 04:01:47] INFO root fetch - processPackages [yut23-utils]: Downloading https://files.pythonhosted.org/packages/4b/2d/ec1acd76d2dedea28435f3c29e5cc2e22cfed17122fa73b8ae0790f0623e/yut23_utils-0.1.1.tar.gz
+[2024-04-25 04:01:47] INFO root fetch - processPackages [nixtlats]: Downloading https://files.pythonhosted.org/packages/19/a1/aba4ece33c882bc74c71f49ec45e13beba5f75b6bf7868cc3f0256496a82/nixtlats-0.3.0.tar.gz
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtla]: Downloading https://files.pythonhosted.org/packages/b0/fd/623223eab1c52998d6b8a127967d7228c5a90823a7a566bea2a5154adcaf/nixtla-0.4.0.tar.gz
+[2024-04-25 04:01:48] INFO root fetch - processPackages [yut23-utils]: Downloading https://files.pythonhosted.org/packages/c2/30/dafb9f941a220afd48333f8e93b14f2e40e91bc0247e2aa701fd160035ae/yut23_utils-0.2.0.tar.gz
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtlats]: Downloading https://files.pythonhosted.org/packages/11/a0/2b9b06616ce436dc1e843f91a5e5ff2eefc75801da51380eb9fa559c0619/nixtlats-0.4.0.tar.gz
+[2024-04-25 04:01:48] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/ba/f8/1b819e4ca43e72842a62d8e5db9acdfe991dea89b01c7d1a530ed9aed979/python_115-0.0.6.4.tar.gz
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtla]: executing diffoscope
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nixtla-0.0.2.tar.gz tmp/nixtla-0.4.0.tar.gz --markdown 20240425/n/nixtla/0.0.2-0.4.0/README.md --exclude *.pyd
+[2024-04-25 04:01:48] INFO root fetch - processPackages [yut23-utils]: executing diffoscope
+[2024-04-25 04:01:48] INFO root fetch - processPackages [yut23-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yut23_utils-0.1.1.tar.gz tmp/yut23_utils-0.2.0.tar.gz --markdown 20240425/y/yut23-utils/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtlats]: executing diffoscope
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtlats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nixtlats-0.3.0.tar.gz tmp/nixtlats-0.4.0.tar.gz --markdown 20240425/n/nixtlats/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 04:01:48] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-25 04:01:48] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.6.3.tar.gz tmp/python_115-0.0.6.4.tar.gz --markdown 20240425/p/python-115/0.0.6.3-0.0.6.4/README.md --exclude *.pyd
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtla]: Remove: archive file [/home/abi/fetcher/tmp/nixtla-0.0.2.tar.gz]
+[2024-04-25 04:01:48] INFO root fetch - processPackages [nixtla]: Remove: archive file [/home/abi/fetcher/tmp/nixtla-0.4.0.tar.gz]
+[2024-04-25 04:01:48] INFO root fetch - main [MainThread]: End processing [nixtla]: success
+[2024-04-25 04:01:49] INFO root fetch - processPackages [yut23-utils]: Remove: archive file [/home/abi/fetcher/tmp/yut23_utils-0.1.1.tar.gz]
+[2024-04-25 04:01:49] INFO root fetch - processPackages [yut23-utils]: Remove: archive file [/home/abi/fetcher/tmp/yut23_utils-0.2.0.tar.gz]
+[2024-04-25 04:01:49] INFO root fetch - main [MainThread]: End processing [yut23-utils]: success
+[2024-04-25 04:01:49] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.3.tar.gz]
+[2024-04-25 04:01:49] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.4.tar.gz]
+[2024-04-25 04:01:49] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-25 04:01:49] INFO root fetch - processPackages [nixtlats]: Remove: archive file [/home/abi/fetcher/tmp/nixtlats-0.3.0.tar.gz]
+[2024-04-25 04:01:49] INFO root fetch - processPackages [nixtlats]: Remove: archive file [/home/abi/fetcher/tmp/nixtlats-0.4.0.tar.gz]
+[2024-04-25 04:01:49] INFO root fetch - main [MainThread]: End processing [nixtlats]: success
+[2024-04-25 04:01:49] INFO root fetch - main [MainThread]: Store serial: [22924139]
