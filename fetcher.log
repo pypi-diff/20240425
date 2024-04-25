@@ -14264,3 +14264,59 @@
 [2024-04-25 09:53:26] INFO root fetch - processPackages [pyriemann-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pyriemann_qiskit-0.2.0.tar.gz]
 [2024-04-25 09:53:26] INFO root fetch - main [MainThread]: End processing [pyriemann-qiskit]: success
 [2024-04-25 09:53:26] INFO root fetch - main [MainThread]: Store serial: [22926829]
+[2024-04-25 09:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926829]
+[2024-04-25 09:55:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 09:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlscat
+[2024-04-25 09:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-25 09:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macal
+[2024-04-25 09:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webexception
+[2024-04-25 09:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uitestrunner-syberos
+[2024-04-25 09:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: desktop-env
+[2024-04-25 09:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modlinear
+[2024-04-25 09:55:36] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-25 09:55:36] WARNING root fetch - processPackages [modlinear]: Skipping, unable to determine old version
+[2024-04-25 09:55:36] INFO root fetch - main [MainThread]: End processing [modlinear] error
+[2024-04-25 09:55:36] INFO root fetch - processPackages [macal]: New version: [5.5.0a5] Old Version: [5.5.0a4]
+[2024-04-25 09:55:36] INFO root fetch - processPackages [mlscat]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-25 09:55:36] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/e9/14/f7f8ded535f15178312407a8faeb616236be800a15351e7a18207c067c37/ctrip-app-ui-0.0.4.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [webexception]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 09:55:36] INFO root fetch - processPackages [desktop-env]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-25 09:55:36] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/8c/af/11161a3528b65a2e5c9679a16987101bc08abd4f52699f51b17ff99c54b7/macal-5.5.0a4.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.3.0] Old Version: [2.2.9]
+[2024-04-25 09:55:36] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/09/f2/1f369b3d62ebd1823004adaa399bed6b00746386a6ee241549c77a9a609d/mlscat-0.0.6.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [webexception]: Downloading https://files.pythonhosted.org/packages/8f/08/04e89f5a1f650def1a89f7eb5b7be76a726f9cf4f8cf00ad1987d32d67cb/webexception-1.0.4.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [desktop-env]: Downloading https://files.pythonhosted.org/packages/94/4b/e0e7b6931eac348f3a54a1d0df09c8243bd793a074559718592a999b2c23/desktop_env-0.1.6.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/0a/0e/15ec2c58bf318897a9586641c80fe288f3b4259d84551ab7c3afd5dade4a/uitestrunner_syberos-2.2.9.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/bf/55/7cd8ca81c39ed1e53ca307ea9711ed847000bf3b5333bcd7df1f871d160f/macal-5.5.0a5.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/d2/8b/bfec2f22ac161c38e8c9df5dc2a1a547c8b14df825ea5f62abb498ce10da/ctrip-app-ui-0.0.5.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [macal]: executing diffoscope
+[2024-04-25 09:55:36] INFO root fetch - processPackages [macal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macal-5.5.0a4.tar.gz tmp/macal-5.5.0a5.tar.gz --markdown 20240425/m/macal/5.5.0a4-5.5.0a5/README.md --exclude *.pyd
+[2024-04-25 09:55:36] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 09:55:36] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.0.4.tar.gz tmp/ctrip-app-ui-0.0.5.tar.gz --markdown 20240425/c/ctrip-app-ui/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-25 09:55:36] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 61923740>=10485760
+[2024-04-25 09:55:36] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-04-25 09:55:36] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/24/d5/ee171eeed544be2eb8eb78df4728494604a938e2450bbcfe74e45193c210/mlscat-0.0.7.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [webexception]: Downloading https://files.pythonhosted.org/packages/1f/69/ac23885eca9e210f0d8f67b1bdefbc4fcc3a79a1d2a5a6410360b523ca06/webexception-1.0.5.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [desktop-env]: Downloading https://files.pythonhosted.org/packages/d7/a8/b13e440985f8a468a09203b42d6b8e20be3f1603eca282b288ee32c307fc/desktop_env-0.1.7.tar.gz
+[2024-04-25 09:55:36] INFO root fetch - processPackages [mlscat]: executing diffoscope
+[2024-04-25 09:55:36] INFO root fetch - processPackages [mlscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlscat-0.0.6.tar.gz tmp/mlscat-0.0.7.tar.gz --markdown 20240425/m/mlscat/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-25 09:55:36] INFO root fetch - processPackages [webexception]: executing diffoscope
+[2024-04-25 09:55:36] INFO root fetch - processPackages [webexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webexception-1.0.4.tar.gz tmp/webexception-1.0.5.tar.gz --markdown 20240425/w/webexception/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 09:55:37] INFO root fetch - processPackages [desktop-env]: executing diffoscope
+[2024-04-25 09:55:37] INFO root fetch - processPackages [desktop-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desktop_env-0.1.6.tar.gz tmp/desktop_env-0.1.7.tar.gz --markdown 20240425/d/desktop-env/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-25 09:55:37] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.4.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.5.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 09:55:37] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a4.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a5.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - main [MainThread]: End processing [macal]: success
+[2024-04-25 09:55:37] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.6.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.7.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - main [MainThread]: End processing [mlscat]: success
+[2024-04-25 09:55:37] INFO root fetch - processPackages [webexception]: Remove: archive file [/home/abi/fetcher/tmp/webexception-1.0.4.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - processPackages [webexception]: Remove: archive file [/home/abi/fetcher/tmp/webexception-1.0.5.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - main [MainThread]: End processing [webexception]: success
+[2024-04-25 09:55:37] INFO root fetch - processPackages [desktop-env]: Remove: archive file [/home/abi/fetcher/tmp/desktop_env-0.1.6.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - processPackages [desktop-env]: Remove: archive file [/home/abi/fetcher/tmp/desktop_env-0.1.7.tar.gz]
+[2024-04-25 09:55:37] INFO root fetch - main [MainThread]: End processing [desktop-env]: success
+[2024-04-25 09:55:37] INFO root fetch - main [MainThread]: Store serial: [22926848]
