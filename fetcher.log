@@ -11293,3 +11293,51 @@
 [2024-04-25 07:33:48] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-04-25 07:33:48] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-04-25 07:33:48] INFO root fetch - main [MainThread]: Store serial: [22925562]
+[2024-04-25 07:35:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925562]
+[2024-04-25 07:36:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 07:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infinity-sdk
+[2024-04-25 07:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alert-on-exception
+[2024-04-25 07:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meerkatio
+[2024-04-25 07:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-04-25 07:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twitch-dl
+[2024-04-25 07:36:01] INFO root fetch - processPackages [alert-on-exception]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 07:36:01] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-25 07:36:01] INFO root fetch - processPackages [alert-on-exception]: Downloading https://files.pythonhosted.org/packages/31/66/be69b016e8859461ee248b220a339ccc1552c361fafc2ed642a4ede2ba46/alert_on_exception-0.1.4.tar.gz
+[2024-04-25 07:36:01] INFO root fetch - processPackages [meerkatio]: New version: [1.9] Old Version: [1.8]
+[2024-04-25 07:36:01] INFO root fetch - processPackages [infinity-sdk]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-04-25 07:36:01] INFO root fetch - processPackages [twitch-dl]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-25 07:36:01] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-25 07:36:01] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/e5/fd/261dc958ee6d8a3e53b051c78ad8edcf248e7d4658a3e2c110f3ffe869e3/meerkatio-1.8.tar.gz
+[2024-04-25 07:36:01] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/10/6f/998e45a82e123f8aa87e36c5064d7b28ee0af112c1ae873c7f8968a0374c/infinity_sdk-0.1.0.dev8-py3-none-any.whl
+[2024-04-25 07:36:02] INFO root fetch - processPackages [twitch-dl]: Downloading https://files.pythonhosted.org/packages/15/15/005cde257322bffe940ea17c25037ef56d5392762094c6f610be2145cf8d/twitch_dl-2.2.3.tar.gz
+[2024-04-25 07:36:02] INFO root fetch - processPackages [alert-on-exception]: Downloading https://files.pythonhosted.org/packages/9d/f1/32fa58685ac6cca4ec8003195d21c0e29931d631764d542f0881d6a119ae/alert_on_exception-0.1.5.tar.gz
+[2024-04-25 07:36:02] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-25 07:36:02] INFO root fetch - processPackages [alert-on-exception]: executing diffoscope
+[2024-04-25 07:36:02] INFO root fetch - processPackages [alert-on-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alert_on_exception-0.1.4.tar.gz tmp/alert_on_exception-0.1.5.tar.gz --markdown 20240425/a/alert-on-exception/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 07:36:02] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/02/4a/5748f5d36887df5b8fec7273a9e74215ee90bb6fca85518af3e2eef28f76/meerkatio-1.9.tar.gz
+[2024-04-25 07:36:02] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/5f/23/609dbf3b9cce37544c49a6f700daf67907a9ddd4838b098e8417fd57597d/infinity_sdk-0.1.0.dev9-py3-none-any.whl
+[2024-04-25 07:36:02] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-25 07:36:02] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240425/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-25 07:36:02] INFO root fetch - processPackages [twitch-dl]: Downloading https://files.pythonhosted.org/packages/b5/3e/1f31f8c94c22408a9b63078394d00db6262e0d89cec76bb4480a1c9d987c/twitch_dl-2.2.4.tar.gz
+[2024-04-25 07:36:02] INFO root fetch - processPackages [meerkatio]: executing diffoscope
+[2024-04-25 07:36:02] INFO root fetch - processPackages [meerkatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerkatio-1.8.tar.gz tmp/meerkatio-1.9.tar.gz --markdown 20240425/m/meerkatio/1.8-1.9/README.md --exclude *.pyd
+[2024-04-25 07:36:02] INFO root fetch - processPackages [infinity-sdk]: executing diffoscope
+[2024-04-25 07:36:02] INFO root fetch - processPackages [infinity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinity_sdk-0.1.0.dev8-py3-none-any.whl.zip tmp/infinity_sdk-0.1.0.dev9-py3-none-any.whl.zip --markdown 20240425/i/infinity-sdk/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-04-25 07:36:02] INFO root fetch - processPackages [twitch-dl]: executing diffoscope
+[2024-04-25 07:36:02] INFO root fetch - processPackages [twitch-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch_dl-2.2.3.tar.gz tmp/twitch_dl-2.2.4.tar.gz --markdown 20240425/t/twitch-dl/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-04-25 07:36:02] INFO root fetch - processPackages [alert-on-exception]: Remove: archive file [/home/abi/fetcher/tmp/alert_on_exception-0.1.4.tar.gz]
+[2024-04-25 07:36:02] INFO root fetch - processPackages [alert-on-exception]: Remove: archive file [/home/abi/fetcher/tmp/alert_on_exception-0.1.5.tar.gz]
+[2024-04-25 07:36:02] INFO root fetch - main [MainThread]: End processing [alert-on-exception]: success
+[2024-04-25 07:36:03] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.8.tar.gz]
+[2024-04-25 07:36:03] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.9.tar.gz]
+[2024-04-25 07:36:03] INFO root fetch - main [MainThread]: End processing [meerkatio]: success
+[2024-04-25 07:36:03] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.1.0.dev8-py3-none-any.whl.zip]
+[2024-04-25 07:36:03] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.1.0.dev9-py3-none-any.whl.zip]
+[2024-04-25 07:36:03] INFO root fetch - main [MainThread]: End processing [infinity-sdk]: success
+[2024-04-25 07:36:03] INFO root fetch - processPackages [twitch-dl]: Remove: archive file [/home/abi/fetcher/tmp/twitch_dl-2.2.3.tar.gz]
+[2024-04-25 07:36:03] INFO root fetch - processPackages [twitch-dl]: Remove: archive file [/home/abi/fetcher/tmp/twitch_dl-2.2.4.tar.gz]
+[2024-04-25 07:36:03] INFO root fetch - main [MainThread]: End processing [twitch-dl]: success
+[2024-04-25 07:36:03] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-25 07:36:03] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-25 07:36:03] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-25 07:36:03] INFO root fetch - main [MainThread]: Store serial: [22925583]
