@@ -10536,3 +10536,53 @@
 [2024-04-25 06:35:05] INFO root fetch - processPackages [mindinsight]: Remove: archive file [/home/abi/fetcher/tmp/mindinsight-2.3.0rc1-py3-none-any.whl.zip]
 [2024-04-25 06:35:05] INFO root fetch - main [MainThread]: End processing [mindinsight]: success
 [2024-04-25 06:35:05] INFO root fetch - main [MainThread]: Store serial: [22925208]
+[2024-04-25 06:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925208]
+[2024-04-25 06:37:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lense
+[2024-04-25 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyLLM
+[2024-04-25 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camlhmp
+[2024-04-25 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spkutils
+[2024-04-25 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iamlistening
+[2024-04-25 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-04-25 06:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: querent
+[2024-04-25 06:37:15] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240425.2.6.16987] Old Version: [20240425.1.31.303715]
+[2024-04-25 06:37:15] INFO root fetch - processPackages [iamlistening]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-04-25 06:37:15] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 06:37:15] INFO root fetch - processPackages [querent]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-25 06:37:15] WARNING root fetch - processPackages [spkutils]: Skipping, unable to determine old version
+[2024-04-25 06:37:15] INFO root fetch - main [MainThread]: End processing [spkutils] error
+[2024-04-25 06:37:15] WARNING root fetch - processPackages [camlhmp]: Skipping, unable to determine old version
+[2024-04-25 06:37:15] INFO root fetch - main [MainThread]: End processing [camlhmp] error
+[2024-04-25 06:37:15] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-04-25 06:37:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/f0/61/54aaf06de8d5769a56826b737ce796ab0549fc23aadaa4f591bc8d7c7de7/certora-cli-alpha-master-20240425.1.31.303715.tar.gz
+[2024-04-25 06:37:15] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14530754>=10485760
+[2024-04-25 06:37:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-25 06:37:15] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-04-25 06:37:15] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/07/a4/ba0689d7ba373ab01bee30148890982c66aebce125bf4cb4463c1279f1c8/iamlistening-5.1.8.tar.gz
+[2024-04-25 06:37:15] INFO root fetch - processPackages [querent]: Downloading https://files.pythonhosted.org/packages/7e/3b/993f5a71bab414568220d8bdaafd065e05bc25c2f546fca0bdab5115e338/querent-3.0.3.tar.gz
+[2024-04-25 06:37:15] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-04-25 06:37:15] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-04-25 06:37:15] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/1e/81/79876c2de874a7124601107f9019de809d107376866a30720062e102ab24/iamlistening-5.1.9.tar.gz
+[2024-04-25 06:37:15] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-04-25 06:37:15] INFO root fetch - processPackages [querent]: Downloading https://files.pythonhosted.org/packages/60/d9/3ac1d552c0873d9eef8b7df1b0ce3b89a1a0a13af3adda8ac8b4ceb8a282/querent-3.0.4.tar.gz
+[2024-04-25 06:37:15] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-25 06:37:15] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240425/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 06:37:15] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-04-25 06:37:15] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.8.tar.gz tmp/iamlistening-5.1.9.tar.gz --markdown 20240425/i/iamlistening/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-04-25 06:37:15] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-25 06:37:15] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240425/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-04-25 06:37:16] INFO root fetch - processPackages [querent]: executing diffoscope
+[2024-04-25 06:37:16] INFO root fetch - processPackages [querent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querent-3.0.3.tar.gz tmp/querent-3.0.4.tar.gz --markdown 20240425/q/querent/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-25 06:37:16] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-04-25 06:37:16] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-04-25 06:37:16] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-25 06:37:16] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-04-25 06:37:16] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-04-25 06:37:16] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-25 06:37:16] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.8.tar.gz]
+[2024-04-25 06:37:16] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.9.tar.gz]
+[2024-04-25 06:37:16] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-04-25 06:37:16] INFO root fetch - processPackages [querent]: Remove: archive file [/home/abi/fetcher/tmp/querent-3.0.3.tar.gz]
+[2024-04-25 06:37:16] INFO root fetch - processPackages [querent]: Remove: archive file [/home/abi/fetcher/tmp/querent-3.0.4.tar.gz]
+[2024-04-25 06:37:16] INFO root fetch - main [MainThread]: End processing [querent]: success
+[2024-04-25 06:37:16] INFO root fetch - main [MainThread]: Store serial: [22925234]
