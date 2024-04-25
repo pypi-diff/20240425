@@ -9091,3 +9091,72 @@
 [2024-04-25 04:54:27] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.51.tar.gz]
 [2024-04-25 04:54:27] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-04-25 04:54:27] INFO root fetch - main [MainThread]: Store serial: [22924471]
+[2024-04-25 04:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924471]
+[2024-04-25 04:56:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaccm
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygeoogc
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncTwitterClient
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymindcore
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testingiasdf1
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiosolr
+[2024-04-25 04:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NstudyPy
+[2024-04-25 04:56:36] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 04:56:37] INFO root fetch - processPackages [metaccm]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-04-25 04:56:37] INFO root fetch - processPackages [testingiasdf1]: New version: [2.31.7] Old Version: [2.31.6]
+[2024-04-25 04:56:37] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [metaccm]: Downloading https://files.pythonhosted.org/packages/3b/d0/6a54135ade5ac1f7587d04135a95a1db539f815178c0b54c29ba94f52862/metaccm-0.3.0-py3-none-any.whl
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pymindcore]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-25 04:56:37] WARNING root fetch - processPackages [asyncTwitterClient]: Skipping, unable to determine old version
+[2024-04-25 04:56:37] INFO root fetch - main [MainThread]: End processing [asyncTwitterClient] error
+[2024-04-25 04:56:37] INFO root fetch - processPackages [NstudyPy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pygeoogc]: New version: [0.9.0] Old Version: [0.2.2]
+[2024-04-25 04:56:37] INFO root fetch - processPackages [aiosolr]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-25 04:56:37] INFO root fetch - processPackages [testingiasdf1]: Downloading https://files.pythonhosted.org/packages/5e/f6/2ce70d80beeaf95044aa466af65f1920c78dfb39cada85239d86e8c6a81d/testingiasdf1-2.31.6.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [metaccm]: Downloading https://files.pythonhosted.org/packages/3c/d8/c492d9a47a5e908e427fe76f89120cd29d8cbb2e64e11daa83fc247eed0d/metaccm-1.0.0-py3-none-any.whl
+[2024-04-25 04:56:37] INFO root fetch - processPackages [NstudyPy]: Downloading https://files.pythonhosted.org/packages/86/a3/4685f28ae22cb27dc4d924c0df4fb6eb4e10817fc20da0223a534fb622ce/nstudypy-0.0.1.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pygeoogc]: Downloading https://files.pythonhosted.org/packages/be/61/69eab2ad6420fc24e0ff0c45ab3cedcd6f8b466d5cbdd6594b283f3b7422/pygeoogc-0.2.2.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pymindcore]: Downloading https://files.pythonhosted.org/packages/f6/da/56833f61a507b9ae5101a46a9f4a59fba57de98882572b880c0b48164ce1/pymindcore-0.1.2.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [aiosolr]: Downloading https://files.pythonhosted.org/packages/2a/65/55fb76dc844d08771b679d8ea66f5f8a7b469966424de2db63a992a8c5ea/aiosolr-5.0.0.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-25 04:56:37] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240425/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 04:56:37] INFO root fetch - processPackages [metaccm]: executing diffoscope
+[2024-04-25 04:56:37] INFO root fetch - processPackages [metaccm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaccm-0.3.0-py3-none-any.whl.zip tmp/metaccm-1.0.0-py3-none-any.whl.zip --markdown 20240425/m/metaccm/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-04-25 04:56:37] INFO root fetch - processPackages [testingiasdf1]: Downloading https://files.pythonhosted.org/packages/98/db/8c98566b5da705f97f094964669f9980216a0f52b92fd609fb3d43cbe5ac/testingiasdf1-2.31.7.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [testingiasdf1]: executing diffoscope
+[2024-04-25 04:56:37] INFO root fetch - processPackages [testingiasdf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingiasdf1-2.31.6.tar.gz tmp/testingiasdf1-2.31.7.tar.gz --markdown 20240425/t/testingiasdf1/2.31.6-2.31.7/README.md --exclude *.pyd
+[2024-04-25 04:56:37] INFO root fetch - processPackages [NstudyPy]: Downloading https://files.pythonhosted.org/packages/b2/82/158ed84bf27918377770fd7c0e821aa6d6fd723c24ea991453d1faa7200e/nstudypy-0.0.2.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pymindcore]: Downloading https://files.pythonhosted.org/packages/3c/35/41814cb11f0ce937946f48deec623450274f6643514873da016948a759a8/pymindcore-0.2.0.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [aiosolr]: Downloading https://files.pythonhosted.org/packages/05/09/e9470621bb2d0f74dac3deab5fdb750b07a0a6b96b5c3ba57bbae1552ce2/aiosolr-5.0.1.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pygeoogc]: Downloading https://files.pythonhosted.org/packages/49/e5/96c1fe6854f84bed8f5052253d269a2a80c4463bf9031a429bb8a4324684/pygeoogc-0.9.0.tar.gz
+[2024-04-25 04:56:37] INFO root fetch - processPackages [NstudyPy]: executing diffoscope
+[2024-04-25 04:56:37] INFO root fetch - processPackages [NstudyPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nstudypy-0.0.1.tar.gz tmp/nstudypy-0.0.2.tar.gz --markdown 20240425/N/NstudyPy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 04:56:37] INFO root fetch - processPackages [aiosolr]: executing diffoscope
+[2024-04-25 04:56:37] INFO root fetch - processPackages [aiosolr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosolr-5.0.0.tar.gz tmp/aiosolr-5.0.1.tar.gz --markdown 20240425/a/aiosolr/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pymindcore]: executing diffoscope
+[2024-04-25 04:56:37] INFO root fetch - processPackages [pymindcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymindcore-0.1.2.tar.gz tmp/pymindcore-0.2.0.tar.gz --markdown 20240425/p/pymindcore/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-25 04:56:38] INFO root fetch - processPackages [pygeoogc]: executing diffoscope
+[2024-04-25 04:56:38] INFO root fetch - processPackages [pygeoogc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoogc-0.2.2.tar.gz tmp/pygeoogc-0.9.0.tar.gz --markdown 20240425/p/pygeoogc/0.2.2-0.9.0/README.md --exclude *.pyd
+[2024-04-25 04:56:38] INFO root fetch - processPackages [metaccm]: Remove: archive file [/home/abi/fetcher/tmp/metaccm-0.3.0-py3-none-any.whl.zip]
+[2024-04-25 04:56:38] INFO root fetch - processPackages [metaccm]: Remove: archive file [/home/abi/fetcher/tmp/metaccm-1.0.0-py3-none-any.whl.zip]
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: End processing [metaccm]: success
+[2024-04-25 04:56:38] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-25 04:56:38] INFO root fetch - processPackages [testingiasdf1]: Remove: archive file [/home/abi/fetcher/tmp/testingiasdf1-2.31.6.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - processPackages [testingiasdf1]: Remove: archive file [/home/abi/fetcher/tmp/testingiasdf1-2.31.7.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: End processing [testingiasdf1]: success
+[2024-04-25 04:56:38] INFO root fetch - processPackages [NstudyPy]: Remove: archive file [/home/abi/fetcher/tmp/nstudypy-0.0.1.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - processPackages [NstudyPy]: Remove: archive file [/home/abi/fetcher/tmp/nstudypy-0.0.2.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: End processing [NstudyPy]: success
+[2024-04-25 04:56:38] INFO root fetch - processPackages [pymindcore]: Remove: archive file [/home/abi/fetcher/tmp/pymindcore-0.1.2.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - processPackages [pymindcore]: Remove: archive file [/home/abi/fetcher/tmp/pymindcore-0.2.0.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: End processing [pymindcore]: success
+[2024-04-25 04:56:38] INFO root fetch - processPackages [aiosolr]: Remove: archive file [/home/abi/fetcher/tmp/aiosolr-5.0.0.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - processPackages [aiosolr]: Remove: archive file [/home/abi/fetcher/tmp/aiosolr-5.0.1.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: End processing [aiosolr]: success
+[2024-04-25 04:56:38] INFO root fetch - processPackages [pygeoogc]: Remove: archive file [/home/abi/fetcher/tmp/pygeoogc-0.2.2.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - processPackages [pygeoogc]: Remove: archive file [/home/abi/fetcher/tmp/pygeoogc-0.9.0.tar.gz]
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: End processing [pygeoogc]: success
+[2024-04-25 04:56:38] INFO root fetch - main [MainThread]: Store serial: [22924495]
