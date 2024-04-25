@@ -3025,3 +3025,65 @@
 [2024-04-25 02:13:59] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
 [2024-04-25 02:13:59] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
 [2024-04-25 02:13:59] INFO root fetch - main [MainThread]: Store serial: [22922177]
+[2024-04-25 02:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922177]
+[2024-04-25 02:16:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyCatFile
+[2024-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-ignite
+[2024-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gguf-connector
+[2024-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autocortext-py
+[2024-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2024-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2024-04-25 02:16:07] INFO root fetch - processPackages [autocortext-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 02:16:07] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240424.18.56.2059] Old Version: [20240424.17.52.985217]
+[2024-04-25 02:16:07] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240424] Old Version: [0.6.0.dev20240423]
+[2024-04-25 02:16:08] INFO root fetch - processPackages [PyCatFile]: New version: [0.8.2] Old Version: [0.7.8]
+[2024-04-25 02:16:08] INFO root fetch - processPackages [gguf-connector]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-25 02:16:08] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/36/b4/dce67a45f322e294c6a104feb8ca6463e19ae3ccfb37d90e26e1a6c96a5b/certora-cli-alpha-master-20240424.17.52.985217.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-25 02:16:08] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14530543>=10485760
+[2024-04-25 02:16:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-25 02:16:08] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/49/1e/25335c2d018882d67acbf2406732907da1c2ee5402b08e12df8b4c219e52/autocortext_py-0.1.0.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/34/57/56ac9107ce21960044296b846a98f4e76bf7e5bc298df2b17b7eb681af92/pytorch-ignite-0.6.0.dev20240423.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/74/c3/60c23190ace357d15652a5378678e33d4e19fd9f5170be9173f497a72c6b/PyCatFile-0.7.8.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/4e/c2/08f2cd0b156a16296c2279074113989e3762b7ef1ae47820fc4326010569/gguf_connector-0.7.8.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/70/d5/9e1f1b41bab97ffad16fafaff66dffaeafa5552455180914571c4ac53b30/autocortext_py-0.1.1.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-25 02:16:08] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240425/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-25 02:16:08] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/18/95/113cb0f4a78b0db5ec6e4cfebbba58bb04f5b343885cca6c7b23ad24a417/pycatfile-0.8.2.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/34/17/5ed255b3a6cb25cd4fcc0f8f76af301a37bf485c65115c6b73da4a6ad88e/pytorch-ignite-0.6.0.dev20240424.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [autocortext-py]: executing diffoscope
+[2024-04-25 02:16:08] INFO root fetch - processPackages [autocortext-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocortext_py-0.1.0.tar.gz tmp/autocortext_py-0.1.1.tar.gz --markdown 20240425/a/autocortext-py/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 02:16:08] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-25 02:16:08] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/c5/93/ebcc584e4eb599309af430b8b5eaa29ee085f7ae6cfb7134ca4789e27778/gguf_connector-0.7.9.tar.gz
+[2024-04-25 02:16:08] INFO root fetch - processPackages [PyCatFile]: executing diffoscope
+[2024-04-25 02:16:08] INFO root fetch - processPackages [PyCatFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCatFile-0.7.8.tar.gz tmp/pycatfile-0.8.2.tar.gz --markdown 20240425/P/PyCatFile/0.7.8-0.8.2/README.md --exclude *.pyd
+[2024-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240423.tar.gz tmp/pytorch-ignite-0.6.0.dev20240424.tar.gz --markdown 20240425/p/pytorch-ignite/0.6.0.dev20240423-0.6.0.dev20240424/README.md --exclude *.pyd
+[2024-04-25 02:16:08] INFO root fetch - processPackages [gguf-connector]: executing diffoscope
+[2024-04-25 02:16:08] INFO root fetch - processPackages [gguf-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gguf_connector-0.7.8.tar.gz tmp/gguf_connector-0.7.9.tar.gz --markdown 20240425/g/gguf-connector/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-25 02:16:08] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-25 02:16:09] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.0.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.1.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [autocortext-py]: success
+[2024-04-25 02:16:09] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/PyCatFile-0.7.8.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.8.2.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [PyCatFile]: success
+[2024-04-25 02:16:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-25 02:16:09] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.8.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.9.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [gguf-connector]: success
+[2024-04-25 02:16:09] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-25 02:16:09] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240423.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240424.tar.gz]
+[2024-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-25 02:16:10] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-25 02:16:10] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240425/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-25 02:16:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-25 02:16:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-25 02:16:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-25 02:16:10] INFO root fetch - main [MainThread]: Store serial: [22922201]
