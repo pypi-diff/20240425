@@ -18504,3 +18504,33 @@
 [2024-04-25 11:43:05] INFO root fetch - processPackages [ckanext-collection]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_collection-0.1.21.tar.gz]
 [2024-04-25 11:43:05] INFO root fetch - main [MainThread]: End processing [ckanext-collection]: success
 [2024-04-25 11:43:05] INFO root fetch - main [MainThread]: Store serial: [22928324]
+[2024-04-25 11:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928324]
+[2024-04-25 11:45:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BrickBundles
+[2024-04-25 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BrickAgx
+[2024-04-25 11:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libyang
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickBundles]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickAgx]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-25 11:45:14] INFO root fetch - processPackages [libyang]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/f8/60/bed70396fcda2fc4b1ae9ba59229c9d4bb87cb67a1999468e25be8b90043/brickbundles-0.7.0-py3-none-any.whl
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/15/8d/9780caf0ecca08d5be2e8e826cc4866561158c2c02196162a5389dc66a76/brickagx-0.7.0-cp39-cp39-win_amd64.whl
+[2024-04-25 11:45:14] INFO root fetch - processPackages [libyang]: Downloading https://files.pythonhosted.org/packages/11/4e/ec1b7f539840fd7dbb7e69f59536a1d29e527e848fabf857272a44b657a6/libyang-3.0.0.tar.gz
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/d0/85/cf4a5ddf2359fe5e64a419673201bcf161b0f60afb0fb53c1f5af3ee21ba/brickbundles-0.7.1-py3-none-any.whl
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.7.0-py3-none-any.whl.zip tmp/brickbundles-0.7.1-py3-none-any.whl.zip --markdown 20240425/B/BrickBundles/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-25 11:45:14] INFO root fetch - processPackages [libyang]: Downloading https://files.pythonhosted.org/packages/91/2e/ff13ee16c874d232d5d3fdff83f629cbc9ac47f9aaf2b59256b6a1bdbc16/libyang-3.0.1.tar.gz
+[2024-04-25 11:45:14] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/28/0e/c9179565335413dd107541d296e5424c36e1855cae78fe1fb75de217b37b/brickagx-0.7.1-cp39-cp39-win_amd64.whl
+[2024-04-25 11:45:14] INFO root fetch - processPackages [libyang]: executing diffoscope
+[2024-04-25 11:45:14] INFO root fetch - processPackages [libyang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libyang-3.0.0.tar.gz tmp/libyang-3.0.1.tar.gz --markdown 20240425/l/libyang/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-25 11:45:15] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-25 11:45:15] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.7.0-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.7.1-cp39-cp39-win_amd64.whl.zip --markdown 20240425/B/BrickAgx/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-25 11:45:15] INFO root fetch - processPackages [libyang]: Remove: archive file [/home/abi/fetcher/tmp/libyang-3.0.0.tar.gz]
+[2024-04-25 11:45:15] INFO root fetch - processPackages [libyang]: Remove: archive file [/home/abi/fetcher/tmp/libyang-3.0.1.tar.gz]
+[2024-04-25 11:45:15] INFO root fetch - main [MainThread]: End processing [libyang]: success
+[2024-04-25 11:45:15] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.7.0-py3-none-any.whl.zip]
+[2024-04-25 11:45:15] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.7.1-py3-none-any.whl.zip]
+[2024-04-25 11:45:15] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-25 11:45:15] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 11:45:15] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 11:45:15] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-25 11:45:15] INFO root fetch - main [MainThread]: Store serial: [22928334]
