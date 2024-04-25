@@ -12422,3 +12422,72 @@
 [2024-04-25 08:42:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-25 08:42:02] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-25 08:42:02] INFO root fetch - main [MainThread]: Store serial: [22926129]
+[2024-04-25 08:44:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926129]
+[2024-04-25 08:44:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pc-monitor-server
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fs-attestation-safe-eth-py
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TitanDevice
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-ext
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaraco.mongodb
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kmscalculator
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.39] Old Version: [0.0.38]
+[2024-04-25 08:44:11] INFO root fetch - processPackages [pc-monitor-server]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-25 08:44:11] INFO root fetch - processPackages [fs-attestation-safe-eth-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-25 08:44:11] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.5.1] Old Version: [0.3.5]
+[2024-04-25 08:44:11] INFO root fetch - processPackages [localstack-ext]: New version: [3.3.1.dev20240424163921] Old Version: [3.3.1.dev20240419073811]
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ae/b2/72eaa98aad691c6c78759d3b94c1606be7f2e09e4f7fed301bf36b4123d7/ecv-python-development-0.0.38.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/22/b8/80a18ac2532b730aceb9f0de71e8bef686868e9a27f221dccf69e76c1d55/TitanDevice-0.3.5.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [localstack]: New version: [3.4.0] Old Version: [3.3.1.dev20240424163921]
+[2024-04-25 08:44:11] INFO root fetch - processPackages [pc-monitor-server]: Downloading https://files.pythonhosted.org/packages/ad/93/be174b8e0f4e3d79c7082844b1272ea5a151d6d972dd85dafd6ac2a5c4f2/pc-monitor-server-1.1.0.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/d1/4d/85b20144d73faab7de565962749b86094ef4c13cc5da1a2fe0c68dd6622e/localstack_ext-3.3.1.dev20240419073811.tar.gz
+[2024-04-25 08:44:11] WARNING root fetch - processPackages [kmscalculator]: Skipping, unable to determine old version
+[2024-04-25 08:44:11] INFO root fetch - main [MainThread]: End processing [kmscalculator] error
+[2024-04-25 08:44:11] INFO root fetch - processPackages [jaraco.mongodb]: New version: [9.4b5] Old Version: [9.4]
+[2024-04-25 08:44:11] INFO root fetch - processPackages [fs-attestation-safe-eth-py]: Downloading https://files.pythonhosted.org/packages/64/e6/e406de6e2373cf86cf622557b34e780712afcfecf0be4b5b5f7308beb7c3/fs-attestation-safe-eth-py-1.0.0.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/69/19/f1bcd8d4dea65b7338f14934c5b463b18e7a17f20428256562b5327c91b9/TitanDevice-0.3.5.1.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/e6/85/14be59df27698ea59d7d295a4d27b0a68a9868fd516f27828fa334a7a69f/localstack-3.3.1.dev20240424163921.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [pc-monitor-server]: Downloading https://files.pythonhosted.org/packages/06/9a/0bc353fa2bd83b9159eb302e4301ebc7009672087a8bbf5a80caa07c0fab/pc-monitor-server-1.2.0.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [jaraco.mongodb]: Downloading https://files.pythonhosted.org/packages/c7/d2/ba04fd8a3c469a971372d2687d0598ff30abf88f11f2ed9229b2f81836ad/jaraco.mongodb-9.4.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/77/30/f34ccff698b7b532f495ee355c0db0c40d44c56778460eb89f9ed72d2b00/ecv-python-development-0.0.39.tar.gz
+[2024-04-25 08:44:11] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-25 08:44:11] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.5.tar.gz tmp/TitanDevice-0.3.5.1.tar.gz --markdown 20240425/T/TitanDevice/0.3.5-0.3.5.1/README.md --exclude *.pyd
+[2024-04-25 08:44:11] INFO root fetch - processPackages [pc-monitor-server]: executing diffoscope
+[2024-04-25 08:44:11] INFO root fetch - processPackages [pc-monitor-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pc-monitor-server-1.1.0.tar.gz tmp/pc-monitor-server-1.2.0.tar.gz --markdown 20240425/p/pc-monitor-server/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-25 08:44:12] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 08:44:12] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.38.tar.gz tmp/ecv-python-development-0.0.39.tar.gz --markdown 20240425/e/ecv-python-development/0.0.38-0.0.39/README.md --exclude *.pyd
+[2024-04-25 08:44:12] INFO root fetch - processPackages [fs-attestation-safe-eth-py]: Downloading https://files.pythonhosted.org/packages/32/ce/aecd7cf1295b57b43e1c91c6b4497d6bcdbcaa709148a0705103f9416f57/fs-attestation-safe-eth-py-1.0.1.tar.gz
+[2024-04-25 08:44:12] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/41/ac/5884ddd4d1d6f3049c3ca6130097b84d70e3b26a17a31a1ae30c4768273b/localstack_ext-3.3.1.dev20240424163921.tar.gz
+[2024-04-25 08:44:12] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/fc/29/0d588993c1781e2702a39b75c4cb2d63ec98ec415e61109916c1f5627818/localstack-3.4.0.tar.gz
+[2024-04-25 08:44:12] INFO root fetch - processPackages [fs-attestation-safe-eth-py]: executing diffoscope
+[2024-04-25 08:44:12] INFO root fetch - processPackages [fs-attestation-safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs-attestation-safe-eth-py-1.0.0.tar.gz tmp/fs-attestation-safe-eth-py-1.0.1.tar.gz --markdown 20240425/f/fs-attestation-safe-eth-py/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-25 08:44:12] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2024-04-25 08:44:12] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-3.3.1.dev20240424163921.tar.gz tmp/localstack-3.4.0.tar.gz --markdown 20240425/l/localstack/3.3.1.dev20240424163921-3.4.0/README.md --exclude *.pyd
+[2024-04-25 08:44:12] INFO root fetch - processPackages [jaraco.mongodb]: Downloading https://files.pythonhosted.org/packages/02/7f/ddc4f8272d93ffc6853500bf4fb2c8025d5c913002c2c19224db8037ce57/jaraco.mongodb-9.4b5.tar.gz
+[2024-04-25 08:44:12] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2024-04-25 08:44:12] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_ext-3.3.1.dev20240419073811.tar.gz tmp/localstack_ext-3.3.1.dev20240424163921.tar.gz --markdown 20240425/l/localstack-ext/3.3.1.dev20240419073811-3.3.1.dev20240424163921/README.md --exclude *.pyd
+[2024-04-25 08:44:12] INFO root fetch - processPackages [jaraco.mongodb]: executing diffoscope
+[2024-04-25 08:44:12] INFO root fetch - processPackages [jaraco.mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.mongodb-9.4.tar.gz tmp/jaraco.mongodb-9.4b5.tar.gz --markdown 20240425/j/jaraco.mongodb/9.4-9.4b5/README.md --exclude *.pyd
+[2024-04-25 08:44:12] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.5.tar.gz]
+[2024-04-25 08:44:12] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.5.1.tar.gz]
+[2024-04-25 08:44:12] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-25 08:44:12] INFO root fetch - processPackages [pc-monitor-server]: Remove: archive file [/home/abi/fetcher/tmp/pc-monitor-server-1.1.0.tar.gz]
+[2024-04-25 08:44:12] INFO root fetch - processPackages [pc-monitor-server]: Remove: archive file [/home/abi/fetcher/tmp/pc-monitor-server-1.2.0.tar.gz]
+[2024-04-25 08:44:12] INFO root fetch - main [MainThread]: End processing [pc-monitor-server]: success
+[2024-04-25 08:44:12] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.38.tar.gz]
+[2024-04-25 08:44:12] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.39.tar.gz]
+[2024-04-25 08:44:12] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 08:44:13] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-3.3.1.dev20240424163921.tar.gz]
+[2024-04-25 08:44:13] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-3.4.0.tar.gz]
+[2024-04-25 08:44:13] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2024-04-25 08:44:13] INFO root fetch - processPackages [jaraco.mongodb]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.mongodb-9.4.tar.gz]
+[2024-04-25 08:44:13] INFO root fetch - processPackages [jaraco.mongodb]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.mongodb-9.4b5.tar.gz]
+[2024-04-25 08:44:13] INFO root fetch - main [MainThread]: End processing [jaraco.mongodb]: success
+[2024-04-25 08:44:13] INFO root fetch - processPackages [fs-attestation-safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/fs-attestation-safe-eth-py-1.0.0.tar.gz]
+[2024-04-25 08:44:13] INFO root fetch - processPackages [fs-attestation-safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/fs-attestation-safe-eth-py-1.0.1.tar.gz]
+[2024-04-25 08:44:13] INFO root fetch - main [MainThread]: End processing [fs-attestation-safe-eth-py]: success
+[2024-04-25 08:44:19] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack_ext-3.3.1.dev20240419073811.tar.gz]
+[2024-04-25 08:44:19] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack_ext-3.3.1.dev20240424163921.tar.gz]
+[2024-04-25 08:44:19] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2024-04-25 08:44:19] INFO root fetch - main [MainThread]: Store serial: [22926146]
