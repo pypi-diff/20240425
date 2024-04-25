@@ -19156,3 +19156,63 @@
 [2024-04-25 12:05:43] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc2.tar.gz]
 [2024-04-25 12:05:43] INFO root fetch - main [MainThread]: End processing [wagtail]: success
 [2024-04-25 12:05:43] INFO root fetch - main [MainThread]: Store serial: [22928622]
+[2024-04-25 12:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928622]
+[2024-04-25 12:07:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enkacard
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyutube
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymonday
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brynq-sdk-task-scheduler
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctrip-app-ui
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fina-cal-abhi
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capellambse
+[2024-04-25 12:07:52] INFO root fetch - processPackages [pymonday]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-25 12:07:52] WARNING root fetch - processPackages [fina-cal-abhi]: Skipping, unable to determine old version
+[2024-04-25 12:07:52] INFO root fetch - main [MainThread]: End processing [fina-cal-abhi] error
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 12:07:52] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-25 12:07:52] INFO root fetch - processPackages [enkacard]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-04-25 12:07:52] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-25 12:07:52] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/0a/19/08fff9470aeb3a6c87ea94b8bd194fb55f0eac031ae558ce25659b554924/pymonday-2.1.3.tar.gz
+[2024-04-25 12:07:52] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/8a/28/599dfab5a6daceb31564f07a78d1ed4862a047a2ee7c52d1580d53ed88c6/ctrip-app-ui-0.1.2.tar.gz
+[2024-04-25 12:07:52] INFO root fetch - processPackages [pyutube]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-25 12:07:52] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Downloading https://files.pythonhosted.org/packages/40/75/1c6139dbd602125e677da3ebb1fa25f0c8e7fcef1e72f91026cc28500d0c/brynq_sdk_task_scheduler-1.0.0.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/60/6b/a62e5b36e4ea02e23b0ae4c4802ec17d3539663a9a4a82820f935a12b5cf/enkacard-3.3.4.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [pyutube]: Downloading https://files.pythonhosted.org/packages/32/4d/1ce885efa95b1bb52b2d5437658a247b25ce47d57f3de2f028a41c4e2889/pyutube-1.2.2.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/f0/bd/b2f363075f621f962e7ec258cd4ba297c8cfbb961736a58e44d6c7ee06b5/pymonday-2.1.4.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/8e/a9/9fa90839b13e87529457dd2d17b5493c612b909f340d3db5a5b9035259ce/ctrip-app-ui-0.1.3.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [pymonday]: executing diffoscope
+[2024-04-25 12:07:53] INFO root fetch - processPackages [pymonday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonday-2.1.3.tar.gz tmp/pymonday-2.1.4.tar.gz --markdown 20240425/p/pymonday/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-25 12:07:53] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 12:07:53] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.2.tar.gz tmp/ctrip-app-ui-0.1.3.tar.gz --markdown 20240425/c/ctrip-app-ui/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 12:07:53] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Downloading https://files.pythonhosted.org/packages/c0/68/f7628bd9d44ca21eababba002ee7c3455ccefe8e67856ecdfd8965aa32a9/brynq_sdk_task_scheduler-1.1.0.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [pyutube]: Downloading https://files.pythonhosted.org/packages/c8/b2/ea1f48e1e5014f64d5b1d307561cb0b40ad82f92e6ef5aabd77595f3b9b4/pyutube-1.2.3.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: executing diffoscope
+[2024-04-25 12:07:53] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_task_scheduler-1.0.0.tar.gz tmp/brynq_sdk_task_scheduler-1.1.0.tar.gz --markdown 20240425/b/brynq-sdk-task-scheduler/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-25 12:07:53] INFO root fetch - processPackages [pyutube]: executing diffoscope
+[2024-04-25 12:07:53] INFO root fetch - processPackages [pyutube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutube-1.2.2.tar.gz tmp/pyutube-1.2.3.tar.gz --markdown 20240425/p/pyutube/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-25 12:07:53] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/f8/78/9456a1a0c763c083d02758fc4ec5ef48bd61aca42eef4c50004a9707c101/enkacard-3.3.5.tar.gz
+[2024-04-25 12:07:53] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-25 12:07:53] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240425/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-25 12:07:54] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.3.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.4.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - main [MainThread]: End processing [pymonday]: success
+[2024-04-25 12:07:54] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.2.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.3.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 12:07:54] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_task_scheduler-1.0.0.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_task_scheduler-1.1.0.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - main [MainThread]: End processing [brynq-sdk-task-scheduler]: success
+[2024-04-25 12:07:54] INFO root fetch - processPackages [pyutube]: Remove: archive file [/home/abi/fetcher/tmp/pyutube-1.2.2.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - processPackages [pyutube]: Remove: archive file [/home/abi/fetcher/tmp/pyutube-1.2.3.tar.gz]
+[2024-04-25 12:07:54] INFO root fetch - main [MainThread]: End processing [pyutube]: success
+[2024-04-25 12:07:54] INFO root fetch - processPackages [enkacard]: executing diffoscope
+[2024-04-25 12:07:54] INFO root fetch - processPackages [enkacard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkacard-3.3.4.tar.gz tmp/enkacard-3.3.5.tar.gz --markdown 20240425/e/enkacard/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-04-25 12:07:56] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.4.tar.gz]
+[2024-04-25 12:07:56] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.5.tar.gz]
+[2024-04-25 12:07:56] INFO root fetch - main [MainThread]: End processing [enkacard]: success
+[2024-04-25 12:07:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-25 12:07:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-25 12:07:59] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-25 12:07:59] INFO root fetch - main [MainThread]: Store serial: [22928648]
