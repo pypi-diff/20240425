@@ -10278,3 +10278,15 @@
 [2024-04-25 06:02:34] INFO root fetch - processPackages [google-colab-selenium]: Remove: archive file [/home/abi/fetcher/tmp/google-colab-selenium-1.0.9.tar.gz]
 [2024-04-25 06:02:34] INFO root fetch - main [MainThread]: End processing [google-colab-selenium]: success
 [2024-04-25 06:02:34] INFO root fetch - main [MainThread]: Store serial: [22925013]
+[2024-04-25 06:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925013]
+[2024-04-25 06:04:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 06:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-flux
+[2024-04-25 06:04:42] INFO root fetch - processPackages [python-flux]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-25 06:04:42] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/b4/b3/0bfc97d894c875cb987f1e925cdbe3056b3bdaf4ac4382097f8f4a88d596/python_flux-1.2.1.tar.gz
+[2024-04-25 06:04:42] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/10/96/822c20eca9aafeb09e2df69109733cba9dcff3c092d0936e9036bb101dfd/python_flux-1.2.2.tar.gz
+[2024-04-25 06:04:43] INFO root fetch - processPackages [python-flux]: executing diffoscope
+[2024-04-25 06:04:43] INFO root fetch - processPackages [python-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_flux-1.2.1.tar.gz tmp/python_flux-1.2.2.tar.gz --markdown 20240425/p/python-flux/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-25 06:04:43] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.2.1.tar.gz]
+[2024-04-25 06:04:43] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.2.2.tar.gz]
+[2024-04-25 06:04:43] INFO root fetch - main [MainThread]: End processing [python-flux]: success
+[2024-04-25 06:04:43] INFO root fetch - main [MainThread]: Store serial: [22925017]
