@@ -8091,3 +8091,39 @@
 [2024-04-25 03:53:07] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-04-25 03:53:07] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-04-25 03:53:07] INFO root fetch - main [MainThread]: Store serial: [22924089]
+[2024-04-25 03:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924089]
+[2024-04-25 03:55:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 03:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli-test
+[2024-04-25 03:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enconnect
+[2024-04-25 03:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiuxian-back
+[2024-04-25 03:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eirStru
+[2024-04-25 03:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msmart-vog
+[2024-04-25 03:55:16] WARNING root fetch - processPackages [xiuxian-back]: Skipping, unable to determine old version
+[2024-04-25 03:55:16] INFO root fetch - main [MainThread]: End processing [xiuxian-back] error
+[2024-04-25 03:55:16] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 03:55:16] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-25 03:55:16] INFO root fetch - processPackages [mov-cli-test]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-25 03:55:16] INFO root fetch - processPackages [enconnect]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 03:55:16] WARNING root fetch - processPackages [msmart-vog]: Skipping, unable to determine old version
+[2024-04-25 03:55:16] INFO root fetch - main [MainThread]: End processing [msmart-vog] error
+[2024-04-25 03:55:16] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-25 03:55:16] INFO root fetch - processPackages [enconnect]: Downloading https://files.pythonhosted.org/packages/dc/79/52b6d7ba9f47a4ae48024559aa9f0fef71421f5bdc6807ef18bf8679f1e0/enconnect-0.2.1.tar.gz
+[2024-04-25 03:55:16] INFO root fetch - processPackages [mov-cli-test]: Downloading https://files.pythonhosted.org/packages/eb/3c/bbd0c0c599263c8691a4ea05f851043ebd53c69b348b855abc81d852fe2d/mov-cli-test-1.1.3.tar.gz
+[2024-04-25 03:55:16] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-25 03:55:16] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240425/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 03:55:16] INFO root fetch - processPackages [enconnect]: Downloading https://files.pythonhosted.org/packages/b1/09/06b65695bc29aab231f08b76b4a87cdaa80564fcef31c79540b721b9eabc/enconnect-0.2.2.tar.gz
+[2024-04-25 03:55:17] INFO root fetch - processPackages [mov-cli-test]: Downloading https://files.pythonhosted.org/packages/24/7e/fbd584b772689c54e52d0f39696f3abdca7f8c86863130a4154f7aaaafd1/mov_cli_test-1.1.4.tar.gz
+[2024-04-25 03:55:17] INFO root fetch - processPackages [enconnect]: executing diffoscope
+[2024-04-25 03:55:17] INFO root fetch - processPackages [enconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enconnect-0.2.1.tar.gz tmp/enconnect-0.2.2.tar.gz --markdown 20240425/e/enconnect/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 03:55:17] INFO root fetch - processPackages [mov-cli-test]: executing diffoscope
+[2024-04-25 03:55:17] INFO root fetch - processPackages [mov-cli-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-test-1.1.3.tar.gz tmp/mov_cli_test-1.1.4.tar.gz --markdown 20240425/m/mov-cli-test/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-25 03:55:17] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-25 03:55:17] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-25 03:55:17] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-25 03:55:17] INFO root fetch - processPackages [mov-cli-test]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-test-1.1.3.tar.gz]
+[2024-04-25 03:55:17] INFO root fetch - processPackages [mov-cli-test]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli_test-1.1.4.tar.gz]
+[2024-04-25 03:55:17] INFO root fetch - main [MainThread]: End processing [mov-cli-test]: success
+[2024-04-25 03:55:17] INFO root fetch - processPackages [enconnect]: Remove: archive file [/home/abi/fetcher/tmp/enconnect-0.2.1.tar.gz]
+[2024-04-25 03:55:17] INFO root fetch - processPackages [enconnect]: Remove: archive file [/home/abi/fetcher/tmp/enconnect-0.2.2.tar.gz]
+[2024-04-25 03:55:17] INFO root fetch - main [MainThread]: End processing [enconnect]: success
+[2024-04-25 03:55:17] INFO root fetch - main [MainThread]: Store serial: [22924105]
