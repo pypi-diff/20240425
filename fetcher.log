@@ -14416,3 +14416,56 @@
 [2024-04-25 10:00:01] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.0.tar.gz]
 [2024-04-25 10:00:01] INFO root fetch - main [MainThread]: End processing [Qubx]: success
 [2024-04-25 10:00:01] INFO root fetch - main [MainThread]: Store serial: [22926883]
+[2024-04-25 10:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926883]
+[2024-04-25 10:02:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 10:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerous
+[2024-04-25 10:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2024-04-25 10:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: func-adl
+[2024-04-25 10:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: l3c
+[2024-04-25 10:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipez
+[2024-04-25 10:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gio-importer
+[2024-04-25 10:02:11] INFO root fetch - processPackages [func-adl]: New version: [3.3.0] Old Version: [3.2b1]
+[2024-04-25 10:02:11] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 10:02:11] INFO root fetch - processPackages [pipez]: New version: [0.0.96] Old Version: [0.0.95]
+[2024-04-25 10:02:11] INFO root fetch - processPackages [func-adl]: Downloading https://files.pythonhosted.org/packages/eb/4a/a82fe7d9c3e175cc83be2d0879968302ad53fc7e2f7d8bc04049c65506f3/func_adl-3.2b1.tar.gz
+[2024-04-25 10:02:11] INFO root fetch - processPackages [gio-importer]: New version: [1.1.4] Old Version: [1.1.2]
+[2024-04-25 10:02:11] INFO root fetch - processPackages [l3c]: New version: [0.1.0.5] Old Version: [0.1.0.4]
+[2024-04-25 10:02:11] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240425] Old Version: [2.17.0.dev20240424]
+[2024-04-25 10:02:11] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/34/7c/7360f606d9cdea2190fdf15e2697302b659f6d7ab7364a0d333bd038e553/pipez-0.0.95.tar.gz
+[2024-04-25 10:02:11] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-25 10:02:12] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-25 10:02:12] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-25 10:02:12] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/c6/cf/181f015d82e1221912780b9bceabe45028fe25e3d7b1ce4ecb22d38ed212/l3c-0.1.0.4.tar.gz
+[2024-04-25 10:02:12] INFO root fetch - processPackages [func-adl]: Downloading https://files.pythonhosted.org/packages/0b/1d/7178f1fbc55093620a7071e67bfa02d761414a426a25b09a782c7d349a40/func_adl-3.3.0.tar.gz
+[2024-04-25 10:02:12] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/32/f9/cb734bcb76abca9da425105f863162bdd056862f91ea750ace5100b54cf2/tf_nightly-2.17.0.dev20240424-cp39-cp39-win_amd64.whl
+[2024-04-25 10:02:12] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/52/45/daf3ed61f55ea268c8fee3618311af2f0b1f2146f42ff73f55a84e5f8f3b/gio_importer-1.1.2.tar.gz
+[2024-04-25 10:02:12] INFO root fetch - processPackages [func-adl]: executing diffoscope
+[2024-04-25 10:02:12] INFO root fetch - processPackages [func-adl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_adl-3.2b1.tar.gz tmp/func_adl-3.3.0.tar.gz --markdown 20240425/f/func-adl/3.2b1-3.3.0/README.md --exclude *.pyd
+[2024-04-25 10:02:12] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/5c/74/7ca99f0b84a97baa9897e7f69ca848def056c94a410e194d4bf777be0961/pipez-0.0.96.tar.gz
+[2024-04-25 10:02:12] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c3/a9/c641dbf8ccf70eb6a95f85e59868b581a5c171fb44413dce46c304f39a5c/tf_nightly-2.17.0.dev20240425-cp39-cp39-win_amd64.whl
+[2024-04-25 10:02:12] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/76/db/08ddde7cf30e690256aacaaf3efc8690fc12bd2343452eb59050739e8191/l3c-0.1.0.5.tar.gz
+[2024-04-25 10:02:12] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-25 10:02:12] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.95.tar.gz tmp/pipez-0.0.96.tar.gz --markdown 20240425/p/pipez/0.0.95-0.0.96/README.md --exclude *.pyd
+[2024-04-25 10:02:12] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/39/d7/d76d10ff9d683ef03180c1374c9d4bd31bb6ca1f777ccbadc66f138329d3/gio_importer-1.1.4.tar.gz
+[2024-04-25 10:02:12] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-25 10:02:12] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240424-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240425-cp39-cp39-win_amd64.whl.zip --markdown 20240425/t/tf-nightly/2.17.0.dev20240424-2.17.0.dev20240425/README.md --exclude *.pyd
+[2024-04-25 10:02:12] INFO root fetch - processPackages [l3c]: executing diffoscope
+[2024-04-25 10:02:12] INFO root fetch - processPackages [l3c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l3c-0.1.0.4.tar.gz tmp/l3c-0.1.0.5.tar.gz --markdown 20240425/l/l3c/0.1.0.4-0.1.0.5/README.md --exclude *.pyd
+[2024-04-25 10:02:12] INFO root fetch - processPackages [gio-importer]: executing diffoscope
+[2024-04-25 10:02:12] INFO root fetch - processPackages [gio-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gio_importer-1.1.2.tar.gz tmp/gio_importer-1.1.4.tar.gz --markdown 20240425/g/gio-importer/1.1.2-1.1.4/README.md --exclude *.pyd
+[2024-04-25 10:02:13] INFO root fetch - processPackages [func-adl]: Remove: archive file [/home/abi/fetcher/tmp/func_adl-3.2b1.tar.gz]
+[2024-04-25 10:02:13] INFO root fetch - processPackages [func-adl]: Remove: archive file [/home/abi/fetcher/tmp/func_adl-3.3.0.tar.gz]
+[2024-04-25 10:02:13] INFO root fetch - main [MainThread]: End processing [func-adl]: success
+[2024-04-25 10:02:13] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240424-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 10:02:13] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240425-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 10:02:13] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-25 10:02:13] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.4.tar.gz]
+[2024-04-25 10:02:13] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.5.tar.gz]
+[2024-04-25 10:02:13] INFO root fetch - main [MainThread]: End processing [l3c]: success
+[2024-04-25 10:02:13] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.1.2.tar.gz]
+[2024-04-25 10:02:13] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.1.4.tar.gz]
+[2024-04-25 10:02:13] INFO root fetch - main [MainThread]: End processing [gio-importer]: success
+[2024-04-25 10:02:14] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.95.tar.gz]
+[2024-04-25 10:02:14] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.96.tar.gz]
+[2024-04-25 10:02:14] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-25 10:02:14] INFO root fetch - main [MainThread]: Store serial: [22926903]
