@@ -2931,3 +2931,15 @@
 [2024-04-25 02:07:24] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714001276.tar.gz]
 [2024-04-25 02:07:24] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
 [2024-04-25 02:07:24] INFO root fetch - main [MainThread]: Store serial: [22922130]
+[2024-04-25 02:09:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922130]
+[2024-04-25 02:09:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 02:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ast-grep-cli
+[2024-04-25 02:09:33] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-25 02:09:33] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2024-04-25 02:09:33] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2024-04-25 02:09:34] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2024-04-25 02:09:34] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20240425/a/ast-grep-cli/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-25 02:09:35] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2024-04-25 02:09:35] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2024-04-25 02:09:35] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2024-04-25 02:09:35] INFO root fetch - main [MainThread]: Store serial: [22922136]
