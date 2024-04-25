@@ -7965,3 +7965,36 @@
 [2024-04-25 03:41:20] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.8.tar.gz]
 [2024-04-25 03:41:20] INFO root fetch - main [MainThread]: End processing [amilib]: success
 [2024-04-25 03:41:20] INFO root fetch - main [MainThread]: Store serial: [22923997]
+[2024-04-25 03:43:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923997]
+[2024-04-25 03:43:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 03:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiuxian-rift
+[2024-04-25 03:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiuxian-sect
+[2024-04-25 03:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiuxian-work
+[2024-04-25 03:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vantage-sdk
+[2024-04-25 03:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mainshortcuts
+[2024-04-25 03:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-restful-rsp
+[2024-04-25 03:43:29] WARNING root fetch - processPackages [xiuxian-rift]: Skipping, unable to determine old version
+[2024-04-25 03:43:29] INFO root fetch - main [MainThread]: End processing [xiuxian-rift] error
+[2024-04-25 03:43:29] INFO root fetch - processPackages [mainshortcuts]: New version: [1.6.77] Old Version: [1.6.76]
+[2024-04-25 03:43:29] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/3f/28/5187c37dab6d96fc88a29b814b88c38d6f5f0e30bd1d603831f5b3d6614c/mainshortcuts-1.6.76.tar.gz
+[2024-04-25 03:43:29] WARNING root fetch - processPackages [vantage-sdk]: Skipping, unable to determine old version
+[2024-04-25 03:43:29] INFO root fetch - main [MainThread]: End processing [vantage-sdk] error
+[2024-04-25 03:43:29] WARNING root fetch - processPackages [xiuxian-work]: Skipping, unable to determine old version
+[2024-04-25 03:43:29] INFO root fetch - processPackages [fastapi-restful-rsp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 03:43:29] INFO root fetch - main [MainThread]: End processing [xiuxian-work] error
+[2024-04-25 03:43:29] WARNING root fetch - processPackages [xiuxian-sect]: Skipping, unable to determine old version
+[2024-04-25 03:43:29] INFO root fetch - main [MainThread]: End processing [xiuxian-sect] error
+[2024-04-25 03:43:29] INFO root fetch - processPackages [fastapi-restful-rsp]: Downloading https://files.pythonhosted.org/packages/5c/67/49d812a3ce42e233efbf2c2b186f92904b3815d5169695a092db095bf478/fastapi_restful_rsp-0.1.8.tar.gz
+[2024-04-25 03:43:29] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/a4/15/5f089e85f548f97592ba46116245cdab18ef72ad13cbdd499fba7462a171/mainshortcuts-1.6.77.tar.gz
+[2024-04-25 03:43:30] INFO root fetch - processPackages [mainshortcuts]: executing diffoscope
+[2024-04-25 03:43:30] INFO root fetch - processPackages [mainshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.76.tar.gz tmp/mainshortcuts-1.6.77.tar.gz --markdown 20240425/m/mainshortcuts/1.6.76-1.6.77/README.md --exclude *.pyd
+[2024-04-25 03:43:30] INFO root fetch - processPackages [fastapi-restful-rsp]: Downloading https://files.pythonhosted.org/packages/a3/78/294a9a4f5b00529fe25407f64c016bf02b136df7bdab0af823c40b3d54a9/fastapi_restful_rsp-0.1.9.tar.gz
+[2024-04-25 03:43:30] INFO root fetch - processPackages [fastapi-restful-rsp]: executing diffoscope
+[2024-04-25 03:43:30] INFO root fetch - processPackages [fastapi-restful-rsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_restful_rsp-0.1.8.tar.gz tmp/fastapi_restful_rsp-0.1.9.tar.gz --markdown 20240425/f/fastapi-restful-rsp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 03:43:30] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.76.tar.gz]
+[2024-04-25 03:43:30] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.77.tar.gz]
+[2024-04-25 03:43:30] INFO root fetch - main [MainThread]: End processing [mainshortcuts]: success
+[2024-04-25 03:43:30] INFO root fetch - processPackages [fastapi-restful-rsp]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_restful_rsp-0.1.8.tar.gz]
+[2024-04-25 03:43:30] INFO root fetch - processPackages [fastapi-restful-rsp]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_restful_rsp-0.1.9.tar.gz]
+[2024-04-25 03:43:30] INFO root fetch - main [MainThread]: End processing [fastapi-restful-rsp]: success
+[2024-04-25 03:43:30] INFO root fetch - main [MainThread]: Store serial: [22924026]
