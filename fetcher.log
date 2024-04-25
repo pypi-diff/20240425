@@ -10089,3 +10089,54 @@
 [2024-04-25 05:53:50] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.9.tar.gz]
 [2024-04-25 05:53:50] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
 [2024-04-25 05:53:50] INFO root fetch - main [MainThread]: Store serial: [22924945]
+[2024-04-25 05:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924945]
+[2024-04-25 05:55:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csvtojsonify
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firestoned
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ldjcourse
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleipnirgroup-jormungandr
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ldjcourse]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-04-25 05:55:59] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-04-25 05:55:59] WARNING root fetch - processPackages [csvtojsonify]: Skipping, unable to determine old version
+[2024-04-25 05:55:59] INFO root fetch - main [MainThread]: End processing [csvtojsonify] error
+[2024-04-25 05:55:59] INFO root fetch - processPackages [firestoned]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/3a/31/944ae63f69490efebbc2f4556eb2ac64676a29db8789c6251853b8cf45a2/ldjcourse-0.0.7.8.tar.gz
+[2024-04-25 05:55:59] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-04-25 05:55:59] INFO root fetch - processPackages [firestoned]: Downloading https://files.pythonhosted.org/packages/b1/9e/ade06d5bcc4895c5b10fcd3dc966149fb521b4649c82cb775d573be3804b/firestoned-0.3.5.tar.gz
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/b4/fa/c89a3aa31269ae21e83af15a6525b1a74639b9340e4abaf00fe86c9ceb50/ldjcourse-0.0.7.9.tar.gz
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-04-25 05:55:59] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ldjcourse]: executing diffoscope
+[2024-04-25 05:55:59] INFO root fetch - processPackages [ldjcourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldjcourse-0.0.7.8.tar.gz tmp/ldjcourse-0.0.7.9.tar.gz --markdown 20240425/l/ldjcourse/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240425/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-04-25 05:55:59] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-25 05:55:59] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240425/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-25 05:55:59] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240425/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-04-25 05:55:59] INFO root fetch - processPackages [firestoned]: Downloading https://files.pythonhosted.org/packages/09/20/266caa15c87cbcd2fa1df1af54eecc3b25484970024096a84a0abb4aa3ed/firestoned-0.3.6.tar.gz
+[2024-04-25 05:56:00] INFO root fetch - processPackages [firestoned]: executing diffoscope
+[2024-04-25 05:56:00] INFO root fetch - processPackages [firestoned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firestoned-0.3.5.tar.gz tmp/firestoned-0.3.6.tar.gz --markdown 20240425/f/firestoned/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-25 05:56:00] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.8.tar.gz]
+[2024-04-25 05:56:00] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.9.tar.gz]
+[2024-04-25 05:56:00] INFO root fetch - main [MainThread]: End processing [ldjcourse]: success
+[2024-04-25 05:56:00] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-04-25 05:56:00] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-04-25 05:56:00] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-25 05:56:00] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-25 05:56:00] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-25 05:56:00] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-25 05:56:00] INFO root fetch - processPackages [firestoned]: Remove: archive file [/home/abi/fetcher/tmp/firestoned-0.3.5.tar.gz]
+[2024-04-25 05:56:00] INFO root fetch - processPackages [firestoned]: Remove: archive file [/home/abi/fetcher/tmp/firestoned-0.3.6.tar.gz]
+[2024-04-25 05:56:00] INFO root fetch - main [MainThread]: End processing [firestoned]: success
+[2024-04-25 05:56:01] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-04-25 05:56:01] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-04-25 05:56:01] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-25 05:56:01] INFO root fetch - main [MainThread]: Store serial: [22924975]
