@@ -20565,3 +20565,60 @@
 [2024-04-25 12:53:46] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2024.4.25.tar.gz]
 [2024-04-25 12:53:46] INFO root fetch - main [MainThread]: End processing [eotdl]: success
 [2024-04-25 12:53:46] INFO root fetch - main [MainThread]: Store serial: [22929148]
+[2024-04-25 12:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929148]
+[2024-04-25 12:55:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maling
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdgen
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ops-py-azure-key-vault-alert
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: directory-validators
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saturn-sync
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecv-python-development
+[2024-04-25 12:55:55] INFO root fetch - processPackages [pdgen]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.45] Old Version: [0.0.44]
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: New version: [4.7.1] Old Version: [4.7.0]
+[2024-04-25 12:55:55] INFO root fetch - processPackages [maling]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-25 12:55:55] INFO root fetch - processPackages [pdgen]: Downloading https://files.pythonhosted.org/packages/b6/2d/c8e33580ec7f06da487ba1d20494c84df19c6c222cab6218e6df160cfea0/pdgen-0.1.3.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [saturn-sync]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-25 12:55:55] INFO root fetch - processPackages [directory-validators]: New version: [9.3.4] Old Version: [9.3.3]
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/31/6e/1a47726a5162422d59af84c58a1d2ff7b5846e6458206c3ac5c6cad2163b/ops_py_azure_key_vault_alert-4.7.0.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/97/55/953f90a1ccfec19a2c59457c179c2507b908aed6a025ee94f10b05e127d5/maling-2.2.4.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ac/52/708a28132c1a15cfe706ac198626d87d05258425dc0ae848c55f68907691/ecv-python-development-0.0.44.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [saturn-sync]: Downloading https://files.pythonhosted.org/packages/2d/8c/74f16e853fa5530208aafd985dee4e0caaa98dd446dbe22346e9beceb3e0/saturn_sync-0.1.0.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [pdgen]: Downloading https://files.pythonhosted.org/packages/a6/07/ce14095fcafcdf5d942c12f450b4df559cd9c06fecca23e8a0324c5424df/pdgen-0.1.4.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [directory-validators]: Downloading https://files.pythonhosted.org/packages/66/3e/6170a233181e8ac01404bcd394ab4414f7f8cddf452ab78e370bf3ab526b/directory_validators-9.3.3-py3-none-any.whl
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/43/6e/ad71ab18b5da423c037fa5c7cc18141559f0d237d6591f934ab4963e251c/ops_py_azure_key_vault_alert-4.7.1.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [pdgen]: executing diffoscope
+[2024-04-25 12:55:55] INFO root fetch - processPackages [pdgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdgen-0.1.3.tar.gz tmp/pdgen-0.1.4.tar.gz --markdown 20240425/p/pdgen/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/a1/85/a28d05d4cf50bbeb16ae1f4310cec0e2cc8298a1b99c9b39d071bf04fb4d/ecv-python-development-0.0.45.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/d7/95/d1a4f3d74bac9a581f1b65cd7f0eea99d726567474703056c7ad6cff80e7/maling-2.2.5.tar.gz
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: executing diffoscope
+[2024-04-25 12:55:55] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_azure_key_vault_alert-4.7.0.tar.gz tmp/ops_py_azure_key_vault_alert-4.7.1.tar.gz --markdown 20240425/o/ops-py-azure-key-vault-alert/4.7.0-4.7.1/README.md --exclude *.pyd
+[2024-04-25 12:55:56] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 12:55:56] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.44.tar.gz tmp/ecv-python-development-0.0.45.tar.gz --markdown 20240425/e/ecv-python-development/0.0.44-0.0.45/README.md --exclude *.pyd
+[2024-04-25 12:55:56] INFO root fetch - processPackages [saturn-sync]: Downloading https://files.pythonhosted.org/packages/b7/c2/fa5564dd4ecc8e1541a58f41c6425d2cb329ee44d5638657070f3fae1d0c/saturn_sync-0.2.0.tar.gz
+[2024-04-25 12:55:56] INFO root fetch - processPackages [directory-validators]: Downloading https://files.pythonhosted.org/packages/c5/df/d08bf7ee8a5bc199e2c243ca18c78c6a42b755ffdfbc0a3e4a4485ffb570/directory_validators-9.3.4-py3-none-any.whl
+[2024-04-25 12:55:56] INFO root fetch - processPackages [maling]: executing diffoscope
+[2024-04-25 12:55:56] INFO root fetch - processPackages [maling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maling-2.2.4.tar.gz tmp/maling-2.2.5.tar.gz --markdown 20240425/m/maling/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-25 12:55:56] INFO root fetch - processPackages [saturn-sync]: executing diffoscope
+[2024-04-25 12:55:56] INFO root fetch - processPackages [saturn-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saturn_sync-0.1.0.tar.gz tmp/saturn_sync-0.2.0.tar.gz --markdown 20240425/s/saturn-sync/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-25 12:55:56] INFO root fetch - processPackages [directory-validators]: executing diffoscope
+[2024-04-25 12:55:56] INFO root fetch - processPackages [directory-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_validators-9.3.3-py3-none-any.whl.zip tmp/directory_validators-9.3.4-py3-none-any.whl.zip --markdown 20240425/d/directory-validators/9.3.3-9.3.4/README.md --exclude *.pyd
+[2024-04-25 12:55:56] INFO root fetch - processPackages [pdgen]: Remove: archive file [/home/abi/fetcher/tmp/pdgen-0.1.3.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - processPackages [pdgen]: Remove: archive file [/home/abi/fetcher/tmp/pdgen-0.1.4.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - main [MainThread]: End processing [pdgen]: success
+[2024-04-25 12:55:56] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.7.0.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.7.1.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-alert]: success
+[2024-04-25 12:55:56] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.44.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.45.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 12:55:56] INFO root fetch - processPackages [saturn-sync]: Remove: archive file [/home/abi/fetcher/tmp/saturn_sync-0.1.0.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - processPackages [saturn-sync]: Remove: archive file [/home/abi/fetcher/tmp/saturn_sync-0.2.0.tar.gz]
+[2024-04-25 12:55:56] INFO root fetch - main [MainThread]: End processing [saturn-sync]: success
+[2024-04-25 12:55:57] INFO root fetch - processPackages [directory-validators]: Remove: archive file [/home/abi/fetcher/tmp/directory_validators-9.3.3-py3-none-any.whl.zip]
+[2024-04-25 12:55:57] INFO root fetch - processPackages [directory-validators]: Remove: archive file [/home/abi/fetcher/tmp/directory_validators-9.3.4-py3-none-any.whl.zip]
+[2024-04-25 12:55:57] INFO root fetch - main [MainThread]: End processing [directory-validators]: success
+[2024-04-25 12:55:57] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.2.4.tar.gz]
+[2024-04-25 12:55:57] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.2.5.tar.gz]
+[2024-04-25 12:55:57] INFO root fetch - main [MainThread]: End processing [maling]: success
+[2024-04-25 12:55:57] INFO root fetch - main [MainThread]: Store serial: [22929165]
