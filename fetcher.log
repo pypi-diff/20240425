@@ -10603,3 +10603,27 @@
 [2024-04-25 06:39:27] INFO root fetch - processPackages [centurypy]: Remove: archive file [/home/abi/fetcher/tmp/centurypy-1.0.2.tar.gz]
 [2024-04-25 06:39:27] INFO root fetch - main [MainThread]: End processing [centurypy]: success
 [2024-04-25 06:39:27] INFO root fetch - main [MainThread]: Store serial: [22925239]
+[2024-04-25 06:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925239]
+[2024-04-25 06:41:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 06:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-rds20140815-py2
+[2024-04-25 06:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-rds20140815
+[2024-04-25 06:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vogmidea
+[2024-04-25 06:41:35] WARNING root fetch - processPackages [vogmidea]: Skipping, unable to determine old version
+[2024-04-25 06:41:35] INFO root fetch - main [MainThread]: End processing [vogmidea] error
+[2024-04-25 06:41:35] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-25 06:41:35] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [4.0.5] Old Version: [4.0.4]
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/11/50/44428326091526be243f05b73d0d2abc494b262a36aab94956be9511e1cc/alibabacloud_rds20140815_py2-3.0.3.tar.gz
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5a/e8/d465704a58e32226f712d7aecf75f39abb26af805b73a89596646dfd7da0/alibabacloud_rds20140815-4.0.4.tar.gz
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/3d/73/9b21d1de9abfba89212fc2703f911bd73a8725b20b729a9d3d09b4bac2b4/alibabacloud_rds20140815_py2-3.0.4.tar.gz
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/d7/0f/59031610a7d91ccca7f3bf06a226d8cd9ef4c26931d6b476fb3b0a218133/alibabacloud_rds20140815-4.0.5.tar.gz
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-4.0.4.tar.gz tmp/alibabacloud_rds20140815-4.0.5.tar.gz --markdown 20240425/a/alibabacloud-rds20140815/4.0.4-4.0.5/README.md --exclude *.pyd
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2024-04-25 06:41:36] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-3.0.3.tar.gz tmp/alibabacloud_rds20140815_py2-3.0.4.tar.gz --markdown 20240425/a/alibabacloud-rds20140815-py2/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-25 06:41:39] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-3.0.3.tar.gz]
+[2024-04-25 06:41:39] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-3.0.4.tar.gz]
+[2024-04-25 06:41:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2024-04-25 06:41:40] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-4.0.4.tar.gz]
+[2024-04-25 06:41:40] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-4.0.5.tar.gz]
+[2024-04-25 06:41:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2024-04-25 06:41:40] INFO root fetch - main [MainThread]: Store serial: [22925250]
