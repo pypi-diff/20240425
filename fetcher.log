@@ -3905,3 +3905,27 @@
 [2024-04-25 03:00:10] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-04-25 03:00:10] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-04-25 03:00:10] INFO root fetch - main [MainThread]: Store serial: [22922569]
+[2024-04-25 03:02:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922569]
+[2024-04-25 03:02:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 03:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jx-sqlite
+[2024-04-25 03:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vitortools
+[2024-04-25 03:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: primemetric
+[2024-04-25 03:02:19] INFO root fetch - processPackages [primemetric]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-25 03:02:19] INFO root fetch - processPackages [primemetric]: Downloading https://files.pythonhosted.org/packages/83/c6/d7313100905b368be83ff03a6e1046ddcb7b37a8e6f3964fc663b4b95b3c/primemetric-3.2.0.tar.gz
+[2024-04-25 03:02:19] WARNING root fetch - processPackages [vitortools]: Skipping, unable to determine old version
+[2024-04-25 03:02:19] INFO root fetch - main [MainThread]: End processing [vitortools] error
+[2024-04-25 03:02:19] INFO root fetch - processPackages [jx-sqlite]: New version: [5.607.24116] Old Version: [5.588.24110]
+[2024-04-25 03:02:19] INFO root fetch - processPackages [jx-sqlite]: Downloading https://files.pythonhosted.org/packages/b3/40/ed97251dd7e239d9e91a11f2a75c3e8bec99e480e0dd668132e4d396e12b/jx_sqlite-5.588.24110.tar.gz
+[2024-04-25 03:02:19] INFO root fetch - processPackages [primemetric]: Downloading https://files.pythonhosted.org/packages/26/84/efc059d958d016bf3a345f89a0ce8376d5c05b25fa99ca0c542d80bb30b8/primemetric-3.3.0.tar.gz
+[2024-04-25 03:02:19] INFO root fetch - processPackages [primemetric]: executing diffoscope
+[2024-04-25 03:02:19] INFO root fetch - processPackages [primemetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primemetric-3.2.0.tar.gz tmp/primemetric-3.3.0.tar.gz --markdown 20240425/p/primemetric/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-25 03:02:20] INFO root fetch - processPackages [jx-sqlite]: Downloading https://files.pythonhosted.org/packages/be/7e/8ee31af2efcdd3ef75148a758f5cc87f1a6d9768a140b1737a931f655096/jx_sqlite-5.607.24116.tar.gz
+[2024-04-25 03:02:20] INFO root fetch - processPackages [jx-sqlite]: executing diffoscope
+[2024-04-25 03:02:20] INFO root fetch - processPackages [jx-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jx_sqlite-5.588.24110.tar.gz tmp/jx_sqlite-5.607.24116.tar.gz --markdown 20240425/j/jx-sqlite/5.588.24110-5.607.24116/README.md --exclude *.pyd
+[2024-04-25 03:02:20] INFO root fetch - processPackages [primemetric]: Remove: archive file [/home/abi/fetcher/tmp/primemetric-3.2.0.tar.gz]
+[2024-04-25 03:02:20] INFO root fetch - processPackages [primemetric]: Remove: archive file [/home/abi/fetcher/tmp/primemetric-3.3.0.tar.gz]
+[2024-04-25 03:02:20] INFO root fetch - main [MainThread]: End processing [primemetric]: success
+[2024-04-25 03:02:20] INFO root fetch - processPackages [jx-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/jx_sqlite-5.588.24110.tar.gz]
+[2024-04-25 03:02:20] INFO root fetch - processPackages [jx-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/jx_sqlite-5.607.24116.tar.gz]
+[2024-04-25 03:02:20] INFO root fetch - main [MainThread]: End processing [jx-sqlite]: success
+[2024-04-25 03:02:20] INFO root fetch - main [MainThread]: Store serial: [22922599]
