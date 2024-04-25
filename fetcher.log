@@ -12103,3 +12103,27 @@
 [2024-04-25 08:24:17] INFO root fetch - processPackages [suricata-language-server]: Remove: archive file [/home/abi/fetcher/tmp/suricata_language_server-0.9.3.tar.gz]
 [2024-04-25 08:24:17] INFO root fetch - main [MainThread]: End processing [suricata-language-server]: success
 [2024-04-25 08:24:17] INFO root fetch - main [MainThread]: Store serial: [22926021]
+[2024-04-25 08:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926021]
+[2024-04-25 08:26:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 08:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongo-m
+[2024-04-25 08:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nue
+[2024-04-25 08:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JayttleProcess
+[2024-04-25 08:26:26] WARNING root fetch - processPackages [nue]: Skipping, unable to determine old version
+[2024-04-25 08:26:26] INFO root fetch - main [MainThread]: End processing [nue] error
+[2024-04-25 08:26:26] INFO root fetch - processPackages [JayttleProcess]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-25 08:26:26] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/7d/b6/43c5f950034a3d2db332acbdeb492a10e01c401e81f2087ebf0f778ed980/JayttleProcess-0.2.4-py3-none-any.whl
+[2024-04-25 08:26:26] INFO root fetch - processPackages [mongo-m]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-04-25 08:26:26] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/9b/6b/b0fb4b8c98ad6773d3ad076257dcd420cc32f3ced817971184036e2039e7/mongo_m-1.0.2.tar.gz
+[2024-04-25 08:26:26] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/c1/3d/c13719bcc74d3f4aea9845b040b7b96740113d8de30eb2f3ff9ca51221b2/JayttleProcess-0.2.5-py3-none-any.whl
+[2024-04-25 08:26:26] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/12/2e/bf3166302be56a699da2924146e3d37bb0a4c1fe068f590ee1edc9b5a5b7/mongo_m-1.0.4.tar.gz
+[2024-04-25 08:26:26] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-25 08:26:26] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.2.4-py3-none-any.whl.zip tmp/JayttleProcess-0.2.5-py3-none-any.whl.zip --markdown 20240425/J/JayttleProcess/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-25 08:26:26] INFO root fetch - processPackages [mongo-m]: executing diffoscope
+[2024-04-25 08:26:26] INFO root fetch - processPackages [mongo-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_m-1.0.2.tar.gz tmp/mongo_m-1.0.4.tar.gz --markdown 20240425/m/mongo-m/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-04-25 08:26:27] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.4-py3-none-any.whl.zip]
+[2024-04-25 08:26:27] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.5-py3-none-any.whl.zip]
+[2024-04-25 08:26:27] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-25 08:26:27] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.2.tar.gz]
+[2024-04-25 08:26:27] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.4.tar.gz]
+[2024-04-25 08:26:27] INFO root fetch - main [MainThread]: End processing [mongo-m]: success
+[2024-04-25 08:26:27] INFO root fetch - main [MainThread]: Store serial: [22926030]
