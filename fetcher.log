@@ -21025,3 +21025,194 @@
 [2024-04-25 13:11:19] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2024.4.7.1.tar.gz]
 [2024-04-25 13:11:19] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
 [2024-04-25 13:11:19] INFO root fetch - main [MainThread]: Store serial: [22929333]
+[2024-04-25 13:13:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929333]
+[2024-04-25 13:13:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensr-utils
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybind11-numpy-example
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OctoBot-Trading
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelon-impact-client
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galitime
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py2docfx
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kinya-tn
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autofeather-dash-mantine-components
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keystone-tempest-plugin
+[2024-04-25 13:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-sentry
+[2024-04-25 13:13:28] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [autofeather-dash-mantine-components]: New version: [0.14.3] Old Version: [0.14.24]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [py2docfx]: New version: [0.1.5rc1704966] Old Version: [0.1.5.dev1706185]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [keystone-tempest-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 13:13:28] INFO root fetch - processPackages [galitime]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [kinya-tn]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [pytest-sentry]: New version: [0.3.0rc1] Old Version: [0.3.0]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [pybind11-numpy-example]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 13:13:28] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/2e/d0/1c17d043613ab6f3a3be20ce2e17001a9febb34e0167719c658347ee33bb/autofeather_dash_mantine_components-0.14.24.tar.gz
+[2024-04-25 13:13:28] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/8b/d5/0bb3ce5695fdc380d55687f64ec6b9a9dd420583b3da3b83ebaf1c9ca29e/py2docfx-0.1.5.dev1706185-py3-none-any.whl
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pytest-sentry]: Downloading https://files.pythonhosted.org/packages/7c/7b/79ecce6640882fab9c327debef1ff4a834ac33dbb79f8adc267f4bfbebe0/pytest_sentry-0.3.0.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [galitime]: Downloading https://files.pythonhosted.org/packages/3a/d4/50262e45b4726cbc98c08420dfd965eb550f00c1316bf28ecd2d47353b66/galitime-0.1.2.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [kinya-tn]: Downloading https://files.pythonhosted.org/packages/e3/fb/ee7418fde8289376211e8d3efc265b2f7094c71d2d4a65e2151dbb4076d1/kinya_tn-0.0.1.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [keystone-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/d9/0f/a4a0d1f4b14ce81372af052b132f776d117974c9b2baee7132f0eb83415f/keystone_tempest_plugin-0.8.0.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/e6/38/1b8d34bf587fde7a79d9b937f1fe576d628ffdf0d9ca864081f0f93f7c25/modelon_impact_client-3.8.1.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pybind11-numpy-example]: Downloading https://files.pythonhosted.org/packages/d3/18/df7b926e47ea58fa410f38da56f9c127309ea381488da7fd19f5dd61ef0c/pybind11_numpy_example-0.0.8-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-25 13:13:29] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/f7/c2/d4bd2ca9855cc2078537e54ece7d1522d78240960cac73d26ce097c9d8dc/py2docfx-0.1.5rc1704966-py3-none-any.whl
+[2024-04-25 13:13:29] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.5.dev1706185-py3-none-any.whl.zip tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip --markdown 20240425/p/py2docfx/0.1.5.dev1706185-0.1.5rc1704966/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [kinya-tn]: Downloading https://files.pythonhosted.org/packages/2e/a0/dbd57865e8cf529add6e4baf3f54d47f9fde41e5ea72e24d46631c4b5bc7/kinya_tn-0.0.1.1.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [galitime]: Downloading https://files.pythonhosted.org/packages/69/cb/97552ff935ca2d0c7731aa009588fd3a212287fd4fd7980795048311ba92/galitime-0.1.3.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/9d/c6/3e793263389bff2eeb22aa310853ff3ff2f8f148b6f97945071af23e205d/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl
+[2024-04-25 13:13:29] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pytest-sentry]: Downloading https://files.pythonhosted.org/packages/bd/f6/5523e0a2d7efc456ce35fe2f0422ce48557a1090f92f1417c3ce5259d37a/pytest_sentry-0.3.0rc1.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [keystone-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/4b/49/ed43c287efdec34b755769307dac0156727a106180e55e1f8bc4126e0457/keystone_tempest_plugin-0.9.0.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/60/b8/7c2424190ed68b6558d409ff3ae458f12114b0e2ff5e4df7d07cc9344fd9/modelon_impact_client-3.9.0.tar.gz
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pybind11-numpy-example]: Downloading https://files.pythonhosted.org/packages/69/40/cc67a111d0668d7829a79ad339087b964bd4b2b829cc58e5bc4be5756ae7/pybind11_numpy_example-0.0.9-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-25 13:13:29] INFO root fetch - processPackages [kinya-tn]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [kinya-tn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinya_tn-0.0.1.tar.gz tmp/kinya_tn-0.0.1.1.tar.gz --markdown 20240425/k/kinya-tn/0.0.1-0.0.1.1/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [galitime]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [galitime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galitime-0.1.2.tar.gz tmp/galitime-0.1.3.tar.gz --markdown 20240425/g/galitime/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [autofeather-dash-mantine-components]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [autofeather-dash-mantine-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeather_dash_mantine_components-0.14.24.tar.gz tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip --markdown 20240425/a/autofeather-dash-mantine-components/0.14.24-0.14.3/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.8.1.tar.gz tmp/modelon_impact_client-3.9.0.tar.gz --markdown 20240425/m/modelon-impact-client/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.8.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20240425/O/OctoBot-Trading/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pytest-sentry]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pytest-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_sentry-0.3.0.tar.gz tmp/pytest_sentry-0.3.0rc1.tar.gz --markdown 20240425/p/pytest-sentry/0.3.0-0.3.0rc1/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [keystone-tempest-plugin]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [keystone-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keystone_tempest_plugin-0.8.0.tar.gz tmp/keystone_tempest_plugin-0.9.0.tar.gz --markdown 20240425/k/keystone-tempest-plugin/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pybind11-numpy-example]: executing diffoscope
+[2024-04-25 13:13:29] INFO root fetch - processPackages [pybind11-numpy-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11_numpy_example-0.0.8-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pybind11_numpy_example-0.0.9-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240425/p/pybind11-numpy-example/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: Start processing: opensr-utils
+[2024-04-25 13:13:30] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 13:13:30] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 13:13:30] INFO root fetch - processPackages [galitime]: Remove: archive file [/home/abi/fetcher/tmp/galitime-0.1.2.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - processPackages [galitime]: Remove: archive file [/home/abi/fetcher/tmp/galitime-0.1.3.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - main [MainThread]: End processing [galitime]: success
+[2024-04-25 13:13:30] INFO root fetch - processPackages [kinya-tn]: Remove: archive file [/home/abi/fetcher/tmp/kinya_tn-0.0.1.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - processPackages [kinya-tn]: Remove: archive file [/home/abi/fetcher/tmp/kinya_tn-0.0.1.1.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - main [MainThread]: End processing [kinya-tn]: success
+[2024-04-25 13:13:30] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5.dev1706185-py3-none-any.whl.zip]
+[2024-04-25 13:13:30] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip]
+[2024-04-25 13:13:30] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-25 13:13:30] INFO root fetch - processPackages [pytest-sentry]: Remove: archive file [/home/abi/fetcher/tmp/pytest_sentry-0.3.0.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - processPackages [pytest-sentry]: Remove: archive file [/home/abi/fetcher/tmp/pytest_sentry-0.3.0rc1.tar.gz]
+[2024-04-25 13:13:30] INFO root fetch - main [MainThread]: End processing [pytest-sentry]: success
+[2024-04-25 13:13:31] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.8.1.tar.gz]
+[2024-04-25 13:13:31] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
+[2024-04-25 13:13:31] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2024-04-25 13:13:31] ERROR root fetch - processPackages [pybind11-numpy-example]: Diffoscope failed: time="2024-04-25T13:13:29+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140015262768576)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140015396986368)
+
+[2024-04-25 13:13:31] INFO root fetch - main [MainThread]: End processing [pybind11-numpy-example] error
+[2024-04-25 13:13:31] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.24.tar.gz]
+[2024-04-25 13:13:31] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip]
+[2024-04-25 13:13:31] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
+[2024-04-25 13:13:31] INFO root fetch - processPackages [keystone-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/keystone_tempest_plugin-0.8.0.tar.gz]
+[2024-04-25 13:13:31] INFO root fetch - processPackages [keystone-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/keystone_tempest_plugin-0.9.0.tar.gz]
+[2024-04-25 13:13:31] INFO root fetch - main [MainThread]: End processing [keystone-tempest-plugin]: success
+[2024-04-25 13:13:31] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 13:13:31] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 13:13:31] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 13:13:32] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2024-04-25 13:13:32] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2024-04-25 13:13:32] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2024-04-25 13:13:32] INFO root fetch - main [MainThread]: Store serial: [22929439]
