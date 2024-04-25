@@ -9470,3 +9470,33 @@
 [2024-04-25 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-9.0.2.tar.gz]
 [2024-04-25 05:14:02] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-tfe]: success
 [2024-04-25 05:14:02] INFO root fetch - main [MainThread]: Store serial: [22924600]
+[2024-04-25 05:16:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924600]
+[2024-04-25 05:16:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 05:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: novelai-python
+[2024-04-25 05:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: STAIR-tools
+[2024-04-25 05:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: covalent-cloud
+[2024-04-25 05:16:11] INFO root fetch - processPackages [STAIR-tools]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-25 05:16:11] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.59.1rc0]
+[2024-04-25 05:16:11] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/40/52/d7f841e599aeae9ed56ccdd4b7aaaefd801c055bb4475391b53f34d3f1e9/covalent-cloud-0.59.1rc0.tar.gz
+[2024-04-25 05:16:11] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/c9/a8/ca881a63e8b200aceafdd9fdda77cce27ecffe6b667bf3d1aca220727413/STAIR-tools-1.1.4.tar.gz
+[2024-04-25 05:16:11] INFO root fetch - processPackages [novelai-python]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 05:16:12] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2024-04-25 05:16:12] INFO root fetch - processPackages [novelai-python]: Downloading https://files.pythonhosted.org/packages/cb/0f/d3aaf6c5b8daeb677183113e4d615b1fcb19f8b38cad5c92ef95516f97ec/novelai_python-0.4.8.tar.gz
+[2024-04-25 05:16:12] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2024-04-25 05:16:12] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.59.1rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20240425/c/covalent-cloud/0.59.1rc0-0.8.0rc0/README.md --exclude *.pyd
+[2024-04-25 05:16:12] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/b9/0c/57dd4b9f3ba98f70b87d56463cddbce10c00bf912baf5e0ca2bd3b7d0ed1/STAIR-tools-1.1.5.tar.gz
+[2024-04-25 05:16:12] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-04-25 05:16:12] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.1.4.tar.gz tmp/STAIR-tools-1.1.5.tar.gz --markdown 20240425/S/STAIR-tools/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-25 05:16:12] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.59.1rc0.tar.gz]
+[2024-04-25 05:16:12] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2024-04-25 05:16:12] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2024-04-25 05:16:13] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.4.tar.gz]
+[2024-04-25 05:16:13] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.5.tar.gz]
+[2024-04-25 05:16:13] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-04-25 05:16:13] INFO root fetch - processPackages [novelai-python]: Downloading https://files.pythonhosted.org/packages/13/cd/79b4ff0dcbf22804ac4a8d04a47c3ae6001f952fd6fe16dd7f7cfba108d7/novelai_python-0.4.9.tar.gz
+[2024-04-25 05:16:13] INFO root fetch - processPackages [novelai-python]: executing diffoscope
+[2024-04-25 05:16:13] INFO root fetch - processPackages [novelai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novelai_python-0.4.8.tar.gz tmp/novelai_python-0.4.9.tar.gz --markdown 20240425/n/novelai-python/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 05:16:15] INFO root fetch - processPackages [novelai-python]: Remove: archive file [/home/abi/fetcher/tmp/novelai_python-0.4.8.tar.gz]
+[2024-04-25 05:16:15] INFO root fetch - processPackages [novelai-python]: Remove: archive file [/home/abi/fetcher/tmp/novelai_python-0.4.9.tar.gz]
+[2024-04-25 05:16:15] INFO root fetch - main [MainThread]: End processing [novelai-python]: success
+[2024-04-25 05:16:15] INFO root fetch - main [MainThread]: Store serial: [22924608]
