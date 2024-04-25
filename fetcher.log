@@ -10851,3 +10851,27 @@
 [2024-04-25 06:56:22] INFO root fetch - processPackages [streamlit-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-js-1.0.5.tar.gz]
 [2024-04-25 06:56:22] INFO root fetch - main [MainThread]: End processing [streamlit-js]: success
 [2024-04-25 06:56:22] INFO root fetch - main [MainThread]: Store serial: [22925339]
+[2024-04-25 06:58:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925339]
+[2024-04-25 06:58:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 06:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdf-doctor
+[2024-04-25 06:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-js
+[2024-04-25 06:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spkssoutils
+[2024-04-25 06:58:31] INFO root fetch - processPackages [streamlit-js]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-25 06:58:31] INFO root fetch - processPackages [streamlit-js]: Downloading https://files.pythonhosted.org/packages/4b/23/567c800e30771ad8796ceab51a76129c497ea837b641fa6ce9012d0a212f/streamlit-js-1.0.4.tar.gz
+[2024-04-25 06:58:31] INFO root fetch - processPackages [rdf-doctor]: New version: [1.1.1] Old Version: [1.1.0rc4]
+[2024-04-25 06:58:31] WARNING root fetch - processPackages [spkssoutils]: Skipping, unable to determine old version
+[2024-04-25 06:58:31] INFO root fetch - main [MainThread]: End processing [spkssoutils] error
+[2024-04-25 06:58:32] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/38/ee/d85aef536dbea85ec6c2011bc6ecfa398b61c5f85ac7aa99d65f20b89c80/rdf_doctor-1.1.0rc4-py3-none-any.whl
+[2024-04-25 06:58:32] INFO root fetch - processPackages [streamlit-js]: Downloading https://files.pythonhosted.org/packages/ac/14/1561dd90e579e33a95e5f15f40b34f1ba8650b0150f61c41a372634ba531/streamlit-js-1.0.5.tar.gz
+[2024-04-25 06:58:32] INFO root fetch - processPackages [streamlit-js]: executing diffoscope
+[2024-04-25 06:58:32] INFO root fetch - processPackages [streamlit-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-js-1.0.4.tar.gz tmp/streamlit-js-1.0.5.tar.gz --markdown 20240425/s/streamlit-js/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-25 06:58:32] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/73/4f/63ef69bec540c9f942f97c6a0fa436c1353702bc4d8ead039886d4f5bdb9/rdf_doctor-1.1.1-py3-none-any.whl
+[2024-04-25 06:58:32] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2024-04-25 06:58:32] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.1.0rc4-py3-none-any.whl.zip tmp/rdf_doctor-1.1.1-py3-none-any.whl.zip --markdown 20240425/r/rdf-doctor/1.1.0rc4-1.1.1/README.md --exclude *.pyd
+[2024-04-25 06:58:33] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc4-py3-none-any.whl.zip]
+[2024-04-25 06:58:33] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.1-py3-none-any.whl.zip]
+[2024-04-25 06:58:33] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2024-04-25 06:58:43] INFO root fetch - processPackages [streamlit-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-js-1.0.4.tar.gz]
+[2024-04-25 06:58:43] INFO root fetch - processPackages [streamlit-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-js-1.0.5.tar.gz]
+[2024-04-25 06:58:43] INFO root fetch - main [MainThread]: End processing [streamlit-js]: success
+[2024-04-25 06:58:43] INFO root fetch - main [MainThread]: Store serial: [22925351]
