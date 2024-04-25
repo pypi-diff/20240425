@@ -13823,3 +13823,65 @@
 [2024-04-25 09:35:38] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-04-25 09:35:38] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-04-25 09:35:38] INFO root fetch - main [MainThread]: Store serial: [22926645]
+[2024-04-25 09:37:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926645]
+[2024-04-25 09:37:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplecalculatorkms
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snakemake-storage-plugin-fs
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shii-study
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feasytools
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flamingo
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lalsuite
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxtools
+[2024-04-25 09:37:47] INFO root fetch - processPackages [simplecalculatorkms]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 09:37:47] INFO root fetch - processPackages [feasytools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 09:37:47] INFO root fetch - processPackages [shii-study]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 09:37:47] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-25 09:37:47] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-25 09:37:47] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/db/a3/c1d02b7c5103966962d91918fa012afe453693d9708730a475b736302649/feasytools-0.0.8.tar.gz
+[2024-04-25 09:37:47] INFO root fetch - processPackages [flamingo]: New version: [1.9] Old Version: [1.8]
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ccxtools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-25 09:37:47] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/31/95/88c8c492cb806c8c6fa43caceff7a7c063366ea1034c8ad09d9aed8fc2c8/shii_study-0.0.2-py2.py3-none-any.whl
+[2024-04-25 09:37:47] INFO root fetch - processPackages [simplecalculatorkms]: Downloading https://files.pythonhosted.org/packages/b7/82/3f8e76ca764bbe13c907fa3205b2a05ebbf249c282f41ea5df417eb4b397/simplecalculatorkms-0.0.1.tar.gz
+[2024-04-25 09:37:47] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 09:37:47] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-25 09:37:47] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-25 09:37:47] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Downloading https://files.pythonhosted.org/packages/6b/36/56a14aeac127e6c4b3ea99bc3ccb1e1b842b5b9037006eb30225c1762284/snakemake_storage_plugin_fs-1.0.3.tar.gz
+[2024-04-25 09:37:47] INFO root fetch - processPackages [flamingo]: Downloading https://files.pythonhosted.org/packages/0c/27/a58b5644839ae86cbdaaad37a421ea5624e5a48670d588dd512bac34be1a/flamingo-1.8.tar.gz
+[2024-04-25 09:37:47] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/59/3c/1162be6b438b235c439a74f7069cfff4988ff31c482ed50b62af6d8daf80/ccxtools-0.0.98.tar.gz
+[2024-04-25 09:37:47] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/4f/10/29ae7e35fa67def1e68f2ec67a32736ed190a03b22110929da0937e75708/feasytools-0.0.9.tar.gz
+[2024-04-25 09:37:47] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/0e/ab/ecd507789c5614fa4b6ef68a907f261f90276d09d94ade593a5a2394bfa0/shii_study-0.0.3-py2.py3-none-any.whl
+[2024-04-25 09:37:47] INFO root fetch - processPackages [shii-study]: executing diffoscope
+[2024-04-25 09:37:47] INFO root fetch - processPackages [shii-study]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shii_study-0.0.2-py2.py3-none-any.whl.zip tmp/shii_study-0.0.3-py2.py3-none-any.whl.zip --markdown 20240425/s/shii-study/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 09:37:47] INFO root fetch - processPackages [feasytools]: executing diffoscope
+[2024-04-25 09:37:47] INFO root fetch - processPackages [feasytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feasytools-0.0.8.tar.gz tmp/feasytools-0.0.9.tar.gz --markdown 20240425/f/feasytools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 09:37:47] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Downloading https://files.pythonhosted.org/packages/c5/27/f71901ca918a8fd97c12d6c3cbe7727be07dfd0c6868b0322bcb4443260b/snakemake_storage_plugin_fs-1.0.4.tar.gz
+[2024-04-25 09:37:48] INFO root fetch - processPackages [simplecalculatorkms]: Downloading https://files.pythonhosted.org/packages/fd/9b/6af7be39863102eee40c3cc4c37a4b69bb857449657ad956e97ea02245c8/simplecalculatorkms-0.0.2.tar.gz
+[2024-04-25 09:37:48] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: executing diffoscope
+[2024-04-25 09:37:48] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_storage_plugin_fs-1.0.3.tar.gz tmp/snakemake_storage_plugin_fs-1.0.4.tar.gz --markdown 20240425/s/snakemake-storage-plugin-fs/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-25 09:37:48] INFO root fetch - processPackages [simplecalculatorkms]: executing diffoscope
+[2024-04-25 09:37:48] INFO root fetch - processPackages [simplecalculatorkms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplecalculatorkms-0.0.1.tar.gz tmp/simplecalculatorkms-0.0.2.tar.gz --markdown 20240425/s/simplecalculatorkms/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 09:37:48] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/46/d1/2ef543357126920a506e1b437ff5abb42383e6623a1ef811fdff7ea3994a/ccxtools-0.0.99.tar.gz
+[2024-04-25 09:37:48] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.8.tar.gz]
+[2024-04-25 09:37:48] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.9.tar.gz]
+[2024-04-25 09:37:48] INFO root fetch - main [MainThread]: End processing [feasytools]: success
+[2024-04-25 09:37:48] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2024-04-25 09:37:48] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.98.tar.gz tmp/ccxtools-0.0.99.tar.gz --markdown 20240425/c/ccxtools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-25 09:37:48] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_fs-1.0.3.tar.gz]
+[2024-04-25 09:37:48] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_fs-1.0.4.tar.gz]
+[2024-04-25 09:37:48] INFO root fetch - main [MainThread]: End processing [snakemake-storage-plugin-fs]: success
+[2024-04-25 09:37:48] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-25 09:37:48] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.3-py2.py3-none-any.whl.zip]
+[2024-04-25 09:37:48] INFO root fetch - main [MainThread]: End processing [shii-study]: success
+[2024-04-25 09:37:49] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.98.tar.gz]
+[2024-04-25 09:37:49] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.99.tar.gz]
+[2024-04-25 09:37:49] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2024-04-25 09:37:50] INFO root fetch - processPackages [flamingo]: Downloading https://files.pythonhosted.org/packages/ae/e2/60f4a5cd1f30a287f07703262a35dc18170ef342c7390e0e1e94bc153cb5/flamingo-1.9.tar.gz
+[2024-04-25 09:37:50] INFO root fetch - processPackages [flamingo]: executing diffoscope
+[2024-04-25 09:37:50] INFO root fetch - processPackages [flamingo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamingo-1.8.tar.gz tmp/flamingo-1.9.tar.gz --markdown 20240425/f/flamingo/1.8-1.9/README.md --exclude *.pyd
+[2024-04-25 09:37:54] INFO root fetch - processPackages [flamingo]: Remove: archive file [/home/abi/fetcher/tmp/flamingo-1.8.tar.gz]
+[2024-04-25 09:37:54] INFO root fetch - processPackages [flamingo]: Remove: archive file [/home/abi/fetcher/tmp/flamingo-1.9.tar.gz]
+[2024-04-25 09:37:54] INFO root fetch - main [MainThread]: End processing [flamingo]: success
+[2024-04-25 09:37:57] INFO root fetch - processPackages [simplecalculatorkms]: Remove: archive file [/home/abi/fetcher/tmp/simplecalculatorkms-0.0.1.tar.gz]
+[2024-04-25 09:37:57] INFO root fetch - processPackages [simplecalculatorkms]: Remove: archive file [/home/abi/fetcher/tmp/simplecalculatorkms-0.0.2.tar.gz]
+[2024-04-25 09:37:57] INFO root fetch - main [MainThread]: End processing [simplecalculatorkms]: success
+[2024-04-25 09:37:57] INFO root fetch - main [MainThread]: Store serial: [22926663]
