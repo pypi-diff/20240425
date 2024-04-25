@@ -19102,3 +19102,57 @@
 [2024-04-25 12:03:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-25 12:03:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-25 12:03:00] INFO root fetch - main [MainThread]: Store serial: [22928591]
+[2024-04-25 12:05:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928591]
+[2024-04-25 12:05:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plugget
+[2024-04-25 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testmyct
+[2024-04-25 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-explicit-behave
+[2024-04-25 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digimat.mbio
+[2024-04-25 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail
+[2024-04-25 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brynq-sdk-elastic
+[2024-04-25 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cj-package
+[2024-04-25 12:05:09] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 12:05:09] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 12:05:09] INFO root fetch - processPackages [django-explicit-behave]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-25 12:05:09] WARNING root fetch - processPackages [brynq-sdk-elastic]: Skipping, unable to determine old version
+[2024-04-25 12:05:09] INFO root fetch - main [MainThread]: End processing [brynq-sdk-elastic] error
+[2024-04-25 12:05:09] INFO root fetch - processPackages [plugget]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 12:05:09] INFO root fetch - processPackages [wagtail]: New version: [6.1rc2] Old Version: [6.1rc1]
+[2024-04-25 12:05:09] WARNING root fetch - processPackages [testmyct]: Skipping, unable to determine old version
+[2024-04-25 12:05:09] INFO root fetch - main [MainThread]: End processing [testmyct] error
+[2024-04-25 12:05:09] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-25 12:05:09] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-04-25 12:05:09] INFO root fetch - processPackages [plugget]: Downloading https://files.pythonhosted.org/packages/cc/6d/d5c63dbf4359faf5d124ad174bed7544ee09baac0da4759638c2a3ec3bf4/plugget-0.1.8.tar.gz
+[2024-04-25 12:05:09] INFO root fetch - processPackages [django-explicit-behave]: Downloading https://files.pythonhosted.org/packages/1d/08/4a4401ded1a8547ebd66ad2a8c2b0a49e561f0db4dc4eea67a06d938914a/django-explicit-behave-1.8.1.tar.gz
+[2024-04-25 12:05:09] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/4d/5d/f595e600c825ada75bd8aabb81ebbc81063ecc88c17e3e0a8619af24b59d/wagtail-6.1rc1.tar.gz
+[2024-04-25 12:05:09] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-25 12:05:09] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-04-25 12:05:10] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-25 12:05:10] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240425/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 12:05:10] INFO root fetch - processPackages [plugget]: Downloading https://files.pythonhosted.org/packages/1b/af/5339d14030464ade1b1bb38afb62340018930a48051e60632db25d14e5e2/plugget-0.1.9.tar.gz
+[2024-04-25 12:05:10] INFO root fetch - processPackages [django-explicit-behave]: Downloading https://files.pythonhosted.org/packages/f0/2f/421c53b44245251ca9e5ed51195d0e5b77147f1047b89d024b5212d68c70/django-explicit-behave-1.9.0.tar.gz
+[2024-04-25 12:05:10] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-04-25 12:05:10] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240425/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 12:05:10] INFO root fetch - processPackages [plugget]: executing diffoscope
+[2024-04-25 12:05:10] INFO root fetch - processPackages [plugget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugget-0.1.8.tar.gz tmp/plugget-0.1.9.tar.gz --markdown 20240425/p/plugget/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 12:05:10] INFO root fetch - processPackages [django-explicit-behave]: executing diffoscope
+[2024-04-25 12:05:10] INFO root fetch - processPackages [django-explicit-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-explicit-behave-1.8.1.tar.gz tmp/django-explicit-behave-1.9.0.tar.gz --markdown 20240425/d/django-explicit-behave/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-25 12:05:10] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-25 12:05:10] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-04-25 12:05:10] INFO root fetch - processPackages [plugget]: Remove: archive file [/home/abi/fetcher/tmp/plugget-0.1.8.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - processPackages [plugget]: Remove: archive file [/home/abi/fetcher/tmp/plugget-0.1.9.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - main [MainThread]: End processing [plugget]: success
+[2024-04-25 12:05:10] INFO root fetch - processPackages [django-explicit-behave]: Remove: archive file [/home/abi/fetcher/tmp/django-explicit-behave-1.8.1.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - processPackages [django-explicit-behave]: Remove: archive file [/home/abi/fetcher/tmp/django-explicit-behave-1.9.0.tar.gz]
+[2024-04-25 12:05:10] INFO root fetch - main [MainThread]: End processing [django-explicit-behave]: success
+[2024-04-25 12:05:11] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/f7/51/c0e453b83ff48be1d379957963362c73bc40f89a611e9191ccbae28f9c9c/wagtail-6.1rc2.tar.gz
+[2024-04-25 12:05:12] INFO root fetch - processPackages [wagtail]: executing diffoscope
+[2024-04-25 12:05:12] INFO root fetch - processPackages [wagtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-6.1rc1.tar.gz tmp/wagtail-6.1rc2.tar.gz --markdown 20240425/w/wagtail/6.1rc1-6.1rc2/README.md --exclude *.pyd
+[2024-04-25 12:05:43] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc1.tar.gz]
+[2024-04-25 12:05:43] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc2.tar.gz]
+[2024-04-25 12:05:43] INFO root fetch - main [MainThread]: End processing [wagtail]: success
+[2024-04-25 12:05:43] INFO root fetch - main [MainThread]: Store serial: [22928622]
