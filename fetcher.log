@@ -7653,3 +7653,62 @@
 [2024-04-25 03:23:44] INFO root fetch - processPackages [botocore-a-la-carte-sqs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_a_la_carte_sqs-1.34.91-py3-none-any.whl.zip]
 [2024-04-25 03:23:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sqs]: success
 [2024-04-25 03:23:44] INFO root fetch - main [MainThread]: Store serial: [22923482]
+[2024-04-25 03:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923482]
+[2024-04-25 03:25:58] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-25 03:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923543]
+[2024-04-25 03:28:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ourskyai_platform_api
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ourskyai_sda_api
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ourskyai_astro_api
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediff
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediffx
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: davml
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ourskyai_astro_api]: New version: [1.3.3442] Old Version: [1.3.3368]
+[2024-04-25 03:28:03] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404240127] Old Version: [1.0.0.dev202404230126]
+[2024-04-25 03:28:03] INFO root fetch - processPackages [davml]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ourskyai_platform_api]: New version: [1.3.3442] Old Version: [1.3.3368]
+[2024-04-25 03:28:03] INFO root fetch - processPackages [ourskyai_sda_api]: New version: [1.3.3442] Old Version: [1.3.3368]
+[2024-04-25 03:28:03] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404240127] Old Version: [1.0.0.dev202404230126]
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_astro_api]: Downloading https://files.pythonhosted.org/packages/9f/db/66bbd8d0c5ad6f2b2d22098047c7d2ad5f12f7d148273ccd2f79a454ce59/ourskyai_astro_api-1.3.3368.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/5f/55/ca803f3c296c153f407ae28ec3749e1897200d87c56881db6ded743404a9/onediff-1.0.0.dev202404230126.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [davml]: Downloading https://files.pythonhosted.org/packages/bf/5a/916ae00d7623375bd0e4608e1a6147a26e351ad8eee1c1532c398a608538/davml-1.2.0.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_sda_api]: Downloading https://files.pythonhosted.org/packages/60/45/920c5dfce2257cbb94a26f263d4676d8a71e62fbac0e8dfe9d754188aba7/ourskyai_sda_api-1.3.3368.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_platform_api]: Downloading https://files.pythonhosted.org/packages/2f/3d/a2b58fe1f143334be13f716601f1f3e95c1e53be3fcb9e28ed99cbee8bee/ourskyai_platform_api-1.3.3368.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/22/fe/96470e272665613944f4c600736fea37b1c06f746003e8a4e60183855863/onediffx-1.0.0.dev202404230126.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_astro_api]: Downloading https://files.pythonhosted.org/packages/be/28/9a173bcc60af1373947da42a04a4b6241ef113c773a5e9a8df988186c5c1/ourskyai_astro_api-1.3.3442.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_platform_api]: Downloading https://files.pythonhosted.org/packages/d2/9e/d543c88d18252b207168a1d69a4dc98f0c2acfb2398e6e38692cab07d93d/ourskyai_platform_api-1.3.3442.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_sda_api]: Downloading https://files.pythonhosted.org/packages/ea/ab/af400e04d99628cee5ce6ce289b2096cc042a096455b6de275dfc343cde1/ourskyai_sda_api-1.3.3442.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b4/97/3fb609b270618c2be76b5ffda6b4188ac589318ef4280c895c4eecbd9ed7/onediff-1.0.0.dev202404240127.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_astro_api]: executing diffoscope
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_astro_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_astro_api-1.3.3368.tar.gz tmp/ourskyai_astro_api-1.3.3442.tar.gz --markdown 20240425/o/ourskyai_astro_api/1.3.3368-1.3.3442/README.md --exclude *.pyd
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_sda_api]: executing diffoscope
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_sda_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_sda_api-1.3.3368.tar.gz tmp/ourskyai_sda_api-1.3.3442.tar.gz --markdown 20240425/o/ourskyai_sda_api/1.3.3368-1.3.3442/README.md --exclude *.pyd
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_platform_api]: executing diffoscope
+[2024-04-25 03:28:04] INFO root fetch - processPackages [ourskyai_platform_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_platform_api-1.3.3368.tar.gz tmp/ourskyai_platform_api-1.3.3442.tar.gz --markdown 20240425/o/ourskyai_platform_api/1.3.3368-1.3.3442/README.md --exclude *.pyd
+[2024-04-25 03:28:04] INFO root fetch - processPackages [davml]: Downloading https://files.pythonhosted.org/packages/d9/25/798dad05eb291ff9639d24751a96d6f907fa100385c33e11fa7f9b9f044e/davml-1.3.0.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/87/95/10fc82dc0899d286a81d680ad912e07c0a813911d547ef8a20e54524071e/onediffx-1.0.0.dev202404240127.tar.gz
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404230126.tar.gz tmp/onediff-1.0.0.dev202404240127.tar.gz --markdown 20240425/o/onediff/1.0.0.dev202404230126-1.0.0.dev202404240127/README.md --exclude *.pyd
+[2024-04-25 03:28:04] INFO root fetch - processPackages [davml]: executing diffoscope
+[2024-04-25 03:28:04] INFO root fetch - processPackages [davml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/davml-1.2.0.tar.gz tmp/davml-1.3.0.tar.gz --markdown 20240425/d/davml/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-25 03:28:04] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404230126.tar.gz tmp/onediffx-1.0.0.dev202404240127.tar.gz --markdown 20240425/o/onediffx/1.0.0.dev202404230126-1.0.0.dev202404240127/README.md --exclude *.pyd
+[2024-04-25 03:28:05] INFO root fetch - processPackages [davml]: Remove: archive file [/home/abi/fetcher/tmp/davml-1.2.0.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - processPackages [davml]: Remove: archive file [/home/abi/fetcher/tmp/davml-1.3.0.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - main [MainThread]: End processing [davml]: success
+[2024-04-25 03:28:05] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404230126.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404240127.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-25 03:28:05] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404230126.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404240127.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-25 03:28:05] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3368.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3442.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - main [MainThread]: End processing [ourskyai_platform_api]: success
+[2024-04-25 03:28:05] INFO root fetch - processPackages [ourskyai_astro_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_astro_api-1.3.3368.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - processPackages [ourskyai_astro_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_astro_api-1.3.3442.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - main [MainThread]: End processing [ourskyai_astro_api]: success
+[2024-04-25 03:28:05] INFO root fetch - processPackages [ourskyai_sda_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_sda_api-1.3.3368.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - processPackages [ourskyai_sda_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_sda_api-1.3.3442.tar.gz]
+[2024-04-25 03:28:05] INFO root fetch - main [MainThread]: End processing [ourskyai_sda_api]: success
+[2024-04-25 03:28:05] INFO root fetch - main [MainThread]: Store serial: [22923620]
