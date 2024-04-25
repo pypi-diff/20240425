@@ -7712,3 +7712,18 @@
 [2024-04-25 03:28:05] INFO root fetch - processPackages [ourskyai_sda_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_sda_api-1.3.3442.tar.gz]
 [2024-04-25 03:28:05] INFO root fetch - main [MainThread]: End processing [ourskyai_sda_api]: success
 [2024-04-25 03:28:05] INFO root fetch - main [MainThread]: Store serial: [22923620]
+[2024-04-25 03:30:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923620]
+[2024-04-25 03:30:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 03:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocortext-py
+[2024-04-25 03:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-structured-output
+[2024-04-25 03:30:14] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-25 03:30:14] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-25 03:30:14] INFO root fetch - processPackages [llm-structured-output]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 03:30:14] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/23/58/a6fe6fd07d1ec5c2791f5a5db0ed3b196c60d87bd8e17cc0afa3bc420f68/llm_structured_output-0.0.8.tar.gz
+[2024-04-25 03:30:15] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/77/03/dc0e6c04dafdfdb4b262825150f7096497f03fe68be63f79635f7f47383a/llm_structured_output-0.0.9.tar.gz
+[2024-04-25 03:30:15] INFO root fetch - processPackages [llm-structured-output]: executing diffoscope
+[2024-04-25 03:30:15] INFO root fetch - processPackages [llm-structured-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_structured_output-0.0.8.tar.gz tmp/llm_structured_output-0.0.9.tar.gz --markdown 20240425/l/llm-structured-output/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 03:30:15] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.8.tar.gz]
+[2024-04-25 03:30:15] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.9.tar.gz]
+[2024-04-25 03:30:15] INFO root fetch - main [MainThread]: End processing [llm-structured-output]: success
+[2024-04-25 03:30:15] INFO root fetch - main [MainThread]: Store serial: [22923686]
