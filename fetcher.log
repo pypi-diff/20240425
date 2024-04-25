@@ -10486,3 +10486,23 @@
 [2024-04-25 06:29:34] INFO root fetch - processPackages [pyrogeram]: Remove: archive file [/home/abi/fetcher/tmp/pyrogeram-2.0.107.tar.gz]
 [2024-04-25 06:29:34] INFO root fetch - main [MainThread]: End processing [pyrogeram]: success
 [2024-04-25 06:29:34] INFO root fetch - main [MainThread]: Store serial: [22925188]
+[2024-04-25 06:31:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925188]
+[2024-04-25 06:31:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 06:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-115
+[2024-04-25 06:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spk-development-utils
+[2024-04-25 06:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anprs
+[2024-04-25 06:31:43] INFO root fetch - processPackages [python-115]: New version: [0.0.6.6] Old Version: [0.0.6.5]
+[2024-04-25 06:31:43] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/bb/69/11316c3e3cddba292c8f9f2438bb96969647a4e6b2212dbd37fe7bde6385/python_115-0.0.6.5.tar.gz
+[2024-04-25 06:31:43] INFO root fetch - processPackages [anprs]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-25 06:31:43] WARNING root fetch - processPackages [spk-development-utils]: Skipping, unable to determine old version
+[2024-04-25 06:31:43] INFO root fetch - main [MainThread]: End processing [spk-development-utils] error
+[2024-04-25 06:31:43] INFO root fetch - processPackages [anprs]: Downloading https://files.pythonhosted.org/packages/f1/ff/57eb08094df47d91a2b3a8e7dd2136cf867f42265afd8959fa316c14681e/anprs-0.0.5.tar.gz
+[2024-04-25 06:31:43] WARNING root fetch - processPackages [anprs]: Skipping package: exceeds size limit 14584631>=10485760
+[2024-04-25 06:31:43] INFO root fetch - main [MainThread]: End processing [anprs] error
+[2024-04-25 06:31:43] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/cc/bd/f821bb9a2744d8e0895938d8ccb80a0c1714cb660eb3b21056e959bc2dee/python_115-0.0.6.6.tar.gz
+[2024-04-25 06:31:43] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-25 06:31:43] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.6.5.tar.gz tmp/python_115-0.0.6.6.tar.gz --markdown 20240425/p/python-115/0.0.6.5-0.0.6.6/README.md --exclude *.pyd
+[2024-04-25 06:31:44] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.5.tar.gz]
+[2024-04-25 06:31:44] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.6.tar.gz]
+[2024-04-25 06:31:44] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-25 06:31:44] INFO root fetch - main [MainThread]: Store serial: [22925199]
