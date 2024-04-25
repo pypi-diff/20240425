@@ -9365,3 +9365,18 @@
 [2024-04-25 05:07:31] INFO root fetch - processPackages [tables-io]: Remove: archive file [/home/abi/fetcher/tmp/tables_io-0.9.6.tar.gz]
 [2024-04-25 05:07:31] INFO root fetch - main [MainThread]: End processing [tables-io]: success
 [2024-04-25 05:07:31] INFO root fetch - main [MainThread]: Store serial: [22924566]
+[2024-04-25 05:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924566]
+[2024-04-25 05:09:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 05:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psql-script-generator
+[2024-04-25 05:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytip
+[2024-04-25 05:09:40] WARNING root fetch - processPackages [psql-script-generator]: Skipping, unable to determine old version
+[2024-04-25 05:09:40] INFO root fetch - main [MainThread]: End processing [psql-script-generator] error
+[2024-04-25 05:09:40] INFO root fetch - processPackages [pytip]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 05:09:40] INFO root fetch - processPackages [pytip]: Downloading https://files.pythonhosted.org/packages/d5/b3/67a411bb6203eb5a06eb3cf87f146a0040c6c18ce99290a981d4de972543/pytip-0.0.2-py2.py3-none-any.whl
+[2024-04-25 05:09:40] INFO root fetch - processPackages [pytip]: Downloading https://files.pythonhosted.org/packages/c7/a1/6f1428ed0d1e0649abbe5c617fbca298f6f6714e67953d6d9cc4e3aebeaa/pytip-0.0.3-py2.py3-none-any.whl
+[2024-04-25 05:09:41] INFO root fetch - processPackages [pytip]: executing diffoscope
+[2024-04-25 05:09:41] INFO root fetch - processPackages [pytip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytip-0.0.2-py2.py3-none-any.whl.zip tmp/pytip-0.0.3-py2.py3-none-any.whl.zip --markdown 20240425/p/pytip/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 05:09:41] INFO root fetch - processPackages [pytip]: Remove: archive file [/home/abi/fetcher/tmp/pytip-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-25 05:09:41] INFO root fetch - processPackages [pytip]: Remove: archive file [/home/abi/fetcher/tmp/pytip-0.0.3-py2.py3-none-any.whl.zip]
+[2024-04-25 05:09:41] INFO root fetch - main [MainThread]: End processing [pytip]: success
+[2024-04-25 05:09:41] INFO root fetch - main [MainThread]: Store serial: [22924572]
