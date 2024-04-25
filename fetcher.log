@@ -20424,3 +20424,39 @@
 [2024-04-25 12:47:11] INFO root fetch - processPackages [annoread]: Remove: archive file [/home/abi/fetcher/tmp/annoread-0.1.2.tar.gz]
 [2024-04-25 12:47:11] INFO root fetch - main [MainThread]: End processing [annoread]: success
 [2024-04-25 12:47:11] INFO root fetch - main [MainThread]: Store serial: [22929087]
+[2024-04-25 12:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929087]
+[2024-04-25 12:49:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ozon-api-client
+[2024-04-25 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fluoriclogppka
+[2024-04-25 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uav-collision-avoidance
+[2024-04-25 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: navigator-api
+[2024-04-25 12:49:20] INFO root fetch - processPackages [uav-collision-avoidance]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-25 12:49:20] INFO root fetch - processPackages [navigator-api]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-04-25 12:49:20] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/43/7d/e9c9a0ae0bcad601bf2b3990b6142ca4ec600a0250362ca6b139589860be/uav_collision_avoidance-0.6.1-py3-none-any.whl
+[2024-04-25 12:49:21] INFO root fetch - processPackages [fluoriclogppka]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 12:49:21] INFO root fetch - processPackages [ozon-api-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-25 12:49:21] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/4a/c1/4d2ef0e02aedcb067c1226d3312106df0168bc742bbe6ff3199051a654c5/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 12:49:21] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/76/ed/3167cbb5decf49e09dd9793c8de7d5db29a91464b3e069811854d5620572/uav_collision_avoidance-0.6.2-py3-none-any.whl
+[2024-04-25 12:49:21] INFO root fetch - processPackages [fluoriclogppka]: Downloading https://files.pythonhosted.org/packages/c2/d8/dce3a3774ed58c2c366faf5fbecc44aad6ce5b28ac395ac776638c96c9b4/fluoriclogppka-0.2.1.tar.gz
+[2024-04-25 12:49:21] INFO root fetch - processPackages [ozon-api-client]: Downloading https://files.pythonhosted.org/packages/6f/29/c6c4fa577cc375b3b544eedb2f88552744e1570a3694cd44da9ed0247189/ozon_api_client-0.0.7.tar.gz
+[2024-04-25 12:49:21] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/23/9d/d6e87407f60468f5fc607bc9db56b812d4afaf5641fdc7365a5b358ccfb4/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 12:49:21] INFO root fetch - processPackages [uav-collision-avoidance]: executing diffoscope
+[2024-04-25 12:49:21] INFO root fetch - processPackages [uav-collision-avoidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uav_collision_avoidance-0.6.1-py3-none-any.whl.zip tmp/uav_collision_avoidance-0.6.2-py3-none-any.whl.zip --markdown 20240425/u/uav-collision-avoidance/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-25 12:49:21] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2024-04-25 12:49:21] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240425/n/navigator-api/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-04-25 12:49:21] INFO root fetch - processPackages [ozon-api-client]: Downloading https://files.pythonhosted.org/packages/fa/ed/24f1830ab79a593d7ff8ab356781bf422e3ee71f11bec2d7b8d6f6540fd7/ozon_api_client-0.0.8.tar.gz
+[2024-04-25 12:49:21] INFO root fetch - processPackages [ozon-api-client]: executing diffoscope
+[2024-04-25 12:49:21] INFO root fetch - processPackages [ozon-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozon_api_client-0.0.7.tar.gz tmp/ozon_api_client-0.0.8.tar.gz --markdown 20240425/o/ozon-api-client/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-25 12:49:21] INFO root fetch - processPackages [fluoriclogppka]: Downloading https://files.pythonhosted.org/packages/f6/c0/5cc40db98675a8eec8584778a8f0c030bb3ef75780e7ce9230a469f419af/fluoriclogppka-0.2.2.tar.gz
+[2024-04-25 12:49:22] WARNING root fetch - processPackages [fluoriclogppka]: Skipping package: exceeds size limit 16889276>=10485760
+[2024-04-25 12:49:22] INFO root fetch - main [MainThread]: End processing [fluoriclogppka] error
+[2024-04-25 12:49:22] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.6.1-py3-none-any.whl.zip]
+[2024-04-25 12:49:22] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.6.2-py3-none-any.whl.zip]
+[2024-04-25 12:49:22] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
+[2024-04-25 12:49:22] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 12:49:22] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 12:49:22] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2024-04-25 12:49:24] INFO root fetch - processPackages [ozon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ozon_api_client-0.0.7.tar.gz]
+[2024-04-25 12:49:24] INFO root fetch - processPackages [ozon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ozon_api_client-0.0.8.tar.gz]
+[2024-04-25 12:49:24] INFO root fetch - main [MainThread]: End processing [ozon-api-client]: success
+[2024-04-25 12:49:24] INFO root fetch - main [MainThread]: Store serial: [22929100]
