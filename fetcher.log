@@ -3448,3 +3448,24 @@
 [2024-04-25 02:33:43] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240424.tar.gz]
 [2024-04-25 02:33:43] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-04-25 02:33:43] INFO root fetch - main [MainThread]: Store serial: [22922365]
+[2024-04-25 02:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922365]
+[2024-04-25 02:35:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 02:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Explicit
+[2024-04-25 02:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marimo
+[2024-04-25 02:35:52] INFO root fetch - processPackages [marimo]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-25 02:35:52] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.5rc2] Old Version: [4.7.5rc1]
+[2024-04-25 02:35:52] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/c8/01/0701c1bfe00f081e649df41e1d3c617963c815cff0770d180c7ea5533324/marimo-0.4.3.tar.gz
+[2024-04-25 02:35:53] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/1d/56/35c23d07c1229d68f10d40f2858327819a1bd1f9f0d45c823f8af9f8f0d8/Geode_Explicit-4.7.5rc1-cp39-cp39-win_amd64.whl
+[2024-04-25 02:35:53] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/d1/da/05e78bdd6d07c7681dd6e88e862e39947b71556841b49278103edd1995b6/Geode_Explicit-4.7.5rc2-cp39-cp39-win_amd64.whl
+[2024-04-25 02:35:53] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/fc/be/342a4803ea41f5807fd885bc68f9261c64ba2dee91a988b513d99c7e19db/marimo-0.4.4.tar.gz
+[2024-04-25 02:35:54] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-04-25 02:35:54] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.7.5rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.7.5rc2-cp39-cp39-win_amd64.whl.zip --markdown 20240425/G/Geode-Explicit/4.7.5rc1-4.7.5rc2/README.md --exclude *.pyd
+[2024-04-25 02:35:59] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-04-25 02:35:59] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.4.3.tar.gz tmp/marimo-0.4.4.tar.gz --markdown 20240425/m/marimo/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-25 02:36:17] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 02:36:17] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.5rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 02:36:17] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-04-25 02:37:44] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.4.3.tar.gz]
+[2024-04-25 02:37:44] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.4.4.tar.gz]
+[2024-04-25 02:37:44] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-04-25 02:37:44] INFO root fetch - main [MainThread]: Store serial: [22922375]
