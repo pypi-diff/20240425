@@ -21996,3 +21996,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:40:02] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.0.tar.gz]
 [2024-04-25 13:40:02] INFO root fetch - main [MainThread]: End processing [pricecypher-sdk]: success
 [2024-04-25 13:40:02] INFO root fetch - main [MainThread]: Store serial: [22929770]
+[2024-04-25 13:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929770]
+[2024-04-25 13:42:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daves-utilities
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluepyopt
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkpyai
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiogram-tonconnect
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-21
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybrams
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coppeliasim-zmqremoteapi-client
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotemanager
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scikit-robot
+[2024-04-25 13:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2024-04-25 13:42:12] INFO root fetch - processPackages [kkpyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [pybrams]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [aiogram-tonconnect]: New version: [0.13.5] Old Version: [0.13.4]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/41/d3/9eaff2d61cda5a93cc3aa554dac6f205851c8b6303358abc745bc574c29b/kkpyai-0.8.0.tar.gz
+[2024-04-25 13:42:12] INFO root fetch - processPackages [scikit-robot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [remotemanager]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240425] Old Version: [2.5.0b20240424]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2024-04-25 13:42:12] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-25 13:42:12] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/41/16/1467db4d90d43a602f2ac770596e59914b3bf7bb48b4d75c4a6428304347/daves_utilities-0.1.7.tar.gz
+[2024-04-25 13:42:12] INFO root fetch - processPackages [pybrams]: Downloading https://files.pythonhosted.org/packages/dd/86/5169843f4a612be607c7689869b23c2b84d4c5a52237dfb12733288568c6/pybrams-0.0.8.tar.gz
+[2024-04-25 13:42:12] INFO root fetch - processPackages [aiogram-tonconnect]: Downloading https://files.pythonhosted.org/packages/54/b5/8a650d9441cc5e225915bcf6736199be1176d23550c0919194a139b2eeef/aiogram-tonconnect-0.13.4.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Downloading https://files.pythonhosted.org/packages/d2/f2/4f6fed98e96e86c7c2780e903df6df459de60f2b850858da0d8175155f50/coppeliasim_zmqremoteapi_client-2.0.3.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/3a/50/528a08969afb90065e86c917ad0bd8c483a312df046908703699cd798a92/remotemanager-0.9.8.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/83/f8/968eec3f792863b785669fb08e904c4d1c394d1a0cef96601dc9a5ae21c4/bigdl_core_xe_21-2.5.0b20240424-cp39-cp39-win_amd64.whl
+[2024-04-25 13:42:13] INFO root fetch - processPackages [scikit-robot]: Downloading https://files.pythonhosted.org/packages/ea/5f/c190dc52a33c54ebfaa592b9e1ddf945c15b9ae65dd27d9826b5a9d792a2/scikit-robot-0.0.8.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/5d/fb/68ee41a5230bff7f50616754d4177eecd0f6602c85b5310d16ae044f2361/kkpyai-0.9.0.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/02/51/e461071d827d1fafd2af5fbddbf633fa8ec6fe1cb1a547cb8afe2b45c2ef/bluepyopt-1.9.96.tar.gz
+[2024-04-25 13:42:13] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28703396>=10485760
+[2024-04-25 13:42:13] INFO root fetch - processPackages [bigdl-core-xe-21]: Start processing: personal-graph
+[2024-04-25 13:42:13] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-25 13:42:13] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/cf/e0/f413e701522077db439a83f07e84dbe103cb1682a26eeb96166c6aaf7b18/daves_utilities-0.1.8.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.8.0.tar.gz tmp/kkpyai-0.9.0.tar.gz --markdown 20240425/k/kkpyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 13:42:13] INFO root fetch - processPackages [pybrams]: Downloading https://files.pythonhosted.org/packages/9e/b5/4663cda9e72cfa30e5bbc6e1627fcc37e7d9be9e13c9eb5c5e45710b7296/pybrams-0.0.9.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.7.tar.gz tmp/daves_utilities-0.1.8.tar.gz --markdown 20240425/d/daves-utilities/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 13:42:13] INFO root fetch - processPackages [personal-graph]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 13:42:13] INFO root fetch - processPackages [aiogram-tonconnect]: Downloading https://files.pythonhosted.org/packages/2e/c5/64a4102ce970cbdb2d9502e45c762a2a1a32b8487e4d92f0c7a9a646da19/aiogram-tonconnect-0.13.5.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240425/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 13:42:13] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Downloading https://files.pythonhosted.org/packages/23/69/1014369f1d6b14d39a0337d14029fbdf60bd24ced24aaf1f7b971ba8f9a0/coppeliasim_zmqremoteapi_client-2.0.4.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [pybrams]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [pybrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrams-0.0.8.tar.gz tmp/pybrams-0.0.9.tar.gz --markdown 20240425/p/pybrams/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 13:42:13] INFO root fetch - processPackages [aiogram-tonconnect]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [aiogram-tonconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-tonconnect-0.13.4.tar.gz tmp/aiogram-tonconnect-0.13.5.tar.gz --markdown 20240425/a/aiogram-tonconnect/0.13.4-0.13.5/README.md --exclude *.pyd
+[2024-04-25 13:42:13] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/6c/ad/4dc56a0e10097173d3641ee71fb03814440f99f7f8e09d6b4646fc06a8c1/remotemanager-0.9.9.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/65/0f/18a17694624fbea4932495e5caf19dd6d774a835d6a79289130c89a06a5e/bluepyopt-1.9.98.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [personal-graph]: Downloading https://files.pythonhosted.org/packages/85/85/73045800f3c9235067c8a5d99936933e1882ea27cf7ebb5fc99d75a6e766/personal_graph-0.1.7.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coppeliasim_zmqremoteapi_client-2.0.3.tar.gz tmp/coppeliasim_zmqremoteapi_client-2.0.4.tar.gz --markdown 20240425/c/coppeliasim-zmqremoteapi-client/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-25 13:42:13] INFO root fetch - processPackages [scikit-robot]: Downloading https://files.pythonhosted.org/packages/de/72/5cfd650a69fa6c2eac08c9bce28f0517ba5662ee06a3bd9316c94d4bcc70/scikit-robot-0.0.9.tar.gz
+[2024-04-25 13:42:13] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20240425/b/bluepyopt/1.9.96-1.9.98/README.md --exclude *.pyd
+[2024-04-25 13:42:13] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2024-04-25 13:42:13] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.8.tar.gz tmp/remotemanager-0.9.9.tar.gz --markdown 20240425/r/remotemanager/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 13:42:14] INFO root fetch - processPackages [personal-graph]: Downloading https://files.pythonhosted.org/packages/1a/71/1074db1ce35c3c579b933c977b3b1d6a9b81ba1428f0eccf3932934dda0c/personal_graph-0.1.8.tar.gz
+[2024-04-25 13:42:14] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.8.0.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.9.0.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.7.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.8.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [scikit-robot]: executing diffoscope
+[2024-04-25 13:42:14] INFO root fetch - processPackages [scikit-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-robot-0.0.8.tar.gz tmp/scikit-robot-0.0.9.tar.gz --markdown 20240425/s/scikit-robot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 13:42:14] INFO root fetch - processPackages [personal-graph]: executing diffoscope
+[2024-04-25 13:42:14] INFO root fetch - processPackages [personal-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_graph-0.1.7.tar.gz tmp/personal_graph-0.1.8.tar.gz --markdown 20240425/p/personal-graph/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 13:42:14] INFO root fetch - processPackages [pybrams]: Remove: archive file [/home/abi/fetcher/tmp/pybrams-0.0.8.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [pybrams]: Remove: archive file [/home/abi/fetcher/tmp/pybrams-0.0.9.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [pybrams]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Remove: archive file [/home/abi/fetcher/tmp/coppeliasim_zmqremoteapi_client-2.0.3.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [coppeliasim-zmqremoteapi-client]: Remove: archive file [/home/abi/fetcher/tmp/coppeliasim_zmqremoteapi_client-2.0.4.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [coppeliasim-zmqremoteapi-client]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [aiogram-tonconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-tonconnect-0.13.4.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [aiogram-tonconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-tonconnect-0.13.5.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [aiogram-tonconnect]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.96.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.98.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.8.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.9.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2024-04-25 13:42:14] INFO root fetch - processPackages [personal-graph]: Remove: archive file [/home/abi/fetcher/tmp/personal_graph-0.1.7.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - processPackages [personal-graph]: Remove: archive file [/home/abi/fetcher/tmp/personal_graph-0.1.8.tar.gz]
+[2024-04-25 13:42:14] INFO root fetch - main [MainThread]: End processing [personal-graph]: success
+[2024-04-25 13:42:15] INFO root fetch - processPackages [scikit-robot]: Remove: archive file [/home/abi/fetcher/tmp/scikit-robot-0.0.8.tar.gz]
+[2024-04-25 13:42:15] INFO root fetch - processPackages [scikit-robot]: Remove: archive file [/home/abi/fetcher/tmp/scikit-robot-0.0.9.tar.gz]
+[2024-04-25 13:42:15] INFO root fetch - main [MainThread]: End processing [scikit-robot]: success
+[2024-04-25 13:42:15] INFO root fetch - main [MainThread]: Store serial: [22929804]
