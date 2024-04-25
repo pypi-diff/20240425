@@ -3391,3 +3391,36 @@
 [2024-04-25 02:29:23] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-25 02:29:23] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-25 02:29:23] INFO root fetch - main [MainThread]: Store serial: [22922339]
+[2024-04-25 02:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922339]
+[2024-04-25 02:31:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 02:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-04-25 02:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dscim
+[2024-04-25 02:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-25 02:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocortext-py
+[2024-04-25 02:31:32] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-25 02:31:32] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-25 02:31:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-25 02:31:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-25 02:31:32] INFO root fetch - processPackages [dscim]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-25 02:31:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-25 02:31:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-25 02:31:33] INFO root fetch - processPackages [dscim]: Downloading https://files.pythonhosted.org/packages/17/2b/92aec2136e7fb65858899ffcafbaab98618885e318e9fd09d3ec2fb53b15/dscim-0.5.0.tar.gz
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240425/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240425/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-25 02:31:33] INFO root fetch - processPackages [dscim]: Downloading https://files.pythonhosted.org/packages/3c/46/1220552b773eb0327bd188c89ef4a24a8981322e2297a991fab71966b372/dscim-0.6.0.tar.gz
+[2024-04-25 02:31:33] INFO root fetch - processPackages [dscim]: executing diffoscope
+[2024-04-25 02:31:33] INFO root fetch - processPackages [dscim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dscim-0.5.0.tar.gz tmp/dscim-0.6.0.tar.gz --markdown 20240425/d/dscim/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-25 02:31:33] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-25 02:31:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-25 02:31:33] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-25 02:31:34] INFO root fetch - processPackages [dscim]: Remove: archive file [/home/abi/fetcher/tmp/dscim-0.5.0.tar.gz]
+[2024-04-25 02:31:34] INFO root fetch - processPackages [dscim]: Remove: archive file [/home/abi/fetcher/tmp/dscim-0.6.0.tar.gz]
+[2024-04-25 02:31:34] INFO root fetch - main [MainThread]: End processing [dscim]: success
+[2024-04-25 02:31:34] INFO root fetch - main [MainThread]: Store serial: [22922354]
