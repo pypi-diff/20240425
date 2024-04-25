@@ -11415,3 +11415,30 @@
 [2024-04-25 07:42:31] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a2.tar.gz]
 [2024-04-25 07:42:31] INFO root fetch - main [MainThread]: End processing [dlt]: success
 [2024-04-25 07:42:31] INFO root fetch - main [MainThread]: Store serial: [22925617]
+[2024-04-25 07:44:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925617]
+[2024-04-25 07:44:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 07:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moveread-boxes
+[2024-04-25 07:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moveread-labels
+[2024-04-25 07:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-pack
+[2024-04-25 07:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libmsiecf-python
+[2024-04-25 07:44:42] WARNING root fetch - processPackages [moveread-boxes]: Skipping, unable to determine old version
+[2024-04-25 07:44:42] WARNING root fetch - processPackages [moveread-labels]: Skipping, unable to determine old version
+[2024-04-25 07:44:42] INFO root fetch - main [MainThread]: End processing [moveread-boxes] error
+[2024-04-25 07:44:42] INFO root fetch - main [MainThread]: End processing [moveread-labels] error
+[2024-04-25 07:44:42] INFO root fetch - processPackages [odoo-addon-product-pack]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-25 07:44:42] INFO root fetch - processPackages [libmsiecf-python]: New version: [20240425] Old Version: [20240209]
+[2024-04-25 07:44:42] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/81/2c/3a10d23f50ad9909354cb260805106ac44f845bff2a9194c2666d0021ef3/odoo_addon_product_pack-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-25 07:44:42] INFO root fetch - processPackages [libmsiecf-python]: Downloading https://files.pythonhosted.org/packages/81/1d/5667ad3c85f0a69e283962cecdb95e1204d215dab2ddca788ab511abc631/libmsiecf-python-20240209.tar.gz
+[2024-04-25 07:44:42] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/c9/af/7ec619651d63760d60eba8717acf35c566a57d284886ff16b0edade35b41/odoo_addon_product_pack-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-25 07:44:42] INFO root fetch - processPackages [odoo-addon-product-pack]: executing diffoscope
+[2024-04-25 07:44:42] INFO root fetch - processPackages [odoo-addon-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pack-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_product_pack-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-product-pack/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-25 07:44:42] INFO root fetch - processPackages [libmsiecf-python]: Downloading https://files.pythonhosted.org/packages/7b/a0/fc39151d40b3d0ce5d68190d893ac958d96a9c9ef4b120dc33d39f7b7266/libmsiecf-python-20240425.tar.gz
+[2024-04-25 07:44:43] INFO root fetch - processPackages [libmsiecf-python]: executing diffoscope
+[2024-04-25 07:44:43] INFO root fetch - processPackages [libmsiecf-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmsiecf-python-20240209.tar.gz tmp/libmsiecf-python-20240425.tar.gz --markdown 20240425/l/libmsiecf-python/20240209-20240425/README.md --exclude *.pyd
+[2024-04-25 07:44:43] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-25 07:44:43] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-25 07:44:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pack]: success
+[2024-04-25 07:44:48] INFO root fetch - processPackages [libmsiecf-python]: Remove: archive file [/home/abi/fetcher/tmp/libmsiecf-python-20240209.tar.gz]
+[2024-04-25 07:44:48] INFO root fetch - processPackages [libmsiecf-python]: Remove: archive file [/home/abi/fetcher/tmp/libmsiecf-python-20240425.tar.gz]
+[2024-04-25 07:44:48] INFO root fetch - main [MainThread]: End processing [libmsiecf-python]: success
+[2024-04-25 07:44:48] INFO root fetch - main [MainThread]: Store serial: [22925631]
