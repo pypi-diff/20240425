@@ -11496,3 +11496,24 @@
 [2024-04-25 07:46:58] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.4-py3-none-any.whl.zip]
 [2024-04-25 07:46:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-configurator]: success
 [2024-04-25 07:46:58] INFO root fetch - main [MainThread]: Store serial: [22925647]
+[2024-04-25 07:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925647]
+[2024-04-25 07:49:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hello-world-ly
+[2024-04-25 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moveread-export
+[2024-04-25 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caustic.parser
+[2024-04-25 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moveread-datasets
+[2024-04-25 07:49:08] WARNING root fetch - processPackages [hello-world-ly]: Skipping, unable to determine old version
+[2024-04-25 07:49:08] INFO root fetch - main [MainThread]: End processing [hello-world-ly] error
+[2024-04-25 07:49:08] INFO root fetch - processPackages [caustic.parser]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-25 07:49:08] WARNING root fetch - processPackages [moveread-datasets]: Skipping, unable to determine old version
+[2024-04-25 07:49:08] WARNING root fetch - processPackages [moveread-export]: Skipping, unable to determine old version
+[2024-04-25 07:49:08] INFO root fetch - main [MainThread]: End processing [moveread-datasets] error
+[2024-04-25 07:49:08] INFO root fetch - main [MainThread]: End processing [moveread-export] error
+[2024-04-25 07:49:08] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/37/1f/1018dcd018667d80222ae14c6ae72f92e5fcae982393f2638f0e4787361f/caustic.parser-2.1.0.tar.gz
+[2024-04-25 07:49:09] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/8b/aa/934b235403f6e17c7d32d6c8808679b6754d7c5719c40d9415c544c79c4c/caustic.parser-2.1.1.tar.gz
+[2024-04-25 07:49:09] INFO root fetch - processPackages [caustic.parser]: executing diffoscope
+[2024-04-25 07:49:09] INFO root fetch - processPackages [caustic.parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.parser-2.1.0.tar.gz tmp/caustic.parser-2.1.1.tar.gz --markdown 20240425/c/caustic.parser/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-25 07:49:09] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.1.0.tar.gz]
+[2024-04-25 07:49:09] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.1.1.tar.gz]
+[2024-04-25 07:49:09] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
+[2024-04-25 07:49:09] INFO root fetch - main [MainThread]: Store serial: [22925670]
