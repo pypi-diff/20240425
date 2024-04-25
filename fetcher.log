@@ -17642,3 +17642,85 @@
 [2024-04-25 11:05:15] INFO root fetch - processPackages [ampel-core]: Remove: archive file [/home/abi/fetcher/tmp/ampel_core-0.9.1a0.tar.gz]
 [2024-04-25 11:05:15] INFO root fetch - main [MainThread]: End processing [ampel-core]: success
 [2024-04-25 11:05:15] INFO root fetch - main [MainThread]: Store serial: [22927925]
+[2024-04-25 11:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927925]
+[2024-04-25 11:07:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arithmeticTestPackage-owais-md
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.multimodal
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsiunits
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.timeseries
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentry-nodestore-elastic
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EnhancedWebdriver
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ekuiper
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ekuiper
+[2024-04-25 11:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moltx
+[2024-04-25 11:07:30] INFO root fetch - processPackages [moltx]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240424] Old Version: [1.1.1b20240423]
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240424] Old Version: [1.1.1b20240423]
+[2024-04-25 11:07:31] WARNING root fetch - processPackages [dsiunits]: Skipping, unable to determine old version
+[2024-04-25 11:07:31] INFO root fetch - processPackages [dsiunits]: Start processing: finbourne-identity-sdk
+[2024-04-25 11:07:31] INFO root fetch - main [MainThread]: End processing [dsiunits] error
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240424] Old Version: [1.1.1b20240423]
+[2024-04-25 11:07:31] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/b2/ad/6912d51326c956215b292285c7c88cd7eb093f929e9bdb73532db649e432/moltx-0.9.5.tar.gz
+[2024-04-25 11:07:31] WARNING root fetch - processPackages [arithmeticTestPackage-owais-md]: Skipping, unable to determine old version
+[2024-04-25 11:07:31] INFO root fetch - main [MainThread]: End processing [arithmeticTestPackage-owais-md] error
+[2024-04-25 11:07:31] INFO root fetch - processPackages [EnhancedWebdriver]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 11:07:31] WARNING root fetch - processPackages [sentry-nodestore-elastic]: Skipping, unable to determine old version
+[2024-04-25 11:07:31] INFO root fetch - main [MainThread]: End processing [sentry-nodestore-elastic] error
+[2024-04-25 11:07:31] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-25 11:07:31] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/88/8c/a36b90a9369c8069e8a773b7d26b4bcaac6c292a270cec569f4b88044d9f/autogluon.timeseries-1.1.1b20240423.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/09/2d/7dc9d14379e72ef2799ff624952a0a6528ba4c4af4f3bba9373cac8f5ec8/autogluon.multimodal-1.1.1b20240423.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/cc/10/a1c54f25f7abb7b967d4745c5b1ff332390d9ffa4894d2882f11562b6021/autogluon-1.1.1b20240423.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [EnhancedWebdriver]: Downloading https://files.pythonhosted.org/packages/47/80/0a46333c7fda01e3faab8b86f77e5223230783cfa3b13ba8136e54ed09c2/enhancedwebdriver-0.1.4.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/e7/bb/e76b265926c5847ae3a8a76e07b75983c5f3e5079404b7037a561889072c/autogluon.timeseries-1.1.1b20240424.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/02/d5/fca78498547bcf7dfbadce7474a3c12410c60e8bc9768927e2f90b3abfa2/moltx-0.9.6.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/9e/50/33188afcee0b996fb71918aa585f1651e3b42d00bd3c05cf1c9130fa7160/autogluon-1.1.1b20240424.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240423.tar.gz tmp/autogluon-1.1.1b20240424.tar.gz --markdown 20240425/a/autogluon/1.1.1b20240423-1.1.1b20240424/README.md --exclude *.pyd
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/88/33/b8c82ed0cffdaa44a3724666e90a6793381d62040147424e53d3a5a888c7/autogluon.multimodal-1.1.1b20240424.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240423.tar.gz tmp/autogluon.timeseries-1.1.1b20240424.tar.gz --markdown 20240425/a/autogluon.timeseries/1.1.1b20240423-1.1.1b20240424/README.md --exclude *.pyd
+[2024-04-25 11:07:31] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-04-25 11:07:31] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-0.9.5.tar.gz tmp/moltx-0.9.6.tar.gz --markdown 20240425/m/moltx/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-25 11:07:31] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-25 11:07:31] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240425/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-25 11:07:31] INFO root fetch - processPackages [EnhancedWebdriver]: Downloading https://files.pythonhosted.org/packages/2e/9d/4816ba0cdf25141bb1acb1ad041e8e8b8f85a63aaceebf9bfa823e672525/enhancedwebdriver-0.1.5.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-25 11:07:31] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240423.tar.gz tmp/autogluon.multimodal-1.1.1b20240424.tar.gz --markdown 20240425/a/autogluon.multimodal/1.1.1b20240423-1.1.1b20240424/README.md --exclude *.pyd
+[2024-04-25 11:07:32] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2024-04-25 11:07:32] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20240425/e/ekuiper/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-25 11:07:32] INFO root fetch - processPackages [EnhancedWebdriver]: executing diffoscope
+[2024-04-25 11:07:32] INFO root fetch - processPackages [EnhancedWebdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhancedwebdriver-0.1.4.tar.gz tmp/enhancedwebdriver-0.1.5.tar.gz --markdown 20240425/E/EnhancedWebdriver/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 11:07:32] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2024-04-25 11:07:32] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20240425/e/ekuiper/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-25 11:07:32] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240423.tar.gz]
+[2024-04-25 11:07:32] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240424.tar.gz]
+[2024-04-25 11:07:32] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-25 11:07:32] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.5.tar.gz]
+[2024-04-25 11:07:32] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.6.tar.gz]
+[2024-04-25 11:07:32] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-04-25 11:07:33] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.1.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.2.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2024-04-25 11:07:33] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2024-04-25 11:07:33] INFO root fetch - processPackages [EnhancedWebdriver]: Remove: archive file [/home/abi/fetcher/tmp/enhancedwebdriver-0.1.4.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - processPackages [EnhancedWebdriver]: Remove: archive file [/home/abi/fetcher/tmp/enhancedwebdriver-0.1.5.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - main [MainThread]: End processing [EnhancedWebdriver]: success
+[2024-04-25 11:07:33] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240423.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240424.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-25 11:07:33] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-25 11:07:33] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240423.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240424.tar.gz]
+[2024-04-25 11:07:33] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-25 11:07:33] INFO root fetch - main [MainThread]: Store serial: [22927970]
