@@ -7753,3 +7753,54 @@
 [2024-04-25 03:32:27] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-25 03:32:27] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-25 03:32:27] INFO root fetch - main [MainThread]: Store serial: [22923749]
+[2024-04-25 03:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923749]
+[2024-04-25 03:34:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 03:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mainshortcuts
+[2024-04-25 03:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peutils
+[2024-04-25 03:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberutils
+[2024-04-25 03:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easytl
+[2024-04-25 03:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lucien
+[2024-04-25 03:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kbp2video
+[2024-04-25 03:34:36] WARNING root fetch - processPackages [kbp2video]: Skipping, unable to determine old version
+[2024-04-25 03:34:36] INFO root fetch - main [MainThread]: End processing [kbp2video] error
+[2024-04-25 03:34:36] INFO root fetch - processPackages [peutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-25 03:34:36] INFO root fetch - processPackages [mainshortcuts]: New version: [1.6.76] Old Version: [1.6.75]
+[2024-04-25 03:34:36] INFO root fetch - processPackages [cyberutils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-25 03:34:36] INFO root fetch - processPackages [lucien]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 03:34:36] INFO root fetch - processPackages [easytl]: New version: [0.2.1] Old Version: [0.2.0b2]
+[2024-04-25 03:34:36] INFO root fetch - processPackages [cyberutils]: Downloading https://files.pythonhosted.org/packages/43/16/1c508e68b4de234e93e9dee8ff5912922f845287c28d2448e252c40546e4/cyberutils-0.0.5.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/86/56/fc38c0e7cb317b1857f035c575fbf769b42801fd4ebbac8e63455b682efc/peutils-0.0.98.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/67/a6/151f797b02ad874e429ebc5ef1aaf704d4a595cfc605bed322c2706ab17b/mainshortcuts-1.6.75.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [lucien]: Downloading https://files.pythonhosted.org/packages/09/b6/1ce7b902e6720e0a5f55c814a40380b978a52bca6db8c8c61817aff6de8c/lucien-0.0.1.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/7f/17/6eb094a42caa6844af6472292c90ae4d8e45103f5640727110cfac6cce8d/easytl-0.2.0b2.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [cyberutils]: Downloading https://files.pythonhosted.org/packages/dd/05/41d2543cde70ca609dbd4125c2bbbfc3dd8725fd8832a71c63ff763e3f1b/cyberutils-0.0.6.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [lucien]: Downloading https://files.pythonhosted.org/packages/23/7f/4dcd848deb81ffc7e5383cd86644681f844a11b31f2d6f67ccac4ebcaac8/lucien-0.0.2-cp312-cp312-macosx_14_0_arm64.whl
+[2024-04-25 03:34:36] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/3f/28/5187c37dab6d96fc88a29b814b88c38d6f5f0e30bd1d603831f5b3d6614c/mainshortcuts-1.6.76.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/ba/fe/8c48c448fd9667ae84b126cee4f1683e818dc74524c954a888b5bc50330a/peutils-0.0.99.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [cyberutils]: executing diffoscope
+[2024-04-25 03:34:36] INFO root fetch - processPackages [cyberutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberutils-0.0.5.tar.gz tmp/cyberutils-0.0.6.tar.gz --markdown 20240425/c/cyberutils/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-25 03:34:36] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/c5/62/edb4b5b8162d9d421ceb0292006dfacbf59ccf98d35a15bb12e0933aaebf/easytl-0.2.1.tar.gz
+[2024-04-25 03:34:36] INFO root fetch - processPackages [lucien]: executing diffoscope
+[2024-04-25 03:34:36] INFO root fetch - processPackages [lucien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucien-0.0.1.tar.gz tmp/lucien-0.0.2-cp312-cp312-macosx_14_0_arm64.whl.zip --markdown 20240425/l/lucien/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 03:34:36] INFO root fetch - processPackages [mainshortcuts]: executing diffoscope
+[2024-04-25 03:34:36] INFO root fetch - processPackages [mainshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.75.tar.gz tmp/mainshortcuts-1.6.76.tar.gz --markdown 20240425/m/mainshortcuts/1.6.75-1.6.76/README.md --exclude *.pyd
+[2024-04-25 03:34:36] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-04-25 03:34:36] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.2.0b2.tar.gz tmp/easytl-0.2.1.tar.gz --markdown 20240425/e/easytl/0.2.0b2-0.2.1/README.md --exclude *.pyd
+[2024-04-25 03:34:36] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2024-04-25 03:34:36] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.98.tar.gz tmp/peutils-0.0.99.tar.gz --markdown 20240425/p/peutils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-25 03:34:37] INFO root fetch - processPackages [cyberutils]: Remove: archive file [/home/abi/fetcher/tmp/cyberutils-0.0.5.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - processPackages [cyberutils]: Remove: archive file [/home/abi/fetcher/tmp/cyberutils-0.0.6.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - main [MainThread]: End processing [cyberutils]: success
+[2024-04-25 03:34:37] INFO root fetch - processPackages [lucien]: Remove: archive file [/home/abi/fetcher/tmp/lucien-0.0.1.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - processPackages [lucien]: Remove: archive file [/home/abi/fetcher/tmp/lucien-0.0.2-cp312-cp312-macosx_14_0_arm64.whl.zip]
+[2024-04-25 03:34:37] INFO root fetch - main [MainThread]: End processing [lucien]: success
+[2024-04-25 03:34:37] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.75.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.76.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - main [MainThread]: End processing [mainshortcuts]: success
+[2024-04-25 03:34:37] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.98.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.99.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2024-04-25 03:34:37] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.2.0b2.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.2.1.tar.gz]
+[2024-04-25 03:34:37] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-04-25 03:34:37] INFO root fetch - main [MainThread]: Store serial: [22923824]
