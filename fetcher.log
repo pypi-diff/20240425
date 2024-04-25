@@ -18050,3 +18050,60 @@
 [2024-04-25 11:23:41] INFO root fetch - processPackages [omniverse]: Remove: archive file [/home/abi/fetcher/tmp/omniverse-0.0.8.tar.gz]
 [2024-04-25 11:23:41] INFO root fetch - main [MainThread]: End processing [omniverse]: success
 [2024-04-25 11:23:41] INFO root fetch - main [MainThread]: Store serial: [22928128]
+[2024-04-25 11:25:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928128]
+[2024-04-25 11:25:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvino-dev
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeMeST
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-common-tools
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ops-py-azure-key-vault-report
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbcli-jm
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bert4keras3
+[2024-04-25 11:25:57] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-25 11:25:57] INFO root fetch - processPackages [sbcli-jm]: New version: [4.0.8] Old Version: [4.0.7]
+[2024-04-25 11:25:57] INFO root fetch - processPackages [bert4keras3]: New version: [1.3] Old Version: [1.2.9]
+[2024-04-25 11:25:57] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-25 11:25:57] INFO root fetch - processPackages [openvino-dev]: New version: [2024.1.0] Old Version: [2024.0.0]
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: New version: [5.0.4] Old Version: [5.0.3]
+[2024-04-25 11:25:57] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/67/63/b87ab22181762c2a347d9a45cc69818f5f807d3cb4d533e2a3688636edf4/sbcli_jm-4.0.7.zip
+[2024-04-25 11:25:57] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-25 11:25:57] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/59/e7/7269c6c153de28270125af156b15871c7f7de4f473d24ac40f9c11171c60/bert4keras3-1.2.9-py3-none-any.whl
+[2024-04-25 11:25:57] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/c6/e3/6de3a3532fb3dce4081fa9d7e4e4b916b5a39a3e19cab6dc9ad18a4208bb/database-common-tools-1.1.6.tar.gz
+[2024-04-25 11:25:57] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/92/d9/5f1e3dffb1823fbcd6fc535c17d5c3c611c8340ddb2bd03df54c3dfeaac6/ops_py_azure_key_vault_report-5.0.3.tar.gz
+[2024-04-25 11:25:57] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/fd/7c/99ddc485793406adfccfc678a93cb7681e26443242801fc113a19215ba79/openvino_dev-2024.0.0-14509-py3-none-any.whl
+[2024-04-25 11:25:57] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-25 11:25:57] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/0e/a9/e55405131e9f99fc322ca9eac41fe3039608ec727dcf1b5780b8d898cd67/sbcli_jm-4.0.8.zip
+[2024-04-25 11:25:57] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-25 11:25:57] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240425/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-25 11:25:57] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-25 11:25:57] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.0.7.zip tmp/sbcli_jm-4.0.8.zip --markdown 20240425/s/sbcli-jm/4.0.7-4.0.8/README.md --exclude *.pyd
+[2024-04-25 11:25:58] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/f2/80/73f9b3db714831dc7b41712802d6b74614b26b9a98effa79701bafeb824c/bert4keras3-1.3-py3-none-any.whl
+[2024-04-25 11:25:58] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/05/38/a414e396216a02d3f00d9bc198d7db985e21acdb8c075db5741962ff1eee/database-common-tools-1.1.7.tar.gz
+[2024-04-25 11:25:58] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/22/2a/32aee67c76148d3c064cd33ce667e7c5df8ce051a98cf580c3bb06052002/ops_py_azure_key_vault_report-5.0.4.tar.gz
+[2024-04-25 11:25:58] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: executing diffoscope
+[2024-04-25 11:25:58] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_azure_key_vault_report-5.0.3.tar.gz tmp/ops_py_azure_key_vault_report-5.0.4.tar.gz --markdown 20240425/o/ops-py-azure-key-vault-report/5.0.3-5.0.4/README.md --exclude *.pyd
+[2024-04-25 11:25:58] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-25 11:25:58] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.6.tar.gz tmp/database-common-tools-1.1.7.tar.gz --markdown 20240425/d/database-common-tools/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-25 11:25:58] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-25 11:25:58] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.2.9-py3-none-any.whl.zip tmp/bert4keras3-1.3-py3-none-any.whl.zip --markdown 20240425/b/bert4keras3/1.2.9-1.3/README.md --exclude *.pyd
+[2024-04-25 11:25:58] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-25 11:25:58] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-25 11:25:58] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-25 11:25:58] INFO root fetch - processPackages [openvino-dev]: Downloading https://files.pythonhosted.org/packages/95/e0/26f07522ed343a727a0b5aa10222a5d30b629886c240da2a7fbc67676c4c/openvino_dev-2024.1.0-15008-py3-none-any.whl
+[2024-04-25 11:25:58] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.3.tar.gz]
+[2024-04-25 11:25:58] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.4.tar.gz]
+[2024-04-25 11:25:58] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-report]: success
+[2024-04-25 11:25:58] INFO root fetch - processPackages [openvino-dev]: executing diffoscope
+[2024-04-25 11:25:58] INFO root fetch - processPackages [openvino-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino_dev-2024.0.0-14509-py3-none-any.whl.zip tmp/openvino_dev-2024.1.0-15008-py3-none-any.whl.zip --markdown 20240425/o/openvino-dev/2024.0.0-2024.1.0/README.md --exclude *.pyd
+[2024-04-25 11:25:59] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.6.tar.gz]
+[2024-04-25 11:25:59] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.7.tar.gz]
+[2024-04-25 11:25:59] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-25 11:25:59] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.7.zip]
+[2024-04-25 11:25:59] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.8.zip]
+[2024-04-25 11:25:59] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-25 11:25:59] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.9-py3-none-any.whl.zip]
+[2024-04-25 11:25:59] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.3-py3-none-any.whl.zip]
+[2024-04-25 11:25:59] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-25 11:26:04] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2024.0.0-14509-py3-none-any.whl.zip]
+[2024-04-25 11:26:04] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2024.1.0-15008-py3-none-any.whl.zip]
+[2024-04-25 11:26:04] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
+[2024-04-25 11:26:04] INFO root fetch - main [MainThread]: Store serial: [22928146]
