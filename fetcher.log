@@ -21702,3 +21702,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:29:02] INFO root fetch - processPackages [coverage-control]: Remove: archive file [/home/abi/fetcher/tmp/coverage_control-1.2.0.tar.gz]
 [2024-04-25 13:29:02] INFO root fetch - main [MainThread]: End processing [coverage-control]: success
 [2024-04-25 13:29:02] INFO root fetch - main [MainThread]: Store serial: [22929656]
+[2024-04-25 13:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929656]
+[2024-04-25 13:31:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rh-aws-saml-login
+[2024-04-25 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcnodes-webcam
+[2024-04-25 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-data-services
+[2024-04-25 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTkMenuBar
+[2024-04-25 13:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cefi
+[2024-04-25 13:31:11] INFO root fetch - processPackages [CTkMenuBar]: New version: [0.5] Old Version: [0.4]
+[2024-04-25 13:31:11] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8831123099] Old Version: [2.0.0.dev8779326749]
+[2024-04-25 13:31:11] INFO root fetch - processPackages [rh-aws-saml-login]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 13:31:11] INFO root fetch - processPackages [CTkMenuBar]: Downloading https://files.pythonhosted.org/packages/0b/18/afd16af828aec3ea796ce0eec884879592ee72631aff8c59e3085c5873cf/CTkMenuBar-0.4.tar.gz
+[2024-04-25 13:31:11] WARNING root fetch - processPackages [funcnodes-webcam]: Skipping, unable to determine old version
+[2024-04-25 13:31:11] INFO root fetch - main [MainThread]: End processing [funcnodes-webcam] error
+[2024-04-25 13:31:11] INFO root fetch - processPackages [cefi]: New version: [4.6.8] Old Version: [4.6.7]
+[2024-04-25 13:31:11] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/2a/cd/4436a1e80400795cc3ce9cc1c387f8a34f451b65c47f6c2f36ca5cf6567a/th2_data_services-2.0.0.dev8779326749.tar.gz
+[2024-04-25 13:31:11] INFO root fetch - processPackages [rh-aws-saml-login]: Downloading https://files.pythonhosted.org/packages/6f/80/49c6a9118964d2449ab3b8e27107cfeef17b936c93e665163501df79f8e0/rh_aws_saml_login-0.3.1.tar.gz
+[2024-04-25 13:31:11] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/31/8e/bdbf2dd5625f5bbcb86e99495693386e688cc376d985b484f2938945561e/cefi-4.6.7.tar.gz
+[2024-04-25 13:31:11] INFO root fetch - processPackages [CTkMenuBar]: Downloading https://files.pythonhosted.org/packages/8c/ee/1ce1f36a51cd7be0e17252e2d1bf38740c5815c4abcd0c1869bbdab82e5b/ctkmenubar-0.5.tar.gz
+[2024-04-25 13:31:12] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/1a/10/fed431c66b8014c10bdae811ce13921405e4809aca2af764750cb4d811a4/th2_data_services-2.0.0.dev8831123099.tar.gz
+[2024-04-25 13:31:12] INFO root fetch - processPackages [CTkMenuBar]: executing diffoscope
+[2024-04-25 13:31:12] INFO root fetch - processPackages [CTkMenuBar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkMenuBar-0.4.tar.gz tmp/ctkmenubar-0.5.tar.gz --markdown 20240425/C/CTkMenuBar/0.4-0.5/README.md --exclude *.pyd
+[2024-04-25 13:31:12] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-04-25 13:31:12] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8779326749.tar.gz tmp/th2_data_services-2.0.0.dev8831123099.tar.gz --markdown 20240425/t/th2-data-services/2.0.0.dev8779326749-2.0.0.dev8831123099/README.md --exclude *.pyd
+[2024-04-25 13:31:12] INFO root fetch - processPackages [rh-aws-saml-login]: Downloading https://files.pythonhosted.org/packages/f2/63/9dd3649b85d9304beeaad46879c8f8094963937e6105702d3d6660461b92/rh_aws_saml_login-0.3.2.tar.gz
+[2024-04-25 13:31:12] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/a5/94/6e85e18da3563b1ad7811b6f9e508f3b0f7ddf5cb41fe02283131c7f7091/cefi-4.6.8.tar.gz
+[2024-04-25 13:31:12] INFO root fetch - processPackages [rh-aws-saml-login]: executing diffoscope
+[2024-04-25 13:31:12] INFO root fetch - processPackages [rh-aws-saml-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rh_aws_saml_login-0.3.1.tar.gz tmp/rh_aws_saml_login-0.3.2.tar.gz --markdown 20240425/r/rh-aws-saml-login/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 13:31:12] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-25 13:31:12] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.6.7.tar.gz tmp/cefi-4.6.8.tar.gz --markdown 20240425/c/cefi/4.6.7-4.6.8/README.md --exclude *.pyd
+[2024-04-25 13:31:12] INFO root fetch - processPackages [CTkMenuBar]: Remove: archive file [/home/abi/fetcher/tmp/CTkMenuBar-0.4.tar.gz]
+[2024-04-25 13:31:12] INFO root fetch - processPackages [CTkMenuBar]: Remove: archive file [/home/abi/fetcher/tmp/ctkmenubar-0.5.tar.gz]
+[2024-04-25 13:31:12] INFO root fetch - main [MainThread]: End processing [CTkMenuBar]: success
+[2024-04-25 13:31:12] INFO root fetch - processPackages [rh-aws-saml-login]: Remove: archive file [/home/abi/fetcher/tmp/rh_aws_saml_login-0.3.1.tar.gz]
+[2024-04-25 13:31:12] INFO root fetch - processPackages [rh-aws-saml-login]: Remove: archive file [/home/abi/fetcher/tmp/rh_aws_saml_login-0.3.2.tar.gz]
+[2024-04-25 13:31:12] INFO root fetch - main [MainThread]: End processing [rh-aws-saml-login]: success
+[2024-04-25 13:31:13] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.7.tar.gz]
+[2024-04-25 13:31:13] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.8.tar.gz]
+[2024-04-25 13:31:13] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-25 13:31:13] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8779326749.tar.gz]
+[2024-04-25 13:31:13] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8831123099.tar.gz]
+[2024-04-25 13:31:13] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-04-25 13:31:13] INFO root fetch - main [MainThread]: Store serial: [22929672]
