@@ -12377,3 +12377,48 @@
 [2024-04-25 08:39:51] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev4.tar.gz]
 [2024-04-25 08:39:51] INFO root fetch - main [MainThread]: End processing [nrstitcher-utils]: success
 [2024-04-25 08:39:51] INFO root fetch - main [MainThread]: Store serial: [22926114]
+[2024-04-25 08:41:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926114]
+[2024-04-25 08:42:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 08:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molbox
+[2024-04-25 08:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crop_lca
+[2024-04-25 08:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fs-attestation-safe-eth-py
+[2024-04-25 08:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-04-25 08:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nt2py
+[2024-04-25 08:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pc-monitor-server
+[2024-04-25 08:42:00] WARNING root fetch - processPackages [fs-attestation-safe-eth-py]: Skipping, unable to determine old version
+[2024-04-25 08:42:00] INFO root fetch - main [MainThread]: End processing [fs-attestation-safe-eth-py] error
+[2024-04-25 08:42:00] INFO root fetch - processPackages [nt2py]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-25 08:42:00] INFO root fetch - processPackages [molbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 08:42:00] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-25 08:42:00] WARNING root fetch - processPackages [crop_lca]: Skipping, unable to determine old version
+[2024-04-25 08:42:00] INFO root fetch - main [MainThread]: End processing [crop_lca] error
+[2024-04-25 08:42:00] INFO root fetch - processPackages [pc-monitor-server]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-25 08:42:00] INFO root fetch - processPackages [nt2py]: Downloading https://files.pythonhosted.org/packages/5a/08/e6753891146680f53f3e08e127f2a5da191e88a7af62a3f2ccbf90919f76/nt2py-0.2.1.tar.gz
+[2024-04-25 08:42:00] INFO root fetch - processPackages [molbox]: Downloading https://files.pythonhosted.org/packages/d9/66/c7639430fd2edb4659bb8ec9045dd2349e212bdceb03d4d3ffa8df24f587/molbox-0.1.0.tar.gz
+[2024-04-25 08:42:00] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-25 08:42:00] INFO root fetch - processPackages [pc-monitor-server]: Downloading https://files.pythonhosted.org/packages/ad/93/be174b8e0f4e3d79c7082844b1272ea5a151d6d972dd85dafd6ac2a5c4f2/pc-monitor-server-1.1.0.tar.gz
+[2024-04-25 08:42:00] INFO root fetch - processPackages [molbox]: Downloading https://files.pythonhosted.org/packages/6a/d3/6399b88dcf24a0eb649588f29c8810e9937db11abe41dbe10701ca583d01/molbox-0.1.1.tar.gz
+[2024-04-25 08:42:00] INFO root fetch - processPackages [nt2py]: Downloading https://files.pythonhosted.org/packages/24/41/604188c6551b8b6577db6cb45fc66ed8ae9ab43bcf195c6e5b00f117ca2a/nt2py-0.3.0.tar.gz
+[2024-04-25 08:42:01] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-25 08:42:01] INFO root fetch - processPackages [molbox]: executing diffoscope
+[2024-04-25 08:42:01] INFO root fetch - processPackages [molbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molbox-0.1.0.tar.gz tmp/molbox-0.1.1.tar.gz --markdown 20240425/m/molbox/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 08:42:01] INFO root fetch - processPackages [nt2py]: executing diffoscope
+[2024-04-25 08:42:01] INFO root fetch - processPackages [nt2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nt2py-0.2.1.tar.gz tmp/nt2py-0.3.0.tar.gz --markdown 20240425/n/nt2py/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-25 08:42:01] INFO root fetch - processPackages [pc-monitor-server]: Downloading https://files.pythonhosted.org/packages/06/9a/0bc353fa2bd83b9159eb302e4301ebc7009672087a8bbf5a80caa07c0fab/pc-monitor-server-1.2.0.tar.gz
+[2024-04-25 08:42:01] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-25 08:42:01] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240425/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-25 08:42:01] INFO root fetch - processPackages [pc-monitor-server]: executing diffoscope
+[2024-04-25 08:42:01] INFO root fetch - processPackages [pc-monitor-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pc-monitor-server-1.1.0.tar.gz tmp/pc-monitor-server-1.2.0.tar.gz --markdown 20240425/p/pc-monitor-server/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-25 08:42:01] INFO root fetch - processPackages [nt2py]: Remove: archive file [/home/abi/fetcher/tmp/nt2py-0.2.1.tar.gz]
+[2024-04-25 08:42:01] INFO root fetch - processPackages [nt2py]: Remove: archive file [/home/abi/fetcher/tmp/nt2py-0.3.0.tar.gz]
+[2024-04-25 08:42:01] INFO root fetch - main [MainThread]: End processing [nt2py]: success
+[2024-04-25 08:42:01] INFO root fetch - processPackages [molbox]: Remove: archive file [/home/abi/fetcher/tmp/molbox-0.1.0.tar.gz]
+[2024-04-25 08:42:01] INFO root fetch - processPackages [molbox]: Remove: archive file [/home/abi/fetcher/tmp/molbox-0.1.1.tar.gz]
+[2024-04-25 08:42:01] INFO root fetch - main [MainThread]: End processing [molbox]: success
+[2024-04-25 08:42:02] INFO root fetch - processPackages [pc-monitor-server]: Remove: archive file [/home/abi/fetcher/tmp/pc-monitor-server-1.1.0.tar.gz]
+[2024-04-25 08:42:02] INFO root fetch - processPackages [pc-monitor-server]: Remove: archive file [/home/abi/fetcher/tmp/pc-monitor-server-1.2.0.tar.gz]
+[2024-04-25 08:42:02] INFO root fetch - main [MainThread]: End processing [pc-monitor-server]: success
+[2024-04-25 08:42:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-25 08:42:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-25 08:42:02] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-25 08:42:02] INFO root fetch - main [MainThread]: Store serial: [22926129]
