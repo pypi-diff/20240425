@@ -11517,3 +11517,18 @@
 [2024-04-25 07:49:09] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.1.1.tar.gz]
 [2024-04-25 07:49:09] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
 [2024-04-25 07:49:09] INFO root fetch - main [MainThread]: Store serial: [22925670]
+[2024-04-25 07:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925670]
+[2024-04-25 07:51:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 07:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelscope
+[2024-04-25 07:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello-world-laura-y7860
+[2024-04-25 07:51:18] INFO root fetch - processPackages [modelscope]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-25 07:51:18] WARNING root fetch - processPackages [hello-world-laura-y7860]: Skipping, unable to determine old version
+[2024-04-25 07:51:18] INFO root fetch - main [MainThread]: End processing [hello-world-laura-y7860] error
+[2024-04-25 07:51:18] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/2c/fc/51a4b8bc3de17aedf63b6b05b247fc1cc136babadfd110eeb665fc659a56/modelscope-1.9.4.tar.gz
+[2024-04-25 07:51:20] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/61/a4/dfd710b09f1094d0885c02b1f190125a6d624e3b940ffcb79045f79735a0/modelscope-1.9.5.tar.gz
+[2024-04-25 07:51:20] INFO root fetch - processPackages [modelscope]: executing diffoscope
+[2024-04-25 07:51:20] INFO root fetch - processPackages [modelscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscope-1.9.4.tar.gz tmp/modelscope-1.9.5.tar.gz --markdown 20240425/m/modelscope/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-25 07:51:32] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.9.4.tar.gz]
+[2024-04-25 07:51:32] INFO root fetch - processPackages [modelscope]: Remove: archive file [/home/abi/fetcher/tmp/modelscope-1.9.5.tar.gz]
+[2024-04-25 07:51:32] INFO root fetch - main [MainThread]: End processing [modelscope]: success
+[2024-04-25 07:51:32] INFO root fetch - main [MainThread]: Store serial: [22925678]
