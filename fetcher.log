@@ -10239,3 +10239,42 @@
 [2024-04-25 06:00:24] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip]
 [2024-04-25 06:00:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
 [2024-04-25 06:00:24] INFO root fetch - main [MainThread]: Store serial: [22925003]
+[2024-04-25 06:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925003]
+[2024-04-25 06:02:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 06:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-colab-selenium
+[2024-04-25 06:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lucien
+[2024-04-25 06:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paebot
+[2024-04-25 06:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ldjcourse
+[2024-04-25 06:02:32] INFO root fetch - processPackages [paebot]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 06:02:32] INFO root fetch - processPackages [ldjcourse]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-25 06:02:32] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/3a/31/944ae63f69490efebbc2f4556eb2ac64676a29db8789c6251853b8cf45a2/ldjcourse-0.0.7.8.tar.gz
+[2024-04-25 06:02:32] INFO root fetch - processPackages [paebot]: Downloading https://files.pythonhosted.org/packages/89/81/a7651324e6a07186732d5ddda739ba4e747e6878f8ee6a9b1bb3ea6bb97f/paebot-0.1.1.tar.gz
+[2024-04-25 06:02:32] INFO root fetch - processPackages [lucien]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 06:02:32] INFO root fetch - processPackages [google-colab-selenium]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 06:02:33] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/b4/fa/c89a3aa31269ae21e83af15a6525b1a74639b9340e4abaf00fe86c9ceb50/ldjcourse-0.0.7.9.tar.gz
+[2024-04-25 06:02:33] INFO root fetch - processPackages [lucien]: Downloading https://files.pythonhosted.org/packages/09/b6/1ce7b902e6720e0a5f55c814a40380b978a52bca6db8c8c61817aff6de8c/lucien-0.0.1.tar.gz
+[2024-04-25 06:02:33] INFO root fetch - processPackages [google-colab-selenium]: Downloading https://files.pythonhosted.org/packages/04/c4/50e93922857abbf8fd0727df810ead0d4c410e3c2cf8403a1696291f19b6/google-colab-selenium-1.0.8.tar.gz
+[2024-04-25 06:02:33] INFO root fetch - processPackages [ldjcourse]: executing diffoscope
+[2024-04-25 06:02:33] INFO root fetch - processPackages [ldjcourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldjcourse-0.0.7.8.tar.gz tmp/ldjcourse-0.0.7.9.tar.gz --markdown 20240425/l/ldjcourse/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-25 06:02:33] INFO root fetch - processPackages [paebot]: Downloading https://files.pythonhosted.org/packages/b2/e8/ba6cdf3dc5f1fe76c1bdd8edd01ffc3dad3c652c12a0d51b9ac03cb0e8ff/paebot-0.1.2.tar.gz
+[2024-04-25 06:02:33] INFO root fetch - processPackages [paebot]: executing diffoscope
+[2024-04-25 06:02:33] INFO root fetch - processPackages [paebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paebot-0.1.1.tar.gz tmp/paebot-0.1.2.tar.gz --markdown 20240425/p/paebot/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 06:02:33] INFO root fetch - processPackages [lucien]: Downloading https://files.pythonhosted.org/packages/00/0d/904ad4e5adb8c2e3e104a07d0c00871fcb0bdbcca6040612de3a8ea0e140/lucien-0.0.2.tar.gz
+[2024-04-25 06:02:33] INFO root fetch - processPackages [google-colab-selenium]: Downloading https://files.pythonhosted.org/packages/8c/fd/ac6b668b3ac30bf8cd6d33e17e233d4955cb1cb557b78fbc1c8af3a4841c/google-colab-selenium-1.0.9.tar.gz
+[2024-04-25 06:02:33] INFO root fetch - processPackages [lucien]: executing diffoscope
+[2024-04-25 06:02:33] INFO root fetch - processPackages [lucien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucien-0.0.1.tar.gz tmp/lucien-0.0.2.tar.gz --markdown 20240425/l/lucien/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 06:02:33] INFO root fetch - processPackages [google-colab-selenium]: executing diffoscope
+[2024-04-25 06:02:33] INFO root fetch - processPackages [google-colab-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-colab-selenium-1.0.8.tar.gz tmp/google-colab-selenium-1.0.9.tar.gz --markdown 20240425/g/google-colab-selenium/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 06:02:33] INFO root fetch - processPackages [paebot]: Remove: archive file [/home/abi/fetcher/tmp/paebot-0.1.1.tar.gz]
+[2024-04-25 06:02:33] INFO root fetch - processPackages [paebot]: Remove: archive file [/home/abi/fetcher/tmp/paebot-0.1.2.tar.gz]
+[2024-04-25 06:02:33] INFO root fetch - main [MainThread]: End processing [paebot]: success
+[2024-04-25 06:02:33] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.8.tar.gz]
+[2024-04-25 06:02:33] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.9.tar.gz]
+[2024-04-25 06:02:33] INFO root fetch - main [MainThread]: End processing [ldjcourse]: success
+[2024-04-25 06:02:34] INFO root fetch - processPackages [lucien]: Remove: archive file [/home/abi/fetcher/tmp/lucien-0.0.1.tar.gz]
+[2024-04-25 06:02:34] INFO root fetch - processPackages [lucien]: Remove: archive file [/home/abi/fetcher/tmp/lucien-0.0.2.tar.gz]
+[2024-04-25 06:02:34] INFO root fetch - main [MainThread]: End processing [lucien]: success
+[2024-04-25 06:02:34] INFO root fetch - processPackages [google-colab-selenium]: Remove: archive file [/home/abi/fetcher/tmp/google-colab-selenium-1.0.8.tar.gz]
+[2024-04-25 06:02:34] INFO root fetch - processPackages [google-colab-selenium]: Remove: archive file [/home/abi/fetcher/tmp/google-colab-selenium-1.0.9.tar.gz]
+[2024-04-25 06:02:34] INFO root fetch - main [MainThread]: End processing [google-colab-selenium]: success
+[2024-04-25 06:02:34] INFO root fetch - main [MainThread]: Store serial: [22925013]
