@@ -22909,3 +22909,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:11:28] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.98.tar.gz]
 [2024-04-25 14:11:28] INFO root fetch - main [MainThread]: End processing [volcengine]: success
 [2024-04-25 14:11:28] INFO root fetch - main [MainThread]: Store serial: [22930156]
+[2024-04-25 14:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930156]
+[2024-04-25 14:13:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 14:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dqops
+[2024-04-25 14:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digimat.mbio
+[2024-04-25 14:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bgutils-hddly
+[2024-04-25 14:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AkitaCode
+[2024-04-25 14:13:37] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 14:13:37] INFO root fetch - processPackages [bgutils-hddly]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-25 14:13:37] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-04-25 14:13:37] INFO root fetch - processPackages [AkitaCode]: New version: [2.1] Old Version: [2.0.5]
+[2024-04-25 14:13:37] INFO root fetch - processPackages [dqops]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-25 14:13:37] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/07/22/a69a45ea0621e457373043238ae8172d597dde38054d258752459d22fd6a/bgutils_hddly-1.1.8-py3-none-any.whl
+[2024-04-25 14:13:37] INFO root fetch - processPackages [dqops]: Downloading https://files.pythonhosted.org/packages/65/53/5dc10ed3cbcb13f7da27a8f0427e8d29747742669860b80838f414e98455/dqops-1.1.0.tar.gz
+[2024-04-25 14:13:37] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-04-25 14:13:37] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/68/b8/73eaefe5a7f9214b0aa5443f4083f56d3a6492768411b1a003302b66bf45/bgutils_hddly-1.1.9.tar.gz
+[2024-04-25 14:13:37] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-04-25 14:13:37] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240425/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 14:13:38] INFO root fetch - processPackages [bgutils-hddly]: executing diffoscope
+[2024-04-25 14:13:38] INFO root fetch - processPackages [bgutils-hddly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip tmp/bgutils_hddly-1.1.9.tar.gz --markdown 20240425/b/bgutils-hddly/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-25 14:13:38] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/25/68/c63cbf2dbe7dc7802d0e4f299fcdf2af4677f2864dddaef94bab06f08476/AkitaCode-2.0.5.tar.gz
+[2024-04-25 14:13:38] INFO root fetch - processPackages [dqops]: Downloading https://files.pythonhosted.org/packages/6a/76/71ee1d99ed47159e28cb5b2b9461eb5ecab133a2d2ed33a80fc999e77b2b/dqops-1.2.0.tar.gz
+[2024-04-25 14:13:38] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/29/18/163d6a988e80a15bd40158514237b4191556dc712b8a56dce221055218ed/AkitaCode-2.1-py3-none-any.whl
+[2024-04-25 14:13:38] INFO root fetch - processPackages [dqops]: executing diffoscope
+[2024-04-25 14:13:38] INFO root fetch - processPackages [dqops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqops-1.1.0.tar.gz tmp/dqops-1.2.0.tar.gz --markdown 20240425/d/dqops/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-25 14:13:38] INFO root fetch - processPackages [AkitaCode]: executing diffoscope
+[2024-04-25 14:13:38] INFO root fetch - processPackages [AkitaCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkitaCode-2.0.5.tar.gz tmp/AkitaCode-2.1-py3-none-any.whl.zip --markdown 20240425/A/AkitaCode/2.0.5-2.1/README.md --exclude *.pyd
+[2024-04-25 14:13:38] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip]
+[2024-04-25 14:13:38] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.9.tar.gz]
+[2024-04-25 14:13:38] INFO root fetch - main [MainThread]: End processing [bgutils-hddly]: success
+[2024-04-25 14:13:38] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-04-25 14:13:38] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-04-25 14:13:38] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-04-25 14:13:39] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.0.5.tar.gz]
+[2024-04-25 14:13:39] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.1-py3-none-any.whl.zip]
+[2024-04-25 14:13:39] INFO root fetch - main [MainThread]: End processing [AkitaCode]: success
+[2024-04-25 14:13:43] INFO root fetch - processPackages [dqops]: Remove: archive file [/home/abi/fetcher/tmp/dqops-1.1.0.tar.gz]
+[2024-04-25 14:13:43] INFO root fetch - processPackages [dqops]: Remove: archive file [/home/abi/fetcher/tmp/dqops-1.2.0.tar.gz]
+[2024-04-25 14:13:43] INFO root fetch - main [MainThread]: End processing [dqops]: success
+[2024-04-25 14:13:43] INFO root fetch - main [MainThread]: Store serial: [22930169]
