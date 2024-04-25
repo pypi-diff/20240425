@@ -11081,3 +11081,27 @@
 [2024-04-25 07:13:56] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.4.tar.gz]
 [2024-04-25 07:13:56] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
 [2024-04-25 07:13:56] INFO root fetch - main [MainThread]: Store serial: [22925415]
+[2024-04-25 07:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925415]
+[2024-04-25 07:16:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 07:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emergingtrajectories
+[2024-04-25 07:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shii-study
+[2024-04-25 07:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libutil
+[2024-04-25 07:16:04] INFO root fetch - processPackages [emergingtrajectories]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 07:16:04] WARNING root fetch - processPackages [libutil]: Skipping, unable to determine old version
+[2024-04-25 07:16:04] INFO root fetch - main [MainThread]: End processing [libutil] error
+[2024-04-25 07:16:04] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/1f/3e/3229d6759c17920a1ecd3722791f03aed62c9a3f9ef850794188474c7fb5/emergingtrajectories-0.2.8.tar.gz
+[2024-04-25 07:16:04] INFO root fetch - processPackages [shii-study]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 07:16:05] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/ab/e9/72ab9cce834d775175b401513467f9e132c8e42386177fe136f3e21d64e4/shii_study-0.0.1-py2.py3-none-any.whl
+[2024-04-25 07:16:05] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/44/2f/dc231c0377b6642a32797154e1fd951c910f0b0cd2dbf06a9b7ef5c3c3cc/emergingtrajectories-0.2.9.tar.gz
+[2024-04-25 07:16:05] INFO root fetch - processPackages [emergingtrajectories]: executing diffoscope
+[2024-04-25 07:16:05] INFO root fetch - processPackages [emergingtrajectories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergingtrajectories-0.2.8.tar.gz tmp/emergingtrajectories-0.2.9.tar.gz --markdown 20240425/e/emergingtrajectories/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 07:16:05] INFO root fetch - processPackages [shii-study]: Downloading https://files.pythonhosted.org/packages/31/95/88c8c492cb806c8c6fa43caceff7a7c063366ea1034c8ad09d9aed8fc2c8/shii_study-0.0.2-py2.py3-none-any.whl
+[2024-04-25 07:16:05] INFO root fetch - processPackages [shii-study]: executing diffoscope
+[2024-04-25 07:16:05] INFO root fetch - processPackages [shii-study]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shii_study-0.0.1-py2.py3-none-any.whl.zip tmp/shii_study-0.0.2-py2.py3-none-any.whl.zip --markdown 20240425/s/shii-study/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 07:16:05] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.8.tar.gz]
+[2024-04-25 07:16:05] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.9.tar.gz]
+[2024-04-25 07:16:05] INFO root fetch - main [MainThread]: End processing [emergingtrajectories]: success
+[2024-04-25 07:16:05] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-25 07:16:05] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-25 07:16:05] INFO root fetch - main [MainThread]: End processing [shii-study]: success
+[2024-04-25 07:16:05] INFO root fetch - main [MainThread]: Store serial: [22925424]
