@@ -3562,3 +3562,42 @@
 [2024-04-25 02:42:05] WARNING root fetch - processPackages [Pokemon-Library-ENattRL]: Skipping, unable to determine old version
 [2024-04-25 02:42:05] INFO root fetch - main [MainThread]: End processing [Pokemon-Library-ENattRL] error
 [2024-04-25 02:42:05] INFO root fetch - main [MainThread]: Store serial: [22922414]
+[2024-04-25 02:44:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922414]
+[2024-04-25 02:44:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-core
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vitorpackfunc
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezkl
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: step-in-line
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autocortext-py
+[2024-04-25 02:44:14] INFO root fetch - processPackages [step-in-line]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-25 02:44:14] INFO root fetch - processPackages [step-in-line]: Downloading https://files.pythonhosted.org/packages/ab/62/d22cfb270cd99d92564e6a8a3857e7171ce3bb1a9bb0fb07edc610f165a5/step_in_line-0.4.0.tar.gz
+[2024-04-25 02:44:14] INFO root fetch - processPackages [autocortext-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a91] Old Version: [0.0.8a9]
+[2024-04-25 02:44:14] WARNING root fetch - processPackages [vitorpackfunc]: Skipping, unable to determine old version
+[2024-04-25 02:44:14] INFO root fetch - main [MainThread]: End processing [vitorpackfunc] error
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ezkl]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-04-25 02:44:14] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/30/a5/99efe27c4553fc908bae063691fa205fcf5bd2538d0e696c80fc34f34d40/autocortext_py-0.1.4.tar.gz
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/35/b8/d2d25eb97d594e315f615746fd047807d162f5560508a985fc2559f4d427/ezkl-9.4.4-cp37-abi3-win_amd64.whl
+[2024-04-25 02:44:14] INFO root fetch - processPackages [step-in-line]: Downloading https://files.pythonhosted.org/packages/6d/2f/ed0a733f580848a8ab4f78adddf704475fa1c6985043d0f6f2b3c3f30420/step_in_line-0.4.1.tar.gz
+[2024-04-25 02:44:14] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2024-04-25 02:44:15] INFO root fetch - processPackages [step-in-line]: executing diffoscope
+[2024-04-25 02:44:15] INFO root fetch - processPackages [step-in-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/step_in_line-0.4.0.tar.gz tmp/step_in_line-0.4.1.tar.gz --markdown 20240425/s/step-in-line/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-25 02:44:15] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/22/61/4266ab85417969197dfdf577f3a9a30383cba8a423082e7e441f4a93947d/autocortext_py-0.1.5.tar.gz
+[2024-04-25 02:44:15] INFO root fetch - processPackages [autocortext-py]: executing diffoscope
+[2024-04-25 02:44:15] INFO root fetch - processPackages [autocortext-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocortext_py-0.1.4.tar.gz tmp/autocortext_py-0.1.5.tar.gz --markdown 20240425/a/autocortext-py/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 02:44:15] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/32/b4/4105f0bcace4dc537b6d2751cae134360b89d94a8fbe16f9688fdef835db/ovos_core-0.0.8a91-py3-none-any.whl
+[2024-04-25 02:44:15] WARNING root fetch - processPackages [ovos-core]: Skipping package: exceeds size limit 18553615>=10485760
+[2024-04-25 02:44:15] INFO root fetch - main [MainThread]: End processing [ovos-core] error
+[2024-04-25 02:44:15] INFO root fetch - processPackages [step-in-line]: Remove: archive file [/home/abi/fetcher/tmp/step_in_line-0.4.0.tar.gz]
+[2024-04-25 02:44:15] INFO root fetch - processPackages [step-in-line]: Remove: archive file [/home/abi/fetcher/tmp/step_in_line-0.4.1.tar.gz]
+[2024-04-25 02:44:15] INFO root fetch - main [MainThread]: End processing [step-in-line]: success
+[2024-04-25 02:44:15] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.4.tar.gz]
+[2024-04-25 02:44:15] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.5.tar.gz]
+[2024-04-25 02:44:15] INFO root fetch - main [MainThread]: End processing [autocortext-py]: success
+[2024-04-25 02:44:19] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/ff/15/fdc96339d42c46abf9fef377bacf8cbe08374b76c349b05b84974cb1ea29/ezkl-9.5.0-cp37-abi3-win_amd64.whl
+[2024-04-25 02:44:21] INFO root fetch - processPackages [ezkl]: executing diffoscope
+[2024-04-25 02:44:21] INFO root fetch - processPackages [ezkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezkl-9.4.4-cp37-abi3-win_amd64.whl.zip tmp/ezkl-9.5.0-cp37-abi3-win_amd64.whl.zip --markdown 20240425/e/ezkl/9.4.4-9.5.0/README.md --exclude *.pyd
+[2024-04-25 02:44:21] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-9.4.4-cp37-abi3-win_amd64.whl.zip]
+[2024-04-25 02:44:21] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-9.5.0-cp37-abi3-win_amd64.whl.zip]
+[2024-04-25 02:44:21] INFO root fetch - main [MainThread]: End processing [ezkl]: success
+[2024-04-25 02:44:21] INFO root fetch - main [MainThread]: Store serial: [22922432]
