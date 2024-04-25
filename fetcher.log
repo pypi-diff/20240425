@@ -14887,3 +14887,41 @@
 [2024-04-25 10:17:46] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
 [2024-04-25 10:17:46] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
 [2024-04-25 10:17:46] INFO root fetch - main [MainThread]: Store serial: [22927070]
+[2024-04-25 10:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927070]
+[2024-04-25 10:19:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dliswriter
+[2024-04-25 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qleegss
+[2024-04-25 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chemsource
+[2024-04-25 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: traveltimepy
+[2024-04-25 10:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TineAutomationToolkit
+[2024-04-25 10:19:57] WARNING root fetch - processPackages [dliswriter]: Skipping, unable to determine old version
+[2024-04-25 10:19:57] INFO root fetch - processPackages [TineAutomationToolkit]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-25 10:19:57] INFO root fetch - main [MainThread]: End processing [dliswriter] error
+[2024-04-25 10:19:57] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/a9/d6/595744063c69187c84c8b5bdb81d9d95654eba52e8146344989074e89349/TineAutomationToolkit-1.0.6.tar.gz
+[2024-04-25 10:19:57] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 10:19:57] INFO root fetch - processPackages [chemsource]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 10:19:57] INFO root fetch - processPackages [traveltimepy]: New version: [3.9.6] Old Version: [3.9.4]
+[2024-04-25 10:19:58] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-25 10:19:58] INFO root fetch - processPackages [chemsource]: Downloading https://files.pythonhosted.org/packages/32/86/943303f9477061c8ef33ab6a723c513eb7a65b8ad315abe5b4d5a1f40576/chemsource-1.0.2.tar.gz
+[2024-04-25 10:19:58] INFO root fetch - processPackages [traveltimepy]: Downloading https://files.pythonhosted.org/packages/5d/c8/52f6aa1ab6f09bf0b72dec625918930e8c030cc0ef4ccc075c9f0558fb0e/traveltimepy-3.9.4.tar.gz
+[2024-04-25 10:19:58] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-25 10:19:58] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-25 10:19:58] INFO root fetch - processPackages [TineAutomationToolkit]: Downloading https://files.pythonhosted.org/packages/ec/94/8f880d35e0a8172b09e3a1e747a76316207d62ccf35145c3f688d28e743c/TineAutomationToolkit-1.0.7.tar.gz
+[2024-04-25 10:19:58] INFO root fetch - processPackages [TineAutomationToolkit]: executing diffoscope
+[2024-04-25 10:19:58] INFO root fetch - processPackages [TineAutomationToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TineAutomationToolkit-1.0.6.tar.gz tmp/TineAutomationToolkit-1.0.7.tar.gz --markdown 20240425/T/TineAutomationToolkit/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-25 10:19:58] INFO root fetch - processPackages [chemsource]: Downloading https://files.pythonhosted.org/packages/56/84/8a832a46d06479f61178464600feeb05acecb36d8a9a23f3535b3d2fde3b/chemsource-1.0.3.tar.gz
+[2024-04-25 10:19:58] INFO root fetch - processPackages [traveltimepy]: Downloading https://files.pythonhosted.org/packages/ab/0b/79aaa76e8bfc8f00fd72de47df9dcdc0c50fcb6d2cec63de2ecf4ce3dc85/traveltimepy-3.9.6.tar.gz
+[2024-04-25 10:19:58] INFO root fetch - processPackages [chemsource]: executing diffoscope
+[2024-04-25 10:19:58] INFO root fetch - processPackages [chemsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemsource-1.0.2.tar.gz tmp/chemsource-1.0.3.tar.gz --markdown 20240425/c/chemsource/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 10:19:58] INFO root fetch - processPackages [traveltimepy]: executing diffoscope
+[2024-04-25 10:19:58] INFO root fetch - processPackages [traveltimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traveltimepy-3.9.4.tar.gz tmp/traveltimepy-3.9.6.tar.gz --markdown 20240425/t/traveltimepy/3.9.4-3.9.6/README.md --exclude *.pyd
+[2024-04-25 10:19:59] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.6.tar.gz]
+[2024-04-25 10:19:59] INFO root fetch - processPackages [TineAutomationToolkit]: Remove: archive file [/home/abi/fetcher/tmp/TineAutomationToolkit-1.0.7.tar.gz]
+[2024-04-25 10:19:59] INFO root fetch - main [MainThread]: End processing [TineAutomationToolkit]: success
+[2024-04-25 10:19:59] INFO root fetch - processPackages [chemsource]: Remove: archive file [/home/abi/fetcher/tmp/chemsource-1.0.2.tar.gz]
+[2024-04-25 10:19:59] INFO root fetch - processPackages [chemsource]: Remove: archive file [/home/abi/fetcher/tmp/chemsource-1.0.3.tar.gz]
+[2024-04-25 10:19:59] INFO root fetch - main [MainThread]: End processing [chemsource]: success
+[2024-04-25 10:19:59] INFO root fetch - processPackages [traveltimepy]: Remove: archive file [/home/abi/fetcher/tmp/traveltimepy-3.9.4.tar.gz]
+[2024-04-25 10:19:59] INFO root fetch - processPackages [traveltimepy]: Remove: archive file [/home/abi/fetcher/tmp/traveltimepy-3.9.6.tar.gz]
+[2024-04-25 10:19:59] INFO root fetch - main [MainThread]: End processing [traveltimepy]: success
+[2024-04-25 10:19:59] INFO root fetch - main [MainThread]: Store serial: [22927086]
