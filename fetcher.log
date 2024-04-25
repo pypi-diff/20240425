@@ -14320,3 +14320,61 @@
 [2024-04-25 09:55:37] INFO root fetch - processPackages [desktop-env]: Remove: archive file [/home/abi/fetcher/tmp/desktop_env-0.1.7.tar.gz]
 [2024-04-25 09:55:37] INFO root fetch - main [MainThread]: End processing [desktop-env]: success
 [2024-04-25 09:55:37] INFO root fetch - main [MainThread]: Store serial: [22926848]
+[2024-04-25 09:57:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926848]
+[2024-04-25 09:57:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PREN-flawas
+[2024-04-25 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cloudauth-intl20220809-py2
+[2024-04-25 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stroom
+[2024-04-25 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PREN-flawas
+[2024-04-25 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-cloudauth-intl20220809
+[2024-04-25 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: puerml
+[2024-04-25 09:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsjsonclasses
+[2024-04-25 09:57:47] INFO root fetch - processPackages [puerml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:57:47] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 09:57:47] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 09:57:47] INFO root fetch - processPackages [puerml]: Downloading https://files.pythonhosted.org/packages/c1/e4/523c5c69b02459ffb6e52a1a4b8f011d7875d2eed1aaeae02c5a0c948382/puerml-0.1.8.tar.gz
+[2024-04-25 09:57:47] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809-py2]: New version: [2.0.0] Old Version: [1.0.4]
+[2024-04-25 09:57:47] WARNING root fetch - processPackages [stroom]: Skipping, unable to determine old version
+[2024-04-25 09:57:47] INFO root fetch - main [MainThread]: End processing [stroom] error
+[2024-04-25 09:57:47] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: New version: [2.0.0] Old Version: [1.4.5]
+[2024-04-25 09:57:47] INFO root fetch - processPackages [lsjsonclasses]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-25 09:57:47] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-25 09:57:47] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-25 09:57:47] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809-py2]: Downloading https://files.pythonhosted.org/packages/5c/50/9178a5f2721e25a5072a83cdf22f078ae26731c3a43ca6ef8935e4214d00/alibabacloud_cloudauth-intl20220809_py2-1.0.4.tar.gz
+[2024-04-25 09:57:47] INFO root fetch - processPackages [puerml]: Downloading https://files.pythonhosted.org/packages/17/cb/1f376cc111577cf8439db51d01dd8f17fa7c2754c4ecf4fa961fbb481835/puerml-0.1.9.tar.gz
+[2024-04-25 09:57:47] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/c2/c0/6bcfebe2d691f0b614aed03a389598f22a2dc0abe70ebc012c9aaf6bbc9a/alibabacloud_cloudauth-intl20220809-1.4.5.tar.gz
+[2024-04-25 09:57:47] INFO root fetch - processPackages [lsjsonclasses]: Downloading https://files.pythonhosted.org/packages/f1/6c/539b41dc5f0fbf2be8f19195472cd5f13d992346b38281cc780719c605ae/lsjsonclasses-2.0.0.tar.gz
+[2024-04-25 09:57:47] INFO root fetch - processPackages [puerml]: executing diffoscope
+[2024-04-25 09:57:47] INFO root fetch - processPackages [puerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puerml-0.1.8.tar.gz tmp/puerml-0.1.9.tar.gz --markdown 20240425/p/puerml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809-py2]: Downloading https://files.pythonhosted.org/packages/7c/69/dcd045f3878edcf59db65a03f0f8c1a78300e19cb40854fc9439b2284d5d/alibabacloud_cloudauth-intl20220809_py2-2.0.0.tar.gz
+[2024-04-25 09:57:48] INFO root fetch - processPackages [lsjsonclasses]: Downloading https://files.pythonhosted.org/packages/8a/c5/1093f10c0ca5c4aece01747286a789e178dbf79f56db6e28909e85f0f9a6/lsjsonclasses-2.0.1.tar.gz
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/38/47/a578861b2a6e3a0e307ac061240f142ac58c2ba2f65cbe5917ce61857ad0/alibabacloud_cloudauth-intl20220809-2.0.0.tar.gz
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809-py2]: executing diffoscope
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth-intl20220809_py2-1.0.4.tar.gz tmp/alibabacloud_cloudauth-intl20220809_py2-2.0.0.tar.gz --markdown 20240425/a/alibabacloud-cloudauth-intl20220809-py2/1.0.4-2.0.0/README.md --exclude *.pyd
+[2024-04-25 09:57:48] INFO root fetch - processPackages [lsjsonclasses]: executing diffoscope
+[2024-04-25 09:57:48] INFO root fetch - processPackages [lsjsonclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsjsonclasses-2.0.0.tar.gz tmp/lsjsonclasses-2.0.1.tar.gz --markdown 20240425/l/lsjsonclasses/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: executing diffoscope
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth-intl20220809-1.4.5.tar.gz tmp/alibabacloud_cloudauth-intl20220809-2.0.0.tar.gz --markdown 20240425/a/alibabacloud-cloudauth-intl20220809/1.4.5-2.0.0/README.md --exclude *.pyd
+[2024-04-25 09:57:48] INFO root fetch - processPackages [puerml]: Remove: archive file [/home/abi/fetcher/tmp/puerml-0.1.8.tar.gz]
+[2024-04-25 09:57:48] INFO root fetch - processPackages [puerml]: Remove: archive file [/home/abi/fetcher/tmp/puerml-0.1.9.tar.gz]
+[2024-04-25 09:57:48] INFO root fetch - main [MainThread]: End processing [puerml]: success
+[2024-04-25 09:57:48] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-25 09:57:48] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-25 09:57:48] INFO root fetch - processPackages [lsjsonclasses]: Remove: archive file [/home/abi/fetcher/tmp/lsjsonclasses-2.0.0.tar.gz]
+[2024-04-25 09:57:48] INFO root fetch - processPackages [lsjsonclasses]: Remove: archive file [/home/abi/fetcher/tmp/lsjsonclasses-2.0.1.tar.gz]
+[2024-04-25 09:57:48] INFO root fetch - main [MainThread]: End processing [lsjsonclasses]: success
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809_py2-1.0.4.tar.gz]
+[2024-04-25 09:57:48] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809_py2-2.0.0.tar.gz]
+[2024-04-25 09:57:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth-intl20220809-py2]: success
+[2024-04-25 09:57:49] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-25 09:57:49] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240425/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 09:57:49] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-25 09:57:49] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240425/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 09:57:49] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.4.5.tar.gz]
+[2024-04-25 09:57:49] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-2.0.0.tar.gz]
+[2024-04-25 09:57:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth-intl20220809]: success
+[2024-04-25 09:57:49] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-25 09:57:49] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-25 09:57:49] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-25 09:57:50] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-25 09:57:50] INFO root fetch - main [MainThread]: Store serial: [22926871]
