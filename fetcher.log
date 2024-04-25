@@ -13208,3 +13208,51 @@
 [2024-04-25 09:15:30] INFO root fetch - processPackages [knot-tube]: Remove: archive file [/home/abi/fetcher/tmp/knot_tube-0.2.2.tar.gz]
 [2024-04-25 09:15:30] INFO root fetch - main [MainThread]: End processing [knot-tube]: success
 [2024-04-25 09:15:30] INFO root fetch - main [MainThread]: Store serial: [22926425]
+[2024-04-25 09:17:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926425]
+[2024-04-25 09:17:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 09:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feedback-xblock
+[2024-04-25 09:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ommx-python-mip-adapter
+[2024-04-25 09:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-vod20170321-py2
+[2024-04-25 09:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-vod20170321
+[2024-04-25 09:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-04-25 09:17:39] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-25 09:17:39] INFO root fetch - processPackages [ommx-python-mip-adapter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 09:17:39] INFO root fetch - processPackages [feedback-xblock]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-25 09:17:39] INFO root fetch - processPackages [alibabacloud-vod20170321-py2]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-25 09:17:39] INFO root fetch - processPackages [alibabacloud-vod20170321]: New version: [2.22.0] Old Version: [2.21.0]
+[2024-04-25 09:17:39] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-25 09:17:39] INFO root fetch - processPackages [alibabacloud-vod20170321-py2]: Downloading https://files.pythonhosted.org/packages/79/c1/28595abff8f7b17f532c826f579cf42d5076c6f8ccd09ff3b0f1b6c1d3d3/alibabacloud_vod20170321_py2-1.5.0.tar.gz
+[2024-04-25 09:17:39] INFO root fetch - processPackages [ommx-python-mip-adapter]: Downloading https://files.pythonhosted.org/packages/04/e5/89f7c906c64b2ee73c0118bf49e16abf40082e6ae31f63be322978b0e9e5/ommx_python_mip_adapter-0.1.0.tar.gz
+[2024-04-25 09:17:39] INFO root fetch - processPackages [feedback-xblock]: Downloading https://files.pythonhosted.org/packages/a5/c2/633f16913f3223b05dc5b8e35342501df61d5b2e4fc372cdf778ff7cd187/feedback-xblock-1.5.0.tar.gz
+[2024-04-25 09:17:39] INFO root fetch - processPackages [alibabacloud-vod20170321]: Downloading https://files.pythonhosted.org/packages/24/31/1aee664574a3d531e85d04a3b9a03122411e9af5101cee0b63d1e24a6270/alibabacloud_vod20170321-2.21.0.tar.gz
+[2024-04-25 09:17:39] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-25 09:17:40] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-25 09:17:40] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240425/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-25 09:17:40] INFO root fetch - processPackages [alibabacloud-vod20170321-py2]: Downloading https://files.pythonhosted.org/packages/02/0f/680f1f42bb82adfd6fc44c67c3ea58bdfe9369afd4e305c2c7d2bf621f1c/alibabacloud_vod20170321_py2-1.6.0.tar.gz
+[2024-04-25 09:17:40] INFO root fetch - processPackages [alibabacloud-vod20170321]: Downloading https://files.pythonhosted.org/packages/37/ce/522083aa6c1b3b322f0059af4ffd41fd24580adf53e32ad8f8e6818b2340/alibabacloud_vod20170321-2.22.0.tar.gz
+[2024-04-25 09:17:40] INFO root fetch - processPackages [ommx-python-mip-adapter]: Downloading https://files.pythonhosted.org/packages/32/d0/319437948565b4e781dbc6087f334cd345d26d0819a71d2f88f6d53e6327/ommx_python_mip_adapter-0.1.1.tar.gz
+[2024-04-25 09:17:40] INFO root fetch - processPackages [feedback-xblock]: Downloading https://files.pythonhosted.org/packages/16/d1/ffd56575f4a6060d22c6028e2cdcd438320e0787f107191b3d8763098e98/feedback-xblock-1.6.0.tar.gz
+[2024-04-25 09:17:40] INFO root fetch - processPackages [alibabacloud-vod20170321-py2]: executing diffoscope
+[2024-04-25 09:17:40] INFO root fetch - processPackages [alibabacloud-vod20170321-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vod20170321_py2-1.5.0.tar.gz tmp/alibabacloud_vod20170321_py2-1.6.0.tar.gz --markdown 20240425/a/alibabacloud-vod20170321-py2/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-25 09:17:40] INFO root fetch - processPackages [ommx-python-mip-adapter]: executing diffoscope
+[2024-04-25 09:17:40] INFO root fetch - processPackages [ommx-python-mip-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ommx_python_mip_adapter-0.1.0.tar.gz tmp/ommx_python_mip_adapter-0.1.1.tar.gz --markdown 20240425/o/ommx-python-mip-adapter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 09:17:40] INFO root fetch - processPackages [alibabacloud-vod20170321]: executing diffoscope
+[2024-04-25 09:17:40] INFO root fetch - processPackages [alibabacloud-vod20170321]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vod20170321-2.21.0.tar.gz tmp/alibabacloud_vod20170321-2.22.0.tar.gz --markdown 20240425/a/alibabacloud-vod20170321/2.21.0-2.22.0/README.md --exclude *.pyd
+[2024-04-25 09:17:40] INFO root fetch - processPackages [feedback-xblock]: executing diffoscope
+[2024-04-25 09:17:40] INFO root fetch - processPackages [feedback-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedback-xblock-1.5.0.tar.gz tmp/feedback-xblock-1.6.0.tar.gz --markdown 20240425/f/feedback-xblock/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-25 09:17:41] INFO root fetch - processPackages [ommx-python-mip-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ommx_python_mip_adapter-0.1.0.tar.gz]
+[2024-04-25 09:17:41] INFO root fetch - processPackages [ommx-python-mip-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ommx_python_mip_adapter-0.1.1.tar.gz]
+[2024-04-25 09:17:41] INFO root fetch - main [MainThread]: End processing [ommx-python-mip-adapter]: success
+[2024-04-25 09:17:41] INFO root fetch - processPackages [feedback-xblock]: Remove: archive file [/home/abi/fetcher/tmp/feedback-xblock-1.5.0.tar.gz]
+[2024-04-25 09:17:41] INFO root fetch - processPackages [feedback-xblock]: Remove: archive file [/home/abi/fetcher/tmp/feedback-xblock-1.6.0.tar.gz]
+[2024-04-25 09:17:41] INFO root fetch - main [MainThread]: End processing [feedback-xblock]: success
+[2024-04-25 09:17:42] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-25 09:17:42] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-25 09:17:42] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-25 09:17:42] INFO root fetch - processPackages [alibabacloud-vod20170321-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vod20170321_py2-1.5.0.tar.gz]
+[2024-04-25 09:17:42] INFO root fetch - processPackages [alibabacloud-vod20170321-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vod20170321_py2-1.6.0.tar.gz]
+[2024-04-25 09:17:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-vod20170321-py2]: success
+[2024-04-25 09:17:42] INFO root fetch - processPackages [alibabacloud-vod20170321]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vod20170321-2.21.0.tar.gz]
+[2024-04-25 09:17:42] INFO root fetch - processPackages [alibabacloud-vod20170321]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vod20170321-2.22.0.tar.gz]
+[2024-04-25 09:17:42] INFO root fetch - main [MainThread]: End processing [alibabacloud-vod20170321]: success
+[2024-04-25 09:17:42] INFO root fetch - main [MainThread]: Store serial: [22926439]
