@@ -13520,3 +13520,96 @@
 [2024-04-25 09:26:46] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.2.tar.gz]
 [2024-04-25 09:26:46] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-25 09:26:46] INFO root fetch - main [MainThread]: Store serial: [22926537]
+[2024-04-25 09:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926537]
+[2024-04-25 09:28:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fs-tools
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kv-api
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplecalculatorkms
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kv-fs
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kv-sqlite-sync
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES-client
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fs-tools
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-edi-exchange-template-oca
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: erlab
+[2024-04-25 09:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kv-api
+[2024-04-25 09:28:55] INFO root fetch - processPackages [fs-tools]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-sqlite-sync]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [fs-tools]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-25 09:28:55] WARNING root fetch - processPackages [simplecalculatorkms]: Skipping, unable to determine old version
+[2024-04-25 09:28:55] INFO root fetch - processPackages [simplecalculatorkms]: Start processing: kv-fs
+[2024-04-25 09:28:55] INFO root fetch - main [MainThread]: End processing [simplecalculatorkms] error
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-fs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-fs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.2]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/29/7e/7d75b0606fd9feaa78da506d7c5704d123ba1acaf574d1629e9221bd1259/fs_tools-0.1.5.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [erlab]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/f6/fd/a2680cc5ab46476c6b21f323166d328e5d0c7fbdb1451f1b45a6fdbab7d5/kv_sqlite_sync-0.1.7.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/61/c2/0cd9dfb6d55d90176e03da250e9cd3d7895a17404d1e263d27df26867816/kv_api-0.1.8.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/ce/a2/f35ba564d8ebb6ee16acf46478427e0c7a3b53c0670615888e41f3a659f7/kv_fs-0.1.8.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/29/7e/7d75b0606fd9feaa78da506d7c5704d123ba1acaf574d1629e9221bd1259/fs_tools-0.1.5.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/61/c2/0cd9dfb6d55d90176e03da250e9cd3d7895a17404d1e263d27df26867816/kv_api-0.1.8.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/ce/a2/f35ba564d8ebb6ee16acf46478427e0c7a3b53c0670615888e41f3a659f7/kv_fs-0.1.8.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/71/69/2a60f16596fd4ed04d0ca61a90efa79de5cb29e05413d3d8a70544fa010b/odoo_addon_edi_exchange_template_oca-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-25 09:28:55] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/f6/54/3acf7ffdb080a268be89b6fb7b85f7d827211707d87f4a21786f2b5f35d2/DLMS_SPODES_client-0.8.7.tar.gz
+[2024-04-25 09:28:55] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/64/9f/f2643d0b67c1ae501ceb250103b8c184589ed066befb6ff10f19fae5a2ab/kv_fs-0.1.9.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/c9/5f/218369bdc5ed9088365caa8f4159ae49bbf8cb63d9b2e23ae57e50d1c3d2/erlab-2.3.0.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/1e/b2/f25171e71a6d535fa7b27e3336d68243c754ab5b6beccbda42bd247b98e3/kv_api-0.1.9.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/1e/b2/f25171e71a6d535fa7b27e3336d68243c754ab5b6beccbda42bd247b98e3/kv_api-0.1.9.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/35/dc/71d9618738e2f04df81fab68dc4c94206f00db110fc449ba2fff07b0ebf9/kv_sqlite_sync-0.1.8.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/cd/7d/60b5377d6e0c28706089218966fdda9c0adb2545f1788abc1f757801f8da/fs_tools-0.1.7.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/cd/7d/60b5377d6e0c28706089218966fdda9c0adb2545f1788abc1f757801f8da/fs_tools-0.1.7.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/64/9f/f2643d0b67c1ae501ceb250103b8c184589ed066befb6ff10f19fae5a2ab/kv_fs-0.1.9.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-fs]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_fs-0.1.8.tar.gz tmp/kv_fs-0.1.9.tar.gz --markdown 20240425/k/kv-fs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-api]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_api-0.1.8.tar.gz tmp/kv_api-0.1.9.tar.gz --markdown 20240425/k/kv-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-api]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_api-0.1.8.tar.gz tmp/kv_api-0.1.9.tar.gz --markdown 20240425/k/kv-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-sqlite-sync]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_sqlite_sync-0.1.7.tar.gz tmp/kv_sqlite_sync-0.1.8.tar.gz --markdown 20240425/k/kv-sqlite-sync/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.5.tar.gz tmp/fs_tools-0.1.7.tar.gz --markdown 20240425/f/fs-tools/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.5.tar.gz tmp/fs_tools-0.1.7.tar.gz --markdown 20240425/f/fs-tools/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-fs]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [kv-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_fs-0.1.8.tar.gz tmp/kv_fs-0.1.9.tar.gz --markdown 20240425/k/kv-fs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/28/f9/a71d203b558a8f4dfca3e0b587dcffd1d25bdeb22215d058afbd23fe5938/DLMS_SPODES_client-0.8.8.tar.gz
+[2024-04-25 09:28:56] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/40/b2/a5ef4f8541f56f4ce893fdc68478e0f939846e14433ec9d57af9b5d92995/odoo_addon_edi_exchange_template_oca-16.0.1.1.0-py3-none-any.whl
+[2024-04-25 09:28:56] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_exchange_template_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_edi_exchange_template_oca-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-edi-exchange-template-oca/16.0.1.0.0.2-16.0.1.1.0/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-25 09:28:56] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.7.tar.gz tmp/DLMS_SPODES_client-0.8.8.tar.gz --markdown 20240425/D/DLMS-SPODES-client/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-04-25 09:28:56] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/5c/e0/ce7d7269fd9b64fcb13da7c1edf6b525779e9344dc615b3652bd25554dc0/erlab-2.3.1.tar.gz
+[2024-04-25 09:28:57] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.7.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.8.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - processPackages [kv-sqlite-sync]: Start processing: pythainer
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync]: success
+[2024-04-25 09:28:57] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv_fs-0.1.8.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv_fs-0.1.9.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [kv-fs]: success
+[2024-04-25 09:28:57] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.8.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.9.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [kv-api]: success
+[2024-04-25 09:28:57] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.5.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.7.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [kv-fs]: success
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [kv-api]: success
+[2024-04-25 09:28:57] WARNING root fetch - processPackages [pythainer]: Skipping, unable to determine old version
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [pythainer] error
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-04-25 09:28:57] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_exchange_template_oca-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-25 09:28:57] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_exchange_template_oca-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-exchange-template-oca]: success
+[2024-04-25 09:28:57] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.7.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.8.tar.gz]
+[2024-04-25 09:28:57] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-25 09:28:58] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-25 09:28:58] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.3.0.tar.gz tmp/erlab-2.3.1.tar.gz --markdown 20240425/e/erlab/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-25 09:29:00] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.3.0.tar.gz]
+[2024-04-25 09:29:00] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.3.1.tar.gz]
+[2024-04-25 09:29:00] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-25 09:29:00] INFO root fetch - main [MainThread]: Store serial: [22926575]
