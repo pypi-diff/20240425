@@ -12554,3 +12554,45 @@
 [2024-04-25 08:48:40] INFO root fetch - processPackages [finae]: Remove: archive file [/home/abi/fetcher/tmp/finae-0.0.2.tar.gz]
 [2024-04-25 08:48:40] INFO root fetch - main [MainThread]: End processing [finae]: success
 [2024-04-25 08:48:40] INFO root fetch - main [MainThread]: Store serial: [22926166]
+[2024-04-25 08:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926166]
+[2024-04-25 08:50:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongo-m
+[2024-04-25 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: XBlock
+[2024-04-25 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-cycle-count
+[2024-04-25 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2024-04-25 08:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hscloud
+[2024-04-25 08:50:49] WARNING root fetch - processPackages [odoo-addon-stock-cycle-count]: Skipping, unable to determine old version
+[2024-04-25 08:50:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-cycle-count] error
+[2024-04-25 08:50:49] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-04-25 08:50:49] INFO root fetch - processPackages [mongo-m]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-04-25 08:50:49] INFO root fetch - processPackages [XBlock]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-25 08:50:49] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-25 08:50:49] INFO root fetch - processPackages [hscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 08:50:49] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/9b/6b/b0fb4b8c98ad6773d3ad076257dcd420cc32f3ced817971184036e2039e7/mongo_m-1.0.2.tar.gz
+[2024-04-25 08:50:49] INFO root fetch - processPackages [XBlock]: Downloading https://files.pythonhosted.org/packages/80/10/16ff3b8cead2b759b57ad7a5e7012af3f3d3fd88aa358196e507ea3ad220/XBlock-4.0.0.tar.gz
+[2024-04-25 08:50:49] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-04-25 08:50:49] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/02/45dd03a45f7c7a02cb7254ba10449e7cee5308653144f5ba3829f47a9f95/hscloud-0.0.8.tar.gz
+[2024-04-25 08:50:49] INFO root fetch - processPackages [mongo-m]: Downloading https://files.pythonhosted.org/packages/12/2e/bf3166302be56a699da2924146e3d37bb0a4c1fe068f590ee1edc9b5a5b7/mongo_m-1.0.4.tar.gz
+[2024-04-25 08:50:49] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-25 08:50:49] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240425/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-04-25 08:50:49] INFO root fetch - processPackages [mongo-m]: executing diffoscope
+[2024-04-25 08:50:49] INFO root fetch - processPackages [mongo-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_m-1.0.2.tar.gz tmp/mongo_m-1.0.4.tar.gz --markdown 20240425/m/mongo-m/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-04-25 08:50:49] INFO root fetch - processPackages [XBlock]: Downloading https://files.pythonhosted.org/packages/93/09/096284609df0b4e0532bff65e338eac3271576866de8144edef1625765b1/XBlock-4.0.1.tar.gz
+[2024-04-25 08:50:49] INFO root fetch - processPackages [XBlock]: executing diffoscope
+[2024-04-25 08:50:49] INFO root fetch - processPackages [XBlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XBlock-4.0.0.tar.gz tmp/XBlock-4.0.1.tar.gz --markdown 20240425/X/XBlock/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-04-25 08:50:50] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/e6/f838691fae0fc1cf3bfe46d0899724f827e6907654effae7a11cc2a085e4/hscloud-0.0.9.tar.gz
+[2024-04-25 08:50:50] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-04-25 08:50:50] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.8.tar.gz tmp/hscloud-0.0.9.tar.gz --markdown 20240425/h/hscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 08:50:50] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.2.tar.gz]
+[2024-04-25 08:50:50] INFO root fetch - processPackages [mongo-m]: Remove: archive file [/home/abi/fetcher/tmp/mongo_m-1.0.4.tar.gz]
+[2024-04-25 08:50:50] INFO root fetch - main [MainThread]: End processing [mongo-m]: success
+[2024-04-25 08:50:50] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-25 08:50:50] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-04-25 08:50:50] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-25 08:50:50] INFO root fetch - processPackages [XBlock]: Remove: archive file [/home/abi/fetcher/tmp/XBlock-4.0.0.tar.gz]
+[2024-04-25 08:50:50] INFO root fetch - processPackages [XBlock]: Remove: archive file [/home/abi/fetcher/tmp/XBlock-4.0.1.tar.gz]
+[2024-04-25 08:50:50] INFO root fetch - main [MainThread]: End processing [XBlock]: success
+[2024-04-25 08:50:51] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.8.tar.gz]
+[2024-04-25 08:50:51] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.9.tar.gz]
+[2024-04-25 08:50:51] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-04-25 08:50:51] INFO root fetch - main [MainThread]: Store serial: [22926177]
