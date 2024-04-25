@@ -8064,3 +8064,30 @@
 [2024-04-25 03:49:59] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
 [2024-04-25 03:49:59] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
 [2024-04-25 03:49:59] INFO root fetch - main [MainThread]: Store serial: [22924072]
+[2024-04-25 03:52:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924072]
+[2024-04-25 03:52:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enhomie
+[2024-04-25 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basedpyright
+[2024-04-25 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NstudyPy
+[2024-04-25 03:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinxcontrib-data-pipeline
+[2024-04-25 03:52:07] INFO root fetch - processPackages [enhomie]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-25 03:52:07] WARNING root fetch - processPackages [NstudyPy]: Skipping, unable to determine old version
+[2024-04-25 03:52:07] INFO root fetch - main [MainThread]: End processing [NstudyPy] error
+[2024-04-25 03:52:07] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-25 03:52:07] WARNING root fetch - processPackages [sphinxcontrib-data-pipeline]: Skipping, unable to determine old version
+[2024-04-25 03:52:07] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-data-pipeline] error
+[2024-04-25 03:52:08] INFO root fetch - processPackages [enhomie]: Downloading https://files.pythonhosted.org/packages/3c/27/e2752e30265b9beaeefed2350c66c35b1534b06949117acdba758957c91a/enhomie-0.2.0.tar.gz
+[2024-04-25 03:52:08] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-04-25 03:52:08] INFO root fetch - processPackages [enhomie]: Downloading https://files.pythonhosted.org/packages/04/a2/6e77ed88728921a56cb9a87de5607f404e097dea8ff5883b9415780422bc/enhomie-0.2.1.tar.gz
+[2024-04-25 03:52:08] INFO root fetch - processPackages [enhomie]: executing diffoscope
+[2024-04-25 03:52:08] INFO root fetch - processPackages [enhomie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhomie-0.2.0.tar.gz tmp/enhomie-0.2.1.tar.gz --markdown 20240425/e/enhomie/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-25 03:52:09] INFO root fetch - processPackages [enhomie]: Remove: archive file [/home/abi/fetcher/tmp/enhomie-0.2.0.tar.gz]
+[2024-04-25 03:52:09] INFO root fetch - processPackages [enhomie]: Remove: archive file [/home/abi/fetcher/tmp/enhomie-0.2.1.tar.gz]
+[2024-04-25 03:52:09] INFO root fetch - main [MainThread]: End processing [enhomie]: success
+[2024-04-25 03:52:09] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-04-25 03:52:11] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-04-25 03:52:11] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240425/b/basedpyright/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-25 03:53:07] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-04-25 03:53:07] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-04-25 03:53:07] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-04-25 03:53:07] INFO root fetch - main [MainThread]: Store serial: [22924089]
