@@ -20075,3 +20075,33 @@
 [2024-04-25 12:31:32] INFO root fetch - processPackages [tsml]: Remove: archive file [/home/abi/fetcher/tmp/tsml-0.4.0.tar.gz]
 [2024-04-25 12:31:32] INFO root fetch - main [MainThread]: End processing [tsml]: success
 [2024-04-25 12:31:32] INFO root fetch - main [MainThread]: Store serial: [22928958]
+[2024-04-25 12:33:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928958]
+[2024-04-25 12:33:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 12:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbally
+[2024-04-25 12:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2024-04-25 12:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-opinionated-constructs
+[2024-04-25 12:33:41] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-25 12:33:41] INFO root fetch - processPackages [dbally]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-25 12:33:41] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-25 12:33:41] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-04-25 12:33:41] INFO root fetch - processPackages [dbally]: Downloading https://files.pythonhosted.org/packages/0b/9a/ee4b04050b6cdf4ade336564c8bcad9fc921964f7e8373a447b261090f4e/dbally-0.0.2.tar.gz
+[2024-04-25 12:33:41] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-25 12:33:42] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/d4/b6/59c00c47cb0141df69dc8b410966134822d359a4828e3e399de9de0cd04c/cdk-opinionated-constructs-3.7.0.tar.gz
+[2024-04-25 12:33:42] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-25 12:33:42] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240425/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-25 12:33:42] INFO root fetch - processPackages [dbally]: Downloading https://files.pythonhosted.org/packages/e3/f6/886a8ab277d0f86ed8ad40b0497d12ba9295a22a05f2c95933832ec6530f/dbally-0.1.0.tar.gz
+[2024-04-25 12:33:42] INFO root fetch - processPackages [dbally]: executing diffoscope
+[2024-04-25 12:33:42] INFO root fetch - processPackages [dbally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbally-0.0.2.tar.gz tmp/dbally-0.1.0.tar.gz --markdown 20240425/d/dbally/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-04-25 12:33:42] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/92/3d/d973476dff07eeb6046df9eba721affaece7d77483bae608e20ddb7ca302/cdk_opinionated_constructs-3.7.1.tar.gz
+[2024-04-25 12:33:42] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2024-04-25 12:33:42] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-opinionated-constructs-3.7.0.tar.gz tmp/cdk_opinionated_constructs-3.7.1.tar.gz --markdown 20240425/c/cdk-opinionated-constructs/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-04-25 12:33:43] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-25 12:33:43] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-25 12:33:43] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-25 12:33:43] INFO root fetch - processPackages [dbally]: Remove: archive file [/home/abi/fetcher/tmp/dbally-0.0.2.tar.gz]
+[2024-04-25 12:33:43] INFO root fetch - processPackages [dbally]: Remove: archive file [/home/abi/fetcher/tmp/dbally-0.1.0.tar.gz]
+[2024-04-25 12:33:43] INFO root fetch - main [MainThread]: End processing [dbally]: success
+[2024-04-25 12:33:43] INFO root fetch - processPackages [cdk-opinionated-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-opinionated-constructs-3.7.0.tar.gz]
+[2024-04-25 12:33:43] INFO root fetch - processPackages [cdk-opinionated-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk_opinionated_constructs-3.7.1.tar.gz]
+[2024-04-25 12:33:43] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2024-04-25 12:33:43] INFO root fetch - main [MainThread]: Store serial: [22928969]
