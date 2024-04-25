@@ -8229,3 +8229,24 @@
 [2024-04-25 04:03:59] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev9.tar.gz]
 [2024-04-25 04:03:59] INFO root fetch - main [MainThread]: End processing [cacheline]: success
 [2024-04-25 04:03:59] INFO root fetch - main [MainThread]: Store serial: [22924154]
+[2024-04-25 04:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924154]
+[2024-04-25 04:06:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qLDPC
+[2024-04-25 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-ai-python
+[2024-04-25 04:06:07] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 04:06:07] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-25 04:06:07] INFO root fetch - processPackages [qLDPC]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 04:06:08] INFO root fetch - processPackages [qLDPC]: Downloading https://files.pythonhosted.org/packages/88/f7/51a90d4d6d46c878068c0a2ee891256d1321ec65adc2438457a548c7243b/qldpc-0.0.8.tar.gz
+[2024-04-25 04:06:08] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-25 04:06:08] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-25 04:06:08] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240425/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 04:06:08] INFO root fetch - processPackages [qLDPC]: Downloading https://files.pythonhosted.org/packages/80/7b/9cfc980134de12a4c1585c2afcb1058a619c603ac7f9c3df17f02114dc3d/qldpc-0.0.9.tar.gz
+[2024-04-25 04:06:08] INFO root fetch - processPackages [qLDPC]: executing diffoscope
+[2024-04-25 04:06:08] INFO root fetch - processPackages [qLDPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qldpc-0.0.8.tar.gz tmp/qldpc-0.0.9.tar.gz --markdown 20240425/q/qLDPC/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 04:06:09] INFO root fetch - processPackages [qLDPC]: Remove: archive file [/home/abi/fetcher/tmp/qldpc-0.0.8.tar.gz]
+[2024-04-25 04:06:09] INFO root fetch - processPackages [qLDPC]: Remove: archive file [/home/abi/fetcher/tmp/qldpc-0.0.9.tar.gz]
+[2024-04-25 04:06:09] INFO root fetch - main [MainThread]: End processing [qLDPC]: success
+[2024-04-25 04:06:09] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-25 04:06:09] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-25 04:06:09] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-25 04:06:09] INFO root fetch - main [MainThread]: Store serial: [22924160]
