@@ -18534,3 +18534,45 @@
 [2024-04-25 11:45:15] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-25 11:45:15] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
 [2024-04-25 11:45:15] INFO root fetch - main [MainThread]: Store serial: [22928334]
+[2024-04-25 11:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928334]
+[2024-04-25 11:47:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DiffEdit
+[2024-04-25 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dplib-py
+[2024-04-25 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adlike
+[2024-04-25 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcnodes_images
+[2024-04-25 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stow
+[2024-04-25 11:47:24] INFO root fetch - processPackages [DiffEdit]: New version: [0.0.2rc6] Old Version: [0.0.2rc5]
+[2024-04-25 11:47:24] INFO root fetch - processPackages [dplib-py]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-25 11:47:24] INFO root fetch - processPackages [funcnodes_images]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-25 11:47:24] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/ab/f3/471c448520346a4a424eba49fb457087a3ec6b6a637b3fd6799306706b77/dplib_py-0.7.5.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [stow]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-25 11:47:25] WARNING root fetch - processPackages [adlike]: Skipping, unable to determine old version
+[2024-04-25 11:47:25] INFO root fetch - main [MainThread]: End processing [adlike] error
+[2024-04-25 11:47:25] INFO root fetch - processPackages [DiffEdit]: Downloading https://files.pythonhosted.org/packages/92/97/212712862a9c396993a5628c57678c66faff3882fca4686b97a13dc77917/diffedit-0.0.2rc5.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/a5/cd/049a5edc2bafd244ec81cc830c6ab65c5c47e768f97614d3954c73546ecd/funcnodes_images-0.1.11.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [stow]: Downloading https://files.pythonhosted.org/packages/c2/3f/d17bdf5542ae90e4ed22522e0dcad4dda65e789eec6913900c6683d86836/stow-1.4.0.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/db/3f/2429ba9401fde40553ea7a6f815ff12dd01c925dc71cb51b2e3c51cacadf/funcnodes_images-0.1.12.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/a6/fc/b1ac3dd121fdc0a09455f9ea1a28d2438bfb65bf1d32347ae06d7eca42a1/dplib_py-0.7.6.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [funcnodes_images]: executing diffoscope
+[2024-04-25 11:47:25] INFO root fetch - processPackages [funcnodes_images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_images-0.1.11.tar.gz tmp/funcnodes_images-0.1.12.tar.gz --markdown 20240425/f/funcnodes_images/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-04-25 11:47:25] INFO root fetch - processPackages [DiffEdit]: Downloading https://files.pythonhosted.org/packages/e8/53/3884709c56492b31cb29080cf17a940798d4890f6e9ad786c29b43901e3b/diffedit-0.0.2rc6.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [dplib-py]: executing diffoscope
+[2024-04-25 11:47:25] INFO root fetch - processPackages [dplib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplib_py-0.7.5.tar.gz tmp/dplib_py-0.7.6.tar.gz --markdown 20240425/d/dplib-py/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-25 11:47:25] INFO root fetch - processPackages [stow]: Downloading https://files.pythonhosted.org/packages/a2/9b/dd2fc7081de22ad04b2321f63cbfd0244e2e19186173a25abdc8dba1eba4/stow-1.4.1.tar.gz
+[2024-04-25 11:47:25] INFO root fetch - processPackages [DiffEdit]: executing diffoscope
+[2024-04-25 11:47:25] INFO root fetch - processPackages [DiffEdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffedit-0.0.2rc5.tar.gz tmp/diffedit-0.0.2rc6.tar.gz --markdown 20240425/D/DiffEdit/0.0.2rc5-0.0.2rc6/README.md --exclude *.pyd
+[2024-04-25 11:47:25] INFO root fetch - processPackages [stow]: executing diffoscope
+[2024-04-25 11:47:25] INFO root fetch - processPackages [stow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stow-1.4.0.tar.gz tmp/stow-1.4.1.tar.gz --markdown 20240425/s/stow/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-25 11:47:26] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.11.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.12.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - main [MainThread]: End processing [funcnodes_images]: success
+[2024-04-25 11:47:26] INFO root fetch - processPackages [DiffEdit]: Remove: archive file [/home/abi/fetcher/tmp/diffedit-0.0.2rc5.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - processPackages [DiffEdit]: Remove: archive file [/home/abi/fetcher/tmp/diffedit-0.0.2rc6.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - main [MainThread]: End processing [DiffEdit]: success
+[2024-04-25 11:47:26] INFO root fetch - processPackages [stow]: Remove: archive file [/home/abi/fetcher/tmp/stow-1.4.0.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - processPackages [stow]: Remove: archive file [/home/abi/fetcher/tmp/stow-1.4.1.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - main [MainThread]: End processing [stow]: success
+[2024-04-25 11:47:26] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.5.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.6.tar.gz]
+[2024-04-25 11:47:26] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
+[2024-04-25 11:47:26] INFO root fetch - main [MainThread]: Store serial: [22928351]
