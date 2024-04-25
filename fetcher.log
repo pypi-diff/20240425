@@ -9392,3 +9392,81 @@
 [2024-04-25 05:11:51] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
 [2024-04-25 05:11:51] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
 [2024-04-25 05:11:51] INFO root fetch - main [MainThread]: Store serial: [22924575]
+[2024-04-25 05:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924575]
+[2024-04-25 05:13:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-tfe
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tifffile
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FreeBack
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labeled-contrastive-framework
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-stock
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testingiasdf1
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-stock-account
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metamath-py
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ih-common
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-25 05:13:59] INFO root fetch - processPackages [testingiasdf1]: New version: [2.31.9] Old Version: [2.31.8]
+[2024-04-25 05:13:59] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-04-25 05:13:59] INFO root fetch - processPackages [metamath-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 05:13:59] INFO root fetch - processPackages [testingiasdf1]: Downloading https://files.pythonhosted.org/packages/42/3d/d00d4da6227ec2e36c67ebcea5f5ead7b7e2304cd0837e644f42d82d45b3/testingiasdf1-2.31.8.tar.gz
+[2024-04-25 05:13:59] INFO root fetch - processPackages [odoo14-addon-ssi-stock]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-04-25 05:13:59] INFO root fetch - processPackages [odoo14-addon-ssi-stock-account]: New version: [14.0.2.8.0] Old Version: [14.0.2.7.0]
+[2024-04-25 05:13:59] WARNING root fetch - processPackages [labeled-contrastive-framework]: Skipping, unable to determine old version
+[2024-04-25 05:13:59] INFO root fetch - main [MainThread]: End processing [labeled-contrastive-framework] error
+[2024-04-25 05:13:59] INFO root fetch - processPackages [FreeBack]: New version: [4.6.1a0] Old Version: [4.5.6a0]
+[2024-04-25 05:13:59] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [tifffile]: New version: [2024.4.24] Old Version: [2024.4.18]
+[2024-04-25 05:14:00] INFO root fetch - processPackages [metamath-py]: Downloading https://files.pythonhosted.org/packages/81/17/bceaea488a66440a9cf81c4910aa001c6d5e2df0da53d27034d6df5f9d94/metamath-py-0.0.3.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [odoo14-addon-ssi-stock]: Downloading https://files.pythonhosted.org/packages/3b/f4/43a65fd10a31d6cec2b4fccb98ae1eff7113f3545b1ef1f3b301b914170d/odoo14_addon_ssi_stock-14.0.2.8.0-py3-none-any.whl
+[2024-04-25 05:14:00] INFO root fetch - processPackages [FreeBack]: Downloading https://files.pythonhosted.org/packages/ce/bd/1dbdb4e10533ef5c607a5329758bba5812117e3b1a555941bfe15702c122/FreeBack-4.5.6a0.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [odoo14-addon-ssi-stock-account]: Downloading https://files.pythonhosted.org/packages/bd/ff/7d2b3f7ee600bd16ad0bbc89bd4e2329208000dc9dfab5af2576d5a16312/odoo14_addon_ssi_stock_account-14.0.2.7.0-py3-none-any.whl
+[2024-04-25 05:14:00] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/2e/93/43a00832ebe4e30502cea63d15e3cdff858ba64aeccb88266a7cc06a718b/cdktf-cdktf-provider-tfe-9.0.1.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/7b/79/f55cf9d4c2a2bbb19a37d8a0c14142e9c329a6cf3843e8d68237cb0615a8/tifffile-2024.4.18.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [testingiasdf1]: Downloading https://files.pythonhosted.org/packages/e7/8e/41d8c18977696f7cb8f2f5e4d5d51ae161ba5682dbffb920a0c1fc440eff/testingiasdf1-2.31.9.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-25 05:14:00] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240425/i/ih-common/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-04-25 05:14:00] INFO root fetch - processPackages [testingiasdf1]: executing diffoscope
+[2024-04-25 05:14:00] INFO root fetch - processPackages [testingiasdf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingiasdf1-2.31.8.tar.gz tmp/testingiasdf1-2.31.9.tar.gz --markdown 20240425/t/testingiasdf1/2.31.8-2.31.9/README.md --exclude *.pyd
+[2024-04-25 05:14:00] INFO root fetch - processPackages [metamath-py]: Downloading https://files.pythonhosted.org/packages/97/30/171359a866ec82ce7eb49111e0a3ded4eda14fe212e5f1e69dab08c4c2ce/metamath_py-0.0.4.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [FreeBack]: Downloading https://files.pythonhosted.org/packages/ff/37/346ee31e97f5150cb91b7c69e94295ba1c5a1edd27a818c80f6d16764a9e/FreeBack-4.6.1a0.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [odoo14-addon-ssi-stock-account]: Downloading https://files.pythonhosted.org/packages/2c/96/06eb8a3b7c05a33479202b936d41d38f09b8cfc036fbafa0ef917862ef4c/odoo14_addon_ssi_stock_account-14.0.2.8.0-py3-none-any.whl
+[2024-04-25 05:14:00] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/c7/98/baea0b0668945d5f3726cf19c5df7ecafdcff6eb874cbfb69fcbece5fcb8/tifffile-2024.4.24.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [metamath-py]: executing diffoscope
+[2024-04-25 05:14:00] INFO root fetch - processPackages [metamath-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamath-py-0.0.3.tar.gz tmp/metamath_py-0.0.4.tar.gz --markdown 20240425/m/metamath-py/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 05:14:00] INFO root fetch - processPackages [odoo14-addon-ssi-stock]: Downloading https://files.pythonhosted.org/packages/f8/e9/a755ca23b7281cb05ceb1d952e48637f3a8cf09ff3b87d1508bab0189a37/odoo14_addon_ssi_stock-14.0.2.9.0-py3-none-any.whl
+[2024-04-25 05:14:00] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Downloading https://files.pythonhosted.org/packages/83/44/3530307859569692e560ca204fa50eacd7eab9f7dbc0eb4ea521ef5192d3/cdktf-cdktf-provider-tfe-9.0.2.tar.gz
+[2024-04-25 05:14:00] INFO root fetch - processPackages [FreeBack]: executing diffoscope
+[2024-04-25 05:14:00] INFO root fetch - processPackages [FreeBack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeBack-4.5.6a0.tar.gz tmp/FreeBack-4.6.1a0.tar.gz --markdown 20240425/F/FreeBack/4.5.6a0-4.6.1a0/README.md --exclude *.pyd
+[2024-04-25 05:14:00] INFO root fetch - processPackages [odoo14-addon-ssi-stock-account]: executing diffoscope
+[2024-04-25 05:14:00] INFO root fetch - processPackages [odoo14-addon-ssi-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_stock_account-14.0.2.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_stock_account-14.0.2.8.0-py3-none-any.whl.zip --markdown 20240425/o/odoo14-addon-ssi-stock-account/14.0.2.7.0-14.0.2.8.0/README.md --exclude *.pyd
+[2024-04-25 05:14:01] INFO root fetch - processPackages [tifffile]: executing diffoscope
+[2024-04-25 05:14:01] INFO root fetch - processPackages [tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifffile-2024.4.18.tar.gz tmp/tifffile-2024.4.24.tar.gz --markdown 20240425/t/tifffile/2024.4.18-2024.4.24/README.md --exclude *.pyd
+[2024-04-25 05:14:01] INFO root fetch - processPackages [odoo14-addon-ssi-stock]: executing diffoscope
+[2024-04-25 05:14:01] INFO root fetch - processPackages [odoo14-addon-ssi-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_stock-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_stock-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240425/o/odoo14-addon-ssi-stock/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-04-25 05:14:01] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: executing diffoscope
+[2024-04-25 05:14:01] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-tfe-9.0.1.tar.gz tmp/cdktf-cdktf-provider-tfe-9.0.2.tar.gz --markdown 20240425/c/cdktf-cdktf-provider-tfe/9.0.1-9.0.2/README.md --exclude *.pyd
+[2024-04-25 05:14:01] INFO root fetch - processPackages [testingiasdf1]: Remove: archive file [/home/abi/fetcher/tmp/testingiasdf1-2.31.8.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - processPackages [testingiasdf1]: Remove: archive file [/home/abi/fetcher/tmp/testingiasdf1-2.31.9.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - main [MainThread]: End processing [testingiasdf1]: success
+[2024-04-25 05:14:01] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-25 05:14:01] INFO root fetch - processPackages [metamath-py]: Remove: archive file [/home/abi/fetcher/tmp/metamath-py-0.0.3.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - processPackages [metamath-py]: Remove: archive file [/home/abi/fetcher/tmp/metamath_py-0.0.4.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - main [MainThread]: End processing [metamath-py]: success
+[2024-04-25 05:14:01] INFO root fetch - processPackages [odoo14-addon-ssi-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_stock_account-14.0.2.7.0-py3-none-any.whl.zip]
+[2024-04-25 05:14:01] INFO root fetch - processPackages [odoo14-addon-ssi-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_stock_account-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-25 05:14:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-stock-account]: success
+[2024-04-25 05:14:01] INFO root fetch - processPackages [FreeBack]: Remove: archive file [/home/abi/fetcher/tmp/FreeBack-4.5.6a0.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - processPackages [FreeBack]: Remove: archive file [/home/abi/fetcher/tmp/FreeBack-4.6.1a0.tar.gz]
+[2024-04-25 05:14:01] INFO root fetch - main [MainThread]: End processing [FreeBack]: success
+[2024-04-25 05:14:02] INFO root fetch - processPackages [odoo14-addon-ssi-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_stock-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-25 05:14:02] INFO root fetch - processPackages [odoo14-addon-ssi-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_stock-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-25 05:14:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-stock]: success
+[2024-04-25 05:14:02] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.4.18.tar.gz]
+[2024-04-25 05:14:02] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2024.4.24.tar.gz]
+[2024-04-25 05:14:02] INFO root fetch - main [MainThread]: End processing [tifffile]: success
+[2024-04-25 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-9.0.1.tar.gz]
+[2024-04-25 05:14:02] INFO root fetch - processPackages [cdktf-cdktf-provider-tfe]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-tfe-9.0.2.tar.gz]
+[2024-04-25 05:14:02] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-tfe]: success
+[2024-04-25 05:14:02] INFO root fetch - main [MainThread]: Store serial: [22924600]
