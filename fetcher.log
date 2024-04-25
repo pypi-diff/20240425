@@ -20732,3 +20732,60 @@
 [2024-04-25 13:00:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-25 13:00:20] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-25 13:00:20] INFO root fetch - main [MainThread]: Store serial: [22929200]
+[2024-04-25 13:02:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929200]
+[2024-04-25 13:02:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-fedit
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edgeimpulse
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecv-python-development
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasphere
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fortitudo-tech
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KBDD
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.46] Old Version: [0.0.45]
+[2024-04-25 13:02:29] INFO root fetch - processPackages [KBDD]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/a1/85/a28d05d4cf50bbeb16ae1f4310cec0e2cc8298a1b99c9b39d071bf04fb4d/ecv-python-development-0.0.45.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.4rc9] Old Version: [1.5.4rc8]
+[2024-04-25 13:02:29] INFO root fetch - processPackages [datasphere]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-25 13:02:29] INFO root fetch - processPackages [edgeimpulse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 13:02:29] INFO root fetch - processPackages [fortitudo-tech]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-25 13:02:29] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/d0/60/3bf1bdcff12ee140043a8cddc9fff46f5e5ccb8b4331f90ee8dd46f4056b/KBDD-0.1.0.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/2b/b1/0f7a40ec9cb6fb771ecc7a722f4acca9e379d0bf3354e2a784fa66e4d984/wagtail_fedit-1.5.4rc8.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/04/b3/1969fd57252f0b3e9704dbd018d887e129350405a5d27928607f97039512/edgeimpulse-1.0.8.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/11/2b/305b22312a1d3b5b4b5a56b4562ff0554a9fe1bc18884a7ef615d393859d/datasphere-0.6.8.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [fortitudo-tech]: Downloading https://files.pythonhosted.org/packages/e4/57/ba2b4b05f98d6456dabc1bed24f6401a0c32d1a0dbec28b2455d12473a5b/fortitudo_tech-1.0.5.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/3a/e7/98983047078c69ebe3ac251d5656175909cefa91a255a27e83457f2a159b/ecv-python-development-0.0.46.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 13:02:29] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.45.tar.gz tmp/ecv-python-development-0.0.46.tar.gz --markdown 20240425/e/ecv-python-development/0.0.45-0.0.46/README.md --exclude *.pyd
+[2024-04-25 13:02:29] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/6d/15/4d2ad2260ff5b621a4bfbcbf9ee37a145fefdb6f597668864b41d50b8ccb/KBDD-0.1.1.tar.gz
+[2024-04-25 13:02:29] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/a3/84/2cd6bfbae7e69eb7c9b3f825cd0ae1163110740ba8f5784e613b6ae3b5e6/wagtail_fedit-1.5.4rc9.tar.gz
+[2024-04-25 13:02:30] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/72/52/c1c837b2e527625be5471be2cbf9c312f0f69f6f28ccd70cc0b3222cf54a/edgeimpulse-1.0.9.tar.gz
+[2024-04-25 13:02:30] INFO root fetch - processPackages [KBDD]: executing diffoscope
+[2024-04-25 13:02:30] INFO root fetch - processPackages [KBDD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KBDD-0.1.0.tar.gz tmp/KBDD-0.1.1.tar.gz --markdown 20240425/K/KBDD/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 13:02:30] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-25 13:02:30] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.4rc8.tar.gz tmp/wagtail_fedit-1.5.4rc9.tar.gz --markdown 20240425/w/wagtail-fedit/1.5.4rc8-1.5.4rc9/README.md --exclude *.pyd
+[2024-04-25 13:02:30] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/db/e4/a778c5158500ab1a5a41a47e7d3a3fba1b44b1f249926738aa536f143b78/datasphere-0.6.9.tar.gz
+[2024-04-25 13:02:30] INFO root fetch - processPackages [edgeimpulse]: executing diffoscope
+[2024-04-25 13:02:30] INFO root fetch - processPackages [edgeimpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse-1.0.8.tar.gz tmp/edgeimpulse-1.0.9.tar.gz --markdown 20240425/e/edgeimpulse/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 13:02:30] INFO root fetch - processPackages [datasphere]: executing diffoscope
+[2024-04-25 13:02:30] INFO root fetch - processPackages [datasphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasphere-0.6.8.tar.gz tmp/datasphere-0.6.9.tar.gz --markdown 20240425/d/datasphere/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-25 13:02:30] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.1.0.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.1.1.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - main [MainThread]: End processing [KBDD]: success
+[2024-04-25 13:02:30] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.45.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.46.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 13:02:30] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.8.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - processPackages [edgeimpulse]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse-1.0.9.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
+[2024-04-25 13:02:30] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.4rc8.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.4rc9.tar.gz]
+[2024-04-25 13:02:30] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-25 13:02:31] INFO root fetch - processPackages [fortitudo-tech]: Downloading https://files.pythonhosted.org/packages/70/07/cf20c8d8c7f078095cc67f9bf0215fd922925c1c626a6f9b6935b86ad32b/fortitudo_tech-1.0.6.tar.gz
+[2024-04-25 13:02:32] INFO root fetch - processPackages [fortitudo-tech]: executing diffoscope
+[2024-04-25 13:02:32] INFO root fetch - processPackages [fortitudo-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortitudo_tech-1.0.5.tar.gz tmp/fortitudo_tech-1.0.6.tar.gz --markdown 20240425/f/fortitudo-tech/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-25 13:02:33] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.6.8.tar.gz]
+[2024-04-25 13:02:33] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.6.9.tar.gz]
+[2024-04-25 13:02:33] INFO root fetch - main [MainThread]: End processing [datasphere]: success
+[2024-04-25 13:02:33] INFO root fetch - processPackages [fortitudo-tech]: Remove: archive file [/home/abi/fetcher/tmp/fortitudo_tech-1.0.5.tar.gz]
+[2024-04-25 13:02:33] INFO root fetch - processPackages [fortitudo-tech]: Remove: archive file [/home/abi/fetcher/tmp/fortitudo_tech-1.0.6.tar.gz]
+[2024-04-25 13:02:33] INFO root fetch - main [MainThread]: End processing [fortitudo-tech]: success
+[2024-04-25 13:02:33] INFO root fetch - main [MainThread]: Store serial: [22929221]
