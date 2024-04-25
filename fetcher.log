@@ -12596,3 +12596,42 @@
 [2024-04-25 08:50:51] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.9.tar.gz]
 [2024-04-25 08:50:51] INFO root fetch - main [MainThread]: End processing [hscloud]: success
 [2024-04-25 08:50:51] INFO root fetch - main [MainThread]: Store serial: [22926177]
+[2024-04-25 08:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926177]
+[2024-04-25 08:53:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hscloud
+[2024-04-25 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2024-04-25 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-inventory
+[2024-04-25 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: replit-river
+[2024-04-25 08:53:01] INFO root fetch - processPackages [hscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 08:53:01] INFO root fetch - processPackages [replit-river]: New version: [0.1.8] Old Version: [0.1.7b8]
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20240421.0] Old Version: [16.0.20240321.0]
+[2024-04-25 08:53:01] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/02/45dd03a45f7c7a02cb7254ba10449e7cee5308653144f5ba3829f47a9f95/hscloud-0.0.8.tar.gz
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-04-25 08:53:01] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/bd/2b/b963c47c01c40faa0d037c508010d434f1013b614d0fa85279f8d4a97ec3/replit_river-0.1.7b8.tar.gz
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/9a/e7/326a7494165be20c45297d1602db97c4c7a1a5051bc0ada1e8f340078a37/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/4a/82/df10b291e0306fa4b8841152dda4d61fcb7ced1db9a8ed57843ece790670/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-25 08:53:01] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/e6/f838691fae0fc1cf3bfe46d0899724f827e6907654effae7a11cc2a085e4/hscloud-0.0.9.tar.gz
+[2024-04-25 08:53:01] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-04-25 08:53:01] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-04-25 08:53:01] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.8.tar.gz tmp/hscloud-0.0.9.tar.gz --markdown 20240425/h/hscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 08:53:01] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-25 08:53:01] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.7b8.tar.gz tmp/replit_river-0.1.8.tar.gz --markdown 20240425/r/replit-river/0.1.7b8-0.1.8/README.md --exclude *.pyd
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/f7/87/e6f7bd329c4968526bd557176153459ae884cc6a95dced20b2a012c6332f/odoo_addons_oca_stock_logistics_warehouse-16.0.20240421.0-py3-none-any.whl
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/16/6c/ec131073889fd8f864662b52daee4d59841129ad6de01dc2796b9eef7567/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240421.0-py3-none-any.whl.zip --markdown 20240425/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20240321.0-16.0.20240421.0/README.md --exclude *.pyd
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2024-04-25 08:53:01] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-stock-inventory/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-04-25 08:53:02] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.8.tar.gz]
+[2024-04-25 08:53:02] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.9.tar.gz]
+[2024-04-25 08:53:02] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-04-25 08:53:02] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b8.tar.gz]
+[2024-04-25 08:53:02] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-04-25 08:53:02] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-25 08:53:02] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240321.0-py3-none-any.whl.zip]
+[2024-04-25 08:53:02] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240421.0-py3-none-any.whl.zip]
+[2024-04-25 08:53:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2024-04-25 08:53:02] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-25 08:53:02] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-25 08:53:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2024-04-25 08:53:02] INFO root fetch - main [MainThread]: Store serial: [22926186]
