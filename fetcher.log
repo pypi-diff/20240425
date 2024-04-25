@@ -23093,3 +23093,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:22:29] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.2.0rc0.tar.gz]
 [2024-04-25 14:22:29] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
 [2024-04-25 14:22:29] INFO root fetch - main [MainThread]: Store serial: [22930225]
+[2024-04-25 14:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930225]
+[2024-04-25 14:24:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frappe-manager
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jscatter
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argos-monitoring
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: richie
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentiment-emotion-analysis
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyLandslide
+[2024-04-25 14:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: math-ops-131
+[2024-04-25 14:24:41] INFO root fetch - processPackages [frappe-manager]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-25 14:24:41] INFO root fetch - processPackages [math-ops-131]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-25 14:24:41] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 14:24:41] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-25 14:24:41] INFO root fetch - processPackages [jscatter]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-25 14:24:41] WARNING root fetch - processPackages [argos-monitoring]: Skipping, unable to determine old version
+[2024-04-25 14:24:41] INFO root fetch - main [MainThread]: End processing [argos-monitoring] error
+[2024-04-25 14:24:41] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/b8/06/cf638b54937dbe7c3a2395f567621aa38c3c243666a1a1bfeb2617b5ea84/frappe_manager-0.8.3.tar.gz
+[2024-04-25 14:24:41] WARNING root fetch - processPackages [sentiment-emotion-analysis]: Skipping, unable to determine old version
+[2024-04-25 14:24:41] INFO root fetch - processPackages [PyLandslide]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-25 14:24:41] INFO root fetch - main [MainThread]: End processing [sentiment-emotion-analysis] error
+[2024-04-25 14:24:41] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/72/8a/8eda357f65d31c251261ce77f9b4e561171cce09037f2ac0d4fa1af51ba5/math_ops_131-1.3.2.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [jscatter]: Downloading https://files.pythonhosted.org/packages/1c/50/65fc13469e03d4f4fa9c1c35564c296da6cdfb593d30b633bc820de0e1ff/jscatter-1.6.3.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/0e/af/c09a0baea3d0a36661cf4083f7a44cad1f804fe0408874bce6e67f717275/frappe_manager-0.9.0.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [PyLandslide]: Downloading https://files.pythonhosted.org/packages/40/39/5f6d2097567ee2680182d5426cce0b28199d739699bc3f09579ec773565c/PyLandslide-0.1.3.tar.gz
+[2024-04-25 14:24:41] WARNING root fetch - processPackages [jscatter]: Skipping package: exceeds size limit 29834667>=10485760
+[2024-04-25 14:24:41] INFO root fetch - main [MainThread]: End processing [jscatter] error
+[2024-04-25 14:24:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/b6/95/4e9fefd9003404c5770137cff51bf91a094faff1a651a7306a37dc4123f9/math_ops_131-1.3.3.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [frappe-manager]: executing diffoscope
+[2024-04-25 14:24:41] INFO root fetch - processPackages [frappe-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frappe_manager-0.8.3.tar.gz tmp/frappe_manager-0.9.0.tar.gz --markdown 20240425/f/frappe-manager/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-25 14:24:41] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-04-25 14:24:41] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-25 14:24:41] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240425/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 14:24:41] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 14:24:41] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.3.2.tar.gz tmp/math_ops_131-1.3.3.tar.gz --markdown 20240425/m/math-ops-131/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-25 14:24:41] INFO root fetch - processPackages [PyLandslide]: Downloading https://files.pythonhosted.org/packages/ec/ce/c1145a37fc6b3edf9d7ddcebdfafdbbd43f1ecad63727383cfd8620592f6/PyLandslide-0.1.4.tar.gz
+[2024-04-25 14:24:42] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-04-25 14:24:42] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240425/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-25 14:24:42] INFO root fetch - processPackages [PyLandslide]: executing diffoscope
+[2024-04-25 14:24:42] INFO root fetch - processPackages [PyLandslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLandslide-0.1.3.tar.gz tmp/PyLandslide-0.1.4.tar.gz --markdown 20240425/P/PyLandslide/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-25 14:24:42] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.8.3.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.9.0.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - main [MainThread]: End processing [frappe-manager]: success
+[2024-04-25 14:24:42] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.2.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.3.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 14:24:42] INFO root fetch - processPackages [PyLandslide]: Remove: archive file [/home/abi/fetcher/tmp/PyLandslide-0.1.3.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - processPackages [PyLandslide]: Remove: archive file [/home/abi/fetcher/tmp/PyLandslide-0.1.4.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - main [MainThread]: End processing [PyLandslide]: success
+[2024-04-25 14:24:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-25 14:24:42] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-25 14:26:44] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-04-25 14:26:44] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-04-25 14:26:44] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-04-25 14:26:44] INFO root fetch - main [MainThread]: Store serial: [22930252]
