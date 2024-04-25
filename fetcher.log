@@ -19646,3 +19646,45 @@
 [2024-04-25 12:19:08] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.94.tar.gz]
 [2024-04-25 12:19:08] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-04-25 12:19:08] INFO root fetch - main [MainThread]: Store serial: [22928804]
+[2024-04-25 12:21:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928804]
+[2024-04-25 12:21:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 12:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQt6-3D-Qt6
+[2024-04-25 12:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hurricore
+[2024-04-25 12:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyQt6-Charts-Qt6
+[2024-04-25 12:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQt6-DataVisualization-Qt6
+[2024-04-25 12:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2024-04-25 12:21:17] WARNING root fetch - processPackages [hurricore]: Skipping, unable to determine old version
+[2024-04-25 12:21:17] INFO root fetch - main [MainThread]: End processing [hurricore] error
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: New version: [6.7.0] Old Version: [6.6.3]
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-3D-Qt6]: New version: [6.7.0] Old Version: [6.6.3]
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: New version: [6.7.0] Old Version: [6.6.3]
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Downloading https://files.pythonhosted.org/packages/c8/fa/7017ae1ebb12a1f38f1f891924c22968e7ac997fa6bccba7d718ce09eea9/PyQt6_3D_Qt6-6.6.3-py3-none-win_amd64.whl
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Downloading https://files.pythonhosted.org/packages/61/12/06156451ef38a3d8a8e04b65d33e24469389892ac6b3cd9cebe1d434714c/PyQt6_Charts_Qt6-6.6.3-py3-none-win_amd64.whl
+[2024-04-25 12:21:17] INFO root fetch - processPackages [nucliadb]: New version: [3.0.3.post454] Old Version: [3.0.3.post450]
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Downloading https://files.pythonhosted.org/packages/3f/6d/265e4dfe9338bb2e884c97c5bc453a3bb6399499d024deaaf7c9eed05e75/PyQt6_DataVisualization_Qt6-6.6.3-py3-none-win_amd64.whl
+[2024-04-25 12:21:17] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/e5/6a/5cd188b9b4f92b7d545350f6db8fc3d8923b041df52e4b36b0d342636b80/nucliadb-3.0.3.post450-py3-none-any.whl
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Downloading https://files.pythonhosted.org/packages/7a/71/7d01002f0fe81a39394606a4e164835ee8515242e58b794aaa6589fd3e82/PyQt6_Charts_Qt6-6.7.0-py3-none-win_amd64.whl
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Downloading https://files.pythonhosted.org/packages/dc/6d/eb5a37e891e3aeb933d9f210e1d027261b84927f8cc0ac1e9e1cf4a4e057/PyQt6_DataVisualization_Qt6-6.7.0-py3-none-win_amd64.whl
+[2024-04-25 12:21:17] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Downloading https://files.pythonhosted.org/packages/ff/76/c4564402be7bb99f39a14c1984fd8c65e0e54c0b4aa802ff7cca9e3227a8/PyQt6_3D_Qt6-6.7.0-py3-none-win_amd64.whl
+[2024-04-25 12:21:18] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/5d/9f/40b2febb1fb419d188172f75a861651865e23b39ce10f59290de724299f4/nucliadb-3.0.3.post454-py3-none-any.whl
+[2024-04-25 12:21:18] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: executing diffoscope
+[2024-04-25 12:21:18] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_DataVisualization_Qt6-6.6.3-py3-none-win_amd64.whl.zip tmp/PyQt6_DataVisualization_Qt6-6.7.0-py3-none-win_amd64.whl.zip --markdown 20240425/P/PyQt6-DataVisualization-Qt6/6.6.3-6.7.0/README.md --exclude *.pyd
+[2024-04-25 12:21:18] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: executing diffoscope
+[2024-04-25 12:21:18] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_Charts_Qt6-6.6.3-py3-none-win_amd64.whl.zip tmp/PyQt6_Charts_Qt6-6.7.0-py3-none-win_amd64.whl.zip --markdown 20240425/P/PyQt6-Charts-Qt6/6.6.3-6.7.0/README.md --exclude *.pyd
+[2024-04-25 12:21:18] INFO root fetch - processPackages [PyQt6-3D-Qt6]: executing diffoscope
+[2024-04-25 12:21:18] INFO root fetch - processPackages [PyQt6-3D-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_3D_Qt6-6.6.3-py3-none-win_amd64.whl.zip tmp/PyQt6_3D_Qt6-6.7.0-py3-none-win_amd64.whl.zip --markdown 20240425/P/PyQt6-3D-Qt6/6.6.3-6.7.0/README.md --exclude *.pyd
+[2024-04-25 12:21:18] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-25 12:21:18] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.3.post450-py3-none-any.whl.zip tmp/nucliadb-3.0.3.post454-py3-none-any.whl.zip --markdown 20240425/n/nucliadb/3.0.3.post450-3.0.3.post454/README.md --exclude *.pyd
+[2024-04-25 12:21:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post450-py3-none-any.whl.zip]
+[2024-04-25 12:21:20] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post454-py3-none-any.whl.zip]
+[2024-04-25 12:21:20] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-25 12:21:23] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_DataVisualization_Qt6-6.6.3-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:21:23] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_DataVisualization_Qt6-6.7.0-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:21:23] INFO root fetch - main [MainThread]: End processing [PyQt6-DataVisualization-Qt6]: success
+[2024-04-25 12:21:26] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_Charts_Qt6-6.6.3-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:21:26] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_Charts_Qt6-6.7.0-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:21:26] INFO root fetch - main [MainThread]: End processing [PyQt6-Charts-Qt6]: success
+[2024-04-25 12:21:42] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D_Qt6-6.6.3-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:21:42] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D_Qt6-6.7.0-py3-none-win_amd64.whl.zip]
+[2024-04-25 12:21:42] INFO root fetch - main [MainThread]: End processing [PyQt6-3D-Qt6]: success
+[2024-04-25 12:21:42] INFO root fetch - main [MainThread]: Store serial: [22928832]
