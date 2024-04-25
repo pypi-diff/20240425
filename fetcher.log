@@ -7903,3 +7903,65 @@
 [2024-04-25 03:39:10] INFO root fetch - processPackages [python-seispy]: Remove: archive file [/home/abi/fetcher/tmp/python_seispy-1.3.6.tar.gz]
 [2024-04-25 03:39:10] INFO root fetch - main [MainThread]: End processing [python-seispy]: success
 [2024-04-25 03:39:10] INFO root fetch - main [MainThread]: Store serial: [22923960]
+[2024-04-25 03:41:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923960]
+[2024-04-25 03:41:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-easy
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spit
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiuxian-base
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xiuxian-boss
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xiuxian-buff
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: continuous-eval
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xiuxian-info
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amilib
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xiuxian-mixelixir
+[2024-04-25 03:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu
+[2024-04-25 03:41:19] INFO root fetch - processPackages [amilib]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-25 03:41:19] WARNING root fetch - processPackages [xiuxian-base]: Skipping, unable to determine old version
+[2024-04-25 03:41:19] INFO root fetch - processPackages [xiuxian-base]: Start processing: xiuxian-rift
+[2024-04-25 03:41:19] INFO root fetch - main [MainThread]: End processing [xiuxian-base] error
+[2024-04-25 03:41:19] WARNING root fetch - processPackages [xiuxian-info]: Skipping, unable to determine old version
+[2024-04-25 03:41:19] INFO root fetch - main [MainThread]: End processing [xiuxian-info] error
+[2024-04-25 03:41:19] INFO root fetch - processPackages [spit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 03:41:19] WARNING root fetch - processPackages [xiuxian-boss]: Skipping, unable to determine old version
+[2024-04-25 03:41:19] INFO root fetch - main [MainThread]: End processing [xiuxian-boss] error
+[2024-04-25 03:41:19] WARNING root fetch - processPackages [xiuxian-buff]: Skipping, unable to determine old version
+[2024-04-25 03:41:19] INFO root fetch - main [MainThread]: End processing [xiuxian-buff] error
+[2024-04-25 03:41:19] WARNING root fetch - processPackages [xiuxian-mixelixir]: Skipping, unable to determine old version
+[2024-04-25 03:41:19] INFO root fetch - main [MainThread]: End processing [xiuxian-mixelixir] error
+[2024-04-25 03:41:19] INFO root fetch - processPackages [flet-easy]: New version: [0.2.1.dev20] Old Version: [0.2.1.dev10]
+[2024-04-25 03:41:19] INFO root fetch - processPackages [continuous-eval]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-25 03:41:19] INFO root fetch - processPackages [fbgemm-gpu]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-25 03:41:19] WARNING root fetch - processPackages [xiuxian-rift]: Skipping, unable to determine old version
+[2024-04-25 03:41:19] INFO root fetch - main [MainThread]: End processing [xiuxian-rift] error
+[2024-04-25 03:41:19] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/79/a8/8f313d2247a104dbc54decded76f761d1dd8fb1efc41c8109d3a846a2c23/amilib-0.0.7.tar.gz
+[2024-04-25 03:41:19] INFO root fetch - processPackages [continuous-eval]: Downloading https://files.pythonhosted.org/packages/dc/03/0f11225797a092c5d233f115992f85118a58875031bdd81fd0094f9edfab/continuous_eval-0.3.6.tar.gz
+[2024-04-25 03:41:19] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/9e/d3/efc5fbcb6e5d430ea45bef249cc932e246f3a29f9210361976e1e38304cb/flet_easy-0.2.1.dev10.tar.gz
+[2024-04-25 03:41:19] INFO root fetch - processPackages [fbgemm-gpu]: Downloading https://files.pythonhosted.org/packages/f7/11/2b80ed747781703216247ae6fcffe4986856340fcb4168d24814bdba2295/fbgemm_gpu-0.6.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-25 03:41:19] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/b0/7d/95b428f5054ceaa7df9d2570781e0a517f600a27a4088a45806eaf3f7ccf/spit-0.1.8.tar.gz
+[2024-04-25 03:41:19] WARNING root fetch - processPackages [fbgemm-gpu]: Skipping package: exceeds size limit 339566466>=10485760
+[2024-04-25 03:41:19] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu] error
+[2024-04-25 03:41:19] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/e2/20/c60db63b68b26d67ba3acc423e2fd1ae0fa6575b473a39fe9f9fb0f343b1/amilib-0.0.8.tar.gz
+[2024-04-25 03:41:19] INFO root fetch - processPackages [continuous-eval]: Downloading https://files.pythonhosted.org/packages/67/7a/230da700bb0b5637d16065c9b64dd3ab0b31ca7f377aef6f3374b01d2eb0/continuous_eval-0.3.7.tar.gz
+[2024-04-25 03:41:19] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/51/5c/3e81e8e5e10097ab8f8966ea83985fb6c438883336d9c451df288efa225d/flet_easy-0.2.1.dev20.tar.gz
+[2024-04-25 03:41:19] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a3/41/95c2b32d3c225f7fa0cd1b957d8a4e11da5b22cececd0396c623963ac6eb/spit-0.1.9.tar.gz
+[2024-04-25 03:41:19] INFO root fetch - processPackages [continuous-eval]: executing diffoscope
+[2024-04-25 03:41:19] INFO root fetch - processPackages [continuous-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continuous_eval-0.3.6.tar.gz tmp/continuous_eval-0.3.7.tar.gz --markdown 20240425/c/continuous-eval/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-25 03:41:19] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-04-25 03:41:19] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.0.7.tar.gz tmp/amilib-0.0.8.tar.gz --markdown 20240425/a/amilib/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-25 03:41:19] INFO root fetch - processPackages [flet-easy]: executing diffoscope
+[2024-04-25 03:41:19] INFO root fetch - processPackages [flet-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_easy-0.2.1.dev10.tar.gz tmp/flet_easy-0.2.1.dev20.tar.gz --markdown 20240425/f/flet-easy/0.2.1.dev10-0.2.1.dev20/README.md --exclude *.pyd
+[2024-04-25 03:41:19] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-04-25 03:41:19] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.1.8.tar.gz tmp/spit-0.1.9.tar.gz --markdown 20240425/s/spit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 03:41:20] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.8.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.9.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-04-25 03:41:20] INFO root fetch - processPackages [continuous-eval]: Remove: archive file [/home/abi/fetcher/tmp/continuous_eval-0.3.6.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - processPackages [continuous-eval]: Remove: archive file [/home/abi/fetcher/tmp/continuous_eval-0.3.7.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - main [MainThread]: End processing [continuous-eval]: success
+[2024-04-25 03:41:20] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.1.dev10.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.1.dev20.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
+[2024-04-25 03:41:20] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.7.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.8.tar.gz]
+[2024-04-25 03:41:20] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-04-25 03:41:20] INFO root fetch - main [MainThread]: Store serial: [22923997]
