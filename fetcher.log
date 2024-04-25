@@ -18229,3 +18229,51 @@
 [2024-04-25 11:30:47] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.7.tar.gz]
 [2024-04-25 11:30:47] INFO root fetch - main [MainThread]: End processing [ANX]: success
 [2024-04-25 11:30:47] INFO root fetch - main [MainThread]: Store serial: [22928197]
+[2024-04-25 11:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928197]
+[2024-04-25 11:33:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 11:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2024-04-25 11:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ropt
+[2024-04-25 11:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-cachify
+[2024-04-25 11:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcnodes_images
+[2024-04-25 11:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-repair
+[2024-04-25 11:33:03] INFO root fetch - processPackages [ropt]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 11:33:03] INFO root fetch - processPackages [py-cachify]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 11:33:03] INFO root fetch - processPackages [funcnodes_images]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-25 11:33:03] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-25 11:33:04] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/cf/49/749e4b295b110c63dc0dec330e9ed1943381c8d0f94b2a61f5db1e274ee7/ropt-0.1.4.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-25 11:33:04] INFO root fetch - processPackages [py-cachify]: Downloading https://files.pythonhosted.org/packages/ff/f1/c6b273dd938ed47994cbfe4e1e6f81e1f9b506d94de7056f57282e64046f/py_cachify-1.0.8.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/a5/cd/049a5edc2bafd244ec81cc830c6ab65c5c47e768f97614d3954c73546ecd/funcnodes_images-0.1.11.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/f9/94/90cb9a3ef3345f0b107f74ef8033281ca2254532c2877546409afddc6d0d/ropt-0.1.5.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/db/3f/2429ba9401fde40553ea7a6f815ff12dd01c925dc71cb51b2e3c51cacadf/funcnodes_images-0.1.12.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [ropt]: executing diffoscope
+[2024-04-25 11:33:04] INFO root fetch - processPackages [ropt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt-0.1.4.tar.gz tmp/ropt-0.1.5.tar.gz --markdown 20240425/r/ropt/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 11:33:04] INFO root fetch - processPackages [py-cachify]: Downloading https://files.pythonhosted.org/packages/b2/06/d3632f42acf3a398a22810b35bad5abd62d6d08ed00cffb5c44580d78b74/py_cachify-1.0.9.tar.gz
+[2024-04-25 11:33:04] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-04-25 11:33:04] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240425/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-25 11:33:04] INFO root fetch - processPackages [funcnodes_images]: executing diffoscope
+[2024-04-25 11:33:04] INFO root fetch - processPackages [funcnodes_images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_images-0.1.11.tar.gz tmp/funcnodes_images-0.1.12.tar.gz --markdown 20240425/f/funcnodes_images/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-04-25 11:33:04] INFO root fetch - processPackages [py-cachify]: executing diffoscope
+[2024-04-25 11:33:04] INFO root fetch - processPackages [py-cachify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_cachify-1.0.8.tar.gz tmp/py_cachify-1.0.9.tar.gz --markdown 20240425/p/py-cachify/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 11:33:05] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-25 11:33:05] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-04-25 11:33:05] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.11.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.12.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - main [MainThread]: End processing [funcnodes_images]: success
+[2024-04-25 11:33:05] INFO root fetch - processPackages [py-cachify]: Remove: archive file [/home/abi/fetcher/tmp/py_cachify-1.0.8.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - processPackages [py-cachify]: Remove: archive file [/home/abi/fetcher/tmp/py_cachify-1.0.9.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - main [MainThread]: End processing [py-cachify]: success
+[2024-04-25 11:33:05] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.1.4.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.1.5.tar.gz]
+[2024-04-25 11:33:05] INFO root fetch - main [MainThread]: End processing [ropt]: success
+[2024-04-25 11:33:05] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-25 11:33:05] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240425/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-25 11:33:07] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-25 11:33:07] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-25 11:33:07] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-25 11:33:07] INFO root fetch - main [MainThread]: Store serial: [22928224]
