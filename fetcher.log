@@ -23223,3 +23223,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:29:00] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.33-py3-none-any.whl.zip]
 [2024-04-25 14:29:00] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-04-25 14:29:00] INFO root fetch - main [MainThread]: Store serial: [22930278]
+[2024-04-25 14:31:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930278]
+[2024-04-25 14:31:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 14:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyLandslide
+[2024-04-25 14:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volcengine-python-sdk
+[2024-04-25 14:31:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensr-utils
+[2024-04-25 14:31:12] INFO root fetch - processPackages [PyLandslide]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-25 14:31:12] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 14:31:12] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 14:31:12] INFO root fetch - processPackages [PyLandslide]: Downloading https://files.pythonhosted.org/packages/40/39/5f6d2097567ee2680182d5426cce0b28199d739699bc3f09579ec773565c/PyLandslide-0.1.3.tar.gz
+[2024-04-25 14:31:12] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 14:31:12] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2024-04-25 14:31:12] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 14:31:12] INFO root fetch - processPackages [PyLandslide]: Downloading https://files.pythonhosted.org/packages/ec/ce/c1145a37fc6b3edf9d7ddcebdfafdbbd43f1ecad63727383cfd8620592f6/PyLandslide-0.1.4.tar.gz
+[2024-04-25 14:31:12] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 14:31:12] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 14:31:12] INFO root fetch - processPackages [PyLandslide]: executing diffoscope
+[2024-04-25 14:31:12] INFO root fetch - processPackages [PyLandslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLandslide-0.1.3.tar.gz tmp/PyLandslide-0.1.4.tar.gz --markdown 20240425/P/PyLandslide/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-25 14:31:13] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2024-04-25 14:31:13] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2024-04-25 14:31:13] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20240425/v/volcengine-python-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 14:31:13] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 14:31:13] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 14:31:13] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 14:31:13] INFO root fetch - processPackages [PyLandslide]: Remove: archive file [/home/abi/fetcher/tmp/PyLandslide-0.1.3.tar.gz]
+[2024-04-25 14:31:13] INFO root fetch - processPackages [PyLandslide]: Remove: archive file [/home/abi/fetcher/tmp/PyLandslide-0.1.4.tar.gz]
+[2024-04-25 14:31:13] INFO root fetch - main [MainThread]: End processing [PyLandslide]: success
+[2024-04-25 14:31:20] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2024-04-25 14:31:20] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2024-04-25 14:31:20] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2024-04-25 14:31:20] INFO root fetch - main [MainThread]: Store serial: [22930286]
