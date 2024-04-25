@@ -11042,3 +11042,42 @@
 [2024-04-25 07:11:46] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.9.4.tar.gz]
 [2024-04-25 07:11:46] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2024-04-25 07:11:46] INFO root fetch - main [MainThread]: Store serial: [22925403]
+[2024-04-25 07:13:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925403]
+[2024-04-25 07:13:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 07:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kv-api
+[2024-04-25 07:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kv-fs
+[2024-04-25 07:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kv-sqlite-sync
+[2024-04-25 07:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fs-tools
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-sqlite-sync]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-fs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 07:13:55] INFO root fetch - processPackages [fs-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/61/c2/0cd9dfb6d55d90176e03da250e9cd3d7895a17404d1e263d27df26867816/kv_api-0.1.8.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/ce/a2/f35ba564d8ebb6ee16acf46478427e0c7a3b53c0670615888e41f3a659f7/kv_fs-0.1.8.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/6c/0e/8b15ded1c7e3ae5ff055227be4d9f6a391405efa61e3014de0433f7b1c90/fs_tools-0.1.3.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/16/87/deeb2134724007529f2fea229f51c7c103ec65cc5b8c20b4ede6068dbb15/kv_sqlite_sync-0.1.6.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-api]: Downloading https://files.pythonhosted.org/packages/1e/b2/f25171e71a6d535fa7b27e3336d68243c754ab5b6beccbda42bd247b98e3/kv_api-0.1.9.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-fs]: Downloading https://files.pythonhosted.org/packages/64/9f/f2643d0b67c1ae501ceb250103b8c184589ed066befb6ff10f19fae5a2ab/kv_fs-0.1.9.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/f6/fd/a2680cc5ab46476c6b21f323166d328e5d0c7fbdb1451f1b45a6fdbab7d5/kv_sqlite_sync-0.1.7.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-api]: executing diffoscope
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_api-0.1.8.tar.gz tmp/kv_api-0.1.9.tar.gz --markdown 20240425/k/kv-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-fs]: executing diffoscope
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_fs-0.1.8.tar.gz tmp/kv_fs-0.1.9.tar.gz --markdown 20240425/k/kv-fs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-sqlite-sync]: executing diffoscope
+[2024-04-25 07:13:55] INFO root fetch - processPackages [kv-sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_sqlite_sync-0.1.6.tar.gz tmp/kv_sqlite_sync-0.1.7.tar.gz --markdown 20240425/k/kv-sqlite-sync/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-25 07:13:55] INFO root fetch - processPackages [fs-tools]: Downloading https://files.pythonhosted.org/packages/8e/0f/330551b4229d45d39a447ec77dc563d32b0c87176403eed3b5c1343c7988/fs_tools-0.1.4.tar.gz
+[2024-04-25 07:13:55] INFO root fetch - processPackages [fs-tools]: executing diffoscope
+[2024-04-25 07:13:55] INFO root fetch - processPackages [fs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fs_tools-0.1.3.tar.gz tmp/fs_tools-0.1.4.tar.gz --markdown 20240425/f/fs-tools/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-25 07:13:56] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.8.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - processPackages [kv-api]: Remove: archive file [/home/abi/fetcher/tmp/kv_api-0.1.9.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - main [MainThread]: End processing [kv-api]: success
+[2024-04-25 07:13:56] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.6.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.7.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync]: success
+[2024-04-25 07:13:56] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv_fs-0.1.8.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - processPackages [kv-fs]: Remove: archive file [/home/abi/fetcher/tmp/kv_fs-0.1.9.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - main [MainThread]: End processing [kv-fs]: success
+[2024-04-25 07:13:56] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.3.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - processPackages [fs-tools]: Remove: archive file [/home/abi/fetcher/tmp/fs_tools-0.1.4.tar.gz]
+[2024-04-25 07:13:56] INFO root fetch - main [MainThread]: End processing [fs-tools]: success
+[2024-04-25 07:13:56] INFO root fetch - main [MainThread]: Store serial: [22925415]
