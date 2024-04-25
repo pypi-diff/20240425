@@ -9680,3 +9680,60 @@
 [2024-04-25 05:25:03] INFO root fetch - processPackages [shipyard-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_snowflake-0.2.4.tar.gz]
 [2024-04-25 05:25:03] INFO root fetch - main [MainThread]: End processing [shipyard-snowflake]: success
 [2024-04-25 05:25:03] INFO root fetch - main [MainThread]: Store serial: [22924710]
+[2024-04-25 05:27:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924710]
+[2024-04-25 05:27:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-115
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomic-bomb-engine
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shii-study
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-io-sdk
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: traderusty
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intecomm-edc
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bibibigtable
+[2024-04-25 05:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-base-phone
+[2024-04-25 05:27:12] INFO root fetch - processPackages [python-115]: New version: [0.0.6.5] Old Version: [0.0.6.4]
+[2024-04-25 05:27:12] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 05:27:12] INFO root fetch - processPackages [traderusty]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-25 05:27:12] WARNING root fetch - processPackages [shii-study]: Skipping, unable to determine old version
+[2024-04-25 05:27:12] INFO root fetch - main [MainThread]: End processing [shii-study] error
+[2024-04-25 05:27:12] WARNING root fetch - processPackages [zcbot-io-sdk]: Skipping, unable to determine old version
+[2024-04-25 05:27:12] INFO root fetch - main [MainThread]: End processing [zcbot-io-sdk] error
+[2024-04-25 05:27:12] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-25 05:27:12] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/ba/f8/1b819e4ca43e72842a62d8e5db9acdfe991dea89b01c7d1a530ed9aed979/python_115-0.0.6.4.tar.gz
+[2024-04-25 05:27:12] WARNING root fetch - processPackages [bibibigtable]: Skipping, unable to determine old version
+[2024-04-25 05:27:12] INFO root fetch - main [MainThread]: End processing [bibibigtable] error
+[2024-04-25 05:27:12] INFO root fetch - processPackages [odoo-addon-base-phone]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-25 05:27:12] INFO root fetch - processPackages [intecomm-edc]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 05:27:12] INFO root fetch - processPackages [traderusty]: Downloading https://files.pythonhosted.org/packages/90/4c/ee5c60a64da5e4e6fd614a303152714280e76039efcc3d942948b2c040b3/traderusty-0.1.0.tar.gz
+[2024-04-25 05:27:13] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/08/5d/0e51becf372675b3de6ef18073ad817f8254bb9f9e3a7217d6ead7bb62c2/odoo_addon_base_phone-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-25 05:27:13] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/95/7e/91688931664f03b9e0b33b457b317a3c56b1a56f2296576c6566f791acb9/intecomm-edc-0.2.8.tar.gz
+[2024-04-25 05:27:13] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/bb/69/11316c3e3cddba292c8f9f2438bb96969647a4e6b2212dbd37fe7bde6385/python_115-0.0.6.5.tar.gz
+[2024-04-25 05:27:13] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-25 05:27:13] INFO root fetch - processPackages [traderusty]: Downloading https://files.pythonhosted.org/packages/ef/fd/38a2ef66d9931c8c401e1495c23473816e19c9fc53d23b736c273278ae11/traderusty-0.1.1.tar.gz
+[2024-04-25 05:27:13] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-25 05:27:13] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.6.4.tar.gz tmp/python_115-0.0.6.5.tar.gz --markdown 20240425/p/python-115/0.0.6.4-0.0.6.5/README.md --exclude *.pyd
+[2024-04-25 05:27:13] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/4c/84/f3dabe9e605b1dcad10190c89ca87638bc7106f4a0fa99aac2b60ab27153/odoo_addon_base_phone-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-25 05:27:13] INFO root fetch - processPackages [traderusty]: executing diffoscope
+[2024-04-25 05:27:13] INFO root fetch - processPackages [traderusty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traderusty-0.1.0.tar.gz tmp/traderusty-0.1.1.tar.gz --markdown 20240425/t/traderusty/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-25 05:27:13] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/d8/f7/da7970f16a11303f171ea066f66e06b546fa84ee58cd6cfd9da33905321f/intecomm-edc-0.2.9.tar.gz
+[2024-04-25 05:27:13] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-25 05:27:13] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240425/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 05:27:13] INFO root fetch - processPackages [odoo-addon-base-phone]: executing diffoscope
+[2024-04-25 05:27:13] INFO root fetch - processPackages [odoo-addon-base-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_phone-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_phone-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-base-phone/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-25 05:27:13] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2024-04-25 05:27:13] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.2.8.tar.gz tmp/intecomm-edc-0.2.9.tar.gz --markdown 20240425/i/intecomm-edc/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 05:27:14] INFO root fetch - processPackages [traderusty]: Remove: archive file [/home/abi/fetcher/tmp/traderusty-0.1.0.tar.gz]
+[2024-04-25 05:27:14] INFO root fetch - processPackages [traderusty]: Remove: archive file [/home/abi/fetcher/tmp/traderusty-0.1.1.tar.gz]
+[2024-04-25 05:27:14] INFO root fetch - main [MainThread]: End processing [traderusty]: success
+[2024-04-25 05:27:14] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.4.tar.gz]
+[2024-04-25 05:27:14] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.5.tar.gz]
+[2024-04-25 05:27:14] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-25 05:27:14] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-25 05:27:14] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-25 05:27:14] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-25 05:27:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-phone]: success
+[2024-04-25 05:27:14] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-25 05:27:14] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-25 05:27:16] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.8.tar.gz]
+[2024-04-25 05:27:16] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.2.9.tar.gz]
+[2024-04-25 05:27:16] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2024-04-25 05:27:16] INFO root fetch - main [MainThread]: Store serial: [22924748]
