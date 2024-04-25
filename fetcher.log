@@ -17833,3 +17833,15 @@
 [2024-04-25 11:12:09] INFO root fetch - processPackages [aquacrop]: Remove: archive file [/home/abi/fetcher/tmp/aquacrop-3.0.4.tar.gz]
 [2024-04-25 11:12:09] INFO root fetch - main [MainThread]: End processing [aquacrop]: success
 [2024-04-25 11:12:09] INFO root fetch - main [MainThread]: Store serial: [22928015]
+[2024-04-25 11:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928015]
+[2024-04-25 11:14:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 11:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipymolstar
+[2024-04-25 11:14:25] INFO root fetch - processPackages [ipymolstar]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 11:14:25] INFO root fetch - processPackages [ipymolstar]: Downloading https://files.pythonhosted.org/packages/bb/2d/5ffce807fdb509be928348b7aeba9bbb649bc9029ac992e743eceddf63ea/ipymolstar-0.0.3.tar.gz
+[2024-04-25 11:14:26] INFO root fetch - processPackages [ipymolstar]: Downloading https://files.pythonhosted.org/packages/42/e1/c2db5ead1aee587c4877e7725b3028bda90afeef319a240c643f741f4f7a/ipymolstar-0.0.4.tar.gz
+[2024-04-25 11:14:26] INFO root fetch - processPackages [ipymolstar]: executing diffoscope
+[2024-04-25 11:14:26] INFO root fetch - processPackages [ipymolstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymolstar-0.0.3.tar.gz tmp/ipymolstar-0.0.4.tar.gz --markdown 20240425/i/ipymolstar/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 11:14:27] INFO root fetch - processPackages [ipymolstar]: Remove: archive file [/home/abi/fetcher/tmp/ipymolstar-0.0.3.tar.gz]
+[2024-04-25 11:14:27] INFO root fetch - processPackages [ipymolstar]: Remove: archive file [/home/abi/fetcher/tmp/ipymolstar-0.0.4.tar.gz]
+[2024-04-25 11:14:27] INFO root fetch - main [MainThread]: End processing [ipymolstar]: success
+[2024-04-25 11:14:27] INFO root fetch - main [MainThread]: Store serial: [22928019]
