@@ -9647,3 +9647,36 @@
 [2024-04-25 05:22:53] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.2.dev2024042403.tar.gz]
 [2024-04-25 05:22:53] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-25 05:22:53] INFO root fetch - main [MainThread]: Store serial: [22924691]
+[2024-04-25 05:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924691]
+[2024-04-25 05:25:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zalo-sdk
+[2024-04-25 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3mt
+[2024-04-25 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipyard-snowflake
+[2024-04-25 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KOACBIPM
+[2024-04-25 05:25:02] INFO root fetch - processPackages [web3mt]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 05:25:02] INFO root fetch - processPackages [zalo-sdk]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-25 05:25:02] WARNING root fetch - processPackages [KOACBIPM]: Skipping, unable to determine old version
+[2024-04-25 05:25:02] INFO root fetch - main [MainThread]: End processing [KOACBIPM] error
+[2024-04-25 05:25:02] INFO root fetch - processPackages [shipyard-snowflake]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-25 05:25:02] INFO root fetch - processPackages [web3mt]: Downloading https://files.pythonhosted.org/packages/38/86/b3777046adc75bd67af576a968fd6558cdaa29a7070f51a3ff255f63c16e/web3mt-0.0.1.tar.gz
+[2024-04-25 05:25:02] INFO root fetch - processPackages [zalo-sdk]: Downloading https://files.pythonhosted.org/packages/58/44/7045dce213c7e45664be9c8696ea191477754c0add0d1d0e8254fba1812e/zalo_sdk-0.2.5-py3-none-any.whl
+[2024-04-25 05:25:02] INFO root fetch - processPackages [shipyard-snowflake]: Downloading https://files.pythonhosted.org/packages/5d/ba/f101a8fedfda9f8c03fd87e782cf1260a1a7b197676ed7e17a6374d0bd24/shipyard_snowflake-0.2.3.tar.gz
+[2024-04-25 05:25:02] INFO root fetch - processPackages [zalo-sdk]: Downloading https://files.pythonhosted.org/packages/11/b4/81cc6432560ba35283a32d05e25ee5370331ea7d640335e9fa3e50e1a916/zalo_sdk-0.2.6-py3-none-any.whl
+[2024-04-25 05:25:02] INFO root fetch - processPackages [web3mt]: Downloading https://files.pythonhosted.org/packages/68/aa/c944351b6a959820140ac2cf9f92d167be948d4d8b7432efd12ea6fc31c5/web3mt-0.0.2.tar.gz
+[2024-04-25 05:25:02] INFO root fetch - processPackages [zalo-sdk]: executing diffoscope
+[2024-04-25 05:25:02] INFO root fetch - processPackages [zalo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalo_sdk-0.2.5-py3-none-any.whl.zip tmp/zalo_sdk-0.2.6-py3-none-any.whl.zip --markdown 20240425/z/zalo-sdk/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-25 05:25:02] INFO root fetch - processPackages [web3mt]: executing diffoscope
+[2024-04-25 05:25:02] INFO root fetch - processPackages [web3mt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3mt-0.0.1.tar.gz tmp/web3mt-0.0.2.tar.gz --markdown 20240425/w/web3mt/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 05:25:02] INFO root fetch - processPackages [shipyard-snowflake]: Downloading https://files.pythonhosted.org/packages/95/3a/29e2a1bbd9813504913fc884b7e383ae058d59c6fcaec1178070c2cb2bd1/shipyard_snowflake-0.2.4.tar.gz
+[2024-04-25 05:25:03] INFO root fetch - processPackages [shipyard-snowflake]: executing diffoscope
+[2024-04-25 05:25:03] INFO root fetch - processPackages [shipyard-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_snowflake-0.2.3.tar.gz tmp/shipyard_snowflake-0.2.4.tar.gz --markdown 20240425/s/shipyard-snowflake/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-25 05:25:03] INFO root fetch - processPackages [zalo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zalo_sdk-0.2.5-py3-none-any.whl.zip]
+[2024-04-25 05:25:03] INFO root fetch - processPackages [zalo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zalo_sdk-0.2.6-py3-none-any.whl.zip]
+[2024-04-25 05:25:03] INFO root fetch - main [MainThread]: End processing [zalo-sdk]: success
+[2024-04-25 05:25:03] INFO root fetch - processPackages [web3mt]: Remove: archive file [/home/abi/fetcher/tmp/web3mt-0.0.1.tar.gz]
+[2024-04-25 05:25:03] INFO root fetch - processPackages [web3mt]: Remove: archive file [/home/abi/fetcher/tmp/web3mt-0.0.2.tar.gz]
+[2024-04-25 05:25:03] INFO root fetch - main [MainThread]: End processing [web3mt]: success
+[2024-04-25 05:25:03] INFO root fetch - processPackages [shipyard-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_snowflake-0.2.3.tar.gz]
+[2024-04-25 05:25:03] INFO root fetch - processPackages [shipyard-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_snowflake-0.2.4.tar.gz]
+[2024-04-25 05:25:03] INFO root fetch - main [MainThread]: End processing [shipyard-snowflake]: success
+[2024-04-25 05:25:03] INFO root fetch - main [MainThread]: Store serial: [22924710]
