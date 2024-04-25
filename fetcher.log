@@ -15309,3 +15309,24 @@
 [2024-04-25 10:33:25] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
 [2024-04-25 10:33:25] INFO root fetch - main [MainThread]: End processing [amsdal]: success
 [2024-04-25 10:33:25] INFO root fetch - main [MainThread]: Store serial: [22927232]
+[2024-04-25 10:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927232]
+[2024-04-25 10:35:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 10:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-25 10:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webthing-client
+[2024-04-25 10:35:37] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-25 10:35:37] INFO root fetch - processPackages [webthing-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-25 10:35:37] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-25 10:35:37] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/21/a4/d8640c8ecd138165058b2419a24b79fdf6268b5e41686afe0cc6b1f83c01/webthing_client-0.2.8.tar.gz
+[2024-04-25 10:35:37] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-25 10:35:37] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/ac/3d/39e1cb251947a305e1b12a9f9801f3c7d9d3380edc79c2305d02d26eb182/webthing_client-0.2.9.tar.gz
+[2024-04-25 10:35:37] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-25 10:35:37] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240425/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-25 10:35:37] INFO root fetch - processPackages [webthing-client]: executing diffoscope
+[2024-04-25 10:35:37] INFO root fetch - processPackages [webthing-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webthing_client-0.2.8.tar.gz tmp/webthing_client-0.2.9.tar.gz --markdown 20240425/w/webthing-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-25 10:35:38] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.8.tar.gz]
+[2024-04-25 10:35:38] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.9.tar.gz]
+[2024-04-25 10:35:38] INFO root fetch - main [MainThread]: End processing [webthing-client]: success
+[2024-04-25 10:35:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-25 10:35:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-25 10:35:39] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-25 10:35:39] INFO root fetch - main [MainThread]: Store serial: [22927238]
