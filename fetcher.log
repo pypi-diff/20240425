@@ -8965,3 +8965,54 @@
 [2024-04-25 04:45:23] INFO root fetch - processPackages [async-retriever]: Remove: archive file [/home/abi/fetcher/tmp/async_retriever-0.3.8.tar.gz]
 [2024-04-25 04:45:23] INFO root fetch - main [MainThread]: End processing [async-retriever]: success
 [2024-04-25 04:45:23] INFO root fetch - main [MainThread]: Store serial: [22924429]
+[2024-04-25 04:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924429]
+[2024-04-25 04:47:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 04:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testingiasdf1
+[2024-04-25 04:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-aliding20230426
+[2024-04-25 04:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3-utils-wufan
+[2024-04-25 04:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-tax-repartition-line-tax-group-account
+[2024-04-25 04:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-move-name-sequence
+[2024-04-25 04:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2024-04-25 04:47:32] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: New version: [17.0.1.0.5.2] Old Version: [17.0.1.0.5.1]
+[2024-04-25 04:47:32] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-04-25 04:47:32] INFO root fetch - processPackages [s3-utils-wufan]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 04:47:32] WARNING root fetch - processPackages [testingiasdf1]: Skipping, unable to determine old version
+[2024-04-25 04:47:32] INFO root fetch - main [MainThread]: End processing [testingiasdf1] error
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-tax-repartition-line-tax-group-account]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.4]
+[2024-04-25 04:47:32] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240425] Old Version: [1.2.20240424]
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/b1/c7/05b3398f3d77ea238daec1cacb788eb7604d56e1ac75a381a37bb62147f8/odoo_addon_account_move_name_sequence-17.0.1.0.5.1-py3-none-any.whl
+[2024-04-25 04:47:32] INFO root fetch - processPackages [s3-utils-wufan]: Downloading https://files.pythonhosted.org/packages/28/64/5ca6f6cc694a54bc77bb485aff52e8047f478aa2c6f659bdf82ab964feef/s3_utils_wufan-0.0.2.tar.gz
+[2024-04-25 04:47:32] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-tax-repartition-line-tax-group-account]: Downloading https://files.pythonhosted.org/packages/34/3a/7dbe395b40bec43149dbe1fea888024af0748e505f7db61e45577126328f/odoo_addon_account_tax_repartition_line_tax_group_account-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-25 04:47:32] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e9/70/572a4f0bba76c97bb0b58e7d296e7380f499b2dc76866e7a301a513f411c/iam_actions-1.2.20240424.tar.gz
+[2024-04-25 04:47:32] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-04-25 04:47:32] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240425/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/ea/b4/2084fcdecd3d6660c100d492c768692cb1414ccb3ad4903d982820c7b775/odoo_addon_account_move_name_sequence-17.0.1.0.5.2-py3-none-any.whl
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5.1-py3-none-any.whl.zip tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5.2-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-account-move-name-sequence/17.0.1.0.5.1-17.0.1.0.5.2/README.md --exclude *.pyd
+[2024-04-25 04:47:32] INFO root fetch - processPackages [s3-utils-wufan]: Downloading https://files.pythonhosted.org/packages/6e/4e/194e1302295dc0969ffebd58eb9b702abc67d5b72922e2b7f49014fdec9c/s3_utils_wufan-0.0.3.tar.gz
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-tax-repartition-line-tax-group-account]: Downloading https://files.pythonhosted.org/packages/46/9b/8e0344f148e0f740b7be297e007284a9c6aeae0078bcf16737ecac75b768/odoo_addon_account_tax_repartition_line_tax_group_account-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-25 04:47:32] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/80/a5/be8f429cb38499ca8d9fe26182f39ece0a81f3e6593e8e25b4e2d02d67a2/iam_actions-1.2.20240425.tar.gz
+[2024-04-25 04:47:32] INFO root fetch - processPackages [s3-utils-wufan]: executing diffoscope
+[2024-04-25 04:47:32] INFO root fetch - processPackages [s3-utils-wufan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3_utils_wufan-0.0.2.tar.gz tmp/s3_utils_wufan-0.0.3.tar.gz --markdown 20240425/s/s3-utils-wufan/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-tax-repartition-line-tax-group-account]: executing diffoscope
+[2024-04-25 04:47:32] INFO root fetch - processPackages [odoo-addon-account-tax-repartition-line-tax-group-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_repartition_line_tax_group_account-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_tax_repartition_line_tax_group_account-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-account-tax-repartition-line-tax-group-account/17.0.1.0.0.4-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-25 04:47:32] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-25 04:47:32] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240424.tar.gz tmp/iam_actions-1.2.20240425.tar.gz --markdown 20240425/i/iam-actions/1.2.20240424-1.2.20240425/README.md --exclude *.pyd
+[2024-04-25 04:47:33] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-04-25 04:47:33] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-04-25 04:47:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-04-25 04:47:33] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5.1-py3-none-any.whl.zip]
+[2024-04-25 04:47:33] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5.2-py3-none-any.whl.zip]
+[2024-04-25 04:47:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
+[2024-04-25 04:47:33] INFO root fetch - processPackages [s3-utils-wufan]: Remove: archive file [/home/abi/fetcher/tmp/s3_utils_wufan-0.0.2.tar.gz]
+[2024-04-25 04:47:33] INFO root fetch - processPackages [s3-utils-wufan]: Remove: archive file [/home/abi/fetcher/tmp/s3_utils_wufan-0.0.3.tar.gz]
+[2024-04-25 04:47:33] INFO root fetch - main [MainThread]: End processing [s3-utils-wufan]: success
+[2024-04-25 04:47:33] INFO root fetch - processPackages [odoo-addon-account-tax-repartition-line-tax-group-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_repartition_line_tax_group_account-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-25 04:47:33] INFO root fetch - processPackages [odoo-addon-account-tax-repartition-line-tax-group-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_repartition_line_tax_group_account-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-25 04:47:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-repartition-line-tax-group-account]: success
+[2024-04-25 04:47:37] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240424.tar.gz]
+[2024-04-25 04:47:37] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240425.tar.gz]
+[2024-04-25 04:47:37] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-25 04:47:37] INFO root fetch - main [MainThread]: Store serial: [22924447]
