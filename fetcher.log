@@ -21216,3 +21216,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:13:32] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
 [2024-04-25 13:13:32] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2024-04-25 13:13:32] INFO root fetch - main [MainThread]: Store serial: [22929439]
+[2024-04-25 13:15:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929439]
+[2024-04-25 13:15:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anonymization-sdk
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pfse_starterkit
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ramodels
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-nightly
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ALLMDEV
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: math-ops-131
+[2024-04-25 13:15:41] INFO root fetch - processPackages [math-ops-131]: New version: [1.1] Old Version: [1.0]
+[2024-04-25 13:15:41] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-25 13:15:41] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ALLMDEV]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-25 13:15:41] WARNING root fetch - processPackages [anonymization-sdk]: Skipping, unable to determine old version
+[2024-04-25 13:15:41] INFO root fetch - main [MainThread]: End processing [anonymization-sdk] error
+[2024-04-25 13:15:41] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/c5/39/8e731d3bb86b0dbe9b477ba05920ab9dee062188b3d79f65d48c51d93016/math_ops_131-1.0.tar.gz
+[2024-04-25 13:15:41] INFO root fetch - processPackages [pfse_starterkit]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 13:15:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-25 13:15:41] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-25 13:15:42] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-25 13:15:42] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/64/8c/b30f83093fb5ba00510276cd26d8415b1ee95273314b8a4b088fa17d7f97/ALLMDEV-1.2.2-py3-none-any.whl
+[2024-04-25 13:15:42] INFO root fetch - processPackages [pfse_starterkit]: Downloading https://files.pythonhosted.org/packages/89/90/d88ef07828334d274ae1a258faabfed7734e6e7ee2ce8b8f2b3310e3807f/pfse_starterkit-0.3.0.tar.gz
+[2024-04-25 13:15:42] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/15/c8/d368df7a27a07655757695f463289ffa3f9891ab5d8f5de3411be236455e/math_ops_131-1.1.tar.gz
+[2024-04-25 13:15:42] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-25 13:15:42] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-25 13:15:42] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 13:15:42] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.0.tar.gz tmp/math_ops_131-1.1.tar.gz --markdown 20240425/m/math-ops-131/1.0-1.1/README.md --exclude *.pyd
+[2024-04-25 13:15:42] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-25 13:15:42] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240425/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-25 13:15:42] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/63/2d/e74844ba7d8b50df0a55e286dd79fa809e3c5727f0cbaa8a9bdb037bd6dd/ALLMDEV-1.2.3-py3-none-any.whl
+[2024-04-25 13:15:42] INFO root fetch - processPackages [pfse_starterkit]: Downloading https://files.pythonhosted.org/packages/a4/be/bea261f56825e975b2b86a3e2236b3c64feacc7d124ff1c708e48cc898e0/pfse_starterkit-0.4.0.tar.gz
+[2024-04-25 13:15:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-25 13:15:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240425/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-25 13:15:42] INFO root fetch - processPackages [ALLMDEV]: executing diffoscope
+[2024-04-25 13:15:42] INFO root fetch - processPackages [ALLMDEV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALLMDEV-1.2.2-py3-none-any.whl.zip tmp/ALLMDEV-1.2.3-py3-none-any.whl.zip --markdown 20240425/A/ALLMDEV/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-25 13:15:42] INFO root fetch - processPackages [pfse_starterkit]: executing diffoscope
+[2024-04-25 13:15:42] INFO root fetch - processPackages [pfse_starterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfse_starterkit-0.3.0.tar.gz tmp/pfse_starterkit-0.4.0.tar.gz --markdown 20240425/p/pfse_starterkit/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 13:15:42] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.0.tar.gz]
+[2024-04-25 13:15:42] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.1.tar.gz]
+[2024-04-25 13:15:42] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 13:15:43] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-25 13:15:43] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-25 13:15:43] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-25 13:15:43] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.2.2-py3-none-any.whl.zip]
+[2024-04-25 13:15:43] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.2.3-py3-none-any.whl.zip]
+[2024-04-25 13:15:43] INFO root fetch - main [MainThread]: End processing [ALLMDEV]: success
+[2024-04-25 13:15:43] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-25 13:15:43] INFO root fetch - processPackages [pfse_starterkit]: Remove: archive file [/home/abi/fetcher/tmp/pfse_starterkit-0.3.0.tar.gz]
+[2024-04-25 13:15:43] INFO root fetch - processPackages [pfse_starterkit]: Remove: archive file [/home/abi/fetcher/tmp/pfse_starterkit-0.4.0.tar.gz]
+[2024-04-25 13:15:43] INFO root fetch - main [MainThread]: End processing [pfse_starterkit]: success
+[2024-04-25 13:15:43] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-25 13:15:43] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240425/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-25 13:15:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-25 13:15:44] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-25 13:15:44] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-25 13:15:45] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-25 13:15:45] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-25 13:15:45] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-25 13:15:45] INFO root fetch - main [MainThread]: Store serial: [22929468]
