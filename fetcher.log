@@ -23322,3 +23322,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:33:33] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
 [2024-04-25 14:33:33] INFO root fetch - main [MainThread]: End processing [Files.com]: success
 [2024-04-25 14:33:33] INFO root fetch - main [MainThread]: Store serial: [22930314]
+[2024-04-25 14:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930314]
+[2024-04-25 14:35:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wbpFonttools
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molbox
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wheelz-idp-validations
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: efel
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydra-genetics
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fs-file
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-gdrive-backup
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-fs-image
+[2024-04-25 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-fs-file-demo
+[2024-04-25 14:35:44] INFO root fetch - processPackages [molbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 14:35:44] INFO root fetch - processPackages [hydra-genetics]: New version: [2.0.0] Old Version: [1.9.1]
+[2024-04-25 14:35:44] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-04-25 14:35:44] INFO root fetch - processPackages [molbox]: Downloading https://files.pythonhosted.org/packages/6a/d3/6399b88dcf24a0eb649588f29c8810e9937db11abe41dbe10701ca583d01/molbox-0.1.1.tar.gz
+[2024-04-25 14:35:44] INFO root fetch - processPackages [odoo-addon-fs-file]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.6.1]
+[2024-04-25 14:35:44] INFO root fetch - processPackages [wbpFonttools]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-25 14:35:44] INFO root fetch - processPackages [django-gdrive-backup]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 14:35:44] WARNING root fetch - processPackages [wheelz-idp-validations]: Skipping, unable to determine old version
+[2024-04-25 14:35:44] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations] error
+[2024-04-25 14:35:44] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-04-25 14:35:44] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/e3/73/21573d12447abe3b43aca4e7c26239a5257ab2b9222f47b3dd3747190a08/hydra-genetics-1.9.1.tar.gz
+[2024-04-25 14:35:44] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.5]
+[2024-04-25 14:35:44] INFO root fetch - processPackages [odoo-addon-fs-image]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.3.2]
+[2024-04-25 14:35:45] INFO root fetch - processPackages [wbpFonttools]: Downloading https://files.pythonhosted.org/packages/63/5d/5b991357dd3edde2080ccdbf14280331727fcf73976e120c2b252eea79e3/wbpFonttools-0.2.5.tar.gz
+[2024-04-25 14:35:45] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file]: Downloading https://files.pythonhosted.org/packages/43/b2/6b49ed4d8db26f2d999870179d2aa0e01fdf0fc406fa346cdf6ae0cc7144/odoo_addon_fs_file-16.0.1.0.6.1-py3-none-any.whl
+[2024-04-25 14:35:45] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/36/1e/5a7f6110c3ff91c81eedb146122b77cbe0e7745237723bca08c3c9139191/hydra_genetics-2.0.0.tar.gz
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Downloading https://files.pythonhosted.org/packages/ca/49/ec99a33cfd81ef1ec0284c35d3e3054703c67d83aa73dedf2e17f924a1aa/odoo_addon_fs_file_demo-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-image]: Downloading https://files.pythonhosted.org/packages/27/b1/10d035320517ddf436b242cc9d4d7e629126dd4460afc2a119c29f4041f3/odoo_addon_fs_image-16.0.1.0.3.2-py3-none-any.whl
+[2024-04-25 14:35:45] INFO root fetch - processPackages [django-gdrive-backup]: Downloading https://files.pythonhosted.org/packages/70/cd/d0d97ba81bd4e064694c3ed62de50e348db8b767877a8f30fc3fc760c55e/django-gdrive-backup-0.0.8.tar.gz
+[2024-04-25 14:35:45] INFO root fetch - processPackages [molbox]: Downloading https://files.pythonhosted.org/packages/83/69/72188fadd9b204529ccca84f1cd73f003d3cba016c41b62a37938dc731ee/molbox-0.1.2.tar.gz
+[2024-04-25 14:35:45] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240425/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-04-25 14:35:45] INFO root fetch - processPackages [hydra-genetics]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [hydra-genetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra-genetics-1.9.1.tar.gz tmp/hydra_genetics-2.0.0.tar.gz --markdown 20240425/h/hydra-genetics/1.9.1-2.0.0/README.md --exclude *.pyd
+[2024-04-25 14:35:45] INFO root fetch - processPackages [molbox]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [molbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molbox-0.1.1.tar.gz tmp/molbox-0.1.2.tar.gz --markdown 20240425/m/molbox/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 14:35:45] INFO root fetch - processPackages [wbpFonttools]: Downloading https://files.pythonhosted.org/packages/98/fa/364e91a88eb1d96644126f14391cc35d9868beb997c1f85e3e86cf3262ab/wbpfonttools-0.2.6.tar.gz
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file]: Downloading https://files.pythonhosted.org/packages/92/e4/9464414f4d9709951acdf4e6912384adaaa412419ee7cbe51eb4de8705bb/odoo_addon_fs_file-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-25 14:35:45] INFO root fetch - processPackages [wbpFonttools]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [wbpFonttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpFonttools-0.2.5.tar.gz tmp/wbpfonttools-0.2.6.tar.gz --markdown 20240425/w/wbpFonttools/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-image]: Downloading https://files.pythonhosted.org/packages/cd/7b/7e9c289d5440edcc3e920caa73f10003c26731f49fa51fb36d784a621476/odoo_addon_fs_image-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Downloading https://files.pythonhosted.org/packages/9b/5c/bcc1d66487dc0a69750d61e0032c5ce367401d72181277f77df00d8e7045/odoo_addon_fs_file_demo-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-25 14:35:45] INFO root fetch - processPackages [django-gdrive-backup]: Downloading https://files.pythonhosted.org/packages/04/a9/ca08fdc7546ad969b189fbd1c68e2ebbe5a88238ab863d89ef893283eb68/django-gdrive-backup-0.0.9.tar.gz
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_file-16.0.1.0.6.1-py3-none-any.whl.zip tmp/odoo_addon_fs_file-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-fs-file/16.0.1.0.6.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_file_demo-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_fs_file_demo-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-fs-file-demo/16.0.1.0.0.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-image]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [odoo-addon-fs-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_image-16.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_fs_image-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-fs-image/16.0.1.0.3.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-25 14:35:45] INFO root fetch - processPackages [django-gdrive-backup]: executing diffoscope
+[2024-04-25 14:35:45] INFO root fetch - processPackages [django-gdrive-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gdrive-backup-0.0.8.tar.gz tmp/django-gdrive-backup-0.0.9.tar.gz --markdown 20240425/d/django-gdrive-backup/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 14:35:46] INFO root fetch - processPackages [molbox]: Remove: archive file [/home/abi/fetcher/tmp/molbox-0.1.1.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - processPackages [molbox]: Remove: archive file [/home/abi/fetcher/tmp/molbox-0.1.2.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - main [MainThread]: End processing [molbox]: success
+[2024-04-25 14:35:46] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-04-25 14:35:46] INFO root fetch - processPackages [wbpFonttools]: Remove: archive file [/home/abi/fetcher/tmp/wbpFonttools-0.2.5.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - processPackages [wbpFonttools]: Remove: archive file [/home/abi/fetcher/tmp/wbpfonttools-0.2.6.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - main [MainThread]: End processing [wbpFonttools]: success
+[2024-04-25 14:35:46] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file_demo-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-25 14:35:46] INFO root fetch - processPackages [odoo-addon-fs-file-demo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file_demo-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-25 14:35:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-file-demo]: success
+[2024-04-25 14:35:46] INFO root fetch - processPackages [hydra-genetics]: Remove: archive file [/home/abi/fetcher/tmp/hydra-genetics-1.9.1.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - processPackages [hydra-genetics]: Remove: archive file [/home/abi/fetcher/tmp/hydra_genetics-2.0.0.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
+[2024-04-25 14:35:46] INFO root fetch - processPackages [django-gdrive-backup]: Remove: archive file [/home/abi/fetcher/tmp/django-gdrive-backup-0.0.8.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - processPackages [django-gdrive-backup]: Remove: archive file [/home/abi/fetcher/tmp/django-gdrive-backup-0.0.9.tar.gz]
+[2024-04-25 14:35:46] INFO root fetch - main [MainThread]: End processing [django-gdrive-backup]: success
+[2024-04-25 14:35:47] INFO root fetch - processPackages [odoo-addon-fs-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file-16.0.1.0.6.1-py3-none-any.whl.zip]
+[2024-04-25 14:35:47] INFO root fetch - processPackages [odoo-addon-fs-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_file-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-25 14:35:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-file]: success
+[2024-04-25 14:35:47] INFO root fetch - processPackages [odoo-addon-fs-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_image-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2024-04-25 14:35:47] INFO root fetch - processPackages [odoo-addon-fs-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_image-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-25 14:35:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-image]: success
+[2024-04-25 14:35:47] INFO root fetch - main [MainThread]: Store serial: [22930346]
