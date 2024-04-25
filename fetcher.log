@@ -13124,3 +13124,51 @@
 [2024-04-25 09:11:04] INFO root fetch - processPackages [lti-consumer-xblock]: Remove: archive file [/home/abi/fetcher/tmp/lti-consumer-xblock-9.8.3.tar.gz]
 [2024-04-25 09:11:04] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
 [2024-04-25 09:11:04] INFO root fetch - main [MainThread]: Store serial: [22926381]
+[2024-04-25 09:13:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926381]
+[2024-04-25 09:13:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 09:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-04-25 09:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: refract-serving
+[2024-04-25 09:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autofeather-dash-mantine-components
+[2024-04-25 09:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: momotor-engine-options
+[2024-04-25 09:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-mutator
+[2024-04-25 09:13:14] INFO root fetch - processPackages [refract-serving]: New version: [1.0.1a0] Old Version: [0.0.8]
+[2024-04-25 09:13:14] INFO root fetch - processPackages [redis-mutator]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-25 09:13:14] INFO root fetch - processPackages [autofeather-dash-mantine-components]: New version: [0.14.3] Old Version: [0.14.21]
+[2024-04-25 09:13:14] INFO root fetch - processPackages [cg]: New version: [60.3.1] Old Version: [60.3.0]
+[2024-04-25 09:13:14] INFO root fetch - processPackages [momotor-engine-options]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-25 09:13:14] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/4e/2c/79c5e16cd3b375b21004b3ca6fb3bc6573e206e1ac166f266479b8646989/refract-serving-0.0.8.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/e4/c4/c522c3dbd28b36346417951c0d5a9854aa5916f5f315b25cd993a1bfd950/redis_mutator-0.1.1.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7c/ed/db33c97eec53f616d721a75b4ac3875170f9c0df4ca2957ff9473c5f53ce/cg-60.3.0.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/6c/32/4fb91fb425e3d23889e00ed64fae8280981bf5ec50d6d6def5c2ad641cbe/autofeather_dash_mantine_components-0.14.21.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [momotor-engine-options]: Downloading https://files.pythonhosted.org/packages/e4/47/44a440a679a5a890777d6fdd0d58e4c5acbd7ce171795a2c2ab85abac030/momotor_engine_options-2.0.1.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/cd/90/901baff63e451378f6aa62b42db59239ec5dbfa0571c10419f3db637cade/refract-serving-1.0.1a0.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [refract-serving]: executing diffoscope
+[2024-04-25 09:13:14] INFO root fetch - processPackages [refract-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refract-serving-0.0.8.tar.gz tmp/refract-serving-1.0.1a0.tar.gz --markdown 20240425/r/refract-serving/0.0.8-1.0.1a0/README.md --exclude *.pyd
+[2024-04-25 09:13:14] INFO root fetch - processPackages [redis-mutator]: Downloading https://files.pythonhosted.org/packages/ce/47/921833f0de893f078cf99f0c82fc6d2ce711f4c1cfeba254497b478abeaf/redis_mutator-0.2.0.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [redis-mutator]: executing diffoscope
+[2024-04-25 09:13:14] INFO root fetch - processPackages [redis-mutator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_mutator-0.1.1.tar.gz tmp/redis_mutator-0.2.0.tar.gz --markdown 20240425/r/redis-mutator/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-25 09:13:14] INFO root fetch - processPackages [momotor-engine-options]: Downloading https://files.pythonhosted.org/packages/cf/c1/402e57e375b37df1e341e046f36d746334ebb3e7de15d90bbceb63609aee/momotor_engine_options-2.0.2.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/13/84/217d4cc20a8824bd5a54a5617e3a143ceb70e794a71661e24eba708c9742/cg-60.3.1.tar.gz
+[2024-04-25 09:13:14] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/9d/c6/3e793263389bff2eeb22aa310853ff3ff2f8f148b6f97945071af23e205d/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl
+[2024-04-25 09:13:14] INFO root fetch - processPackages [momotor-engine-options]: executing diffoscope
+[2024-04-25 09:13:14] INFO root fetch - processPackages [momotor-engine-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momotor_engine_options-2.0.1.tar.gz tmp/momotor_engine_options-2.0.2.tar.gz --markdown 20240425/m/momotor-engine-options/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-25 09:13:14] INFO root fetch - processPackages [autofeather-dash-mantine-components]: executing diffoscope
+[2024-04-25 09:13:14] INFO root fetch - processPackages [autofeather-dash-mantine-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeather_dash_mantine_components-0.14.21.tar.gz tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip --markdown 20240425/a/autofeather-dash-mantine-components/0.14.21-0.14.3/README.md --exclude *.pyd
+[2024-04-25 09:13:15] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-25 09:13:15] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.3.0.tar.gz tmp/cg-60.3.1.tar.gz --markdown 20240425/c/cg/60.3.0-60.3.1/README.md --exclude *.pyd
+[2024-04-25 09:13:15] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.1.1.tar.gz]
+[2024-04-25 09:13:15] INFO root fetch - processPackages [redis-mutator]: Remove: archive file [/home/abi/fetcher/tmp/redis_mutator-0.2.0.tar.gz]
+[2024-04-25 09:13:15] INFO root fetch - main [MainThread]: End processing [redis-mutator]: success
+[2024-04-25 09:13:15] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-0.0.8.tar.gz]
+[2024-04-25 09:13:15] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-1.0.1a0.tar.gz]
+[2024-04-25 09:13:15] INFO root fetch - main [MainThread]: End processing [refract-serving]: success
+[2024-04-25 09:13:15] INFO root fetch - processPackages [momotor-engine-options]: Remove: archive file [/home/abi/fetcher/tmp/momotor_engine_options-2.0.1.tar.gz]
+[2024-04-25 09:13:15] INFO root fetch - processPackages [momotor-engine-options]: Remove: archive file [/home/abi/fetcher/tmp/momotor_engine_options-2.0.2.tar.gz]
+[2024-04-25 09:13:15] INFO root fetch - main [MainThread]: End processing [momotor-engine-options]: success
+[2024-04-25 09:13:15] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.21.tar.gz]
+[2024-04-25 09:13:15] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip]
+[2024-04-25 09:13:15] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
+[2024-04-25 09:13:19] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.0.tar.gz]
+[2024-04-25 09:13:19] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.1.tar.gz]
+[2024-04-25 09:13:19] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-25 09:13:19] INFO root fetch - main [MainThread]: Store serial: [22926396]
