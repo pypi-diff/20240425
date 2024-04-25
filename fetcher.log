@@ -9942,3 +9942,43 @@
 [2024-04-25 05:45:05] INFO root fetch - processPackages [mindformers]: Remove: archive file [/home/abi/fetcher/tmp/mindformers-1.0.2-py3-none-any.whl.zip]
 [2024-04-25 05:45:05] INFO root fetch - main [MainThread]: End processing [mindformers]: success
 [2024-04-25 05:45:05] INFO root fetch - main [MainThread]: Store serial: [22924837]
+[2024-04-25 05:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924837]
+[2024-04-25 05:47:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 05:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindformers
+[2024-04-25 05:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindformers
+[2024-04-25 05:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redis-mutator
+[2024-04-25 05:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-utils-dev
+[2024-04-25 05:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tamp
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 05:47:15] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: Downloading https://files.pythonhosted.org/packages/36/e1/2b301853a31d9570494e92e6fe12870eb32f42d5b2ac2fa6e9e796f311e8/mindformers-1.0.1-py3-none-any.whl
+[2024-04-25 05:47:15] WARNING root fetch - processPackages [redis-mutator]: Skipping, unable to determine old version
+[2024-04-25 05:47:15] INFO root fetch - main [MainThread]: End processing [redis-mutator] error
+[2024-04-25 05:47:15] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: Downloading https://files.pythonhosted.org/packages/36/e1/2b301853a31d9570494e92e6fe12870eb32f42d5b2ac2fa6e9e796f311e8/mindformers-1.0.1-py3-none-any.whl
+[2024-04-25 05:47:15] INFO root fetch - processPackages [tamp]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-25 05:47:15] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: Downloading https://files.pythonhosted.org/packages/98/b4/f280b7048d6bf6b589ff3ca942d39865998e6efcd1a29bfed74af415e82c/mindformers-1.0.2-py3-none-any.whl
+[2024-04-25 05:47:15] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: Downloading https://files.pythonhosted.org/packages/98/b4/f280b7048d6bf6b589ff3ca942d39865998e6efcd1a29bfed74af415e82c/mindformers-1.0.2-py3-none-any.whl
+[2024-04-25 05:47:15] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240425/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-25 05:47:15] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/af/fb/61caf5532e9acb7fed89b37434b1c5373017701bf5ec1edc994c4fb1b579/tamp-1.3.1.tar.gz
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: executing diffoscope
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindformers-1.0.1-py3-none-any.whl.zip tmp/mindformers-1.0.2-py3-none-any.whl.zip --markdown 20240425/m/mindformers/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: executing diffoscope
+[2024-04-25 05:47:15] INFO root fetch - processPackages [mindformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindformers-1.0.1-py3-none-any.whl.zip tmp/mindformers-1.0.2-py3-none-any.whl.zip --markdown 20240425/m/mindformers/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 05:47:15] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/04/55/50fbe70abb57bf80886020ebdaeb0abffefb37c41086fac9da445cee0a40/tamp-1.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-25 05:47:16] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-25 05:47:16] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-25 05:47:16] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-25 05:47:16] INFO root fetch - processPackages [tamp]: executing diffoscope
+[2024-04-25 05:47:16] INFO root fetch - processPackages [tamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamp-1.3.1.tar.gz tmp/tamp-1.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240425/t/tamp/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-25 05:47:17] INFO root fetch - processPackages [tamp]: Remove: archive file [/home/abi/fetcher/tmp/tamp-1.3.1.tar.gz]
+[2024-04-25 05:47:17] INFO root fetch - processPackages [tamp]: Remove: archive file [/home/abi/fetcher/tmp/tamp-1.4.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-25 05:47:17] INFO root fetch - main [MainThread]: End processing [tamp]: success
+[2024-04-25 05:47:18] INFO root fetch - processPackages [mindformers]: Remove: archive file [/home/abi/fetcher/tmp/mindformers-1.0.1-py3-none-any.whl.zip]
+[2024-04-25 05:47:18] INFO root fetch - processPackages [mindformers]: Remove: archive file [/home/abi/fetcher/tmp/mindformers-1.0.2-py3-none-any.whl.zip]
+[2024-04-25 05:47:18] INFO root fetch - main [MainThread]: End processing [mindformers]: success
+[2024-04-25 05:47:18] INFO root fetch - main [MainThread]: End processing [mindformers]: success
+[2024-04-25 05:47:18] INFO root fetch - main [MainThread]: Store serial: [22924849]
