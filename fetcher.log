@@ -15405,3 +15405,27 @@
 [2024-04-25 10:37:57] INFO root fetch - processPackages [veda-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/veda_pytorch-2.3.0.post9-py3-none-manylinux_2_17_x86_64.whl.zip]
 [2024-04-25 10:37:57] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
 [2024-04-25 10:37:57] INFO root fetch - main [MainThread]: Store serial: [22927263]
+[2024-04-25 10:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927263]
+[2024-04-25 10:40:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 10:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oapapersloader
+[2024-04-25 10:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-04-25 10:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unstract-adapters
+[2024-04-25 10:40:10] INFO root fetch - processPackages [zfx]: New version: [20240425a0] Old Version: [20240423b0]
+[2024-04-25 10:40:10] WARNING root fetch - processPackages [oapapersloader]: Skipping, unable to determine old version
+[2024-04-25 10:40:10] INFO root fetch - main [MainThread]: End processing [oapapersloader] error
+[2024-04-25 10:40:10] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/dc/37/335cc84e52f97421da314b6384e54e6f7b16c174b27ccd1ab2244f6c700a/zfx-20240423b0.tar.gz
+[2024-04-25 10:40:10] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-25 10:40:10] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/04/69/14f4a4847a444b55c0c3ff28ca62d07f6e60ac904f62c66597989b86fda4/zfx-20240425a0.tar.gz
+[2024-04-25 10:40:10] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-04-25 10:40:10] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-04-25 10:40:10] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-20240423b0.tar.gz tmp/zfx-20240425a0.tar.gz --markdown 20240425/z/zfx/20240423b0-20240425a0/README.md --exclude *.pyd
+[2024-04-25 10:40:11] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-04-25 10:40:11] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-04-25 10:40:11] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240425/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-25 10:40:11] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240423b0.tar.gz]
+[2024-04-25 10:40:11] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-20240425a0.tar.gz]
+[2024-04-25 10:40:11] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-04-25 10:40:11] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-04-25 10:40:11] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-04-25 10:40:11] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-04-25 10:40:11] INFO root fetch - main [MainThread]: Store serial: [22927269]
