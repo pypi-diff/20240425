@@ -3675,3 +3675,33 @@
 [2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_cognito_idp-1.34.91-py3-none-any.whl.zip]
 [2024-04-25 02:48:50] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cognito-idp]: success
 [2024-04-25 02:48:50] INFO root fetch - main [MainThread]: Store serial: [22922461]
+[2024-04-25 02:50:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922461]
+[2024-04-25 02:50:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 02:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypy-boto3-dynamodb
+[2024-04-25 02:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: githc
+[2024-04-25 02:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autocortext-py
+[2024-04-25 02:50:59] INFO root fetch - processPackages [autocortext-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 02:50:59] INFO root fetch - processPackages [mypy-boto3-dynamodb]: New version: [1.34.91] Old Version: [1.34.67]
+[2024-04-25 02:50:59] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/30/a5/99efe27c4553fc908bae063691fa205fcf5bd2538d0e696c80fc34f34d40/autocortext_py-0.1.4.tar.gz
+[2024-04-25 02:50:59] INFO root fetch - processPackages [githc]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 02:50:59] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/2c/92/92bcdfd7e347e28e73babae0fa99ea151f0a5372679e43e54f69f423d8f3/mypy-boto3-dynamodb-1.34.67.tar.gz
+[2024-04-25 02:50:59] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/22/61/4266ab85417969197dfdf577f3a9a30383cba8a423082e7e441f4a93947d/autocortext_py-0.1.5.tar.gz
+[2024-04-25 02:50:59] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/65/07/ba8a6fc41dae1da53e22a39714ecf7c729d761a07a897f7048a239a3cf43/mypy_boto3_dynamodb-1.34.91-py3-none-any.whl
+[2024-04-25 02:50:59] INFO root fetch - processPackages [githc]: Downloading https://files.pythonhosted.org/packages/23/4c/e5ac6380550ba5b77d8772d7f327c96662107e8d31674fc082fcc07bcf69/githc-0.1.1.tar.gz
+[2024-04-25 02:50:59] INFO root fetch - processPackages [autocortext-py]: executing diffoscope
+[2024-04-25 02:50:59] INFO root fetch - processPackages [autocortext-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocortext_py-0.1.4.tar.gz tmp/autocortext_py-0.1.5.tar.gz --markdown 20240425/a/autocortext-py/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 02:50:59] INFO root fetch - processPackages [mypy-boto3-dynamodb]: executing diffoscope
+[2024-04-25 02:50:59] INFO root fetch - processPackages [mypy-boto3-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-dynamodb-1.34.67.tar.gz tmp/mypy_boto3_dynamodb-1.34.91-py3-none-any.whl.zip --markdown 20240425/m/mypy-boto3-dynamodb/1.34.67-1.34.91/README.md --exclude *.pyd
+[2024-04-25 02:51:00] INFO root fetch - processPackages [githc]: Downloading https://files.pythonhosted.org/packages/c0/23/477f34a4757631dfe2682c8b6559d17e5cb1f74d407d8763db413450a9ee/githc-0.1.2.tar.gz
+[2024-04-25 02:51:00] INFO root fetch - processPackages [githc]: executing diffoscope
+[2024-04-25 02:51:00] INFO root fetch - processPackages [githc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githc-0.1.1.tar.gz tmp/githc-0.1.2.tar.gz --markdown 20240425/g/githc/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 02:51:00] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.34.67.tar.gz]
+[2024-04-25 02:51:00] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_dynamodb-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 02:51:00] INFO root fetch - main [MainThread]: End processing [mypy-boto3-dynamodb]: success
+[2024-04-25 02:51:00] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.4.tar.gz]
+[2024-04-25 02:51:00] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.1.5.tar.gz]
+[2024-04-25 02:51:00] INFO root fetch - main [MainThread]: End processing [autocortext-py]: success
+[2024-04-25 02:51:00] INFO root fetch - processPackages [githc]: Remove: archive file [/home/abi/fetcher/tmp/githc-0.1.1.tar.gz]
+[2024-04-25 02:51:00] INFO root fetch - processPackages [githc]: Remove: archive file [/home/abi/fetcher/tmp/githc-0.1.2.tar.gz]
+[2024-04-25 02:51:00] INFO root fetch - main [MainThread]: End processing [githc]: success
+[2024-04-25 02:51:00] INFO root fetch - main [MainThread]: Store serial: [22922471]
