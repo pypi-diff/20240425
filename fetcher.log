@@ -9898,3 +9898,47 @@
 [2024-04-25 05:42:52] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.4.tar.gz]
 [2024-04-25 05:42:52] INFO root fetch - main [MainThread]: End processing [quickstats]: success
 [2024-04-25 05:42:52] INFO root fetch - main [MainThread]: Store serial: [22924823]
+[2024-04-25 05:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924823]
+[2024-04-25 05:45:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 05:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multion
+[2024-04-25 05:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygpt-net
+[2024-04-25 05:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hnn-utils
+[2024-04-25 05:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-dms
+[2024-04-25 05:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindformers
+[2024-04-25 05:45:01] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.5.0] Old Version: [16.0.1.4.0.23]
+[2024-04-25 05:45:01] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-25 05:45:01] INFO root fetch - processPackages [hnn-utils]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-25 05:45:01] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/79/db/c9a7ac527b9a51a695e762b2eb5430c623b6ff77afe068a9f61007d6c8f0/odoo_addon_dms-16.0.1.4.0.23-py3-none-any.whl
+[2024-04-25 05:45:01] INFO root fetch - processPackages [multion]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-25 05:45:01] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-25 05:45:01] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15658509>=10485760
+[2024-04-25 05:45:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-04-25 05:45:01] INFO root fetch - processPackages [mindformers]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 05:45:01] INFO root fetch - processPackages [hnn-utils]: Downloading https://files.pythonhosted.org/packages/28/a7/8a8bce70c6dca7e956c4b5c4cd3c7c7188ff6ae4d4be45853e1c6e30ab7a/hnn_utils-0.2.4.tar.gz
+[2024-04-25 05:45:01] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/ac/71/ee5900982f187991a6e6a69bdeb156538c2674c61682eaf41c9b5d202c96/multion-1.0.1.tar.gz
+[2024-04-25 05:45:01] INFO root fetch - processPackages [mindformers]: Downloading https://files.pythonhosted.org/packages/36/e1/2b301853a31d9570494e92e6fe12870eb32f42d5b2ac2fa6e9e796f311e8/mindformers-1.0.1-py3-none-any.whl
+[2024-04-25 05:45:01] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/a2/88/08fe355223be0ff0f9d6c975958235a0306de091c16a0fa2b5eea533a3b4/multion-1.1.0.tar.gz
+[2024-04-25 05:45:01] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-25 05:45:01] INFO root fetch - processPackages [hnn-utils]: Downloading https://files.pythonhosted.org/packages/0d/16/95e5e9a51707336a8b14ae9126583a14b1c6ded6e90ea646985c7c802724/hnn_utils-0.3.0.tar.gz
+[2024-04-25 05:45:01] INFO root fetch - processPackages [multion]: executing diffoscope
+[2024-04-25 05:45:01] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-1.0.1.tar.gz tmp/multion-1.1.0.tar.gz --markdown 20240425/m/multion/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-25 05:45:01] INFO root fetch - processPackages [hnn-utils]: executing diffoscope
+[2024-04-25 05:45:01] INFO root fetch - processPackages [hnn-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnn_utils-0.2.4.tar.gz tmp/hnn_utils-0.3.0.tar.gz --markdown 20240425/h/hnn-utils/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-04-25 05:45:01] INFO root fetch - processPackages [mindformers]: Downloading https://files.pythonhosted.org/packages/98/b4/f280b7048d6bf6b589ff3ca942d39865998e6efcd1a29bfed74af415e82c/mindformers-1.0.2-py3-none-any.whl
+[2024-04-25 05:45:01] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-25 05:45:01] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240425/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-25 05:45:02] INFO root fetch - processPackages [hnn-utils]: Remove: archive file [/home/abi/fetcher/tmp/hnn_utils-0.2.4.tar.gz]
+[2024-04-25 05:45:02] INFO root fetch - processPackages [hnn-utils]: Remove: archive file [/home/abi/fetcher/tmp/hnn_utils-0.3.0.tar.gz]
+[2024-04-25 05:45:02] INFO root fetch - main [MainThread]: End processing [hnn-utils]: success
+[2024-04-25 05:45:02] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-1.0.1.tar.gz]
+[2024-04-25 05:45:02] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-1.1.0.tar.gz]
+[2024-04-25 05:45:02] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2024-04-25 05:45:03] INFO root fetch - processPackages [mindformers]: executing diffoscope
+[2024-04-25 05:45:03] INFO root fetch - processPackages [mindformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindformers-1.0.1-py3-none-any.whl.zip tmp/mindformers-1.0.2-py3-none-any.whl.zip --markdown 20240425/m/mindformers/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 05:45:04] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-25 05:45:04] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-25 05:45:04] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-25 05:45:05] INFO root fetch - processPackages [mindformers]: Remove: archive file [/home/abi/fetcher/tmp/mindformers-1.0.1-py3-none-any.whl.zip]
+[2024-04-25 05:45:05] INFO root fetch - processPackages [mindformers]: Remove: archive file [/home/abi/fetcher/tmp/mindformers-1.0.2-py3-none-any.whl.zip]
+[2024-04-25 05:45:05] INFO root fetch - main [MainThread]: End processing [mindformers]: success
+[2024-04-25 05:45:05] INFO root fetch - main [MainThread]: Store serial: [22924837]
