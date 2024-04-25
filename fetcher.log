@@ -10423,3 +10423,27 @@
 [2024-04-25 06:22:59] INFO root fetch - processPackages [regex-rust]: Remove: archive file [/home/abi/fetcher/tmp/regex_rust-0.4.0rc1-cp310-none-win_amd64.whl.zip]
 [2024-04-25 06:22:59] INFO root fetch - main [MainThread]: End processing [regex-rust]: success
 [2024-04-25 06:22:59] INFO root fetch - main [MainThread]: Store serial: [22925085]
+[2024-04-25 06:25:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925085]
+[2024-04-25 06:25:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 06:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sigmond-scripts
+[2024-04-25 06:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: XPlotLib
+[2024-04-25 06:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lucien
+[2024-04-25 06:25:08] INFO root fetch - processPackages [lucien]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 06:25:08] WARNING root fetch - processPackages [sigmond-scripts]: Skipping, unable to determine old version
+[2024-04-25 06:25:08] INFO root fetch - main [MainThread]: End processing [sigmond-scripts] error
+[2024-04-25 06:25:08] INFO root fetch - processPackages [lucien]: Downloading https://files.pythonhosted.org/packages/09/b6/1ce7b902e6720e0a5f55c814a40380b978a52bca6db8c8c61817aff6de8c/lucien-0.0.1.tar.gz
+[2024-04-25 06:25:08] INFO root fetch - processPackages [XPlotLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 06:25:08] INFO root fetch - processPackages [lucien]: Downloading https://files.pythonhosted.org/packages/00/0d/904ad4e5adb8c2e3e104a07d0c00871fcb0bdbcca6040612de3a8ea0e140/lucien-0.0.2.tar.gz
+[2024-04-25 06:25:08] INFO root fetch - processPackages [XPlotLib]: Downloading https://files.pythonhosted.org/packages/3e/82/f0c4ca19615a82bec287c2160bc2c3bed9c543eadd374685f038db5a3014/xplotlib-0.0.1.tar.gz
+[2024-04-25 06:25:08] INFO root fetch - processPackages [lucien]: executing diffoscope
+[2024-04-25 06:25:08] INFO root fetch - processPackages [lucien]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucien-0.0.1.tar.gz tmp/lucien-0.0.2.tar.gz --markdown 20240425/l/lucien/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 06:25:08] INFO root fetch - processPackages [XPlotLib]: Downloading https://files.pythonhosted.org/packages/48/4c/178753db1dee16ffbe364135520ab8fc81a1b1c5f0516ba832340132cbd5/xplotlib-0.0.2.tar.gz
+[2024-04-25 06:25:08] INFO root fetch - processPackages [XPlotLib]: executing diffoscope
+[2024-04-25 06:25:08] INFO root fetch - processPackages [XPlotLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplotlib-0.0.1.tar.gz tmp/xplotlib-0.0.2.tar.gz --markdown 20240425/X/XPlotLib/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 06:25:09] INFO root fetch - processPackages [lucien]: Remove: archive file [/home/abi/fetcher/tmp/lucien-0.0.1.tar.gz]
+[2024-04-25 06:25:09] INFO root fetch - processPackages [lucien]: Remove: archive file [/home/abi/fetcher/tmp/lucien-0.0.2.tar.gz]
+[2024-04-25 06:25:09] INFO root fetch - main [MainThread]: End processing [lucien]: success
+[2024-04-25 06:25:09] INFO root fetch - processPackages [XPlotLib]: Remove: archive file [/home/abi/fetcher/tmp/xplotlib-0.0.1.tar.gz]
+[2024-04-25 06:25:09] INFO root fetch - processPackages [XPlotLib]: Remove: archive file [/home/abi/fetcher/tmp/xplotlib-0.0.2.tar.gz]
+[2024-04-25 06:25:09] INFO root fetch - main [MainThread]: End processing [XPlotLib]: success
+[2024-04-25 06:25:09] INFO root fetch - main [MainThread]: Store serial: [22925165]
