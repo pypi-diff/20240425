@@ -7804,3 +7804,60 @@
 [2024-04-25 03:34:37] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.2.1.tar.gz]
 [2024-04-25 03:34:37] INFO root fetch - main [MainThread]: End processing [easytl]: success
 [2024-04-25 03:34:37] INFO root fetch - main [MainThread]: Store serial: [22923824]
+[2024-04-25 03:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923824]
+[2024-04-25 03:36:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 03:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: encommon
+[2024-04-25 03:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyAgrum-nightly
+[2024-04-25 03:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fengchao
+[2024-04-25 03:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mainshortcuts
+[2024-04-25 03:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant-stubs
+[2024-04-25 03:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-simulator-xiuxian
+[2024-04-25 03:36:46] INFO root fetch - processPackages [encommon]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-25 03:36:46] INFO root fetch - processPackages [mainshortcuts]: New version: [1.6.76] Old Version: [1.6.75]
+[2024-04-25 03:36:46] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-25 03:36:46] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-25 03:36:46] INFO root fetch - processPackages [fengchao]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-25 03:36:46] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: New version: [0.5.30] Old Version: [0.5.27]
+[2024-04-25 03:36:46] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/67/a6/151f797b02ad874e429ebc5ef1aaf704d4a595cfc605bed322c2706ab17b/mainshortcuts-1.6.75.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/e8/6c/acc7d9ead0ad78f24694a92155a191f738a8f1a066dbd02aa818e1fbfef1/encommon-0.8.2.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/b5/b4/fa2ffc3ccd366bbd1dc3aa9684864b67f4f8c623b06d1e6e8fcf0a389d48/homeassistant_stubs-2024.4.3.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-25 03:36:46] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/2f/9b/32ddb5e6b75f6fb3d206fea59fec22ae71e1484ca47cb81d3036188723ac/encommon-0.9.0.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/3f/28/5187c37dab6d96fc88a29b814b88c38d6f5f0e30bd1d603831f5b3d6614c/mainshortcuts-1.6.76.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [fengchao]: Downloading https://files.pythonhosted.org/packages/8f/15/0e9d7b1f8300462052df5af8d1b68f550d677aa49991457e7094a09f9ce9/fengchao-2.1.0.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/60/14/c6264899c0e49c77ef3f035ab3c813c66791e9e1b19fc98e05cf57be3f12/nonebot_plugin_simulator_xiuxian-0.5.27.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/44/81/e0b427cd40750d199f8a7fe8b5a19bf3ddb74b3eb6fd7783dcfeda383ae6/homeassistant_stubs-2024.4.4.tar.gz
+[2024-04-25 03:36:46] INFO root fetch - processPackages [encommon]: executing diffoscope
+[2024-04-25 03:36:46] INFO root fetch - processPackages [encommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encommon-0.8.2.tar.gz tmp/encommon-0.9.0.tar.gz --markdown 20240425/e/encommon/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-25 03:36:46] INFO root fetch - processPackages [mainshortcuts]: executing diffoscope
+[2024-04-25 03:36:46] INFO root fetch - processPackages [mainshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.75.tar.gz tmp/mainshortcuts-1.6.76.tar.gz --markdown 20240425/m/mainshortcuts/1.6.75-1.6.76/README.md --exclude *.pyd
+[2024-04-25 03:36:47] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-25 03:36:47] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-25 03:36:47] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.4.3.tar.gz tmp/homeassistant_stubs-2024.4.4.tar.gz --markdown 20240425/h/homeassistant-stubs/2024.4.3-2024.4.4/README.md --exclude *.pyd
+[2024-04-25 03:36:47] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/be/19/1d33ba0326ef88c1d803a34d1b10c90e60039cea758f1638cfd77b710cdf/nonebot_plugin_simulator_xiuxian-0.5.30.tar.gz
+[2024-04-25 03:36:47] INFO root fetch - processPackages [fengchao]: Downloading https://files.pythonhosted.org/packages/fd/83/473d7db9f276af81332caa856c0b4a90d05802dc0f534ea72b76d164fbaa/fengchao-2.2.0.tar.gz
+[2024-04-25 03:36:47] INFO root fetch - processPackages [fengchao]: executing diffoscope
+[2024-04-25 03:36:47] INFO root fetch - processPackages [fengchao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fengchao-2.1.0.tar.gz tmp/fengchao-2.2.0.tar.gz --markdown 20240425/f/fengchao/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-25 03:36:47] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-25 03:36:47] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240425/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-04-25 03:36:47] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: executing diffoscope
+[2024-04-25 03:36:47] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_simulator_xiuxian-0.5.27.tar.gz tmp/nonebot_plugin_simulator_xiuxian-0.5.30.tar.gz --markdown 20240425/n/nonebot-plugin-simulator-xiuxian/0.5.27-0.5.30/README.md --exclude *.pyd
+[2024-04-25 03:36:47] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.75.tar.gz]
+[2024-04-25 03:36:47] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.76.tar.gz]
+[2024-04-25 03:36:47] INFO root fetch - main [MainThread]: End processing [mainshortcuts]: success
+[2024-04-25 03:36:47] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.8.2.tar.gz]
+[2024-04-25 03:36:47] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.9.0.tar.gz]
+[2024-04-25 03:36:47] INFO root fetch - main [MainThread]: End processing [encommon]: success
+[2024-04-25 03:36:48] INFO root fetch - processPackages [fengchao]: Remove: archive file [/home/abi/fetcher/tmp/fengchao-2.1.0.tar.gz]
+[2024-04-25 03:36:48] INFO root fetch - processPackages [fengchao]: Remove: archive file [/home/abi/fetcher/tmp/fengchao-2.2.0.tar.gz]
+[2024-04-25 03:36:48] INFO root fetch - main [MainThread]: End processing [fengchao]: success
+[2024-04-25 03:36:48] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.27.tar.gz]
+[2024-04-25 03:36:48] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.30.tar.gz]
+[2024-04-25 03:36:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-simulator-xiuxian]: success
+[2024-04-25 03:36:48] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 03:36:48] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 03:36:48] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-25 03:36:59] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.3.tar.gz]
+[2024-04-25 03:36:59] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.4.tar.gz]
+[2024-04-25 03:36:59] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-25 03:36:59] INFO root fetch - main [MainThread]: Store serial: [22923913]
