@@ -21350,3 +21350,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:17:56] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.4.tar.gz]
 [2024-04-25 13:17:56] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
 [2024-04-25 13:17:56] INFO root fetch - main [MainThread]: Store serial: [22929501]
+[2024-04-25 13:20:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929501]
+[2024-04-25 13:20:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entropy-pooling
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webbot-ui-package-Umair-Shakoor
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrickBundles
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BrickAgx
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: math-ops-131
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sebchw-example-package
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qstd-core
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KBDD
+[2024-04-25 13:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-core-cpp
+[2024-04-25 13:20:05] INFO root fetch - processPackages [KBDD]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 13:20:05] INFO root fetch - processPackages [qstd-core]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 13:20:05] INFO root fetch - processPackages [BrickBundles]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-25 13:20:05] INFO root fetch - processPackages [entropy-pooling]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-25 13:20:05] INFO root fetch - processPackages [BrickAgx]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-25 13:20:05] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240425] Old Version: [2.5.0b20240424]
+[2024-04-25 13:20:05] WARNING root fetch - processPackages [webbot-ui-package-Umair-Shakoor]: Skipping, unable to determine old version
+[2024-04-25 13:20:05] INFO root fetch - processPackages [sebchw-example-package]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-25 13:20:05] INFO root fetch - main [MainThread]: End processing [webbot-ui-package-Umair-Shakoor] error
+[2024-04-25 13:20:05] INFO root fetch - processPackages [math-ops-131]: New version: [1.3] Old Version: [1.2]
+[2024-04-25 13:20:05] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/6d/15/4d2ad2260ff5b621a4bfbcbf9ee37a145fefdb6f597668864b41d50b8ccb/KBDD-0.1.1.tar.gz
+[2024-04-25 13:20:05] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/df/e6/ea51692cd2eed666217785daaff86942ce6f4295abd800f2a4c80dee05e1/qstd_core-0.2.1.tar.gz
+[2024-04-25 13:20:05] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/d0/85/cf4a5ddf2359fe5e64a419673201bcf161b0f60afb0fb53c1f5af3ee21ba/brickbundles-0.7.1-py3-none-any.whl
+[2024-04-25 13:20:05] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/28/0e/c9179565335413dd107541d296e5424c36e1855cae78fe1fb75de217b37b/brickagx-0.7.1-cp39-cp39-win_amd64.whl
+[2024-04-25 13:20:05] INFO root fetch - processPackages [entropy-pooling]: Downloading https://files.pythonhosted.org/packages/da/67/42ad80faececdd3dc8bff35b96aaa482cecffbf55b55085d01590b24fbf6/entropy_pooling-1.0.3.tar.gz
+[2024-04-25 13:20:05] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/74/2b/158ea91385f3657a341fc22c41bb21584c73b7e5c76dc6c6cb67dea2bb6a/bigdl_core_cpp-2.5.0b20240424-py3-none-win_amd64.whl
+[2024-04-25 13:20:05] INFO root fetch - processPackages [sebchw-example-package]: Downloading https://files.pythonhosted.org/packages/c4/10/2627f06ac1c06ce51c83cc2537f5276bd58892936b6772cccdb7a05f30d5/sebchw_example_package-0.4.0.tar.gz
+[2024-04-25 13:20:05] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/62/44/7f909c653f90c436dd8ea17dc31c1b684d21b668515153786c22574821d2/math_ops_131-1.2.tar.gz
+[2024-04-25 13:20:05] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 57075509>=10485760
+[2024-04-25 13:20:05] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-25 13:20:05] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/ce/a8/54939288fd6acbfd612920a7328595121935000111eda6bbb633d211a4b9/qstd_core-0.2.2.tar.gz
+[2024-04-25 13:20:05] INFO root fetch - processPackages [entropy-pooling]: Downloading https://files.pythonhosted.org/packages/26/28/720c6dcf6e1e9d39b8a904a1000cfa75575ff8f90af0bfb4ce7425201e2d/entropy_pooling-1.0.4.tar.gz
+[2024-04-25 13:20:06] INFO root fetch - processPackages [KBDD]: Downloading https://files.pythonhosted.org/packages/00/d4/7a83e82a20c5b09a83cfadc5399c6d612efeebdec58ff8a62b7830e43fcc/KBDD-0.1.2.tar.gz
+[2024-04-25 13:20:06] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/19/e8/75eeb0fccb15ab1888219a6b73bd1b4beabee6a10c83e0a9210638cdad47/brickbundles-0.7.2-py3-none-any.whl
+[2024-04-25 13:20:06] INFO root fetch - processPackages [qstd-core]: executing diffoscope
+[2024-04-25 13:20:06] INFO root fetch - processPackages [qstd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_core-0.2.1.tar.gz tmp/qstd_core-0.2.2.tar.gz --markdown 20240425/q/qstd-core/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 13:20:06] INFO root fetch - processPackages [entropy-pooling]: executing diffoscope
+[2024-04-25 13:20:06] INFO root fetch - processPackages [entropy-pooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entropy_pooling-1.0.3.tar.gz tmp/entropy_pooling-1.0.4.tar.gz --markdown 20240425/e/entropy-pooling/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-25 13:20:06] INFO root fetch - processPackages [sebchw-example-package]: Downloading https://files.pythonhosted.org/packages/f9/d6/b4de8aa59b05e0c46f5da3aeee444b7f4747b81c27175ff3cedf414c1103/sebchw_example_package-0.5.0.tar.gz
+[2024-04-25 13:20:06] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/9e/19/3e770359d7e2fedb767db029e1e6cc6313e6cb04f432604563614b04470b/math_ops_131-1.3.tar.gz
+[2024-04-25 13:20:06] INFO root fetch - processPackages [KBDD]: executing diffoscope
+[2024-04-25 13:20:06] INFO root fetch - processPackages [KBDD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KBDD-0.1.1.tar.gz tmp/KBDD-0.1.2.tar.gz --markdown 20240425/K/KBDD/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 13:20:06] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-25 13:20:06] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.7.1-py3-none-any.whl.zip tmp/brickbundles-0.7.2-py3-none-any.whl.zip --markdown 20240425/B/BrickBundles/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-25 13:20:06] INFO root fetch - processPackages [sebchw-example-package]: executing diffoscope
+[2024-04-25 13:20:06] INFO root fetch - processPackages [sebchw-example-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sebchw_example_package-0.4.0.tar.gz tmp/sebchw_example_package-0.5.0.tar.gz --markdown 20240425/s/sebchw-example-package/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-25 13:20:06] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 13:20:06] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.2.tar.gz tmp/math_ops_131-1.3.tar.gz --markdown 20240425/m/math-ops-131/1.2-1.3/README.md --exclude *.pyd
+[2024-04-25 13:20:06] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/67/19/fa9312fc64f90527251783859b5d1f69df34be709eeec70560fe07a6a3a8/brickagx-0.7.2-cp39-cp39-win_amd64.whl
+[2024-04-25 13:20:06] INFO root fetch - processPackages [entropy-pooling]: Remove: archive file [/home/abi/fetcher/tmp/entropy_pooling-1.0.3.tar.gz]
+[2024-04-25 13:20:06] INFO root fetch - processPackages [entropy-pooling]: Remove: archive file [/home/abi/fetcher/tmp/entropy_pooling-1.0.4.tar.gz]
+[2024-04-25 13:20:06] INFO root fetch - main [MainThread]: End processing [entropy-pooling]: success
+[2024-04-25 13:20:06] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.1.tar.gz]
+[2024-04-25 13:20:06] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.2.tar.gz]
+[2024-04-25 13:20:06] INFO root fetch - main [MainThread]: End processing [qstd-core]: success
+[2024-04-25 13:20:06] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.1.1.tar.gz]
+[2024-04-25 13:20:06] INFO root fetch - processPackages [KBDD]: Remove: archive file [/home/abi/fetcher/tmp/KBDD-0.1.2.tar.gz]
+[2024-04-25 13:20:06] INFO root fetch - main [MainThread]: End processing [KBDD]: success
+[2024-04-25 13:20:07] INFO root fetch - processPackages [sebchw-example-package]: Remove: archive file [/home/abi/fetcher/tmp/sebchw_example_package-0.4.0.tar.gz]
+[2024-04-25 13:20:07] INFO root fetch - processPackages [sebchw-example-package]: Remove: archive file [/home/abi/fetcher/tmp/sebchw_example_package-0.5.0.tar.gz]
+[2024-04-25 13:20:07] INFO root fetch - main [MainThread]: End processing [sebchw-example-package]: success
+[2024-04-25 13:20:07] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.2.tar.gz]
+[2024-04-25 13:20:07] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.tar.gz]
+[2024-04-25 13:20:07] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 13:20:07] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-25 13:20:07] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.7.1-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.7.2-cp39-cp39-win_amd64.whl.zip --markdown 20240425/B/BrickAgx/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-25 13:20:07] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.7.1-py3-none-any.whl.zip]
+[2024-04-25 13:20:07] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.7.2-py3-none-any.whl.zip]
+[2024-04-25 13:20:07] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-25 13:20:08] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 13:20:08] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.7.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 13:20:08] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-25 13:20:08] INFO root fetch - main [MainThread]: Store serial: [22929540]
