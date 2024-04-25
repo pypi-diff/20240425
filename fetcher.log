@@ -15330,3 +15330,78 @@
 [2024-04-25 10:35:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-25 10:35:39] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-25 10:35:39] INFO root fetch - main [MainThread]: Store serial: [22927238]
+[2024-04-25 10:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927238]
+[2024-04-25 10:37:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrstitcher-utils
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtorrent-rpc
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arasea
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES-client
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytgpt-bot
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ontopint
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: veda-pytorch
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: audio-toolkit
+[2024-04-25 10:37:52] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [pytgpt-bot]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ontopint]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [nrstitcher-utils]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [arasea]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/fe/dd/497b6fbab1aa4f28d8f17c0dc10913daf982afe418c267eaae8a2917ba44/rtorrent_rpc-0.4.0.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/09/68/7e33e2805a515ff92ca5ce5edf6c188b8b640ff949d646958815a5ee002e/nrstitcher_utils-0.1.0.dev3.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/f6/54/3acf7ffdb080a268be89b6fb7b85f7d827211707d87f4a21786f2b5f35d2/DLMS_SPODES_client-0.8.7.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [veda-pytorch]: New version: [2.3.0.post9] Old Version: [2.2.2.post8]
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ontopint]: Downloading https://files.pythonhosted.org/packages/bb/cf/6cea823a5a3ed399871c3389cce7359f921572bb0731bd5725ad0ee9940d/ontopint-0.0.3.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/29/83/148c4312485140c806cc77ddb127d50195cd578412d165c09f33672f2204/pytgpt-bot-0.0.2.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [veda-pytorch]: Downloading https://files.pythonhosted.org/packages/ed/b5/de509515b94107b11c230bfe6dc49a1fb787375f986ec40026cefc5b5c41/veda_pytorch-2.2.2.post8-py3-none-manylinux_2_17_x86_64.whl
+[2024-04-25 10:37:52] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/7e/07/5a7068de3c5942c1d9ba5e94ebfef600e6017c43b07a737be3bf6e86d3d1/nrstitcher_utils-0.1.0.dev4.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [arasea]: Downloading https://files.pythonhosted.org/packages/98/1a/7d64ece9e0e7999f489e97a6fb7701b8073f702e56ec90b8c2dc0c9d61d2/arasea-3.0.2.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/28/f9/a71d203b558a8f4dfca3e0b587dcffd1d25bdeb22215d058afbd23fe5938/DLMS_SPODES_client-0.8.8.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/02/73/02c2b70fadd0a5775f1aa03346de43385b561c4489e5d1a8d06857662c34/rtorrent_rpc-0.4.1.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [ontopint]: Downloading https://files.pythonhosted.org/packages/e4/a7/9b8d24d17d026ce53aecbda7cb2562a41cfdc06f07e90421e525fbd0663a/ontopint-0.0.4.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [nrstitcher-utils]: executing diffoscope
+[2024-04-25 10:37:52] INFO root fetch - processPackages [nrstitcher-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrstitcher_utils-0.1.0.dev3.tar.gz tmp/nrstitcher_utils-0.1.0.dev4.tar.gz --markdown 20240425/n/nrstitcher-utils/0.1.0.dev3-0.1.0.dev4/README.md --exclude *.pyd
+[2024-04-25 10:37:52] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/e3/34/5d16b62a6bc1cf05ee6590b716c7a0edbacc4518cb4448bb6ef101d46a2e/pytgpt_bot-0.0.3.tar.gz
+[2024-04-25 10:37:52] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-25 10:37:52] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.7.tar.gz tmp/DLMS_SPODES_client-0.8.8.tar.gz --markdown 20240425/D/DLMS-SPODES-client/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-04-25 10:37:52] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2024-04-25 10:37:52] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.4.0.tar.gz tmp/rtorrent_rpc-0.4.1.tar.gz --markdown 20240425/r/rtorrent-rpc/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-25 10:37:53] INFO root fetch - processPackages [ontopint]: executing diffoscope
+[2024-04-25 10:37:53] INFO root fetch - processPackages [ontopint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontopint-0.0.3.tar.gz tmp/ontopint-0.0.4.tar.gz --markdown 20240425/o/ontopint/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 10:37:53] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-25 10:37:53] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240425/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 10:37:53] INFO root fetch - processPackages [veda-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/ec/02828589ab8ebfe26101627756bfb59d4fc848a42d8554c2799e1b077968/veda_pytorch-2.3.0.post9-py3-none-manylinux_2_17_x86_64.whl
+[2024-04-25 10:37:53] INFO root fetch - processPackages [pytgpt-bot]: executing diffoscope
+[2024-04-25 10:37:53] INFO root fetch - processPackages [pytgpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytgpt-bot-0.0.2.tar.gz tmp/pytgpt_bot-0.0.3.tar.gz --markdown 20240425/p/pytgpt-bot/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 10:37:53] INFO root fetch - processPackages [arasea]: Downloading https://files.pythonhosted.org/packages/2c/79/51fccb4a55f4bce91d954b904ce9b0b65b4697c421f17e4a6fbc55a43e4f/arasea-3.0.3.tar.gz
+[2024-04-25 10:37:53] INFO root fetch - processPackages [veda-pytorch]: executing diffoscope
+[2024-04-25 10:37:53] INFO root fetch - processPackages [veda-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_pytorch-2.2.2.post8-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_pytorch-2.3.0.post9-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20240425/v/veda-pytorch/2.2.2.post8-2.3.0.post9/README.md --exclude *.pyd
+[2024-04-25 10:37:53] INFO root fetch - processPackages [arasea]: executing diffoscope
+[2024-04-25 10:37:53] INFO root fetch - processPackages [arasea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arasea-3.0.2.tar.gz tmp/arasea-3.0.3.tar.gz --markdown 20240425/a/arasea/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-04-25 10:37:53] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.4.0.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.4.1.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2024-04-25 10:37:53] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev3.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev4.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - main [MainThread]: End processing [nrstitcher-utils]: success
+[2024-04-25 10:37:53] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-25 10:37:53] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt-bot-0.0.2.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.0.3.tar.gz]
+[2024-04-25 10:37:53] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
+[2024-04-25 10:37:54] INFO root fetch - processPackages [ontopint]: Remove: archive file [/home/abi/fetcher/tmp/ontopint-0.0.3.tar.gz]
+[2024-04-25 10:37:54] INFO root fetch - processPackages [ontopint]: Remove: archive file [/home/abi/fetcher/tmp/ontopint-0.0.4.tar.gz]
+[2024-04-25 10:37:54] INFO root fetch - main [MainThread]: End processing [ontopint]: success
+[2024-04-25 10:37:54] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.7.tar.gz]
+[2024-04-25 10:37:54] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.8.tar.gz]
+[2024-04-25 10:37:54] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-25 10:37:55] INFO root fetch - processPackages [arasea]: Remove: archive file [/home/abi/fetcher/tmp/arasea-3.0.2.tar.gz]
+[2024-04-25 10:37:55] INFO root fetch - processPackages [arasea]: Remove: archive file [/home/abi/fetcher/tmp/arasea-3.0.3.tar.gz]
+[2024-04-25 10:37:55] INFO root fetch - main [MainThread]: End processing [arasea]: success
+[2024-04-25 10:37:57] INFO root fetch - processPackages [veda-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/veda_pytorch-2.2.2.post8-py3-none-manylinux_2_17_x86_64.whl.zip]
+[2024-04-25 10:37:57] INFO root fetch - processPackages [veda-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/veda_pytorch-2.3.0.post9-py3-none-manylinux_2_17_x86_64.whl.zip]
+[2024-04-25 10:37:57] INFO root fetch - main [MainThread]: End processing [veda-pytorch]: success
+[2024-04-25 10:37:57] INFO root fetch - main [MainThread]: Store serial: [22927263]
