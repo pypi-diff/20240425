@@ -20661,3 +20661,74 @@
 [2024-04-25 12:58:08] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
 [2024-04-25 12:58:08] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2024-04-25 12:58:08] INFO root fetch - main [MainThread]: Store serial: [22929175]
+[2024-04-25 13:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929175]
+[2024-04-25 13:00:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ropt
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funcnodes_images
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brainrender
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfrecord-slow
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Products.urban
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyansys
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mteb
+[2024-04-25 13:00:17] INFO root fetch - processPackages [Products.urban]: New version: [2.7.9] Old Version: [2.7.8]
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ropt]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 13:00:17] INFO root fetch - processPackages [tfrecord-slow]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-25 13:00:17] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 13:00:17] INFO root fetch - processPackages [funcnodes_images]: New version: [0.1.13] Old Version: [0.1.12]
+[2024-04-25 13:00:17] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-25 13:00:18] INFO root fetch - processPackages [brainrender]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-25 13:00:18] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/62/cf/1ffb24c7205fcd21981095d8787cc318af5c5db4ae86ce3f94784b119e50/Products.urban-2.7.8.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [pyansys]: New version: [2024.2.0b2] Old Version: [2024.2.0b1]
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/cf/49/749e4b295b110c63dc0dec330e9ed1943381c8d0f94b2a61f5db1e274ee7/ropt-0.1.4.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/6f/95/96aa52f223383ea01692574de8811a7617fca5aaea9bdd89a75849cf7890/tfrecord_slow-0.3.2.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/65/5d/6ac03ee11cdb4191c9953bfea43f9a61aaa2a0b64585aa72c09f6a37858b/ctrip-app-ui-0.1.7.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/db/3f/2429ba9401fde40553ea7a6f815ff12dd01c925dc71cb51b2e3c51cacadf/funcnodes_images-0.1.12.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-25 13:00:18] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20169294>=10485760
+[2024-04-25 13:00:18] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2024-04-25 13:00:18] INFO root fetch - processPackages [brainrender]: Downloading https://files.pythonhosted.org/packages/95/4b/03efb080c9e0a7fbd2e2173033f69f112d150159d09e7b42439676533a87/brainrender-2.1.7.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/15/e1/7592fda438139f78f8ace5525a3fb87c5031dfb70573e7601a4bdb1ba118/tfrecord_slow-0.4.0.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/f8/0f/e0ee74c574de419bdfa50b83e57583990bcfe9b16985eb6ddfb43eaf7a69/pyansys-2024.2.0b1.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/f9/94/90cb9a3ef3345f0b107f74ef8033281ca2254532c2877546409afddc6d0d/ropt-0.1.5.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [funcnodes_images]: Downloading https://files.pythonhosted.org/packages/0a/29/c199671596fcad1646caf12f1752d0a2203a1482480fe0f103f8b87dcc17/funcnodes_images-0.1.13.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/45/d6/3afaabb1e153e948857aef0695eae361a951a4bc63083d8b2f5545f36cdf/ctrip-app-ui-0.1.8.tar.gz
+[2024-04-25 13:00:18] INFO root fetch - processPackages [tfrecord-slow]: executing diffoscope
+[2024-04-25 13:00:18] INFO root fetch - processPackages [tfrecord-slow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecord_slow-0.3.2.tar.gz tmp/tfrecord_slow-0.4.0.tar.gz --markdown 20240425/t/tfrecord-slow/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-25 13:00:18] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-25 13:00:18] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240425/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ropt]: executing diffoscope
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ropt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt-0.1.4.tar.gz tmp/ropt-0.1.5.tar.gz --markdown 20240425/r/ropt/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 13:00:18] INFO root fetch - processPackages [funcnodes_images]: executing diffoscope
+[2024-04-25 13:00:18] INFO root fetch - processPackages [funcnodes_images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_images-0.1.12.tar.gz tmp/funcnodes_images-0.1.13.tar.gz --markdown 20240425/f/funcnodes_images/0.1.12-0.1.13/README.md --exclude *.pyd
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 13:00:18] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.7.tar.gz tmp/ctrip-app-ui-0.1.8.tar.gz --markdown 20240425/c/ctrip-app-ui/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 13:00:18] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/cf/07/c3be1c6b95e5375329e4a7f2f753f58a2637ad74d7ebb32944e013a4497b/pyansys-2024.2.0b2.tar.gz
+[2024-04-25 13:00:19] INFO root fetch - processPackages [brainrender]: Downloading https://files.pythonhosted.org/packages/29/89/c9503cc8ff1850927a46f987b400a0e4f50dbd97cbf0a882dad7cd5d09a0/brainrender-2.1.8.tar.gz
+[2024-04-25 13:00:19] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2024-04-25 13:00:19] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2024.2.0b1.tar.gz tmp/pyansys-2024.2.0b2.tar.gz --markdown 20240425/p/pyansys/2024.2.0b1-2024.2.0b2/README.md --exclude *.pyd
+[2024-04-25 13:00:19] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.3.2.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.4.0.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - main [MainThread]: End processing [tfrecord-slow]: success
+[2024-04-25 13:00:19] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.12.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.13.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - processPackages [brainrender]: executing diffoscope
+[2024-04-25 13:00:19] INFO root fetch - processPackages [brainrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainrender-2.1.7.tar.gz tmp/brainrender-2.1.8.tar.gz --markdown 20240425/b/brainrender/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-25 13:00:19] INFO root fetch - main [MainThread]: End processing [funcnodes_images]: success
+[2024-04-25 13:00:19] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.7.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.8.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 13:00:19] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2024.2.0b1.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2024.2.0b2.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2024-04-25 13:00:19] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.1.4.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.1.5.tar.gz]
+[2024-04-25 13:00:19] INFO root fetch - main [MainThread]: End processing [ropt]: success
+[2024-04-25 13:00:20] INFO root fetch - processPackages [brainrender]: Remove: archive file [/home/abi/fetcher/tmp/brainrender-2.1.7.tar.gz]
+[2024-04-25 13:00:20] INFO root fetch - processPackages [brainrender]: Remove: archive file [/home/abi/fetcher/tmp/brainrender-2.1.8.tar.gz]
+[2024-04-25 13:00:20] INFO root fetch - main [MainThread]: End processing [brainrender]: success
+[2024-04-25 13:00:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-25 13:00:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-25 13:00:20] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-25 13:00:20] INFO root fetch - main [MainThread]: Store serial: [22929200]
