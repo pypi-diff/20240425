@@ -14180,3 +14180,57 @@
 [2024-04-25 09:49:03] INFO root fetch - processPackages [local-rag-llm]: Remove: archive file [/home/abi/fetcher/tmp/local_rag_llm-0.0.9.tar.gz]
 [2024-04-25 09:49:03] INFO root fetch - main [MainThread]: End processing [local-rag-llm]: success
 [2024-04-25 09:49:03] INFO root fetch - main [MainThread]: Store serial: [22926797]
+[2024-04-25 09:51:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926797]
+[2024-04-25 09:51:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioUtensils
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polylith-cli
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ArrayViewer
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fz-td-recipe
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poetry-polylith-plugin
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-researcher
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaptive
+[2024-04-25 09:51:13] INFO root fetch - processPackages [BioUtensils]: New version: [0.6] Old Version: [0.5]
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ArrayViewer]: New version: [1.1] Old Version: [1.0.8.1]
+[2024-04-25 09:51:13] INFO root fetch - processPackages [polylith-cli]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-25 09:51:13] INFO root fetch - processPackages [gpt-researcher]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-25 09:51:13] WARNING root fetch - processPackages [kaptive]: Skipping, unable to determine old version
+[2024-04-25 09:51:13] INFO root fetch - main [MainThread]: End processing [kaptive] error
+[2024-04-25 09:51:13] INFO root fetch - processPackages [poetry-polylith-plugin]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-25 09:51:13] WARNING root fetch - processPackages [fz-td-recipe]: Skipping, unable to determine old version
+[2024-04-25 09:51:13] INFO root fetch - main [MainThread]: End processing [fz-td-recipe] error
+[2024-04-25 09:51:13] INFO root fetch - processPackages [BioUtensils]: Downloading https://files.pythonhosted.org/packages/0b/1a/07bfa7bb75bfdac150530c7a58ba376a8c635dbbe8c2106166ab9ff5d919/BioUtensils-0.5.tar.gz
+[2024-04-25 09:51:13] INFO root fetch - processPackages [ArrayViewer]: Downloading https://files.pythonhosted.org/packages/93/25/39e84102df841011af33549c569b6ee49824a81269c36a2b8679c026e094/ArrayViewer-1.0.8.1.tar.gz
+[2024-04-25 09:51:13] INFO root fetch - processPackages [polylith-cli]: Downloading https://files.pythonhosted.org/packages/36/be/b2d1536a435b7ea79377695e2e26db88dbd2e51fbfce1a8168fac8376578/polylith_cli-1.5.3.tar.gz
+[2024-04-25 09:51:14] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/93/2d/0df674d3c088d1debd011a22524810e3ffec421ad4756e38d18ea807619f/gpt-researcher-0.2.6.tar.gz
+[2024-04-25 09:51:14] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/49/29/a828c35757bf7535ba7a9b6395c25166501b045b4b233d801fa6896b0e31/poetry_polylith_plugin-1.8.3.tar.gz
+[2024-04-25 09:51:14] INFO root fetch - processPackages [BioUtensils]: Downloading https://files.pythonhosted.org/packages/f4/e5/15acaa980f985dc26bdf27552860a25328571555e1296d3e1f47d3bc58a9/BioUtensils-0.6.tar.gz
+[2024-04-25 09:51:14] INFO root fetch - processPackages [ArrayViewer]: Downloading https://files.pythonhosted.org/packages/c9/ea/97d3d00ba0127234e5206cf3cb2ce928b2d62a9a7ee181b2f724d21ebb00/ArrayViewer-1.1-py3-none-any.whl
+[2024-04-25 09:51:14] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/e0/57/01ef9f216f3e2aa5badb548a3264e163ead52552e983596101f6a8a66d51/gpt-researcher-0.2.7.tar.gz
+[2024-04-25 09:51:14] INFO root fetch - processPackages [polylith-cli]: Downloading https://files.pythonhosted.org/packages/f5/42/38b1ccc1753490eb83d0f7919926a875464578c0013b8915e7c4f5d660b6/polylith_cli-1.5.4.tar.gz
+[2024-04-25 09:51:14] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/de/fb/c9f8f5b2f80b91fb096f4de78316ccfa166654868df2adb403f80746fe2f/poetry_polylith_plugin-1.9.0.tar.gz
+[2024-04-25 09:51:14] INFO root fetch - processPackages [ArrayViewer]: executing diffoscope
+[2024-04-25 09:51:14] INFO root fetch - processPackages [ArrayViewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArrayViewer-1.0.8.1.tar.gz tmp/ArrayViewer-1.1-py3-none-any.whl.zip --markdown 20240425/A/ArrayViewer/1.0.8.1-1.1/README.md --exclude *.pyd
+[2024-04-25 09:51:14] INFO root fetch - processPackages [BioUtensils]: executing diffoscope
+[2024-04-25 09:51:14] INFO root fetch - processPackages [BioUtensils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioUtensils-0.5.tar.gz tmp/BioUtensils-0.6.tar.gz --markdown 20240425/B/BioUtensils/0.5-0.6/README.md --exclude *.pyd
+[2024-04-25 09:51:14] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-04-25 09:51:14] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.2.6.tar.gz tmp/gpt-researcher-0.2.7.tar.gz --markdown 20240425/g/gpt-researcher/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-25 09:51:14] INFO root fetch - processPackages [poetry-polylith-plugin]: executing diffoscope
+[2024-04-25 09:51:14] INFO root fetch - processPackages [poetry-polylith-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_polylith_plugin-1.8.3.tar.gz tmp/poetry_polylith_plugin-1.9.0.tar.gz --markdown 20240425/p/poetry-polylith-plugin/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-04-25 09:51:14] INFO root fetch - processPackages [polylith-cli]: executing diffoscope
+[2024-04-25 09:51:14] INFO root fetch - processPackages [polylith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polylith_cli-1.5.3.tar.gz tmp/polylith_cli-1.5.4.tar.gz --markdown 20240425/p/polylith-cli/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-25 09:51:15] INFO root fetch - processPackages [ArrayViewer]: Remove: archive file [/home/abi/fetcher/tmp/ArrayViewer-1.0.8.1.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - processPackages [ArrayViewer]: Remove: archive file [/home/abi/fetcher/tmp/ArrayViewer-1.1-py3-none-any.whl.zip]
+[2024-04-25 09:51:15] INFO root fetch - main [MainThread]: End processing [ArrayViewer]: success
+[2024-04-25 09:51:15] INFO root fetch - processPackages [BioUtensils]: Remove: archive file [/home/abi/fetcher/tmp/BioUtensils-0.5.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - processPackages [BioUtensils]: Remove: archive file [/home/abi/fetcher/tmp/BioUtensils-0.6.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - main [MainThread]: End processing [BioUtensils]: success
+[2024-04-25 09:51:15] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.2.6.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.2.7.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-04-25 09:51:15] INFO root fetch - processPackages [polylith-cli]: Remove: archive file [/home/abi/fetcher/tmp/polylith_cli-1.5.3.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - processPackages [polylith-cli]: Remove: archive file [/home/abi/fetcher/tmp/polylith_cli-1.5.4.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - main [MainThread]: End processing [polylith-cli]: success
+[2024-04-25 09:51:15] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.8.3.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.9.0.tar.gz]
+[2024-04-25 09:51:15] INFO root fetch - main [MainThread]: End processing [poetry-polylith-plugin]: success
+[2024-04-25 09:51:15] INFO root fetch - main [MainThread]: Store serial: [22926819]
