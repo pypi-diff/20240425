@@ -12316,3 +12316,49 @@
 [2024-04-25 08:35:27] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.3.tar.gz]
 [2024-04-25 08:35:27] INFO root fetch - main [MainThread]: End processing [sf-hamilton-sdk]: success
 [2024-04-25 08:35:27] INFO root fetch - main [MainThread]: Store serial: [22926090]
+[2024-04-25 08:37:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926090]
+[2024-04-25 08:37:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 08:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sf-hamilton-sdk
+[2024-04-25 08:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-25 08:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-04-25 08:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nue
+[2024-04-25 08:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-04-25 08:37:36] INFO root fetch - processPackages [sf-hamilton-sdk]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-25 08:37:36] INFO root fetch - processPackages [nue]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-25 08:37:36] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-25 08:37:36] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240424170543] Old Version: [3.3.1.dev20240424152901]
+[2024-04-25 08:37:36] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240424170543] Old Version: [3.3.1.dev20240424152901]
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7d/2c/e7027661f3af44432902221974bb068104e5052962940eb3fad2d0b1b447/localstack_core-3.3.1.dev20240424152901.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/a8/9a/cd9dbaf440a78a6ec594bb62c38a8400209a6f531ff8265a94564ac8c4fe/sf_hamilton_sdk-0.3.2.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [nue]: Downloading https://files.pythonhosted.org/packages/b0/8f/de11027a6a74ad2c4e83c0915d506e58b4fd4dbb34c8556c708c8376c200/nue-0.0.1.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7d/2c/e7027661f3af44432902221974bb068104e5052962940eb3fad2d0b1b447/localstack_core-3.3.1.dev20240424152901.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/e6/e0/9d7286bd2d21daee3fcc26457a093198e6b856bfa4ef90d26f5b230fef5c/sf_hamilton_sdk-0.3.3.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-25 08:37:37] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240425/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-25 08:37:37] INFO root fetch - processPackages [nue]: Downloading https://files.pythonhosted.org/packages/77/74/3b204f38507656886091ab3098b94cc00d4891cb6a9529b0963f0335869a/nue-0.0.2.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [sf-hamilton-sdk]: executing diffoscope
+[2024-04-25 08:37:37] INFO root fetch - processPackages [sf-hamilton-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_hamilton_sdk-0.3.2.tar.gz tmp/sf_hamilton_sdk-0.3.3.tar.gz --markdown 20240425/s/sf-hamilton-sdk/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-25 08:37:37] INFO root fetch - processPackages [nue]: executing diffoscope
+[2024-04-25 08:37:37] INFO root fetch - processPackages [nue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nue-0.0.1.tar.gz tmp/nue-0.0.2.tar.gz --markdown 20240425/n/nue/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e2/a0/ac660ed523287085fb0995fb2c6a28aa347ad4dad15bdb18bc752e5221bd/localstack_core-3.3.1.dev20240424170543.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e2/a0/ac660ed523287085fb0995fb2c6a28aa347ad4dad15bdb18bc752e5221bd/localstack_core-3.3.1.dev20240424170543.tar.gz
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240424152901.tar.gz tmp/localstack_core-3.3.1.dev20240424170543.tar.gz --markdown 20240425/l/localstack-core/3.3.1.dev20240424152901-3.3.1.dev20240424170543/README.md --exclude *.pyd
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-25 08:37:37] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240424152901.tar.gz tmp/localstack_core-3.3.1.dev20240424170543.tar.gz --markdown 20240425/l/localstack-core/3.3.1.dev20240424152901-3.3.1.dev20240424170543/README.md --exclude *.pyd
+[2024-04-25 08:37:38] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-25 08:37:38] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-25 08:37:38] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-25 08:37:38] INFO root fetch - processPackages [nue]: Remove: archive file [/home/abi/fetcher/tmp/nue-0.0.1.tar.gz]
+[2024-04-25 08:37:38] INFO root fetch - processPackages [nue]: Remove: archive file [/home/abi/fetcher/tmp/nue-0.0.2.tar.gz]
+[2024-04-25 08:37:38] INFO root fetch - main [MainThread]: End processing [nue]: success
+[2024-04-25 08:37:38] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.2.tar.gz]
+[2024-04-25 08:37:38] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.3.tar.gz]
+[2024-04-25 08:37:38] INFO root fetch - main [MainThread]: End processing [sf-hamilton-sdk]: success
+[2024-04-25 08:37:41] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240424152901.tar.gz]
+[2024-04-25 08:37:41] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240424170543.tar.gz]
+[2024-04-25 08:37:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-25 08:37:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-25 08:37:41] INFO root fetch - main [MainThread]: Store serial: [22926106]
