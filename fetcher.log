@@ -9061,3 +9061,33 @@
 [2024-04-25 04:51:57] INFO root fetch - processPackages [clife-svc2]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc2-2.0.0rc1.tar.gz]
 [2024-04-25 04:51:57] INFO root fetch - main [MainThread]: End processing [clife-svc2]: success
 [2024-04-25 04:51:57] INFO root fetch - main [MainThread]: Store serial: [22924462]
+[2024-04-25 04:54:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924462]
+[2024-04-25 04:54:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3dep
+[2024-04-25 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pokebola
+[2024-04-25 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crossword-puzzle
+[2024-04-25 04:54:06] INFO root fetch - processPackages [Pokebola]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 04:54:06] INFO root fetch - processPackages [Pokebola]: Downloading https://files.pythonhosted.org/packages/48/c8/9df9d9a9dd7e482c4be91535fe814075caabb094a2e1a07014db88cb413d/pokebola-1.0.2.tar.gz
+[2024-04-25 04:54:06] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.51] Old Version: [1.2.50]
+[2024-04-25 04:54:06] INFO root fetch - processPackages [py3dep]: New version: [0.9.0] Old Version: [0.2.0]
+[2024-04-25 04:54:06] INFO root fetch - processPackages [py3dep]: Downloading https://files.pythonhosted.org/packages/94/81/c0f9874b198dca59f323222b3066072d5a399757879482d3a149321895aa/py3dep-0.2.0.tar.gz
+[2024-04-25 04:54:06] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/d9/46/f1244d4285949354a28ada82725ce343f356c4c672d6b28c8e898e006e28/crossword_puzzle-1.2.50.tar.gz
+[2024-04-25 04:54:06] INFO root fetch - processPackages [Pokebola]: Downloading https://files.pythonhosted.org/packages/3f/2b/d80fd89683612e9349ae4933bb421683ab28aee2d88039f8ed43716e8c04/pokebola-1.0.3.tar.gz
+[2024-04-25 04:54:06] INFO root fetch - processPackages [Pokebola]: executing diffoscope
+[2024-04-25 04:54:06] INFO root fetch - processPackages [Pokebola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokebola-1.0.2.tar.gz tmp/pokebola-1.0.3.tar.gz --markdown 20240425/P/Pokebola/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 04:54:06] INFO root fetch - processPackages [py3dep]: Downloading https://files.pythonhosted.org/packages/f1/6b/650a45264195f20a65625553288354cb1c0bdd73b09d3a46864e86d122d8/py3dep-0.9.0.tar.gz
+[2024-04-25 04:54:07] INFO root fetch - processPackages [py3dep]: executing diffoscope
+[2024-04-25 04:54:07] INFO root fetch - processPackages [py3dep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3dep-0.2.0.tar.gz tmp/py3dep-0.9.0.tar.gz --markdown 20240425/p/py3dep/0.2.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 04:54:07] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/4d/a4/a6e9287eb18126da28128726c756e781d013ccb8829aea76f23c553bae79/crossword_puzzle-1.2.51.tar.gz
+[2024-04-25 04:54:07] INFO root fetch - processPackages [Pokebola]: Remove: archive file [/home/abi/fetcher/tmp/pokebola-1.0.2.tar.gz]
+[2024-04-25 04:54:07] INFO root fetch - processPackages [Pokebola]: Remove: archive file [/home/abi/fetcher/tmp/pokebola-1.0.3.tar.gz]
+[2024-04-25 04:54:07] INFO root fetch - main [MainThread]: End processing [Pokebola]: success
+[2024-04-25 04:54:07] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-04-25 04:54:07] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.50.tar.gz tmp/crossword_puzzle-1.2.51.tar.gz --markdown 20240425/c/crossword-puzzle/1.2.50-1.2.51/README.md --exclude *.pyd
+[2024-04-25 04:54:07] INFO root fetch - processPackages [py3dep]: Remove: archive file [/home/abi/fetcher/tmp/py3dep-0.2.0.tar.gz]
+[2024-04-25 04:54:07] INFO root fetch - processPackages [py3dep]: Remove: archive file [/home/abi/fetcher/tmp/py3dep-0.9.0.tar.gz]
+[2024-04-25 04:54:07] INFO root fetch - main [MainThread]: End processing [py3dep]: success
+[2024-04-25 04:54:27] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.50.tar.gz]
+[2024-04-25 04:54:27] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.51.tar.gz]
+[2024-04-25 04:54:27] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-04-25 04:54:27] INFO root fetch - main [MainThread]: Store serial: [22924471]
