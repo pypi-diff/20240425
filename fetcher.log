@@ -7861,3 +7861,45 @@
 [2024-04-25 03:36:59] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.4.tar.gz]
 [2024-04-25 03:36:59] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-25 03:36:59] INFO root fetch - main [MainThread]: Store serial: [22923913]
+[2024-04-25 03:39:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22923913]
+[2024-04-25 03:39:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 03:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-seispy
+[2024-04-25 03:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autocortext-py
+[2024-04-25 03:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiuxian
+[2024-04-25 03:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xiuxian-back
+[2024-04-25 03:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redundantcss
+[2024-04-25 03:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xiuxian-bank
+[2024-04-25 03:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mov-cli
+[2024-04-25 03:39:08] WARNING root fetch - processPackages [redundantcss]: Skipping, unable to determine old version
+[2024-04-25 03:39:08] INFO root fetch - main [MainThread]: End processing [redundantcss] error
+[2024-04-25 03:39:08] INFO root fetch - processPackages [xiuxian]: New version: [0.20] Old Version: [0.14]
+[2024-04-25 03:39:08] INFO root fetch - processPackages [python-seispy]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-25 03:39:08] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-25 03:39:08] WARNING root fetch - processPackages [xiuxian-back]: Skipping, unable to determine old version
+[2024-04-25 03:39:08] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-25 03:39:08] INFO root fetch - main [MainThread]: End processing [xiuxian-back] error
+[2024-04-25 03:39:08] WARNING root fetch - processPackages [xiuxian-bank]: Skipping, unable to determine old version
+[2024-04-25 03:39:08] INFO root fetch - main [MainThread]: End processing [xiuxian-bank] error
+[2024-04-25 03:39:08] INFO root fetch - processPackages [mov-cli]: New version: [4.3.4] Old Version: [4.3.1]
+[2024-04-25 03:39:08] INFO root fetch - processPackages [xiuxian]: Downloading https://files.pythonhosted.org/packages/42/9f/0f9105306f00fc39b64ce7b64bdfa40af2c51969b0ce3816294a8f5f1437/xiuxian-0.14.tar.gz
+[2024-04-25 03:39:08] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/42/52/8f7e55a29c4cd147dfb9df1e91218d94ef1b47230a34b980c36720fcd860/mov_cli-4.3.1.tar.gz
+[2024-04-25 03:39:08] INFO root fetch - processPackages [python-seispy]: Downloading https://files.pythonhosted.org/packages/97/11/06dfa24fb716f0ee24c167f0321d5b0d4df67aa465c8a1ea0b2fcd65874e/python-seispy-1.3.5.tar.gz
+[2024-04-25 03:39:09] INFO root fetch - processPackages [xiuxian]: Downloading https://files.pythonhosted.org/packages/16/1e/3b65cf66e32ebf386cef45b8955992c628cc31e029f93be6cab1bc89f7e1/xiuxian-0.20.tar.gz
+[2024-04-25 03:39:09] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/34/93/be0468db7cf361ed490a85e61767654076e458b0293b426c75ae3ecc7a87/mov_cli-4.3.4.tar.gz
+[2024-04-25 03:39:09] INFO root fetch - processPackages [python-seispy]: Downloading https://files.pythonhosted.org/packages/51/f8/24057fc99a16ce8acfe402250cba77f2fc3f002958bbd72e09f32d87fc30/python_seispy-1.3.6.tar.gz
+[2024-04-25 03:39:09] INFO root fetch - processPackages [xiuxian]: executing diffoscope
+[2024-04-25 03:39:09] INFO root fetch - processPackages [xiuxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiuxian-0.14.tar.gz tmp/xiuxian-0.20.tar.gz --markdown 20240425/x/xiuxian/0.14-0.20/README.md --exclude *.pyd
+[2024-04-25 03:39:09] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-04-25 03:39:09] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-4.3.1.tar.gz tmp/mov_cli-4.3.4.tar.gz --markdown 20240425/m/mov-cli/4.3.1-4.3.4/README.md --exclude *.pyd
+[2024-04-25 03:39:09] INFO root fetch - processPackages [python-seispy]: executing diffoscope
+[2024-04-25 03:39:09] INFO root fetch - processPackages [python-seispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-seispy-1.3.5.tar.gz tmp/python_seispy-1.3.6.tar.gz --markdown 20240425/p/python-seispy/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-04-25 03:39:09] INFO root fetch - processPackages [xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/xiuxian-0.14.tar.gz]
+[2024-04-25 03:39:09] INFO root fetch - processPackages [xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/xiuxian-0.20.tar.gz]
+[2024-04-25 03:39:09] INFO root fetch - main [MainThread]: End processing [xiuxian]: success
+[2024-04-25 03:39:10] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.3.1.tar.gz]
+[2024-04-25 03:39:10] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.3.4.tar.gz]
+[2024-04-25 03:39:10] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-04-25 03:39:10] INFO root fetch - processPackages [python-seispy]: Remove: archive file [/home/abi/fetcher/tmp/python-seispy-1.3.5.tar.gz]
+[2024-04-25 03:39:10] INFO root fetch - processPackages [python-seispy]: Remove: archive file [/home/abi/fetcher/tmp/python_seispy-1.3.6.tar.gz]
+[2024-04-25 03:39:10] INFO root fetch - main [MainThread]: End processing [python-seispy]: success
+[2024-04-25 03:39:10] INFO root fetch - main [MainThread]: Store serial: [22923960]
