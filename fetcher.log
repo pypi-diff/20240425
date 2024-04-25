@@ -3627,3 +3627,51 @@
 [2024-04-25 02:46:40] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404240044.tar.gz]
 [2024-04-25 02:46:40] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-25 02:46:40] INFO root fetch - main [MainThread]: Store serial: [22922449]
+[2024-04-25 02:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922449]
+[2024-04-25 02:48:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 02:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-asyncio-utils
+[2024-04-25 02:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-fabric
+[2024-04-25 02:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-cognito-idp
+[2024-04-25 02:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-s3
+[2024-04-25 02:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-dynamodb
+[2024-04-25 02:48:48] INFO root fetch - processPackages [robotframework-asyncio-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-25 02:48:48] INFO root fetch - processPackages [dbt-fabric]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-04-25 02:48:48] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: New version: [1.34.91] Old Version: [1.34.59]
+[2024-04-25 02:48:48] INFO root fetch - processPackages [mypy-boto3-s3]: New version: [1.34.91] Old Version: [1.34.65]
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-dynamodb]: New version: [1.34.91] Old Version: [1.34.67]
+[2024-04-25 02:48:49] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/f2/65/87f3c8848cf20fe9f8afc884bcd6f781ff8c58c9d663e4bfe4c22b12d1f3/dbt-fabric-1.8.2.tar.gz
+[2024-04-25 02:48:49] INFO root fetch - processPackages [robotframework-asyncio-utils]: Downloading https://files.pythonhosted.org/packages/2b/38/30982b8a5008273cbd62ca5201ee54382949e0830045b1e208bb3464e6d2/robotframework_asyncio_utils-0.1.6.tar.gz
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Downloading https://files.pythonhosted.org/packages/ab/ce/acc3a173c5448c21a8fdd2d75475042e0975c2dac89a871b7c6d45b33c97/mypy-boto3-cognito-idp-1.34.59.tar.gz
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/d2/a3/f1edebdb192960102579795d4acd25431daeae7f4ef6ef58719eb5934b22/mypy-boto3-s3-1.34.65.tar.gz
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/2c/92/92bcdfd7e347e28e73babae0fa99ea151f0a5372679e43e54f69f423d8f3/mypy-boto3-dynamodb-1.34.67.tar.gz
+[2024-04-25 02:48:49] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/3d/be/68ec41f9c78c0ac85feb6b2e9aa3f72605629cadbd18643854d7385b220c/dbt-fabric-1.8.3.tar.gz
+[2024-04-25 02:48:49] INFO root fetch - processPackages [robotframework-asyncio-utils]: Downloading https://files.pythonhosted.org/packages/7f/32/853e8db813ab1839b5b7c9a70e0f71e407734e1af755ecdd25e39ac9de5a/robotframework_asyncio_utils-0.1.7.tar.gz
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Downloading https://files.pythonhosted.org/packages/46/c9/87da7ffbc349ef6fbbe3dfbbbaab428d10a10d4bc3fce886914ca469905a/mypy_boto3_cognito_idp-1.34.91-py3-none-any.whl
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/0f/a9/66f53d966cc5398a7b49af072fc2a88d083917c31b542ea8626ad4ab5713/mypy_boto3_s3-1.34.91-py3-none-any.whl
+[2024-04-25 02:48:49] INFO root fetch - processPackages [dbt-fabric]: executing diffoscope
+[2024-04-25 02:48:49] INFO root fetch - processPackages [dbt-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fabric-1.8.2.tar.gz tmp/dbt-fabric-1.8.3.tar.gz --markdown 20240425/d/dbt-fabric/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-04-25 02:48:49] INFO root fetch - processPackages [robotframework-asyncio-utils]: executing diffoscope
+[2024-04-25 02:48:49] INFO root fetch - processPackages [robotframework-asyncio-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_asyncio_utils-0.1.6.tar.gz tmp/robotframework_asyncio_utils-0.1.7.tar.gz --markdown 20240425/r/robotframework-asyncio-utils/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/65/07/ba8a6fc41dae1da53e22a39714ecf7c729d761a07a897f7048a239a3cf43/mypy_boto3_dynamodb-1.34.91-py3-none-any.whl
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: executing diffoscope
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-cognito-idp-1.34.59.tar.gz tmp/mypy_boto3_cognito_idp-1.34.91-py3-none-any.whl.zip --markdown 20240425/m/mypy-boto3-cognito-idp/1.34.59-1.34.91/README.md --exclude *.pyd
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-s3]: executing diffoscope
+[2024-04-25 02:48:49] INFO root fetch - processPackages [mypy-boto3-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-s3-1.34.65.tar.gz tmp/mypy_boto3_s3-1.34.91-py3-none-any.whl.zip --markdown 20240425/m/mypy-boto3-s3/1.34.65-1.34.91/README.md --exclude *.pyd
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-dynamodb]: executing diffoscope
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-dynamodb-1.34.67.tar.gz tmp/mypy_boto3_dynamodb-1.34.91-py3-none-any.whl.zip --markdown 20240425/m/mypy-boto3-dynamodb/1.34.67-1.34.91/README.md --exclude *.pyd
+[2024-04-25 02:48:50] INFO root fetch - processPackages [robotframework-asyncio-utils]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_asyncio_utils-0.1.6.tar.gz]
+[2024-04-25 02:48:50] INFO root fetch - processPackages [robotframework-asyncio-utils]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_asyncio_utils-0.1.7.tar.gz]
+[2024-04-25 02:48:50] INFO root fetch - main [MainThread]: End processing [robotframework-asyncio-utils]: success
+[2024-04-25 02:48:50] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.2.tar.gz]
+[2024-04-25 02:48:50] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.3.tar.gz]
+[2024-04-25 02:48:50] INFO root fetch - main [MainThread]: End processing [dbt-fabric]: success
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-s3-1.34.65.tar.gz]
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_s3-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 02:48:50] INFO root fetch - main [MainThread]: End processing [mypy-boto3-s3]: success
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.34.67.tar.gz]
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_dynamodb-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 02:48:50] INFO root fetch - main [MainThread]: End processing [mypy-boto3-dynamodb]: success
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cognito-idp-1.34.59.tar.gz]
+[2024-04-25 02:48:50] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_cognito_idp-1.34.91-py3-none-any.whl.zip]
+[2024-04-25 02:48:50] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cognito-idp]: success
+[2024-04-25 02:48:50] INFO root fetch - main [MainThread]: Store serial: [22922461]
