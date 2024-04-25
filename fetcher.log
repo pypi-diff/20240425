@@ -18576,3 +18576,33 @@
 [2024-04-25 11:47:26] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.6.tar.gz]
 [2024-04-25 11:47:26] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
 [2024-04-25 11:47:26] INFO root fetch - main [MainThread]: Store serial: [22928351]
+[2024-04-25 11:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928351]
+[2024-04-25 11:49:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 11:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mwxlib
+[2024-04-25 11:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstract-sdk
+[2024-04-25 11:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctrip-app-ui
+[2024-04-25 11:49:35] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 11:49:35] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/7d/b4/5178dd17f884b2dd731d23d58c1bfd00822b8ffd52618ed0b8f9875ea27e/ctrip-app-ui-0.1.1.tar.gz
+[2024-04-25 11:49:35] INFO root fetch - processPackages [mwxlib]: New version: [0.94.2] Old Version: [0.94.0]
+[2024-04-25 11:49:35] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.22.1]
+[2024-04-25 11:49:35] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/67/d1/dc07c84cff47d3cdb94f12352a379490cd1960a8bdabc015bd8d28453c6b/unstract_sdk-0.22.1.tar.gz
+[2024-04-25 11:49:35] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/ae/3b/0cc455b0ae0c28fca5b561a27757d3ec5c95e6adaf740aa3ec6505ec64de/mwxlib-0.94.0-py3-none-any.whl
+[2024-04-25 11:49:36] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/8a/28/599dfab5a6daceb31564f07a78d1ed4862a047a2ee7c52d1580d53ed88c6/ctrip-app-ui-0.1.2.tar.gz
+[2024-04-25 11:49:36] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 11:49:36] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.1.1.tar.gz tmp/ctrip-app-ui-0.1.2.tar.gz --markdown 20240425/c/ctrip-app-ui/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 11:49:36] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/26/de/e7894d1dfe0b62806b5b1158440130432815dfc8b89915561ab940510acc/mwxlib-0.94.2-py3-none-any.whl
+[2024-04-25 11:49:36] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-25 11:49:36] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-25 11:49:36] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.22.1.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240425/u/unstract-sdk/0.22.1-0.9.0/README.md --exclude *.pyd
+[2024-04-25 11:49:36] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2024-04-25 11:49:36] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.94.0-py3-none-any.whl.zip tmp/mwxlib-0.94.2-py3-none-any.whl.zip --markdown 20240425/m/mwxlib/0.94.0-0.94.2/README.md --exclude *.pyd
+[2024-04-25 11:49:36] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.1.tar.gz]
+[2024-04-25 11:49:36] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.1.2.tar.gz]
+[2024-04-25 11:49:36] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 11:49:37] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.94.0-py3-none-any.whl.zip]
+[2024-04-25 11:49:37] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.94.2-py3-none-any.whl.zip]
+[2024-04-25 11:49:37] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2024-04-25 11:49:37] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.22.1.tar.gz]
+[2024-04-25 11:49:37] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-25 11:49:37] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-25 11:49:37] INFO root fetch - main [MainThread]: Store serial: [22928362]
