@@ -23054,3 +23054,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:20:17] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-04-25 14:20:17] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-04-25 14:20:17] INFO root fetch - main [MainThread]: Store serial: [22930210]
+[2024-04-25 14:22:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930210]
+[2024-04-25 14:22:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-scheema
+[2024-04-25 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-quart-app
+[2024-04-25 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-cli-labs
+[2024-04-25 14:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frappe-manager
+[2024-04-25 14:22:26] INFO root fetch - processPackages [my-quart-app]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-25 14:22:26] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-25 14:22:26] INFO root fetch - processPackages [my-quart-app]: Downloading https://files.pythonhosted.org/packages/d8/cd/35f6f6e2c11e1014cced4c3ec7dbc8c9a1f52718cd99936c25efdb904865/my_quart_app-1.1.1.tar.gz
+[2024-04-25 14:22:26] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-04-25 14:22:27] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [2.2.0rc0] Old Version: [2.2.0]
+[2024-04-25 14:22:27] INFO root fetch - processPackages [frappe-manager]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-25 14:22:27] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/bb/98/c2804ddaf7f8fca22641bdad572ed7678f405ba50bbe7bbf5e750c86be07/snowflake_cli_labs-2.2.0.tar.gz
+[2024-04-25 14:22:27] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-04-25 14:22:27] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/b8/06/cf638b54937dbe7c3a2395f567621aa38c3c243666a1a1bfeb2617b5ea84/frappe_manager-0.8.3.tar.gz
+[2024-04-25 14:22:27] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-04-25 14:22:27] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240425/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-25 14:22:27] INFO root fetch - processPackages [my-quart-app]: Downloading https://files.pythonhosted.org/packages/09/40/d176a059e95c789260617144889c6b7accf5e3873b35df701ec9395177ca/my_quart_app-1.1.2.tar.gz
+[2024-04-25 14:22:27] INFO root fetch - processPackages [my-quart-app]: executing diffoscope
+[2024-04-25 14:22:27] INFO root fetch - processPackages [my-quart-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_quart_app-1.1.1.tar.gz tmp/my_quart_app-1.1.2.tar.gz --markdown 20240425/m/my-quart-app/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-25 14:22:27] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/5a/7c/051d53a8eb1a6b2017edc0f3eecf9f6bc1cde5f8aecb89779b947476bcfe/snowflake_cli_labs-2.2.0rc0.tar.gz
+[2024-04-25 14:22:27] INFO root fetch - processPackages [frappe-manager]: Downloading https://files.pythonhosted.org/packages/0e/af/c09a0baea3d0a36661cf4083f7a44cad1f804fe0408874bce6e67f717275/frappe_manager-0.9.0.tar.gz
+[2024-04-25 14:22:27] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2024-04-25 14:22:27] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-2.2.0.tar.gz tmp/snowflake_cli_labs-2.2.0rc0.tar.gz --markdown 20240425/s/snowflake-cli-labs/2.2.0-2.2.0rc0/README.md --exclude *.pyd
+[2024-04-25 14:22:27] INFO root fetch - processPackages [frappe-manager]: executing diffoscope
+[2024-04-25 14:22:27] INFO root fetch - processPackages [frappe-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frappe_manager-0.8.3.tar.gz tmp/frappe_manager-0.9.0.tar.gz --markdown 20240425/f/frappe-manager/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-25 14:22:28] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-04-25 14:22:28] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-04-25 14:22:28] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-04-25 14:22:28] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.8.3.tar.gz]
+[2024-04-25 14:22:28] INFO root fetch - processPackages [frappe-manager]: Remove: archive file [/home/abi/fetcher/tmp/frappe_manager-0.9.0.tar.gz]
+[2024-04-25 14:22:28] INFO root fetch - main [MainThread]: End processing [frappe-manager]: success
+[2024-04-25 14:22:28] INFO root fetch - processPackages [my-quart-app]: Remove: archive file [/home/abi/fetcher/tmp/my_quart_app-1.1.1.tar.gz]
+[2024-04-25 14:22:28] INFO root fetch - processPackages [my-quart-app]: Remove: archive file [/home/abi/fetcher/tmp/my_quart_app-1.1.2.tar.gz]
+[2024-04-25 14:22:28] INFO root fetch - main [MainThread]: End processing [my-quart-app]: success
+[2024-04-25 14:22:29] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.2.0.tar.gz]
+[2024-04-25 14:22:29] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.2.0rc0.tar.gz]
+[2024-04-25 14:22:29] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2024-04-25 14:22:29] INFO root fetch - main [MainThread]: Store serial: [22930225]
