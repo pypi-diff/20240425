@@ -18606,3 +18606,133 @@
 [2024-04-25 11:49:37] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
 [2024-04-25 11:49:37] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
 [2024-04-25 11:49:37] INFO root fetch - main [MainThread]: Store serial: [22928362]
+[2024-04-25 11:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928362]
+[2024-04-25 11:51:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unibot_hn
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turu-core
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-common-tools
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spacemake
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efel
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: janus-swi
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vsvn-application-monitoring
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: turu-snowflake
+[2024-04-25 11:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: turu-sqlite3
+[2024-04-25 11:51:45] INFO root fetch - processPackages [unibot_hn]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 11:51:45] INFO root fetch - processPackages [database-common-tools]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-25 11:51:45] INFO root fetch - processPackages [spacemake]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-04-25 11:51:45] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-04-25 11:51:45] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-25 11:51:45] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/96/31/f373b30cc469d89c9dfe79cbefe9e007d7277a87683f980e89377046bf82/unibot_hn-0.1.1.tar.gz
+[2024-04-25 11:51:45] WARNING root fetch - processPackages [vsvn-application-monitoring]: Skipping, unable to determine old version
+[2024-04-25 11:51:45] INFO root fetch - processPackages [vsvn-application-monitoring]: Start processing: sentry-sdk
+[2024-04-25 11:51:45] INFO root fetch - main [MainThread]: End processing [vsvn-application-monitoring] error
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-core]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-snowflake]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:51:46] INFO root fetch - processPackages [janus-swi]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-sqlite3]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:51:46] INFO root fetch - processPackages [spacemake]: Downloading https://files.pythonhosted.org/packages/8e/b2/a546edfc3536a5282940cc581370600f2f71008f5dd32032af3b04e92f0a/spacemake-0.7.7.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/c6/e3/6de3a3532fb3dce4081fa9d7e4e4b916b5a39a3e19cab6dc9ad18a4208bb/database-common-tools-1.1.6.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [sentry-sdk]: New version: [2.0.0rc6] Old Version: [2.0.0rc5]
+[2024-04-25 11:51:46] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-04-25 11:51:46] WARNING root fetch - processPackages [spacemake]: Skipping package: exceeds size limit 96001525>=10485760
+[2024-04-25 11:51:46] INFO root fetch - processPackages [spacemake]: Start processing: turu-bigquery
+[2024-04-25 11:51:46] INFO root fetch - main [MainThread]: End processing [spacemake] error
+[2024-04-25 11:51:46] INFO root fetch - processPackages [janus-swi]: Downloading https://files.pythonhosted.org/packages/52/82/4b16cdd1cb95fbaddd1bb547567724883ac848cea72e5103c867bbbe2a06/janus_swi-1.1.4.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-snowflake]: Downloading https://files.pythonhosted.org/packages/1c/96/1bfce4515c2104e0c03b89d9f2e3e67cdb56e44f80f6ec4826e8dc92d735/turu_snowflake-0.9.8.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-bigquery]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-sqlite3]: Downloading https://files.pythonhosted.org/packages/c3/19/c8a14d0eba9e534d73836e766d92fe0526f691ffaefb3589ebadb1f57b76/turu_sqlite3-0.9.8.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-core]: Downloading https://files.pythonhosted.org/packages/12/80/d35808f3031421c44f40a49664912b41551f3e1ff5a3e54662a1fbe11584/turu_core-0.9.8.tar.gz
+[2024-04-25 11:51:46] ERROR root fetch - processPackages [unibot_hn]: Unable to fetch info: No such project/version 'unibot_hn' 0.1.2
+[2024-04-25 11:51:46] INFO root fetch - processPackages [unibot_hn]: Start processing: turu-postgres
+[2024-04-25 11:51:46] INFO root fetch - main [MainThread]: End processing [unibot_hn] error
+[2024-04-25 11:51:46] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/07/ab/dcd64cb9aec1ce2959801c128398e9c948a5010270f458c2cd80653af096/sentry-sdk-2.0.0rc5.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/05/38/a414e396216a02d3f00d9bc198d7db985e21acdb8c075db5741962ff1eee/database-common-tools-1.1.7.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-postgres]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:51:46] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-25 11:51:46] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.1.6.tar.gz tmp/database-common-tools-1.1.7.tar.gz --markdown 20240425/d/database-common-tools/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-25 11:51:46] INFO root fetch - processPackages [janus-swi]: Downloading https://files.pythonhosted.org/packages/27/ea/3df66ae92600e601da2aa2f22941dc85459f1f48383ed78b1f061cee946a/janus_swi-1.2.0.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-04-25 11:51:46] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240425/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-04-25 11:51:46] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-25 11:51:46] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240425/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-bigquery]: Downloading https://files.pythonhosted.org/packages/b0/92/a2287baa178954f73ace47f6fe883721d8a0972269e86599dbc63c4f87a3/turu_bigquery-0.9.8.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [janus-swi]: executing diffoscope
+[2024-04-25 11:51:46] INFO root fetch - processPackages [janus-swi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_swi-1.1.4.tar.gz tmp/janus_swi-1.2.0.tar.gz --markdown 20240425/j/janus-swi/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-postgres]: Downloading https://files.pythonhosted.org/packages/61/3e/e5f70683977677097c2ebc4997832b698088c351f4364595b8abb76b0537/turu_postgres-0.9.8.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-snowflake]: Downloading https://files.pythonhosted.org/packages/57/df/6fb8850a6143d0a29ee348a09518a5b018ed735e795b164e759baaab8a12/turu_snowflake-0.9.9.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/9e/6f/6834cbfa90e787d7993dd0fcc1f22d6f8ca1be6bb400857a13bc3305e20a/sentry_sdk-2.0.0rc6.tar.gz
+[2024-04-25 11:51:46] INFO root fetch - processPackages [turu-core]: Downloading https://files.pythonhosted.org/packages/5d/18/a91c4cd4eab41f916f05623f8673ae324cee7d0d1dc355e8f749b0877358/turu_core-0.9.9.tar.gz
+[2024-04-25 11:51:47] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2024-04-25 11:51:47] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-2.0.0rc5.tar.gz tmp/sentry_sdk-2.0.0rc6.tar.gz --markdown 20240425/s/sentry-sdk/2.0.0rc5-2.0.0rc6/README.md --exclude *.pyd
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-sqlite3]: Downloading https://files.pythonhosted.org/packages/93/fd/ea8608759823dc3b8cdfb0b744a11378ae21e183c49c65a2d3854711e3ae/turu_sqlite3-0.9.9.tar.gz
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-core]: executing diffoscope
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu_core-0.9.8.tar.gz tmp/turu_core-0.9.9.tar.gz --markdown 20240425/t/turu-core/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-bigquery]: Downloading https://files.pythonhosted.org/packages/f4/0e/879e4590e070fd7c4674515e758a83c7d1116ad0bf4b33895e4d715890f0/turu_bigquery-0.9.9.tar.gz
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-sqlite3]: executing diffoscope
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu_sqlite3-0.9.8.tar.gz tmp/turu_sqlite3-0.9.9.tar.gz --markdown 20240425/t/turu-sqlite3/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-postgres]: Downloading https://files.pythonhosted.org/packages/41/14/ea3f4d6fab030a834bc4aef04dca1146a0a059694d7c5c959a4a1eb8b7fa/turu_postgres-0.9.9.tar.gz
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-snowflake]: executing diffoscope
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu_snowflake-0.9.8.tar.gz tmp/turu_snowflake-0.9.9.tar.gz --markdown 20240425/t/turu-snowflake/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-bigquery]: executing diffoscope
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu_bigquery-0.9.8.tar.gz tmp/turu_bigquery-0.9.9.tar.gz --markdown 20240425/t/turu-bigquery/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:51:47] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.6.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.1.7.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [database-common-tools]: Start processing: turu-mysql
+[2024-04-25 11:51:47] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-postgres]: executing diffoscope
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu_postgres-0.9.8.tar.gz tmp/turu_postgres-0.9.9.tar.gz --markdown 20240425/t/turu-postgres/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:51:47] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [specklia]: Start processing: ncmcm
+[2024-04-25 11:51:47] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-25 11:51:47] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [efel]: Start processing: turu
+[2024-04-25 11:51:47] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-mysql]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [ncmcm]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-mysql]: Downloading https://files.pythonhosted.org/packages/93/f7/2c6bdf49f3f145611f5f564ab8acb9907def9458bc62b15297604ec590a8/turu_mysql-0.9.8.tar.gz
+[2024-04-25 11:51:47] INFO root fetch - processPackages [janus-swi]: Remove: archive file [/home/abi/fetcher/tmp/janus_swi-1.1.4.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [janus-swi]: Remove: archive file [/home/abi/fetcher/tmp/janus_swi-1.2.0.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - main [MainThread]: End processing [janus-swi]: success
+[2024-04-25 11:51:47] INFO root fetch - processPackages [ncmcm]: Downloading https://files.pythonhosted.org/packages/bd/cb/3aec2da67ae489bd4c4e92ee7b6ffd2dc88c6938d58cb43611d5602d9b79/ncmcm-1.0.3.tar.gz
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-core]: Remove: archive file [/home/abi/fetcher/tmp/turu_core-0.9.8.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - processPackages [turu-core]: Remove: archive file [/home/abi/fetcher/tmp/turu_core-0.9.9.tar.gz]
+[2024-04-25 11:51:47] INFO root fetch - main [MainThread]: End processing [turu-core]: success
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu]: Downloading https://files.pythonhosted.org/packages/58/ef/7363689ba71a44318c4d51d70d3b8d41a6e13965b8a25be85e5848ab1c21/turu-0.9.8.tar.gz
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/turu_bigquery-0.9.8.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/turu_bigquery-0.9.9.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - main [MainThread]: End processing [turu-bigquery]: success
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/turu_snowflake-0.9.8.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/turu_snowflake-0.9.9.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - main [MainThread]: End processing [turu-snowflake]: success
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-mysql]: Downloading https://files.pythonhosted.org/packages/9d/7c/3f0332e93ef16505ebc517fe5ad79c533305fd55a7ad30d7a19d54add3ca/turu_mysql-0.9.9.tar.gz
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/turu_sqlite3-0.9.8.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/turu_sqlite3-0.9.9.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - main [MainThread]: End processing [turu-sqlite3]: success
+[2024-04-25 11:51:48] INFO root fetch - processPackages [ncmcm]: Downloading https://files.pythonhosted.org/packages/bf/7b/3a6faee20a7a98c2e9869d73872cd52a21d36ba6dc80fba33839adb847bd/ncmcm-1.1.0.tar.gz
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-postgres]: Remove: archive file [/home/abi/fetcher/tmp/turu_postgres-0.9.8.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-postgres]: Remove: archive file [/home/abi/fetcher/tmp/turu_postgres-0.9.9.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - main [MainThread]: End processing [turu-postgres]: success
+[2024-04-25 11:51:48] WARNING root fetch - processPackages [ncmcm]: Skipping package: exceeds size limit 14879966>=10485760
+[2024-04-25 11:51:48] INFO root fetch - main [MainThread]: End processing [ncmcm] error
+[2024-04-25 11:51:48] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-2.0.0rc5.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry_sdk-2.0.0rc6.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-mysql]: executing diffoscope
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu_mysql-0.9.8.tar.gz tmp/turu_mysql-0.9.9.tar.gz --markdown 20240425/t/turu-mysql/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu]: Downloading https://files.pythonhosted.org/packages/94/9d/36d3ae3007129359998fc7343e41e51d752e50aaf7dff77978fc25f0e816/turu-0.9.9.tar.gz
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu]: executing diffoscope
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turu-0.9.8.tar.gz tmp/turu-0.9.9.tar.gz --markdown 20240425/t/turu/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-mysql]: Remove: archive file [/home/abi/fetcher/tmp/turu_mysql-0.9.8.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - processPackages [turu-mysql]: Remove: archive file [/home/abi/fetcher/tmp/turu_mysql-0.9.9.tar.gz]
+[2024-04-25 11:51:48] INFO root fetch - main [MainThread]: End processing [turu-mysql]: success
+[2024-04-25 11:51:49] INFO root fetch - processPackages [turu]: Remove: archive file [/home/abi/fetcher/tmp/turu-0.9.8.tar.gz]
+[2024-04-25 11:51:49] INFO root fetch - processPackages [turu]: Remove: archive file [/home/abi/fetcher/tmp/turu-0.9.9.tar.gz]
+[2024-04-25 11:51:49] INFO root fetch - main [MainThread]: End processing [turu]: success
+[2024-04-25 11:51:49] INFO root fetch - main [MainThread]: Store serial: [22928420]
