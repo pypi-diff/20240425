@@ -11613,3 +11613,15 @@
 [2024-04-25 07:58:04] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.12.tar.gz]
 [2024-04-25 07:58:04] INFO root fetch - main [MainThread]: End processing [socket.d]: success
 [2024-04-25 07:58:04] INFO root fetch - main [MainThread]: Store serial: [22925747]
+[2024-04-25 08:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925747]
+[2024-04-25 08:00:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 08:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongo-m
+[2024-04-25 08:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-io-sdk
+[2024-04-25 08:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: routeagent
+[2024-04-25 08:00:13] WARNING root fetch - processPackages [zcbot-io-sdk]: Skipping, unable to determine old version
+[2024-04-25 08:00:13] INFO root fetch - main [MainThread]: End processing [zcbot-io-sdk] error
+[2024-04-25 08:00:13] WARNING root fetch - processPackages [routeagent]: Skipping, unable to determine old version
+[2024-04-25 08:00:13] INFO root fetch - main [MainThread]: End processing [routeagent] error
+[2024-04-25 08:00:13] WARNING root fetch - processPackages [mongo-m]: Skipping, unable to determine old version
+[2024-04-25 08:00:13] INFO root fetch - main [MainThread]: End processing [mongo-m] error
+[2024-04-25 08:00:13] INFO root fetch - main [MainThread]: Store serial: [22925759]
