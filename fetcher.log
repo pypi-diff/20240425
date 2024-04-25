@@ -12286,3 +12286,33 @@
 [2024-04-25 08:33:12] INFO root fetch - processPackages [azure-mgmt-compute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-compute-9.0.0.zip]
 [2024-04-25 08:33:12] INFO root fetch - main [MainThread]: End processing [azure-mgmt-compute]: success
 [2024-04-25 08:33:12] INFO root fetch - main [MainThread]: Store serial: [22926084]
+[2024-04-25 08:35:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926084]
+[2024-04-25 08:35:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 08:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wgk-torch-training-module
+[2024-04-25 08:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-webpack-boilerplate
+[2024-04-25 08:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sf-hamilton-sdk
+[2024-04-25 08:35:25] INFO root fetch - processPackages [wgk-torch-training-module]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 08:35:25] INFO root fetch - processPackages [wgk-torch-training-module]: Downloading https://files.pythonhosted.org/packages/b8/e5/6e69fdb97c6747d6a32bb9f255a628c0a0ee120c00c4b58e2afbde05a51d/wgk-torch-training-module-0.0.2.tar.gz
+[2024-04-25 08:35:25] INFO root fetch - processPackages [python-webpack-boilerplate]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 08:35:25] INFO root fetch - processPackages [sf-hamilton-sdk]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-25 08:35:25] INFO root fetch - processPackages [wgk-torch-training-module]: Downloading https://files.pythonhosted.org/packages/36/ea/edf4c47a58c826f0c64f0f98df8eb6eb83541864af9de80af53949b28f5b/wgk_torch_training_module-0.0.3.tar.gz
+[2024-04-25 08:35:25] INFO root fetch - processPackages [python-webpack-boilerplate]: Downloading https://files.pythonhosted.org/packages/f1/48/2c68800d59eea85ae267147f3bc9c1d3cbccb54557c08bbd8c810ecca762/python-webpack-boilerplate-1.0.2.tar.gz
+[2024-04-25 08:35:25] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/a8/9a/cd9dbaf440a78a6ec594bb62c38a8400209a6f531ff8265a94564ac8c4fe/sf_hamilton_sdk-0.3.2.tar.gz
+[2024-04-25 08:35:25] INFO root fetch - processPackages [wgk-torch-training-module]: executing diffoscope
+[2024-04-25 08:35:25] INFO root fetch - processPackages [wgk-torch-training-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgk-torch-training-module-0.0.2.tar.gz tmp/wgk_torch_training_module-0.0.3.tar.gz --markdown 20240425/w/wgk-torch-training-module/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 08:35:25] INFO root fetch - processPackages [python-webpack-boilerplate]: Downloading https://files.pythonhosted.org/packages/8e/d0/cdd6493a10f515846f7376da50826284fc244605107d07cacb06ff08fda8/python_webpack_boilerplate-1.0.3.tar.gz
+[2024-04-25 08:35:25] INFO root fetch - processPackages [sf-hamilton-sdk]: Downloading https://files.pythonhosted.org/packages/e6/e0/9d7286bd2d21daee3fcc26457a093198e6b856bfa4ef90d26f5b230fef5c/sf_hamilton_sdk-0.3.3.tar.gz
+[2024-04-25 08:35:25] INFO root fetch - processPackages [python-webpack-boilerplate]: executing diffoscope
+[2024-04-25 08:35:25] INFO root fetch - processPackages [python-webpack-boilerplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-webpack-boilerplate-1.0.2.tar.gz tmp/python_webpack_boilerplate-1.0.3.tar.gz --markdown 20240425/p/python-webpack-boilerplate/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 08:35:26] INFO root fetch - processPackages [wgk-torch-training-module]: Remove: archive file [/home/abi/fetcher/tmp/wgk-torch-training-module-0.0.2.tar.gz]
+[2024-04-25 08:35:26] INFO root fetch - processPackages [wgk-torch-training-module]: Remove: archive file [/home/abi/fetcher/tmp/wgk_torch_training_module-0.0.3.tar.gz]
+[2024-04-25 08:35:26] INFO root fetch - main [MainThread]: End processing [wgk-torch-training-module]: success
+[2024-04-25 08:35:26] INFO root fetch - processPackages [python-webpack-boilerplate]: Remove: archive file [/home/abi/fetcher/tmp/python-webpack-boilerplate-1.0.2.tar.gz]
+[2024-04-25 08:35:26] INFO root fetch - processPackages [python-webpack-boilerplate]: Remove: archive file [/home/abi/fetcher/tmp/python_webpack_boilerplate-1.0.3.tar.gz]
+[2024-04-25 08:35:26] INFO root fetch - main [MainThread]: End processing [python-webpack-boilerplate]: success
+[2024-04-25 08:35:26] INFO root fetch - processPackages [sf-hamilton-sdk]: executing diffoscope
+[2024-04-25 08:35:26] INFO root fetch - processPackages [sf-hamilton-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_hamilton_sdk-0.3.2.tar.gz tmp/sf_hamilton_sdk-0.3.3.tar.gz --markdown 20240425/s/sf-hamilton-sdk/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-25 08:35:27] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.2.tar.gz]
+[2024-04-25 08:35:27] INFO root fetch - processPackages [sf-hamilton-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sf_hamilton_sdk-0.3.3.tar.gz]
+[2024-04-25 08:35:27] INFO root fetch - main [MainThread]: End processing [sf-hamilton-sdk]: success
+[2024-04-25 08:35:27] INFO root fetch - main [MainThread]: Store serial: [22926090]
