@@ -14682,3 +14682,51 @@
 [2024-04-25 10:08:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240424.tar.gz]
 [2024-04-25 10:08:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-25 10:08:54] INFO root fetch - main [MainThread]: Store serial: [22927001]
+[2024-04-25 10:10:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927001]
+[2024-04-25 10:11:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bellek
+[2024-04-25 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentf-toolkit-nightly
+[2024-04-25 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandablocks
+[2024-04-25 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentf-toolkit
+[2024-04-25 10:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PREN-flawas
+[2024-04-25 10:11:04] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 10:11:05] INFO root fetch - processPackages [bellek]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-25 10:11:05] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit]: New version: [0.54.0] Old Version: [0.53.0]
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.55.0.dev941] Old Version: [0.55.0.dev938]
+[2024-04-25 10:11:05] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/26/4a/fccdc0d1ab493a2f8ff61dc7887c3dfae74cbb14da793a33c1372d57e126/bellek-0.98.0.tar.gz
+[2024-04-25 10:11:05] INFO root fetch - processPackages [pandablocks]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/65/08/38a6a88605fcc6f8858d56d7879bcaf2fc78edf4d47cf0da468e6d84a118/opentf_toolkit_nightly-0.55.0.dev938-py3-none-any.whl
+[2024-04-25 10:11:05] INFO root fetch - processPackages [pandablocks]: Downloading https://files.pythonhosted.org/packages/ef/f2/72b87572b716c3c09e09a83de2053773e4c4dc373d1d67ed22ab3139dab8/pandablocks-0.7.0.tar.gz
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/70/fc/d3caf30be721aa4da50eb15061b41b1ee50564fb321d8b830f20145545f7/opentf_toolkit-0.53.0-py3-none-any.whl
+[2024-04-25 10:11:05] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/1a/2c/d10c9a7db975b462d348e242a313e4d15e3c11363d764f5a1f40176b3e42/bellek-0.99.0.tar.gz
+[2024-04-25 10:11:05] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-25 10:11:05] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-25 10:11:05] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.98.0.tar.gz tmp/bellek-0.99.0.tar.gz --markdown 20240425/b/bellek/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-25 10:11:05] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-25 10:11:05] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240425/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/7e/ad/9c0b3e1061bc3c0a484165dc3414a6f7177366d593120033187e462b7735/opentf_toolkit_nightly-0.55.0.dev941-py3-none-any.whl
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/73/df/232540613e80f6566cfc3c8ff319225735e54c4210f9c8550fdbc5ed4c53/opentf_toolkit-0.54.0-py3-none-any.whl
+[2024-04-25 10:11:05] INFO root fetch - processPackages [pandablocks]: Downloading https://files.pythonhosted.org/packages/fc/bd/437cfecfbf9173416d623846caa5f52060499f305d1cadfe61ff7eb901f3/pandablocks-0.8.0.tar.gz
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit]: executing diffoscope
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit-0.53.0-py3-none-any.whl.zip tmp/opentf_toolkit-0.54.0-py3-none-any.whl.zip --markdown 20240425/o/opentf-toolkit/0.53.0-0.54.0/README.md --exclude *.pyd
+[2024-04-25 10:11:05] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.55.0.dev938-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.55.0.dev941-py3-none-any.whl.zip --markdown 20240425/o/opentf-toolkit-nightly/0.55.0.dev938-0.55.0.dev941/README.md --exclude *.pyd
+[2024-04-25 10:11:05] INFO root fetch - processPackages [pandablocks]: executing diffoscope
+[2024-04-25 10:11:05] INFO root fetch - processPackages [pandablocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandablocks-0.7.0.tar.gz tmp/pandablocks-0.8.0.tar.gz --markdown 20240425/p/pandablocks/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-25 10:11:06] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.98.0.tar.gz]
+[2024-04-25 10:11:06] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.99.0.tar.gz]
+[2024-04-25 10:11:06] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-25 10:11:06] INFO root fetch - processPackages [opentf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit-0.53.0-py3-none-any.whl.zip]
+[2024-04-25 10:11:06] INFO root fetch - processPackages [opentf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit-0.54.0-py3-none-any.whl.zip]
+[2024-04-25 10:11:06] INFO root fetch - main [MainThread]: End processing [opentf-toolkit]: success
+[2024-04-25 10:11:06] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev938-py3-none-any.whl.zip]
+[2024-04-25 10:11:06] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.55.0.dev941-py3-none-any.whl.zip]
+[2024-04-25 10:11:06] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2024-04-25 10:11:06] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-25 10:11:06] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-25 10:11:06] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-25 10:11:06] INFO root fetch - processPackages [pandablocks]: Remove: archive file [/home/abi/fetcher/tmp/pandablocks-0.7.0.tar.gz]
+[2024-04-25 10:11:06] INFO root fetch - processPackages [pandablocks]: Remove: archive file [/home/abi/fetcher/tmp/pandablocks-0.8.0.tar.gz]
+[2024-04-25 10:11:06] INFO root fetch - main [MainThread]: End processing [pandablocks]: success
+[2024-04-25 10:11:06] INFO root fetch - main [MainThread]: Store serial: [22927015]
