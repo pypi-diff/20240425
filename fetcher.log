@@ -12362,3 +12362,18 @@
 [2024-04-25 08:37:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-25 08:37:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-25 08:37:41] INFO root fetch - main [MainThread]: Store serial: [22926106]
+[2024-04-25 08:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926106]
+[2024-04-25 08:39:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrstitcher-utils
+[2024-04-25 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yaml-testing-framework
+[2024-04-25 08:39:50] INFO root fetch - processPackages [nrstitcher-utils]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2024-04-25 08:39:50] WARNING root fetch - processPackages [yaml-testing-framework]: Skipping, unable to determine old version
+[2024-04-25 08:39:50] INFO root fetch - main [MainThread]: End processing [yaml-testing-framework] error
+[2024-04-25 08:39:50] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/09/68/7e33e2805a515ff92ca5ce5edf6c188b8b640ff949d646958815a5ee002e/nrstitcher_utils-0.1.0.dev3.tar.gz
+[2024-04-25 08:39:51] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/7e/07/5a7068de3c5942c1d9ba5e94ebfef600e6017c43b07a737be3bf6e86d3d1/nrstitcher_utils-0.1.0.dev4.tar.gz
+[2024-04-25 08:39:51] INFO root fetch - processPackages [nrstitcher-utils]: executing diffoscope
+[2024-04-25 08:39:51] INFO root fetch - processPackages [nrstitcher-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrstitcher_utils-0.1.0.dev3.tar.gz tmp/nrstitcher_utils-0.1.0.dev4.tar.gz --markdown 20240425/n/nrstitcher-utils/0.1.0.dev3-0.1.0.dev4/README.md --exclude *.pyd
+[2024-04-25 08:39:51] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev3.tar.gz]
+[2024-04-25 08:39:51] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev4.tar.gz]
+[2024-04-25 08:39:51] INFO root fetch - main [MainThread]: End processing [nrstitcher-utils]: success
+[2024-04-25 08:39:51] INFO root fetch - main [MainThread]: Store serial: [22926114]
