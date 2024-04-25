@@ -10462,3 +10462,27 @@
 [2024-04-25 06:27:19] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.5.tar.gz]
 [2024-04-25 06:27:19] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
 [2024-04-25 06:27:19] INFO root fetch - main [MainThread]: Store serial: [22925175]
+[2024-04-25 06:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925175]
+[2024-04-25 06:29:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 06:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrogeram
+[2024-04-25 06:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepimg3
+[2024-04-25 06:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caustic.parser
+[2024-04-25 06:29:28] INFO root fetch - processPackages [pyrogeram]: New version: [2.0.107] Old Version: [2.0.106]
+[2024-04-25 06:29:28] INFO root fetch - processPackages [caustic.parser]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-25 06:29:28] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/c9/04/e10a57b23630bb453a4259cd7d0a421566e0187d12993bf5c017b4097e31/caustic.parser-2.0.0.tar.gz
+[2024-04-25 06:29:28] WARNING root fetch - processPackages [deepimg3]: Skipping, unable to determine old version
+[2024-04-25 06:29:28] INFO root fetch - main [MainThread]: End processing [deepimg3] error
+[2024-04-25 06:29:29] INFO root fetch - processPackages [pyrogeram]: Downloading https://files.pythonhosted.org/packages/ee/8a/ea50e34576b5b85e9032b5a925c4b750af455efc584733323ffca163509c/pyrogeram-2.0.106.tar.gz
+[2024-04-25 06:29:29] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/37/1f/1018dcd018667d80222ae14c6ae72f92e5fcae982393f2638f0e4787361f/caustic.parser-2.1.0.tar.gz
+[2024-04-25 06:29:29] INFO root fetch - processPackages [caustic.parser]: executing diffoscope
+[2024-04-25 06:29:29] INFO root fetch - processPackages [caustic.parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.parser-2.0.0.tar.gz tmp/caustic.parser-2.1.0.tar.gz --markdown 20240425/c/caustic.parser/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-25 06:29:29] INFO root fetch - processPackages [pyrogeram]: Downloading https://files.pythonhosted.org/packages/0c/1e/7a0f174833aba670154ea590f99db7b15fcc3963b7bc18a601c0722e590d/pyrogeram-2.0.107.tar.gz
+[2024-04-25 06:29:29] INFO root fetch - processPackages [pyrogeram]: executing diffoscope
+[2024-04-25 06:29:29] INFO root fetch - processPackages [pyrogeram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrogeram-2.0.106.tar.gz tmp/pyrogeram-2.0.107.tar.gz --markdown 20240425/p/pyrogeram/2.0.106-2.0.107/README.md --exclude *.pyd
+[2024-04-25 06:29:29] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.0.0.tar.gz]
+[2024-04-25 06:29:29] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.1.0.tar.gz]
+[2024-04-25 06:29:29] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
+[2024-04-25 06:29:34] INFO root fetch - processPackages [pyrogeram]: Remove: archive file [/home/abi/fetcher/tmp/pyrogeram-2.0.106.tar.gz]
+[2024-04-25 06:29:34] INFO root fetch - processPackages [pyrogeram]: Remove: archive file [/home/abi/fetcher/tmp/pyrogeram-2.0.107.tar.gz]
+[2024-04-25 06:29:34] INFO root fetch - main [MainThread]: End processing [pyrogeram]: success
+[2024-04-25 06:29:34] INFO root fetch - main [MainThread]: Store serial: [22925188]
