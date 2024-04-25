@@ -8326,3 +8326,24 @@
 [2024-04-25 04:10:30] INFO root fetch - processPackages [quadax]: Remove: archive file [/home/abi/fetcher/tmp/quadax-0.2.1.tar.gz]
 [2024-04-25 04:10:30] INFO root fetch - main [MainThread]: End processing [quadax]: success
 [2024-04-25 04:10:30] INFO root fetch - main [MainThread]: Store serial: [22924197]
+[2024-04-25 04:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924197]
+[2024-04-25 04:12:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 04:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-ml-py
+[2024-04-25 04:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schwab-py
+[2024-04-25 04:12:39] INFO root fetch - processPackages [nvidia-ml-py]: New version: [7.352.0] Old Version: [7.346.0]
+[2024-04-25 04:12:39] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/3d/c2/72aaf55adbf953904332934d234686880d4765c0f9ee83d5de1995e825ac/nvidia-ml-py-7.346.0.tar.gz
+[2024-04-25 04:12:39] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-04-25 04:12:39] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/72/31/378ca145e919ca415641a0f17f2669fa98c482a81f1f8fdfb72b1f9dbb37/nvidia-ml-py-7.352.0.tar.gz
+[2024-04-25 04:12:39] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/4a/97/d78b9c894adc5546c1464a6150bd183cffc758049f5f599b96df24c97f56/schwab-py-0.0.0a8.tar.gz
+[2024-04-25 04:12:39] INFO root fetch - processPackages [nvidia-ml-py]: executing diffoscope
+[2024-04-25 04:12:39] INFO root fetch - processPackages [nvidia-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-ml-py-7.346.0.tar.gz tmp/nvidia-ml-py-7.352.0.tar.gz --markdown 20240425/n/nvidia-ml-py/7.346.0-7.352.0/README.md --exclude *.pyd
+[2024-04-25 04:12:40] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/f3/f1/efd2cf1baeff4d7f78477ad6df2d7f97c864c877ffd1d2e6a1425706ef14/schwab-py-0.0.0a9.tar.gz
+[2024-04-25 04:12:40] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-04-25 04:12:40] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a8.tar.gz tmp/schwab-py-0.0.0a9.tar.gz --markdown 20240425/s/schwab-py/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-04-25 04:12:40] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.346.0.tar.gz]
+[2024-04-25 04:12:40] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.352.0.tar.gz]
+[2024-04-25 04:12:40] INFO root fetch - main [MainThread]: End processing [nvidia-ml-py]: success
+[2024-04-25 04:12:40] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a8.tar.gz]
+[2024-04-25 04:12:40] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a9.tar.gz]
+[2024-04-25 04:12:40] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-04-25 04:12:40] INFO root fetch - main [MainThread]: Store serial: [22924203]
