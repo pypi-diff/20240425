@@ -10411,3 +10411,15 @@
 [2024-04-25 06:20:48] INFO root fetch - processPackages [rov-collector]: Remove: archive file [/home/abi/fetcher/tmp/rov_collector-1.1.5.tar.gz]
 [2024-04-25 06:20:48] INFO root fetch - main [MainThread]: End processing [rov-collector]: success
 [2024-04-25 06:20:48] INFO root fetch - main [MainThread]: Store serial: [22925073]
+[2024-04-25 06:22:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925073]
+[2024-04-25 06:22:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 06:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regex-rust
+[2024-04-25 06:22:57] INFO root fetch - processPackages [regex-rust]: New version: [0.4.0rc1] Old Version: [0.2.0]
+[2024-04-25 06:22:58] INFO root fetch - processPackages [regex-rust]: Downloading https://files.pythonhosted.org/packages/2c/4b/24b3c10ff4d98ca393ef5607a50a3dac2ea4a69ceaeea89566d20f262137/regex_rust-0.2.0.tar.gz
+[2024-04-25 06:22:58] INFO root fetch - processPackages [regex-rust]: Downloading https://files.pythonhosted.org/packages/b8/06/8d33a0dc4f1762132eff2e9dbfb484e5a3eac4565892595c29d876484144/regex_rust-0.4.0rc1-cp310-none-win_amd64.whl
+[2024-04-25 06:22:59] INFO root fetch - processPackages [regex-rust]: executing diffoscope
+[2024-04-25 06:22:59] INFO root fetch - processPackages [regex-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex_rust-0.2.0.tar.gz tmp/regex_rust-0.4.0rc1-cp310-none-win_amd64.whl.zip --markdown 20240425/r/regex-rust/0.2.0-0.4.0rc1/README.md --exclude *.pyd
+[2024-04-25 06:22:59] INFO root fetch - processPackages [regex-rust]: Remove: archive file [/home/abi/fetcher/tmp/regex_rust-0.2.0.tar.gz]
+[2024-04-25 06:22:59] INFO root fetch - processPackages [regex-rust]: Remove: archive file [/home/abi/fetcher/tmp/regex_rust-0.4.0rc1-cp310-none-win_amd64.whl.zip]
+[2024-04-25 06:22:59] INFO root fetch - main [MainThread]: End processing [regex-rust]: success
+[2024-04-25 06:22:59] INFO root fetch - main [MainThread]: Store serial: [22925085]
