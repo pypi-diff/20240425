@@ -15164,3 +15164,77 @@
 [2024-04-25 10:28:54] INFO root fetch - processPackages [ansible-later]: Remove: archive file [/home/abi/fetcher/tmp/ansible_later-4.0.4.tar.gz]
 [2024-04-25 10:28:54] INFO root fetch - main [MainThread]: End processing [ansible-later]: success
 [2024-04-25 10:28:54] INFO root fetch - main [MainThread]: Store serial: [22927180]
+[2024-04-25 10:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927180]
+[2024-04-25 10:31:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandablocks-ioc
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-ai-python
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: summers-pack
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uxsim
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jinjamator
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cz-kpn
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiui
+[2024-04-25 10:31:07] WARNING root fetch - processPackages [summers-pack]: Skipping, unable to determine old version
+[2024-04-25 10:31:07] INFO root fetch - main [MainThread]: End processing [summers-pack] error
+[2024-04-25 10:31:07] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [pandablocks-ioc]: New version: [0.6.0] Old Version: [0.5.0b1]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [kiui]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-25 10:31:07] INFO root fetch - processPackages [uxsim]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [cz-kpn]: New version: [3.2.8] Old Version: [3.2.7]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/ab/28/7fc5cf2a730339dc065e186f7ded14536320d4394647b979958281ca27ff/ctrip-app-ui-0.0.6.tar.gz
+[2024-04-25 10:31:07] INFO root fetch - processPackages [jinjamator]: New version: [0.9.99] Old Version: [0.9.98.1]
+[2024-04-25 10:31:07] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [pandablocks-ioc]: Downloading https://files.pythonhosted.org/packages/ea/09/eebd2d32c901e85954ad72a7e0df51185cb9b9623a733a9a5cbdf9b68541/pandablocks-ioc-0.5.0b1.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [uxsim]: Downloading https://files.pythonhosted.org/packages/f0/47/6c33d78582a08e24e67f42ed3803f82392708a54d30b001ffbdd5034717a/uxsim-1.1.1.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [cz-kpn]: Downloading https://files.pythonhosted.org/packages/73/0a/55ac6f57a1d2f3f98a4a62055996ce224526e465aa2e81b1058590f0271c/cz_kpn-3.2.7.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [jinjamator]: Downloading https://files.pythonhosted.org/packages/9a/bc/ddc0330ae074b016205f78854cbbeb0732de43c0cc09be04bc09a6165708/jinjamator-0.9.98.1-py3-none-any.whl
+[2024-04-25 10:31:08] INFO root fetch - processPackages [kiui]: Downloading https://files.pythonhosted.org/packages/24/5e/7b1126b0dd7d29cd32ca530eb32b8b4295d98779a89076655df91c5bc14a/kiui-0.2.7.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-25 10:31:08] WARNING root fetch - processPackages [jinjamator]: Skipping package: exceeds size limit 10813923>=10485760
+[2024-04-25 10:31:08] INFO root fetch - main [MainThread]: End processing [jinjamator] error
+[2024-04-25 10:31:08] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/ec/b1/8ef1e0362c6600ca643372cf7548e56fcb78736c49772c5b43bf3c8d8031/ctrip-app-ui-0.0.7.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-25 10:31:08] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240425/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-25 10:31:08] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-04-25 10:31:08] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.0.6.tar.gz tmp/ctrip-app-ui-0.0.7.tar.gz --markdown 20240425/c/ctrip-app-ui/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-25 10:31:08] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-25 10:31:08] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240425/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-25 10:31:08] INFO root fetch - processPackages [pandablocks-ioc]: Downloading https://files.pythonhosted.org/packages/31/01/c9d096acf736594af367f7705571d70900b06d8523c5eabb3e119d996e6d/pandablocks_ioc-0.6.0.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [cz-kpn]: Downloading https://files.pythonhosted.org/packages/fe/94/74b3d2dac243a998c602346581fb57ae1cc66e2fa64fe8678c7b45dc269d/cz_kpn-3.2.8.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [kiui]: Downloading https://files.pythonhosted.org/packages/d2/7f/aa68cf1db675d4c4a57bd2de60d94293bcb6cedc2e66d0e119dd77bf4677/kiui-0.2.8.tar.gz
+[2024-04-25 10:31:08] INFO root fetch - processPackages [pandablocks-ioc]: executing diffoscope
+[2024-04-25 10:31:08] INFO root fetch - processPackages [pandablocks-ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandablocks-ioc-0.5.0b1.tar.gz tmp/pandablocks_ioc-0.6.0.tar.gz --markdown 20240425/p/pandablocks-ioc/0.5.0b1-0.6.0/README.md --exclude *.pyd
+[2024-04-25 10:31:08] INFO root fetch - processPackages [cz-kpn]: executing diffoscope
+[2024-04-25 10:31:08] INFO root fetch - processPackages [cz-kpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_kpn-3.2.7.tar.gz tmp/cz_kpn-3.2.8.tar.gz --markdown 20240425/c/cz-kpn/3.2.7-3.2.8/README.md --exclude *.pyd
+[2024-04-25 10:31:09] INFO root fetch - processPackages [uxsim]: Downloading https://files.pythonhosted.org/packages/ba/c4/a1c26d9e6e0ca0993a4756838538eb3d069f8dfa63761026a29f7d61fb66/uxsim-1.2.0.tar.gz
+[2024-04-25 10:31:09] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.6.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.0.7.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-04-25 10:31:09] INFO root fetch - processPackages [kiui]: executing diffoscope
+[2024-04-25 10:31:09] INFO root fetch - processPackages [kiui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiui-0.2.7.tar.gz tmp/kiui-0.2.8.tar.gz --markdown 20240425/k/kiui/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-25 10:31:09] INFO root fetch - processPackages [cz-kpn]: Remove: archive file [/home/abi/fetcher/tmp/cz_kpn-3.2.7.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - processPackages [cz-kpn]: Remove: archive file [/home/abi/fetcher/tmp/cz_kpn-3.2.8.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - main [MainThread]: End processing [cz-kpn]: success
+[2024-04-25 10:31:09] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - processPackages [pandablocks-ioc]: Remove: archive file [/home/abi/fetcher/tmp/pandablocks-ioc-0.5.0b1.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - processPackages [pandablocks-ioc]: Remove: archive file [/home/abi/fetcher/tmp/pandablocks_ioc-0.6.0.tar.gz]
+[2024-04-25 10:31:09] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-25 10:31:09] INFO root fetch - main [MainThread]: End processing [pandablocks-ioc]: success
+[2024-04-25 10:31:09] INFO root fetch - processPackages [uxsim]: executing diffoscope
+[2024-04-25 10:31:09] INFO root fetch - processPackages [uxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uxsim-1.1.1.tar.gz tmp/uxsim-1.2.0.tar.gz --markdown 20240425/u/uxsim/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-25 10:31:10] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-25 10:31:10] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-25 10:31:10] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-25 10:31:10] INFO root fetch - processPackages [kiui]: Remove: archive file [/home/abi/fetcher/tmp/kiui-0.2.7.tar.gz]
+[2024-04-25 10:31:10] INFO root fetch - processPackages [kiui]: Remove: archive file [/home/abi/fetcher/tmp/kiui-0.2.8.tar.gz]
+[2024-04-25 10:31:10] INFO root fetch - main [MainThread]: End processing [kiui]: success
+[2024-04-25 10:31:11] INFO root fetch - processPackages [uxsim]: Remove: archive file [/home/abi/fetcher/tmp/uxsim-1.1.1.tar.gz]
+[2024-04-25 10:31:11] INFO root fetch - processPackages [uxsim]: Remove: archive file [/home/abi/fetcher/tmp/uxsim-1.2.0.tar.gz]
+[2024-04-25 10:31:11] INFO root fetch - main [MainThread]: End processing [uxsim]: success
+[2024-04-25 10:31:11] INFO root fetch - main [MainThread]: Store serial: [22927204]
