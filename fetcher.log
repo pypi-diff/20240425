@@ -10068,3 +10068,24 @@
 [2024-04-25 05:51:39] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_sdk_python-0.1.3.tar.gz]
 [2024-04-25 05:51:39] INFO root fetch - main [MainThread]: End processing [zscaler-sdk-python]: success
 [2024-04-25 05:51:39] INFO root fetch - main [MainThread]: Store serial: [22924937]
+[2024-04-25 05:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924937]
+[2024-04-25 05:53:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 05:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcmds
+[2024-04-25 05:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rqalpha
+[2024-04-25 05:53:48] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 05:53:48] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-25 05:53:48] INFO root fetch - processPackages [rqalpha]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-04-25 05:53:48] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-25 05:53:48] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/80/37/0cdda8f03a0b48416fbc984c63bbb9cd5d8cebd3222360d47fd1b61a810c/rqalpha-5.3.8.tar.gz
+[2024-04-25 05:53:48] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-25 05:53:48] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240425/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 05:53:48] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/1b/9d/24a0356d52334999e5b0faf2d079b2d51bae106662c179cde04582c0f0ad/rqalpha-5.3.9.tar.gz
+[2024-04-25 05:53:49] INFO root fetch - processPackages [rqalpha]: executing diffoscope
+[2024-04-25 05:53:49] INFO root fetch - processPackages [rqalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqalpha-5.3.8.tar.gz tmp/rqalpha-5.3.9.tar.gz --markdown 20240425/r/rqalpha/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-04-25 05:53:49] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-25 05:53:49] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-25 05:53:49] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-25 05:53:50] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.8.tar.gz]
+[2024-04-25 05:53:50] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.9.tar.gz]
+[2024-04-25 05:53:50] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
+[2024-04-25 05:53:50] INFO root fetch - main [MainThread]: Store serial: [22924945]
