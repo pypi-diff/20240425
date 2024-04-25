@@ -20491,3 +20491,77 @@
 [2024-04-25 12:51:35] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.2.4.tar.gz]
 [2024-04-25 12:51:35] INFO root fetch - main [MainThread]: End processing [maling]: success
 [2024-04-25 12:51:35] INFO root fetch - main [MainThread]: Store serial: [22929116]
+[2024-04-25 12:53:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929116]
+[2024-04-25 12:53:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ops-py-azure-key-vault-report
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfrecord-slow
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensr-utils
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: riscos-disassemble
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: debrid
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyQt6-WebEngine-Qt6
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eotdl
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchlpc
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: offspot-config
+[2024-04-25 12:53:44] INFO root fetch - processPackages [PyQt6-WebEngine-Qt6]: New version: [6.6.3] Old Version: [6.6.2]
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: New version: [5.0.4] Old Version: [5.0.3]
+[2024-04-25 12:53:44] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 12:53:44] INFO root fetch - processPackages [offspot-config]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-25 12:53:44] INFO root fetch - processPackages [torchlpc]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 12:53:44] INFO root fetch - processPackages [riscos-disassemble]: New version: [0.5.0] Old Version: [0.3.0]
+[2024-04-25 12:53:44] WARNING root fetch - processPackages [debrid]: Skipping, unable to determine old version
+[2024-04-25 12:53:44] INFO root fetch - main [MainThread]: End processing [debrid] error
+[2024-04-25 12:53:44] INFO root fetch - processPackages [tfrecord-slow]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-25 12:53:44] INFO root fetch - processPackages [eotdl]: New version: [2024.4.25] Old Version: [2024.3.15]
+[2024-04-25 12:53:44] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/92/d9/5f1e3dffb1823fbcd6fc535c17d5c3c611c8340ddb2bd03df54c3dfeaac6/ops_py_azure_key_vault_report-5.0.3.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [offspot-config]: Downloading https://files.pythonhosted.org/packages/75/03/78deffb78f41a4dbd7cf42f8496b2a810eb0c82c030f3eb3634033d9eaa6/offspot_config-2.1.0.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [PyQt6-WebEngine-Qt6]: Downloading https://files.pythonhosted.org/packages/15/45/33393682fbd67bbc2f12000a7f54d66877a6bd198fb2f303a07a1f190daa/PyQt6_WebEngine_Qt6-6.6.2-py3-none-win_amd64.whl
+[2024-04-25 12:53:44] INFO root fetch - processPackages [torchlpc]: Downloading https://files.pythonhosted.org/packages/fc/a6/961a7f7ec88a1436da92b619eba40ef934c3e1ed41e14822475f26f1b620/torchlpc-0.3.1.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [riscos-disassemble]: Downloading https://files.pythonhosted.org/packages/b0/34/f05be7d722ea34bbb63d9ba9f94e07f1944adce9d33a97615e647f454ff2/riscos_disassemble-0.3.0-py2.py3-none-any.whl
+[2024-04-25 12:53:44] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/f0/40/d0965503fddd0b015403cfbf200c964a22cd67c58c5417ba05916b0b63de/eotdl-2024.3.15.tar.gz
+[2024-04-25 12:53:44] WARNING root fetch - processPackages [PyQt6-WebEngine-Qt6]: Skipping package: exceeds size limit 82648352>=10485760
+[2024-04-25 12:53:44] INFO root fetch - main [MainThread]: End processing [PyQt6-WebEngine-Qt6] error
+[2024-04-25 12:53:44] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/6f/95/96aa52f223383ea01692574de8811a7617fca5aaea9bdd89a75849cf7890/tfrecord_slow-0.3.2.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/22/2a/32aee67c76148d3c064cd33ce667e7c5df8ce051a98cf580c3bb06052002/ops_py_azure_key_vault_report-5.0.4.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [offspot-config]: Downloading https://files.pythonhosted.org/packages/72/87/c9dcac68a615a34cae2b17667890a846f565855437707843dfdf4a85487e/offspot_config-2.2.0.tar.gz
+[2024-04-25 12:53:44] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-04-25 12:53:44] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240425/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: executing diffoscope
+[2024-04-25 12:53:44] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_azure_key_vault_report-5.0.3.tar.gz tmp/ops_py_azure_key_vault_report-5.0.4.tar.gz --markdown 20240425/o/ops-py-azure-key-vault-report/5.0.3-5.0.4/README.md --exclude *.pyd
+[2024-04-25 12:53:44] INFO root fetch - processPackages [offspot-config]: executing diffoscope
+[2024-04-25 12:53:44] INFO root fetch - processPackages [offspot-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offspot_config-2.1.0.tar.gz tmp/offspot_config-2.2.0.tar.gz --markdown 20240425/o/offspot-config/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-25 12:53:45] INFO root fetch - processPackages [torchlpc]: Downloading https://files.pythonhosted.org/packages/cd/f0/a97f3e861bbfc6539388f3a1beada6a9606ba8a48e3c514d8ce3141161c5/torchlpc-0.3.2.tar.gz
+[2024-04-25 12:53:45] INFO root fetch - processPackages [riscos-disassemble]: Downloading https://files.pythonhosted.org/packages/e0/bf/c9985f482af299dfaadf75c560e4b25d200bada9e5fe1dbbb7782230f441/riscos-disassemble-0.5.0.tar.gz
+[2024-04-25 12:53:45] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/bb/1f/4a1ef74fa7530f1561a1269026fc0a60121ef47f2d6450f6d3890a4217d1/eotdl-2024.4.25.tar.gz
+[2024-04-25 12:53:45] INFO root fetch - processPackages [tfrecord-slow]: Downloading https://files.pythonhosted.org/packages/15/e1/7592fda438139f78f8ace5525a3fb87c5031dfb70573e7601a4bdb1ba118/tfrecord_slow-0.4.0.tar.gz
+[2024-04-25 12:53:45] INFO root fetch - processPackages [torchlpc]: executing diffoscope
+[2024-04-25 12:53:45] INFO root fetch - processPackages [torchlpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlpc-0.3.1.tar.gz tmp/torchlpc-0.3.2.tar.gz --markdown 20240425/t/torchlpc/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 12:53:45] INFO root fetch - processPackages [riscos-disassemble]: executing diffoscope
+[2024-04-25 12:53:45] INFO root fetch - processPackages [riscos-disassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscos_disassemble-0.3.0-py2.py3-none-any.whl.zip tmp/riscos-disassemble-0.5.0.tar.gz --markdown 20240425/r/riscos-disassemble/0.3.0-0.5.0/README.md --exclude *.pyd
+[2024-04-25 12:53:45] INFO root fetch - processPackages [tfrecord-slow]: executing diffoscope
+[2024-04-25 12:53:45] INFO root fetch - processPackages [tfrecord-slow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecord_slow-0.3.2.tar.gz tmp/tfrecord_slow-0.4.0.tar.gz --markdown 20240425/t/tfrecord-slow/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-25 12:53:45] INFO root fetch - processPackages [eotdl]: executing diffoscope
+[2024-04-25 12:53:45] INFO root fetch - processPackages [eotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-2024.3.15.tar.gz tmp/eotdl-2024.4.25.tar.gz --markdown 20240425/e/eotdl/2024.3.15-2024.4.25/README.md --exclude *.pyd
+[2024-04-25 12:53:45] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-04-25 12:53:45] INFO root fetch - processPackages [torchlpc]: Remove: archive file [/home/abi/fetcher/tmp/torchlpc-0.3.1.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - processPackages [torchlpc]: Remove: archive file [/home/abi/fetcher/tmp/torchlpc-0.3.2.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - main [MainThread]: End processing [torchlpc]: success
+[2024-04-25 12:53:45] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.3.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.4.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-report]: success
+[2024-04-25 12:53:45] INFO root fetch - processPackages [offspot-config]: Remove: archive file [/home/abi/fetcher/tmp/offspot_config-2.1.0.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - processPackages [offspot-config]: Remove: archive file [/home/abi/fetcher/tmp/offspot_config-2.2.0.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - main [MainThread]: End processing [offspot-config]: success
+[2024-04-25 12:53:45] INFO root fetch - processPackages [riscos-disassemble]: Remove: archive file [/home/abi/fetcher/tmp/riscos_disassemble-0.3.0-py2.py3-none-any.whl.zip]
+[2024-04-25 12:53:45] INFO root fetch - processPackages [riscos-disassemble]: Remove: archive file [/home/abi/fetcher/tmp/riscos-disassemble-0.5.0.tar.gz]
+[2024-04-25 12:53:45] INFO root fetch - main [MainThread]: End processing [riscos-disassemble]: success
+[2024-04-25 12:53:46] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.3.2.tar.gz]
+[2024-04-25 12:53:46] INFO root fetch - processPackages [tfrecord-slow]: Remove: archive file [/home/abi/fetcher/tmp/tfrecord_slow-0.4.0.tar.gz]
+[2024-04-25 12:53:46] INFO root fetch - main [MainThread]: End processing [tfrecord-slow]: success
+[2024-04-25 12:53:46] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2024.3.15.tar.gz]
+[2024-04-25 12:53:46] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2024.4.25.tar.gz]
+[2024-04-25 12:53:46] INFO root fetch - main [MainThread]: End processing [eotdl]: success
+[2024-04-25 12:53:46] INFO root fetch - main [MainThread]: Store serial: [22929148]
