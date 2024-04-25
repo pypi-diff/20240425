@@ -8722,3 +8722,63 @@
 [2024-04-25 04:32:19] INFO root fetch - processPackages [sdssdb]: Remove: archive file [/home/abi/fetcher/tmp/sdssdb-0.9.0.tar.gz]
 [2024-04-25 04:32:19] INFO root fetch - main [MainThread]: End processing [sdssdb]: success
 [2024-04-25 04:32:19] INFO root fetch - main [MainThread]: Store serial: [22924328]
+[2024-04-25 04:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924328]
+[2024-04-25 04:34:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 04:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokebola
+[2024-04-25 04:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enconnect
+[2024-04-25 04:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enhomie
+[2024-04-25 04:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pokemon-Library-Lmba
+[2024-04-25 04:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-easy
+[2024-04-25 04:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: STAIR-tools
+[2024-04-25 04:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zhousf-lib
+[2024-04-25 04:34:27] INFO root fetch - processPackages [enconnect]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 04:34:27] WARNING root fetch - processPackages [Pokebola]: Skipping, unable to determine old version
+[2024-04-25 04:34:27] INFO root fetch - main [MainThread]: End processing [Pokebola] error
+[2024-04-25 04:34:27] INFO root fetch - processPackages [zhousf-lib]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-25 04:34:27] INFO root fetch - processPackages [Pokemon-Library-Lmba]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-25 04:34:28] INFO root fetch - processPackages [STAIR-tools]: New version: [1.1.1] Old Version: [1.1]
+[2024-04-25 04:34:28] INFO root fetch - processPackages [flet-easy]: New version: [0.2.1.dev20] Old Version: [0.2.1.dev10]
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enhomie]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enconnect]: Downloading https://files.pythonhosted.org/packages/dc/79/52b6d7ba9f47a4ae48024559aa9f0fef71421f5bdc6807ef18bf8679f1e0/enconnect-0.2.1.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/5d/07/6a17e2991941b3a10b0911cbed7e44c34911a78a663547c4ce28618944a2/zhousf-lib-1.5.3.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/9e/d3/efc5fbcb6e5d430ea45bef249cc932e246f3a29f9210361976e1e38304cb/flet_easy-0.2.1.dev10.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [Pokemon-Library-Lmba]: Downloading https://files.pythonhosted.org/packages/55/4e/97a502af1f29f01d8cc96c2e6752de8aa57cd7a8e1c3cd58b8f97d77d7e4/pokemon_library_lmba-1.0.0.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/ca/17/d1d5d09b1035fb5cbdb77fd2f16f6598b1ef6a604646333534043198d48d/STAIR-tools-1.1.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enhomie]: Downloading https://files.pythonhosted.org/packages/3c/27/e2752e30265b9beaeefed2350c66c35b1534b06949117acdba758957c91a/enhomie-0.2.0.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [Pokemon-Library-Lmba]: Downloading https://files.pythonhosted.org/packages/d6/1d/55fef8d562f9f1f484a0be2aed3821752c392af6ea365d86aae892f62af3/pokemon_library_lmba-1.0.1.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/10/02/5c19930e6a6be6a84dc3969a68e75f8367f4244aeeb2ae7fbad2d8d1e74f/STAIR-tools-1.1.1.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enhomie]: Downloading https://files.pythonhosted.org/packages/04/a2/6e77ed88728921a56cb9a87de5607f404e097dea8ff5883b9415780422bc/enhomie-0.2.1.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/51/5c/3e81e8e5e10097ab8f8966ea83985fb6c438883336d9c451df288efa225d/flet_easy-0.2.1.dev20.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enconnect]: Downloading https://files.pythonhosted.org/packages/b1/09/06b65695bc29aab231f08b76b4a87cdaa80564fcef31c79540b721b9eabc/enconnect-0.2.2.tar.gz
+[2024-04-25 04:34:28] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-04-25 04:34:28] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.1.tar.gz tmp/STAIR-tools-1.1.1.tar.gz --markdown 20240425/S/STAIR-tools/1.1-1.1.1/README.md --exclude *.pyd
+[2024-04-25 04:34:28] INFO root fetch - processPackages [Pokemon-Library-Lmba]: executing diffoscope
+[2024-04-25 04:34:28] INFO root fetch - processPackages [Pokemon-Library-Lmba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokemon_library_lmba-1.0.0.tar.gz tmp/pokemon_library_lmba-1.0.1.tar.gz --markdown 20240425/P/Pokemon-Library-Lmba/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enhomie]: executing diffoscope
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enhomie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhomie-0.2.0.tar.gz tmp/enhomie-0.2.1.tar.gz --markdown 20240425/e/enhomie/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enconnect]: executing diffoscope
+[2024-04-25 04:34:28] INFO root fetch - processPackages [enconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enconnect-0.2.1.tar.gz tmp/enconnect-0.2.2.tar.gz --markdown 20240425/e/enconnect/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 04:34:28] INFO root fetch - processPackages [flet-easy]: executing diffoscope
+[2024-04-25 04:34:28] INFO root fetch - processPackages [flet-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_easy-0.2.1.dev10.tar.gz tmp/flet_easy-0.2.1.dev20.tar.gz --markdown 20240425/f/flet-easy/0.2.1.dev10-0.2.1.dev20/README.md --exclude *.pyd
+[2024-04-25 04:34:28] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/06/8b/a45c727ec5eee36a3d4f6f17b05844bd5e10360d53a1b7ce1789e6cd860b/zhousf-lib-1.5.4.tar.gz
+[2024-04-25 04:34:29] INFO root fetch - processPackages [Pokemon-Library-Lmba]: Remove: archive file [/home/abi/fetcher/tmp/pokemon_library_lmba-1.0.0.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - processPackages [Pokemon-Library-Lmba]: Remove: archive file [/home/abi/fetcher/tmp/pokemon_library_lmba-1.0.1.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - main [MainThread]: End processing [Pokemon-Library-Lmba]: success
+[2024-04-25 04:34:29] INFO root fetch - processPackages [enconnect]: Remove: archive file [/home/abi/fetcher/tmp/enconnect-0.2.1.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - processPackages [enconnect]: Remove: archive file [/home/abi/fetcher/tmp/enconnect-0.2.2.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - main [MainThread]: End processing [enconnect]: success
+[2024-04-25 04:34:29] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-04-25 04:34:29] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.5.3.tar.gz tmp/zhousf-lib-1.5.4.tar.gz --markdown 20240425/z/zhousf-lib/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-25 04:34:29] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.1.dev10.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.1.dev20.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
+[2024-04-25 04:34:29] INFO root fetch - processPackages [enhomie]: Remove: archive file [/home/abi/fetcher/tmp/enhomie-0.2.0.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - processPackages [enhomie]: Remove: archive file [/home/abi/fetcher/tmp/enhomie-0.2.1.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - main [MainThread]: End processing [enhomie]: success
+[2024-04-25 04:34:29] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.1.1.tar.gz]
+[2024-04-25 04:34:29] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-04-25 04:34:31] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.3.tar.gz]
+[2024-04-25 04:34:31] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.4.tar.gz]
+[2024-04-25 04:34:31] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-04-25 04:34:31] INFO root fetch - main [MainThread]: Store serial: [22924349]
