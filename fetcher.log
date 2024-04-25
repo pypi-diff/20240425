@@ -22268,3 +22268,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:48:52] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
 [2024-04-25 13:48:52] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
 [2024-04-25 13:48:52] INFO root fetch - main [MainThread]: Store serial: [22929883]
+[2024-04-25 13:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929883]
+[2024-04-25 13:51:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-pos-daily-sales-reports-category-only
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: math-ops-131
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyreqwest-impersonate
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ICONCLASS
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hext
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: getstream
+[2024-04-25 13:51:01] INFO root fetch - processPackages [math-ops-131]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-25 13:51:01] INFO root fetch - processPackages [pyreqwest-impersonate]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-25 13:51:01] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/9e/63/b43abb1f3e9511e975688721cc9b8b096c1ef661e1403da89b32b835d95e/math_ops_131-1.3.1.tar.gz
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ICONCLASS]: New version: [0.9] Old Version: [0.7]
+[2024-04-25 13:51:01] WARNING root fetch - processPackages [odoo-addon-pos-daily-sales-reports-category-only]: Skipping, unable to determine old version
+[2024-04-25 13:51:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-daily-sales-reports-category-only] error
+[2024-04-25 13:51:01] INFO root fetch - processPackages [getstream]: New version: [1.0.0rc15] Old Version: [0.4.0]
+[2024-04-25 13:51:01] INFO root fetch - processPackages [hext]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 13:51:01] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/19/9b/549b41d22879fddfdb70c75949f2d551d9b86bfb5ca041c6441a32985c38/pyreqwest_impersonate-0.2.2.tar.gz
+[2024-04-25 13:51:01] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/96/06/b4361fdc783a309c057c0b0b7bc94c01209e7af2f7f03bcd32683912a8f5/ICONCLASS-0.7.tar.gz
+[2024-04-25 13:51:01] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/71/1f/cbb913914b0095d6eb274766225eb57975f1134a23cab010169c38a7d28e/getstream-0.4.0.tar.gz
+[2024-04-25 13:51:01] INFO root fetch - processPackages [hext]: Downloading https://files.pythonhosted.org/packages/7e/a3/18ffa4489606db4517c1231431934728eb7f26ce40c8f614dc1a58bd8e91/hext-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-25 13:51:01] INFO root fetch - processPackages [math-ops-131]: Downloading https://files.pythonhosted.org/packages/72/8a/8eda357f65d31c251261ce77f9b4e561171cce09037f2ac0d4fa1af51ba5/math_ops_131-1.3.2.tar.gz
+[2024-04-25 13:51:01] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/97/d7/396edd05cda6797b5ec4fb06612406cdc173e711d280888ebd0d6fe124f2/pyreqwest_impersonate-0.2.3.tar.gz
+[2024-04-25 13:51:02] INFO root fetch - processPackages [math-ops-131]: executing diffoscope
+[2024-04-25 13:51:02] INFO root fetch - processPackages [math-ops-131]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_ops_131-1.3.1.tar.gz tmp/math_ops_131-1.3.2.tar.gz --markdown 20240425/m/math-ops-131/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-25 13:51:02] INFO root fetch - processPackages [pyreqwest-impersonate]: executing diffoscope
+[2024-04-25 13:51:02] INFO root fetch - processPackages [pyreqwest-impersonate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreqwest_impersonate-0.2.2.tar.gz tmp/pyreqwest_impersonate-0.2.3.tar.gz --markdown 20240425/p/pyreqwest-impersonate/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-25 13:51:02] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/bd/6e/3d28566fa2f683dc7e99a524bedcb37121799a8e720e8e4435b9bdaef0ec/ICONCLASS-0.9.tar.gz
+[2024-04-25 13:51:02] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/24/af/8d0ef0da6a77981943fd24fc30614f598b9147cabd19a58f01f6e830f422/getstream-1.0.0rc15.tar.gz
+[2024-04-25 13:51:02] INFO root fetch - processPackages [ICONCLASS]: executing diffoscope
+[2024-04-25 13:51:02] INFO root fetch - processPackages [ICONCLASS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICONCLASS-0.7.tar.gz tmp/ICONCLASS-0.9.tar.gz --markdown 20240425/I/ICONCLASS/0.7-0.9/README.md --exclude *.pyd
+[2024-04-25 13:51:02] INFO root fetch - processPackages [hext]: Downloading https://files.pythonhosted.org/packages/72/3d/c83dda336672d04d205db788a1fae9a525dbb384b7f0ea49d96571c52685/hext-1.0.9-cp312-cp312-macosx_10_11_x86_64.whl
+[2024-04-25 13:51:02] INFO root fetch - processPackages [getstream]: executing diffoscope
+[2024-04-25 13:51:02] INFO root fetch - processPackages [getstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getstream-0.4.0.tar.gz tmp/getstream-1.0.0rc15.tar.gz --markdown 20240425/g/getstream/0.4.0-1.0.0rc15/README.md --exclude *.pyd
+[2024-04-25 13:51:02] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.1.tar.gz]
+[2024-04-25 13:51:02] INFO root fetch - processPackages [math-ops-131]: Remove: archive file [/home/abi/fetcher/tmp/math_ops_131-1.3.2.tar.gz]
+[2024-04-25 13:51:02] INFO root fetch - main [MainThread]: End processing [math-ops-131]: success
+[2024-04-25 13:51:02] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.7.tar.gz]
+[2024-04-25 13:51:02] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.9.tar.gz]
+[2024-04-25 13:51:02] INFO root fetch - main [MainThread]: End processing [ICONCLASS]: success
+[2024-04-25 13:51:02] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.2.2.tar.gz]
+[2024-04-25 13:51:02] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.2.3.tar.gz]
+[2024-04-25 13:51:02] INFO root fetch - main [MainThread]: End processing [pyreqwest-impersonate]: success
+[2024-04-25 13:51:03] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-0.4.0.tar.gz]
+[2024-04-25 13:51:03] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-1.0.0rc15.tar.gz]
+[2024-04-25 13:51:03] INFO root fetch - main [MainThread]: End processing [getstream]: success
+[2024-04-25 13:51:03] INFO root fetch - processPackages [hext]: executing diffoscope
+[2024-04-25 13:51:03] INFO root fetch - processPackages [hext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hext-1.0.8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hext-1.0.9-cp312-cp312-macosx_10_11_x86_64.whl.zip --markdown 20240425/h/hext/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 13:51:04] INFO root fetch - processPackages [hext]: Remove: archive file [/home/abi/fetcher/tmp/hext-1.0.8-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-25 13:51:04] INFO root fetch - processPackages [hext]: Remove: archive file [/home/abi/fetcher/tmp/hext-1.0.9-cp312-cp312-macosx_10_11_x86_64.whl.zip]
+[2024-04-25 13:51:04] INFO root fetch - main [MainThread]: End processing [hext]: success
+[2024-04-25 13:51:04] INFO root fetch - main [MainThread]: Store serial: [22929914]
