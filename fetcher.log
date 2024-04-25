@@ -11376,3 +11376,42 @@
 [2024-04-25 07:40:20] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-csas-1.0.5.tar.gz]
 [2024-04-25 07:40:20] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-csas]: success
 [2024-04-25 07:40:20] INFO root fetch - main [MainThread]: Store serial: [22925605]
+[2024-04-25 07:42:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925605]
+[2024-04-25 07:42:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 07:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-csas20230120-py2
+[2024-04-25 07:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-csas20230120
+[2024-04-25 07:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckietown-shell
+[2024-04-25 07:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlt
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-25 07:42:29] INFO root fetch - processPackages [dlt]: New version: [0.4.9a2] Old Version: [0.4.9a1]
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-25 07:42:29] INFO root fetch - processPackages [duckietown-shell]: New version: [6.0.5] Old Version: [6.0.4]
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120]: Downloading https://files.pythonhosted.org/packages/92/8f/971d428bfabefea5a39bc3c32aa70744c96ccedac76c9d295cbbbfc10336/alibabacloud_csas20230120-1.3.0.tar.gz
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Downloading https://files.pythonhosted.org/packages/c7/48/4a836fb1763dbbe0045963c9d322ea13de02e4d4e78515c90d4564be625f/alibabacloud_csas20230120_py2-1.4.0.tar.gz
+[2024-04-25 07:42:29] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/05/ee/6ffac4e898ce64eedd4b03a6d7925596d4a1959c0d2de78570cdfb266d85/dlt-0.4.9a1.tar.gz
+[2024-04-25 07:42:29] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/46/ac/fc8e441d2ec50fe08c9ca94a2e0f7e751e68c553f5017c6faa3890f65930/duckietown-shell-6.0.4.tar.gz
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Downloading https://files.pythonhosted.org/packages/1a/ba/3cf1fa205e6bb2b0949164c56693f1cc01d32a1bdb1c33de7adad66a0952/alibabacloud_csas20230120_py2-1.5.0.tar.gz
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120]: Downloading https://files.pythonhosted.org/packages/cf/3b/2fd80b2099452d4bae264be79ecdd4d3a64d76b7bf7b06236eb9c77f9c40/alibabacloud_csas20230120-1.4.0.tar.gz
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: executing diffoscope
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_csas20230120_py2-1.4.0.tar.gz tmp/alibabacloud_csas20230120_py2-1.5.0.tar.gz --markdown 20240425/a/alibabacloud-csas20230120-py2/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-25 07:42:29] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/80/54/48192f67adc74da5eaa9b9c96b71f9a397fe9c84c79e6344ba7df65e8362/dlt-0.4.9a2.tar.gz
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120]: executing diffoscope
+[2024-04-25 07:42:29] INFO root fetch - processPackages [alibabacloud-csas20230120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_csas20230120-1.3.0.tar.gz tmp/alibabacloud_csas20230120-1.4.0.tar.gz --markdown 20240425/a/alibabacloud-csas20230120/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-25 07:42:29] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/eb/e1/5688de4d310b53b0527ffb5f0eb9406880cb0d82afd2e8bab557826c3285/duckietown-shell-6.0.5.tar.gz
+[2024-04-25 07:42:30] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2024-04-25 07:42:30] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.4.9a1.tar.gz tmp/dlt-0.4.9a2.tar.gz --markdown 20240425/d/dlt/0.4.9a1-0.4.9a2/README.md --exclude *.pyd
+[2024-04-25 07:42:30] INFO root fetch - processPackages [duckietown-shell]: executing diffoscope
+[2024-04-25 07:42:30] INFO root fetch - processPackages [duckietown-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-shell-6.0.4.tar.gz tmp/duckietown-shell-6.0.5.tar.gz --markdown 20240425/d/duckietown-shell/6.0.4-6.0.5/README.md --exclude *.pyd
+[2024-04-25 07:42:30] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120_py2-1.4.0.tar.gz]
+[2024-04-25 07:42:30] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120_py2-1.5.0.tar.gz]
+[2024-04-25 07:42:30] INFO root fetch - main [MainThread]: End processing [alibabacloud-csas20230120-py2]: success
+[2024-04-25 07:42:30] INFO root fetch - processPackages [alibabacloud-csas20230120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120-1.3.0.tar.gz]
+[2024-04-25 07:42:30] INFO root fetch - processPackages [alibabacloud-csas20230120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120-1.4.0.tar.gz]
+[2024-04-25 07:42:30] INFO root fetch - main [MainThread]: End processing [alibabacloud-csas20230120]: success
+[2024-04-25 07:42:31] INFO root fetch - processPackages [duckietown-shell]: Remove: archive file [/home/abi/fetcher/tmp/duckietown-shell-6.0.4.tar.gz]
+[2024-04-25 07:42:31] INFO root fetch - processPackages [duckietown-shell]: Remove: archive file [/home/abi/fetcher/tmp/duckietown-shell-6.0.5.tar.gz]
+[2024-04-25 07:42:31] INFO root fetch - main [MainThread]: End processing [duckietown-shell]: success
+[2024-04-25 07:42:31] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a1.tar.gz]
+[2024-04-25 07:42:31] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a2.tar.gz]
+[2024-04-25 07:42:31] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2024-04-25 07:42:31] INFO root fetch - main [MainThread]: Store serial: [22925617]
