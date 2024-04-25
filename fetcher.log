@@ -8461,3 +8461,126 @@
 [2024-04-25 04:19:12] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
 [2024-04-25 04:19:12] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
 [2024-04-25 04:19:12] INFO root fetch - main [MainThread]: Store serial: [22924240]
+[2024-04-25 04:21:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924240]
+[2024-04-25 04:21:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-PyMySQL
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-networkx
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-WTForms
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-listener
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sts-lib
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-libsass
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-influxdb-client
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-gevent
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-JACK-Client
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-pyOpenSSL
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-PyMySQL]: New version: [1.1.0.20240425] Old Version: [1.1.0.1]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-JACK-Client]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-networkx]: New version: [3.2.1.20240424] Old Version: [3.2.1.20240331]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [sts-lib]: New version: [0.28.0] Old Version: [0.27.3]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/b0/74/4da043ca80d8d8ff37c2284f7e7a8d8e37b4df8323ccabe404089c23aa03/types-PyMySQL-1.1.0.1.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-WTForms]: New version: [3.1.0.20240425] Old Version: [3.1.0.20240311]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-pyOpenSSL]: New version: [24.1.0.20240425] Old Version: [24.0.0.20240417]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-gevent]: New version: [24.2.0.20240425] Old Version: [24.2.0.20240315]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-influxdb-client]: New version: [1.42.0.20240425] Old Version: [1.42.0.20240423]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-networkx]: Downloading https://files.pythonhosted.org/packages/a7/49/b25d177fe1e3bb40a48be66bb40dcd0b7c642db9ac452f511e5262ffe80e/types-networkx-3.2.1.20240331.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ovos-listener]: New version: [0.0.3a1] Old Version: [0.0.2a9]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-libsass]: New version: [0.23.0.20240425] Old Version: [0.23.0.20240311]
+[2024-04-25 04:21:21] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/87/34/902807882675f9739e43216cec97ce224a007592513acbade58dffde76a3/sts_lib-0.27.3.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-JACK-Client]: Downloading https://files.pythonhosted.org/packages/16/d7/40e81a5cd0a1a950e0012c2458944680a7a92776a939508974c0d3d59a06/types-JACK-Client-0.5.8.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/d8/38/011e2a9916e7afca2cc9c14fff1df42285d697ee0dd9903e4292cd1f5bf6/types-pyOpenSSL-24.0.0.20240417.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-WTForms]: Downloading https://files.pythonhosted.org/packages/8a/82/763b4243c299cb6acf137386f1232daa7663725f195c0620eeaf17984e81/types-WTForms-3.1.0.20240311.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-gevent]: Downloading https://files.pythonhosted.org/packages/dc/e8/14f7a8ea0091f4585ea964ff73fca7869978b7403c60bbf147ff80eb7b1b/types-gevent-24.2.0.20240315.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-influxdb-client]: Downloading https://files.pythonhosted.org/packages/60/3f/6c6d39e9cd26598e6ef1082c7ad232870a9e599935515dd59641fe7845d8/types-influxdb-client-1.42.0.20240423.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [ovos-listener]: Downloading https://files.pythonhosted.org/packages/90/ad/89c5a31ad9c1f97aae5fc96e27e8b04c825a20ca0e6d534eae08fe89c8f4/ovos_listener-0.0.2a9-py3-none-any.whl
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-networkx]: Downloading https://files.pythonhosted.org/packages/b8/f6/be488c3e276f1894ff318650a83916ff2d601bfc21001ec788e31f64a126/types-networkx-3.2.1.20240424.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/a1/9b/bdde57ea9101d7cd52be274674340965ff69ab361ed54bc4dd133cc57fd0/types-PyMySQL-1.1.0.20240425.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-libsass]: Downloading https://files.pythonhosted.org/packages/9b/76/1e2dc5d6d319425ad708fdc44ea7d4ed6c742dc94605bd35ee73c6bd1465/types-libsass-0.23.0.20240311.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/91/c0/dd820243ed15505b3906e5329f4bb496596b5538aa921e6044b03d7e6dfa/sts_lib-0.28.0.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-networkx]: executing diffoscope
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-networkx-3.2.1.20240331.tar.gz tmp/types-networkx-3.2.1.20240424.tar.gz --markdown 20240425/t/types-networkx/3.2.1.20240331-3.2.1.20240424/README.md --exclude *.pyd
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-JACK-Client]: Downloading https://files.pythonhosted.org/packages/bd/58/bbe14abc47fa37a13cf46e89583bd557ac72d070226d9c17cfd4e0cb8fd7/types-JACK-Client-0.5.9.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/ba/99/0ef33ca243dc4a9306ed7c976dd2d8563e3cf89371456d575f5b13f7dc68/types-pyOpenSSL-24.1.0.20240425.tar.gz
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-PyMySQL]: executing diffoscope
+[2024-04-25 04:21:21] INFO root fetch - processPackages [types-PyMySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyMySQL-1.1.0.1.tar.gz tmp/types-PyMySQL-1.1.0.20240425.tar.gz --markdown 20240425/t/types-PyMySQL/1.1.0.1-1.1.0.20240425/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.27.3.tar.gz tmp/sts_lib-0.28.0.tar.gz --markdown 20240425/s/sts-lib/0.27.3-0.28.0/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-WTForms]: Downloading https://files.pythonhosted.org/packages/cc/d1/2025a77c29cd007c3cf810db8b5eb61da269f4093e2d4f758400fef544dc/types-WTForms-3.1.0.20240425.tar.gz
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-JACK-Client]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-JACK-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-JACK-Client-0.5.8.tar.gz tmp/types-JACK-Client-0.5.9.tar.gz --markdown 20240425/t/types-JACK-Client/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-gevent]: Downloading https://files.pythonhosted.org/packages/8e/20/ec402d674057283f5d3edc31082bafafa000376500a68e2e11091b2235b7/types-gevent-24.2.0.20240425.tar.gz
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-pyOpenSSL]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-pyOpenSSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyOpenSSL-24.0.0.20240417.tar.gz tmp/types-pyOpenSSL-24.1.0.20240425.tar.gz --markdown 20240425/t/types-pyOpenSSL/24.0.0.20240417-24.1.0.20240425/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-influxdb-client]: Downloading https://files.pythonhosted.org/packages/6c/0c/23f68207b8c53a8a35bbb7949a0ef53b06ca88da32bbc409a370f1cbf699/types-influxdb-client-1.42.0.20240425.tar.gz
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-libsass]: Downloading https://files.pythonhosted.org/packages/4a/82/33de9df5bdc68fbcdb45bc82133fa19c586876ac5aa6d4214dbc1151cacb/types-libsass-0.23.0.20240425.tar.gz
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-WTForms]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-WTForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-WTForms-3.1.0.20240311.tar.gz tmp/types-WTForms-3.1.0.20240425.tar.gz --markdown 20240425/t/types-WTForms/3.1.0.20240311-3.1.0.20240425/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [ovos-listener]: Downloading https://files.pythonhosted.org/packages/8c/22/f96366a9acf2a960c66dbbe6e61476e724469d199c4e611571d9e0cfca09/ovos_listener-0.0.3a1-py3-none-any.whl
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-gevent]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-gevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-gevent-24.2.0.20240315.tar.gz tmp/types-gevent-24.2.0.20240425.tar.gz --markdown 20240425/t/types-gevent/24.2.0.20240315-24.2.0.20240425/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-libsass]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-libsass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-libsass-0.23.0.20240311.tar.gz tmp/types-libsass-0.23.0.20240425.tar.gz --markdown 20240425/t/types-libsass/0.23.0.20240311-0.23.0.20240425/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-influxdb-client]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-influxdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-influxdb-client-1.42.0.20240423.tar.gz tmp/types-influxdb-client-1.42.0.20240425.tar.gz --markdown 20240425/t/types-influxdb-client/1.42.0.20240423-1.42.0.20240425/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [ovos-listener]: executing diffoscope
+[2024-04-25 04:21:22] INFO root fetch - processPackages [ovos-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_listener-0.0.2a9-py3-none-any.whl.zip tmp/ovos_listener-0.0.3a1-py3-none-any.whl.zip --markdown 20240425/o/ovos-listener/0.0.2a9-0.0.3a1/README.md --exclude *.pyd
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.1.tar.gz]
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.20240425.tar.gz]
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-PyMySQL]: Start processing: types-redis
+[2024-04-25 04:21:22] INFO root fetch - main [MainThread]: End processing [types-PyMySQL]: success
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-JACK-Client]: Remove: archive file [/home/abi/fetcher/tmp/types-JACK-Client-0.5.8.tar.gz]
+[2024-04-25 04:21:22] INFO root fetch - processPackages [types-JACK-Client]: Remove: archive file [/home/abi/fetcher/tmp/types-JACK-Client-0.5.9.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-JACK-Client]: Start processing: msmart-vog
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [types-JACK-Client]: success
+[2024-04-25 04:21:23] WARNING root fetch - processPackages [msmart-vog]: Skipping, unable to determine old version
+[2024-04-25 04:21:23] INFO root fetch - processPackages [msmart-vog]: Start processing: django-reusable
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [msmart-vog] error
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-pyOpenSSL]: Remove: archive file [/home/abi/fetcher/tmp/types-pyOpenSSL-24.0.0.20240417.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-pyOpenSSL]: Remove: archive file [/home/abi/fetcher/tmp/types-pyOpenSSL-24.1.0.20240425.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-pyOpenSSL]: Start processing: qlv-client
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [types-pyOpenSSL]: success
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-redis]: New version: [4.6.0.9] Old Version: [4.6.0.8]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.27.3.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.28.0.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-25 04:21:23] INFO root fetch - processPackages [django-reusable]: New version: [9.9] Old Version: [9.8]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-libsass]: Remove: archive file [/home/abi/fetcher/tmp/types-libsass-0.23.0.20240311.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-libsass]: Remove: archive file [/home/abi/fetcher/tmp/types-libsass-0.23.0.20240425.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [types-libsass]: success
+[2024-04-25 04:21:23] INFO root fetch - processPackages [qlv-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-networkx]: Remove: archive file [/home/abi/fetcher/tmp/types-networkx-3.2.1.20240331.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-networkx]: Remove: archive file [/home/abi/fetcher/tmp/types-networkx-3.2.1.20240424.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [types-networkx]: success
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/f7/d1/d47e3e455098dc949a0f15430a6318a00eb1a08293878b067471e34284ae/types-redis-4.6.0.8.tar.gz
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-gevent]: Remove: archive file [/home/abi/fetcher/tmp/types-gevent-24.2.0.20240315.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-gevent]: Remove: archive file [/home/abi/fetcher/tmp/types-gevent-24.2.0.20240425.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [types-gevent]: success
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-WTForms]: Remove: archive file [/home/abi/fetcher/tmp/types-WTForms-3.1.0.20240311.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-WTForms]: Remove: archive file [/home/abi/fetcher/tmp/types-WTForms-3.1.0.20240425.tar.gz]
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [types-WTForms]: success
+[2024-04-25 04:21:23] INFO root fetch - processPackages [ovos-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos_listener-0.0.2a9-py3-none-any.whl.zip]
+[2024-04-25 04:21:23] INFO root fetch - processPackages [ovos-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos_listener-0.0.3a1-py3-none-any.whl.zip]
+[2024-04-25 04:21:23] INFO root fetch - main [MainThread]: End processing [ovos-listener]: success
+[2024-04-25 04:21:23] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/76/2298d24f3350c8efc192ca0676bb8f98d637289f4c582497fe04bc9e4630/django-reusable-9.8.tar.gz
+[2024-04-25 04:21:23] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/8d/33/fd62730f713b96188282596908addc9c94a4fbbf2bd283f69a97a755cbf4/qlv-client-0.1.1.tar.gz
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/4b/2f/9b1eed7650da20192ca15426ca7ac9f54a1249bd48fdb310a4755c076921/types-redis-4.6.0.9.tar.gz
+[2024-04-25 04:21:23] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/81/44/b53e55300cc2cc18148223a61c0ad01c3b79d74d107d75fc0949996a273d/qlv-client-0.1.2.tar.gz
+[2024-04-25 04:21:23] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/89/0bdf225fa2de427dbbd30299059a9f8b8dc00f4b1f5477e033e2f7a18ff0/django-reusable-9.9.tar.gz
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-redis]: executing diffoscope
+[2024-04-25 04:21:23] INFO root fetch - processPackages [types-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-redis-4.6.0.8.tar.gz tmp/types-redis-4.6.0.9.tar.gz --markdown 20240425/t/types-redis/4.6.0.8-4.6.0.9/README.md --exclude *.pyd
+[2024-04-25 04:21:23] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-04-25 04:21:23] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.1.1.tar.gz tmp/qlv-client-0.1.2.tar.gz --markdown 20240425/q/qlv-client/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-25 04:21:23] INFO root fetch - processPackages [django-reusable]: executing diffoscope
+[2024-04-25 04:21:23] INFO root fetch - processPackages [django-reusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reusable-9.8.tar.gz tmp/django-reusable-9.9.tar.gz --markdown 20240425/d/django-reusable/9.8-9.9/README.md --exclude *.pyd
+[2024-04-25 04:21:24] INFO root fetch - processPackages [types-influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/types-influxdb-client-1.42.0.20240423.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - processPackages [types-influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/types-influxdb-client-1.42.0.20240425.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - main [MainThread]: End processing [types-influxdb-client]: success
+[2024-04-25 04:21:24] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.8.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.1.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.2.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.9.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-04-25 04:21:24] INFO root fetch - main [MainThread]: End processing [django-reusable]: success
+[2024-04-25 04:21:24] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.8.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.9.tar.gz]
+[2024-04-25 04:21:24] INFO root fetch - main [MainThread]: End processing [types-redis]: success
+[2024-04-25 04:21:24] INFO root fetch - main [MainThread]: Store serial: [22924281]
