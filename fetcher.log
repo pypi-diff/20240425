@@ -2892,3 +2892,42 @@
 [2024-04-25 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240424.359.tar.gz]
 [2024-04-25 02:05:13] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-25 02:05:13] INFO root fetch - main [MainThread]: Store serial: [22922118]
+[2024-04-25 02:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922118]
+[2024-04-25 02:07:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 02:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rke
+[2024-04-25 02:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphlit-client
+[2024-04-25 02:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2024-04-25 02:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asqlorm
+[2024-04-25 02:07:22] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240423001] Old Version: [1.0.20240420011]
+[2024-04-25 02:07:22] INFO root fetch - processPackages [asqlorm]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-25 02:07:22] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240424] Old Version: [0.0.8.dev20240423]
+[2024-04-25 02:07:22] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/f8/6d/138c7887ecf087a68a5a3b06d1f1b17cd123081c045dfc8d90a7b6a9f4f1/graphlit_client-1.0.20240420011.tar.gz
+[2024-04-25 02:07:22] INFO root fetch - processPackages [asqlorm]: Downloading https://files.pythonhosted.org/packages/be/bd/426fadfd6cdcfe1d28fd48114ea8d221b5549d5b28ae497caad2a25a735c/asqlorm-0.6.1.tar.gz
+[2024-04-25 02:07:22] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1714001276] Old Version: [3.5.0a1713905146]
+[2024-04-25 02:07:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/9f/3e/3e4890bef5f80fd45936f9068c44f51d515643ec7aecbbad69bce8087c0c/jaxutils-nightly-0.0.8.dev20240423.tar.gz
+[2024-04-25 02:07:23] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/8c/5e/89bce515965995c36ce85e26e90d2b6e1c9f42b960776ced64abc3be62c1/pulumi_rke-3.5.0a1713905146.tar.gz
+[2024-04-25 02:07:23] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/1f/f3/ebb8eef76560c807f497e9cc9f5945e2e2f5ec76966472cbef4143d98468/graphlit_client-1.0.20240423001.tar.gz
+[2024-04-25 02:07:23] INFO root fetch - processPackages [asqlorm]: Downloading https://files.pythonhosted.org/packages/5b/b8/a17a856f7b47830127ebdc28061a7573031476b726db448d31ca62afe877/asqlorm-0.6.2.tar.gz
+[2024-04-25 02:07:23] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/7f/9c/f44c3f08e89a0ca7b2795ec199adff1cda449929364f7d25362a48b2cc28/jaxutils-nightly-0.0.8.dev20240424.tar.gz
+[2024-04-25 02:07:23] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-04-25 02:07:23] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-1.0.20240420011.tar.gz tmp/graphlit_client-1.0.20240423001.tar.gz --markdown 20240425/g/graphlit-client/1.0.20240420011-1.0.20240423001/README.md --exclude *.pyd
+[2024-04-25 02:07:23] INFO root fetch - processPackages [asqlorm]: executing diffoscope
+[2024-04-25 02:07:23] INFO root fetch - processPackages [asqlorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asqlorm-0.6.1.tar.gz tmp/asqlorm-0.6.2.tar.gz --markdown 20240425/a/asqlorm/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-25 02:07:23] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/f6/04/65d1e87ddd46c107f7202306d34891172bc981a4b3eaf35a6fa508f70adb/pulumi_rke-3.5.0a1714001276.tar.gz
+[2024-04-25 02:07:23] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-25 02:07:23] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240423.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240424.tar.gz --markdown 20240425/j/jaxutils-nightly/0.0.8.dev20240423-0.0.8.dev20240424/README.md --exclude *.pyd
+[2024-04-25 02:07:23] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-04-25 02:07:23] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1713905146.tar.gz tmp/pulumi_rke-3.5.0a1714001276.tar.gz --markdown 20240425/p/pulumi-rke/3.5.0a1713905146-3.5.0a1714001276/README.md --exclude *.pyd
+[2024-04-25 02:07:23] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240423.tar.gz]
+[2024-04-25 02:07:23] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240424.tar.gz]
+[2024-04-25 02:07:23] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-25 02:07:24] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240420011.tar.gz]
+[2024-04-25 02:07:24] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240423001.tar.gz]
+[2024-04-25 02:07:24] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-04-25 02:07:24] INFO root fetch - processPackages [asqlorm]: Remove: archive file [/home/abi/fetcher/tmp/asqlorm-0.6.1.tar.gz]
+[2024-04-25 02:07:24] INFO root fetch - processPackages [asqlorm]: Remove: archive file [/home/abi/fetcher/tmp/asqlorm-0.6.2.tar.gz]
+[2024-04-25 02:07:24] INFO root fetch - main [MainThread]: End processing [asqlorm]: success
+[2024-04-25 02:07:24] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1713905146.tar.gz]
+[2024-04-25 02:07:24] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714001276.tar.gz]
+[2024-04-25 02:07:24] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-04-25 02:07:24] INFO root fetch - main [MainThread]: Store serial: [22922130]
