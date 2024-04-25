@@ -9326,3 +9326,42 @@
 [2024-04-25 05:05:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
 [2024-04-25 05:05:21] INFO root fetch - main [MainThread]: End processing [specklia]: success
 [2024-04-25 05:05:21] INFO root fetch - main [MainThread]: Store serial: [22924554]
+[2024-04-25 05:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924554]
+[2024-04-25 05:07:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 05:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solafune-tools
+[2024-04-25 05:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-mongo
+[2024-04-25 05:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tables-io
+[2024-04-25 05:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-payment-order
+[2024-04-25 05:07:29] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [17.0.1.1.0.4] Old Version: [17.0.1.1.0.3]
+[2024-04-25 05:07:29] INFO root fetch - processPackages [pydantic-mongo]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-25 05:07:29] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/9a/ab/d0fc63ca31b3e3ea9a6999fe5feb5f659cfe1088268198c8c2574c495979/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl
+[2024-04-25 05:07:29] INFO root fetch - processPackages [tables-io]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-25 05:07:29] INFO root fetch - processPackages [solafune-tools]: New version: [0.3.0] Old Version: [0.1.8]
+[2024-04-25 05:07:30] INFO root fetch - processPackages [pydantic-mongo]: Downloading https://files.pythonhosted.org/packages/c2/b8/ad38b197f99108208c7ad4e8eb63b3e5517bc3ee9d737e1364fb5afd584b/pydantic-mongo-2.2.0.tar.gz
+[2024-04-25 05:07:30] INFO root fetch - processPackages [solafune-tools]: Downloading https://files.pythonhosted.org/packages/5f/df/7697b4aca0f2425e568fb7f190e5cb089502963b26d2fbab8e943eff9b19/solafune-tools-0.1.8.tar.gz
+[2024-04-25 05:07:30] INFO root fetch - processPackages [tables-io]: Downloading https://files.pythonhosted.org/packages/40/d7/24afda3ac2159cd8e6ec91b2e65922a3a3ac20a0bf98f8930cfcb3651c61/tables-io-0.9.5.tar.gz
+[2024-04-25 05:07:30] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/45/d8/eb96c4f25b6e1364802605d676665aa399b91c794204144842ef4c27fb47/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl
+[2024-04-25 05:07:30] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2024-04-25 05:07:30] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-account-payment-order/17.0.1.1.0.3-17.0.1.1.0.4/README.md --exclude *.pyd
+[2024-04-25 05:07:30] INFO root fetch - processPackages [pydantic-mongo]: Downloading https://files.pythonhosted.org/packages/a5/07/aaa68bed11c819ca1330b304a59038368d5b8617bd7f879a60fb1d4f0fd5/pydantic_mongo-2.3.0.tar.gz
+[2024-04-25 05:07:30] INFO root fetch - processPackages [tables-io]: Downloading https://files.pythonhosted.org/packages/b1/fd/479ee74d8c13cc76ec2a1c1d7aa18ecbc251eb762e8745feaa6297a6eb89/tables_io-0.9.6.tar.gz
+[2024-04-25 05:07:30] INFO root fetch - processPackages [pydantic-mongo]: executing diffoscope
+[2024-04-25 05:07:30] INFO root fetch - processPackages [pydantic-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-mongo-2.2.0.tar.gz tmp/pydantic_mongo-2.3.0.tar.gz --markdown 20240425/p/pydantic-mongo/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-25 05:07:30] INFO root fetch - processPackages [solafune-tools]: Downloading https://files.pythonhosted.org/packages/6f/93/b1d46a6833f88d6f97e350d56b6c42f9b4b8895a899efd6531016d857cb0/solafune_tools-0.3.0.tar.gz
+[2024-04-25 05:07:30] INFO root fetch - processPackages [tables-io]: executing diffoscope
+[2024-04-25 05:07:30] INFO root fetch - processPackages [tables-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tables-io-0.9.5.tar.gz tmp/tables_io-0.9.6.tar.gz --markdown 20240425/t/tables-io/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-25 05:07:30] INFO root fetch - processPackages [solafune-tools]: executing diffoscope
+[2024-04-25 05:07:30] INFO root fetch - processPackages [solafune-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solafune-tools-0.1.8.tar.gz tmp/solafune_tools-0.3.0.tar.gz --markdown 20240425/s/solafune-tools/0.1.8-0.3.0/README.md --exclude *.pyd
+[2024-04-25 05:07:31] INFO root fetch - processPackages [pydantic-mongo]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-mongo-2.2.0.tar.gz]
+[2024-04-25 05:07:31] INFO root fetch - processPackages [pydantic-mongo]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_mongo-2.3.0.tar.gz]
+[2024-04-25 05:07:31] INFO root fetch - main [MainThread]: End processing [pydantic-mongo]: success
+[2024-04-25 05:07:31] INFO root fetch - processPackages [solafune-tools]: Remove: archive file [/home/abi/fetcher/tmp/solafune-tools-0.1.8.tar.gz]
+[2024-04-25 05:07:31] INFO root fetch - processPackages [solafune-tools]: Remove: archive file [/home/abi/fetcher/tmp/solafune_tools-0.3.0.tar.gz]
+[2024-04-25 05:07:31] INFO root fetch - main [MainThread]: End processing [solafune-tools]: success
+[2024-04-25 05:07:31] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-25 05:07:31] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-25 05:07:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2024-04-25 05:07:31] INFO root fetch - processPackages [tables-io]: Remove: archive file [/home/abi/fetcher/tmp/tables-io-0.9.5.tar.gz]
+[2024-04-25 05:07:31] INFO root fetch - processPackages [tables-io]: Remove: archive file [/home/abi/fetcher/tmp/tables_io-0.9.6.tar.gz]
+[2024-04-25 05:07:31] INFO root fetch - main [MainThread]: End processing [tables-io]: success
+[2024-04-25 05:07:31] INFO root fetch - main [MainThread]: Store serial: [22924566]
