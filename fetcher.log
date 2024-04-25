@@ -12842,3 +12842,63 @@
 [2024-04-25 08:59:35] INFO root fetch - processPackages [invenio-app-ils]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-ils-2.0.0rc9.tar.gz]
 [2024-04-25 08:59:35] INFO root fetch - main [MainThread]: End processing [invenio-app-ils]: success
 [2024-04-25 08:59:35] INFO root fetch - main [MainThread]: Store serial: [22926253]
+[2024-04-25 09:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926253]
+[2024-04-25 09:01:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 09:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twikit
+[2024-04-25 09:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edx-i18n-tools
+[2024-04-25 09:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: warpzone-sdk
+[2024-04-25 09:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: points-table-simulator
+[2024-04-25 09:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: njson
+[2024-04-25 09:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discovery-connect
+[2024-04-25 09:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-models-nightly
+[2024-04-25 09:01:44] INFO root fetch - processPackages [twikit]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-04-25 09:01:44] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-25 09:01:44] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/4e/ed/09bacf5700ec7a0fc17776343d1606dc180516632f7394bb5f64a36a050c/twikit-1.5.7.tar.gz
+[2024-04-25 09:01:44] WARNING root fetch - processPackages [discovery-connect]: Skipping, unable to determine old version
+[2024-04-25 09:01:44] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-04-25 09:01:44] INFO root fetch - main [MainThread]: End processing [discovery-connect] error
+[2024-04-25 09:01:44] INFO root fetch - processPackages [points-table-simulator]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-25 09:01:44] INFO root fetch - processPackages [njson]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-25 09:01:44] INFO root fetch - processPackages [edx-i18n-tools]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-25 09:01:44] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-25 09:01:44] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-04-25 09:01:44] INFO root fetch - processPackages [points-table-simulator]: Downloading https://files.pythonhosted.org/packages/80/7e/476bb8bbe3e91e168bd90b4a0c9373fbaa601b63362050b1368122920daf/points-table-simulator-1.0.0.tar.gz
+[2024-04-25 09:01:44] INFO root fetch - processPackages [njson]: Downloading https://files.pythonhosted.org/packages/a6/3b/4fcef07fe081061f3263a5890afa813c35a17dbd7e8f4c017ff88ef0d351/njson-1.1.0.tar.gz
+[2024-04-25 09:01:44] INFO root fetch - processPackages [edx-i18n-tools]: Downloading https://files.pythonhosted.org/packages/67/7e/3d2f5aa2fe3f13b9572959876764256ec46dda2517a7976ac654f81a95e2/edx-i18n-tools-1.5.0.tar.gz
+[2024-04-25 09:01:44] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/9c/cc/fa2648bd6665831038c782f618568f0c464c18751a9883e6c8d42a7426a9/twikit-1.5.8.tar.gz
+[2024-04-25 09:01:44] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-25 09:01:44] INFO root fetch - processPackages [points-table-simulator]: Downloading https://files.pythonhosted.org/packages/98/18/2f1dd67ae973612f2018f9e23ad0b07cb8dc78672876c2831427e531a700/points_table_simulator-1.1.0.tar.gz
+[2024-04-25 09:01:45] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-25 09:01:45] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.7.tar.gz tmp/twikit-1.5.8.tar.gz --markdown 20240425/t/twikit/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-04-25 09:01:45] INFO root fetch - processPackages [edx-i18n-tools]: Downloading https://files.pythonhosted.org/packages/e4/1a/c3a8a3299905959b854f06f7e73fa08eac9d7bf6f30f12f3cb32ad9108c4/edx_i18n_tools-1.6.0.tar.gz
+[2024-04-25 09:01:45] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-04-25 09:01:45] INFO root fetch - processPackages [njson]: Downloading https://files.pythonhosted.org/packages/73/ce/182b651c11cabfb80d4284d332f35d1aea0677d729aeda4060425d217de1/njson-1.2.0.tar.gz
+[2024-04-25 09:01:45] INFO root fetch - processPackages [points-table-simulator]: executing diffoscope
+[2024-04-25 09:01:45] INFO root fetch - processPackages [points-table-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/points-table-simulator-1.0.0.tar.gz tmp/points_table_simulator-1.1.0.tar.gz --markdown 20240425/p/points-table-simulator/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-25 09:01:45] INFO root fetch - processPackages [njson]: executing diffoscope
+[2024-04-25 09:01:45] INFO root fetch - processPackages [njson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/njson-1.1.0.tar.gz tmp/njson-1.2.0.tar.gz --markdown 20240425/n/njson/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-25 09:01:45] INFO root fetch - processPackages [edx-i18n-tools]: executing diffoscope
+[2024-04-25 09:01:45] INFO root fetch - processPackages [edx-i18n-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-i18n-tools-1.5.0.tar.gz tmp/edx_i18n_tools-1.6.0.tar.gz --markdown 20240425/e/edx-i18n-tools/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-25 09:01:45] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-04-25 09:01:45] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240425/w/warpzone-sdk/9.1.8-9.1.9/README.md --exclude *.pyd
+[2024-04-25 09:01:45] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-25 09:01:45] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240425/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-25 09:01:45] INFO root fetch - processPackages [points-table-simulator]: Remove: archive file [/home/abi/fetcher/tmp/points-table-simulator-1.0.0.tar.gz]
+[2024-04-25 09:01:45] INFO root fetch - processPackages [points-table-simulator]: Remove: archive file [/home/abi/fetcher/tmp/points_table_simulator-1.1.0.tar.gz]
+[2024-04-25 09:01:45] INFO root fetch - main [MainThread]: End processing [points-table-simulator]: success
+[2024-04-25 09:01:46] INFO root fetch - processPackages [edx-i18n-tools]: Remove: archive file [/home/abi/fetcher/tmp/edx-i18n-tools-1.5.0.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.7.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.8.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - processPackages [edx-i18n-tools]: Remove: archive file [/home/abi/fetcher/tmp/edx_i18n_tools-1.6.0.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - processPackages [njson]: Remove: archive file [/home/abi/fetcher/tmp/njson-1.1.0.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - processPackages [njson]: Remove: archive file [/home/abi/fetcher/tmp/njson-1.2.0.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-25 09:01:46] INFO root fetch - main [MainThread]: End processing [edx-i18n-tools]: success
+[2024-04-25 09:01:46] INFO root fetch - main [MainThread]: End processing [njson]: success
+[2024-04-25 09:01:46] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-04-25 09:01:46] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-04-25 09:01:48] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-25 09:01:48] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-25 09:01:48] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-25 09:01:48] INFO root fetch - main [MainThread]: Store serial: [22926273]
