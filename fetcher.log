@@ -9049,3 +9049,15 @@
 [2024-04-25 04:49:47] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.6.4.tar.gz]
 [2024-04-25 04:49:47] INFO root fetch - main [MainThread]: End processing [python-115]: success
 [2024-04-25 04:49:47] INFO root fetch - main [MainThread]: Store serial: [22924459]
+[2024-04-25 04:51:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924459]
+[2024-04-25 04:51:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 04:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clife-svc2
+[2024-04-25 04:51:56] INFO root fetch - processPackages [clife-svc2]: New version: [2.0.0rc1] Old Version: [2.0.0]
+[2024-04-25 04:51:56] INFO root fetch - processPackages [clife-svc2]: Downloading https://files.pythonhosted.org/packages/43/ea/eaec87005aeb0f6f6c6fd33181eed8e7749f676d74f31da52de4e61a1618/clife_svc2-2.0.0.tar.gz
+[2024-04-25 04:51:57] INFO root fetch - processPackages [clife-svc2]: Downloading https://files.pythonhosted.org/packages/79/94/7923594b90604c1dba8b9f7d3607171785cb6492c5ad9f3cf0940ab5d17a/clife_svc2-2.0.0rc1.tar.gz
+[2024-04-25 04:51:57] INFO root fetch - processPackages [clife-svc2]: executing diffoscope
+[2024-04-25 04:51:57] INFO root fetch - processPackages [clife-svc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clife_svc2-2.0.0.tar.gz tmp/clife_svc2-2.0.0rc1.tar.gz --markdown 20240425/c/clife-svc2/2.0.0-2.0.0rc1/README.md --exclude *.pyd
+[2024-04-25 04:51:57] INFO root fetch - processPackages [clife-svc2]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc2-2.0.0.tar.gz]
+[2024-04-25 04:51:57] INFO root fetch - processPackages [clife-svc2]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc2-2.0.0rc1.tar.gz]
+[2024-04-25 04:51:57] INFO root fetch - main [MainThread]: End processing [clife-svc2]: success
+[2024-04-25 04:51:57] INFO root fetch - main [MainThread]: Store serial: [22924462]
