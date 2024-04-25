@@ -8626,3 +8626,42 @@
 [2024-04-25 04:25:44] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.64.tar.gz]
 [2024-04-25 04:25:44] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
 [2024-04-25 04:25:44] INFO root fetch - main [MainThread]: Store serial: [22924294]
+[2024-04-25 04:27:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924294]
+[2024-04-25 04:27:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 04:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modgeosys-graph-algorithms
+[2024-04-25 04:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-04-25 04:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feasytools
+[2024-04-25 04:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runningz
+[2024-04-25 04:27:53] INFO root fetch - processPackages [modgeosys-graph-algorithms]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 04:27:53] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.64] Old Version: [0.4.63]
+[2024-04-25 04:27:53] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Downloading https://files.pythonhosted.org/packages/58/84/62154bb3e4a4ec4dec74d9c0f14e883485268b7f1fb352be0213ca925d4a/modgeosys_graph_algorithms-0.3.1.tar.gz
+[2024-04-25 04:27:53] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/74/75/81976d685746affc8f127c179ab57f11081bad82041c639095cf6766b51a/MobileInventoryCLI-0.4.63.tar.gz
+[2024-04-25 04:27:53] INFO root fetch - processPackages [feasytools]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-25 04:27:53] INFO root fetch - processPackages [runningz]: New version: [0.15.3.1] Old Version: [0.15.1.0]
+[2024-04-25 04:27:53] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/fa/22/c425fce961a7d529dd347da0dae29db9fc1f7d69a3eb11cf5c8ec5f541c7/runningz-0.15.1.0-py39-none-any.whl
+[2024-04-25 04:27:53] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/45/c3/dfe606dc7b3cf7c4c80d7c416cfaf6d96ec0c601745d9581027d45c81ba9/feasytools-0.0.5.tar.gz
+[2024-04-25 04:27:53] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/98/f4/5019d15cdb8a9b56b5b222a9204a14acf0aa22736a4489c3935cc7e932f7/MobileInventoryCLI-0.4.64.tar.gz
+[2024-04-25 04:27:53] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Downloading https://files.pythonhosted.org/packages/87/32/5118c4ed6175a04c5e61b016060e061e2660c8991893f5661ac0807605f5/modgeosys_graph_algorithms-0.3.2.tar.gz
+[2024-04-25 04:27:54] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-25 04:27:54] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.63.tar.gz tmp/MobileInventoryCLI-0.4.64.tar.gz --markdown 20240425/M/MobileInventoryCLI/0.4.63-0.4.64/README.md --exclude *.pyd
+[2024-04-25 04:27:54] INFO root fetch - processPackages [modgeosys-graph-algorithms]: executing diffoscope
+[2024-04-25 04:27:54] INFO root fetch - processPackages [modgeosys-graph-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modgeosys_graph_algorithms-0.3.1.tar.gz tmp/modgeosys_graph_algorithms-0.3.2.tar.gz --markdown 20240425/m/modgeosys-graph-algorithms/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 04:27:54] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/80/b1/188b7ee3ccf8dc35107a719da46c0a887d7500b4ab40729b01a49e4668ba/feasytools-0.0.6.tar.gz
+[2024-04-25 04:27:54] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/62/ba/750946153be7635b65630e90c55aaa133e819caf82c0bd59f5f06d338a77/runningz-0.15.3.1-py310-none-any.whl
+[2024-04-25 04:27:54] INFO root fetch - processPackages [feasytools]: executing diffoscope
+[2024-04-25 04:27:54] INFO root fetch - processPackages [feasytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feasytools-0.0.5.tar.gz tmp/feasytools-0.0.6.tar.gz --markdown 20240425/f/feasytools/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-25 04:27:54] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2024-04-25 04:27:54] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.15.1.0-py39-none-any.whl.zip tmp/runningz-0.15.3.1-py310-none-any.whl.zip --markdown 20240425/r/runningz/0.15.1.0-0.15.3.1/README.md --exclude *.pyd
+[2024-04-25 04:27:54] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/modgeosys_graph_algorithms-0.3.1.tar.gz]
+[2024-04-25 04:27:54] INFO root fetch - processPackages [modgeosys-graph-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/modgeosys_graph_algorithms-0.3.2.tar.gz]
+[2024-04-25 04:27:54] INFO root fetch - main [MainThread]: End processing [modgeosys-graph-algorithms]: success
+[2024-04-25 04:27:54] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.63.tar.gz]
+[2024-04-25 04:27:54] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.64.tar.gz]
+[2024-04-25 04:27:54] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-25 04:27:54] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.5.tar.gz]
+[2024-04-25 04:27:54] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.6.tar.gz]
+[2024-04-25 04:27:54] INFO root fetch - main [MainThread]: End processing [feasytools]: success
+[2024-04-25 04:27:56] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.15.1.0-py39-none-any.whl.zip]
+[2024-04-25 04:27:56] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.15.3.1-py310-none-any.whl.zip]
+[2024-04-25 04:27:56] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2024-04-25 04:27:56] INFO root fetch - main [MainThread]: Store serial: [22924305]
