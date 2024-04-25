@@ -3209,3 +3209,41 @@
 [2024-04-25 02:22:45] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-25 02:22:45] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-04-25 02:22:45] INFO root fetch - main [MainThread]: Store serial: [22922243]
+[2024-04-25 02:24:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922243]
+[2024-04-25 02:24:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 02:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocortext-py
+[2024-04-25 02:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiftest
+[2024-04-25 02:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGeode-Inspector
+[2024-04-25 02:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cr-constructs
+[2024-04-25 02:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-25 02:24:54] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.436] Old Version: [2.1.435]
+[2024-04-25 02:24:54] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-25 02:24:54] WARNING root fetch - processPackages [autocortext-py]: Skipping, unable to determine old version
+[2024-04-25 02:24:54] INFO root fetch - main [MainThread]: End processing [autocortext-py] error
+[2024-04-25 02:24:54] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/5a/cd/62aab5ecceee18b4b8532e9afdd2c0e0f4657da55a50ca1916eac0c8ffaf/cdk-cr-constructs-2.1.435.tar.gz
+[2024-04-25 02:24:54] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-25 02:24:54] INFO root fetch - processPackages [swiftest]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-25 02:24:54] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15128908>=10485760
+[2024-04-25 02:24:54] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-25 02:24:54] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [5.1.3rc1] Old Version: [5.1.3]
+[2024-04-25 02:24:54] INFO root fetch - processPackages [swiftest]: Downloading https://files.pythonhosted.org/packages/41/78/a0f90762ef52adb3797eb2e25e399ec491873394b184c00a9375245c0790/swiftest-2024.4.1.tar.gz
+[2024-04-25 02:24:54] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-25 02:24:54] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/6d/65/029bcec2b4f5e6da25921de204a24ee3b5c7be64d6a2090d2b39cb6b9e6a/OpenGeode_Inspector-5.1.3-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-25 02:24:54] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-25 02:24:54] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240425/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-25 02:24:55] INFO root fetch - processPackages [swiftest]: Downloading https://files.pythonhosted.org/packages/29/0f/29c135fdde60ea18cf5c3f444e9c73baf7364a8066da1096feb6fe724792/swiftest-2024.4.2.tar.gz
+[2024-04-25 02:24:55] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/b4/77/52aeff07cd9f92a8f8414759d00e35e53efa63564f273e11f8af6a2b0d99/OpenGeode_Inspector-5.1.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-25 02:24:55] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-25 02:24:55] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-25 02:24:55] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-25 02:24:55] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2024-04-25 02:24:55] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-5.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Inspector-5.1.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240425/O/OpenGeode-Inspector/5.1.3-5.1.3rc1/README.md --exclude *.pyd
+[2024-04-25 02:24:55] INFO root fetch - processPackages [swiftest]: executing diffoscope
+[2024-04-25 02:24:55] INFO root fetch - processPackages [swiftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftest-2024.4.1.tar.gz tmp/swiftest-2024.4.2.tar.gz --markdown 20240425/s/swiftest/2024.4.1-2024.4.2/README.md --exclude *.pyd
+[2024-04-25 02:24:56] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-25 02:24:56] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 02:24:56] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2024-04-25 02:24:57] INFO root fetch - processPackages [swiftest]: Remove: archive file [/home/abi/fetcher/tmp/swiftest-2024.4.1.tar.gz]
+[2024-04-25 02:24:57] INFO root fetch - processPackages [swiftest]: Remove: archive file [/home/abi/fetcher/tmp/swiftest-2024.4.2.tar.gz]
+[2024-04-25 02:24:57] INFO root fetch - main [MainThread]: End processing [swiftest]: success
+[2024-04-25 02:24:57] INFO root fetch - main [MainThread]: Store serial: [22922287]
