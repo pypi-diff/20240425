@@ -8362,3 +8362,18 @@
 [2024-04-25 04:14:51] INFO root fetch - processPackages [hspylib]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-1.12.37.tar.gz]
 [2024-04-25 04:14:51] INFO root fetch - main [MainThread]: End processing [hspylib]: success
 [2024-04-25 04:14:51] INFO root fetch - main [MainThread]: Store serial: [22924210]
+[2024-04-25 04:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924210]
+[2024-04-25 04:16:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 04:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pokebola
+[2024-04-25 04:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yuanfen
+[2024-04-25 04:16:59] INFO root fetch - processPackages [yuanfen]: New version: [2024.4.24.5] Old Version: [2024.4.24.4]
+[2024-04-25 04:16:59] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/07/ac/e7a2609a129371de4eae4dc995e17a4b1b6d3b16a67d936dffeca5fb3e74/yuanfen-2024.4.24.4.tar.gz
+[2024-04-25 04:16:59] WARNING root fetch - processPackages [Pokebola]: Skipping, unable to determine old version
+[2024-04-25 04:16:59] INFO root fetch - main [MainThread]: End processing [Pokebola] error
+[2024-04-25 04:17:00] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/e2/fb/79967dde7cc6719d968d2bbf1286d097c5eabd8518b65ba03a4fbd4e3112/yuanfen-2024.4.24.5.tar.gz
+[2024-04-25 04:17:00] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2024-04-25 04:17:00] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2024.4.24.4.tar.gz tmp/yuanfen-2024.4.24.5.tar.gz --markdown 20240425/y/yuanfen/2024.4.24.4-2024.4.24.5/README.md --exclude *.pyd
+[2024-04-25 04:17:00] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.4.tar.gz]
+[2024-04-25 04:17:00] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.5.tar.gz]
+[2024-04-25 04:17:00] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2024-04-25 04:17:00] INFO root fetch - main [MainThread]: Store serial: [22924218]
