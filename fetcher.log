@@ -18107,3 +18107,48 @@
 [2024-04-25 11:26:04] INFO root fetch - processPackages [openvino-dev]: Remove: archive file [/home/abi/fetcher/tmp/openvino_dev-2024.1.0-15008-py3-none-any.whl.zip]
 [2024-04-25 11:26:04] INFO root fetch - main [MainThread]: End processing [openvino-dev]: success
 [2024-04-25 11:26:04] INFO root fetch - main [MainThread]: Store serial: [22928146]
+[2024-04-25 11:28:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22928146]
+[2024-04-25 11:28:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 11:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superT5
+[2024-04-25 11:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsiunits
+[2024-04-25 11:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grizli
+[2024-04-25 11:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agenta
+[2024-04-25 11:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ops-py-azure-key-vault-alert
+[2024-04-25 11:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ds20kdb-avt
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: New version: [4.7.0] Old Version: [4.6.1]
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ds20kdb-avt]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-25 11:28:22] WARNING root fetch - processPackages [superT5]: Skipping, unable to determine old version
+[2024-04-25 11:28:22] INFO root fetch - main [MainThread]: End processing [superT5] error
+[2024-04-25 11:28:22] WARNING root fetch - processPackages [dsiunits]: Skipping, unable to determine old version
+[2024-04-25 11:28:22] INFO root fetch - main [MainThread]: End processing [dsiunits] error
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/d3/23/103e9d277cf2bfe885c778c4d882e6d7e80e8c14e3835c02173df2ee4ad2/ops_py_azure_key_vault_alert-4.6.1.tar.gz
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/54/fc/d6eb13c3159fe18627b8d7e0c76dfc177e657a384ee411738c5950b0ff8f/ds20kdb_avt-1.0.8.tar.gz
+[2024-04-25 11:28:22] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-25 11:28:22] INFO root fetch - processPackages [grizli]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/31/6e/1a47726a5162422d59af84c58a1d2ff7b5846e6458206c3ac5c6cad2163b/ops_py_azure_key_vault_alert-4.7.0.tar.gz
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/83/28/16e823ee489c38fd36674be8fd026fb3db3cfcad54433558f118ad2bfbdc/ds20kdb_avt-1.0.9.tar.gz
+[2024-04-25 11:28:22] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-04-25 11:28:22] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/27/60/a68a0d4dc37daa162c1cb4f6be7a4415cfb3382398bd271e0086d8114221/grizli-1.9.8.tar.gz
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: executing diffoscope
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_azure_key_vault_alert-4.6.1.tar.gz tmp/ops_py_azure_key_vault_alert-4.7.0.tar.gz --markdown 20240425/o/ops-py-azure-key-vault-alert/4.6.1-4.7.0/README.md --exclude *.pyd
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ds20kdb-avt]: executing diffoscope
+[2024-04-25 11:28:22] INFO root fetch - processPackages [ds20kdb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds20kdb_avt-1.0.8.tar.gz tmp/ds20kdb_avt-1.0.9.tar.gz --markdown 20240425/d/ds20kdb-avt/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-25 11:28:22] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-04-25 11:28:22] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-04-25 11:28:22] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240425/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-25 11:28:23] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.6.1.tar.gz]
+[2024-04-25 11:28:23] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.7.0.tar.gz]
+[2024-04-25 11:28:23] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-alert]: success
+[2024-04-25 11:28:23] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.8.tar.gz]
+[2024-04-25 11:28:23] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.9.tar.gz]
+[2024-04-25 11:28:23] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
+[2024-04-25 11:28:23] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-04-25 11:28:23] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-04-25 11:28:23] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-04-25 11:28:24] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/77/09/a51e319f465f00836922464f1e7c9acff140ce55926932f88a036d1fe24f/grizli-1.9.9.tar.gz
+[2024-04-25 11:28:26] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2024-04-25 11:28:26] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.9.8.tar.gz tmp/grizli-1.9.9.tar.gz --markdown 20240425/g/grizli/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-25 11:28:29] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.8.tar.gz]
+[2024-04-25 11:28:29] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.9.tar.gz]
+[2024-04-25 11:28:29] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2024-04-25 11:28:29] INFO root fetch - main [MainThread]: Store serial: [22928163]
