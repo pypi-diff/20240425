@@ -21792,3 +21792,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:33:28] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-04-25 13:33:28] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-04-25 13:33:28] INFO root fetch - main [MainThread]: Store serial: [22929688]
+[2024-04-25 13:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929688]
+[2024-04-25 13:35:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 13:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitlinear
+[2024-04-25 13:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-mpesa-koros
+[2024-04-25 13:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdo-sdk-python
+[2024-04-25 13:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiba-core
+[2024-04-25 13:35:37] INFO root fetch - processPackages [python-mpesa-koros]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 13:35:37] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-25 13:35:37] INFO root fetch - processPackages [bitlinear]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-25 13:35:37] INFO root fetch - processPackages [kiba-core]: New version: [0.5.2.dev9] Old Version: [0.5.2.dev8]
+[2024-04-25 13:35:37] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/c3/97/e382fab792eb786cff4a7e54d3a4f5c3d67e016ffa66185145f8d1836224/python_mpesa_koros-0.1.8.tar.gz
+[2024-04-25 13:35:37] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-25 13:35:38] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/22/40/c5b65de57bb580ed27ff4ae3538003bde5ee1a14d286a66905e9dbd98377/bitlinear-1.0.1.tar.gz
+[2024-04-25 13:35:38] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/aa/9d/6b5b4ff6a713de3757dd739b3e8de8c8ea4e0d9b1d012c5e7febe5042b07/kiba_core-0.5.2.dev8-py3-none-any.whl
+[2024-04-25 13:35:38] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-25 13:35:38] INFO root fetch - processPackages [python-mpesa-koros]: Downloading https://files.pythonhosted.org/packages/8c/50/cfb2f0303bfee7a64abb8fb88311499e05398fae81eb930cb870f1f1029c/python_mpesa_koros-0.1.9.tar.gz
+[2024-04-25 13:35:38] INFO root fetch - processPackages [python-mpesa-koros]: executing diffoscope
+[2024-04-25 13:35:38] INFO root fetch - processPackages [python-mpesa-koros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_mpesa_koros-0.1.8.tar.gz tmp/python_mpesa_koros-0.1.9.tar.gz --markdown 20240425/p/python-mpesa-koros/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 13:35:38] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-25 13:35:38] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240425/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-25 13:35:38] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/42/e8/f73519ce9aaa756e256eb42920da9e9d9e9f4231eeb751d33eab4d4e35e3/bitlinear-1.1.0.tar.gz
+[2024-04-25 13:35:38] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/7c/15/ba215edc73010ea7acfab6847fd03bf1baa3581ce5a238a5d44e36f7f179/kiba_core-0.5.2.dev9-py3-none-any.whl
+[2024-04-25 13:35:38] INFO root fetch - processPackages [bitlinear]: executing diffoscope
+[2024-04-25 13:35:38] INFO root fetch - processPackages [bitlinear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitlinear-1.0.1.tar.gz tmp/bitlinear-1.1.0.tar.gz --markdown 20240425/b/bitlinear/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-25 13:35:38] INFO root fetch - processPackages [kiba-core]: executing diffoscope
+[2024-04-25 13:35:38] INFO root fetch - processPackages [kiba-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiba_core-0.5.2.dev8-py3-none-any.whl.zip tmp/kiba_core-0.5.2.dev9-py3-none-any.whl.zip --markdown 20240425/k/kiba-core/0.5.2.dev8-0.5.2.dev9/README.md --exclude *.pyd
+[2024-04-25 13:35:38] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-0.1.8.tar.gz]
+[2024-04-25 13:35:38] INFO root fetch - processPackages [python-mpesa-koros]: Remove: archive file [/home/abi/fetcher/tmp/python_mpesa_koros-0.1.9.tar.gz]
+[2024-04-25 13:35:38] INFO root fetch - main [MainThread]: End processing [python-mpesa-koros]: success
+[2024-04-25 13:35:39] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.0.1.tar.gz]
+[2024-04-25 13:35:39] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.1.0.tar.gz]
+[2024-04-25 13:35:39] INFO root fetch - main [MainThread]: End processing [bitlinear]: success
+[2024-04-25 13:35:39] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev8-py3-none-any.whl.zip]
+[2024-04-25 13:35:39] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev9-py3-none-any.whl.zip]
+[2024-04-25 13:35:39] INFO root fetch - main [MainThread]: End processing [kiba-core]: success
+[2024-04-25 13:35:39] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-25 13:35:39] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-25 13:35:39] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-25 13:35:39] INFO root fetch - main [MainThread]: Store serial: [22929700]
