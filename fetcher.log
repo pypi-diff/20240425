@@ -8851,3 +8851,18 @@
 [2024-04-25 04:38:52] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.0.tar.gz]
 [2024-04-25 04:38:52] INFO root fetch - main [MainThread]: End processing [linktest]: success
 [2024-04-25 04:38:52] INFO root fetch - main [MainThread]: Store serial: [22924387]
+[2024-04-25 04:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924387]
+[2024-04-25 04:41:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 04:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexfft
+[2024-04-25 04:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feasytools
+[2024-04-25 04:41:01] INFO root fetch - processPackages [feasytools]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-25 04:41:01] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/45/c3/dfe606dc7b3cf7c4c80d7c416cfaf6d96ec0c601745d9581027d45c81ba9/feasytools-0.0.5.tar.gz
+[2024-04-25 04:41:01] WARNING root fetch - processPackages [hexfft]: Skipping, unable to determine old version
+[2024-04-25 04:41:01] INFO root fetch - main [MainThread]: End processing [hexfft] error
+[2024-04-25 04:41:01] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/80/b1/188b7ee3ccf8dc35107a719da46c0a887d7500b4ab40729b01a49e4668ba/feasytools-0.0.6.tar.gz
+[2024-04-25 04:41:01] INFO root fetch - processPackages [feasytools]: executing diffoscope
+[2024-04-25 04:41:01] INFO root fetch - processPackages [feasytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feasytools-0.0.5.tar.gz tmp/feasytools-0.0.6.tar.gz --markdown 20240425/f/feasytools/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-25 04:41:02] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.5.tar.gz]
+[2024-04-25 04:41:02] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.6.tar.gz]
+[2024-04-25 04:41:02] INFO root fetch - main [MainThread]: End processing [feasytools]: success
+[2024-04-25 04:41:02] INFO root fetch - main [MainThread]: Store serial: [22924396]
