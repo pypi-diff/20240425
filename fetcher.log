@@ -12058,3 +12058,18 @@
 [2024-04-25 08:19:57] INFO root fetch - processPackages [NStudyPy]: Remove: archive file [/home/abi/fetcher/tmp/nstudypy-0.0.3.tar.gz]
 [2024-04-25 08:19:57] INFO root fetch - main [MainThread]: End processing [NStudyPy]: success
 [2024-04-25 08:19:57] INFO root fetch - main [MainThread]: Store serial: [22926002]
+[2024-04-25 08:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926002]
+[2024-04-25 08:22:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: factorialtetsing
+[2024-04-25 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arrapi
+[2024-04-25 08:22:06] INFO root fetch - processPackages [arrapi]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 08:22:06] INFO root fetch - processPackages [arrapi]: Downloading https://files.pythonhosted.org/packages/82/75/502ee58116644d44aec18bcb2803e5f097c4f437170867c28da2105cd61b/arrapi-1.4.8.tar.gz
+[2024-04-25 08:22:06] WARNING root fetch - processPackages [factorialtetsing]: Skipping, unable to determine old version
+[2024-04-25 08:22:06] INFO root fetch - main [MainThread]: End processing [factorialtetsing] error
+[2024-04-25 08:22:06] INFO root fetch - processPackages [arrapi]: Downloading https://files.pythonhosted.org/packages/fb/42/26254ff2cd16101f4e5c86aaabb0e44aa2c12fe6e2119f1eadfed874ddcf/arrapi-1.4.9.tar.gz
+[2024-04-25 08:22:06] INFO root fetch - processPackages [arrapi]: executing diffoscope
+[2024-04-25 08:22:06] INFO root fetch - processPackages [arrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrapi-1.4.8.tar.gz tmp/arrapi-1.4.9.tar.gz --markdown 20240425/a/arrapi/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 08:22:07] INFO root fetch - processPackages [arrapi]: Remove: archive file [/home/abi/fetcher/tmp/arrapi-1.4.8.tar.gz]
+[2024-04-25 08:22:07] INFO root fetch - processPackages [arrapi]: Remove: archive file [/home/abi/fetcher/tmp/arrapi-1.4.9.tar.gz]
+[2024-04-25 08:22:07] INFO root fetch - main [MainThread]: End processing [arrapi]: success
+[2024-04-25 08:22:07] INFO root fetch - main [MainThread]: Store serial: [22926011]
