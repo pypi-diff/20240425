@@ -12205,3 +12205,36 @@
 [2024-04-25 08:28:39] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-25 08:28:39] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-25 08:28:39] INFO root fetch - main [MainThread]: Store serial: [22926057]
+[2024-04-25 08:30:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926057]
+[2024-04-25 08:30:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biftest
+[2024-04-25 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-25 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-utils-dev
+[2024-04-25 08:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kitab
+[2024-04-25 08:30:48] INFO root fetch - processPackages [biftest]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-25 08:30:48] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-25 08:30:48] WARNING root fetch - processPackages [kitab]: Skipping, unable to determine old version
+[2024-04-25 08:30:48] INFO root fetch - main [MainThread]: End processing [kitab] error
+[2024-04-25 08:30:48] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.38] Old Version: [0.0.37]
+[2024-04-25 08:30:48] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/bb/5e/10e42fc030adf4bdabb000234b1bbacd5b92fd34ace7fc7ea2df1b443856/biftest-0.0.3.tar.gz
+[2024-04-25 08:30:48] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-25 08:30:48] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/9a/b4/bd5bf1174d370a13256961411518a738347f9929f6ad1c52b754962776ad/ecv-python-development-0.0.37.tar.gz
+[2024-04-25 08:30:49] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-25 08:30:49] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/ff/2a/21c03eccecb054c63896a1158b743bc8940d7edad366b2c8d2090c48f2c2/biftest-0.0.4.tar.gz
+[2024-04-25 08:30:49] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ae/b2/72eaa98aad691c6c78759d3b94c1606be7f2e09e4f7fed301bf36b4123d7/ecv-python-development-0.0.38.tar.gz
+[2024-04-25 08:30:49] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-25 08:30:49] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240425/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-25 08:30:49] INFO root fetch - processPackages [biftest]: executing diffoscope
+[2024-04-25 08:30:49] INFO root fetch - processPackages [biftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biftest-0.0.3.tar.gz tmp/biftest-0.0.4.tar.gz --markdown 20240425/b/biftest/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-25 08:30:49] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 08:30:49] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.37.tar.gz tmp/ecv-python-development-0.0.38.tar.gz --markdown 20240425/e/ecv-python-development/0.0.37-0.0.38/README.md --exclude *.pyd
+[2024-04-25 08:30:49] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.3.tar.gz]
+[2024-04-25 08:30:49] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.4.tar.gz]
+[2024-04-25 08:30:49] INFO root fetch - main [MainThread]: End processing [biftest]: success
+[2024-04-25 08:30:49] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-25 08:30:49] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-25 08:30:49] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-25 08:30:50] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.37.tar.gz]
+[2024-04-25 08:30:50] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.38.tar.gz]
+[2024-04-25 08:30:50] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 08:30:50] INFO root fetch - main [MainThread]: Store serial: [22926069]
