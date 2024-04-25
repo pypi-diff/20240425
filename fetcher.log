@@ -12902,3 +12902,84 @@
 [2024-04-25 09:01:48] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-25 09:01:48] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-25 09:01:48] INFO root fetch - main [MainThread]: Store serial: [22926273]
+[2024-04-25 09:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926273]
+[2024-04-25 09:03:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-models-nightly
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: md2weasypdf
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LazyImporting
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bosing
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yaml-testing-framework
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edx-enterprise
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eve2cml
+[2024-04-25 09:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RsCMPX-Gprf
+[2024-04-25 09:03:58] WARNING root fetch - processPackages [yaml-testing-framework]: Skipping, unable to determine old version
+[2024-04-25 09:03:58] INFO root fetch - main [MainThread]: End processing [yaml-testing-framework] error
+[2024-04-25 09:03:58] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-25 09:03:58] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-25 09:03:58] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240423] Old Version: [1.33.1.dev20240422]
+[2024-04-25 09:03:58] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-04-25 09:03:58] ERROR root fetch - processPackages [LazyImporting]: Unable to get metadata: No such project 'LazyImporting'
+[2024-04-25 09:03:58] INFO root fetch - processPackages [md2weasypdf]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-25 09:03:58] INFO root fetch - main [MainThread]: End processing [LazyImporting] error
+[2024-04-25 09:03:58] INFO root fetch - processPackages [eve2cml]: New version: [0.1.0b4] Old Version: [0.1.0b2]
+[2024-04-25 09:03:58] INFO root fetch - processPackages [bosing]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2024-04-25 09:03:58] INFO root fetch - processPackages [RsCMPX-Gprf]: New version: [5.0.91] Old Version: [5.0.90]
+[2024-04-25 09:03:58] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-25 09:03:58] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/54/88/52b911a8ad265cbfb609cd85777a40a904ab7e5f3523c776307531e4152d/streamlit_nightly-1.33.1.dev20240422.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/6b/0d/71397d672fb3ee673aafca10104de2cfb4aede17cc7be6495b9c40cccad2/md2weasypdf-0.0.5.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [eve2cml]: Downloading https://files.pythonhosted.org/packages/57/60/911ed8b7690c3f3814f20e54f48a021f023b45c3a3f9cd058d1cf80601fa/eve2cml-0.1.0b2.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/ff/0b/6e54b8d75558006593b39e1d38282e423d3245ae9295c9b9d4896056c3e2/bosing-2.0.0b4.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [RsCMPX-Gprf]: Downloading https://files.pythonhosted.org/packages/b0/f1/13ee43eed13c483949ff013b9825ff0307e965b78e198734c4ab4c7deef0/RsCMPX_Gprf-5.0.90.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-25 09:03:58] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-25 09:03:59] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-04-25 09:03:59] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/11/3c/c04dbc41e0649de0647cf02a57a7be8aa1b13f331f3a9574032f5a974da5/md2weasypdf-0.0.6.tar.gz
+[2024-04-25 09:03:59] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240425/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-04-25 09:03:59] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/ef/6b/11a378a8301ce4db17fed41a777df076e6f9ab460b02b3bdeed03eb6e9d7/bosing-2.0.0b5.tar.gz
+[2024-04-25 09:03:59] INFO root fetch - processPackages [md2weasypdf]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [md2weasypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2weasypdf-0.0.5.tar.gz tmp/md2weasypdf-0.0.6.tar.gz --markdown 20240425/m/md2weasypdf/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-25 09:03:59] INFO root fetch - processPackages [eve2cml]: Downloading https://files.pythonhosted.org/packages/d4/d7/c8efbc3bfd6daa991911ee35328149d3f23eebea6909e18431008afc2f34/eve2cml-0.1.0b4.tar.gz
+[2024-04-25 09:03:59] INFO root fetch - processPackages [RsCMPX-Gprf]: Downloading https://files.pythonhosted.org/packages/36/ac/96b12c50b328d0f7cdef6f649b6620d92f1f1a1659be3c35aed1021455ff/RsCMPX_Gprf-5.0.91.tar.gz
+[2024-04-25 09:03:59] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240425/e/edx-enterprise/4.9.2-4.9.5/README.md --exclude *.pyd
+[2024-04-25 09:03:59] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.0b4.tar.gz tmp/bosing-2.0.0b5.tar.gz --markdown 20240425/b/bosing/2.0.0b4-2.0.0b5/README.md --exclude *.pyd
+[2024-04-25 09:03:59] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240425/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-25 09:03:59] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/a3/1e/7a3a9bd1b51bdd885ce0431783633001233c51c9d7cd1cb827ced143c5b7/streamlit_nightly-1.33.1.dev20240423.tar.gz
+[2024-04-25 09:03:59] INFO root fetch - processPackages [eve2cml]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [eve2cml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eve2cml-0.1.0b2.tar.gz tmp/eve2cml-0.1.0b4.tar.gz --markdown 20240425/e/eve2cml/0.1.0b2-0.1.0b4/README.md --exclude *.pyd
+[2024-04-25 09:03:59] INFO root fetch - processPackages [RsCMPX-Gprf]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [RsCMPX-Gprf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_Gprf-5.0.90.tar.gz tmp/RsCMPX_Gprf-5.0.91.tar.gz --markdown 20240425/R/RsCMPX-Gprf/5.0.90-5.0.91/README.md --exclude *.pyd
+[2024-04-25 09:03:59] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-25 09:03:59] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240422.tar.gz tmp/streamlit_nightly-1.33.1.dev20240423.tar.gz --markdown 20240425/s/streamlit-nightly/1.33.1.dev20240422-1.33.1.dev20240423/README.md --exclude *.pyd
+[2024-04-25 09:04:00] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.5.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.6.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
+[2024-04-25 09:04:00] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-25 09:04:00] INFO root fetch - processPackages [eve2cml]: Remove: archive file [/home/abi/fetcher/tmp/eve2cml-0.1.0b2.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - processPackages [eve2cml]: Remove: archive file [/home/abi/fetcher/tmp/eve2cml-0.1.0b4.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - main [MainThread]: End processing [eve2cml]: success
+[2024-04-25 09:04:00] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b4.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b5.tar.gz]
+[2024-04-25 09:04:00] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-04-25 09:04:02] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-04-25 09:04:02] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-04-25 09:04:02] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-04-25 09:04:02] INFO root fetch - processPackages [RsCMPX-Gprf]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_Gprf-5.0.90.tar.gz]
+[2024-04-25 09:04:02] INFO root fetch - processPackages [RsCMPX-Gprf]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_Gprf-5.0.91.tar.gz]
+[2024-04-25 09:04:02] INFO root fetch - main [MainThread]: End processing [RsCMPX-Gprf]: success
+[2024-04-25 09:04:02] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-25 09:04:02] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-25 09:04:02] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-25 09:04:29] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240422.tar.gz]
+[2024-04-25 09:04:29] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240423.tar.gz]
+[2024-04-25 09:04:29] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-25 09:04:29] INFO root fetch - main [MainThread]: Store serial: [22926327]
