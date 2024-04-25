@@ -21520,3 +21520,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:22:22] INFO root fetch - processPackages [audiometry-trainer]: Remove: archive file [/home/abi/fetcher/tmp/audiometry_trainer-0.1.6.tar.gz]
 [2024-04-25 13:22:22] INFO root fetch - main [MainThread]: End processing [audiometry-trainer]: success
 [2024-04-25 13:22:22] INFO root fetch - main [MainThread]: Store serial: [22929573]
+[2024-04-25 13:24:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929573]
+[2024-04-25 13:24:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qstd-core
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profiles-pycorelib
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telemetry-tempest-plugin
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-quart-app
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecv-python-development
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sebchw-example-package
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.47] Old Version: [0.0.46]
+[2024-04-25 13:24:32] INFO root fetch - processPackages [profiles-pycorelib]: New version: [0.12.0] Old Version: [0.11.0]
+[2024-04-25 13:24:32] INFO root fetch - processPackages [sebchw-example-package]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-25 13:24:32] INFO root fetch - processPackages [qstd-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-25 13:24:32] INFO root fetch - processPackages [telemetry-tempest-plugin]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-25 13:24:32] WARNING root fetch - processPackages [my-quart-app]: Skipping, unable to determine old version
+[2024-04-25 13:24:32] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/3a/e7/98983047078c69ebe3ac251d5656175909cefa91a255a27e83457f2a159b/ecv-python-development-0.0.46.tar.gz
+[2024-04-25 13:24:32] INFO root fetch - main [MainThread]: End processing [my-quart-app] error
+[2024-04-25 13:24:32] INFO root fetch - processPackages [profiles-pycorelib]: Downloading https://files.pythonhosted.org/packages/42/f5/37de55ff9da17d8308f9d34d5c30bb3c00c16c7875a6b61ca78d28dd9f6e/profiles_pycorelib-0.11.0-py3-none-any.whl
+[2024-04-25 13:24:32] INFO root fetch - processPackages [sebchw-example-package]: Downloading https://files.pythonhosted.org/packages/c4/10/2627f06ac1c06ce51c83cc2537f5276bd58892936b6772cccdb7a05f30d5/sebchw_example_package-0.4.0.tar.gz
+[2024-04-25 13:24:32] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/2c/7a/4e6a9cea02bc272770135a4dbd2cd16046554858a4dab59d316d641b843d/qstd_core-0.2.3.tar.gz
+[2024-04-25 13:24:32] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.4.3] Old Version: [2024.4.25]
+[2024-04-25 13:24:32] INFO root fetch - processPackages [telemetry-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/b8/90/491025541123040d2725673f80fb49c91eb16e0232746e2b5d7a802204f6/telemetry_tempest_plugin-2.0.0.tar.gz
+[2024-04-25 13:24:33] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/b0/d5/9cd8872a26936d4c914a824c6a8af12b0a7ebe9be9b46f1bdda1b6157096/torchrl_nightly-2024.4.25-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-25 13:24:33] INFO root fetch - processPackages [sebchw-example-package]: Downloading https://files.pythonhosted.org/packages/f9/d6/b4de8aa59b05e0c46f5da3aeee444b7f4747b81c27175ff3cedf414c1103/sebchw_example_package-0.5.0.tar.gz
+[2024-04-25 13:24:33] INFO root fetch - processPackages [profiles-pycorelib]: Downloading https://files.pythonhosted.org/packages/e2/a7/70a41a8e3631edca39d2f04ca8a1539b9c8c95c71af2459e3f98c19ddf1e/profiles_pycorelib-0.12.0-py3-none-any.whl
+[2024-04-25 13:24:33] INFO root fetch - processPackages [qstd-core]: Downloading https://files.pythonhosted.org/packages/95/40/cad6e61e9aeb2ad4592b7568c8879f5980d5a26c51fe79aeb374afb0d7de/qstd_core-0.2.4.tar.gz
+[2024-04-25 13:24:33] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/46/09/f9c33a29759abe48de5910003df90c557338179d15743d8d1bd5307ee007/ecv-python-development-0.0.47.tar.gz
+[2024-04-25 13:24:33] INFO root fetch - processPackages [profiles-pycorelib]: executing diffoscope
+[2024-04-25 13:24:33] INFO root fetch - processPackages [profiles-pycorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles_pycorelib-0.11.0-py3-none-any.whl.zip tmp/profiles_pycorelib-0.12.0-py3-none-any.whl.zip --markdown 20240425/p/profiles-pycorelib/0.11.0-0.12.0/README.md --exclude *.pyd
+[2024-04-25 13:24:33] INFO root fetch - processPackages [sebchw-example-package]: executing diffoscope
+[2024-04-25 13:24:33] INFO root fetch - processPackages [sebchw-example-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sebchw_example_package-0.4.0.tar.gz tmp/sebchw_example_package-0.5.0.tar.gz --markdown 20240425/s/sebchw-example-package/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-25 13:24:33] INFO root fetch - processPackages [qstd-core]: executing diffoscope
+[2024-04-25 13:24:33] INFO root fetch - processPackages [qstd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_core-0.2.3.tar.gz tmp/qstd_core-0.2.4.tar.gz --markdown 20240425/q/qstd-core/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-25 13:24:33] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 13:24:33] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.46.tar.gz tmp/ecv-python-development-0.0.47.tar.gz --markdown 20240425/e/ecv-python-development/0.0.46-0.0.47/README.md --exclude *.pyd
+[2024-04-25 13:24:33] INFO root fetch - processPackages [telemetry-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/b7/6c/c27d7da8813deeaad35a197da07ae1e8aed4d28e8aa080cf4267d5162534/telemetry_tempest_plugin-2.1.0.tar.gz
+[2024-04-25 13:24:33] INFO root fetch - processPackages [telemetry-tempest-plugin]: executing diffoscope
+[2024-04-25 13:24:33] INFO root fetch - processPackages [telemetry-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telemetry_tempest_plugin-2.0.0.tar.gz tmp/telemetry_tempest_plugin-2.1.0.tar.gz --markdown 20240425/t/telemetry-tempest-plugin/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-25 13:24:33] INFO root fetch - processPackages [sebchw-example-package]: Remove: archive file [/home/abi/fetcher/tmp/sebchw_example_package-0.4.0.tar.gz]
+[2024-04-25 13:24:33] INFO root fetch - processPackages [sebchw-example-package]: Remove: archive file [/home/abi/fetcher/tmp/sebchw_example_package-0.5.0.tar.gz]
+[2024-04-25 13:24:33] INFO root fetch - main [MainThread]: End processing [sebchw-example-package]: success
+[2024-04-25 13:24:33] INFO root fetch - processPackages [profiles-pycorelib]: Remove: archive file [/home/abi/fetcher/tmp/profiles_pycorelib-0.11.0-py3-none-any.whl.zip]
+[2024-04-25 13:24:33] INFO root fetch - processPackages [profiles-pycorelib]: Remove: archive file [/home/abi/fetcher/tmp/profiles_pycorelib-0.12.0-py3-none-any.whl.zip]
+[2024-04-25 13:24:33] INFO root fetch - main [MainThread]: End processing [profiles-pycorelib]: success
+[2024-04-25 13:24:33] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.3.tar.gz]
+[2024-04-25 13:24:33] INFO root fetch - processPackages [qstd-core]: Remove: archive file [/home/abi/fetcher/tmp/qstd_core-0.2.4.tar.gz]
+[2024-04-25 13:24:33] INFO root fetch - main [MainThread]: End processing [qstd-core]: success
+[2024-04-25 13:24:34] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.46.tar.gz]
+[2024-04-25 13:24:34] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.47.tar.gz]
+[2024-04-25 13:24:34] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 13:24:34] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/0a/bc/2c07e7175cc502c87c076a48a470ce3f477b2d7db9811311b3cedcc2e17b/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl
+[2024-04-25 13:24:34] INFO root fetch - processPackages [telemetry-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/telemetry_tempest_plugin-2.0.0.tar.gz]
+[2024-04-25 13:24:34] INFO root fetch - processPackages [telemetry-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/telemetry_tempest_plugin-2.1.0.tar.gz]
+[2024-04-25 13:24:34] INFO root fetch - main [MainThread]: End processing [telemetry-tempest-plugin]: success
+[2024-04-25 13:24:34] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-04-25 13:24:34] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.4.25-cp39-cp39-manylinux1_x86_64.whl.zip tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip --markdown 20240425/t/torchrl-nightly/2024.4.25-2024.4.3/README.md --exclude *.pyd
+[2024-04-25 13:24:37] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.25-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-04-25 13:24:37] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 13:24:37] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-04-25 13:24:37] INFO root fetch - main [MainThread]: Store serial: [22929599]
