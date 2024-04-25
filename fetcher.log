@@ -15102,3 +15102,65 @@
 [2024-04-25 10:26:40] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
 [2024-04-25 10:26:40] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
 [2024-04-25 10:26:40] INFO root fetch - main [MainThread]: Store serial: [22927160]
+[2024-04-25 10:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927160]
+[2024-04-25 10:28:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 10:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: useDAVE
+[2024-04-25 10:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-tidy
+[2024-04-25 10:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansible-doctor
+[2024-04-25 10:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansible-later
+[2024-04-25 10:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uat-breeze-connect
+[2024-04-25 10:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: valmi-connector-lib
+[2024-04-25 10:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mutwo.ekmelily
+[2024-04-25 10:28:53] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-25 10:28:53] INFO root fetch - processPackages [useDAVE]: New version: [24.42] Old Version: [24.4]
+[2024-04-25 10:28:53] INFO root fetch - processPackages [uat-breeze-connect]: New version: [1.0.14rc37] Old Version: [1.0.14rc36]
+[2024-04-25 10:28:53] INFO root fetch - processPackages [mutwo.ekmelily]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-doctor]: New version: [4.0.5] Old Version: [4.0.4]
+[2024-04-25 10:28:53] INFO root fetch - processPackages [docker-tidy]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-later]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-04-25 10:28:53] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [useDAVE]: Downloading https://files.pythonhosted.org/packages/31/c1/705f76e5b10fd323e112d6e862ad7db34086afe79b16bb3ab989269c7f1d/useDAVE-24.4.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-doctor]: Downloading https://files.pythonhosted.org/packages/7a/7a/e688ca2bed58fefbb2c14b65c88f4436e7917c82f6ecab28a8d45dde1579/ansible_doctor-4.0.4.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/e9/69/5b55ea07467dc2da6a8233b2a22b7c10ea2d6882d120303f9ad048895abc/uat-breeze-connect-1.0.14rc36.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [docker-tidy]: Downloading https://files.pythonhosted.org/packages/db/0d/b095c6fedf588119a235c3739e7a2406e9ee95545a6a0ab4ecc552281434/docker_tidy-2.1.7.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [mutwo.ekmelily]: Downloading https://files.pythonhosted.org/packages/d4/a8/8edb9fec7ec85c854b62ccf588efd54009f0688c8695bc70bd8e76ea0b11/mutwo.ekmelily-0.8.1.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/bc/12/e78e35e4b446df3ccdf6e360b8b0ba6047f074a979759246fd2971e23fb5/ansible_later-4.0.3.tar.gz
+[2024-04-25 10:28:53] WARNING root fetch - processPackages [useDAVE]: Skipping package: exceeds size limit 28230640>=10485760
+[2024-04-25 10:28:53] INFO root fetch - main [MainThread]: End processing [useDAVE] error
+[2024-04-25 10:28:53] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-25 10:28:53] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240425/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-25 10:28:53] INFO root fetch - processPackages [uat-breeze-connect]: Downloading https://files.pythonhosted.org/packages/52/21/8ccd37309bb7538a1e69ddd04a7814f594d9ae60bb3bf3b096de79d126cd/uat_breeze_connect-1.0.14rc37.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [docker-tidy]: Downloading https://files.pythonhosted.org/packages/10/71/340131b6846a9ea3caef729548dcd5a25a0792be95af7e642666d39cab9c/docker_tidy-2.1.8.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-doctor]: Downloading https://files.pythonhosted.org/packages/26/ae/941dfc72c98b23fd344fea370e5b31f946f582163efddf5b092dbde7b841/ansible_doctor-4.0.5.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [mutwo.ekmelily]: Downloading https://files.pythonhosted.org/packages/e8/de/9bc75662de050d71ce5f9642b528cb26d26fbe619237054ccd9e9b96524e/mutwo_ekmelily-0.9.0.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/ba/a6/d10b90a77672663df4bb43ddc009db52929bf6177eac22005a10ff8fdad8/ansible_later-4.0.4.tar.gz
+[2024-04-25 10:28:53] INFO root fetch - processPackages [uat-breeze-connect]: executing diffoscope
+[2024-04-25 10:28:53] INFO root fetch - processPackages [uat-breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uat-breeze-connect-1.0.14rc36.tar.gz tmp/uat_breeze_connect-1.0.14rc37.tar.gz --markdown 20240425/u/uat-breeze-connect/1.0.14rc36-1.0.14rc37/README.md --exclude *.pyd
+[2024-04-25 10:28:53] INFO root fetch - processPackages [docker-tidy]: executing diffoscope
+[2024-04-25 10:28:53] INFO root fetch - processPackages [docker-tidy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_tidy-2.1.7.tar.gz tmp/docker_tidy-2.1.8.tar.gz --markdown 20240425/d/docker-tidy/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-doctor]: executing diffoscope
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_doctor-4.0.4.tar.gz tmp/ansible_doctor-4.0.5.tar.gz --markdown 20240425/a/ansible-doctor/4.0.4-4.0.5/README.md --exclude *.pyd
+[2024-04-25 10:28:53] INFO root fetch - processPackages [mutwo.ekmelily]: executing diffoscope
+[2024-04-25 10:28:53] INFO root fetch - processPackages [mutwo.ekmelily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutwo.ekmelily-0.8.1.tar.gz tmp/mutwo_ekmelily-0.9.0.tar.gz --markdown 20240425/m/mutwo.ekmelily/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-later]: executing diffoscope
+[2024-04-25 10:28:53] INFO root fetch - processPackages [ansible-later]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_later-4.0.3.tar.gz tmp/ansible_later-4.0.4.tar.gz --markdown 20240425/a/ansible-later/4.0.3-4.0.4/README.md --exclude *.pyd
+[2024-04-25 10:28:54] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-25 10:28:54] INFO root fetch - processPackages [docker-tidy]: Remove: archive file [/home/abi/fetcher/tmp/docker_tidy-2.1.7.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - processPackages [docker-tidy]: Remove: archive file [/home/abi/fetcher/tmp/docker_tidy-2.1.8.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - main [MainThread]: End processing [docker-tidy]: success
+[2024-04-25 10:28:54] INFO root fetch - processPackages [mutwo.ekmelily]: Remove: archive file [/home/abi/fetcher/tmp/mutwo.ekmelily-0.8.1.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - processPackages [mutwo.ekmelily]: Remove: archive file [/home/abi/fetcher/tmp/mutwo_ekmelily-0.9.0.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - main [MainThread]: End processing [mutwo.ekmelily]: success
+[2024-04-25 10:28:54] INFO root fetch - processPackages [ansible-doctor]: Remove: archive file [/home/abi/fetcher/tmp/ansible_doctor-4.0.4.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - processPackages [ansible-doctor]: Remove: archive file [/home/abi/fetcher/tmp/ansible_doctor-4.0.5.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - main [MainThread]: End processing [ansible-doctor]: success
+[2024-04-25 10:28:54] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat-breeze-connect-1.0.14rc36.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - processPackages [uat-breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/uat_breeze_connect-1.0.14rc37.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - main [MainThread]: End processing [uat-breeze-connect]: success
+[2024-04-25 10:28:54] INFO root fetch - processPackages [ansible-later]: Remove: archive file [/home/abi/fetcher/tmp/ansible_later-4.0.3.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - processPackages [ansible-later]: Remove: archive file [/home/abi/fetcher/tmp/ansible_later-4.0.4.tar.gz]
+[2024-04-25 10:28:54] INFO root fetch - main [MainThread]: End processing [ansible-later]: success
+[2024-04-25 10:28:54] INFO root fetch - main [MainThread]: Store serial: [22927180]
