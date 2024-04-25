@@ -8025,3 +8025,36 @@
 [2024-04-25 03:45:40] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.3.tar.gz]
 [2024-04-25 03:45:40] INFO root fetch - main [MainThread]: End processing [helios-ml]: success
 [2024-04-25 03:45:40] INFO root fetch - main [MainThread]: Store serial: [22924058]
+[2024-04-25 03:47:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924058]
+[2024-04-25 03:47:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-25 03:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-easy
+[2024-04-25 03:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spit
+[2024-04-25 03:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiuxian-info
+[2024-04-25 03:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mainshortcuts
+[2024-04-25 03:47:49] INFO root fetch - processPackages [flet-easy]: New version: [0.2.1.dev20] Old Version: [0.2.1.dev10]
+[2024-04-25 03:47:49] WARNING root fetch - processPackages [xiuxian-info]: Skipping, unable to determine old version
+[2024-04-25 03:47:49] INFO root fetch - main [MainThread]: End processing [xiuxian-info] error
+[2024-04-25 03:47:49] INFO root fetch - processPackages [spit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 03:47:49] INFO root fetch - processPackages [mainshortcuts]: New version: [1.6.78] Old Version: [1.6.77]
+[2024-04-25 03:47:49] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/9e/d3/efc5fbcb6e5d430ea45bef249cc932e246f3a29f9210361976e1e38304cb/flet_easy-0.2.1.dev10.tar.gz
+[2024-04-25 03:47:49] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/a4/15/5f089e85f548f97592ba46116245cdab18ef72ad13cbdd499fba7462a171/mainshortcuts-1.6.77.tar.gz
+[2024-04-25 03:47:49] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/b0/7d/95b428f5054ceaa7df9d2570781e0a517f600a27a4088a45806eaf3f7ccf/spit-0.1.8.tar.gz
+[2024-04-25 03:47:49] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a3/41/95c2b32d3c225f7fa0cd1b957d8a4e11da5b22cececd0396c623963ac6eb/spit-0.1.9.tar.gz
+[2024-04-25 03:47:49] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/51/5c/3e81e8e5e10097ab8f8966ea83985fb6c438883336d9c451df288efa225d/flet_easy-0.2.1.dev20.tar.gz
+[2024-04-25 03:47:49] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-04-25 03:47:49] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.1.8.tar.gz tmp/spit-0.1.9.tar.gz --markdown 20240425/s/spit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 03:47:49] INFO root fetch - processPackages [mainshortcuts]: Downloading https://files.pythonhosted.org/packages/6b/3b/b852337b11499af370db8cd281b1822b3306c60e3328ac24aa8b29d642ec/mainshortcuts-1.6.78.tar.gz
+[2024-04-25 03:47:49] INFO root fetch - processPackages [flet-easy]: executing diffoscope
+[2024-04-25 03:47:49] INFO root fetch - processPackages [flet-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_easy-0.2.1.dev10.tar.gz tmp/flet_easy-0.2.1.dev20.tar.gz --markdown 20240425/f/flet-easy/0.2.1.dev10-0.2.1.dev20/README.md --exclude *.pyd
+[2024-04-25 03:47:49] INFO root fetch - processPackages [mainshortcuts]: executing diffoscope
+[2024-04-25 03:47:49] INFO root fetch - processPackages [mainshortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.77.tar.gz tmp/mainshortcuts-1.6.78.tar.gz --markdown 20240425/m/mainshortcuts/1.6.77-1.6.78/README.md --exclude *.pyd
+[2024-04-25 03:47:50] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.8.tar.gz]
+[2024-04-25 03:47:50] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.9.tar.gz]
+[2024-04-25 03:47:50] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-04-25 03:47:50] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.77.tar.gz]
+[2024-04-25 03:47:50] INFO root fetch - processPackages [mainshortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.78.tar.gz]
+[2024-04-25 03:47:50] INFO root fetch - main [MainThread]: End processing [mainshortcuts]: success
+[2024-04-25 03:47:50] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.1.dev10.tar.gz]
+[2024-04-25 03:47:50] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.1.dev20.tar.gz]
+[2024-04-25 03:47:50] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
+[2024-04-25 03:47:50] INFO root fetch - main [MainThread]: Store serial: [22924069]
