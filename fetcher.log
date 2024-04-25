@@ -13613,3 +13613,51 @@
 [2024-04-25 09:29:00] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.3.1.tar.gz]
 [2024-04-25 09:29:00] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-25 09:29:00] INFO root fetch - main [MainThread]: Store serial: [22926575]
+[2024-04-25 09:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926575]
+[2024-04-25 09:31:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 09:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kv-sqlite-sync
+[2024-04-25 09:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linktest
+[2024-04-25 09:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feasytools
+[2024-04-25 09:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tripleuni
+[2024-04-25 09:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ops-py-azure-key-vault-alert
+[2024-04-25 09:31:11] INFO root fetch - processPackages [kv-sqlite-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-25 09:31:11] INFO root fetch - processPackages [feasytools]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-25 09:31:11] INFO root fetch - processPackages [linktest]: New version: [2.6.0] Old Version: [2.5.8]
+[2024-04-25 09:31:11] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: New version: [4.7.0] Old Version: [4.6.1]
+[2024-04-25 09:31:11] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/35/dc/71d9618738e2f04df81fab68dc4c94206f00db110fc449ba2fff07b0ebf9/kv_sqlite_sync-0.1.8.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [tripleuni]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-25 09:31:11] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/df/db/69fed2ff117dc29a11c6d5153f1766be9d3bb93264dca298b103b8f8a03d/linktest-2.5.8.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/7e/4d/798b284f0259d5938a1d5c1206533fefede9a5fee0add5ee362e6b61a79a/feasytools-0.0.7.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/d3/23/103e9d277cf2bfe885c778c4d882e6d7e80e8c14e3835c02173df2ee4ad2/ops_py_azure_key_vault_alert-4.6.1.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [tripleuni]: Downloading https://files.pythonhosted.org/packages/27/5d/5ddc4f744c7ff736a180f9a81bf445393381192d7313e787c11ed5161f43/tripleuni-0.3.0.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/41/eb/0dfd531d93000aa19d7360237485a558810bd929b67ce2c228cfff48b105/linktest-2.6.0.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [kv-sqlite-sync]: Downloading https://files.pythonhosted.org/packages/f2/b3/62cc7dc93e4f4e0659962d40a617454c3d9749cdb31b2018346d8fbd1d11/kv_sqlite_sync-0.1.9.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/db/a3/c1d02b7c5103966962d91918fa012afe453693d9708730a475b736302649/feasytools-0.0.8.tar.gz
+[2024-04-25 09:31:11] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-25 09:31:11] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.5.8.tar.gz tmp/linktest-2.6.0.tar.gz --markdown 20240425/l/linktest/2.5.8-2.6.0/README.md --exclude *.pyd
+[2024-04-25 09:31:11] INFO root fetch - processPackages [kv-sqlite-sync]: executing diffoscope
+[2024-04-25 09:31:11] INFO root fetch - processPackages [kv-sqlite-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kv_sqlite_sync-0.1.8.tar.gz tmp/kv_sqlite_sync-0.1.9.tar.gz --markdown 20240425/k/kv-sqlite-sync/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-25 09:31:11] INFO root fetch - processPackages [feasytools]: executing diffoscope
+[2024-04-25 09:31:11] INFO root fetch - processPackages [feasytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feasytools-0.0.7.tar.gz tmp/feasytools-0.0.8.tar.gz --markdown 20240425/f/feasytools/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-25 09:31:12] INFO root fetch - processPackages [tripleuni]: Downloading https://files.pythonhosted.org/packages/1a/15/c1e459e6bfdd9a5a2b0770073a36d26bb94f25fd13df8adc49ba34cd375d/tripleuni-0.4.0.tar.gz
+[2024-04-25 09:31:12] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/31/6e/1a47726a5162422d59af84c58a1d2ff7b5846e6458206c3ac5c6cad2163b/ops_py_azure_key_vault_alert-4.7.0.tar.gz
+[2024-04-25 09:31:12] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: executing diffoscope
+[2024-04-25 09:31:12] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_azure_key_vault_alert-4.6.1.tar.gz tmp/ops_py_azure_key_vault_alert-4.7.0.tar.gz --markdown 20240425/o/ops-py-azure-key-vault-alert/4.6.1-4.7.0/README.md --exclude *.pyd
+[2024-04-25 09:31:12] INFO root fetch - processPackages [tripleuni]: executing diffoscope
+[2024-04-25 09:31:12] INFO root fetch - processPackages [tripleuni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tripleuni-0.3.0.tar.gz tmp/tripleuni-0.4.0.tar.gz --markdown 20240425/t/tripleuni/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-25 09:31:12] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.7.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.8.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - main [MainThread]: End processing [feasytools]: success
+[2024-04-25 09:31:12] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.8.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.6.0.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-25 09:31:12] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.8.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - processPackages [kv-sqlite-sync]: Remove: archive file [/home/abi/fetcher/tmp/kv_sqlite_sync-0.1.9.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - main [MainThread]: End processing [kv-sqlite-sync]: success
+[2024-04-25 09:31:12] INFO root fetch - processPackages [tripleuni]: Remove: archive file [/home/abi/fetcher/tmp/tripleuni-0.3.0.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - processPackages [tripleuni]: Remove: archive file [/home/abi/fetcher/tmp/tripleuni-0.4.0.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - main [MainThread]: End processing [tripleuni]: success
+[2024-04-25 09:31:12] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.6.1.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.7.0.tar.gz]
+[2024-04-25 09:31:12] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-alert]: success
+[2024-04-25 09:31:12] INFO root fetch - main [MainThread]: Store serial: [22926592]
