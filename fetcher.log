@@ -22948,3 +22948,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 14:13:43] INFO root fetch - processPackages [dqops]: Remove: archive file [/home/abi/fetcher/tmp/dqops-1.2.0.tar.gz]
 [2024-04-25 14:13:43] INFO root fetch - main [MainThread]: End processing [dqops]: success
 [2024-04-25 14:13:43] INFO root fetch - main [MainThread]: Store serial: [22930169]
+[2024-04-25 14:15:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930169]
+[2024-04-25 14:15:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-25 14:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rHDPE-Data-Analysis
+[2024-04-25 14:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvispr
+[2024-04-25 14:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uyghur-tili-quralliri
+[2024-04-25 14:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeon
+[2024-04-25 14:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turing-planet
+[2024-04-25 14:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threedigrid
+[2024-04-25 14:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ginger-ai
+[2024-04-25 14:15:52] INFO root fetch - processPackages [turing-planet]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-25 14:15:52] WARNING root fetch - processPackages [uyghur-tili-quralliri]: Skipping, unable to determine old version
+[2024-04-25 14:15:52] INFO root fetch - main [MainThread]: End processing [uyghur-tili-quralliri] error
+[2024-04-25 14:15:52] INFO root fetch - processPackages [turing-planet]: Downloading https://files.pythonhosted.org/packages/92/a5/56ab63bdcd2f9629de0f149704ba03de32696d079d999cef07c0efb52944/turing-planet-0.0.9.tar.gz
+[2024-04-25 14:15:52] WARNING root fetch - processPackages [ginger-ai]: Skipping, unable to determine old version
+[2024-04-25 14:15:52] INFO root fetch - main [MainThread]: End processing [ginger-ai] error
+[2024-04-25 14:15:52] INFO root fetch - processPackages [pyvispr]: New version: [2024.8] Old Version: [2024.7]
+[2024-04-25 14:15:52] INFO root fetch - processPackages [aeon]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-25 14:15:52] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-25 14:15:52] INFO root fetch - processPackages [threedigrid]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-25 14:15:53] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/c4/43/f7c26a439694e356dd195ad79db949ebfa4ef35bcc222f879437510f7b92/pyvispr-2024.7.tar.gz
+[2024-04-25 14:15:53] INFO root fetch - processPackages [aeon]: Downloading https://files.pythonhosted.org/packages/28/d8/8e3c47b8ba9a3e156ef3a094b415a91e79e83169d45e3bb976ef0867fde0/aeon-0.8.0.tar.gz
+[2024-04-25 14:15:53] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/e7/06/cb80201bf7bdbfc5feeeac167000ee91ab90c554ce4c1d0d60e9966177c1/rHDPE_Data_Analysis-1.0.2.tar.gz
+[2024-04-25 14:15:53] INFO root fetch - processPackages [turing-planet]: Downloading https://files.pythonhosted.org/packages/bb/3f/e6832452b4c4e59779cc580b4e13f112f3f95794a6f1b94819e91d8c7de4/turing-planet-0.1.0.tar.gz
+[2024-04-25 14:15:53] INFO root fetch - processPackages [threedigrid]: Downloading https://files.pythonhosted.org/packages/53/50/67a4109a55183209eacbcac729fc3663a69d7c3c7f6b6f4fbaf752817755/threedigrid-2.2.7.tar.gz
+[2024-04-25 14:15:53] WARNING root fetch - processPackages [aeon]: Skipping package: exceeds size limit 54038751>=10485760
+[2024-04-25 14:15:53] INFO root fetch - main [MainThread]: End processing [aeon] error
+[2024-04-25 14:15:53] INFO root fetch - processPackages [turing-planet]: executing diffoscope
+[2024-04-25 14:15:53] INFO root fetch - processPackages [turing-planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-planet-0.0.9.tar.gz tmp/turing-planet-0.1.0.tar.gz --markdown 20240425/t/turing-planet/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-25 14:15:53] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/34/1e/3a9b2faf80009bf72563532e3ec8ce21910773e97b728daaf8d62dacd707/pyvispr-2024.8.tar.gz
+[2024-04-25 14:15:53] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/c3/41/3438f53d2eb9531e792f6fe48478a54136ebe0226113c6a528d5daa43e5a/rHDPE_Data_Analysis-1.0.3.tar.gz
+[2024-04-25 14:15:53] INFO root fetch - processPackages [threedigrid]: Downloading https://files.pythonhosted.org/packages/1f/7c/d825581c3078b4234f0dd1543b4af999a123182e2ec05e405e0b9263ff0f/threedigrid-2.2.8.tar.gz
+[2024-04-25 14:15:53] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-04-25 14:15:53] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.2.tar.gz tmp/rHDPE_Data_Analysis-1.0.3.tar.gz --markdown 20240425/r/rHDPE-Data-Analysis/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-25 14:15:53] INFO root fetch - processPackages [pyvispr]: executing diffoscope
+[2024-04-25 14:15:53] INFO root fetch - processPackages [pyvispr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvispr-2024.7.tar.gz tmp/pyvispr-2024.8.tar.gz --markdown 20240425/p/pyvispr/2024.7-2024.8/README.md --exclude *.pyd
+[2024-04-25 14:15:53] INFO root fetch - processPackages [threedigrid]: executing diffoscope
+[2024-04-25 14:15:53] INFO root fetch - processPackages [threedigrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-2.2.7.tar.gz tmp/threedigrid-2.2.8.tar.gz --markdown 20240425/t/threedigrid/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-04-25 14:15:54] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.2.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.3.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-04-25 14:15:54] INFO root fetch - processPackages [turing-planet]: Remove: archive file [/home/abi/fetcher/tmp/turing-planet-0.0.9.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - processPackages [turing-planet]: Remove: archive file [/home/abi/fetcher/tmp/turing-planet-0.1.0.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - main [MainThread]: End processing [turing-planet]: success
+[2024-04-25 14:15:54] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.7.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.8.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - main [MainThread]: End processing [pyvispr]: success
+[2024-04-25 14:15:54] INFO root fetch - processPackages [threedigrid]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-2.2.7.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - processPackages [threedigrid]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-2.2.8.tar.gz]
+[2024-04-25 14:15:54] INFO root fetch - main [MainThread]: End processing [threedigrid]: success
+[2024-04-25 14:15:54] INFO root fetch - main [MainThread]: Store serial: [22930192]
