@@ -3156,3 +3156,56 @@
 [2024-04-25 02:20:34] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
 [2024-04-25 02:20:34] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
 [2024-04-25 02:20:34] INFO root fetch - main [MainThread]: Store serial: [22922224]
+[2024-04-25 02:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922224]
+[2024-04-25 02:22:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-25 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PokebolaMari
+[2024-04-25 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchao-nightly
+[2024-04-25 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-04-25 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Background
+[2024-04-25 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aider-chat
+[2024-04-25 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NEURON-nightly
+[2024-04-25 02:22:43] INFO root fetch - processPackages [PokebolaMari]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-25 02:22:43] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-25 02:22:43] INFO root fetch - processPackages [aider-chat]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-25 02:22:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-25 02:22:43] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev228] Old Version: [9.0a1.dev223]
+[2024-04-25 02:22:43] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.8rc1] Old Version: [7.9.8]
+[2024-04-25 02:22:43] INFO root fetch - processPackages [PokebolaMari]: Downloading https://files.pythonhosted.org/packages/9f/ea/0875d837b0506d770747da366c7f801da36f0bc14fa9f0ed0f82bc242044/pokebolamari-1.0.1.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/97/6d/6e7b681204d0890d7a1d07928f1168e3e15b16856958c5b3934aa123f438/aider-chat-0.8.3.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/c1/a1/17563a8d67c3186be074d2c2a363b4b95dfed06932a70e81605194533cc2/Geode_Background-7.9.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-25 02:22:43] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/23/e3/f77c8636160cd66d4c9ddb7fff6a1de3c0e4134052355fced4aef537a795/NEURON_nightly-9.0a1.dev223-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 02:22:43] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 17369014>=10485760
+[2024-04-25 02:22:43] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-04-25 02:22:43] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/27/f3/89e2047247691d2f850711b47e321bccb308fdcd459ee406fc6fd652d143/aider-chat-0.9.0.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [PokebolaMari]: Downloading https://files.pythonhosted.org/packages/d5/15/2fa70574f4021286c21f8f8f94a545cb6a37a48b0d339681c5f3e8631ffb/pokebolamari-1.0.2.tar.gz
+[2024-04-25 02:22:43] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2024-04-25 02:22:43] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.3.tar.gz tmp/aider-chat-0.9.0.tar.gz --markdown 20240425/a/aider-chat/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-25 02:22:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-25 02:22:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240425/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-25 02:22:43] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-25 02:22:43] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240425/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-25 02:22:43] INFO root fetch - processPackages [PokebolaMari]: executing diffoscope
+[2024-04-25 02:22:43] INFO root fetch - processPackages [PokebolaMari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokebolamari-1.0.1.tar.gz tmp/pokebolamari-1.0.2.tar.gz --markdown 20240425/P/PokebolaMari/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-25 02:22:44] INFO root fetch - processPackages [PokebolaMari]: Remove: archive file [/home/abi/fetcher/tmp/pokebolamari-1.0.1.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - processPackages [PokebolaMari]: Remove: archive file [/home/abi/fetcher/tmp/pokebolamari-1.0.2.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - main [MainThread]: End processing [PokebolaMari]: success
+[2024-04-25 02:22:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-25 02:22:44] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-25 02:22:44] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.3.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
+[2024-04-25 02:22:44] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2024-04-25 02:22:44] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5a/bf/e3b335021e2827df1ff360ae972cac70607b2685fe93041a505c3564eb03/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl
+[2024-04-25 02:22:44] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-04-25 02:22:44] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240425/G/Geode-Background/7.9.8-7.9.8rc1/README.md --exclude *.pyd
+[2024-04-25 02:22:45] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-25 02:22:45] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-25 02:22:45] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-04-25 02:22:45] INFO root fetch - main [MainThread]: Store serial: [22922243]
