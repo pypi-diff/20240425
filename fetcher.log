@@ -11209,3 +11209,45 @@
 [2024-04-25 07:26:55] INFO root fetch - processPackages [mdapy]: Remove: archive file [/home/abi/fetcher/tmp/mdapy-0.9.9.tar.gz]
 [2024-04-25 07:26:55] INFO root fetch - main [MainThread]: End processing [mdapy]: success
 [2024-04-25 07:26:55] INFO root fetch - main [MainThread]: Store serial: [22925472]
+[2024-04-25 07:28:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925472]
+[2024-04-25 07:29:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 07:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-mio
+[2024-04-25 07:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localprojections
+[2024-04-25 07:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongo-m
+[2024-04-25 07:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiddler-client
+[2024-04-25 07:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hadolint-coatl
+[2024-04-25 07:29:04] INFO root fetch - processPackages [hadolint-coatl]: New version: [2.12.0.2] Old Version: [2.12.0.1rc1]
+[2024-04-25 07:29:04] INFO root fetch - processPackages [hadolint-coatl]: Downloading https://files.pythonhosted.org/packages/f9/a0/d363a14629e2e7037206b2ff52186293cfaee5842b5eb1666f9013f70295/hadolint_coatl-2.12.0.1rc1.tar.gz
+[2024-04-25 07:29:04] INFO root fetch - processPackages [localprojections]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-25 07:29:04] INFO root fetch - processPackages [pih-mio]: New version: [0.29.5] Old Version: [0.29.2]
+[2024-04-25 07:29:04] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev2] Old Version: [3.1.0.dev1]
+[2024-04-25 07:29:04] WARNING root fetch - processPackages [mongo-m]: Skipping, unable to determine old version
+[2024-04-25 07:29:04] INFO root fetch - main [MainThread]: End processing [mongo-m] error
+[2024-04-25 07:29:04] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/d5/e5/97559581228aa87d59670db1576b10a59765ec2cab5bf4786afbfbd3592d/pih-mio-0.29.2.tar.gz
+[2024-04-25 07:29:04] INFO root fetch - processPackages [localprojections]: Downloading https://files.pythonhosted.org/packages/c6/69/9f7a3f99b82c106b5144a615c5560c14f50aafdddad34d0c979f840202c6/localprojections-0.1.4.tar.gz
+[2024-04-25 07:29:04] INFO root fetch - processPackages [hadolint-coatl]: Downloading https://files.pythonhosted.org/packages/c2/38/7b3db26bdef98da7aa09887d0759e067a45de5afe2c2f1df4e8fd4a6b635/hadolint_coatl-2.12.0.2.tar.gz
+[2024-04-25 07:29:04] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/08/ea/1f0e0c4bf6978125bb6d32314f0dcebce3728dfce8fa0ef3106948b4d899/fiddler-client-3.1.0.dev1.tar.gz
+[2024-04-25 07:29:04] INFO root fetch - processPackages [hadolint-coatl]: executing diffoscope
+[2024-04-25 07:29:04] INFO root fetch - processPackages [hadolint-coatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hadolint_coatl-2.12.0.1rc1.tar.gz tmp/hadolint_coatl-2.12.0.2.tar.gz --markdown 20240425/h/hadolint-coatl/2.12.0.1rc1-2.12.0.2/README.md --exclude *.pyd
+[2024-04-25 07:29:04] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/05/57/1ff42c500cb39bc674f64d097b9d9d6a10e0195f493ec0146bec421c6ee6/pih-mio-0.29.5.tar.gz
+[2024-04-25 07:29:04] INFO root fetch - processPackages [localprojections]: Downloading https://files.pythonhosted.org/packages/b7/3a/3b848702814a73f3db7a990d6a6c1b8d8a668c313c5b78bd0a77f5d6ca65/localprojections-0.1.5.tar.gz
+[2024-04-25 07:29:05] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/6b/e1/fe45637429f8e65ff11237bc987705ca8295c863471ec6144d9ecb525221/fiddler-client-3.1.0.dev2.tar.gz
+[2024-04-25 07:29:05] INFO root fetch - processPackages [localprojections]: executing diffoscope
+[2024-04-25 07:29:05] INFO root fetch - processPackages [localprojections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localprojections-0.1.4.tar.gz tmp/localprojections-0.1.5.tar.gz --markdown 20240425/l/localprojections/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-25 07:29:05] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-04-25 07:29:05] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev1.tar.gz tmp/fiddler-client-3.1.0.dev2.tar.gz --markdown 20240425/f/fiddler-client/3.1.0.dev1-3.1.0.dev2/README.md --exclude *.pyd
+[2024-04-25 07:29:05] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2024-04-25 07:29:05] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-0.29.2.tar.gz tmp/pih-mio-0.29.5.tar.gz --markdown 20240425/p/pih-mio/0.29.2-0.29.5/README.md --exclude *.pyd
+[2024-04-25 07:29:05] INFO root fetch - processPackages [hadolint-coatl]: Remove: archive file [/home/abi/fetcher/tmp/hadolint_coatl-2.12.0.1rc1.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - processPackages [hadolint-coatl]: Remove: archive file [/home/abi/fetcher/tmp/hadolint_coatl-2.12.0.2.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - main [MainThread]: End processing [hadolint-coatl]: success
+[2024-04-25 07:29:05] INFO root fetch - processPackages [localprojections]: Remove: archive file [/home/abi/fetcher/tmp/localprojections-0.1.4.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - processPackages [localprojections]: Remove: archive file [/home/abi/fetcher/tmp/localprojections-0.1.5.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - main [MainThread]: End processing [localprojections]: success
+[2024-04-25 07:29:05] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.2.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.5.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2024-04-25 07:29:05] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev1.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev2.tar.gz]
+[2024-04-25 07:29:05] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-04-25 07:29:05] INFO root fetch - main [MainThread]: Store serial: [22925546]
