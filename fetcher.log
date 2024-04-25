@@ -3313,3 +3313,81 @@
 [2024-04-25 02:27:11] INFO root fetch - processPackages [ovos-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_weather-0.0.1a9-py3-none-any.whl.zip]
 [2024-04-25 02:27:11] INFO root fetch - main [MainThread]: End processing [ovos-skill-weather]: success
 [2024-04-25 02:27:11] INFO root fetch - main [MainThread]: Store serial: [22922309]
+[2024-04-25 02:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22922309]
+[2024-04-25 02:29:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hddm-s
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-argus
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: killallappsinfolder
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-gitlab-runner
+[2024-04-25 02:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-certbot-dns-route53
+[2024-04-25 02:29:20] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-25 02:29:20] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-25 02:29:20] WARNING root fetch - processPackages [killallappsinfolder]: Skipping, unable to determine old version
+[2024-04-25 02:29:20] INFO root fetch - main [MainThread]: End processing [killallappsinfolder] error
+[2024-04-25 02:29:20] INFO root fetch - processPackages [pytorch-argus]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-25 02:29:20] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [pytorch-argus]: Downloading https://files.pythonhosted.org/packages/39/28/4d89a4cb07c2af1c4962c69a276a635fc305c83b9a078df44682b51fd6e0/pytorch-argus-1.0.0.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-04-25 02:29:20] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-25 02:29:20] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240425/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240425/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240425/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-25 02:29:20] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240425/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-25 02:29:20] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-04-25 02:29:20] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240425/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-25 02:29:21] INFO root fetch - processPackages [pytorch-argus]: Downloading https://files.pythonhosted.org/packages/ca/24/d87967dcd1f8b0b5d23e16de908f308d94ccb82fd79c1fe36762088472f7/pytorch_argus-1.1.0.tar.gz
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-25 02:29:21] INFO root fetch - processPackages [pytorch-argus]: executing diffoscope
+[2024-04-25 02:29:21] INFO root fetch - processPackages [pytorch-argus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-argus-1.0.0.tar.gz tmp/pytorch_argus-1.1.0.tar.gz --markdown 20240425/p/pytorch-argus/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240425/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240425/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-25 02:29:21] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-25 02:29:21] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-25 02:29:22] INFO root fetch - processPackages [pytorch-argus]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-argus-1.0.0.tar.gz]
+[2024-04-25 02:29:22] INFO root fetch - processPackages [pytorch-argus]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_argus-1.1.0.tar.gz]
+[2024-04-25 02:29:22] INFO root fetch - main [MainThread]: End processing [pytorch-argus]: success
+[2024-04-25 02:29:22] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-04-25 02:29:22] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-04-25 02:29:22] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-04-25 02:29:22] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-25 02:29:22] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-25 02:29:22] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-25 02:29:23] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-25 02:29:23] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-25 02:29:23] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-25 02:29:23] INFO root fetch - main [MainThread]: Store serial: [22922339]
