@@ -11126,3 +11126,33 @@
 [2024-04-25 07:18:15] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
 [2024-04-25 07:18:15] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-04-25 07:18:15] INFO root fetch - main [MainThread]: Store serial: [22925430]
+[2024-04-25 07:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925430]
+[2024-04-25 07:20:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 07:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VizAble
+[2024-04-25 07:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nt2py
+[2024-04-25 07:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlayer
+[2024-04-25 07:20:24] INFO root fetch - processPackages [nt2py]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-25 07:20:24] INFO root fetch - processPackages [VizAble]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-25 07:20:24] INFO root fetch - processPackages [openlayer]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-04-25 07:20:25] INFO root fetch - processPackages [nt2py]: Downloading https://files.pythonhosted.org/packages/5a/08/e6753891146680f53f3e08e127f2a5da191e88a7af62a3f2ccbf90919f76/nt2py-0.2.1.tar.gz
+[2024-04-25 07:20:25] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/18/8d/d2ba6b0ca25a73926dd99be55778e8cb683131ad342a25f56f6c92849f18/vizable-0.8.0.tar.gz
+[2024-04-25 07:20:25] INFO root fetch - processPackages [openlayer]: Downloading https://files.pythonhosted.org/packages/4c/50/69a82c49d02d9dc290ef221dd93581ab6079f168f64260b92c4a9ac7a64f/openlayer-0.1.0a8.tar.gz
+[2024-04-25 07:20:25] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/23/d4/f19d13b2598cf35c961841cb981abb85c9f8cfc95fe4ba56c8feeadf30e3/vizable-0.9.0.tar.gz
+[2024-04-25 07:20:25] INFO root fetch - processPackages [nt2py]: Downloading https://files.pythonhosted.org/packages/24/41/604188c6551b8b6577db6cb45fc66ed8ae9ab43bcf195c6e5b00f117ca2a/nt2py-0.3.0.tar.gz
+[2024-04-25 07:20:25] INFO root fetch - processPackages [openlayer]: Downloading https://files.pythonhosted.org/packages/49/07/7bb9afedb4adb5be025a41dec7de689c36b5e9d5c9680425f35447810424/openlayer-0.1.0a9.tar.gz
+[2024-04-25 07:20:25] INFO root fetch - processPackages [VizAble]: executing diffoscope
+[2024-04-25 07:20:25] INFO root fetch - processPackages [VizAble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizable-0.8.0.tar.gz tmp/vizable-0.9.0.tar.gz --markdown 20240425/V/VizAble/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-25 07:20:25] INFO root fetch - processPackages [nt2py]: executing diffoscope
+[2024-04-25 07:20:25] INFO root fetch - processPackages [nt2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nt2py-0.2.1.tar.gz tmp/nt2py-0.3.0.tar.gz --markdown 20240425/n/nt2py/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-25 07:20:25] INFO root fetch - processPackages [openlayer]: executing diffoscope
+[2024-04-25 07:20:25] INFO root fetch - processPackages [openlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlayer-0.1.0a8.tar.gz tmp/openlayer-0.1.0a9.tar.gz --markdown 20240425/o/openlayer/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-04-25 07:20:26] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.8.0.tar.gz]
+[2024-04-25 07:20:26] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.9.0.tar.gz]
+[2024-04-25 07:20:26] INFO root fetch - main [MainThread]: End processing [VizAble]: success
+[2024-04-25 07:20:26] INFO root fetch - processPackages [nt2py]: Remove: archive file [/home/abi/fetcher/tmp/nt2py-0.2.1.tar.gz]
+[2024-04-25 07:20:26] INFO root fetch - processPackages [nt2py]: Remove: archive file [/home/abi/fetcher/tmp/nt2py-0.3.0.tar.gz]
+[2024-04-25 07:20:26] INFO root fetch - main [MainThread]: End processing [nt2py]: success
+[2024-04-25 07:20:26] INFO root fetch - processPackages [openlayer]: Remove: archive file [/home/abi/fetcher/tmp/openlayer-0.1.0a8.tar.gz]
+[2024-04-25 07:20:26] INFO root fetch - processPackages [openlayer]: Remove: archive file [/home/abi/fetcher/tmp/openlayer-0.1.0a9.tar.gz]
+[2024-04-25 07:20:26] INFO root fetch - main [MainThread]: End processing [openlayer]: success
+[2024-04-25 07:20:26] INFO root fetch - main [MainThread]: Store serial: [22925439]
