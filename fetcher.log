@@ -11105,3 +11105,24 @@
 [2024-04-25 07:16:05] INFO root fetch - processPackages [shii-study]: Remove: archive file [/home/abi/fetcher/tmp/shii_study-0.0.2-py2.py3-none-any.whl.zip]
 [2024-04-25 07:16:05] INFO root fetch - main [MainThread]: End processing [shii-study]: success
 [2024-04-25 07:16:05] INFO root fetch - main [MainThread]: Store serial: [22925424]
+[2024-04-25 07:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925424]
+[2024-04-25 07:18:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 07:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autotrain-advanced
+[2024-04-25 07:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2024-04-25 07:18:14] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-25 07:18:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-04-25 07:18:14] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-25 07:18:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-04-25 07:18:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-04-25 07:18:14] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-25 07:18:15] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-04-25 07:18:15] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240425/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-04-25 07:18:15] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-25 07:18:15] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240425/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-25 07:18:15] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-04-25 07:18:15] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-04-25 07:18:15] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-04-25 07:18:15] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-25 07:18:15] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-25 07:18:15] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-25 07:18:15] INFO root fetch - main [MainThread]: Store serial: [22925430]
