@@ -10370,3 +10370,17 @@
 [2024-04-25 06:14:22] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1704966-py3-none-any.whl.zip]
 [2024-04-25 06:14:22] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
 [2024-04-25 06:14:22] INFO root fetch - main [MainThread]: Store serial: [22925054]
+[2024-04-25 06:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925054]
+[2024-04-25 06:16:30] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-25 06:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925054]
+[2024-04-25 06:18:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 06:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofscraper
+[2024-04-25 06:18:36] INFO root fetch - processPackages [ofscraper]: New version: [3.9.1] Old Version: [3.9.0.dev9]
+[2024-04-25 06:18:36] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/2c/a7/19187a41b609fe0073f8560c9536929661f7d47dc67892c1020d2a39d063/ofscraper-3.9.0.dev9.tar.gz
+[2024-04-25 06:18:36] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/a8/cd/8a1e13f68fb55659a0bd0b7947a33c59756c42394580071eed2d63c45a45/ofscraper-3.9.1.tar.gz
+[2024-04-25 06:18:36] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-04-25 06:18:36] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.0.dev9.tar.gz tmp/ofscraper-3.9.1.tar.gz --markdown 20240425/o/ofscraper/3.9.0.dev9-3.9.1/README.md --exclude *.pyd
+[2024-04-25 06:18:38] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.0.dev9.tar.gz]
+[2024-04-25 06:18:38] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.1.tar.gz]
+[2024-04-25 06:18:38] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-04-25 06:18:38] INFO root fetch - main [MainThread]: Store serial: [22925057]
