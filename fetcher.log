@@ -8205,3 +8205,27 @@
 [2024-04-25 04:01:49] INFO root fetch - processPackages [nixtlats]: Remove: archive file [/home/abi/fetcher/tmp/nixtlats-0.4.0.tar.gz]
 [2024-04-25 04:01:49] INFO root fetch - main [MainThread]: End processing [nixtlats]: success
 [2024-04-25 04:01:49] INFO root fetch - main [MainThread]: Store serial: [22924139]
+[2024-04-25 04:03:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924139]
+[2024-04-25 04:03:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cacheline
+[2024-04-25 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wgk-torch-training-module
+[2024-04-25 04:03:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-ehpcinstant
+[2024-04-25 04:03:57] WARNING root fetch - processPackages [aliyun-python-sdk-ehpcinstant]: Skipping, unable to determine old version
+[2024-04-25 04:03:57] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ehpcinstant] error
+[2024-04-25 04:03:57] INFO root fetch - processPackages [wgk-torch-training-module]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-25 04:03:57] INFO root fetch - processPackages [cacheline]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2024-04-25 04:03:57] INFO root fetch - processPackages [wgk-torch-training-module]: Downloading https://files.pythonhosted.org/packages/b8/e5/6e69fdb97c6747d6a32bb9f255a628c0a0ee120c00c4b58e2afbde05a51d/wgk-torch-training-module-0.0.2.tar.gz
+[2024-04-25 04:03:58] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/83/43/30cb7524884592bea2849d344f4360cf1c1d51ba9adc717a082ba5455cde/cacheline-0.0.2.dev8.tar.gz
+[2024-04-25 04:03:58] INFO root fetch - processPackages [wgk-torch-training-module]: Downloading https://files.pythonhosted.org/packages/36/ea/edf4c47a58c826f0c64f0f98df8eb6eb83541864af9de80af53949b28f5b/wgk_torch_training_module-0.0.3.tar.gz
+[2024-04-25 04:03:58] INFO root fetch - processPackages [wgk-torch-training-module]: executing diffoscope
+[2024-04-25 04:03:58] INFO root fetch - processPackages [wgk-torch-training-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgk-torch-training-module-0.0.2.tar.gz tmp/wgk_torch_training_module-0.0.3.tar.gz --markdown 20240425/w/wgk-torch-training-module/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-25 04:03:58] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/e5/81/2092b4cd33ee4a3617dbbbe07c7cd17cb0b1af143e9c29b46d43e9fff8d4/cacheline-0.0.2.dev9.tar.gz
+[2024-04-25 04:03:58] INFO root fetch - processPackages [cacheline]: executing diffoscope
+[2024-04-25 04:03:58] INFO root fetch - processPackages [cacheline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacheline-0.0.2.dev8.tar.gz tmp/cacheline-0.0.2.dev9.tar.gz --markdown 20240425/c/cacheline/0.0.2.dev8-0.0.2.dev9/README.md --exclude *.pyd
+[2024-04-25 04:03:58] INFO root fetch - processPackages [wgk-torch-training-module]: Remove: archive file [/home/abi/fetcher/tmp/wgk-torch-training-module-0.0.2.tar.gz]
+[2024-04-25 04:03:58] INFO root fetch - processPackages [wgk-torch-training-module]: Remove: archive file [/home/abi/fetcher/tmp/wgk_torch_training_module-0.0.3.tar.gz]
+[2024-04-25 04:03:58] INFO root fetch - main [MainThread]: End processing [wgk-torch-training-module]: success
+[2024-04-25 04:03:59] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev8.tar.gz]
+[2024-04-25 04:03:59] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev9.tar.gz]
+[2024-04-25 04:03:59] INFO root fetch - main [MainThread]: End processing [cacheline]: success
+[2024-04-25 04:03:59] INFO root fetch - main [MainThread]: Store serial: [22924154]
