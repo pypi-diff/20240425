@@ -20985,3 +20985,43 @@
 [2024-04-25 13:09:08] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.6.4-py3-none-any.whl.zip]
 [2024-04-25 13:09:08] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
 [2024-04-25 13:09:08] INFO root fetch - main [MainThread]: Store serial: [22929310]
+[2024-04-25 13:11:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22929310]
+[2024-04-25 13:11:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 13:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata
+[2024-04-25 13:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyzard
+[2024-04-25 13:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nakivo-prometheus-exporter
+[2024-04-25 13:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: profiles-rudderstack-bin
+[2024-04-25 13:11:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auth-lib-profcomff
+[2024-04-25 13:11:17] INFO root fetch - processPackages [pyzard]: New version: [1.3] Old Version: [1.2]
+[2024-04-25 13:11:17] INFO root fetch - processPackages [nakivo-prometheus-exporter]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-25 13:11:17] INFO root fetch - processPackages [auth-lib-profcomff]: New version: [2024.4.7.1] Old Version: [2024.4.7]
+[2024-04-25 13:11:17] INFO root fetch - processPackages [profiles-rudderstack-bin]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-25 13:11:17] INFO root fetch - processPackages [udata]: New version: [8.0.1.dev28928] Old Version: [8.0.1.dev28882]
+[2024-04-25 13:11:17] INFO root fetch - processPackages [pyzard]: Downloading https://files.pythonhosted.org/packages/7e/9a/7f1b81611e1e30e1acbdb4a5dfc340a6f83253f4f87ea8ac77c311e33620/pyzard-1.2-py3-none-any.whl
+[2024-04-25 13:11:17] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/bd/5d/c8aa329043a1063db11c0a3d3f015d4f81a83134ab4aea4e5501181dbd95/nakivo_prometheus_exporter-0.2.3.tar.gz
+[2024-04-25 13:11:17] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/71/17/d8ae89cc104d238ce67f6ee6ef0649014a9198d2de28e0bdca126d647751/auth_lib_profcomff-2024.4.7.tar.gz
+[2024-04-25 13:11:17] INFO root fetch - processPackages [profiles-rudderstack-bin]: Downloading https://files.pythonhosted.org/packages/2a/fa/f53dd82c8de9a17b04a3bee01636c020e77a2b5df73b8c9f0849c679393a/profiles_rudderstack_bin-0.9.3-py3-none-win_amd64.whl
+[2024-04-25 13:11:17] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/ca/98/b7fe1c260c952a2b982af0efa0a55b19b23e4bbf9ef2d97cb3601fc7501a/udata-8.0.1.dev28882-py2.py3-none-any.whl
+[2024-04-25 13:11:17] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19778303>=10485760
+[2024-04-25 13:11:17] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-25 13:11:18] WARNING root fetch - processPackages [profiles-rudderstack-bin]: Skipping package: exceeds size limit 35657249>=10485760
+[2024-04-25 13:11:18] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack-bin] error
+[2024-04-25 13:11:18] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/0a/b5/97da2a569098c5827f5481d6bc8328c8ddbb69466298eee7b8e95f0cd55f/nakivo_prometheus_exporter-0.3.0.tar.gz
+[2024-04-25 13:11:18] INFO root fetch - processPackages [pyzard]: Downloading https://files.pythonhosted.org/packages/99/d4/577581e9221c4983e5daa225460b3ce5a28e19ee85d012693a940af572c9/pyzard-1.3.tar.gz
+[2024-04-25 13:11:18] INFO root fetch - processPackages [nakivo-prometheus-exporter]: executing diffoscope
+[2024-04-25 13:11:18] INFO root fetch - processPackages [nakivo-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakivo_prometheus_exporter-0.2.3.tar.gz tmp/nakivo_prometheus_exporter-0.3.0.tar.gz --markdown 20240425/n/nakivo-prometheus-exporter/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-25 13:11:18] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/73/b0/520409701657fc16406480f349453609d9c046f13b24165f55066eb02adf/auth_lib_profcomff-2024.4.7.1.tar.gz
+[2024-04-25 13:11:18] INFO root fetch - processPackages [pyzard]: executing diffoscope
+[2024-04-25 13:11:18] INFO root fetch - processPackages [pyzard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzard-1.2-py3-none-any.whl.zip tmp/pyzard-1.3.tar.gz --markdown 20240425/p/pyzard/1.2-1.3/README.md --exclude *.pyd
+[2024-04-25 13:11:18] INFO root fetch - processPackages [auth-lib-profcomff]: executing diffoscope
+[2024-04-25 13:11:18] INFO root fetch - processPackages [auth-lib-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_lib_profcomff-2024.4.7.tar.gz tmp/auth_lib_profcomff-2024.4.7.1.tar.gz --markdown 20240425/a/auth-lib-profcomff/2024.4.7-2024.4.7.1/README.md --exclude *.pyd
+[2024-04-25 13:11:18] INFO root fetch - processPackages [pyzard]: Remove: archive file [/home/abi/fetcher/tmp/pyzard-1.2-py3-none-any.whl.zip]
+[2024-04-25 13:11:18] INFO root fetch - processPackages [pyzard]: Remove: archive file [/home/abi/fetcher/tmp/pyzard-1.3.tar.gz]
+[2024-04-25 13:11:18] INFO root fetch - main [MainThread]: End processing [pyzard]: success
+[2024-04-25 13:11:18] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/nakivo_prometheus_exporter-0.2.3.tar.gz]
+[2024-04-25 13:11:18] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/nakivo_prometheus_exporter-0.3.0.tar.gz]
+[2024-04-25 13:11:18] INFO root fetch - main [MainThread]: End processing [nakivo-prometheus-exporter]: success
+[2024-04-25 13:11:19] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2024.4.7.tar.gz]
+[2024-04-25 13:11:19] INFO root fetch - processPackages [auth-lib-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/auth_lib_profcomff-2024.4.7.1.tar.gz]
+[2024-04-25 13:11:19] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
+[2024-04-25 13:11:19] INFO root fetch - main [MainThread]: Store serial: [22929333]
