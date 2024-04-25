@@ -12073,3 +12073,33 @@
 [2024-04-25 08:22:07] INFO root fetch - processPackages [arrapi]: Remove: archive file [/home/abi/fetcher/tmp/arrapi-1.4.9.tar.gz]
 [2024-04-25 08:22:07] INFO root fetch - main [MainThread]: End processing [arrapi]: success
 [2024-04-25 08:22:07] INFO root fetch - main [MainThread]: Store serial: [22926011]
+[2024-04-25 08:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926011]
+[2024-04-25 08:24:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 08:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-auth-user-case-insensitive
+[2024-04-25 08:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bedrock-bot
+[2024-04-25 08:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suricata-language-server
+[2024-04-25 08:24:16] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.7]
+[2024-04-25 08:24:16] INFO root fetch - processPackages [bedrock-bot]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-25 08:24:16] INFO root fetch - processPackages [suricata-language-server]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-25 08:24:16] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/9a/0a/ffcb3bc2d2c219a4a16f63a53434e8829c334d367db7dd20f29451177998/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-25 08:24:16] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/bf/d1/78496fa816dfcd95e4389704957310f2fb2eb714355e5d1a9d9bcdbaa271/bedrock_bot-1.2.1.tar.gz
+[2024-04-25 08:24:16] INFO root fetch - processPackages [suricata-language-server]: Downloading https://files.pythonhosted.org/packages/39/dc/e6e390178af8697535e538675dcbf42eaa8fd21bb606656d738dc872d91d/suricata-language-server-0.9.2.tar.gz
+[2024-04-25 08:24:16] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/3c/45/1a03598a8636d016816d0fd333784afb411ece010d3b190bb95a7b947d78/bedrock_bot-1.2.2.tar.gz
+[2024-04-25 08:24:16] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Downloading https://files.pythonhosted.org/packages/b0/ae/8070af084040811c66bf7354c1834521f26634ec68d248326dd42e53708c/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-25 08:24:16] INFO root fetch - processPackages [bedrock-bot]: executing diffoscope
+[2024-04-25 08:24:16] INFO root fetch - processPackages [bedrock-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bedrock_bot-1.2.1.tar.gz tmp/bedrock_bot-1.2.2.tar.gz --markdown 20240425/b/bedrock-bot/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-25 08:24:16] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: executing diffoscope
+[2024-04-25 08:24:16] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-auth-user-case-insensitive/16.0.1.0.0.7-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-25 08:24:16] INFO root fetch - processPackages [suricata-language-server]: Downloading https://files.pythonhosted.org/packages/cd/09/9ec3e9bd8da3b30116655a64d70236dab1c187259052d4f2e4991b632156/suricata_language_server-0.9.3.tar.gz
+[2024-04-25 08:24:16] INFO root fetch - processPackages [suricata-language-server]: executing diffoscope
+[2024-04-25 08:24:16] INFO root fetch - processPackages [suricata-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suricata-language-server-0.9.2.tar.gz tmp/suricata_language_server-0.9.3.tar.gz --markdown 20240425/s/suricata-language-server/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-25 08:24:17] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.2.1.tar.gz]
+[2024-04-25 08:24:17] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.2.2.tar.gz]
+[2024-04-25 08:24:17] INFO root fetch - main [MainThread]: End processing [bedrock-bot]: success
+[2024-04-25 08:24:17] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-25 08:24:17] INFO root fetch - processPackages [odoo-addon-auth-user-case-insensitive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_user_case_insensitive-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-25 08:24:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-user-case-insensitive]: success
+[2024-04-25 08:24:17] INFO root fetch - processPackages [suricata-language-server]: Remove: archive file [/home/abi/fetcher/tmp/suricata-language-server-0.9.2.tar.gz]
+[2024-04-25 08:24:17] INFO root fetch - processPackages [suricata-language-server]: Remove: archive file [/home/abi/fetcher/tmp/suricata_language_server-0.9.3.tar.gz]
+[2024-04-25 08:24:17] INFO root fetch - main [MainThread]: End processing [suricata-language-server]: success
+[2024-04-25 08:24:17] INFO root fetch - main [MainThread]: Store serial: [22926021]
