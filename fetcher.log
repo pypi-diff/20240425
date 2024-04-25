@@ -9309,3 +9309,20 @@
 [2024-04-25 05:03:11] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-25 05:03:11] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-25 05:03:11] INFO root fetch - main [MainThread]: Store serial: [22924544]
+[2024-04-25 05:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924544]
+[2024-04-25 05:05:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 05:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-04-25 05:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ResBlaster
+[2024-04-25 05:05:20] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-25 05:05:20] INFO root fetch - processPackages [ResBlaster]: New version: [0.4.0] Old Version: [0.3.8]
+[2024-04-25 05:05:20] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-25 05:05:20] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-25 05:05:20] INFO root fetch - processPackages [ResBlaster]: Downloading https://files.pythonhosted.org/packages/9b/51/1a5e4b135ea2197fb9886a33a36259f80e8e8b2973e4f16d79a63afc2c23/ResBlaster-0.3.8.tar.gz
+[2024-04-25 05:05:20] WARNING root fetch - processPackages [ResBlaster]: Skipping package: exceeds size limit 12623068>=10485760
+[2024-04-25 05:05:20] INFO root fetch - main [MainThread]: End processing [ResBlaster] error
+[2024-04-25 05:05:20] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-25 05:05:20] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240425/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-25 05:05:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-25 05:05:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-25 05:05:21] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-25 05:05:21] INFO root fetch - main [MainThread]: Store serial: [22924554]
