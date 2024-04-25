@@ -8584,3 +8584,15 @@
 [2024-04-25 04:21:24] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.9.tar.gz]
 [2024-04-25 04:21:24] INFO root fetch - main [MainThread]: End processing [types-redis]: success
 [2024-04-25 04:21:24] INFO root fetch - main [MainThread]: Store serial: [22924281]
+[2024-04-25 04:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22924281]
+[2024-04-25 04:23:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-25 04:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-xlibrary
+[2024-04-25 04:23:33] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.5] Old Version: [11.0.4]
+[2024-04-25 04:23:33] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/39/9a/8f691edd5dacc88cf7817a53b0a412c522b34a3c116664e4b7884d1d0ea2/robotframework-xlibrary-11.0.4.tar.gz
+[2024-04-25 04:23:34] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/a4/44/ab5921d12051ba3fb570f934220fdfef5b18b3acf43e2d4771208afbb241/robotframework-xlibrary-11.0.5.tar.gz
+[2024-04-25 04:23:34] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-25 04:23:34] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.4.tar.gz tmp/robotframework-xlibrary-11.0.5.tar.gz --markdown 20240425/r/robotframework-xlibrary/11.0.4-11.0.5/README.md --exclude *.pyd
+[2024-04-25 04:23:34] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.4.tar.gz]
+[2024-04-25 04:23:34] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.5.tar.gz]
+[2024-04-25 04:23:34] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-25 04:23:34] INFO root fetch - main [MainThread]: Store serial: [22924284]
