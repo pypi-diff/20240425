@@ -11956,3 +11956,33 @@
 [2024-04-25 08:13:20] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240424.tar.gz]
 [2024-04-25 08:13:20] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-25 08:13:20] INFO root fetch - main [MainThread]: Store serial: [22925957]
+[2024-04-25 08:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925957]
+[2024-04-25 08:15:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-25 08:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2024-04-25 08:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bnipython
+[2024-04-25 08:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyDroidDepot
+[2024-04-25 08:15:30] INFO root fetch - processPackages [pyDroidDepot]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-25 08:15:30] INFO root fetch - processPackages [bnipython]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-25 08:15:30] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-25 08:15:30] INFO root fetch - processPackages [pyDroidDepot]: Downloading https://files.pythonhosted.org/packages/aa/ed/0b7d72426c94e1205e954427663bc7cef028f954422e19a6ce03a4c0d044/pyDroidDepot-1.0.3.tar.gz
+[2024-04-25 08:15:30] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-25 08:15:30] INFO root fetch - processPackages [bnipython]: Downloading https://files.pythonhosted.org/packages/b4/ed/11fb8e9d0898538b516e072d0463da5da38a638eb5884c15c1d6c35d0e6b/bnipython-0.8.3.tar.gz
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pyDroidDepot]: Downloading https://files.pythonhosted.org/packages/bf/ce/88a9830c0f537d3e1e0d3c422436a5deb1e425e636bf686af1250da49494/pydroiddepot-1.1.0.tar.gz
+[2024-04-25 08:15:31] INFO root fetch - processPackages [bnipython]: Downloading https://files.pythonhosted.org/packages/23/43/fcd3a49fe66f5c6a7faf82a3f269d79bc285a4c7491dc06e2ccef2dfe8ad/bnipython-0.8.4.tar.gz
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pyDroidDepot]: executing diffoscope
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pyDroidDepot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDroidDepot-1.0.3.tar.gz tmp/pydroiddepot-1.1.0.tar.gz --markdown 20240425/p/pyDroidDepot/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-04-25 08:15:31] INFO root fetch - processPackages [bnipython]: executing diffoscope
+[2024-04-25 08:15:31] INFO root fetch - processPackages [bnipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnipython-0.8.3.tar.gz tmp/bnipython-0.8.4.tar.gz --markdown 20240425/b/bnipython/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pyDroidDepot]: Remove: archive file [/home/abi/fetcher/tmp/pyDroidDepot-1.0.3.tar.gz]
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pyDroidDepot]: Remove: archive file [/home/abi/fetcher/tmp/pydroiddepot-1.1.0.tar.gz]
+[2024-04-25 08:15:31] INFO root fetch - main [MainThread]: End processing [pyDroidDepot]: success
+[2024-04-25 08:15:31] INFO root fetch - processPackages [bnipython]: Remove: archive file [/home/abi/fetcher/tmp/bnipython-0.8.3.tar.gz]
+[2024-04-25 08:15:31] INFO root fetch - processPackages [bnipython]: Remove: archive file [/home/abi/fetcher/tmp/bnipython-0.8.4.tar.gz]
+[2024-04-25 08:15:31] INFO root fetch - main [MainThread]: End processing [bnipython]: success
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-25 08:15:31] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240425/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/README.md --exclude *.pyd
+[2024-04-25 08:15:35] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-25 08:15:35] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-25 08:15:35] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-25 08:15:35] INFO root fetch - main [MainThread]: Store serial: [22925972]
