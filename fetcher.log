@@ -17571,3 +17571,74 @@
 [2024-04-25 11:02:57] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-9.5.5.tar.gz]
 [2024-04-25 11:02:57] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
 [2024-04-25 11:02:57] INFO root fetch - main [MainThread]: Store serial: [22927889]
+[2024-04-25 11:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22927889]
+[2024-04-25 11:05:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ampel-core
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagshub
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: folioclient
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.common
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telegram-sleuth
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.core
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2024-04-25 11:05:12] INFO root fetch - processPackages [zfx]: New version: [20240425rc0] Old Version: [20240425b0]
+[2024-04-25 11:05:12] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240424] Old Version: [1.1.1b20240423]
+[2024-04-25 11:05:12] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240424] Old Version: [1.1.1b20240423]
+[2024-04-25 11:05:12] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240424] Old Version: [1.1.1b20240423]
+[2024-04-25 11:05:12] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/06/0b/bfe1811bafa9202879ccb3a05400503d4a9be7154bf40b61480fd7ecdfef/zfx-20240425b0.tar.gz
+[2024-04-25 11:05:12] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0d/ee/7028cad55247d022ea5555817d7c6e334ef01958148552b1cdd16fe13dc0/autogluon.common-1.1.1b20240423.tar.gz
+[2024-04-25 11:05:12] INFO root fetch - processPackages [telegram-sleuth]: New version: [0.0.1.post6] Old Version: [0.0.1.post5]
+[2024-04-25 11:05:12] INFO root fetch - processPackages [folioclient]: New version: [0.9] Old Version: [0.8]
+[2024-04-25 11:05:12] INFO root fetch - processPackages [ampel-core]: New version: [0.9.1a0] Old Version: [0.9.0]
+[2024-04-25 11:05:12] INFO root fetch - processPackages [dagshub]: New version: [0.3.9] Old Version: [0.3.8.post2]
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/7c/24/b72bded5c7b8ac7f85634e0c3a216968af0a2d9c319aa57bc20a9990e2e9/autogluon.core-1.1.1b20240423.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/6c/7a/6567a3573c5491f079f7cafaa62688d5f735798de8f07626624dfd1ab8a6/autogluon.features-1.1.1b20240423.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [telegram-sleuth]: Downloading https://files.pythonhosted.org/packages/3b/dc/10576de30b94c7388a22ca5a667fc83a6ca029fb682b4287893c4a0a96ae/telegram_sleuth-0.0.1.post5.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [folioclient]: Downloading https://files.pythonhosted.org/packages/2a/68/41e785fbf4765b96038fdfb050eba48d06f8a12b9e09235aea8fe7536933/folioclient-0.8.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [ampel-core]: Downloading https://files.pythonhosted.org/packages/0b/f1/c35d1b693bc5f9d4305d831b65aa8d828d304890beddb59d40c55dd960e7/ampel_core-0.9.0.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/48/89/8bb3a84ebd082889ed2dc85597e8954fec711589e17f0891e344b6e627a9/dagshub-0.3.8.post2.tar.gz
+[2024-04-25 11:05:13] ERROR root fetch - processPackages [zfx]: Unable to fetch info: No such project/version 'zfx' 20240425rc0
+[2024-04-25 11:05:13] INFO root fetch - main [MainThread]: End processing [zfx] error
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/dc/14/b22189284f90b3f9d886f17bc7d47c92f0e6bfc3275becb6ec141809fb6f/autogluon.common-1.1.1b20240424.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/37/c9/98ee73a36748bda49713e3c1dd84f92eb4cbd36a387e5add08cbdefd4c9d/autogluon.core-1.1.1b20240424.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/2a/e0/486f35ca4ee0caa31ba06ad61167942d2cb2ac60e446b5e7c3ac3080ecd9/autogluon.features-1.1.1b20240424.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240423.tar.gz tmp/autogluon.common-1.1.1b20240424.tar.gz --markdown 20240425/a/autogluon.common/1.1.1b20240423-1.1.1b20240424/README.md --exclude *.pyd
+[2024-04-25 11:05:13] INFO root fetch - processPackages [telegram-sleuth]: Downloading https://files.pythonhosted.org/packages/a4/43/8449659477451fe54b876360bd4ea388b53b73088069d44573bedc6296b1/telegram_sleuth-0.0.1.post6-py3-none-any.whl
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240423.tar.gz tmp/autogluon.features-1.1.1b20240424.tar.gz --markdown 20240425/a/autogluon.features/1.1.1b20240423-1.1.1b20240424/README.md --exclude *.pyd
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-25 11:05:13] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240423.tar.gz tmp/autogluon.core-1.1.1b20240424.tar.gz --markdown 20240425/a/autogluon.core/1.1.1b20240423-1.1.1b20240424/README.md --exclude *.pyd
+[2024-04-25 11:05:13] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/b6/58/bed17e869dd65b7d76ece8837800b97096849fcccf69372b6647a4f4ccd9/dagshub-0.3.9.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [telegram-sleuth]: executing diffoscope
+[2024-04-25 11:05:13] INFO root fetch - processPackages [telegram-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_sleuth-0.0.1.post5.tar.gz tmp/telegram_sleuth-0.0.1.post6-py3-none-any.whl.zip --markdown 20240425/t/telegram-sleuth/0.0.1.post5-0.0.1.post6/README.md --exclude *.pyd
+[2024-04-25 11:05:13] INFO root fetch - processPackages [ampel-core]: Downloading https://files.pythonhosted.org/packages/52/dd/5b24cb2a94e07f20988047c1f1e15ab8751b8357891581a306e853ebd9f3/ampel_core-0.9.1a0.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [folioclient]: Downloading https://files.pythonhosted.org/packages/92/c5/da338f49117e5b64f4ec89667e37588e7fd20caf7bf0601a0bbc0d3e0641/folioclient-0.9.tar.gz
+[2024-04-25 11:05:13] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2024-04-25 11:05:13] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.8.post2.tar.gz tmp/dagshub-0.3.9.tar.gz --markdown 20240425/d/dagshub/0.3.8.post2-0.3.9/README.md --exclude *.pyd
+[2024-04-25 11:05:13] INFO root fetch - processPackages [folioclient]: executing diffoscope
+[2024-04-25 11:05:13] INFO root fetch - processPackages [folioclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folioclient-0.8.tar.gz tmp/folioclient-0.9.tar.gz --markdown 20240425/f/folioclient/0.8-0.9/README.md --exclude *.pyd
+[2024-04-25 11:05:13] INFO root fetch - processPackages [ampel-core]: executing diffoscope
+[2024-04-25 11:05:13] INFO root fetch - processPackages [ampel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel_core-0.9.0.tar.gz tmp/ampel_core-0.9.1a0.tar.gz --markdown 20240425/a/ampel-core/0.9.0-0.9.1a0/README.md --exclude *.pyd
+[2024-04-25 11:05:14] INFO root fetch - processPackages [telegram-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/telegram_sleuth-0.0.1.post5.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - processPackages [telegram-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/telegram_sleuth-0.0.1.post6-py3-none-any.whl.zip]
+[2024-04-25 11:05:14] INFO root fetch - main [MainThread]: End processing [telegram-sleuth]: success
+[2024-04-25 11:05:14] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240423.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240424.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-25 11:05:14] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240423.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240424.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-25 11:05:14] INFO root fetch - processPackages [folioclient]: Remove: archive file [/home/abi/fetcher/tmp/folioclient-0.8.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - processPackages [folioclient]: Remove: archive file [/home/abi/fetcher/tmp/folioclient-0.9.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - main [MainThread]: End processing [folioclient]: success
+[2024-04-25 11:05:14] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240423.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240424.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-25 11:05:14] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.8.post2.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.9.tar.gz]
+[2024-04-25 11:05:14] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2024-04-25 11:05:15] INFO root fetch - processPackages [ampel-core]: Remove: archive file [/home/abi/fetcher/tmp/ampel_core-0.9.0.tar.gz]
+[2024-04-25 11:05:15] INFO root fetch - processPackages [ampel-core]: Remove: archive file [/home/abi/fetcher/tmp/ampel_core-0.9.1a0.tar.gz]
+[2024-04-25 11:05:15] INFO root fetch - main [MainThread]: End processing [ampel-core]: success
+[2024-04-25 11:05:15] INFO root fetch - main [MainThread]: Store serial: [22927925]
