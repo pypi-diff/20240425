@@ -11156,3 +11156,24 @@
 [2024-04-25 07:20:26] INFO root fetch - processPackages [openlayer]: Remove: archive file [/home/abi/fetcher/tmp/openlayer-0.1.0a9.tar.gz]
 [2024-04-25 07:20:26] INFO root fetch - main [MainThread]: End processing [openlayer]: success
 [2024-04-25 07:20:26] INFO root fetch - main [MainThread]: Store serial: [22925439]
+[2024-04-25 07:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22925439]
+[2024-04-25 07:22:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-25 07:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fetch-sitemap
+[2024-04-25 07:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FastSnake
+[2024-04-25 07:22:35] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-25 07:22:35] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-25 07:22:35] INFO root fetch - processPackages [FastSnake]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-25 07:22:35] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-25 07:22:35] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/4e/39/3975e123076085cab12818bfdb5453f139c02ec8e1ab8b44b6aa19b34e48/fastsnake-1.4.8.tar.gz
+[2024-04-25 07:22:35] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-25 07:22:35] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240425/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-25 07:22:35] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/ba/f6/2239174616fa357132ef7f9a94eb64ac1b356e4f1d96dd885ccf70181298/fastsnake-1.4.9.tar.gz
+[2024-04-25 07:22:35] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-25 07:22:35] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.4.8.tar.gz tmp/fastsnake-1.4.9.tar.gz --markdown 20240425/F/FastSnake/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-25 07:22:36] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-25 07:22:36] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-25 07:22:36] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-25 07:22:36] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.8.tar.gz]
+[2024-04-25 07:22:36] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.9.tar.gz]
+[2024-04-25 07:22:36] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-25 07:22:36] INFO root fetch - main [MainThread]: Store serial: [22925445]
