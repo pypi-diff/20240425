@@ -12704,3 +12704,141 @@
 [2024-04-25 08:57:22] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.0.2.tar.gz]
 [2024-04-25 08:57:22] INFO root fetch - main [MainThread]: End processing [caluma-alexandria]: success
 [2024-04-25 08:57:22] INFO root fetch - main [MainThread]: Store serial: [22926217]
+[2024-04-25 08:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926217]
+[2024-04-25 08:59:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myelectricaldatapy
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bellek
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-picking-purchase-order-link
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-picking-sale-order-link
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rio-viz
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clinica
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-ocr
+[2024-04-25 08:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: whiffle-client
+[2024-04-25 08:59:31] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.41] Old Version: [0.0.40]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [bellek]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: New version: [17.0.1.0.0.4] Old Version: [16.0.1.0.1.8]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [myelectricaldatapy]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: Downloading https://files.pythonhosted.org/packages/e4/29/86d3c6993dc020320c83d66393156ca37fa292587d129486b50a4f46e5ec/odoo_addon_stock_picking_purchase_order_link-16.0.1.0.1.8-py3-none-any.whl
+[2024-04-25 08:59:31] INFO root fetch - processPackages [tf-ocr]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20240418.0] Old Version: [16.0.20240415.1]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [whiffle-client]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [rio-viz]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/26/4a/fccdc0d1ab493a2f8ff61dc7887c3dfae74cbb14da793a33c1372d57e126/bellek-0.98.0.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [clinica]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-25 08:59:31] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ef/0f/c468b4c7255327b4fe3f2e49f5461d075ef3a0fcdd4d6ab148f2811df56d/ecv-python-development-0.0.40.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/3d/72/c9afcc3b8a2c7979a2e47013a503849259801b340a0e1c54b50ec67e2936/myelectricaldatapy-2.1.5.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/d2/0a/672048cd92d73d78c1e9059fdd4862471adfe606c74d4fed445f780d5551/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl
+[2024-04-25 08:59:31] INFO root fetch - processPackages [tf-ocr]: Downloading https://files.pythonhosted.org/packages/3d/6d/20d76afa91fff7a2248217a5569b97cd709c55f89443e1491378546d5b9e/tf_ocr-0.1.2.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Downloading https://files.pythonhosted.org/packages/bf/a0/bfab67c802330400ca0081dfbd00f7138bfffb422ab9600169c832bd8075/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-25 08:59:31] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/da/e3/5c1a94a379809892c46ca689fa9ae6b6f472835795d4501f3e0a9e904f38/whiffle_client-0.3.1.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [rio-viz]: Downloading https://files.pythonhosted.org/packages/bc/3e/0c96ec0c94834870fe86c73f12fb7ef6d71fd1bd79dec450e07ddbe0cd19/rio-viz-0.9.5.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [clinica]: Downloading https://files.pythonhosted.org/packages/1b/8d/06cbce90c1712c2b21295250cacc13e579b462cec6ebccfcc97bb13be51f/clinica-0.8.0.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: Downloading https://files.pythonhosted.org/packages/18/9b/469add3f2518ab20a231c400e62de294f8bcf59a4be1a89a859227a56c3d/odoo_addon_stock_picking_purchase_order_link-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-25 08:59:31] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/b1/7d/318ef0b0e9501f2402f526140bd8bc74ecbd0b9039d664868ce87f479a8f/myelectricaldatapy-2.1.6.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ed/88/9c88cc11289c23036c5216726d20ce42b559f875c773bfcc3aa1c2fb7aa9/ecv-python-development-0.0.41.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/1a/2c/d10c9a7db975b462d348e242a313e4d15e3c11363d764f5a1f40176b3e42/bellek-0.99.0.tar.gz
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: executing diffoscope
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_purchase_order_link-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_purchase_order_link-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-stock-picking-purchase-order-link/16.0.1.0.1.8-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-25 08:59:31] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-25 08:59:31] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.40.tar.gz tmp/ecv-python-development-0.0.41.tar.gz --markdown 20240425/e/ecv-python-development/0.0.40-0.0.41/README.md --exclude *.pyd
+[2024-04-25 08:59:31] INFO root fetch - processPackages [myelectricaldatapy]: executing diffoscope
+[2024-04-25 08:59:31] INFO root fetch - processPackages [myelectricaldatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myelectricaldatapy-2.1.5.tar.gz tmp/myelectricaldatapy-2.1.6.tar.gz --markdown 20240425/m/myelectricaldatapy/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-25 08:59:31] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-25 08:59:31] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.98.0.tar.gz tmp/bellek-0.99.0.tar.gz --markdown 20240425/b/bellek/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/a9/22/08e3fb254079615fc9c0f282bba3e3cfbacc8bafc8f783a39bbbe9748cd4/odoo_addons_oca_stock_logistics_workflow-16.0.20240418.0-py3-none-any.whl
+[2024-04-25 08:59:31] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Downloading https://files.pythonhosted.org/packages/0d/64/d84bca2c5d98cc3f489a340288b2a61907fa9727efbb9ac5b4874679e65c/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-25 08:59:31] INFO root fetch - processPackages [tf-ocr]: Downloading https://files.pythonhosted.org/packages/be/f7/fbcc8e5719050877130bc6eed216f83bf79b74cfc43f1abbfd835cacbb8a/tf_ocr-0.1.3.tar.gz
+[2024-04-25 08:59:32] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/d4/82/f7d153cafd1a44f8c979a2aa8e4e9aae3d7517ef8e14f5d7cb0c0c1625fc/whiffle_client-0.3.2.tar.gz
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240418.0-py3-none-any.whl.zip --markdown 20240425/o/odoo-addons-oca-stock-logistics-workflow/16.0.20240415.1-16.0.20240418.0/README.md --exclude *.pyd
+[2024-04-25 08:59:32] INFO root fetch - processPackages [clinica]: Downloading https://files.pythonhosted.org/packages/a8/e3/7d3714119a6926801e34cd6a83d1fbd316c05d8c34be97f581e6b5d39613/clinica-0.8.1.tar.gz
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: executing diffoscope
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-stock-picking-sale-order-link/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-25 08:59:32] INFO root fetch - processPackages [tf-ocr]: executing diffoscope
+[2024-04-25 08:59:32] INFO root fetch - processPackages [tf-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_ocr-0.1.2.tar.gz tmp/tf_ocr-0.1.3.tar.gz --markdown 20240425/t/tf-ocr/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-25 08:59:32] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2024-04-25 08:59:32] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.3.1.tar.gz tmp/whiffle_client-0.3.2.tar.gz --markdown 20240425/w/whiffle-client/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-25 08:59:32] INFO root fetch - processPackages [clinica]: executing diffoscope
+[2024-04-25 08:59:32] INFO root fetch - processPackages [clinica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinica-0.8.0.tar.gz tmp/clinica-0.8.1.tar.gz --markdown 20240425/c/clinica/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-25 08:59:32] INFO root fetch - processPackages [rio-viz]: Downloading https://files.pythonhosted.org/packages/fe/0e/26ef946c4c5772443d07f96fc4a8beb3b36ee08227ca29e0721ec58827cc/rio-viz-0.9.6.tar.gz
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_purchase_order_link-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_purchase_order_link-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addon-stock-picking-purchase-order-link]: Start processing: invenio-app-ils
+[2024-04-25 08:59:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-purchase-order-link]: success
+[2024-04-25 08:59:32] INFO root fetch - processPackages [rio-viz]: executing diffoscope
+[2024-04-25 08:59:32] INFO root fetch - processPackages [rio-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio-viz-0.9.5.tar.gz tmp/rio-viz-0.9.6.tar.gz --markdown 20240425/r/rio-viz/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-25 08:59:32] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.1.5.tar.gz]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.1.6.tar.gz]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [myelectricaldatapy]: Start processing: odoo-addon-fs-storage
+[2024-04-25 08:59:32] INFO root fetch - main [MainThread]: End processing [myelectricaldatapy]: success
+[2024-04-25 08:59:32] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.40.tar.gz]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.41.tar.gz]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [ecv-python-development]: Start processing: sqlalchemy-doris
+[2024-04-25 08:59:32] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-25 08:59:32] INFO root fetch - processPackages [invenio-app-ils]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl.zip]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240418.0-py3-none-any.whl.zip]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Start processing: kmscalculator
+[2024-04-25 08:59:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2024-04-25 08:59:32] INFO root fetch - processPackages [odoo-addon-fs-storage]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-25 08:59:32] INFO root fetch - processPackages [sqlalchemy-doris]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [tf-ocr]: Remove: archive file [/home/abi/fetcher/tmp/tf_ocr-0.1.2.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [tf-ocr]: Remove: archive file [/home/abi/fetcher/tmp/tf_ocr-0.1.3.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [tf-ocr]: Start processing: twikit
+[2024-04-25 08:59:33] INFO root fetch - main [MainThread]: End processing [tf-ocr]: success
+[2024-04-25 08:59:33] INFO root fetch - processPackages [kmscalculator]: New version: [0.1] Old Version: [0.0.1]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [twikit]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [odoo-addon-stock-picking-sale-order-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_sale_order_link-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-25 08:59:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-sale-order-link]: success
+[2024-04-25 08:59:33] INFO root fetch - processPackages [invenio-app-ils]: Downloading https://files.pythonhosted.org/packages/1a/75/a653224b6d54b986e34e9769d5e87f7fd999de3558555ad4edb8013434be/invenio-app-ils-2.0.0rc8.tar.gz
+[2024-04-25 08:59:33] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.98.0.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.99.0.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-25 08:59:33] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.3.1.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.3.2.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2024-04-25 08:59:33] INFO root fetch - processPackages [odoo-addon-fs-storage]: Downloading https://files.pythonhosted.org/packages/6e/65/2d60113f6a47a55a3f9213b8a0ba3bc09d884210bf27ba7981a95c2f11b1/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-25 08:59:33] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/84/86/169182892ddb1852c1828652bd404ca6805480d7e51479e50292d24bfd0d/twikit-1.5.6.tar.gz
+[2024-04-25 08:59:33] INFO root fetch - processPackages [sqlalchemy-doris]: Downloading https://files.pythonhosted.org/packages/93/0e/88aa88c55cba88364065e6c3cb4574883e8a5547203711bfc1787a65d09a/sqlalchemy_doris-0.2.1-py3-none-any.whl
+[2024-04-25 08:59:33] INFO root fetch - processPackages [kmscalculator]: Downloading https://files.pythonhosted.org/packages/50/06/e40186d54cba82889427e6f655056779176bdafe18dedc5410867c769e70/kmscalculator-0.0.1.tar.gz
+[2024-04-25 08:59:33] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/4e/ed/09bacf5700ec7a0fc17776343d1606dc180516632f7394bb5f64a36a050c/twikit-1.5.7.tar.gz
+[2024-04-25 08:59:33] INFO root fetch - processPackages [invenio-app-ils]: Downloading https://files.pythonhosted.org/packages/35/62/6c40f841e47f3d435f34442ca4f3574b027c87496ee9b619a6a29650f8b8/invenio-app-ils-2.0.0rc9.tar.gz
+[2024-04-25 08:59:33] INFO root fetch - processPackages [odoo-addon-fs-storage]: Downloading https://files.pythonhosted.org/packages/a9/47/cea8f9833604162785ac45aee733d365281cd126279e3150750d61d3c1e2/odoo_addon_fs_storage-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-25 08:59:33] INFO root fetch - processPackages [sqlalchemy-doris]: Downloading https://files.pythonhosted.org/packages/92/b1/a0f02168fd48221f4e569b93d65c00257a4d90471c932524fedc0f758c1a/sqlalchemy_doris-0.2.2-py3-none-any.whl
+[2024-04-25 08:59:33] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-25 08:59:33] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.6.tar.gz tmp/twikit-1.5.7.tar.gz --markdown 20240425/t/twikit/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-04-25 08:59:33] INFO root fetch - processPackages [odoo-addon-fs-storage]: executing diffoscope
+[2024-04-25 08:59:33] INFO root fetch - processPackages [odoo-addon-fs-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_fs_storage-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240425/o/odoo-addon-fs-storage/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-25 08:59:33] INFO root fetch - processPackages [invenio-app-ils]: executing diffoscope
+[2024-04-25 08:59:33] INFO root fetch - processPackages [invenio-app-ils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-ils-2.0.0rc8.tar.gz tmp/invenio-app-ils-2.0.0rc9.tar.gz --markdown 20240425/i/invenio-app-ils/2.0.0rc8-2.0.0rc9/README.md --exclude *.pyd
+[2024-04-25 08:59:33] INFO root fetch - processPackages [sqlalchemy-doris]: executing diffoscope
+[2024-04-25 08:59:33] INFO root fetch - processPackages [sqlalchemy-doris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_doris-0.2.1-py3-none-any.whl.zip tmp/sqlalchemy_doris-0.2.2-py3-none-any.whl.zip --markdown 20240425/s/sqlalchemy-doris/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-25 08:59:33] INFO root fetch - processPackages [kmscalculator]: Downloading https://files.pythonhosted.org/packages/d4/ed/dd38f0ef5c2842f49f0653270371120ce591bbe4dd8bbf78b95180bfb252/kmscalculator-0.1.tar.gz
+[2024-04-25 08:59:33] INFO root fetch - processPackages [kmscalculator]: executing diffoscope
+[2024-04-25 08:59:33] INFO root fetch - processPackages [kmscalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmscalculator-0.0.1.tar.gz tmp/kmscalculator-0.1.tar.gz --markdown 20240425/k/kmscalculator/0.0.1-0.1/README.md --exclude *.pyd
+[2024-04-25 08:59:33] INFO root fetch - processPackages [rio-viz]: Remove: archive file [/home/abi/fetcher/tmp/rio-viz-0.9.5.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - processPackages [rio-viz]: Remove: archive file [/home/abi/fetcher/tmp/rio-viz-0.9.6.tar.gz]
+[2024-04-25 08:59:33] INFO root fetch - main [MainThread]: End processing [rio-viz]: success
+[2024-04-25 08:59:34] INFO root fetch - processPackages [odoo-addon-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_storage-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-25 08:59:34] INFO root fetch - processPackages [odoo-addon-fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_storage-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-25 08:59:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-storage]: success
+[2024-04-25 08:59:34] INFO root fetch - processPackages [sqlalchemy-doris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_doris-0.2.1-py3-none-any.whl.zip]
+[2024-04-25 08:59:34] INFO root fetch - processPackages [sqlalchemy-doris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_doris-0.2.2-py3-none-any.whl.zip]
+[2024-04-25 08:59:34] INFO root fetch - main [MainThread]: End processing [sqlalchemy-doris]: success
+[2024-04-25 08:59:34] INFO root fetch - processPackages [clinica]: Remove: archive file [/home/abi/fetcher/tmp/clinica-0.8.0.tar.gz]
+[2024-04-25 08:59:34] INFO root fetch - processPackages [clinica]: Remove: archive file [/home/abi/fetcher/tmp/clinica-0.8.1.tar.gz]
+[2024-04-25 08:59:34] INFO root fetch - main [MainThread]: End processing [clinica]: success
+[2024-04-25 08:59:34] INFO root fetch - processPackages [kmscalculator]: Remove: archive file [/home/abi/fetcher/tmp/kmscalculator-0.0.1.tar.gz]
+[2024-04-25 08:59:34] INFO root fetch - processPackages [kmscalculator]: Remove: archive file [/home/abi/fetcher/tmp/kmscalculator-0.1.tar.gz]
+[2024-04-25 08:59:34] INFO root fetch - main [MainThread]: End processing [kmscalculator]: success
+[2024-04-25 08:59:34] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.6.tar.gz]
+[2024-04-25 08:59:34] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.7.tar.gz]
+[2024-04-25 08:59:34] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-25 08:59:35] INFO root fetch - processPackages [invenio-app-ils]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-ils-2.0.0rc8.tar.gz]
+[2024-04-25 08:59:35] INFO root fetch - processPackages [invenio-app-ils]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-ils-2.0.0rc9.tar.gz]
+[2024-04-25 08:59:35] INFO root fetch - main [MainThread]: End processing [invenio-app-ils]: success
+[2024-04-25 08:59:35] INFO root fetch - main [MainThread]: Store serial: [22926253]
