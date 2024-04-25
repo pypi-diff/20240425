@@ -22538,3 +22538,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-25 13:57:40] INFO root fetch - processPackages [pheval]: Remove: archive file [/home/abi/fetcher/tmp/pheval-0.3.3.tar.gz]
 [2024-04-25 13:57:40] INFO root fetch - main [MainThread]: End processing [pheval]: success
 [2024-04-25 13:57:40] INFO root fetch - main [MainThread]: Store serial: [22930002]
+[2024-04-25 13:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22930002]
+[2024-04-25 13:59:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-scheema
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperon
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getstream
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timelength
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperon-das-atomdb
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paradance
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qgepqwat2ili
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyperon-das
+[2024-04-25 13:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: khoj-assistant
+[2024-04-25 13:59:49] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [hyperon-das-atomdb]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [hyperon-das]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [paradance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [qgepqwat2ili]: New version: [0.9] Old Version: [0.8]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-04-25 13:59:49] INFO root fetch - processPackages [timelength]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [getstream]: New version: [1.0.0rc16] Old Version: [0.4.0]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [hyperon]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-25 13:59:49] INFO root fetch - processPackages [hyperon-das-atomdb]: Downloading https://files.pythonhosted.org/packages/bb/0f/c584b46539d977e0a7c59662f5f28481734584a1cafdfb819b7b123eb6e0/hyperon_das_atomdb-0.6.8.tar.gz
+[2024-04-25 13:59:49] INFO root fetch - processPackages [hyperon-das]: Downloading https://files.pythonhosted.org/packages/2a/74/d303639071979afd9c1ff52fcbf1a7021a1ebd794608a72928fce675eddc/hyperon_das-0.7.8.tar.gz
+[2024-04-25 13:59:49] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-25 13:59:49] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/8f/4c/6a3c7d4731f17fd3b3e4130274d7bbae13be34f848072567de4b0ab61969/paradance-0.4.8.tar.gz
+[2024-04-25 13:59:49] INFO root fetch - processPackages [qgepqwat2ili]: Downloading https://files.pythonhosted.org/packages/bf/68/3a320d59ba7b80bc36d212c92f818fb68d5da0e064722630aca26e2becfb/qgepqwat2ili-0.8.tar.gz
+[2024-04-25 13:59:49] INFO root fetch - processPackages [timelength]: Downloading https://files.pythonhosted.org/packages/1b/a7/b891e2c83ab43a0c9bcd3544b2af816f8b064e5b19fc8e2a4442739c1903/timelength-2.0.1.tar.gz
+[2024-04-25 13:59:49] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/71/1f/cbb913914b0095d6eb274766225eb57975f1134a23cab010169c38a7d28e/getstream-0.4.0.tar.gz
+[2024-04-25 13:59:49] INFO root fetch - processPackages [hyperon]: Downloading https://files.pythonhosted.org/packages/62/4f/934b9b661a0a70d926c0246976e5cf10d7ed1ccab37897fbe30bc7ed18ba/hyperon-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 13:59:50] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-04-25 13:59:50] INFO root fetch - processPackages [hyperon-das-atomdb]: Downloading https://files.pythonhosted.org/packages/36/3e/81f034b709bbfb26916c8dc1dca47c4c4db14747f35cd9801092ab381147/hyperon_das_atomdb-0.6.9.tar.gz
+[2024-04-25 13:59:50] INFO root fetch - processPackages [hyperon-das]: Downloading https://files.pythonhosted.org/packages/ba/01/8b22149d7d6deea7c484e40d7bb689eac14008b7549a74c47d19170eb514/hyperon_das-0.7.9.tar.gz
+[2024-04-25 13:59:50] WARNING root fetch - processPackages [qgepqwat2ili]: Skipping package: exceeds size limit 10926425>=10485760
+[2024-04-25 13:59:50] INFO root fetch - main [MainThread]: End processing [qgepqwat2ili] error
+[2024-04-25 13:59:50] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-04-25 13:59:50] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240425/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-25 13:59:50] INFO root fetch - processPackages [hyperon-das]: executing diffoscope
+[2024-04-25 13:59:50] INFO root fetch - processPackages [hyperon-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperon_das-0.7.8.tar.gz tmp/hyperon_das-0.7.9.tar.gz --markdown 20240425/h/hyperon-das/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-25 13:59:50] INFO root fetch - processPackages [hyperon-das-atomdb]: executing diffoscope
+[2024-04-25 13:59:50] INFO root fetch - processPackages [hyperon-das-atomdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperon_das_atomdb-0.6.8.tar.gz tmp/hyperon_das_atomdb-0.6.9.tar.gz --markdown 20240425/h/hyperon-das-atomdb/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-25 13:59:50] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-25 13:59:50] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/ab/20/cc427c1600f67ef9036e4f225cc6bcdac42746ca6db329d2d1029be4c84e/paradance-0.4.9.tar.gz
+[2024-04-25 13:59:50] INFO root fetch - processPackages [getstream]: Downloading https://files.pythonhosted.org/packages/5c/1b/b893d46dbf04328f18f0e7b6f68073de55d3c48069b7f80049cccc201594/getstream-1.0.0rc16.tar.gz
+[2024-04-25 13:59:50] INFO root fetch - processPackages [timelength]: Downloading https://files.pythonhosted.org/packages/29/00/44ca9fcf1bf7da9d4ad097835b5733a1dfab31dbce363291e10c9fbada95/timelength-2.0.2.tar.gz
+[2024-04-25 13:59:50] INFO root fetch - processPackages [paradance]: executing diffoscope
+[2024-04-25 13:59:50] INFO root fetch - processPackages [paradance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradance-0.4.8.tar.gz tmp/paradance-0.4.9.tar.gz --markdown 20240425/p/paradance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-25 13:59:50] INFO root fetch - processPackages [getstream]: executing diffoscope
+[2024-04-25 13:59:50] INFO root fetch - processPackages [getstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getstream-0.4.0.tar.gz tmp/getstream-1.0.0rc16.tar.gz --markdown 20240425/g/getstream/0.4.0-1.0.0rc16/README.md --exclude *.pyd
+[2024-04-25 13:59:50] INFO root fetch - processPackages [hyperon]: Downloading https://files.pythonhosted.org/packages/aa/f2/89987f4d02b6e7e75405226f5ba6333a74f76c73cc05cf000dd30036b931/hyperon-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-25 13:59:50] INFO root fetch - processPackages [timelength]: executing diffoscope
+[2024-04-25 13:59:50] INFO root fetch - processPackages [timelength]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timelength-2.0.1.tar.gz tmp/timelength-2.0.2.tar.gz --markdown 20240425/t/timelength/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-25 13:59:50] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-25 13:59:50] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240425/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-25 13:59:51] INFO root fetch - processPackages [hyperon-das-atomdb]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das_atomdb-0.6.8.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - processPackages [hyperon-das-atomdb]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das_atomdb-0.6.9.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - main [MainThread]: End processing [hyperon-das-atomdb]: success
+[2024-04-25 13:59:51] INFO root fetch - processPackages [hyperon-das]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das-0.7.8.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - processPackages [hyperon-das]: Remove: archive file [/home/abi/fetcher/tmp/hyperon_das-0.7.9.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - main [MainThread]: End processing [hyperon-das]: success
+[2024-04-25 13:59:51] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-04-25 13:59:51] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-04-25 13:59:51] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-04-25 13:59:51] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.8.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - main [MainThread]: End processing [paradance]: success
+[2024-04-25 13:59:51] INFO root fetch - processPackages [hyperon]: executing diffoscope
+[2024-04-25 13:59:51] INFO root fetch - processPackages [hyperon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperon-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hyperon-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240425/h/hyperon/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-25 13:59:51] INFO root fetch - processPackages [timelength]: Remove: archive file [/home/abi/fetcher/tmp/timelength-2.0.1.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - processPackages [timelength]: Remove: archive file [/home/abi/fetcher/tmp/timelength-2.0.2.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - main [MainThread]: End processing [timelength]: success
+[2024-04-25 13:59:51] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-0.4.0.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - processPackages [getstream]: Remove: archive file [/home/abi/fetcher/tmp/getstream-1.0.0rc16.tar.gz]
+[2024-04-25 13:59:51] INFO root fetch - main [MainThread]: End processing [getstream]: success
+[2024-04-25 13:59:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-25 13:59:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-25 13:59:52] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-25 14:00:18] INFO root fetch - processPackages [hyperon]: Remove: archive file [/home/abi/fetcher/tmp/hyperon-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 14:00:18] INFO root fetch - processPackages [hyperon]: Remove: archive file [/home/abi/fetcher/tmp/hyperon-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-25 14:00:18] INFO root fetch - main [MainThread]: End processing [hyperon]: success
+[2024-04-25 14:00:18] INFO root fetch - main [MainThread]: Store serial: [22930050]
