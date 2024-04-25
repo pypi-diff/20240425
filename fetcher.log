@@ -12238,3 +12238,51 @@
 [2024-04-25 08:30:50] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.38.tar.gz]
 [2024-04-25 08:30:50] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
 [2024-04-25 08:30:50] INFO root fetch - main [MainThread]: Store serial: [22926069]
+[2024-04-25 08:32:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22926069]
+[2024-04-25 08:33:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-25 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-compute
+[2024-04-25 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: absbox
+[2024-04-25 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bedrock-bot
+[2024-04-25 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lesscode-tag
+[2024-04-25 08:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fse-baro
+[2024-04-25 08:33:00] INFO root fetch - processPackages [fse-baro]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-25 08:33:00] INFO root fetch - processPackages [bedrock-bot]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-25 08:33:00] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/0e/b7/eb2ad8c743ba51e729ff5a3d47695e3bc94578638dad5d5dcf94cfb672bb/fse_baro-0.0.9.tar.gz
+[2024-04-25 08:33:00] INFO root fetch - processPackages [lesscode-tag]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-25 08:33:00] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/3c/45/1a03598a8636d016816d0fd333784afb411ece010d3b190bb95a7b947d78/bedrock_bot-1.2.2.tar.gz
+[2024-04-25 08:33:00] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2024-04-25 08:33:00] INFO root fetch - processPackages [azure-mgmt-compute]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-25 08:33:00] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/2f/f2/96fb6131f422c4cfb38d18e709f1aca24fd7bc86f7d14e85ec42c0e813c2/lesscode_tag-0.0.8.tar.gz
+[2024-04-25 08:33:00] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2024-04-25 08:33:00] INFO root fetch - processPackages [azure-mgmt-compute]: Downloading https://files.pythonhosted.org/packages/7f/13/7dc8e3a4583a997d48f833bd5da516ea85ab6431bf0142a85772ff08f9bf/azure-mgmt-compute-8.0.0.zip
+[2024-04-25 08:33:00] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/23/5c/685bc48baec444bb59ab8bb08d58ce62ecabcda9f2ddb937ef041cca8e58/fse_baro-0.1.0.tar.gz
+[2024-04-25 08:33:00] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/b7/9b/83894adce86e1cc4f6c28f13e4ed2137a3cfb7ea9aa9d1bef97e632d00ed/bedrock_bot-1.2.3.tar.gz
+[2024-04-25 08:33:00] INFO root fetch - processPackages [bedrock-bot]: executing diffoscope
+[2024-04-25 08:33:00] INFO root fetch - processPackages [bedrock-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bedrock_bot-1.2.2.tar.gz tmp/bedrock_bot-1.2.3.tar.gz --markdown 20240425/b/bedrock-bot/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-25 08:33:00] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-25 08:33:00] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.0.9.tar.gz tmp/fse_baro-0.1.0.tar.gz --markdown 20240425/f/fse-baro/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-25 08:33:00] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2024-04-25 08:33:01] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/d0/6b/0cb5b75832f09b9e7b5e54e76ad25f8c11357d15b6b3cc3fb002b77a7b65/lesscode_tag-0.0.9.tar.gz
+[2024-04-25 08:33:01] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2024-04-25 08:33:01] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20240425/a/absbox/0.8.9-0.9.3/README.md --exclude *.pyd
+[2024-04-25 08:33:01] INFO root fetch - processPackages [lesscode-tag]: executing diffoscope
+[2024-04-25 08:33:01] INFO root fetch - processPackages [lesscode-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tag-0.0.8.tar.gz tmp/lesscode_tag-0.0.9.tar.gz --markdown 20240425/l/lesscode-tag/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-25 08:33:01] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.2.2.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.2.3.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - main [MainThread]: End processing [bedrock-bot]: success
+[2024-04-25 08:33:01] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.0.9.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.0.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-25 08:33:01] INFO root fetch - processPackages [lesscode-tag]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tag-0.0.8.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - processPackages [lesscode-tag]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tag-0.0.9.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - main [MainThread]: End processing [lesscode-tag]: success
+[2024-04-25 08:33:01] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2024-04-25 08:33:01] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2024-04-25 08:33:02] INFO root fetch - processPackages [azure-mgmt-compute]: Downloading https://files.pythonhosted.org/packages/a4/a6/6db35285609cc32d3941ceecfe58ab3b4c1db0242c13ff5eea5495cfd291/azure-mgmt-compute-9.0.0.zip
+[2024-04-25 08:33:02] INFO root fetch - processPackages [azure-mgmt-compute]: executing diffoscope
+[2024-04-25 08:33:02] INFO root fetch - processPackages [azure-mgmt-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240425:/home/abi/fetcher/20240425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-compute-8.0.0.zip tmp/azure-mgmt-compute-9.0.0.zip --markdown 20240425/a/azure-mgmt-compute/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-04-25 08:33:12] INFO root fetch - processPackages [azure-mgmt-compute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-compute-8.0.0.zip]
+[2024-04-25 08:33:12] INFO root fetch - processPackages [azure-mgmt-compute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-compute-9.0.0.zip]
+[2024-04-25 08:33:12] INFO root fetch - main [MainThread]: End processing [azure-mgmt-compute]: success
+[2024-04-25 08:33:12] INFO root fetch - main [MainThread]: Store serial: [22926084]
